@@ -285,15 +285,15 @@ name = underlinePosition;
 value = -214;
 },
 {
-name = parametroArea;
+name = paramArea;
 value = "380";
 },
 {
-name = parametroProfundidad;
+name = paramDepth;
 value = "25";
 },
 {
-name = parametroExcedente;
+name = paramOvershoot;
 value = "25";
 }
 );
@@ -360,15 +360,15 @@ name = underlinePosition;
 value = -190;
 },
 {
-name = parametroArea;
+name = paramArea;
 value = "320";
 },
 {
-name = parametroProfundidad;
+name = paramDepth;
 value = "20";
 },
 {
-name = parametroExcedente;
+name = paramOvershoot;
 value = "25";
 }
 );
