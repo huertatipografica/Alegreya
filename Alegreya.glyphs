@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-""
-);
 classes = (
 {
 code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Eogonek Eng Eth Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls Hbar Hcircumflex IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Thorn Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent";
@@ -10917,7 +10914,7 @@ unicode = 0054;
 {
 color = 1;
 glyphname = Tbar;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-14 20:30:57 +0000";
 layers = (
 {
 components = (
@@ -10931,20 +10928,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"220 345 OFFCURVE",
-"138 346 OFFCURVE",
-"138 346 CURVE",
-"131 307 LINE",
-"140 298 LINE",
-"140 298 OFFCURVE",
-"203 299 OFFCURVE",
-"253 299 CURVE SMOOTH",
-"392 300 LINE",
-"396 337 LINE",
-"383 350 LINE",
-"383 350 OFFCURVE",
-"318 345 OFFCURVE",
-"275 345 CURVE SMOOTH"
+"219 346 OFFCURVE",
+"124 347 OFFCURVE",
+"124 347 CURVE",
+"117 306 LINE",
+"126 297 LINE",
+"126 297 OFFCURVE",
+"201 298 OFFCURVE",
+"253 298 CURVE SMOOTH",
+"406 299 LINE",
+"410 337 LINE",
+"397 351 LINE",
+"397 351 OFFCURVE",
+"330 346 OFFCURVE",
+"275 346 CURVE SMOOTH"
 );
 }
 );
@@ -10962,20 +10959,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"243 318 OFFCURVE",
-"117 319 OFFCURVE",
-"117 319 CURVE",
-"109 261 LINE",
-"120 251 LINE",
-"120 251 OFFCURVE",
-"224 252 OFFCURVE",
-"300 252 CURVE SMOOTH",
-"477 252 LINE",
-"482 307 LINE",
-"467 322 LINE",
-"467 322 OFFCURVE",
-"382 318 OFFCURVE",
-"326 318 CURVE SMOOTH"
+"241 308 OFFCURVE",
+"105 309 OFFCURVE",
+"105 309 CURVE",
+"97 251 LINE",
+"108 241 LINE",
+"108 241 OFFCURVE",
+"222 242 OFFCURVE",
+"298 242 CURVE SMOOTH",
+"485 242 LINE",
+"490 297 LINE",
+"475 312 LINE",
+"475 312 OFFCURVE",
+"380 308 OFFCURVE",
+"324 308 CURVE SMOOTH"
 );
 }
 );
@@ -46300,7 +46297,7 @@ rightKerningGroup = T;
 {
 color = 1;
 glyphname = tbar.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-14 20:30:47 +0000";
 layers = (
 {
 components = (
@@ -46345,20 +46342,20 @@ paths = (
 {
 closed = 1;
 nodes = (
-"201 233 OFFCURVE",
-"75 234 OFFCURVE",
-"75 234 CURVE",
-"67 176 LINE",
-"78 166 LINE",
-"78 166 OFFCURVE",
-"182 167 OFFCURVE",
-"258 167 CURVE SMOOTH",
-"435 167 LINE",
-"440 222 LINE",
-"425 237 LINE",
-"425 237 OFFCURVE",
-"340 233 OFFCURVE",
-"284 233 CURVE SMOOTH"
+"200 233 OFFCURVE",
+"74 234 OFFCURVE",
+"74 234 CURVE",
+"66 176 LINE",
+"77 166 LINE",
+"77 166 OFFCURVE",
+"181 167 OFFCURVE",
+"257 167 CURVE SMOOTH",
+"434 167 LINE",
+"439 222 LINE",
+"424 237 LINE",
+"424 237 OFFCURVE",
+"339 233 OFFCURVE",
+"283 233 CURVE SMOOTH"
 );
 }
 );
