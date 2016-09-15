@@ -24,6 +24,125 @@ date = "2016-09-14 14:36:30 +0000";
 designer = "Juan Pablo del Peral";
 designerURL = "http://www.huertatipografica.com";
 familyName = Alegreya;
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature ccmp;\012feature locl;\012feature subs;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature c2sc;\012feature smcp;\012feature case;\012feature salt;\012feature ss01;\012feature ss05;\012feature ss06;\012";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup ccmp_latn_1 {\012	script latn;\012	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [cedillacomb dotbelowcomb ogonekcomb ypogegrammenicomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012} ccmp_latn_1;\012";
+name = ccmp;
+},
+{
+automatic = 1;
+code = "script latn;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub zero by zeroinferior;\012sub one by oneinferior;\012sub two by twoinferior;\012sub three by threeinferior;\012sub four by fourinferior;\012sub five by fiveinferior;\012sub six by sixinferior;\012sub seven by seveninferior;\012sub eight by eightinferior;\012sub nine by nineinferior;\012";
+name = subs;
+},
+{
+automatic = 1;
+code = "sub a by asuperior;\012sub b by bsuperior;\012sub c by csuperior;\012sub d by dsuperior;\012sub e by esuperior;\012sub f by fsuperior;\012sub g by gsuperior;\012sub i by isuperior;\012sub k by ksuperior;\012sub m by msuperior;\012sub o by osuperior;\012sub p by psuperior;\012sub q by qsuperior;\012sub r by rsuperior;\012sub t by tsuperior;\012sub u by usuperior;\012sub v by vsuperior;\012sub z by zsuperior;\012sub zero by zerosuperior;\012sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012sub five by fivesuperior;\012sub six by sixsuperior;\012sub seven by sevensuperior;\012sub eight by eightsuperior;\012sub nine by ninesuperior;\012";
+name = sups;
+},
+{
+automatic = 1;
+code = "sub zero by zero.numr;\012sub one by one.numr;\012sub two by two.numr;\012sub three by three.numr;\012sub four by four.numr;\012sub five by five.numr;\012sub six by six.numr;\012sub seven by seven.numr;\012sub eight by eight.numr;\012sub nine by nine.numr;\012";
+name = numr;
+},
+{
+automatic = 1;
+code = "sub zero by zero.dnom;\012sub one by one.dnom;\012sub two by two.dnom;\012sub three by three.dnom;\012sub four by four.dnom;\012sub five by five.dnom;\012sub six by six.dnom;\012sub seven by seven.dnom;\012sub eight by eight.dnom;\012sub nine by nine.dnom;\012";
+name = dnom;
+},
+{
+automatic = 1;
+code = "lookup FRAC {\012	sub slash by fraction;\012} FRAC;\012lookup UP {\012	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];\012} UP;\012lookup DOWN {\012	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];\012} DOWN;\012";
+name = frac;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012";
+name = lnum;
+},
+{
+automatic = 1;
+code = "sub zero.tf by zero.lf;\012sub one.tf by one.lf;\012sub two.tf by two.lf;\012sub three.tf by three.lf;\012sub four.tf by four.lf;\012sub five.tf by five.lf;\012sub six.tf by six.lf;\012sub seven.tf by seven.lf;\012sub eight.tf by eight.lf;\012sub nine.tf by nine.lf;\012sub zero.tosf by zero;\012sub one.tosf by one;\012sub two.tosf by two;\012sub three.tosf by three;\012sub four.tosf by four;\012sub five.tosf by five;\012sub six.tosf by six;\012sub seven.tosf by seven;\012sub eight.tosf by eight;\012sub nine.tosf by nine;\012";
+name = pnum;
+},
+{
+automatic = 1;
+code = "sub zero.lf by zero.tf;\012sub one.lf by one.tf;\012sub two.lf by two.tf;\012sub three.lf by three.tf;\012sub four.lf by four.tf;\012sub five.lf by five.tf;\012sub six.lf by six.tf;\012sub seven.lf by seven.tf;\012sub eight.lf by eight.tf;\012sub nine.lf by nine.tf;\012sub zero by zero.tosf;\012sub one by one.tosf;\012sub two by two.tosf;\012sub three by three.tosf;\012sub four by four.tosf;\012sub five by five.tosf;\012sub six by six.tosf;\012sub seven by seven.tosf;\012sub eight by eight.tosf;\012sub nine by nine.tosf;\012";
+name = tnum;
+},
+{
+automatic = 1;
+code = "sub zero.lf by zero;\012sub one.lf by one;\012sub two.lf by two;\012sub three.lf by three;\012sub four.lf by four;\012sub five.lf by five;\012sub six.lf by six;\012sub seven.lf by seven;\012sub eight.lf by eight;\012sub nine.lf by nine;\012sub zero.tf by zero.tosf;\012sub one.tf by one.tosf;\012sub two.tf by two.tosf;\012sub three.tf by three.tosf;\012sub four.tf by four.tosf;\012sub five.tf by five.tosf;\012sub six.tf by six.tosf;\012sub seven.tf by seven.tosf;\012sub eight.tf by eight.tosf;\012sub nine.tf by nine.tosf;\012";
+name = onum;
+},
+{
+automatic = 1;
+code = "sub A by a.sc;\012sub Aacute by aacute.sc;\012sub Abreve by abreve.sc;\012sub Abreveacute by abreveacute.sc;\012sub Abrevedotbelow by abrevedotbelow.sc;\012sub Abrevegrave by abrevegrave.sc;\012sub Abrevehookabove by abrevehookabove.sc;\012sub Abrevetilde by abrevetilde.sc;\012sub Acaron by acaron.sc;\012sub Acircumflex by acircumflex.sc;\012sub Acircumflexacute by acircumflexacute.sc;\012sub Acircumflexdotbelow by acircumflexdotbelow.sc;\012sub Acircumflexgrave by acircumflexgrave.sc;\012sub Acircumflexhookabove by acircumflexhookabove.sc;\012sub Acircumflextilde by acircumflextilde.sc;\012sub Adieresis by adieresis.sc;\012sub Adotbelow by adotbelow.sc;\012sub Agrave by agrave.sc;\012sub Ahookabove by ahookabove.sc;\012sub Amacron by amacron.sc;\012sub Aogonek by aogonek.sc;\012sub Aring by aring.sc;\012sub Aringacute by aringacute.sc;\012sub Atilde by atilde.sc;\012sub AE by ae.sc;\012sub AEacute by aeacute.sc;\012sub B by b.sc;\012sub C by c.sc;\012sub Cacute by cacute.sc;\012sub Ccaron by ccaron.sc;\012sub Ccedilla by ccedilla.sc;\012sub Ccircumflex by ccircumflex.sc;\012sub Cdotaccent by cdotaccent.sc;\012sub D by d.sc;\012sub Eth by eth.sc;\012sub Dcaron by dcaron.sc;\012sub Dcroat by dcroat.sc;\012sub E by e.sc;\012sub Eacute by eacute.sc;\012sub Ebreve by ebreve.sc;\012sub Ecaron by ecaron.sc;\012sub Ecircumflex by ecircumflex.sc;\012sub Ecircumflexacute by ecircumflexacute.sc;\012sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub Ecircumflexgrave by ecircumflexgrave.sc;\012sub Ecircumflexhookabove by ecircumflexhookabove.sc;\012sub Ecircumflextilde by ecircumflextilde.sc;\012sub Edieresis by edieresis.sc;\012sub Edotaccent by edotaccent.sc;\012sub Edotbelow by edotbelow.sc;\012sub Egrave by egrave.sc;\012sub Ehookabove by ehookabove.sc;\012sub Emacron by emacron.sc;\012sub Eogonek by eogonek.sc;\012sub Etilde by etilde.sc;\012sub F by f.sc;\012sub G by g.sc;\012sub Gbreve by gbreve.sc;\012sub Gcircumflex by gcircumflex.sc;\012sub Gcommaaccent by gcommaaccent.sc;\012sub Gdotaccent by gdotaccent.sc;\012sub H by h.sc;\012sub Hbar by hbar.sc;\012sub Hcircumflex by hcircumflex.sc;\012sub I by i.sc;\012sub IJ by ij.sc;\012sub Iacute by iacute.sc;\012sub Ibreve by ibreve.sc;\012sub Icaron by icaron.sc;\012sub Icircumflex by icircumflex.sc;\012sub Idieresis by idieresis.sc;\012sub Idotaccent by idotaccent.sc;\012sub Idotbelow by idotbelow.sc;\012sub Igrave by igrave.sc;\012sub Ihookabove by ihookabove.sc;\012sub Imacron by imacron.sc;\012sub Iogonek by iogonek.sc;\012sub Itilde by itilde.sc;\012sub J by j.sc;\012sub Jcircumflex by jcircumflex.sc;\012sub K by k.sc;\012sub Kcommaaccent by kcommaaccent.sc;\012sub L by l.sc;\012sub Lacute by lacute.sc;\012sub Lcaron by lcaron.sc;\012sub Lcommaaccent by lcommaaccent.sc;\012sub Ldot by ldot.sc;\012sub Lslash by lslash.sc;\012sub M by m.sc;\012sub N by n.sc;\012sub Nacute by nacute.sc;\012sub Ncaron by ncaron.sc;\012sub Ncommaaccent by ncommaaccent.sc;\012sub Eng by eng.sc;\012sub Ntilde by ntilde.sc;\012sub O by o.sc;\012sub Oacute by oacute.sc;\012sub Obreve by obreve.sc;\012sub Ocaron by ocaron.sc;\012sub Ocircumflex by ocircumflex.sc;\012sub Ocircumflexacute by ocircumflexacute.sc;\012sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub Ocircumflexgrave by ocircumflexgrave.sc;\012sub Ocircumflexhookabove by ocircumflexhookabove.sc;\012sub Ocircumflextilde by ocircumflextilde.sc;\012sub Odieresis by odieresis.sc;\012sub Odotbelow by odotbelow.sc;\012sub Ograve by ograve.sc;\012sub Ohookabove by ohookabove.sc;\012sub Ohorn by ohorn.sc;\012sub Ohornacute by ohornacute.sc;\012sub Ohorndotbelow by ohorndotbelow.sc;\012sub Ohorngrave by ohorngrave.sc;\012sub Ohornhookabove by ohornhookabove.sc;\012sub Ohorntilde by ohorntilde.sc;\012sub Ohungarumlaut by ohungarumlaut.sc;\012sub Omacron by omacron.sc;\012sub Oogonek by oogonek.sc;\012sub Oslash by oslash.sc;\012sub Oslashacute by oslashacute.sc;\012sub Otilde by otilde.sc;\012sub OE by oe.sc;\012sub P by p.sc;\012sub Thorn by thorn.sc;\012sub Q by q.sc;\012sub R by r.sc;\012sub Racute by racute.sc;\012sub Rcaron by rcaron.sc;\012sub Rcommaaccent by rcommaaccent.sc;\012sub S by s.sc;\012sub Sacute by sacute.sc;\012sub Scaron by scaron.sc;\012sub Scedilla by scedilla.sc;\012sub Scircumflex by scircumflex.sc;\012sub Scommaaccent by scommaaccent.sc;\012sub Germandbls by germandbls.sc;\012sub T by t.sc;\012sub Tbar by tbar.sc;\012sub Tcaron by tcaron.sc;\012sub Tcedilla by tcedilla.sc;\012sub Tcommaaccent by tcommaaccent.sc;\012sub U by u.sc;\012sub Uacute by uacute.sc;\012sub Ubreve by ubreve.sc;\012sub Ucaron by ucaron.sc;\012sub Ucircumflex by ucircumflex.sc;\012sub Udieresis by udieresis.sc;\012sub Udieresisacute by udieresisacute.sc;\012sub Udieresiscaron by udieresiscaron.sc;\012sub Udieresisgrave by udieresisgrave.sc;\012sub Udieresismacron by udieresismacron.sc;\012sub Udotbelow by udotbelow.sc;\012sub Ugrave by ugrave.sc;\012sub Uhookabove by uhookabove.sc;\012sub Uhorn by uhorn.sc;\012sub Uhornacute by uhornacute.sc;\012sub Uhorndotbelow by uhorndotbelow.sc;\012sub Uhorngrave by uhorngrave.sc;\012sub Uhornhookabove by uhornhookabove.sc;\012sub Uhorntilde by uhorntilde.sc;\012sub Uhungarumlaut by uhungarumlaut.sc;\012sub Umacron by umacron.sc;\012sub Uogonek by uogonek.sc;\012sub Uring by uring.sc;\012sub Utilde by utilde.sc;\012sub V by v.sc;\012sub W by w.sc;\012sub Wacute by wacute.sc;\012sub Wcircumflex by wcircumflex.sc;\012sub Wdieresis by wdieresis.sc;\012sub Wgrave by wgrave.sc;\012sub X by x.sc;\012sub Y by y.sc;\012sub Yacute by yacute.sc;\012sub Ycircumflex by ycircumflex.sc;\012sub Ydieresis by ydieresis.sc;\012sub Ydotbelow by ydotbelow.sc;\012sub Ygrave by ygrave.sc;\012sub Yhookabove by yhookabove.sc;\012sub Ytilde by ytilde.sc;\012sub Z by z.sc;\012sub Zacute by zacute.sc;\012sub Zcaron by zcaron.sc;\012sub Zdotaccent by zdotaccent.sc;\012sub Alpha by alpha.sc;\012sub Beta by beta.sc;\012sub Gamma by gamma.sc;\012sub Delta by delta.sc;\012sub Epsilon by epsilon.sc;\012sub Zeta by zeta.sc;\012sub Eta by eta.sc;\012sub Theta by theta.sc;\012sub Iota by iota.sc;\012sub Kappa by kappa.sc;\012sub Lambda by lambda.sc;\012sub Mu by mu.sc;\012sub Nu by nu.sc;\012sub Xi by xi.sc;\012sub Omicron by omicron.sc;\012sub Pi by pi.sc;\012sub Rho by rho.sc;\012sub Sigma by sigma.sc;\012sub Tau by tau.sc;\012sub Upsilon by upsilon.sc;\012sub Phi by phi.sc;\012sub Chi by chi.sc;\012sub Psi by psi.sc;\012sub Omega by omega.sc;\012sub Alphatonos by alphatonos.sc;\012sub Epsilontonos by epsilontonos.sc;\012sub Etatonos by etatonos.sc;\012sub Iotatonos by iotatonos.sc;\012sub Omicrontonos by omicrontonos.sc;\012sub Upsilontonos by upsilontonos.sc;\012sub Omegatonos by omegatonos.sc;\012sub Iotadieresis by iotadieresis.sc;\012sub Upsilondieresis by upsilondieresis.sc;\012sub Alphapsili by alphapsili.sc;\012sub Alphadasia by alphadasia.sc;\012sub Alphapsilivaria by alphapsilivaria.sc;\012sub Alphadasiavaria by alphadasiavaria.sc;\012sub Alphapsilioxia by alphapsilioxia.sc;\012sub Alphadasiaoxia by alphadasiaoxia.sc;\012sub Alphapsiliperispomeni by alphapsiliperispomeni.sc;\012sub Alphadasiaperispomeni by alphadasiaperispomeni.sc;\012sub Alphavaria by alphavaria.sc;\012sub Alphaoxia by alphaoxia.sc;\012sub Alphavrachy by alphavrachy.sc;\012sub Alphamacron by alphamacron.sc;\012sub Alphaprosgegrammeni by alphaypogegrammeni.sc;\012sub Alphapsiliprosgegrammeni by alphapsiliypogegrammeni.sc;\012sub Alphadasiaprosgegrammeni by alphadasiaypogegrammeni.sc;\012sub Alphapsilivariaprosgegrammeni by alphapsilivariaypogegrammeni.sc;\012sub Alphadasiavariaprosgegrammeni by alphadasiavariaypogegrammeni.sc;\012sub Alphapsilioxiaprosgegrammeni by alphapsilioxiaypogegrammeni.sc;\012sub Alphadasiaoxiaprosgegrammeni by alphadasiaoxiaypogegrammeni.sc;\012sub Alphapsiliperispomeniprosgegrammeni by alphapsiliperispomeniypogegrammeni.sc;\012sub Alphadasiaperispomeniprosgegrammeni by alphadasiaperispomeniypogegrammeni.sc;\012sub Epsilonpsili by epsilonpsili.sc;\012sub Epsilondasia by epsilondasia.sc;\012sub Epsilonpsilivaria by epsilonpsilivaria.sc;\012sub Epsilondasiavaria by epsilondasiavaria.sc;\012sub Epsilonpsilioxia by epsilonpsilioxia.sc;\012sub Epsilondasiaoxia by epsilondasiaoxia.sc;\012sub Epsilonvaria by epsilonvaria.sc;\012sub Epsilonoxia by epsilonoxia.sc;\012sub Etapsili by etapsili.sc;\012sub Etadasia by etadasia.sc;\012sub Etapsilivaria by etapsilivaria.sc;\012sub Etadasiavaria by etadasiavaria.sc;\012sub Etapsilioxia by etapsilioxia.sc;\012sub Etadasiaoxia by etadasiaoxia.sc;\012sub Etapsiliperispomeni by etapsiliperispomeni.sc;\012sub Etadasiaperispomeni by etadasiaperispomeni.sc;\012sub Etavaria by etavaria.sc;\012sub Etaoxia by etaoxia.sc;\012sub Etaprosgegrammeni by etaypogegrammeni.sc;\012sub Etapsiliprosgegrammeni by etapsiliypogegrammeni.sc;\012sub Etadasiaprosgegrammeni by etadasiaypogegrammeni.sc;\012sub Etapsilivariaprosgegrammeni by etapsilivariaypogegrammeni.sc;\012sub Etadasiavariaprosgegrammeni by etadasiavariaypogegrammeni.sc;\012sub Etapsilioxiaprosgegrammeni by etapsilioxiaypogegrammeni.sc;\012sub Etadasiaoxiaprosgegrammeni by etadasiaoxiaypogegrammeni.sc;\012sub Etapsiliperispomeniprosgegrammeni by etapsiliperispomeniypogegrammeni.sc;\012sub Etadasiaperispomeniprosgegrammeni by etadasiaperispomeniypogegrammeni.sc;\012sub Iotapsili by iotapsili.sc;\012sub Iotadasia by iotadasia.sc;\012sub Iotapsilivaria by iotapsilivaria.sc;\012sub Iotadasiavaria by iotadasiavaria.sc;\012sub Iotapsilioxia by iotapsilioxia.sc;\012sub Iotadasiaoxia by iotadasiaoxia.sc;\012sub Iotapsiliperispomeni by iotapsiliperispomeni.sc;\012sub Iotadasiaperispomeni by iotadasiaperispomeni.sc;\012sub Iotavaria by iotavaria.sc;\012sub Iotaoxia by iotaoxia.sc;\012sub Iotavrachy by iotavrachy.sc;\012sub Iotamacron by iotamacron.sc;\012sub Omicronpsili by omicronpsili.sc;\012sub Omicrondasia by omicrondasia.sc;\012sub Omicronpsilivaria by omicronpsilivaria.sc;\012sub Omicrondasiavaria by omicrondasiavaria.sc;\012sub Omicronpsilioxia by omicronpsilioxia.sc;\012sub Omicrondasiaoxia by omicrondasiaoxia.sc;\012sub Omicronvaria by omicronvaria.sc;\012sub Omicronoxia by omicronoxia.sc;\012sub Rhodasia by rhodasia.sc;\012sub Upsilondasia by upsilondasia.sc;\012sub Upsilondasiavaria by upsilondasiavaria.sc;\012sub Upsilondasiaoxia by upsilondasiaoxia.sc;\012sub Upsilondasiaperispomeni by upsilondasiaperispomeni.sc;\012sub Upsilonvaria by upsilonvaria.sc;\012sub Upsilonoxia by upsilonoxia.sc;\012sub Upsilonvrachy by upsilonvrachy.sc;\012sub Upsilonmacron by upsilonmacron.sc;\012sub Omegapsili by omegapsili.sc;\012sub Omegadasia by omegadasia.sc;\012sub Omegapsilivaria by omegapsilivaria.sc;\012sub Omegadasiavaria by omegadasiavaria.sc;\012sub Omegapsilioxia by omegapsilioxia.sc;\012sub Omegadasiaoxia by omegadasiaoxia.sc;\012sub Omegapsiliperispomeni by omegapsiliperispomeni.sc;\012sub Omegadasiaperispomeni by omegadasiaperispomeni.sc;\012sub Omegavaria by omegavaria.sc;\012sub Omegaoxia by omegaoxia.sc;\012sub Omegaprosgegrammeni by omegaypogegrammeni.sc;\012sub Omegapsiliprosgegrammeni by omegapsiliypogegrammeni.sc;\012sub Omegadasiaprosgegrammeni by omegadasiaypogegrammeni.sc;\012sub Omegapsilivariaprosgegrammeni by omegapsilivariaypogegrammeni.sc;\012sub Omegadasiavariaprosgegrammeni by omegadasiavariaypogegrammeni.sc;\012sub Omegapsilioxiaprosgegrammeni by omegapsilioxiaypogegrammeni.sc;\012sub Omegadasiaoxiaprosgegrammeni by omegadasiaoxiaypogegrammeni.sc;\012sub Omegapsiliperispomeniprosgegrammeni by omegapsiliperispomeniypogegrammeni.sc;\012sub Omegadasiaperispomeniprosgegrammeni by omegadasiaperispomeniypogegrammeni.sc;\012sub ampersand by ampersand.sc;\012sub gdieresis by gdieresis.sc;\012sub gtilde by gtilde.sc;\012";
+name = c2sc;
+},
+{
+automatic = 1;
+code = "sub a by a.sc;\012sub aacute by aacute.sc;\012sub abreve by abreve.sc;\012sub abreveacute by abreveacute.sc;\012sub abrevedotbelow by abrevedotbelow.sc;\012sub abrevegrave by abrevegrave.sc;\012sub abrevehookabove by abrevehookabove.sc;\012sub abrevetilde by abrevetilde.sc;\012sub acaron by acaron.sc;\012sub acircumflex by acircumflex.sc;\012sub acircumflexacute by acircumflexacute.sc;\012sub acircumflexdotbelow by acircumflexdotbelow.sc;\012sub acircumflexgrave by acircumflexgrave.sc;\012sub acircumflexhookabove by acircumflexhookabove.sc;\012sub acircumflextilde by acircumflextilde.sc;\012sub adieresis by adieresis.sc;\012sub adotbelow by adotbelow.sc;\012sub agrave by agrave.sc;\012sub ahookabove by ahookabove.sc;\012sub amacron by amacron.sc;\012sub aogonek by aogonek.sc;\012sub aring by aring.sc;\012sub aringacute by aringacute.sc;\012sub atilde by atilde.sc;\012sub ae by ae.sc;\012sub aeacute by aeacute.sc;\012sub b by b.sc;\012sub c by c.sc;\012sub cacute by cacute.sc;\012sub ccaron by ccaron.sc;\012sub ccedilla by ccedilla.sc;\012sub ccircumflex by ccircumflex.sc;\012sub cdotaccent by cdotaccent.sc;\012sub d by d.sc;\012sub eth by eth.sc;\012sub dcaron by dcaron.sc;\012sub dcroat by dcroat.sc;\012sub e by e.sc;\012sub eacute by eacute.sc;\012sub ebreve by ebreve.sc;\012sub ecaron by ecaron.sc;\012sub ecircumflex by ecircumflex.sc;\012sub ecircumflexacute by ecircumflexacute.sc;\012sub ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub ecircumflexgrave by ecircumflexgrave.sc;\012sub ecircumflexhookabove by ecircumflexhookabove.sc;\012sub ecircumflextilde by ecircumflextilde.sc;\012sub edieresis by edieresis.sc;\012sub edotaccent by edotaccent.sc;\012sub edotbelow by edotbelow.sc;\012sub egrave by egrave.sc;\012sub ehookabove by ehookabove.sc;\012sub emacron by emacron.sc;\012sub eogonek by eogonek.sc;\012sub etilde by etilde.sc;\012sub f by f.sc;\012sub g by g.sc;\012sub gbreve by gbreve.sc;\012sub gcircumflex by gcircumflex.sc;\012sub gcommaaccent by gcommaaccent.sc;\012sub gdotaccent by gdotaccent.sc;\012sub h by h.sc;\012sub hbar by hbar.sc;\012sub hcircumflex by hcircumflex.sc;\012sub i by i.sc;\012sub idotless by idotless.sc;\012sub iacute by iacute.sc;\012sub ibreve by ibreve.sc;\012sub icaron by icaron.sc;\012sub icircumflex by icircumflex.sc;\012sub idieresis by idieresis.sc;\012sub idotaccent by idotaccent.sc;\012sub idotbelow by idotbelow.sc;\012sub igrave by igrave.sc;\012sub ihookabove by ihookabove.sc;\012sub ij by ij.sc;\012sub imacron by imacron.sc;\012sub iogonek by iogonek.sc;\012sub itilde by itilde.sc;\012sub j by j.sc;\012sub jdotless by jdotless.sc;\012sub jcircumflex by jcircumflex.sc;\012sub k by k.sc;\012sub kcommaaccent by kcommaaccent.sc;\012sub kgreenlandic by kgreenlandic.sc;\012sub l by l.sc;\012sub lacute by lacute.sc;\012sub lcaron by lcaron.sc;\012sub lcommaaccent by lcommaaccent.sc;\012sub ldot by ldot.sc;\012sub lslash by lslash.sc;\012sub m by m.sc;\012sub n by n.sc;\012sub nacute by nacute.sc;\012sub ncaron by ncaron.sc;\012sub ncommaaccent by ncommaaccent.sc;\012sub eng by eng.sc;\012sub ntilde by ntilde.sc;\012sub o by o.sc;\012sub oacute by oacute.sc;\012sub obreve by obreve.sc;\012sub ocaron by ocaron.sc;\012sub ocircumflex by ocircumflex.sc;\012sub ocircumflexacute by ocircumflexacute.sc;\012sub ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub ocircumflexgrave by ocircumflexgrave.sc;\012sub ocircumflexhookabove by ocircumflexhookabove.sc;\012sub ocircumflextilde by ocircumflextilde.sc;\012sub odieresis by odieresis.sc;\012sub odotbelow by odotbelow.sc;\012sub ograve by ograve.sc;\012sub ohookabove by ohookabove.sc;\012sub ohorn by ohorn.sc;\012sub ohornacute by ohornacute.sc;\012sub ohorndotbelow by ohorndotbelow.sc;\012sub ohorngrave by ohorngrave.sc;\012sub ohornhookabove by ohornhookabove.sc;\012sub ohorntilde by ohorntilde.sc;\012sub ohungarumlaut by ohungarumlaut.sc;\012sub omacron by omacron.sc;\012sub oogonek by oogonek.sc;\012sub oslash by oslash.sc;\012sub oslashacute by oslashacute.sc;\012sub otilde by otilde.sc;\012sub oe by oe.sc;\012sub p by p.sc;\012sub thorn by thorn.sc;\012sub q by q.sc;\012sub r by r.sc;\012sub racute by racute.sc;\012sub rcaron by rcaron.sc;\012sub rcommaaccent by rcommaaccent.sc;\012sub s by s.sc;\012sub sacute by sacute.sc;\012sub scaron by scaron.sc;\012sub scedilla by scedilla.sc;\012sub scircumflex by scircumflex.sc;\012sub scommaaccent by scommaaccent.sc;\012sub germandbls by germandbls.sc;\012sub t by t.sc;\012sub tbar by tbar.sc;\012sub tcaron by tcaron.sc;\012sub tcedilla by tcedilla.sc;\012sub tcommaaccent by tcommaaccent.sc;\012sub u by u.sc;\012sub uacute by uacute.sc;\012sub ubreve by ubreve.sc;\012sub ucaron by ucaron.sc;\012sub ucircumflex by ucircumflex.sc;\012sub udieresis by udieresis.sc;\012sub udieresisacute by udieresisacute.sc;\012sub udieresiscaron by udieresiscaron.sc;\012sub udieresisgrave by udieresisgrave.sc;\012sub udieresismacron by udieresismacron.sc;\012sub udotbelow by udotbelow.sc;\012sub ugrave by ugrave.sc;\012sub uhookabove by uhookabove.sc;\012sub uhorn by uhorn.sc;\012sub uhornacute by uhornacute.sc;\012sub uhorndotbelow by uhorndotbelow.sc;\012sub uhorngrave by uhorngrave.sc;\012sub uhornhookabove by uhornhookabove.sc;\012sub uhorntilde by uhorntilde.sc;\012sub uhungarumlaut by uhungarumlaut.sc;\012sub umacron by umacron.sc;\012sub uogonek by uogonek.sc;\012sub uring by uring.sc;\012sub utilde by utilde.sc;\012sub v by v.sc;\012sub w by w.sc;\012sub wacute by wacute.sc;\012sub wcircumflex by wcircumflex.sc;\012sub wdieresis by wdieresis.sc;\012sub wgrave by wgrave.sc;\012sub x by x.sc;\012sub y by y.sc;\012sub yacute by yacute.sc;\012sub ycircumflex by ycircumflex.sc;\012sub ydieresis by ydieresis.sc;\012sub ydotbelow by ydotbelow.sc;\012sub ygrave by ygrave.sc;\012sub yhookabove by yhookabove.sc;\012sub ytilde by ytilde.sc;\012sub z by z.sc;\012sub zacute by zacute.sc;\012sub zcaron by zcaron.sc;\012sub zdotaccent by zdotaccent.sc;\012sub alpha by alpha.sc;\012sub beta by beta.sc;\012sub gamma by gamma.sc;\012sub delta by delta.sc;\012sub epsilon by epsilon.sc;\012sub zeta by zeta.sc;\012sub eta by eta.sc;\012sub theta by theta.sc;\012sub iota by iota.sc;\012sub kappa by kappa.sc;\012sub lambda by lambda.sc;\012sub mu by mu.sc;\012sub nu by nu.sc;\012sub xi by xi.sc;\012sub omicron by omicron.sc;\012sub pi by pi.sc;\012sub rho by rho.sc;\012sub sigmafinal by sigmafinal.sc;\012sub sigma by sigma.sc;\012sub tau by tau.sc;\012sub upsilon by upsilon.sc;\012sub phi by phi.sc;\012sub chi by chi.sc;\012sub psi by psi.sc;\012sub omega by omega.sc;\012sub iotatonos by iotatonos.sc;\012sub iotadieresis by iotadieresis.sc;\012sub iotadieresistonos by iotadieresistonos.sc;\012sub upsilontonos by upsilontonos.sc;\012sub upsilondieresis by upsilondieresis.sc;\012sub upsilondieresistonos by upsilondieresistonos.sc;\012sub omicrontonos by omicrontonos.sc;\012sub omegatonos by omegatonos.sc;\012sub alphatonos by alphatonos.sc;\012sub epsilontonos by epsilontonos.sc;\012sub etatonos by etatonos.sc;\012sub alphapsili by alphapsili.sc;\012sub alphadasia by alphadasia.sc;\012sub alphapsilivaria by alphapsilivaria.sc;\012sub alphadasiavaria by alphadasiavaria.sc;\012sub alphapsilioxia by alphapsilioxia.sc;\012sub alphadasiaoxia by alphadasiaoxia.sc;\012sub alphapsiliperispomeni by alphapsiliperispomeni.sc;\012sub alphadasiaperispomeni by alphadasiaperispomeni.sc;\012sub alphavaria by alphavaria.sc;\012sub alphaoxia by alphaoxia.sc;\012sub alphaperispomeni by alphaperispomeni.sc;\012sub alphavrachy by alphavrachy.sc;\012sub alphamacron by alphamacron.sc;\012sub alphaypogegrammeni by alphaypogegrammeni.sc;\012sub alphavariaypogegrammeni by alphavariaypogegrammeni.sc;\012sub alphaoxiaypogegrammeni by alphaoxiaypogegrammeni.sc;\012sub alphapsiliypogegrammeni by alphapsiliypogegrammeni.sc;\012sub alphadasiaypogegrammeni by alphadasiaypogegrammeni.sc;\012sub alphapsilivariaypogegrammeni by alphapsilivariaypogegrammeni.sc;\012sub alphadasiavariaypogegrammeni by alphadasiavariaypogegrammeni.sc;\012sub alphapsilioxiaypogegrammeni by alphapsilioxiaypogegrammeni.sc;\012sub alphadasiaoxiaypogegrammeni by alphadasiaoxiaypogegrammeni.sc;\012sub alphapsiliperispomeniypogegrammeni by alphapsiliperispomeniypogegrammeni.sc;\012sub alphadasiaperispomeniypogegrammeni by alphadasiaperispomeniypogegrammeni.sc;\012sub alphaperispomeniypogegrammeni by alphaperispomeniypogegrammeni.sc;\012sub epsilonpsili by epsilonpsili.sc;\012sub epsilondasia by epsilondasia.sc;\012sub epsilonpsilivaria by epsilonpsilivaria.sc;\012sub epsilondasiavaria by epsilondasiavaria.sc;\012sub epsilonpsilioxia by epsilonpsilioxia.sc;\012sub epsilondasiaoxia by epsilondasiaoxia.sc;\012sub epsilonvaria by epsilonvaria.sc;\012sub epsilonoxia by epsilonoxia.sc;\012sub etapsili by etapsili.sc;\012sub etadasia by etadasia.sc;\012sub etapsilivaria by etapsilivaria.sc;\012sub etadasiavaria by etadasiavaria.sc;\012sub etapsilioxia by etapsilioxia.sc;\012sub etadasiaoxia by etadasiaoxia.sc;\012sub etapsiliperispomeni by etapsiliperispomeni.sc;\012sub etadasiaperispomeni by etadasiaperispomeni.sc;\012sub etavaria by etavaria.sc;\012sub etaoxia by etaoxia.sc;\012sub etaperispomeni by etaperispomeni.sc;\012sub etaypogegrammeni by etaypogegrammeni.sc;\012sub etavariaypogegrammeni by etavariaypogegrammeni.sc;\012sub etaoxiaypogegrammeni by etaoxiaypogegrammeni.sc;\012sub etapsiliypogegrammeni by etapsiliypogegrammeni.sc;\012sub etadasiaypogegrammeni by etadasiaypogegrammeni.sc;\012sub etapsilivariaypogegrammeni by etapsilivariaypogegrammeni.sc;\012sub etadasiavariaypogegrammeni by etadasiavariaypogegrammeni.sc;\012sub etapsilioxiaypogegrammeni by etapsilioxiaypogegrammeni.sc;\012sub etadasiaoxiaypogegrammeni by etadasiaoxiaypogegrammeni.sc;\012sub etapsiliperispomeniypogegrammeni by etapsiliperispomeniypogegrammeni.sc;\012sub etadasiaperispomeniypogegrammeni by etadasiaperispomeniypogegrammeni.sc;\012sub etaperispomeniypogegrammeni by etaperispomeniypogegrammeni.sc;\012sub iotapsili by iotapsili.sc;\012sub iotadasia by iotadasia.sc;\012sub iotapsilivaria by iotapsilivaria.sc;\012sub iotadasiavaria by iotadasiavaria.sc;\012sub iotapsilioxia by iotapsilioxia.sc;\012sub iotadasiaoxia by iotadasiaoxia.sc;\012sub iotapsiliperispomeni by iotapsiliperispomeni.sc;\012sub iotadasiaperispomeni by iotadasiaperispomeni.sc;\012sub iotavaria by iotavaria.sc;\012sub iotaoxia by iotaoxia.sc;\012sub iotaperispomeni by iotaperispomeni.sc;\012sub iotavrachy by iotavrachy.sc;\012sub iotamacron by iotamacron.sc;\012sub iotadialytikavaria by iotadialytikavaria.sc;\012sub iotadialytikaoxia by iotadialytikaoxia.sc;\012sub iotadialytikaperispomeni by iotadialytikaperispomeni.sc;\012sub omicronpsili by omicronpsili.sc;\012sub omicrondasia by omicrondasia.sc;\012sub omicronpsilivaria by omicronpsilivaria.sc;\012sub omicrondasiavaria by omicrondasiavaria.sc;\012sub omicronpsilioxia by omicronpsilioxia.sc;\012sub omicrondasiaoxia by omicrondasiaoxia.sc;\012sub omicronvaria by omicronvaria.sc;\012sub omicronoxia by omicronoxia.sc;\012sub rhopsili by rhopsili.sc;\012sub rhodasia by rhodasia.sc;\012sub upsilonpsili by upsilonpsili.sc;\012sub upsilondasia by upsilondasia.sc;\012sub upsilonpsilivaria by upsilonpsilivaria.sc;\012sub upsilondasiavaria by upsilondasiavaria.sc;\012sub upsilonpsilioxia by upsilonpsilioxia.sc;\012sub upsilondasiaoxia by upsilondasiaoxia.sc;\012sub upsilonpsiliperispomeni by upsilonpsiliperispomeni.sc;\012sub upsilondasiaperispomeni by upsilondasiaperispomeni.sc;\012sub upsilonvaria by upsilonvaria.sc;\012sub upsilonoxia by upsilonoxia.sc;\012sub upsilonperispomeni by upsilonperispomeni.sc;\012sub upsilonvrachy by upsilonvrachy.sc;\012sub upsilonmacron by upsilonmacron.sc;\012sub upsilondialytikavaria by upsilondialytikavaria.sc;\012sub upsilondialytikaoxia by upsilondialytikaoxia.sc;\012sub upsilondialytikaperispomeni by upsilondialytikaperispomeni.sc;\012sub omegapsili by omegapsili.sc;\012sub omegadasia by omegadasia.sc;\012sub omegapsilivaria by omegapsilivaria.sc;\012sub omegadasiavaria by omegadasiavaria.sc;\012sub omegapsilioxia by omegapsilioxia.sc;\012sub omegadasiaoxia by omegadasiaoxia.sc;\012sub omegapsiliperispomeni by omegapsiliperispomeni.sc;\012sub omegadasiaperispomeni by omegadasiaperispomeni.sc;\012sub omegavaria by omegavaria.sc;\012sub omegaoxia by omegaoxia.sc;\012sub omegaperispomeni by omegaperispomeni.sc;\012sub omegaypogegrammeni by omegaypogegrammeni.sc;\012sub omegavariaypogegrammeni by omegavariaypogegrammeni.sc;\012sub omegaoxiaypogegrammeni by omegaoxiaypogegrammeni.sc;\012sub omegapsiliypogegrammeni by omegapsiliypogegrammeni.sc;\012sub omegadasiaypogegrammeni by omegadasiaypogegrammeni.sc;\012sub omegapsilivariaypogegrammeni by omegapsilivariaypogegrammeni.sc;\012sub omegadasiavariaypogegrammeni by omegadasiavariaypogegrammeni.sc;\012sub omegapsilioxiaypogegrammeni by omegapsilioxiaypogegrammeni.sc;\012sub omegadasiaoxiaypogegrammeni by omegadasiaoxiaypogegrammeni.sc;\012sub omegapsiliperispomeniypogegrammeni by omegapsiliperispomeniypogegrammeni.sc;\012sub omegadasiaperispomeniypogegrammeni by omegadasiaperispomeniypogegrammeni.sc;\012sub omegaperispomeniypogegrammeni by omegaperispomeniypogegrammeni.sc;\012sub ampersand by ampersand.sc;\012sub gdieresis by gdieresis.sc;\012sub gtilde by gtilde.sc;\012";
+name = smcp;
+},
+{
+automatic = 1;
+code = "sub zero by zero.lf;\012sub one by one.lf;\012sub two by two.lf;\012sub three by three.lf;\012sub four by four.lf;\012sub five by five.lf;\012sub six by six.lf;\012sub seven by seven.lf;\012sub eight by eight.lf;\012sub nine by nine.lf;\012sub zero.tf by zero.lf;\012sub one.tf by one.lf;\012sub two.tf by two.lf;\012sub three.tf by three.lf;\012sub four.tf by four.lf;\012sub five.tf by five.lf;\012sub six.tf by six.lf;\012sub seven.tf by seven.lf;\012sub eight.tf by eight.lf;\012sub nine.tf by nine.lf;\012sub zero.tosf by zero.lf;\012sub one.tosf by one.lf;\012sub two.tosf by two.lf;\012sub three.tosf by three.lf;\012sub four.tosf by four.lf;\012sub five.tosf by five.lf;\012sub six.tosf by six.lf;\012sub seven.tosf by seven.lf;\012sub eight.tosf by eight.lf;\012sub nine.tosf by nine.lf;\012";
+name = case;
+},
+{
+automatic = 1;
+code = "sub gamma gamma by gamma_gamma;\012sub lambda lambda by lambda_lambda;\012";
+name = dlig;
+},
+{
+automatic = 1;
+code = "sub f f l by f_f_l;\012sub f f i by f_f_i;\012sub f i by fi;\012sub f f by f_f;\012sub f l by fl;\012";
+name = liga;
+},
+{
+automatic = 1;
+code = "sub C by C.ss01;\012sub D by D.ss01;\012sub I by I.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub V by V.ss01;\012sub X by X.ss01;\012";
+name = salt;
+},
+{
+automatic = 1;
+code = "sub C by C.ss01;\012sub D by D.ss01;\012sub I by I.ss01;\012sub L by L.ss01;\012sub M by M.ss01;\012sub V by V.ss01;\012sub X by X.ss01;\012";
+name = ss01;
+},
+{
+automatic = 1;
+code = "sub Alphaprosgegrammeni by Alphaprosgegrammeni.ss05;\012sub Alphapsiliprosgegrammeni by Alphapsiliprosgegrammeni.ss05;\012sub Alphadasiaprosgegrammeni by Alphadasiaprosgegrammeni.ss05;\012sub Alphapsilivariaprosgegrammeni by Alphapsilivariaprosgegrammeni.ss05;\012sub Alphadasiavariaprosgegrammeni by Alphadasiavariaprosgegrammeni.ss05;\012sub Alphapsilioxiaprosgegrammeni by Alphapsilioxiaprosgegrammeni.ss05;\012sub Alphadasiaoxiaprosgegrammeni by Alphadasiaoxiaprosgegrammeni.ss05;\012sub Alphapsiliperispomeniprosgegrammeni by Alphapsiliperispomeniprosgegrammeni.ss05;\012sub Alphadasiaperispomeniprosgegrammeni by Alphadasiaperispomeniprosgegrammeni.ss05;\012sub Etaprosgegrammeni by Etaprosgegrammeni.ss05;\012sub Etapsiliprosgegrammeni by Etapsiliprosgegrammeni.ss05;\012sub Etadasiaprosgegrammeni by Etadasiaprosgegrammeni.ss05;\012sub Etapsilivariaprosgegrammeni by Etapsilivariaprosgegrammeni.ss05;\012sub Etadasiavariaprosgegrammeni by Etadasiavariaprosgegrammeni.ss05;\012sub Etapsilioxiaprosgegrammeni by Etapsilioxiaprosgegrammeni.ss05;\012sub Etadasiaoxiaprosgegrammeni by Etadasiaoxiaprosgegrammeni.ss05;\012sub Etapsiliperispomeniprosgegrammeni by Etapsiliperispomeniprosgegrammeni.ss05;\012sub Etadasiaperispomeniprosgegrammeni by Etadasiaperispomeniprosgegrammeni.ss05;\012sub Omegaprosgegrammeni by Omegaprosgegrammeni.ss05;\012sub Omegapsiliprosgegrammeni by Omegapsiliprosgegrammeni.ss05;\012sub Omegadasiaprosgegrammeni by Omegadasiaprosgegrammeni.ss05;\012sub Omegapsilivariaprosgegrammeni by Omegapsilivariaprosgegrammeni.ss05;\012sub Omegadasiavariaprosgegrammeni by Omegadasiavariaprosgegrammeni.ss05;\012sub Omegapsilioxiaprosgegrammeni by Omegapsilioxiaprosgegrammeni.ss05;\012sub Omegadasiaoxiaprosgegrammeni by Omegadasiaoxiaprosgegrammeni.ss05;\012sub Omegapsiliperispomeniprosgegrammeni by Omegapsiliperispomeniprosgegrammeni.ss05;\012sub Omegadasiaperispomeniprosgegrammeni by Omegadasiaperispomeniprosgegrammeni.ss05;\012sub iotatonos.sc by iotatonos.sc.ss05;\012sub iotadieresistonos.sc by iotadieresistonos.sc.ss05;\012sub upsilontonos.sc by upsilontonos.sc.ss05;\012sub upsilondieresistonos.sc by upsilondieresistonos.sc.ss05;\012sub omicrontonos.sc by omicrontonos.sc.ss05;\012sub omegatonos.sc by omegatonos.sc.ss05;\012sub alphatonos.sc by alphatonos.sc.ss05;\012sub epsilontonos.sc by epsilontonos.sc.ss05;\012sub etatonos.sc by etatonos.sc.ss05;\012sub alphapsili.sc by alphapsili.sc.ss05;\012sub alphadasia.sc by alphadasia.sc.ss05;\012sub alphapsilivaria.sc by alphapsilivaria.sc.ss05;\012sub alphadasiavaria.sc by alphadasiavaria.sc.ss05;\012sub alphapsilioxia.sc by alphapsilioxia.sc.ss05;\012sub alphadasiaoxia.sc by alphadasiaoxia.sc.ss05;\012sub alphapsiliperispomeni.sc by alphapsiliperispomeni.sc.ss05;\012sub alphadasiaperispomeni.sc by alphadasiaperispomeni.sc.ss05;\012sub alphavaria.sc by alphavaria.sc.ss05;\012sub alphaoxia.sc by alphaoxia.sc.ss05;\012sub alphaperispomeni.sc by alphaperispomeni.sc.ss05;\012sub alphavrachy.sc by alphavrachy.sc.ss05;\012sub alphamacron.sc by alphamacron.sc.ss05;\012sub alphaypogegrammeni.sc by alphaypogegrammeni.sc.ss05;\012sub alphavariaypogegrammeni.sc by alphavariaypogegrammeni.sc.ss05;\012sub alphaoxiaypogegrammeni.sc by alphaoxiaypogegrammeni.sc.ss05;\012sub alphapsiliypogegrammeni.sc by alphapsiliypogegrammeni.sc.ss05;\012sub alphadasiaypogegrammeni.sc by alphadasiaypogegrammeni.sc.ss05;\012sub alphapsilivariaypogegrammeni.sc by alphapsilivariaypogegrammeni.sc.ss05;\012sub alphadasiavariaypogegrammeni.sc by alphadasiavariaypogegrammeni.sc.ss05;\012sub alphapsilioxiaypogegrammeni.sc by alphapsilioxiaypogegrammeni.sc.ss05;\012sub alphadasiaoxiaypogegrammeni.sc by alphadasiaoxiaypogegrammeni.sc.ss05;\012sub alphapsiliperispomeniypogegrammeni.sc by alphapsiliperispomeniypogegrammeni.sc.ss05;\012sub alphadasiaperispomeniypogegrammeni.sc by alphadasiaperispomeniypogegrammeni.sc.ss05;\012sub alphaperispomeniypogegrammeni.sc by alphaperispomeniypogegrammeni.sc.ss05;\012sub epsilonpsili.sc by epsilonpsili.sc.ss05;\012sub epsilondasia.sc by epsilondasia.sc.ss05;\012sub epsilonpsilivaria.sc by epsilonpsilivaria.sc.ss05;\012sub epsilondasiavaria.sc by epsilondasiavaria.sc.ss05;\012sub epsilonpsilioxia.sc by epsilonpsilioxia.sc.ss05;\012sub epsilondasiaoxia.sc by epsilondasiaoxia.sc.ss05;\012sub epsilonvaria.sc by epsilonvaria.sc.ss05;\012sub epsilonoxia.sc by epsilonoxia.sc.ss05;\012sub etapsili.sc by etapsili.sc.ss05;\012sub etadasia.sc by etadasia.sc.ss05;\012sub etapsilivaria.sc by etapsilivaria.sc.ss05;\012sub etadasiavaria.sc by etadasiavaria.sc.ss05;\012sub etapsilioxia.sc by etapsilioxia.sc.ss05;\012sub etadasiaoxia.sc by etadasiaoxia.sc.ss05;\012sub etapsiliperispomeni.sc by etapsiliperispomeni.sc.ss05;\012sub etadasiaperispomeni.sc by etadasiaperispomeni.sc.ss05;\012sub etavaria.sc by etavaria.sc.ss05;\012sub etaoxia.sc by etaoxia.sc.ss05;\012sub etaperispomeni.sc by etaperispomeni.sc.ss05;\012sub etaypogegrammeni.sc by etaypogegrammeni.sc.ss05;\012sub etavariaypogegrammeni.sc by etavariaypogegrammeni.sc.ss05;\012sub etaoxiaypogegrammeni.sc by etaoxiaypogegrammeni.sc.ss05;\012sub etapsiliypogegrammeni.sc by etapsiliypogegrammeni.sc.ss05;\012sub etadasiaypogegrammeni.sc by etadasiaypogegrammeni.sc.ss05;\012sub etapsilivariaypogegrammeni.sc by etapsilivariaypogegrammeni.sc.ss05;\012sub etadasiavariaypogegrammeni.sc by etadasiavariaypogegrammeni.sc.ss05;\012sub etapsilioxiaypogegrammeni.sc by etapsilioxiaypogegrammeni.sc.ss05;\012sub etadasiaoxiaypogegrammeni.sc by etadasiaoxiaypogegrammeni.sc.ss05;\012sub etapsiliperispomeniypogegrammeni.sc by etapsiliperispomeniypogegrammeni.sc.ss05;\012sub etadasiaperispomeniypogegrammeni.sc by etadasiaperispomeniypogegrammeni.sc.ss05;\012sub etaperispomeniypogegrammeni.sc by etaperispomeniypogegrammeni.sc.ss05;\012sub iotapsili.sc by iotapsili.sc.ss05;\012sub iotadasia.sc by iotadasia.sc.ss05;\012sub iotapsilivaria.sc by iotapsilivaria.sc.ss05;\012sub iotadasiavaria.sc by iotadasiavaria.sc.ss05;\012sub iotapsilioxia.sc by iotapsilioxia.sc.ss05;\012sub iotadasiaoxia.sc by iotadasiaoxia.sc.ss05;\012sub iotapsiliperispomeni.sc by iotapsiliperispomeni.sc.ss05;\012sub iotadasiaperispomeni.sc by iotadasiaperispomeni.sc.ss05;\012sub iotavaria.sc by iotavaria.sc.ss05;\012sub iotaoxia.sc by iotaoxia.sc.ss05;\012sub iotaperispomeni.sc by iotaperispomeni.sc.ss05;\012sub iotavrachy.sc by iotavrachy.sc.ss05;\012sub iotamacron.sc by iotamacron.sc.ss05;\012sub iotadialytikavaria.sc by iotadialytikavaria.sc.ss05;\012sub iotadialytikaoxia.sc by iotadialytikaoxia.sc.ss05;\012sub iotadialytikaperispomeni.sc by iotadialytikaperispomeni.sc.ss05;\012sub omicronpsili.sc by omicronpsili.sc.ss05;\012sub omicrondasia.sc by omicrondasia.sc.ss05;\012sub omicronpsilivaria.sc by omicronpsilivaria.sc.ss05;\012sub omicrondasiavaria.sc by omicrondasiavaria.sc.ss05;\012sub omicronpsilioxia.sc by omicronpsilioxia.sc.ss05;\012sub omicrondasiaoxia.sc by omicrondasiaoxia.sc.ss05;\012sub omicronvaria.sc by omicronvaria.sc.ss05;\012sub omicronoxia.sc by omicronoxia.sc.ss05;\012sub rhopsili.sc by rhopsili.sc.ss05;\012sub rhodasia.sc by rhodasia.sc.ss05;\012sub upsilonpsili.sc by upsilonpsili.sc.ss05;\012sub upsilondasia.sc by upsilondasia.sc.ss05;\012sub upsilonpsilivaria.sc by upsilonpsilivaria.sc.ss05;\012sub upsilondasiavaria.sc by upsilondasiavaria.sc.ss05;\012sub upsilonpsilioxia.sc by upsilonpsilioxia.sc.ss05;\012sub upsilondasiaoxia.sc by upsilondasiaoxia.sc.ss05;\012sub upsilonpsiliperispomeni.sc by upsilonpsiliperispomeni.sc.ss05;\012sub upsilondasiaperispomeni.sc by upsilondasiaperispomeni.sc.ss05;\012sub upsilonvaria.sc by upsilonvaria.sc.ss05;\012sub upsilonoxia.sc by upsilonoxia.sc.ss05;\012sub upsilonperispomeni.sc by upsilonperispomeni.sc.ss05;\012sub upsilonvrachy.sc by upsilonvrachy.sc.ss05;\012sub upsilonmacron.sc by upsilonmacron.sc.ss05;\012sub upsilondialytikavaria.sc by upsilondialytikavaria.sc.ss05;\012sub upsilondialytikaoxia.sc by upsilondialytikaoxia.sc.ss05;\012sub upsilondialytikaperispomeni.sc by upsilondialytikaperispomeni.sc.ss05;\012sub omegapsili.sc by omegapsili.sc.ss05;\012sub omegadasia.sc by omegadasia.sc.ss05;\012sub omegapsilivaria.sc by omegapsilivaria.sc.ss05;\012sub omegadasiavaria.sc by omegadasiavaria.sc.ss05;\012sub omegapsilioxia.sc by omegapsilioxia.sc.ss05;\012sub omegadasiaoxia.sc by omegadasiaoxia.sc.ss05;\012sub omegapsiliperispomeni.sc by omegapsiliperispomeni.sc.ss05;\012sub omegadasiaperispomeni.sc by omegadasiaperispomeni.sc.ss05;\012sub omegavaria.sc by omegavaria.sc.ss05;\012sub omegaoxia.sc by omegaoxia.sc.ss05;\012sub omegaperispomeni.sc by omegaperispomeni.sc.ss05;\012sub omegaypogegrammeni.sc by omegaypogegrammeni.sc.ss05;\012sub omegavariaypogegrammeni.sc by omegavariaypogegrammeni.sc.ss05;\012sub omegaoxiaypogegrammeni.sc by omegaoxiaypogegrammeni.sc.ss05;\012sub omegapsiliypogegrammeni.sc by omegapsiliypogegrammeni.sc.ss05;\012sub omegadasiaypogegrammeni.sc by omegadasiaypogegrammeni.sc.ss05;\012sub omegapsilivariaypogegrammeni.sc by omegapsilivariaypogegrammeni.sc.ss05;\012sub omegadasiavariaypogegrammeni.sc by omegadasiavariaypogegrammeni.sc.ss05;\012sub omegapsilioxiaypogegrammeni.sc by omegapsilioxiaypogegrammeni.sc.ss05;\012sub omegadasiaoxiaypogegrammeni.sc by omegadasiaoxiaypogegrammeni.sc.ss05;\012sub omegapsiliperispomeniypogegrammeni.sc by omegapsiliperispomeniypogegrammeni.sc.ss05;\012sub omegadasiaperispomeniypogegrammeni.sc by omegadasiaperispomeniypogegrammeni.sc.ss05;\012sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss05;\012";
+name = ss05;
+},
+{
+automatic = 1;
+code = "sub Alphaprosgegrammeni by Alphaprosgegrammeni.ss06;\012sub Alphapsiliprosgegrammeni by Alphapsiliprosgegrammeni.ss06;\012sub Alphadasiaprosgegrammeni by Alphadasiaprosgegrammeni.ss06;\012sub Alphapsilivariaprosgegrammeni by Alphapsilivariaprosgegrammeni.ss06;\012sub Alphadasiavariaprosgegrammeni by Alphadasiavariaprosgegrammeni.ss06;\012sub Alphapsilioxiaprosgegrammeni by Alphapsilioxiaprosgegrammeni.ss06;\012sub Alphadasiaoxiaprosgegrammeni by Alphadasiaoxiaprosgegrammeni.ss06;\012sub Alphapsiliperispomeniprosgegrammeni by Alphapsiliperispomeniprosgegrammeni.ss06;\012sub Alphadasiaperispomeniprosgegrammeni by Alphadasiaperispomeniprosgegrammeni.ss06;\012sub Etaprosgegrammeni by Etaprosgegrammeni.ss06;\012sub Etapsiliprosgegrammeni by Etapsiliprosgegrammeni.ss06;\012sub Etadasiaprosgegrammeni by Etadasiaprosgegrammeni.ss06;\012sub Etapsilivariaprosgegrammeni by Etapsilivariaprosgegrammeni.ss06;\012sub Etadasiavariaprosgegrammeni by Etadasiavariaprosgegrammeni.ss06;\012sub Etapsilioxiaprosgegrammeni by Etapsilioxiaprosgegrammeni.ss06;\012sub Etadasiaoxiaprosgegrammeni by Etadasiaoxiaprosgegrammeni.ss06;\012sub Etapsiliperispomeniprosgegrammeni by Etapsiliperispomeniprosgegrammeni.ss06;\012sub Etadasiaperispomeniprosgegrammeni by Etadasiaperispomeniprosgegrammeni.ss06;\012sub Omegaprosgegrammeni by Omegaprosgegrammeni.ss06;\012sub Omegapsiliprosgegrammeni by Omegapsiliprosgegrammeni.ss06;\012sub Omegadasiaprosgegrammeni by Omegadasiaprosgegrammeni.ss06;\012sub Omegapsilivariaprosgegrammeni by Omegapsilivariaprosgegrammeni.ss06;\012sub Omegadasiavariaprosgegrammeni by Omegadasiavariaprosgegrammeni.ss06;\012sub Omegapsilioxiaprosgegrammeni by Omegapsilioxiaprosgegrammeni.ss06;\012sub Omegadasiaoxiaprosgegrammeni by Omegadasiaoxiaprosgegrammeni.ss06;\012sub Omegapsiliperispomeniprosgegrammeni by Omegapsiliperispomeniprosgegrammeni.ss06;\012sub Omegadasiaperispomeniprosgegrammeni by Omegadasiaperispomeniprosgegrammeni.ss06;\012";
+name = ss06;
+}
+);
 fontMaster = (
 {
 alignmentZones = (
@@ -14823,7 +14942,7 @@ unicode = 017B;
 {
 color = 1;
 glyphname = C.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -14996,7 +15115,7 @@ width = 512;
 {
 color = 1;
 glyphname = D.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -15283,7 +15402,7 @@ width = 578;
 {
 color = 1;
 glyphname = I.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -15460,7 +15579,7 @@ width = 322;
 {
 color = 1;
 glyphname = L.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -15655,7 +15774,7 @@ width = 482;
 {
 color = 1;
 glyphname = M.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -16024,7 +16143,7 @@ width = 705;
 {
 color = 1;
 glyphname = V.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -16333,7 +16452,7 @@ width = 549;
 {
 color = 1;
 glyphname = X.ss01;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -22048,7 +22167,7 @@ unicode = 00EF;
 {
 color = 1;
 glyphname = idotaccent;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -32045,7 +32164,7 @@ unicode = 017C;
 {
 color = 1;
 glyphname = f.f;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -32209,7 +32328,7 @@ leftKerningGroup = f;
 {
 color = 1;
 glyphname = f.l;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -32371,7 +32490,7 @@ leftKerningGroup = f;
 {
 color = 1;
 glyphname = f.t;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -32522,7 +32641,7 @@ leftKerningGroup = f;
 },
 {
 glyphname = f_f;
-lastChange = "2016-09-14 20:37:51 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -32556,7 +32675,7 @@ rightMetricsKey = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2016-09-14 20:37:51 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -32590,7 +32709,7 @@ rightMetricsKey = i;
 },
 {
 glyphname = f_f_l;
-lastChange = "2016-09-14 20:37:51 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -32989,7 +33108,7 @@ unicode = FB02;
 {
 color = 1;
 glyphname = a.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -33176,7 +33295,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = aacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33215,7 +33334,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = abreve.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33254,7 +33373,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = abreveacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33293,7 +33412,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = abrevedotbelow.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33342,7 +33461,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = abrevegrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33381,7 +33500,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = abrevehookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33420,7 +33539,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = abrevetilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33459,7 +33578,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33498,7 +33617,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33537,7 +33656,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acircumflexacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33576,7 +33695,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acircumflexdotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33625,7 +33744,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acircumflexgrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33664,7 +33783,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acircumflexhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33703,7 +33822,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = acircumflextilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33742,7 +33861,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = adieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33781,7 +33900,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = adotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33820,7 +33939,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = agrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33859,7 +33978,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = ahookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33898,7 +34017,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = amacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33937,7 +34056,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = aogonek.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -33976,7 +34095,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = aring.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34015,7 +34134,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = aringacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34064,7 +34183,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = atilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34103,7 +34222,7 @@ rightKerningGroup = A;
 {
 color = 1;
 glyphname = ae.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -34338,7 +34457,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = aeacute.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34377,7 +34496,7 @@ rightKerningGroup = E;
 {
 color = 1;
 glyphname = b.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -34574,7 +34693,7 @@ rightKerningGroup = B;
 {
 color = 1;
 glyphname = c.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -34699,7 +34818,7 @@ rightKerningGroup = C;
 {
 color = 10;
 glyphname = cacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34738,7 +34857,7 @@ rightKerningGroup = C;
 {
 color = 10;
 glyphname = ccaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34777,7 +34896,7 @@ rightKerningGroup = C;
 {
 color = 10;
 glyphname = ccedilla.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34816,7 +34935,7 @@ rightKerningGroup = C;
 {
 color = 10;
 glyphname = ccircumflex.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34855,7 +34974,7 @@ rightKerningGroup = C;
 {
 color = 10;
 glyphname = cdotaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -34894,7 +35013,7 @@ rightKerningGroup = C;
 {
 color = 1;
 glyphname = d.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -35055,7 +35174,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = eth.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -35202,7 +35321,7 @@ width = 598;
 {
 color = 10;
 glyphname = dcaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35241,7 +35360,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = dcroat.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -35389,7 +35508,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = e.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -35586,7 +35705,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = eacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35625,7 +35744,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ebreve.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35664,7 +35783,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35703,7 +35822,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35742,7 +35861,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecircumflexacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35781,7 +35900,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecircumflexdotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35830,7 +35949,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecircumflexgrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35869,7 +35988,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecircumflexhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35908,7 +36027,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ecircumflextilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35947,7 +36066,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = edieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -35986,7 +36105,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = edotaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36025,7 +36144,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = edotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36064,7 +36183,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = egrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36103,7 +36222,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = ehookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36142,7 +36261,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = emacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36181,7 +36300,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = eogonek.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36220,7 +36339,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = etilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36259,7 +36378,7 @@ rightKerningGroup = E;
 {
 color = 1;
 glyphname = f.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -36432,7 +36551,7 @@ rightKerningGroup = F;
 {
 color = 1;
 glyphname = g.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -36593,7 +36712,7 @@ rightKerningGroup = G;
 {
 color = 10;
 glyphname = gbreve.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36632,7 +36751,7 @@ rightKerningGroup = G;
 {
 color = 10;
 glyphname = gcircumflex.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36671,7 +36790,7 @@ rightKerningGroup = G;
 {
 color = 10;
 glyphname = gcommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36710,7 +36829,7 @@ rightKerningGroup = G;
 {
 color = 10;
 glyphname = gdotaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -36749,7 +36868,7 @@ rightKerningGroup = G;
 {
 color = 1;
 glyphname = h.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -36988,7 +37107,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = hbar.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -37088,7 +37207,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = hcircumflex.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37127,7 +37246,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = i.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -37266,7 +37385,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = idotless.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -37403,7 +37522,7 @@ width = 322;
 {
 color = 10;
 glyphname = iacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37442,7 +37561,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = ibreve.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37481,7 +37600,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = icaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37520,7 +37639,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = icircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37559,7 +37678,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = idieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37598,7 +37717,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = idotaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37637,7 +37756,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = idotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37676,7 +37795,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = igrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37715,7 +37834,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = ihookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37754,7 +37873,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = ij.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37793,7 +37912,7 @@ rightKerningGroup = J;
 {
 color = 10;
 glyphname = imacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37832,7 +37951,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iogonek.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37871,7 +37990,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = itilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -37910,7 +38029,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = j.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -38017,7 +38136,7 @@ rightKerningGroup = J;
 {
 color = 1;
 glyphname = jdotless.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -38122,7 +38241,7 @@ width = 297;
 {
 color = 10;
 glyphname = jcircumflex.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38161,7 +38280,7 @@ rightKerningGroup = J;
 {
 color = 1;
 glyphname = k.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -38368,7 +38487,7 @@ rightKerningGroup = X;
 {
 color = 10;
 glyphname = kcommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38407,7 +38526,7 @@ rightKerningGroup = X;
 {
 color = 1;
 glyphname = kgreenlandic.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -38612,7 +38731,7 @@ width = 596;
 {
 color = 1;
 glyphname = l.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -38751,7 +38870,7 @@ rightKerningGroup = L;
 {
 color = 10;
 glyphname = lacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38790,7 +38909,7 @@ rightKerningGroup = L;
 {
 color = 1;
 glyphname = lcaron.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38853,7 +38972,7 @@ rightKerningGroup = L;
 {
 color = 10;
 glyphname = lcommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38892,7 +39011,7 @@ rightKerningGroup = L;
 {
 color = 10;
 glyphname = ldot.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38931,7 +39050,7 @@ rightKerningGroup = L;
 {
 color = 1;
 glyphname = lslash.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -38996,7 +39115,7 @@ rightKerningGroup = L;
 {
 color = 1;
 glyphname = m.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -39219,7 +39338,7 @@ rightKerningGroup = M;
 {
 color = 1;
 glyphname = n.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -39530,7 +39649,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = nacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -39569,7 +39688,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = ncaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -39608,7 +39727,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = ncommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -39647,7 +39766,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = eng.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -39963,7 +40082,7 @@ leftKerningGroup = H;
 {
 color = 10;
 glyphname = ntilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40002,7 +40121,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = o.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -40111,7 +40230,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40150,7 +40269,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = obreve.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40189,7 +40308,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40228,7 +40347,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40267,7 +40386,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40306,7 +40425,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexdotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40355,7 +40474,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexgrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40394,7 +40513,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40433,7 +40552,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflextilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40472,7 +40591,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = odieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40511,7 +40630,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = odotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40550,7 +40669,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ograve.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40589,7 +40708,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40628,7 +40747,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = ohorn.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -40775,7 +40894,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohornacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40814,7 +40933,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohorndotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40853,7 +40972,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohorngrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40892,7 +41011,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohornhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40931,7 +41050,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohorntilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -40970,7 +41089,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohungarumlaut.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -41009,7 +41128,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -41048,7 +41167,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oogonek.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -41085,7 +41204,7 @@ width = 554;
 {
 color = 1;
 glyphname = oslash.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -41264,7 +41383,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oslashacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -41387,7 +41506,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = otilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -41426,7 +41545,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = oe.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -41617,7 +41736,7 @@ rightKerningGroup = E;
 {
 color = 1;
 glyphname = p.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -41786,7 +41905,7 @@ rightKerningGroup = P;
 {
 color = 1;
 glyphname = thorn.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -41955,7 +42074,7 @@ rightKerningGroup = P;
 {
 color = 1;
 glyphname = q.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -42094,7 +42213,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = r.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -42259,7 +42378,7 @@ rightKerningGroup = R;
 {
 color = 10;
 glyphname = racute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42298,7 +42417,7 @@ rightKerningGroup = R;
 {
 color = 10;
 glyphname = rcaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42337,7 +42456,7 @@ rightKerningGroup = R;
 {
 color = 10;
 glyphname = rcommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42376,7 +42495,7 @@ rightKerningGroup = R;
 {
 color = 1;
 glyphname = s.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -42553,7 +42672,7 @@ rightKerningGroup = S;
 {
 color = 10;
 glyphname = sacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42592,7 +42711,7 @@ rightKerningGroup = S;
 {
 color = 10;
 glyphname = scaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42631,7 +42750,7 @@ rightKerningGroup = S;
 {
 color = 10;
 glyphname = scedilla.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42670,7 +42789,7 @@ rightKerningGroup = S;
 {
 color = 10;
 glyphname = scircumflex.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42709,7 +42828,7 @@ rightKerningGroup = S;
 {
 color = 10;
 glyphname = scommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -42748,7 +42867,7 @@ rightKerningGroup = S;
 {
 color = 1;
 glyphname = germandbls.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -42917,7 +43036,7 @@ rightKerningGroup = uni1E9E;
 {
 color = 1;
 glyphname = t.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -43160,7 +43279,7 @@ rightKerningGroup = T;
 {
 color = 1;
 glyphname = tbar.sc;
-lastChange = "2016-09-14 20:30:47 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43231,7 +43350,7 @@ rightKerningGroup = T;
 {
 color = 10;
 glyphname = tcaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43270,7 +43389,7 @@ rightKerningGroup = T;
 {
 color = 10;
 glyphname = tcedilla.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43309,7 +43428,7 @@ rightKerningGroup = T;
 {
 color = 10;
 glyphname = tcommaaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43348,7 +43467,7 @@ rightKerningGroup = T;
 {
 color = 1;
 glyphname = u.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -43515,7 +43634,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43554,7 +43673,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = ubreve.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43593,7 +43712,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = ucaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43632,7 +43751,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = ucircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43671,7 +43790,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = udieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43710,7 +43829,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = udieresisacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43749,7 +43868,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = udieresiscaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43788,7 +43907,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = udieresisgrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43827,7 +43946,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = udieresismacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43866,7 +43985,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = udotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43905,7 +44024,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = ugrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -43944,7 +44063,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -43995,7 +44114,7 @@ rightKerningGroup = U;
 {
 color = 1;
 glyphname = uhorn.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -44170,7 +44289,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhornacute.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44209,7 +44328,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhorndotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44248,7 +44367,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhorngrave.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44287,7 +44406,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhornhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44326,7 +44445,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhorntilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44365,7 +44484,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhungarumlaut.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44404,7 +44523,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = umacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44443,7 +44562,7 @@ rightKerningGroup = U;
 {
 color = 1;
 glyphname = uogonek.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -44790,7 +44909,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uring.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44829,7 +44948,7 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = utilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -44868,7 +44987,7 @@ rightKerningGroup = U;
 {
 color = 1;
 glyphname = v.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -45007,7 +45126,7 @@ rightKerningGroup = V;
 {
 color = 1;
 glyphname = w.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -45214,7 +45333,7 @@ rightKerningGroup = V;
 {
 color = 10;
 glyphname = wacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -45253,7 +45372,7 @@ rightKerningGroup = V;
 {
 color = 10;
 glyphname = wcircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -45292,7 +45411,7 @@ rightKerningGroup = V;
 {
 color = 10;
 glyphname = wdieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -45331,7 +45450,7 @@ rightKerningGroup = V;
 {
 color = 10;
 glyphname = wgrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -45370,7 +45489,7 @@ rightKerningGroup = V;
 {
 color = 1;
 glyphname = x.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -45768,7 +45887,7 @@ rightKerningGroup = X;
 {
 color = 1;
 glyphname = y.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -45953,7 +46072,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = yacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -45992,7 +46111,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = ycircumflex.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46031,7 +46150,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = ydieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46070,7 +46189,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = ydotbelow.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46109,7 +46228,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = ygrave.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46148,7 +46267,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = yhookabove.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46187,7 +46306,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = ytilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46226,7 +46345,7 @@ rightKerningGroup = Y;
 {
 color = 1;
 glyphname = z.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -46333,7 +46452,7 @@ rightKerningGroup = Z;
 {
 color = 10;
 glyphname = zacute.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46372,7 +46491,7 @@ rightKerningGroup = Z;
 {
 color = 10;
 glyphname = zcaron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46411,7 +46530,7 @@ rightKerningGroup = Z;
 {
 color = 10;
 glyphname = zdotaccent.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -46732,7 +46851,7 @@ unicode = 00BA;
 {
 color = 1;
 glyphname = asuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -46905,7 +47024,7 @@ width = 363;
 {
 color = 1;
 glyphname = bsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -47048,7 +47167,7 @@ width = 380;
 {
 color = 1;
 glyphname = csuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -47161,7 +47280,7 @@ width = 325;
 {
 color = 1;
 glyphname = dsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -47336,7 +47455,7 @@ width = 390;
 {
 color = 1;
 glyphname = esuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -47475,7 +47594,7 @@ width = 353;
 {
 color = 1;
 glyphname = fsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -47630,7 +47749,7 @@ width = 267;
 {
 color = 1;
 glyphname = gsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -48043,7 +48162,7 @@ unicode = 02B0;
 {
 color = 1;
 glyphname = isuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -48330,7 +48449,7 @@ unicode = 02B2;
 {
 color = 1;
 glyphname = ksuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -48665,7 +48784,7 @@ unicode = 02E1;
 {
 color = 1;
 glyphname = msuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -49108,7 +49227,7 @@ unicode = 207F;
 {
 color = 1;
 glyphname = osuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -49215,7 +49334,7 @@ width = 372;
 {
 color = 1;
 glyphname = psuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -49406,7 +49525,7 @@ width = 400;
 {
 color = 1;
 glyphname = qsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -49563,7 +49682,7 @@ width = 378;
 {
 color = 1;
 glyphname = rsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -49850,7 +49969,7 @@ unicode = 02E2;
 {
 color = 1;
 glyphname = tsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -49973,7 +50092,7 @@ width = 251;
 {
 color = 1;
 glyphname = usuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -50142,7 +50261,7 @@ width = 403;
 {
 color = 1;
 glyphname = vsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -51023,7 +51142,7 @@ unicode = 02B8;
 {
 color = 1;
 glyphname = zsuperior;
-lastChange = "2016-09-15 20:40:54 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -61743,7 +61862,7 @@ unicode = 1FAF;
 {
 color = 10;
 glyphname = Alphaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -61780,7 +61899,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = Alphapsiliprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -61821,7 +61940,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -61862,7 +61981,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphapsilivariaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -61903,7 +62022,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiavariaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -61944,7 +62063,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphapsilioxiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -61985,7 +62104,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiaoxiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62026,7 +62145,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphapsiliperispomeniprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62067,7 +62186,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiaperispomeniprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62108,7 +62227,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62145,7 +62264,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = Etapsiliprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62186,7 +62305,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etadasiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62227,7 +62346,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etapsilivariaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62268,7 +62387,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etadasiavariaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62309,7 +62428,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etapsilioxiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62350,7 +62469,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etadasiaoxiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62391,7 +62510,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etapsiliperispomeniprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62432,7 +62551,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Etadasiaperispomeniprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62473,7 +62592,7 @@ rightMetricsKey = "=Etaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62510,7 +62629,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = Omegapsiliprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62551,7 +62670,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62592,7 +62711,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegapsilivariaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62633,7 +62752,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiavariaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62674,7 +62793,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegapsilioxiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62715,7 +62834,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiaoxiaprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62756,7 +62875,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegapsiliperispomeniprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62797,7 +62916,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiaperispomeniprosgegrammeni.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62838,7 +62957,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62875,7 +62994,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = Alphapsiliprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62916,7 +63035,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62957,7 +63076,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphapsilivariaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -62998,7 +63117,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiavariaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63039,7 +63158,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphapsilioxiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63080,7 +63199,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiaoxiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63121,7 +63240,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphapsiliperispomeniprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63162,7 +63281,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiaperispomeniprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63203,7 +63322,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63240,7 +63359,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = Etapsiliprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63281,7 +63400,7 @@ rightMetricsKey = "=Etaprosgegrammeni";
 {
 color = 10;
 glyphname = Etadasiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63322,7 +63441,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etapsilivariaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63363,7 +63482,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etadasiavariaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63404,7 +63523,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etapsilioxiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63445,7 +63564,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etadasiaoxiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63486,7 +63605,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etapsiliperispomeniprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63527,7 +63646,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Etadasiaperispomeniprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63568,7 +63687,7 @@ rightMetricsKey = "=Etapsiliprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63605,7 +63724,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = Omegapsiliprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63646,7 +63765,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63687,7 +63806,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegapsilivariaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63728,7 +63847,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiavariaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63769,7 +63888,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegapsilioxiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63810,7 +63929,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiaoxiaprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63851,7 +63970,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegapsiliperispomeniprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -63892,7 +64011,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiaperispomeniprosgegrammeni.ss06;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -89275,7 +89394,7 @@ unicode = 1FBE;
 {
 color = 1;
 glyphname = gamma_gamma;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -89552,7 +89671,7 @@ rightMetricsKey = gamma;
 {
 color = 1;
 glyphname = lambda_lambda;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -90619,7 +90738,7 @@ rightMetricsKey = lambda;
 {
 color = 10;
 glyphname = alpha.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -90679,7 +90798,7 @@ source = A;
 {
 color = 10;
 glyphname = beta.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -90727,7 +90846,7 @@ source = B;
 {
 color = 1;
 glyphname = gamma.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -90981,7 +91100,7 @@ source = Gamma;
 {
 color = 1;
 glyphname = delta.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -91221,7 +91340,7 @@ source = Delta;
 {
 color = 10;
 glyphname = epsilon.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -91281,7 +91400,7 @@ source = E;
 {
 color = 10;
 glyphname = zeta.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -91329,7 +91448,7 @@ source = Z;
 {
 color = 10;
 glyphname = eta.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -91389,7 +91508,7 @@ source = H;
 {
 color = 1;
 glyphname = theta.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -91635,7 +91754,7 @@ source = Theta;
 {
 color = 10;
 glyphname = iota.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -91695,7 +91814,7 @@ source = I;
 {
 color = 10;
 glyphname = kappa.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -91743,7 +91862,7 @@ source = K;
 {
 color = 1;
 glyphname = lambda.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -91962,7 +92081,7 @@ source = Lambda;
 {
 color = 10;
 glyphname = mu.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -92012,7 +92131,7 @@ source = M;
 {
 color = 10;
 glyphname = nu.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -92076,7 +92195,7 @@ source = N;
 {
 color = 1;
 glyphname = xi.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -92428,7 +92547,7 @@ source = Xi;
 {
 color = 10;
 glyphname = omicron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -92488,7 +92607,7 @@ source = O;
 {
 color = 1;
 glyphname = pi.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -92832,7 +92951,7 @@ source = Pi;
 {
 color = 10;
 glyphname = rho.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -92900,7 +93019,7 @@ source = P;
 {
 color = 10;
 glyphname = sigmafinal.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -92927,7 +93046,7 @@ rightKerningGroup = E;
 {
 color = 1;
 glyphname = sigma.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -93161,7 +93280,7 @@ source = Sigma;
 {
 color = 10;
 glyphname = tau.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -93209,7 +93328,7 @@ source = T;
 {
 color = 1;
 glyphname = upsilon.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -93493,7 +93612,7 @@ source = Upsilon;
 {
 color = 1;
 glyphname = phi.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -93907,7 +94026,7 @@ source = Phi;
 {
 color = 10;
 glyphname = chi.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -93955,7 +94074,7 @@ source = X;
 {
 color = 1;
 glyphname = psi.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 background = {
@@ -94336,7 +94455,7 @@ source = Psi;
 {
 color = 1;
 glyphname = omega.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -94624,7 +94743,7 @@ source = Omega;
 {
 color = 10;
 glyphname = iotatonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94651,7 +94770,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadieresis.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94686,7 +94805,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadieresistonos.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94721,7 +94840,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = upsilontonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94748,7 +94867,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondieresis.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94783,7 +94902,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondieresistonos.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94818,7 +94937,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = omicrontonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94845,7 +94964,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omegatonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94872,7 +94991,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = alphatonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94899,7 +95018,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = epsilontonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94926,7 +95045,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = etatonos.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94953,7 +95072,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = alphapsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -94980,7 +95099,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95007,7 +95126,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95034,7 +95153,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95061,7 +95180,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95088,7 +95207,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95115,7 +95234,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsiliperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95142,7 +95261,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95169,7 +95288,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95196,7 +95315,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95223,7 +95342,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95250,7 +95369,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphavrachy.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95277,7 +95396,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphamacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95304,7 +95423,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -95351,7 +95470,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphavariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95378,7 +95497,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphaoxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95405,7 +95524,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphapsiliypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95432,7 +95551,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphadasiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95459,7 +95578,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphapsilivariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95486,7 +95605,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphadasiavariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95513,7 +95632,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphapsilioxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95540,7 +95659,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphadasiaoxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95567,7 +95686,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphapsiliperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95594,7 +95713,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphadasiaperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95621,7 +95740,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = alphaperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95648,7 +95767,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = epsilonpsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95675,7 +95794,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilondasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95702,7 +95821,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonpsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95729,7 +95848,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilondasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95756,7 +95875,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonpsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95783,7 +95902,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilondasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95810,7 +95929,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonvaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95837,7 +95956,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95864,7 +95983,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = etapsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95891,7 +96010,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95918,7 +96037,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95945,7 +96064,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95972,7 +96091,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -95999,7 +96118,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96026,7 +96145,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsiliperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96053,7 +96172,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96080,7 +96199,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96107,7 +96226,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96134,7 +96253,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96161,7 +96280,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96196,7 +96315,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etavariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96223,7 +96342,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etaoxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96250,7 +96369,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etapsiliypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96277,7 +96396,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etadasiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96304,7 +96423,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etapsilivariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96331,7 +96450,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etadasiavariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96358,7 +96477,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etapsilioxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96385,7 +96504,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etadasiaoxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96412,7 +96531,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etapsiliperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96439,7 +96558,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etadasiaperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96466,7 +96585,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = etaperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96493,7 +96612,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = iotapsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96520,7 +96639,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96547,7 +96666,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96574,7 +96693,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96601,7 +96720,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96628,7 +96747,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96655,7 +96774,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsiliperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96682,7 +96801,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasiaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96709,7 +96828,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96736,7 +96855,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96763,7 +96882,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96790,7 +96909,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotavrachy.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96817,7 +96936,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotamacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96844,7 +96963,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikavaria.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96879,7 +96998,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96906,7 +97025,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaperispomeni.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96941,7 +97060,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = omicronpsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96968,7 +97087,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicrondasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -96995,7 +97114,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronpsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97022,7 +97141,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicrondasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97049,7 +97168,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronpsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97076,7 +97195,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicrondasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97103,7 +97222,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronvaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97130,7 +97249,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97157,7 +97276,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = rhopsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97184,7 +97303,7 @@ rightKerningGroup = P;
 {
 color = 10;
 glyphname = rhodasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97211,7 +97330,7 @@ rightKerningGroup = P;
 {
 color = 10;
 glyphname = upsilonpsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97238,7 +97357,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97265,7 +97384,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonpsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97292,7 +97411,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97319,7 +97438,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonpsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97346,7 +97465,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97373,7 +97492,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonpsiliperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97400,7 +97519,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasiaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97427,7 +97546,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonvaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97454,7 +97573,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97481,7 +97600,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97508,7 +97627,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonvrachy.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97535,7 +97654,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonmacron.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97562,7 +97681,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikavaria.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97597,7 +97716,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97624,7 +97743,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikaperispomeni.sc;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97659,7 +97778,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = omegapsili.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97686,7 +97805,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97713,7 +97832,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsilivaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97740,7 +97859,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97767,7 +97886,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsilioxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97794,7 +97913,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97821,7 +97940,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsiliperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97848,7 +97967,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97875,7 +97994,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegavaria.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97902,7 +98021,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaoxia.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97929,7 +98048,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaperispomeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97956,7 +98075,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -97991,7 +98110,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegavariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98018,7 +98137,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegaoxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98045,7 +98164,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegapsiliypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98072,7 +98191,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegadasiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98099,7 +98218,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegapsilivariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98126,7 +98245,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegadasiavariaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98153,7 +98272,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegapsilioxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98180,7 +98299,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegadasiaoxiaypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98207,7 +98326,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegapsiliperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98234,7 +98353,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegadasiaperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98261,7 +98380,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = omegaperispomeniypogegrammeni.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98288,7 +98407,7 @@ rightKerningGroup = iota;
 {
 color = 10;
 glyphname = iotatonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98323,7 +98442,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadieresistonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98358,7 +98477,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = upsilontonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98393,7 +98512,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondieresistonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98428,7 +98547,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = omicrontonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98463,7 +98582,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omegatonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98498,7 +98617,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = alphatonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98533,7 +98652,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = epsilontonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98568,7 +98687,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = etatonos.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98603,7 +98722,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = alphapsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98638,7 +98757,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98673,7 +98792,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98708,7 +98827,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98743,7 +98862,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98778,7 +98897,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98813,7 +98932,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsiliperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98848,7 +98967,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98883,7 +99002,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98918,7 +99037,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98953,7 +99072,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -98988,7 +99107,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphavrachy.sc.ss05;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99023,7 +99142,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphamacron.sc.ss05;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99058,7 +99177,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 anchors = (
@@ -99105,7 +99224,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphavariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99140,7 +99259,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaoxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99175,7 +99294,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsiliypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99210,7 +99329,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99245,7 +99364,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsilivariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99280,7 +99399,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiavariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99315,7 +99434,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsilioxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99350,7 +99469,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaoxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99385,7 +99504,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphapsiliperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99420,7 +99539,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphadasiaperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99455,7 +99574,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = alphaperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99490,7 +99609,7 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = epsilonpsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99525,7 +99644,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilondasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99560,7 +99679,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonpsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99595,7 +99714,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilondasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99630,7 +99749,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonpsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99665,7 +99784,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilondasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99700,7 +99819,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonvaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99735,7 +99854,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99770,7 +99889,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = etapsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99805,7 +99924,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99840,7 +99959,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99875,7 +99994,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99910,7 +100029,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99945,7 +100064,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -99980,7 +100099,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsiliperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100015,7 +100134,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100050,7 +100169,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100085,7 +100204,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100120,7 +100239,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100155,7 +100274,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100190,7 +100309,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etavariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100225,7 +100344,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaoxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100260,7 +100379,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsiliypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100295,7 +100414,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100330,7 +100449,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsilivariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100365,7 +100484,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiavariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100400,7 +100519,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsilioxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100435,7 +100554,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaoxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100470,7 +100589,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etapsiliperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100505,7 +100624,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etadasiaperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100540,7 +100659,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = etaperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100575,7 +100694,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100610,7 +100729,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100645,7 +100764,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100680,7 +100799,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100715,7 +100834,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100750,7 +100869,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100785,7 +100904,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotapsiliperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100820,7 +100939,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadasiaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100855,7 +100974,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100890,7 +101009,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100925,7 +101044,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100960,7 +101079,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotavrachy.sc.ss05;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -100995,7 +101114,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotamacron.sc.ss05;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101030,7 +101149,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101065,7 +101184,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101100,7 +101219,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101135,7 +101254,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = omicronpsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101170,7 +101289,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicrondasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101205,7 +101324,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronpsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101240,7 +101359,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicrondasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101275,7 +101394,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronpsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101310,7 +101429,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicrondasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101345,7 +101464,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronvaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101380,7 +101499,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101415,7 +101534,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = rhopsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101450,7 +101569,7 @@ rightKerningGroup = P;
 {
 color = 10;
 glyphname = rhodasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101485,7 +101604,7 @@ rightKerningGroup = P;
 {
 color = 10;
 glyphname = upsilonpsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101520,7 +101639,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101555,7 +101674,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonpsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101590,7 +101709,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101625,7 +101744,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonpsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101660,7 +101779,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101695,7 +101814,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonpsiliperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101730,7 +101849,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondasiaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101765,7 +101884,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonvaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101800,7 +101919,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101835,7 +101954,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101870,7 +101989,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonvrachy.sc.ss05;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101905,7 +102024,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilonmacron.sc.ss05;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101940,7 +102059,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -101975,7 +102094,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102010,7 +102129,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102045,7 +102164,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = omegapsili.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102080,7 +102199,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102115,7 +102234,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsilivaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102150,7 +102269,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102185,7 +102304,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsilioxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102220,7 +102339,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102255,7 +102374,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsiliperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102290,7 +102409,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102325,7 +102444,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegavaria.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102360,7 +102479,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaoxia.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102395,7 +102514,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaperispomeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102430,7 +102549,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102465,7 +102584,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegavariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102500,7 +102619,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaoxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102535,7 +102654,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsiliypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102570,7 +102689,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102605,7 +102724,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsilivariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102640,7 +102759,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiavariaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102675,7 +102794,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsilioxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102710,7 +102829,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaoxiaypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102745,7 +102864,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegapsiliperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102780,7 +102899,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegadasiaperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -102815,7 +102934,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaperispomeniypogegrammeni.sc.ss05;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 components = (
@@ -103924,7 +104043,7 @@ unicode = 0039;
 {
 color = 1;
 glyphname = zero.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104011,7 +104130,7 @@ width = 491;
 {
 color = 1;
 glyphname = one.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104120,7 +104239,7 @@ width = 378;
 {
 color = 1;
 glyphname = two.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104221,7 +104340,7 @@ width = 513;
 {
 color = 1;
 glyphname = three.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104340,7 +104459,7 @@ width = 446;
 {
 color = 1;
 glyphname = four.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:36 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104441,7 +104560,7 @@ width = 494;
 {
 color = 1;
 glyphname = five.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104540,7 +104659,7 @@ width = 436;
 {
 color = 1;
 glyphname = six.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104651,7 +104770,7 @@ width = 473;
 {
 color = 1;
 glyphname = seven.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104724,7 +104843,7 @@ width = 433;
 {
 color = 1;
 glyphname = eight.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104869,7 +104988,7 @@ width = 473;
 {
 color = 1;
 glyphname = nine.lf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -104980,7 +105099,7 @@ width = 473;
 {
 color = 1;
 glyphname = zero.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105067,7 +105186,7 @@ width = 450;
 {
 color = 1;
 glyphname = one.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105176,7 +105295,7 @@ width = 450;
 {
 color = 1;
 glyphname = two.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105277,7 +105396,7 @@ width = 450;
 {
 color = 1;
 glyphname = three.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105396,7 +105515,7 @@ width = 450;
 {
 color = 1;
 glyphname = four.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105497,7 +105616,7 @@ width = 450;
 {
 color = 1;
 glyphname = five.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105596,7 +105715,7 @@ width = 450;
 {
 color = 1;
 glyphname = six.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105707,7 +105826,7 @@ width = 450;
 {
 color = 1;
 glyphname = seven.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105780,7 +105899,7 @@ width = 450;
 {
 color = 1;
 glyphname = eight.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -105925,7 +106044,7 @@ width = 450;
 {
 color = 1;
 glyphname = nine.tf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106036,7 +106155,7 @@ width = 450;
 {
 color = 1;
 glyphname = zero.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106123,7 +106242,7 @@ width = 450;
 {
 color = 1;
 glyphname = one.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106232,7 +106351,7 @@ width = 450;
 {
 color = 1;
 glyphname = two.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106333,7 +106452,7 @@ width = 450;
 {
 color = 1;
 glyphname = three.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106452,7 +106571,7 @@ width = 450;
 {
 color = 1;
 glyphname = four.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106553,7 +106672,7 @@ width = 450;
 {
 color = 1;
 glyphname = five.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106652,7 +106771,7 @@ width = 450;
 {
 color = 1;
 glyphname = six.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106763,7 +106882,7 @@ width = 450;
 {
 color = 1;
 glyphname = seven.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106836,7 +106955,7 @@ width = 450;
 {
 color = 1;
 glyphname = eight.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -106981,7 +107100,7 @@ width = 450;
 {
 color = 1;
 glyphname = nine.tosf;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108138,7 +108257,7 @@ unicode = 2089;
 {
 color = 1;
 glyphname = zero.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108225,7 +108344,7 @@ width = 355;
 {
 color = 1;
 glyphname = one.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108334,7 +108453,7 @@ width = 283;
 {
 color = 1;
 glyphname = two.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108435,7 +108554,7 @@ width = 377;
 {
 color = 1;
 glyphname = three.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108550,7 +108669,7 @@ width = 329;
 {
 color = 1;
 glyphname = four.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108635,7 +108754,7 @@ width = 365;
 {
 color = 1;
 glyphname = five.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108734,7 +108853,7 @@ width = 322;
 {
 color = 1;
 glyphname = six.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108845,7 +108964,7 @@ width = 348;
 {
 color = 1;
 glyphname = seven.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -108918,7 +109037,7 @@ width = 320;
 {
 color = 1;
 glyphname = eight.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109063,7 +109182,7 @@ width = 346;
 {
 color = 1;
 glyphname = nine.dnom;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109174,7 +109293,7 @@ width = 348;
 {
 color = 1;
 glyphname = zero.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109261,7 +109380,7 @@ width = 355;
 {
 color = 1;
 glyphname = one.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109370,7 +109489,7 @@ width = 283;
 {
 color = 1;
 glyphname = two.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109471,7 +109590,7 @@ width = 377;
 {
 color = 1;
 glyphname = three.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109586,7 +109705,7 @@ width = 329;
 {
 color = 1;
 glyphname = four.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109671,7 +109790,7 @@ width = 365;
 {
 color = 1;
 glyphname = five.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109770,7 +109889,7 @@ width = 322;
 {
 color = 1;
 glyphname = six.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109881,7 +110000,7 @@ width = 348;
 {
 color = 1;
 glyphname = seven.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109954,7 +110073,7 @@ width = 320;
 {
 color = 1;
 glyphname = eight.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -110099,7 +110218,7 @@ width = 346;
 {
 color = 1;
 glyphname = nine.numr;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -115199,7 +115318,7 @@ unicode = 00A0;
 {
 color = 1;
 glyphname = .notdef;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -123473,7 +123592,7 @@ unicode = 2033;
 {
 color = 1;
 glyphname = ampersand.sc;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -125325,7 +125444,7 @@ unicode = 02DC;
 {
 color = 1;
 glyphname = caron.alt;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125386,7 +125505,7 @@ width = 398;
 {
 color = 1;
 glyphname = acute.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125449,7 +125568,7 @@ width = 398;
 {
 color = 1;
 glyphname = breve.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125522,7 +125641,7 @@ width = 398;
 {
 color = 1;
 glyphname = caron.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125597,7 +125716,7 @@ width = 398;
 {
 color = 1;
 glyphname = circumflex.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125724,7 +125843,7 @@ width = 398;
 {
 color = 1;
 glyphname = dieresis.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125823,7 +125942,7 @@ width = 398;
 {
 color = 1;
 glyphname = dotaccent.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125930,7 +126049,7 @@ width = 398;
 {
 color = 1;
 glyphname = grave.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -125993,7 +126112,7 @@ width = 398;
 {
 color = 1;
 glyphname = hungarumlaut.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -126160,7 +126279,7 @@ width = 398;
 {
 color = 1;
 glyphname = macron.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -126229,7 +126348,7 @@ width = 398;
 {
 color = 1;
 glyphname = ring.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -126404,7 +126523,7 @@ width = 398;
 {
 color = 1;
 glyphname = tilde.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -129393,7 +129512,7 @@ unicode = 1FC0;
 {
 color = 1;
 glyphname = psili.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -129698,7 +129817,7 @@ width = 398;
 {
 color = 1;
 glyphname = dasia.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -129837,7 +129956,7 @@ width = 398;
 {
 color = 1;
 glyphname = psilivaria.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -129932,7 +130051,7 @@ width = 458;
 {
 color = 1;
 glyphname = dasiavaria.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -130086,7 +130205,7 @@ width = 458;
 {
 color = 1;
 glyphname = psilioxia.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -130222,7 +130341,7 @@ width = 458;
 {
 color = 1;
 glyphname = dasiaoxia.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -130335,7 +130454,7 @@ width = 458;
 {
 color = 1;
 glyphname = psiliperispomeni.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -130638,7 +130757,7 @@ width = 458;
 {
 color = 1;
 glyphname = dasiaperispomeni.cap;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -130938,7 +131057,7 @@ width = 458;
 {
 color = 10;
 glyphname = perispomeni.cap;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -130977,7 +131096,7 @@ rightMetricsKey = tilde;
 {
 color = 1;
 glyphname = fj;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -131143,7 +131262,7 @@ leftKerningGroup = f;
 {
 color = 10;
 glyphname = Gdieresis;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 components = (
@@ -131181,7 +131300,7 @@ leftKerningGroup = O;
 {
 color = 10;
 glyphname = Gtilde;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 components = (
@@ -131219,7 +131338,7 @@ leftKerningGroup = O;
 {
 color = 1;
 glyphname = breveacute;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -131318,7 +131437,7 @@ rightKerningGroup = asterisk;
 {
 color = 1;
 glyphname = brevegrave;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -131473,7 +131592,7 @@ rightKerningGroup = asterisk;
 {
 color = 1;
 glyphname = brevehookabove;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -131662,7 +131781,7 @@ width = 398;
 {
 color = 1;
 glyphname = circle1;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -131715,7 +131834,7 @@ width = 472;
 {
 color = 1;
 glyphname = circle2;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -131768,7 +131887,7 @@ width = 647;
 {
 color = 1;
 glyphname = circumflexacute;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -131899,7 +132018,7 @@ width = 398;
 {
 color = 1;
 glyphname = circumflexgrave;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -132030,7 +132149,7 @@ width = 398;
 {
 color = 1;
 glyphname = circumflexhookabove;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -132221,7 +132340,7 @@ width = 398;
 {
 color = 1;
 glyphname = dieresisacute;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -132460,7 +132579,7 @@ width = 398;
 {
 color = 1;
 glyphname = dieresiscaron;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -132603,7 +132722,7 @@ width = 398;
 {
 color = 1;
 glyphname = dieresisgrave;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -132938,7 +133057,7 @@ width = 398;
 {
 color = 1;
 glyphname = dieresismacron;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -133075,7 +133194,7 @@ width = 398;
 {
 color = 1;
 glyphname = foundryicon;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -133264,7 +133383,7 @@ width = 783;
 {
 color = 10;
 glyphname = gdieresis;
-lastChange = "2016-09-14 20:43:38 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 components = (
@@ -133301,7 +133420,7 @@ width = 522;
 {
 color = 10;
 glyphname = gtilde;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 components = (
@@ -133338,7 +133457,7 @@ width = 522;
 {
 color = 1;
 glyphname = hookabove;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -133527,7 +133646,7 @@ width = 398;
 {
 color = 1;
 glyphname = square1;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -133564,7 +133683,7 @@ width = 472;
 {
 color = 1;
 glyphname = square2;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -133601,7 +133720,7 @@ width = 647;
 {
 color = 10;
 glyphname = gdieresis.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 components = (
@@ -133639,7 +133758,7 @@ leftKerningGroup = O;
 {
 color = 10;
 glyphname = gtilde.sc;
-lastChange = "2016-09-14 20:37:13 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 components = (
@@ -133678,7 +133797,7 @@ leftKerningGroup = O;
 color = 1;
 export = 0;
 glyphname = spacingGlyph;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -133715,7 +133834,7 @@ width = 415;
 {
 color = 1;
 glyphname = brevetilde;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
@@ -133946,7 +134065,7 @@ width = 398;
 {
 color = 1;
 glyphname = circumflextilde;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-15 21:35:37 +0000";
 layers = (
 {
 anchors = (
