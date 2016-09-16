@@ -1,5 +1,10 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+"/Adblgrave/Ainvertedbreve/DZcaron/Dzcaron/Edblgrave/Einvertedbreve/Gcaron/dblgravecomb A/Adblgrave/Edblgrave/Idblgrave/Odblgrave/Rdblgrave/Udblgrave/adblgrave/edblgrave/idblgrave/odblgrave/rdblgrave/udblgrave/Idblgrave/Iinvertedbreve",
+"A\U00C1/Abreve/Abreveacute/Abrevedotbelow/Abrevegrave/Abrevehookabove/Abrevetilde/Acaron \U00C2/Acircumflexacute/Acircumflexdotbelow/Acircumflexgrave/Acircumflexhookabove/Acircumflextilde/Adblgrave \U00C4/Adotbelow \U00C0/Ahookabove/breveinvertedcomb/Ainvertedbreve/Amacron/Aogonek \U00C5/Aringacute \U00C3/Alpha",
+"/breveinvertedcomb/Ainvertedbreve/Einvertedbreve/Iinvertedbreve O/Oinvertedbreve R/Rinvertedbreve/Uinvertedbreve/ainvertedbreve/einvertedbreve/idotless/iinvertedbreve/oinvertedbreve r/racute/rcaron/rcommaaccent/rdblgrave/rinvertedbreve/rinvertedbreve/uinvertedbreve"
+);
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
 {
@@ -299,21 +304,21 @@ glyphs = (
 {
 color = 1;
 glyphname = A;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-16 14:40:11 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{311, 0}";
+position = "{292, 0}";
 },
 {
 name = ogonek;
-position = "{614, 40}";
+position = "{526, 10}";
 },
 {
 name = top;
-position = "{344, 647}";
+position = "{292, 637}";
 }
 );
 layerId = UUID0;
@@ -394,15 +399,15 @@ width = 584;
 anchors = (
 {
 name = bottom;
-position = "{308, 0}";
+position = "{338, 0}";
 },
 {
 name = ogonek;
-position = "{611, 40}";
+position = "{608, 10}";
 },
 {
 name = top;
-position = "{341, 647}";
+position = "{338, 647}";
 }
 );
 layerId = UUID1;
@@ -1166,7 +1171,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
-lastChange = "2016-09-16 14:33:35 +0000";
+lastChange = "2016-09-16 14:40:11 +0000";
 layers = (
 {
 components = (
@@ -1176,7 +1181,7 @@ name = A;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 161, 195}";
+transform = "{1, 0, 0, 1, 109, 185}";
 }
 );
 layerId = UUID0;
@@ -1190,7 +1195,7 @@ name = A;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 141, 175}";
+transform = "{1, 0, 0, 1, 138, 175}";
 }
 );
 layerId = UUID1;
@@ -1411,7 +1416,7 @@ unicode = 1EA2;
 },
 {
 glyphname = Ainvertedbreve;
-lastChange = "2016-09-16 14:33:35 +0000";
+lastChange = "2016-09-16 14:40:11 +0000";
 layers = (
 {
 components = (
@@ -1421,7 +1426,7 @@ name = A;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 166, 195}";
+transform = "{1, 0, 0, 1, 114, 185}";
 }
 );
 layerId = UUID0;
@@ -1435,7 +1440,7 @@ name = A;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 130, 175}";
+transform = "{1, 0, 0, 1, 127, 175}";
 }
 );
 layerId = UUID1;
@@ -7908,17 +7913,33 @@ unicode = 00D1;
 {
 color = 1;
 glyphname = O;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-16 14:41:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{315, 0}";
+position = "{346, 0}";
+},
+{
+name = center;
+position = "{346, 319}";
+},
+{
+name = ogonek;
+position = "{623, 10}";
 },
 {
 name = top;
-position = "{324, 647}";
+position = "{346, 637}";
+},
+{
+name = topleft;
+position = "{20, 637}";
+},
+{
+name = topright;
+position = "{672, 637}";
 }
 );
 layerId = UUID0;
@@ -7964,11 +7985,27 @@ width = 692;
 anchors = (
 {
 name = bottom;
-position = "{315, 0}";
+position = "{328, 0}";
+},
+{
+name = center;
+position = "{328, 324}";
+},
+{
+name = ogonek;
+position = "{589, 10}";
 },
 {
 name = top;
-position = "{324, 647}";
+position = "{328, 647}";
+},
+{
+name = topleft;
+position = "{20, 647}";
+},
+{
+name = topright;
+position = "{635, 647}";
 }
 );
 layerId = UUID1;
@@ -9182,7 +9219,7 @@ unicode = 0150;
 },
 {
 glyphname = Oinvertedbreve;
-lastChange = "2016-09-16 14:33:35 +0000";
+lastChange = "2016-09-16 14:41:23 +0000";
 layers = (
 {
 components = (
@@ -9192,7 +9229,7 @@ name = O;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 146, 195}";
+transform = "{1, 0, 0, 1, 168, 185}";
 }
 );
 layerId = UUID0;
@@ -9206,7 +9243,7 @@ name = O;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 113, 175}";
+transform = "{1, 0, 0, 1, 117, 175}";
 }
 );
 layerId = UUID1;
@@ -10357,9 +10394,19 @@ unicode = 0051;
 {
 color = 1;
 glyphname = R;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-16 14:41:31 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+position = "{306, 0}";
+},
+{
+name = top;
+position = "{306, 637}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -10438,6 +10485,16 @@ nodes = (
 width = 611;
 },
 {
+anchors = (
+{
+name = bottom;
+position = "{339, 0}";
+},
+{
+name = top;
+position = "{339, 647}";
+}
+);
 layerId = UUID1;
 paths = (
 {
@@ -10677,7 +10734,7 @@ unicode = 0210;
 },
 {
 glyphname = Rinvertedbreve;
-lastChange = "2016-09-16 14:33:35 +0000";
+lastChange = "2016-09-16 14:41:31 +0000";
 layers = (
 {
 components = (
@@ -10687,11 +10744,11 @@ name = R;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 611, 0}";
+transform = "{1, 0, 0, 1, 128, 185}";
 }
 );
 layerId = UUID0;
-width = 967;
+width = 611;
 },
 {
 components = (
@@ -10701,11 +10758,11 @@ name = R;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 678, 0}";
+transform = "{1, 0, 0, 1, 128, 175}";
 }
 );
 layerId = UUID1;
-width = 1100;
+width = 678;
 }
 );
 unicode = 0212;
@@ -26328,7 +26385,7 @@ unicode = 022B;
 },
 {
 glyphname = odotaccentmacron;
-lastChange = "2016-09-16 14:34:42 +0000";
+lastChange = "2016-09-16 14:38:09 +0000";
 layers = (
 {
 components = (
@@ -26336,12 +26393,10 @@ components = (
 name = o;
 },
 {
-alignment = 1;
 name = dotaccentcomb;
 transform = "{1, 0, 0, 1, 52, -20}";
 },
 {
-alignment = 1;
 name = macroncomb;
 transform = "{1, 0, 0, 1, 50, -20}";
 }
@@ -28169,17 +28224,17 @@ unicode = 0071;
 {
 color = 1;
 glyphname = r;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-16 14:42:25 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{149, 0}";
+position = "{192, 0}";
 },
 {
 name = top;
-position = "{152, 472}";
+position = "{222, 452}";
 }
 );
 layerId = UUID0;
@@ -28251,11 +28306,11 @@ width = 383;
 anchors = (
 {
 name = bottom;
-position = "{149, 0}";
+position = "{213, 0}";
 },
 {
 name = top;
-position = "{152, 472}";
+position = "{243, 472}";
 }
 );
 layerId = UUID1;
@@ -28450,7 +28505,7 @@ unicode = 0157;
 },
 {
 glyphname = rdblgrave;
-lastChange = "2016-09-16 14:33:36 +0000";
+lastChange = "2016-09-16 14:42:20 +0000";
 layers = (
 {
 components = (
@@ -28460,7 +28515,7 @@ name = r;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, -31, 20}";
+transform = "{1, 0, 0, 1, 39, 0}";
 }
 );
 layerId = UUID0;
@@ -28474,7 +28529,7 @@ name = r;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, -48, 0}";
+transform = "{1, 0, 0, 1, 43, 0}";
 }
 );
 layerId = UUID1;
@@ -28485,7 +28540,7 @@ unicode = 0211;
 },
 {
 glyphname = rinvertedbreve;
-lastChange = "2016-09-16 14:33:36 +0000";
+lastChange = "2016-09-16 14:42:20 +0000";
 layers = (
 {
 components = (
@@ -28495,7 +28550,7 @@ name = r;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, -26, 20}";
+transform = "{1, 0, 0, 1, 44, 0}";
 }
 );
 layerId = UUID0;
@@ -28509,7 +28564,7 @@ name = r;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, -59, 0}";
+transform = "{1, 0, 0, 1, 32, 0}";
 }
 );
 layerId = UUID1;
@@ -127781,7 +127836,7 @@ unicode = 030F;
 {
 color = 1;
 glyphname = breveinvertedcomb;
-lastChange = "2016-09-16 14:33:00 +0000";
+lastChange = "2016-09-16 14:41:17 +0000";
 layers = (
 {
 anchors = (
@@ -127791,7 +127846,7 @@ position = "{178, 452}";
 },
 {
 name = top;
-position = "{178, 692}";
+position = "{178, 662}";
 }
 );
 layerId = UUID0;
@@ -127799,22 +127854,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"220 634 OFFCURVE",
-"257 612 OFFCURVE",
-"274 568 CURVE",
-"282 568 LINE",
-"298 578 LINE",
-"284 635 OFFCURVE",
-"247 692 OFFCURVE",
-"178 692 CURVE SMOOTH",
-"109 692 OFFCURVE",
-"72 635 OFFCURVE",
-"58 578 CURVE",
-"74 568 LINE",
-"82 568 LINE",
-"99 612 OFFCURVE",
-"136 634 OFFCURVE",
-"178 634 CURVE SMOOTH"
+"220 604 OFFCURVE",
+"257 582 OFFCURVE",
+"274 538 CURVE",
+"282 538 LINE",
+"298 548 LINE",
+"284 605 OFFCURVE",
+"247 662 OFFCURVE",
+"178 662 CURVE SMOOTH",
+"109 662 OFFCURVE",
+"72 605 OFFCURVE",
+"58 548 CURVE",
+"74 538 LINE",
+"82 538 LINE",
+"99 582 OFFCURVE",
+"136 604 OFFCURVE",
+"178 604 CURVE SMOOTH"
 );
 }
 );
@@ -127828,7 +127883,7 @@ position = "{211, 472}";
 },
 {
 name = top;
-position = "{211, 750}";
+position = "{211, 720}";
 }
 );
 layerId = UUID1;
@@ -127836,22 +127891,22 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 615 OFFCURVE",
-"302 592 OFFCURVE",
-"322 545 CURVE",
-"349 552 LINE",
-"389 614 LINE",
-"368 682 OFFCURVE",
-"313 750 OFFCURVE",
-"211 750 CURVE SMOOTH",
-"109 750 OFFCURVE",
-"54 682 OFFCURVE",
-"33 614 CURVE",
-"73 552 LINE",
-"100 545 LINE",
-"120 592 OFFCURVE",
-"162 615 OFFCURVE",
-"211 615 CURVE SMOOTH"
+"260 585 OFFCURVE",
+"302 562 OFFCURVE",
+"322 515 CURVE",
+"349 522 LINE",
+"389 584 LINE",
+"368 652 OFFCURVE",
+"313 720 OFFCURVE",
+"211 720 CURVE SMOOTH",
+"109 720 OFFCURVE",
+"54 652 OFFCURVE",
+"33 584 CURVE",
+"73 522 LINE",
+"100 515 LINE",
+"120 562 OFFCURVE",
+"162 585 OFFCURVE",
+"211 585 CURVE SMOOTH"
 );
 }
 );
