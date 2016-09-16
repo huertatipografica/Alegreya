@@ -1,7 +1,8 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/euro/lira \U00A3"
+"/euro/lira \U00A3",
+"/cedi \U00A2/colonsign \U00A4$/dong/euro/florin/franc/guarani/kip/lira/liraTurkish/manat/naira/peseta/peso/ruble/rupeeIndian \U00A3/won \U00A5"
 );
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
@@ -119041,9 +119042,16 @@ unicode = 20AD;
 },
 {
 glyphname = lira;
-lastChange = "2016-09-16 20:53:39 +0000";
+lastChange = "2016-09-16 21:46:50 +0000";
 layers = (
 {
+background = {
+components = (
+{
+name = sterling;
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
@@ -119094,6 +119102,30 @@ nodes = (
 "223 33 OFFCURVE",
 "324 -12 OFFCURVE",
 "395 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"369 260 LINE",
+"207 256 LINE",
+"68 256 LINE",
+"63 227 LINE",
+"68 220 LINE",
+"368 221 LINE",
+"374 251 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"385 375 LINE",
+"207 371 LINE",
+"68 371 LINE",
+"63 342 LINE",
+"68 335 LINE",
+"384 336 LINE",
+"390 366 LINE"
 );
 }
 );
@@ -119220,6 +119252,30 @@ nodes = (
 "255 42 OFFCURVE",
 "326 -12 OFFCURVE",
 "389 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"381 284 LINE",
+"275 280 LINE",
+"30 280 LINE",
+"21 213 LINE",
+"29 207 LINE",
+"373 208 LINE",
+"388 276 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"399 397 LINE",
+"275 393 LINE",
+"30 393 LINE",
+"21 326 LINE",
+"29 320 LINE",
+"391 321 LINE",
+"406 389 LINE"
 );
 }
 );
