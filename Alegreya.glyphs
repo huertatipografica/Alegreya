@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dieresisbelowcomb/brevebelowcomb/macronbelowcomb/apostrophemod/firsttonechinese
+/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dieresiscomb/dieresisbelowcomb/brevebelowcomb/macronbelowcomb/apostrophemod/firsttonechinese
 );
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
@@ -126602,15 +126602,47 @@ unicode = 0323;
 },
 {
 glyphname = dieresisbelowcomb;
-lastChange = "2016-09-15 22:03:25 +0000";
+lastChange = "2016-09-16 14:14:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = _bottom;
+position = "{199, 0}";
+},
+{
+name = bottom;
+position = "{199, -248}";
+}
+);
+components = (
+{
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 0, -814}";
+}
+);
 layerId = UUID0;
 width = 600;
 },
 {
+anchors = (
+{
+name = _bottom;
+position = "{199, 0}";
+},
+{
+name = bottom;
+position = "{199, -255}";
+}
+);
+components = (
+{
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 0, -814}";
+}
+);
 layerId = UUID1;
-width = 600;
+width = 398;
 }
 );
 unicode = 0324;
@@ -126997,17 +127029,33 @@ unicode = 0328;
 },
 {
 glyphname = brevebelowcomb;
-lastChange = "2016-09-15 22:03:25 +0000";
+lastChange = "2016-09-16 13:26:07 +0000";
 layers = (
 {
-layerId = UUID0;
-width = 600;
-},
+components = (
 {
-layerId = UUID1;
-width = 600;
+alignment = -1;
+name = brevecomb;
+transform = "{1, 0, 0, 1, 0, -807}";
 }
 );
+layerId = UUID0;
+width = 398;
+},
+{
+components = (
+{
+alignment = -1;
+name = brevecomb;
+transform = "{1, 0, 0, 1, 0, -802}";
+}
+);
+layerId = UUID1;
+width = 398;
+}
+);
+leftMetricsKey = "=brevecomb";
+rightMetricsKey = "=brevecomb";
 unicode = 032E;
 },
 {
@@ -128166,15 +128214,27 @@ width = 398;
 },
 {
 glyphname = apostrophemod;
-lastChange = "2016-09-15 22:03:25 +0000";
+lastChange = "2016-09-16 13:03:56 +0000";
 layers = (
 {
+components = (
+{
+alignment = 1;
+name = quoteright;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 176;
 },
 {
+components = (
+{
+alignment = 1;
+name = quoteright;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 263;
 }
 );
 unicode = 02BC;
