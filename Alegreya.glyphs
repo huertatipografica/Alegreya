@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dieresisbelowcomb/brevebelowcomb/macronbelowcomb/apostrophemod/firsttonechinese
+);
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
 {
@@ -127009,17 +127012,53 @@ unicode = 032E;
 },
 {
 glyphname = macronbelowcomb;
-lastChange = "2016-09-15 22:03:25 +0000";
+lastChange = "2016-09-16 12:59:30 +0000";
 layers = (
 {
-layerId = UUID0;
-width = 600;
+anchors = (
+{
+name = _bottom;
+position = "{200, 0}";
 },
 {
-layerId = UUID1;
-width = 600;
+name = bottom;
+position = "{200, -233}";
 }
 );
+components = (
+{
+alignment = -1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 0, -827}";
+}
+);
+layerId = UUID0;
+width = 398;
+},
+{
+anchors = (
+{
+name = _bottom;
+position = "{204, 0}";
+},
+{
+name = bottom;
+position = "{204, -236}";
+}
+);
+components = (
+{
+alignment = -1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 0, -800}";
+}
+);
+layerId = UUID1;
+width = 398;
+}
+);
+leftMetricsKey = "=macroncomb";
+rightMetricsKey = "=macroncomb";
 unicode = 0331;
 },
 {
@@ -128142,15 +128181,27 @@ unicode = 02BC;
 },
 {
 glyphname = firsttonechinese;
-lastChange = "2016-09-15 22:03:25 +0000";
+lastChange = "2016-09-16 13:00:27 +0000";
 layers = (
 {
+components = (
+{
+alignment = 1;
+name = macroncomb;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 398;
 },
 {
+components = (
+{
+alignment = 1;
+name = macroncomb;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 398;
 }
 );
 unicode = 02C9;
