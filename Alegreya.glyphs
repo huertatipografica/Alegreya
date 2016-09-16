@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+/Odieresismacron/Odotaccentmacron/Otildemacron/dieresiscomb_macroncomb/odieresismacron/dotaccentcomb_macroncomb/tildecomb_macroncomb/odotaccentmacron/otildemacron
+);
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
 {
@@ -8536,7 +8539,7 @@ unicode = 00D6;
 },
 {
 glyphname = Odieresismacron;
-lastChange = "2016-09-16 17:51:49 +0000";
+lastChange = "2016-09-16 19:42:13 +0000";
 layers = (
 {
 components = (
@@ -8544,12 +8547,10 @@ components = (
 name = O;
 },
 {
-alignment = 1;
 name = dieresiscomb.cap;
 transform = "{1, 0, 0, 1, 148, -10}";
 },
 {
-alignment = 1;
 name = macroncomb.cap;
 transform = "{1, 0, 0, 1, 147, -10}";
 }
@@ -8581,7 +8582,7 @@ unicode = 022A;
 },
 {
 glyphname = Odotaccentmacron;
-lastChange = "2016-09-16 17:51:49 +0000";
+lastChange = "2016-09-16 19:42:13 +0000";
 layers = (
 {
 components = (
@@ -8589,12 +8590,10 @@ components = (
 name = O;
 },
 {
-alignment = 1;
 name = dotaccentcomb.cap;
 transform = "{1, 0, 0, 1, 150, -10}";
 },
 {
-alignment = 1;
 name = macroncomb.cap;
 transform = "{1, 0, 0, 1, 147, -10}";
 }
@@ -27191,7 +27190,7 @@ unicode = 022B;
 },
 {
 glyphname = odotaccentmacron;
-lastChange = "2016-09-16 19:39:43 +0000";
+lastChange = "2016-09-16 19:43:58 +0000";
 layers = (
 {
 components = (
@@ -28245,7 +28244,7 @@ unicode = 00F5;
 },
 {
 glyphname = otildemacron;
-lastChange = "2016-09-16 19:39:45 +0000";
+lastChange = "2016-09-16 19:44:18 +0000";
 layers = (
 {
 components = (
@@ -33908,7 +33907,7 @@ unicode = 1EF7;
 },
 {
 glyphname = ymacron;
-lastChange = "2016-09-16 19:37:03 +0000";
+lastChange = "2016-09-16 19:42:41 +0000";
 layers = (
 {
 components = (
@@ -33932,7 +33931,7 @@ name = y;
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 68, 0}";
+transform = "{1, 0, 0, 1, 63, 0}";
 }
 );
 layerId = UUID1;
@@ -127397,7 +127396,7 @@ width = 398;
 {
 color = 1;
 glyphname = dotaccentcomb;
-lastChange = "2016-09-16 19:40:07 +0000";
+lastChange = "2016-09-16 19:43:42 +0000";
 layers = (
 {
 anchors = (
@@ -127440,7 +127439,7 @@ position = "{199, 472}";
 },
 {
 name = top;
-position = "{199, 682}";
+position = "{199, 672}";
 }
 );
 layerId = UUID1;
@@ -127472,7 +127471,7 @@ unicode = 0307;
 },
 {
 glyphname = dotaccentcomb_macroncomb;
-lastChange = "2016-09-16 19:40:20 +0000";
+lastChange = "2016-09-16 19:43:58 +0000";
 layers = (
 {
 anchors = (
@@ -127482,19 +127481,19 @@ position = "{199, 452}";
 },
 {
 name = top;
-position = "{199, 743}";
+position = "{199, 756}";
 }
 );
 components = (
 {
 alignment = -1;
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 0, -70}";
+transform = "{1, 0, 0, 1, 0, -57}";
 },
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, -1, 90}";
+transform = "{1, 0, 0, 1, -1, 103}";
 }
 );
 layerId = UUID0;
@@ -127508,19 +127507,19 @@ position = "{199, 472}";
 },
 {
 name = top;
-position = "{199, 873}";
+position = "{199, 853}";
 }
 );
 components = (
 {
 alignment = -1;
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 0, -30}";
+transform = "{1, 0, 0, 1, 0, -40}";
 },
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, -5, 180}";
+transform = "{1, 0, 0, 1, -5, 160}";
 }
 );
 layerId = UUID1;
@@ -128266,7 +128265,7 @@ unicode = 030A;
 {
 color = 1;
 glyphname = tildecomb;
-lastChange = "2016-09-16 19:40:11 +0000";
+lastChange = "2016-09-16 19:44:07 +0000";
 layers = (
 {
 anchors = (
@@ -128276,7 +128275,7 @@ position = "{200, 452}";
 },
 {
 name = top;
-position = "{200, 612}";
+position = "{200, 582}";
 }
 );
 layerId = UUID0;
@@ -128319,7 +128318,7 @@ position = "{199, 472}";
 },
 {
 name = top;
-position = "{199, 678}";
+position = "{199, 668}";
 }
 );
 layerId = UUID1;
@@ -128359,7 +128358,7 @@ unicode = 0303;
 },
 {
 glyphname = tildecomb_macroncomb;
-lastChange = "2016-09-16 19:40:20 +0000";
+lastChange = "2016-09-16 19:44:18 +0000";
 layers = (
 {
 anchors = (
@@ -128376,7 +128375,7 @@ components = (
 {
 alignment = -1;
 name = tildecomb;
-transform = "{1, 0, 0, 1, 0, -60}";
+transform = "{1, 0, 0, 1, 0, -30}";
 },
 {
 alignment = 1;
@@ -128407,7 +128406,7 @@ transform = "{1, 0, 0, 1, 0, -30}";
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, -5, 176}";
+transform = "{1, 0, 0, 1, -5, 166}";
 }
 );
 layerId = UUID1;
@@ -128792,7 +128791,7 @@ unicode = 030F;
 {
 color = 1;
 glyphname = breveinvertedcomb;
-lastChange = "2016-09-16 14:41:17 +0000";
+lastChange = "2016-09-16 19:42:41 +0000";
 layers = (
 {
 anchors = (
