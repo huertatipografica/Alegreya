@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"OH/Schwa e/schwa"
+/odotaccentmacron/otildemacron/dotaccentcomb_macroncomb/tildecomb_macroncomb
 );
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
@@ -27137,7 +27137,7 @@ unicode = 022B;
 },
 {
 glyphname = odotaccentmacron;
-lastChange = "2016-09-16 17:51:49 +0000";
+lastChange = "2016-09-16 19:39:43 +0000";
 layers = (
 {
 components = (
@@ -27145,14 +27145,8 @@ components = (
 name = o;
 },
 {
-alignment = 1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 52, -20}";
-},
-{
-alignment = 1;
-name = macroncomb;
-transform = "{1, 0, 0, 1, 50, -20}";
+name = dotaccentcomb_macroncomb;
+transform = "{1, 0, 0, 1, 50, 0}";
 }
 );
 layerId = UUID0;
@@ -27164,13 +27158,7 @@ components = (
 name = o;
 },
 {
-alignment = 1;
-name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 72, 0}";
-},
-{
-alignment = 1;
-name = macroncomb;
+name = dotaccentcomb_macroncomb;
 transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
@@ -28203,7 +28191,7 @@ unicode = 00F5;
 },
 {
 glyphname = otildemacron;
-lastChange = "2016-09-16 17:51:49 +0000";
+lastChange = "2016-09-16 19:39:45 +0000";
 layers = (
 {
 components = (
@@ -28211,18 +28199,12 @@ components = (
 name = o;
 },
 {
-alignment = 1;
-name = tildecomb;
-transform = "{1, 0, 0, 1, 498, 0}";
-},
-{
-alignment = 1;
-name = macroncomb;
-transform = "{1, 0, 0, 1, 50, -20}";
+name = tildecomb_macroncomb;
+transform = "{1, 0, 0, 1, 49, 0}";
 }
 );
 layerId = UUID0;
-width = 896;
+width = 498;
 },
 {
 components = (
@@ -28230,18 +28212,12 @@ components = (
 name = o;
 },
 {
-alignment = 1;
-name = tildecomb;
-transform = "{1, 0, 0, 1, 538, 0}";
-},
-{
-alignment = 1;
-name = macroncomb;
+name = tildecomb_macroncomb;
 transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 936;
+width = 538;
 }
 );
 unicode = 022D;
@@ -33878,7 +33854,7 @@ unicode = 1EF7;
 },
 {
 glyphname = ymacron;
-lastChange = "2016-09-16 19:11:06 +0000";
+lastChange = "2016-09-16 19:37:03 +0000";
 layers = (
 {
 components = (
@@ -33888,7 +33864,7 @@ name = y;
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 68, -20}";
+transform = "{1, 0, 0, 1, 67, 0}";
 }
 );
 layerId = UUID0;
@@ -127367,13 +127343,17 @@ width = 398;
 {
 color = 1;
 glyphname = dotaccentcomb;
-lastChange = "2016-09-14 20:42:50 +0000";
+lastChange = "2016-09-16 19:40:07 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{197, 472}";
+position = "{199, 452}";
+},
+{
+name = top;
+position = "{199, 612}";
 }
 );
 layerId = UUID0;
@@ -127402,7 +127382,11 @@ width = 398;
 anchors = (
 {
 name = _top;
-position = "{197, 472}";
+position = "{199, 472}";
+},
+{
+name = top;
+position = "{199, 682}";
 }
 );
 layerId = UUID1;
@@ -127431,6 +127415,64 @@ width = 398;
 leftKerningGroup = asterisk;
 rightKerningGroup = asterisk;
 unicode = 0307;
+},
+{
+glyphname = dotaccentcomb_macroncomb;
+lastChange = "2016-09-16 19:40:20 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{199, 452}";
+},
+{
+name = top;
+position = "{199, 743}";
+}
+);
+components = (
+{
+alignment = -1;
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 0, -70}";
+},
+{
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, -1, 90}";
+}
+);
+layerId = UUID0;
+width = 398;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{199, 472}";
+},
+{
+name = top;
+position = "{199, 873}";
+}
+);
+components = (
+{
+alignment = -1;
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 0, -30}";
+},
+{
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, -5, 180}";
+}
+);
+layerId = UUID1;
+width = 398;
+}
+);
 },
 {
 color = 1;
@@ -128170,42 +128212,62 @@ unicode = 030A;
 {
 color = 1;
 glyphname = tildecomb;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-16 19:40:11 +0000";
 layers = (
 {
+anchors = (
+{
+name = _top;
+position = "{200, 452}";
+},
+{
+name = top;
+position = "{200, 612}";
+}
+);
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"63 551 LINE",
-"63 551 OFFCURVE",
-"102 606 OFFCURVE",
-"126 606 CURVE SMOOTH",
-"154 606 OFFCURVE",
-"239 573 OFFCURVE",
-"272 573 CURVE",
-"288 577 LINE",
-"364 666 LINE",
-"364 671 LINE",
-"342 692 LINE",
-"336 692 LINE",
-"336 692 OFFCURVE",
-"296 637 OFFCURVE",
-"273 637 CURVE SMOOTH",
-"245 637 OFFCURVE",
-"160 670 OFFCURVE",
-"127 670 CURVE",
-"111 666 LINE",
-"35 577 LINE",
-"35 572 LINE",
-"57 551 LINE"
+"63 547 LINE",
+"63 547 OFFCURVE",
+"102 602 OFFCURVE",
+"126 602 CURVE SMOOTH",
+"154 602 OFFCURVE",
+"239 569 OFFCURVE",
+"272 569 CURVE",
+"288 573 LINE",
+"364 662 LINE",
+"364 667 LINE",
+"342 688 LINE",
+"336 688 LINE",
+"336 688 OFFCURVE",
+"296 633 OFFCURVE",
+"273 633 CURVE SMOOTH",
+"245 633 OFFCURVE",
+"160 666 OFFCURVE",
+"127 666 CURVE",
+"111 662 LINE",
+"35 573 LINE",
+"35 568 LINE",
+"57 547 LINE"
 );
 }
 );
 width = 398;
 },
 {
+anchors = (
+{
+name = _top;
+position = "{199, 472}";
+},
+{
+name = top;
+position = "{199, 678}";
+}
+);
 layerId = UUID1;
 paths = (
 {
@@ -128242,15 +128304,77 @@ width = 398;
 unicode = 0303;
 },
 {
-color = 1;
-glyphname = macroncomb;
-lastChange = "2016-09-14 20:42:58 +0000";
+glyphname = tildecomb_macroncomb;
+lastChange = "2016-09-16 19:40:20 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
+position = "{200, 452}";
+},
+{
+name = top;
+position = "{200, 753}";
+}
+);
+components = (
+{
+alignment = -1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 0, -60}";
+},
+{
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 0, 100}";
+}
+);
+layerId = UUID0;
+width = 398;
+},
+{
+anchors = (
+{
+name = _top;
 position = "{199, 472}";
+},
+{
+name = top;
+position = "{199, 869}";
+}
+);
+components = (
+{
+alignment = -1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 0, -30}";
+},
+{
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, -5, 176}";
+}
+);
+layerId = UUID1;
+width = 398;
+}
+);
+},
+{
+color = 1;
+glyphname = macroncomb;
+lastChange = "2016-09-16 19:36:33 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{200, 452}";
+},
+{
+name = top;
+position = "{200, 643}";
 }
 );
 layerId = UUID0;
@@ -128281,7 +128405,11 @@ width = 398;
 anchors = (
 {
 name = _top;
-position = "{199, 472}";
+position = "{204, 472}";
+},
+{
+name = top;
+position = "{204, 693}";
 }
 );
 layerId = UUID1;
