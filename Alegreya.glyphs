@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/odotaccentmacron/otildemacron/dotaccentcomb_macroncomb/tildecomb_macroncomb
-);
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
 {
@@ -2785,14 +2782,33 @@ unicode = 0044;
 },
 {
 glyphname = DZcaron;
+lastChange = "2016-09-16 19:40:54 +0000";
 layers = (
 {
-layerId = UUID0;
-width = 600;
+components = (
+{
+name = D;
 },
 {
+name = Zcaron;
+transform = "{1, 0, 0, 1, 703, 0}";
+}
+);
+layerId = UUID0;
+width = 1271;
+},
+{
+components = (
+{
+name = D;
+},
+{
+name = Zcaron;
+transform = "{1, 0, 0, 1, 682, 0}";
+}
+);
 layerId = UUID1;
-width = 600;
+width = 1276;
 }
 );
 unicode = 01C4;
@@ -3136,14 +3152,33 @@ unicode = 0110;
 },
 {
 glyphname = Dzcaron;
+lastChange = "2016-09-16 19:41:05 +0000";
 layers = (
 {
-layerId = UUID0;
-width = 600;
+components = (
+{
+name = D;
 },
 {
+name = zcaron;
+transform = "{1, 0, 0, 1, 703, 0}";
+}
+);
+layerId = UUID0;
+width = 1163;
+},
+{
+components = (
+{
+name = D;
+},
+{
+name = zcaron;
+transform = "{1, 0, 0, 1, 682, 0}";
+}
+);
 layerId = UUID1;
-width = 600;
+width = 1138;
 }
 );
 unicode = 01C5;
@@ -20482,14 +20517,33 @@ unicode = 0111;
 },
 {
 glyphname = dzcaron;
+lastChange = "2016-09-16 19:41:22 +0000";
 layers = (
 {
-layerId = UUID0;
-width = 600;
+components = (
+{
+name = d;
 },
 {
+name = zcaron;
+transform = "{1, 0, 0, 1, 537, 0}";
+}
+);
+layerId = UUID0;
+width = 997;
+},
+{
+components = (
+{
+name = d;
+},
+{
+name = zcaron;
+transform = "{1, 0, 0, 1, 536, 0}";
+}
+);
 layerId = UUID1;
-width = 600;
+width = 992;
 }
 );
 unicode = 01C6;
