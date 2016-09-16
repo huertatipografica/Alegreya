@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/hungarumlautcomb/ohungarumlaut/uhungarumlaut/hungarumlaut/uhungarumlaut \012/Adblgrave/Ainvertedbreve/DZcaron/Dzcaron/Edblgrave/Einvertedbreve/Gcaron/dblgravecomb A/Adblgrave/Edblgrave I/Idblgrave/Odblgrave/Rdblgrave/Udblgrave/adblgrave/edblgrave/idblgrave/odblgrave/rdblgrave/udblgrave/Idblgrave/Iinvertedbreve"
+"/hungarumlautcomb/ohungarumlaut/uhungarumlaut/hungarumlaut/uhungarumlaut \012/Adblgrave/Ainvertedbreve/DZcaron/Dzcaron/Edblgrave/Einvertedbreve/Gcaron/dblgravecomb A/hungarumlautcomb/hungarumlautcomb.cap/dblgravecomb.cap/Adblgrave/Edblgrave I/Idblgrave/Odblgrave/Rdblgrave/Udblgrave/adblgrave/edblgrave/idblgrave/odblgrave/rdblgrave/udblgrave/Idblgrave/Iinvertedbreve"
 );
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
@@ -1169,7 +1169,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:20 +0000";
 layers = (
 {
 components = (
@@ -1177,9 +1177,8 @@ components = (
 name = A;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 96, 185}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 10, -10}";
 }
 );
 layerId = UUID0;
@@ -1191,9 +1190,8 @@ components = (
 name = A;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 138, 175}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 82, 0}";
 }
 );
 layerId = UUID1;
@@ -3878,7 +3876,7 @@ unicode = 1EC4;
 },
 {
 glyphname = Edblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:20 +0000";
 layers = (
 {
 components = (
@@ -3886,9 +3884,8 @@ components = (
 name = E;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 130, 195}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 44, 0}";
 }
 );
 layerId = UUID0;
@@ -3900,9 +3897,8 @@ components = (
 name = E;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 126, 175}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
@@ -5595,7 +5591,7 @@ unicode = 00CE;
 },
 {
 glyphname = Idblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:20 +0000";
 layers = (
 {
 components = (
@@ -5603,9 +5599,8 @@ components = (
 name = I;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, -15, 185}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, -101, -10}";
 }
 );
 layerId = UUID0;
@@ -5617,9 +5612,8 @@ components = (
 name = I;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, -13, 175}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, -69, 0}";
 }
 );
 layerId = UUID1;
@@ -5830,7 +5824,7 @@ unicode = 1EC8;
 },
 {
 glyphname = Iinvertedbreve;
-lastChange = "2016-09-16 17:47:29 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -5838,7 +5832,6 @@ components = (
 name = I;
 },
 {
-alignment = 1;
 name = breveinvertedcomb;
 transform = "{1, 0, 0, 1, 3, 185}";
 }
@@ -5852,7 +5845,6 @@ components = (
 name = I;
 },
 {
-alignment = 1;
 name = breveinvertedcomb;
 transform = "{1, 0, 0, 1, -24, 175}";
 }
@@ -8426,7 +8418,7 @@ unicode = 1ED6;
 },
 {
 glyphname = Odblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:20 +0000";
 layers = (
 {
 components = (
@@ -8434,9 +8426,8 @@ components = (
 name = O;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 150, 185}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 64, -10}";
 }
 );
 layerId = UUID0;
@@ -8448,9 +8439,8 @@ components = (
 name = O;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 124, 175}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 72, 0}";
 }
 );
 layerId = UUID1;
@@ -10701,7 +10691,7 @@ unicode = 0156;
 },
 {
 glyphname = Rdblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:20 +0000";
 layers = (
 {
 components = (
@@ -10709,9 +10699,8 @@ components = (
 name = R;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 110, 185}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 24, -10}";
 }
 );
 layerId = UUID0;
@@ -10723,13 +10712,12 @@ components = (
 name = R;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 678, 0}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 83, 0}";
 }
 );
 layerId = UUID1;
-width = 1084;
+width = 678;
 }
 );
 unicode = 0210;
@@ -12194,7 +12182,7 @@ unicode = 00DB;
 },
 {
 glyphname = Udblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:20 +0000";
 layers = (
 {
 components = (
@@ -12202,9 +12190,8 @@ components = (
 name = U;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 136, 195}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 50, 0}";
 }
 );
 layerId = UUID0;
@@ -12216,9 +12203,8 @@ components = (
 name = U;
 },
 {
-alignment = 1;
-name = dblgravecomb;
-transform = "{1, 0, 0, 1, 132, 175}";
+name = dblgravecomb.cap;
+transform = "{1, 0, 0, 1, 76, 0}";
 }
 );
 layerId = UUID1;
@@ -18096,7 +18082,7 @@ unicode = 1EAB;
 },
 {
 glyphname = adblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -18104,7 +18090,6 @@ components = (
 name = a;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 39, 22}";
 }
@@ -18118,7 +18103,6 @@ components = (
 name = a;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 35, 2}";
 }
@@ -20586,7 +20570,7 @@ unicode = 1EC5;
 },
 {
 glyphname = edblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -20594,7 +20578,6 @@ components = (
 name = e;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 59, 20}";
 }
@@ -20608,7 +20591,6 @@ components = (
 name = e;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 55, 0}";
 }
@@ -23170,7 +23152,7 @@ unicode = 00EE;
 },
 {
 glyphname = idblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -23178,7 +23160,6 @@ components = (
 name = idotless;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, -59, 20}";
 }
@@ -23192,7 +23173,6 @@ components = (
 name = idotless;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, -41, 0}";
 }
@@ -26277,7 +26257,7 @@ unicode = 1ED7;
 },
 {
 glyphname = odblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -26285,7 +26265,6 @@ components = (
 name = o;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 53, 0}";
 }
@@ -26299,7 +26278,6 @@ components = (
 name = o;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 69, 0}";
 }
@@ -28507,7 +28485,7 @@ unicode = 0157;
 },
 {
 glyphname = rdblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -28515,7 +28493,6 @@ components = (
 name = r;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 26, 0}";
 }
@@ -28529,7 +28506,6 @@ components = (
 name = r;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 43, 0}";
 }
@@ -29918,7 +29894,7 @@ unicode = 00FB;
 },
 {
 glyphname = udblgrave;
-lastChange = "2016-09-16 17:47:48 +0000";
+lastChange = "2016-09-16 17:49:04 +0000";
 layers = (
 {
 components = (
@@ -29926,7 +29902,6 @@ components = (
 name = u;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 75, 20}";
 }
@@ -29940,7 +29915,6 @@ components = (
 name = u;
 },
 {
-alignment = 1;
 name = dblgravecomb;
 transform = "{1, 0, 0, 1, 71, 0}";
 }
@@ -129795,6 +129769,173 @@ nodes = (
 "200 695 CURVE SMOOTH",
 "340 696 LINE",
 "358 805 LINE"
+);
+}
+);
+width = 398;
+}
+);
+},
+{
+color = 1;
+glyphname = dblgravecomb.cap;
+lastChange = "2016-09-16 17:49:20 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{282, 647}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"298 790 LINE",
+"276 833 LINE",
+"267 837 LINE",
+"267 837 OFFCURVE",
+"186 773 OFFCURVE",
+"114 720 CURVE",
+"123 699 LINE",
+"131 694 LINE",
+"215 741 OFFCURVE",
+"295 781 OFFCURVE",
+"295 781 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"438 781 LINE",
+"416 823 LINE",
+"407 828 LINE",
+"407 828 OFFCURVE",
+"326 764 OFFCURVE",
+"254 710 CURVE",
+"264 689 LINE",
+"271 685 LINE",
+"355 732 OFFCURVE",
+"435 772 OFFCURVE",
+"435 772 CURVE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"404 699 LINE",
+"413 720 LINE",
+"341 773 OFFCURVE",
+"260 837 OFFCURVE",
+"260 837 CURVE",
+"251 833 LINE",
+"229 790 LINE",
+"232 781 LINE",
+"232 781 OFFCURVE",
+"312 741 OFFCURVE",
+"396 694 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"263 689 LINE",
+"273 710 LINE",
+"201 764 OFFCURVE",
+"120 828 OFFCURVE",
+"120 828 CURVE",
+"111 823 LINE",
+"89 781 LINE",
+"92 772 LINE",
+"92 772 OFFCURVE",
+"172 732 OFFCURVE",
+"256 685 CURVE"
+);
+}
+);
+width = 398;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{256, 647}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"433 799 LINE",
+"367 880 LINE",
+"352 879 LINE",
+"352 879 OFFCURVE",
+"279 802 OFFCURVE",
+"203 727 CURVE",
+"241 679 LINE",
+"260 674 LINE",
+"344 731 OFFCURVE",
+"433 784 OFFCURVE",
+"433 784 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"235 799 LINE",
+"169 880 LINE",
+"154 879 LINE",
+"154 879 OFFCURVE",
+"81 802 OFFCURVE",
+"5 727 CURVE",
+"43 679 LINE",
+"62 674 LINE",
+"146 731 OFFCURVE",
+"235 784 OFFCURVE",
+"235 784 CURVE"
+);
+}
+);
+};
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"409 679 LINE",
+"447 727 LINE",
+"371 802 OFFCURVE",
+"298 879 OFFCURVE",
+"298 879 CURVE",
+"283 880 LINE",
+"217 799 LINE",
+"217 784 LINE",
+"217 784 OFFCURVE",
+"306 731 OFFCURVE",
+"390 674 CURVE"
+);
+},
+{
+closed = 1;
+nodes = (
+"211 679 LINE",
+"249 727 LINE",
+"173 802 OFFCURVE",
+"100 879 OFFCURVE",
+"100 879 CURVE",
+"85 880 LINE",
+"19 799 LINE",
+"19 784 LINE",
+"19 784 OFFCURVE",
+"108 731 OFFCURVE",
+"192 674 CURVE"
 );
 }
 );
