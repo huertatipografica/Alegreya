@@ -1,7 +1,8 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/peseta
+/peseta,
+"/numero  123/peseta"
 );
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
 customParameters = (
@@ -129971,33 +129972,35 @@ unicode = 212E;
 {
 color = 4;
 glyphname = numero;
-lastChange = "2016-09-16 20:13:59 +0000";
+lastChange = "2016-09-19 13:34:19 +0000";
 layers = (
 {
 components = (
 {
-name = N;
+name = n.sc;
 },
 {
+alignment = -1;
 name = o.sups;
-transform = "{1, 0, 0, 1, 719, 0}";
+transform = "{1, 0, 0, 1, 614, -142}";
 }
 );
 layerId = UUID0;
-width = 1057;
+width = 952;
 },
 {
 components = (
 {
-name = N;
+name = n.sc;
 },
 {
+alignment = -1;
 name = o.sups;
-transform = "{1, 0, 0, 1, 739, 0}";
+transform = "{1, 0, 0, 1, 630, -142}";
 }
 );
 layerId = UUID1;
-width = 1111;
+width = 1002;
 }
 );
 unicode = 2116;
