@@ -5309,7 +5309,7 @@ unicode = 0124;
 {
 color = 1;
 glyphname = I;
-lastChange = "2016-09-16 17:47:29 +0000";
+lastChange = "2016-09-20 22:26:11 +0000";
 layers = (
 {
 anchors = (
@@ -5384,15 +5384,19 @@ width = 361;
 anchors = (
 {
 name = bottom;
-position = "{139, 0}";
+position = "{185, 0}";
 },
 {
 name = ogonek;
-position = "{292, 40}";
+position = "{333, 10}";
 },
 {
 name = top;
-position = "{187, 647}";
+position = "{185, 647}";
+},
+{
+name = topleft;
+position = "{20, 647}";
 }
 );
 layerId = UUID1;
