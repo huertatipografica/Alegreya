@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-O/manat
-);
 classes = (
 {
 automatic = 1;
@@ -8099,7 +8096,7 @@ unicode = 0145;
 },
 {
 glyphname = Ndotaccent;
-lastChange = "2016-09-21 02:42:31 +0000";
+lastChange = "2016-09-21 02:47:47 +0000";
 layers = (
 {
 components = (
@@ -8109,7 +8106,7 @@ name = N;
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 164, -10}";
+transform = "{1, 0, 0, 1, 161, 0}";
 }
 );
 layerId = UUID0;
@@ -11630,17 +11627,17 @@ unicode = 1E5E;
 {
 color = 1;
 glyphname = S;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-21 02:48:01 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{253, 0}";
+position = "{265, 0}";
 },
 {
 name = top;
-position = "{287, 647}";
+position = "{265, 637}";
 }
 );
 background = {
@@ -11720,11 +11717,11 @@ width = 530;
 anchors = (
 {
 name = bottom;
-position = "{253, 0}";
+position = "{276, 0}";
 },
 {
 name = top;
-position = "{287, 647}";
+position = "{276, 647}";
 }
 );
 background = {
@@ -11847,7 +11844,7 @@ unicode = 015A;
 },
 {
 glyphname = Sacutedotaccent;
-lastChange = "2016-09-21 02:44:49 +0000";
+lastChange = "2016-09-21 02:48:01 +0000";
 layers = (
 {
 components = (
@@ -11857,12 +11854,12 @@ name = S;
 {
 alignment = 1;
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 70, 10}";
+transform = "{1, 0, 0, 1, 48, 0}";
 },
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 88, 134}";
+transform = "{1, 0, 0, 1, 66, 124}";
 }
 );
 layerId = UUID0;
@@ -11876,12 +11873,12 @@ name = S;
 {
 alignment = 1;
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, 68, 0}";
+transform = "{1, 0, 0, 1, 57, 0}";
 },
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 88, 182}";
+transform = "{1, 0, 0, 1, 77, 182}";
 }
 );
 layerId = UUID1;
@@ -12030,7 +12027,7 @@ unicode = 0160;
 },
 {
 glyphname = Scarondotaccent;
-lastChange = "2016-09-21 02:45:41 +0000";
+lastChange = "2016-09-21 02:48:01 +0000";
 layers = (
 {
 components = (
@@ -12040,12 +12037,12 @@ name = S;
 {
 alignment = 1;
 name = caroncomb.case;
-transform = "{1, 0, 0, 1, 88, 10}";
+transform = "{1, 0, 0, 1, 66, 0}";
 },
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 91, 146}";
+transform = "{1, 0, 0, 1, 66, 116}";
 }
 );
 layerId = UUID0;
@@ -12059,12 +12056,12 @@ name = S;
 {
 alignment = 1;
 name = caroncomb.case;
-transform = "{1, 0, 0, 1, 88, 0}";
+transform = "{1, 0, 0, 1, 77, 0}";
 },
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 88, 208}";
+transform = "{1, 0, 0, 1, 77, 208}";
 }
 );
 layerId = UUID1;
@@ -12195,7 +12192,7 @@ unicode = 0218;
 },
 {
 glyphname = Sdotaccent;
-lastChange = "2016-09-21 02:42:31 +0000";
+lastChange = "2016-09-21 02:48:34 +0000";
 layers = (
 {
 components = (
@@ -12205,7 +12202,7 @@ name = S;
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 91, 0}";
+transform = "{1, 0, 0, 1, 66, 0}";
 }
 );
 layerId = UUID0;
@@ -12219,7 +12216,7 @@ name = S;
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 88, 0}";
+transform = "{1, 0, 0, 1, 77, 0}";
 }
 );
 layerId = UUID1;
@@ -12230,7 +12227,7 @@ unicode = 1E60;
 },
 {
 glyphname = Sdotbelow;
-lastChange = "2016-09-21 02:21:21 +0000";
+lastChange = "2016-09-21 02:48:34 +0000";
 layers = (
 {
 components = (
@@ -12240,7 +12237,7 @@ name = S;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 51, 0}";
+transform = "{1, 0, 0, 1, 63, 0}";
 }
 );
 layerId = UUID0;
@@ -12254,7 +12251,7 @@ name = S;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 130, 0}";
+transform = "{1, 0, 0, 1, 153, 0}";
 }
 );
 layerId = UUID1;
@@ -12265,7 +12262,7 @@ unicode = 1E62;
 },
 {
 glyphname = Sdotbelowdotaccent;
-lastChange = "2016-09-21 02:42:25 +0000";
+lastChange = "2016-09-21 02:48:34 +0000";
 layers = (
 {
 components = (
@@ -12275,12 +12272,12 @@ name = S;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 51, 0}";
+transform = "{1, 0, 0, 1, 63, 0}";
 },
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 88, 10}";
+transform = "{1, 0, 0, 1, 66, 0}";
 }
 );
 layerId = UUID0;
@@ -12294,12 +12291,12 @@ name = S;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 130, 0}";
+transform = "{1, 0, 0, 1, 153, 0}";
 },
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 88, 0}";
+transform = "{1, 0, 0, 1, 77, 0}";
 }
 );
 layerId = UUID1;
@@ -16502,7 +16499,7 @@ unicode = 0178;
 },
 {
 glyphname = Ydotaccent;
-lastChange = "2016-09-21 02:42:31 +0000";
+lastChange = "2016-09-21 02:48:34 +0000";
 layers = (
 {
 components = (
@@ -16512,7 +16509,7 @@ name = Y;
 {
 alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 83, -10}";
+transform = "{1, 0, 0, 1, 80, 0}";
 }
 );
 layerId = UUID0;
@@ -21222,7 +21219,7 @@ unicode = 00E7;
 },
 {
 glyphname = ccedillaacute;
-lastChange = "2016-09-21 02:45:06 +0000";
+lastChange = "2016-09-21 02:48:34 +0000";
 layers = (
 {
 components = (
@@ -21237,7 +21234,7 @@ transform = "{1, 0, 0, 1, 64, 0}";
 {
 alignment = 1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 64, -20}";
+transform = "{1, 0, 0, 1, 32, 0}";
 }
 );
 layerId = UUID0;
@@ -32235,7 +32232,7 @@ unicode = 0259;
 {
 color = 1;
 glyphname = t;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-21 02:48:40 +0000";
 layers = (
 {
 anchors = (
@@ -32249,7 +32246,7 @@ position = "{167, 236}";
 },
 {
 name = top;
-position = "{134, 531}";
+position = "{154, 531}";
 }
 );
 layerId = UUID0;
@@ -32307,7 +32304,7 @@ position = "{167, 236}";
 },
 {
 name = top;
-position = "{134, 531}";
+position = "{164, 531}";
 }
 );
 layerId = UUID1;
@@ -32651,7 +32648,7 @@ unicode = 021B;
 },
 {
 glyphname = tdieresis;
-lastChange = "2016-09-21 02:34:03 +0000";
+lastChange = "2016-09-21 02:48:40 +0000";
 layers = (
 {
 components = (
@@ -32660,7 +32657,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -65, 79}";
+transform = "{1, 0, 0, 1, -45, 79}";
 }
 );
 layerId = UUID0;
@@ -32673,7 +32670,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -62, 59}";
+transform = "{1, 0, 0, 1, -32, 59}";
 }
 );
 layerId = UUID1;
