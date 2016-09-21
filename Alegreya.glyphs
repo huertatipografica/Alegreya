@@ -5657,7 +5657,7 @@ unicode = 00CE;
 {
 color = 4;
 glyphname = Idblgrave;
-lastChange = "2016-09-16 20:13:58 +0000";
+lastChange = "2016-09-21 02:00:21 +0000";
 layers = (
 {
 components = (
@@ -5681,7 +5681,7 @@ name = I;
 {
 alignment = 1;
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, -69, 0}";
+transform = "{1, 0, 0, 1, -71, 0}";
 }
 );
 layerId = UUID1;
@@ -5893,7 +5893,7 @@ unicode = 1EC8;
 {
 color = 4;
 glyphname = Iinvertedbreve;
-lastChange = "2016-09-16 20:13:58 +0000";
+lastChange = "2016-09-21 02:00:21 +0000";
 layers = (
 {
 components = (
@@ -5917,7 +5917,7 @@ name = I;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, -24, 175}";
+transform = "{1, 0, 0, 1, -26, 175}";
 }
 );
 layerId = UUID1;
@@ -108966,7 +108966,9 @@ width = 473;
 );
 },
 {
+color = 4;
 glyphname = zero.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -108991,7 +108993,9 @@ leftMetricsKey = zeroinferior;
 rightMetricsKey = zeroinferior;
 },
 {
+color = 4;
 glyphname = one.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109016,7 +109020,9 @@ leftMetricsKey = oneinferior;
 rightMetricsKey = oneinferior;
 },
 {
+color = 4;
 glyphname = two.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109041,7 +109047,9 @@ leftMetricsKey = twoinferior;
 rightMetricsKey = twoinferior;
 },
 {
+color = 4;
 glyphname = three.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109066,7 +109074,9 @@ leftMetricsKey = threeinferior;
 rightMetricsKey = threeinferior;
 },
 {
+color = 4;
 glyphname = four.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109091,7 +109101,9 @@ leftMetricsKey = fourinferior;
 rightMetricsKey = fourinferior;
 },
 {
+color = 4;
 glyphname = five.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109116,7 +109128,9 @@ leftMetricsKey = fiveinferior;
 rightMetricsKey = fiveinferior;
 },
 {
+color = 4;
 glyphname = six.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109141,7 +109155,9 @@ leftMetricsKey = sixinferior;
 rightMetricsKey = sixinferior;
 },
 {
+color = 4;
 glyphname = seven.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109166,7 +109182,9 @@ leftMetricsKey = seveninferior;
 rightMetricsKey = seveninferior;
 },
 {
+color = 4;
 glyphname = eight.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -109191,7 +109209,9 @@ leftMetricsKey = eightinferior;
 rightMetricsKey = eightinferior;
 },
 {
+color = 4;
 glyphname = nine.sinf;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115492,7 +115512,9 @@ width = 348;
 unicode = 2079;
 },
 {
+color = 4;
 glyphname = zero.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115517,7 +115539,9 @@ leftMetricsKey = zerosuperior;
 rightMetricsKey = zerosuperior;
 },
 {
+color = 4;
 glyphname = one.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115542,7 +115566,9 @@ leftMetricsKey = onesuperior;
 rightMetricsKey = onesuperior;
 },
 {
+color = 4;
 glyphname = two.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115567,7 +115593,9 @@ leftMetricsKey = twosuperior;
 rightMetricsKey = twosuperior;
 },
 {
+color = 4;
 glyphname = three.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115592,7 +115620,9 @@ leftMetricsKey = threesuperior;
 rightMetricsKey = threesuperior;
 },
 {
+color = 4;
 glyphname = four.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115617,7 +115647,9 @@ leftMetricsKey = foursuperior;
 rightMetricsKey = foursuperior;
 },
 {
+color = 4;
 glyphname = five.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115642,7 +115674,9 @@ leftMetricsKey = fivesuperior;
 rightMetricsKey = fivesuperior;
 },
 {
+color = 4;
 glyphname = six.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115667,7 +115701,9 @@ leftMetricsKey = sixsuperior;
 rightMetricsKey = sixsuperior;
 },
 {
+color = 4;
 glyphname = seven.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115692,7 +115728,9 @@ leftMetricsKey = sevensuperior;
 rightMetricsKey = sevensuperior;
 },
 {
+color = 4;
 glyphname = eight.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
@@ -115717,7 +115755,9 @@ leftMetricsKey = eightsuperior;
 rightMetricsKey = eightsuperior;
 },
 {
+color = 4;
 glyphname = nine.sups;
+lastChange = "2016-09-21 02:00:46 +0000";
 layers = (
 {
 components = (
