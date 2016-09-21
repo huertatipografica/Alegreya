@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/Ccedillaacute/Ddotbelow/Dlinebelow/Ecedillabreve/Emacronacute/Emacrongrave/Gmacron/Hbrevebelow/Hdotbelow/Idieresisacute/Ldotbelow/Llinebelow/Mdotbelow/Ndotaccent/Ndotbelow/Nlinebelow/Omacronacute/Omacrongrave/Otildeacute/Otildedieresis/Rdotbelow/Rlinebelow/Sacutedotaccent/Scarondotaccent/Sdotaccent/Sdotbelow/Sdotbelowdotaccent/Tdotbelow/Tlinebelow/Umacrondieresis  U/Utildeacute/Ydotaccent/Zdotbelow/ccedillaacute/ddotbelow/dlinebelow/ecedillabreve/emacronacute/emacrongrave/gmacron/hbrevebelow/hdotbelow/idieresisacute/ldotbelow/llinebelow/mdotbelow/ndotaccent/ndotbelow/nlinebelow/omacronacute/omacrongrave/otildeacute/otildedieresis/rdotbelow/rlinebelow/sacutedotaccent/scarondotaccent/dotaccentcomb/sdotaccent s/sdotbelow/sdotbelowdotaccent/tdieresis/tdotbelow/tlinebelow/umacrondieresis/utildeacute/ydotaccent/zdotbelow"
+"/Ccedillaacute/Ddotbelow/Dlinebelow/Ecedillabreve/Emacronacute/Emacrongrave/Gmacron/Hbrevebelow/Hdotbelow/Idieresisacute/Ldotbelow/Llinebelow/Mdotbelow/Ndotaccent/Ndotbelow/Nlinebelow/Omacronacute/Omacrongrave/Otildeacute/Otildedieresis/Rdotbelow/Rlinebelow/Sacutedotaccent/Scarondotaccent/Sdotaccent/Sdotbelow/Sdotbelowdotaccent/Tdotbelow/Tlinebelow/Umacrondieresis  U/Utildeacute/Ydotaccent/Zdotbelow/ccedillaacute/ddotbelow/dlinebelow/ecedillabreve/emacronacute/emacrongrave/gmacron/hbrevebelow/hdotbelow/idieresisacute/ldotbelow/llinebelow/mdotbelow/ndotaccent/ndotbelow/nlinebelow/omacronacute/omacrongrave/otildeacute/otildedieresis/rdotbelow/rlinebelow/sacutedotaccent/scarondotaccent/dotaccentcomb/sdotaccent s/sdotbelow/sdotbelowdotaccent/dieresiscomb t/tbar/tcaron/tcedilla/tcommaaccent/tdieresis/tdotbelow/tlinebelow/peseta/tdieresis/tdotbelow/tlinebelow/umacrondieresis/utildeacute/ydotaccent/zdotbelow"
 );
 classes = (
 {
@@ -10409,7 +10409,7 @@ unicode = 00D5;
 },
 {
 glyphname = Otildeacute;
-lastChange = "2016-09-21 02:36:16 +0000";
+lastChange = "2016-09-21 03:10:09 +0000";
 layers = (
 {
 components = (
@@ -32237,7 +32237,7 @@ unicode = 0259;
 {
 color = 1;
 glyphname = t;
-lastChange = "2016-09-21 02:52:10 +0000";
+lastChange = "2016-09-21 03:11:21 +0000";
 layers = (
 {
 anchors = (
@@ -32251,7 +32251,7 @@ position = "{167, 236}";
 },
 {
 name = top;
-position = "{154, 531}";
+position = "{164, 471}";
 }
 );
 layerId = UUID0;
@@ -32309,7 +32309,7 @@ position = "{167, 236}";
 },
 {
 name = top;
-position = "{164, 531}";
+position = "{177, 503}";
 }
 );
 layerId = UUID1;
@@ -32653,7 +32653,7 @@ unicode = 021B;
 },
 {
 glyphname = tdieresis;
-lastChange = "2016-09-21 02:48:40 +0000";
+lastChange = "2016-09-21 03:11:21 +0000";
 layers = (
 {
 components = (
@@ -32662,7 +32662,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -45, 79}";
+transform = "{1, 0, 0, 1, -35, 19}";
 }
 );
 layerId = UUID0;
@@ -32675,7 +32675,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -32, 59}";
+transform = "{1, 0, 0, 1, -19, 31}";
 }
 );
 layerId = UUID1;
@@ -134726,7 +134726,7 @@ unicode = 0375;
 {
 color = 1;
 glyphname = dieresiscomb;
-lastChange = "2016-09-21 02:34:29 +0000";
+lastChange = "2016-09-21 03:10:55 +0000";
 layers = (
 {
 anchors = (
@@ -139778,7 +139778,7 @@ width = 398;
 {
 color = 4;
 glyphname = tildecomb_dieresiscomb.case;
-lastChange = "2016-09-21 02:37:20 +0000";
+lastChange = "2016-09-21 03:10:32 +0000";
 layers = (
 {
 anchors = (
@@ -139788,17 +139788,31 @@ position = "{200, 637}";
 },
 {
 name = top;
-position = "{200, 905}";
+position = "{200, 935}";
 }
 );
+background = {
+components = (
+{
+alignment = -1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 0, 140}";
+},
+{
+alignment = -1;
+name = acutecomb.case;
+transform = "{0.9986, -0.0523, 0.0523, 0.9986, -75, 139}";
+}
+);
+};
 components = (
 {
 name = tildecomb;
-transform = "{1, 0, 0, 1, 0, 110}";
+transform = "{1, 0, 0, 1, 0, 140}";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 1, 266}";
+transform = "{1, 0, 0, 1, 1, 296}";
 }
 );
 layerId = UUID0;
@@ -139812,19 +139826,28 @@ position = "{184, 647}";
 },
 {
 name = top;
-position = "{184, 1022}";
+position = "{184, 1036}";
 }
 );
+background = {
 components = (
 {
 alignment = -1;
 name = tildecomb;
-transform = "{0.9259, 0, 0, 0.9259, 0, 173}";
+transform = "{0.9259, 0, 0, 0.9259, 15, 189}";
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = tildecomb;
+transform = "{0.9259, 0, 0, 0.9259, 0, 187}";
 },
 {
 alignment = -1;
 name = dieresiscomb;
-transform = "{0.9246, 0, 0, 0.9246, 3, 351}";
+transform = "{0.9246, 0, 0, 0.9246, 3, 365}";
 }
 );
 layerId = UUID1;
