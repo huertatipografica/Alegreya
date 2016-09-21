@@ -2,7 +2,7 @@
 .appVersion = "895";
 DisplayStrings = (
 O/manat,
-"/Ccedillaacute D/Ddotbelow/macronbelowcomb/Dlinebelow/Llinebelow/Nlinebelow/Rlinebelow/Tlinebelow/dlinebelow/llinebelow/nlinebelow r/rlinebelow/tlinebelow/Dlinebelow/Ecedillabreve/Emacronacute/Emacrongrave/Gmacron/Hbrevebelow/Hdotbelow"
+"/Ccedillaacute D/Ddotbelow/Dlinebelow/Llinebelow/Nlinebelow/Rlinebelow/Tlinebelow/dlinebelow/llinebelow/nlinebelow r/racute/rcaron/rcommaaccent/rdblgrave/rdotbelow/rinvertedbreve/rlinebelow/rlinebelow/tlinebelow/Dlinebelow/Ecedillabreve/Emacronacute/Emacrongrave/Gmacron/Hbrevebelow/Hdotbelow"
 );
 classes = (
 {
@@ -31101,13 +31101,13 @@ unicode = 0071;
 {
 color = 1;
 glyphname = r;
-lastChange = "2016-09-21 02:09:43 +0000";
+lastChange = "2016-09-21 02:10:19 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{192, 0}";
+position = "{160, 0}";
 },
 {
 name = top;
@@ -31418,7 +31418,7 @@ unicode = 0211;
 },
 {
 glyphname = rdotbelow;
-lastChange = "2016-09-21 02:06:30 +0000";
+lastChange = "2016-09-21 02:10:19 +0000";
 layers = (
 {
 components = (
@@ -31428,7 +31428,7 @@ name = r;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, -10, 0}";
+transform = "{1, 0, 0, 1, -42, 0}";
 }
 );
 layerId = UUID0;
@@ -31489,7 +31489,7 @@ unicode = 0213;
 },
 {
 glyphname = rlinebelow;
-lastChange = "2016-09-21 02:09:43 +0000";
+lastChange = "2016-09-21 02:10:19 +0000";
 layers = (
 {
 components = (
@@ -31499,7 +31499,7 @@ name = r;
 {
 alignment = 1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, -8, 0}";
+transform = "{1, 0, 0, 1, -40, 0}";
 }
 );
 layerId = UUID0;
