@@ -1,3 +1,9 @@
+TODO
+Check accents consistency
+compare with the previous version
+Kerning groups
+
+GENERATE
 zeroinferior=zero.sinf
 oneinferior=one.sinf
 twoinferior=two.sinf
@@ -18,3 +24,20 @@ sixsuperior=six.sups
 sevensuperior=seven.sups
 eightsuperior=eight.sups
 ninesuperior=nine.sups
+
+zero.sinf=zero.subs
+one.sinf=one.subs
+two.sinf=two.subs
+three.sinf=three.subs
+four.sinf=four.subs
+five.sinf=five.subs
+six.sinf=six.subs
+seven.sinf=seven.subs
+eight.sinf=eight.subs
+nine.sinf=nine.subs
+
+
+INCONSISTENCIES
+Ldot cat
+inferior subs sinf
+fractions
