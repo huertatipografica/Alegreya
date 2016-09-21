@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+"/utildeacute y/ydotaccent/zdotbelow"
+);
 classes = (
 {
 automatic = 1;
@@ -10439,7 +10442,7 @@ unicode = 1E4C;
 },
 {
 glyphname = Otildedieresis;
-lastChange = "2016-09-21 02:36:16 +0000";
+lastChange = "2016-09-21 02:51:34 +0000";
 layers = (
 {
 components = (
@@ -32232,7 +32235,7 @@ unicode = 0259;
 {
 color = 1;
 glyphname = t;
-lastChange = "2016-09-21 02:48:40 +0000";
+lastChange = "2016-09-21 02:52:10 +0000";
 layers = (
 {
 anchors = (
@@ -32296,7 +32299,7 @@ width = 330;
 anchors = (
 {
 name = bottom;
-position = "{195, 0}";
+position = "{185, 0}";
 },
 {
 name = center;
@@ -32681,7 +32684,7 @@ unicode = 1E97;
 },
 {
 glyphname = tdotbelow;
-lastChange = "2016-09-21 02:32:33 +0000";
+lastChange = "2016-09-21 02:52:10 +0000";
 layers = (
 {
 components = (
@@ -32703,7 +32706,7 @@ name = t;
 },
 {
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 72, 0}";
+transform = "{1, 0, 0, 1, 62, 0}";
 }
 );
 layerId = UUID1;
@@ -32714,7 +32717,7 @@ unicode = 1E6D;
 },
 {
 glyphname = tlinebelow;
-lastChange = "2016-09-21 02:32:33 +0000";
+lastChange = "2016-09-21 02:52:10 +0000";
 layers = (
 {
 components = (
@@ -32736,7 +32739,7 @@ name = t;
 },
 {
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, -9, 0}";
+transform = "{1, 0, 0, 1, -19, 0}";
 }
 );
 layerId = UUID1;
@@ -35825,17 +35828,17 @@ unicode = 0078;
 {
 color = 1;
 glyphname = y;
-lastChange = "2016-09-16 19:02:07 +0000";
+lastChange = "2016-09-21 02:53:26 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{239, 0}";
+position = "{323, 0}";
 },
 {
 name = top;
-position = "{267, 452}";
+position = "{223, 452}";
 }
 );
 background = {
@@ -35967,11 +35970,11 @@ width = 446;
 anchors = (
 {
 name = bottom;
-position = "{239, 0}";
+position = "{423, 0}";
 },
 {
 name = top;
-position = "{267, 472}";
+position = "{243, 472}";
 }
 );
 background = {
@@ -36226,7 +36229,7 @@ unicode = 00FF;
 },
 {
 glyphname = ydotaccent;
-lastChange = "2016-09-21 02:32:33 +0000";
+lastChange = "2016-09-21 02:53:17 +0000";
 layers = (
 {
 components = (
@@ -36235,7 +36238,7 @@ name = y;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 68, 0}";
+transform = "{1, 0, 0, 1, 24, 0}";
 }
 );
 layerId = UUID0;
@@ -36248,7 +36251,7 @@ name = y;
 },
 {
 name = dotaccentcomb;
-transform = "{1, 0, 0, 1, 68, 0}";
+transform = "{1, 0, 0, 1, 44, 0}";
 }
 );
 layerId = UUID1;
@@ -136905,7 +136908,7 @@ unicode = 0304;
 },
 {
 glyphname = macroncomb_gravecomb;
-lastChange = "2016-09-21 02:22:01 +0000";
+lastChange = "2016-09-21 02:52:35 +0000";
 layers = (
 {
 anchors = (
@@ -136915,7 +136918,7 @@ position = "{200, 452}";
 },
 {
 name = top;
-position = "{200, 737}";
+position = "{200, 747}";
 }
 );
 background = {
@@ -136951,12 +136954,12 @@ transform = "{1, 0, 0, 1, -40, -24}";
 components = (
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 0, -80}";
+transform = "{1, 0, 0, 1, 0, -60}";
 },
 {
 alignment = -1;
 name = gravecomb.case;
-transform = "{1, 0, 0, 1, 47, -104}";
+transform = "{1, 0, 0, 1, 47, -94}";
 }
 );
 layerId = UUID0;
@@ -136993,7 +136996,7 @@ rightMetricsKey = "=macroncomb";
 },
 {
 glyphname = macroncomb_acutecomb;
-lastChange = "2016-09-21 02:22:05 +0000";
+lastChange = "2016-09-21 02:52:37 +0000";
 layers = (
 {
 anchors = (
@@ -137009,12 +137012,12 @@ position = "{200, 817}";
 components = (
 {
 name = macroncomb;
-transform = "{1, 0, 0, 1, 0, -80}";
+transform = "{1, 0, 0, 1, 0, -60}";
 },
 {
 alignment = -1;
 name = acutecomb.case;
-transform = "{1, 0, 0, 1, -40, -104}";
+transform = "{1, 0, 0, 1, -40, -94}";
 }
 );
 layerId = UUID0;
@@ -139990,7 +139993,7 @@ width = 398;
 },
 {
 glyphname = macroncomb_gravecomb.case;
-lastChange = "2016-09-21 02:28:55 +0000";
+lastChange = "2016-09-21 02:50:15 +0000";
 layers = (
 {
 anchors = (
@@ -140000,13 +140003,13 @@ position = "{200, 637}";
 },
 {
 name = top;
-position = "{200, 917}";
+position = "{200, 937}";
 }
 );
 components = (
 {
 name = macroncomb_gravecomb;
-transform = "{1, 0, 0, 1, 0, 180}";
+transform = "{1, 0, 0, 1, 0, 200}";
 }
 );
 layerId = UUID0;
@@ -140061,7 +140064,7 @@ rightMetricsKey = "=macroncomb";
 },
 {
 glyphname = macroncomb_acutecomb.case;
-lastChange = "2016-09-21 02:28:58 +0000";
+lastChange = "2016-09-21 02:50:18 +0000";
 layers = (
 {
 anchors = (
@@ -140071,13 +140074,13 @@ position = "{200, 637}";
 },
 {
 name = top;
-position = "{200, 917}";
+position = "{200, 937}";
 }
 );
 components = (
 {
 name = macroncomb_acutecomb;
-transform = "{1, 0, 0, 1, 0, 180}";
+transform = "{1, 0, 0, 1, 0, 200}";
 }
 );
 layerId = UUID0;
