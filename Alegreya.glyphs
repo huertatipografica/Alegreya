@@ -111348,6 +111348,81 @@ width = 450;
 );
 },
 {
+glyphname = zero.subs;
+layers = (
+{
+components = (
+{
+name = zero.sinf;
+}
+);
+layerId = UUID0;
+width = 352;
+},
+{
+components = (
+{
+name = zero.sinf;
+}
+);
+layerId = UUID1;
+width = 355;
+}
+);
+leftMetricsKey = zero.sinf;
+rightMetricsKey = zero.sinf;
+},
+{
+glyphname = one.subs;
+layers = (
+{
+components = (
+{
+name = one.sinf;
+}
+);
+layerId = UUID0;
+width = 249;
+},
+{
+components = (
+{
+name = one.sinf;
+}
+);
+layerId = UUID1;
+width = 283;
+}
+);
+leftMetricsKey = one.sinf;
+rightMetricsKey = one.sinf;
+},
+{
+glyphname = two.subs;
+layers = (
+{
+components = (
+{
+name = two.sinf;
+}
+);
+layerId = UUID0;
+width = 329;
+},
+{
+components = (
+{
+name = two.sinf;
+}
+);
+layerId = UUID1;
+width = 377;
+}
+);
+leftMetricsKey = two.sinf;
+rightMetricsKey = two.sinf;
+},
+{
 color = 1;
 glyphname = zeroinferior;
 lastChange = "2016-09-15 20:40:09 +0000";
@@ -112392,6 +112467,181 @@ width = 348;
 }
 );
 unicode = 2089;
+},
+{
+glyphname = three.subs;
+layers = (
+{
+components = (
+{
+name = three.sinf;
+}
+);
+layerId = UUID0;
+width = 293;
+},
+{
+components = (
+{
+name = three.sinf;
+}
+);
+layerId = UUID1;
+width = 329;
+}
+);
+leftMetricsKey = three.sinf;
+rightMetricsKey = three.sinf;
+},
+{
+glyphname = four.subs;
+layers = (
+{
+components = (
+{
+name = four.sinf;
+}
+);
+layerId = UUID0;
+width = 311;
+},
+{
+components = (
+{
+name = four.sinf;
+}
+);
+layerId = UUID1;
+width = 365;
+}
+);
+leftMetricsKey = four.sinf;
+rightMetricsKey = four.sinf;
+},
+{
+glyphname = five.subs;
+layers = (
+{
+components = (
+{
+name = five.sinf;
+}
+);
+layerId = UUID0;
+width = 290;
+},
+{
+components = (
+{
+name = five.sinf;
+}
+);
+layerId = UUID1;
+width = 322;
+}
+);
+leftMetricsKey = five.sinf;
+rightMetricsKey = five.sinf;
+},
+{
+glyphname = six.subs;
+layers = (
+{
+components = (
+{
+name = six.sinf;
+}
+);
+layerId = UUID0;
+width = 312;
+},
+{
+components = (
+{
+name = six.sinf;
+}
+);
+layerId = UUID1;
+width = 348;
+}
+);
+leftMetricsKey = six.sinf;
+rightMetricsKey = six.sinf;
+},
+{
+glyphname = seven.subs;
+layers = (
+{
+components = (
+{
+name = seven.sinf;
+}
+);
+layerId = UUID0;
+width = 289;
+},
+{
+components = (
+{
+name = seven.sinf;
+}
+);
+layerId = UUID1;
+width = 320;
+}
+);
+leftMetricsKey = seven.sinf;
+rightMetricsKey = seven.sinf;
+},
+{
+glyphname = eight.subs;
+layers = (
+{
+components = (
+{
+name = eight.sinf;
+}
+);
+layerId = UUID0;
+width = 327;
+},
+{
+components = (
+{
+name = eight.sinf;
+}
+);
+layerId = UUID1;
+width = 346;
+}
+);
+leftMetricsKey = eight.sinf;
+rightMetricsKey = eight.sinf;
+},
+{
+glyphname = nine.subs;
+layers = (
+{
+components = (
+{
+name = nine.sinf;
+}
+);
+layerId = UUID0;
+width = 312;
+},
+{
+components = (
+{
+name = nine.sinf;
+}
+);
+layerId = UUID1;
+width = 348;
+}
+);
+leftMetricsKey = nine.sinf;
+rightMetricsKey = nine.sinf;
 },
 {
 color = 1;
