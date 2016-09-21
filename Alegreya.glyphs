@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/utildeacute y/ydotaccent/zdotbelow"
+" /hairspace/thinspace"
 );
 classes = (
 {
@@ -122491,45 +122491,45 @@ unicode = 037E;
 },
 {
 glyphname = figurespace;
-lastChange = "2016-09-21 02:05:40 +0000";
+lastChange = "2016-09-21 02:55:56 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 450;
 },
 {
 layerId = UUID1;
-width = 600;
+width = 450;
 }
 );
 unicode = 2007;
 },
 {
 glyphname = hairspace;
-lastChange = "2016-09-21 02:05:40 +0000";
+lastChange = "2016-09-21 02:59:01 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 80;
 },
 {
 layerId = UUID1;
-width = 600;
+width = 50;
 }
 );
 unicode = 200A;
 },
 {
 glyphname = punctuationspace;
-lastChange = "2016-09-21 02:05:40 +0000";
+lastChange = "2016-09-21 02:56:34 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 238;
 },
 {
 layerId = UUID1;
-width = 600;
+width = 238;
 }
 );
 unicode = 2008;
@@ -122570,30 +122570,30 @@ unicode = 00A0;
 },
 {
 glyphname = thinspace;
-lastChange = "2016-09-21 02:05:40 +0000";
+lastChange = "2016-09-21 02:58:59 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 130;
 },
 {
 layerId = UUID1;
-width = 600;
+width = 100;
 }
 );
 unicode = 2009;
 },
 {
 glyphname = zerowidthspace;
-lastChange = "2016-09-21 02:05:40 +0000";
+lastChange = "2016-09-21 02:58:35 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+width = 0;
 },
 {
 layerId = UUID1;
-width = 600;
+width = 0;
 }
 );
 unicode = 200B;
@@ -136770,7 +136770,7 @@ width = 398;
 {
 color = 4;
 glyphname = tildecomb_macroncomb;
-lastChange = "2016-09-21 02:46:30 +0000";
+lastChange = "2016-09-21 02:55:45 +0000";
 layers = (
 {
 anchors = (
@@ -136818,7 +136818,7 @@ transform = "{0.9259, 0, 0, 0.9259, 15, 17}";
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, -5, 162}";
+transform = "{1, 0, 0, 1, -5, 160}";
 }
 );
 layerId = UUID1;
@@ -139858,7 +139858,7 @@ width = 398;
 {
 color = 4;
 glyphname = tildecomb_macroncomb.case;
-lastChange = "2016-09-21 02:46:30 +0000";
+lastChange = "2016-09-21 02:55:45 +0000";
 layers = (
 {
 anchors = (
@@ -139906,7 +139906,7 @@ transform = "{1, 0, 0, 1, 0, -40}";
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, -5, 154}";
+transform = "{1, 0, 0, 1, -5, 152}";
 }
 );
 layerId = UUID1;
