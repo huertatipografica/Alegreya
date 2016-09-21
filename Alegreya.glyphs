@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/ccedillaacute/ddotbelow/dlinebelow/ecedillabreve/emacronacute/emacrongrave/gmacron/hbrevebelow/hdotbelow/idieresisacute/ldotbelow/llinebelow/mdotbelow/ndotaccent/ndotbelow/nlinebelow/omacronacute/omacrongrave/otildeacute/otildedieresis r/rdotbelow/rlinebelow/sacutedotaccent/scarondotaccent/sdotaccent/sdotbelow/sdotbelowdotaccent/tdieresis/tdotbelow/tlinebelow/umacrondieresis/utildeacute/ydotaccent/zdotbelow"
+"/Ccedillaacute/Ddotbelow/Dlinebelow/Ecedillabreve/Emacronacute/Emacrongrave/Gmacron/Hbrevebelow/Hdotbelow/Idieresisacute/Ldotbelow/Llinebelow/Mdotbelow/Ndotaccent/Ndotbelow/Nlinebelow/Omacronacute/Omacrongrave/Otildeacute/Otildedieresis/Rdotbelow/Rlinebelow/Sacutedotaccent/Scarondotaccent/Sdotaccent/Sdotbelow/Sdotbelowdotaccent T/Tdotbelow/Tlinebelow/Umacrondieresis/Utildeacute/Ydotaccent/Zdotbelow"
 );
 classes = (
 {
@@ -12918,21 +12918,21 @@ unicode = 018F;
 {
 color = 1;
 glyphname = T;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-21 03:12:49 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{292, 0}";
+position = "{273, 0}";
 },
 {
 name = center;
-position = "{297, 324}";
+position = "{273, 319}";
 },
 {
 name = top;
-position = "{300, 647}";
+position = "{273, 637}";
 }
 );
 background = {
@@ -13040,7 +13040,7 @@ width = 546;
 anchors = (
 {
 name = bottom;
-position = "{292, 0}";
+position = "{297, 0}";
 },
 {
 name = center;
@@ -13048,7 +13048,7 @@ position = "{297, 324}";
 },
 {
 name = top;
-position = "{300, 647}";
+position = "{297, 647}";
 }
 );
 background = {
@@ -13351,7 +13351,7 @@ unicode = 021A;
 },
 {
 glyphname = Tdotbelow;
-lastChange = "2016-09-21 02:21:21 +0000";
+lastChange = "2016-09-21 03:12:49 +0000";
 layers = (
 {
 components = (
@@ -13361,7 +13361,7 @@ name = T;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 90, 0}";
+transform = "{1, 0, 0, 1, 71, 0}";
 }
 );
 layerId = UUID0;
@@ -13375,7 +13375,7 @@ name = T;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 169, 0}";
+transform = "{1, 0, 0, 1, 174, 0}";
 }
 );
 layerId = UUID1;
@@ -13386,7 +13386,7 @@ unicode = 1E6C;
 },
 {
 glyphname = Tlinebelow;
-lastChange = "2016-09-21 02:21:21 +0000";
+lastChange = "2016-09-21 03:12:49 +0000";
 layers = (
 {
 components = (
@@ -13396,7 +13396,7 @@ name = T;
 {
 alignment = 1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 92, 0}";
+transform = "{1, 0, 0, 1, 73, 0}";
 }
 );
 layerId = UUID0;
@@ -13410,7 +13410,7 @@ name = T;
 {
 alignment = 1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 88, 0}";
+transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
 layerId = UUID1;
