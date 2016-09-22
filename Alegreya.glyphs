@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/germandbls.alt.sc
+/c.sc/cacute.sc/ccaron.sc/ccedilla.sc/ccedillaacute.sc/ccircumflex.sc/cdotaccent.sc/cedi/colonsign/ccedillaacute.sc
 );
 classes = (
 {
@@ -43297,15 +43297,40 @@ width = 586;
 },
 {
 glyphname = germandbls.alt.sc;
-lastChange = "2016-09-22 21:48:45 +0000";
+lastChange = "2016-09-22 21:49:21 +0000";
 layers = (
 {
-layerId = UUID0;
-width = 600;
+background = {
+components = (
+{
+name = s.sc;
+}
+);
+};
+components = (
+{
+name = s.sc;
 },
 {
+name = s.sc;
+transform = "{1, 0, 0, 1, 459, 0}";
+}
+);
+layerId = UUID0;
+width = 918;
+},
+{
+components = (
+{
+name = s.sc;
+},
+{
+name = s.sc;
+transform = "{1, 0, 0, 1, 473, 0}";
+}
+);
 layerId = UUID1;
-width = 600;
+width = 946;
 }
 );
 },
@@ -43988,17 +44013,17 @@ rightKerningGroup = B;
 {
 color = 1;
 glyphname = c.sc;
-lastChange = "2016-09-15 21:35:36 +0000";
+lastChange = "2016-09-22 21:50:30 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{314, 0}";
+position = "{271, 0}";
 },
 {
 name = top;
-position = "{335, 647}";
+position = "{277, 497}";
 }
 );
 layerId = UUID0;
@@ -44052,11 +44077,11 @@ width = 533;
 anchors = (
 {
 name = bottom;
-position = "{314, 0}";
+position = "{256, 0}";
 },
 {
 name = top;
-position = "{335, 647}";
+position = "{266, 503}";
 }
 );
 layerId = UUID1;
@@ -44229,7 +44254,7 @@ rightKerningGroup = C;
 },
 {
 glyphname = ccedillaacute.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:50:30 +0000";
 layers = (
 {
 components = (
@@ -44239,12 +44264,12 @@ name = c.sc;
 {
 alignment = 1;
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 130, 0}";
+transform = "{1, 0, 0, 1, 87, 0}";
 },
 {
 alignment = 1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 107, 195}";
+transform = "{1, 0, 0, 1, 49, 45}";
 }
 );
 layerId = UUID0;
@@ -44258,12 +44283,12 @@ name = c.sc;
 {
 alignment = 1;
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 130, 0}";
+transform = "{1, 0, 0, 1, 72, 0}";
 },
 {
 alignment = 1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, 98, 175}";
+transform = "{1, 0, 0, 1, 29, 31}";
 }
 );
 layerId = UUID1;
@@ -125309,20 +125334,6 @@ width = 600;
 },
 {
 glyphname = exclamdown.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 600;
-},
-{
-layerId = UUID1;
-width = 600;
-}
-);
-},
-{
-glyphname = periodcentered.loclCAT.sc;
 lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
