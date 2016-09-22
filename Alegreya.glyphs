@@ -120501,6 +120501,110 @@ rightKerningGroup = period;
 unicode = 005F;
 },
 {
+glyphname = backslash.case;
+lastChange = "2016-09-22 15:29:38 +0000";
+layers = (
+{
+components = (
+{
+name = backslash;
+transform = "{1, 0, 0, 1, 0, 50}";
+}
+);
+layerId = UUID0;
+width = 329;
+},
+{
+components = (
+{
+name = backslash;
+transform = "{1, 0, 0, 1, 0, 30}";
+}
+);
+layerId = UUID1;
+width = 329;
+}
+);
+},
+{
+glyphname = periodcentered.case;
+lastChange = "2016-09-22 15:29:31 +0000";
+layers = (
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = UUID0;
+width = 238;
+},
+{
+components = (
+{
+name = periodcentered;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 238;
+}
+);
+},
+{
+glyphname = bullet.case;
+lastChange = "2016-09-22 15:29:33 +0000";
+layers = (
+{
+components = (
+{
+name = bullet;
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = UUID0;
+width = 340;
+},
+{
+components = (
+{
+name = bullet;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 340;
+}
+);
+},
+{
+glyphname = slash.case;
+lastChange = "2016-09-22 15:29:36 +0000";
+layers = (
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0, 1, 0, 50}";
+}
+);
+layerId = UUID0;
+width = 329;
+},
+{
+components = (
+{
+name = slash;
+transform = "{1, 0, 0, 1, 0, 30}";
+}
+);
+layerId = UUID1;
+width = 329;
+}
+);
+},
+{
 color = 1;
 glyphname = braceleft;
 lastChange = "2016-09-14 20:28:45 +0000";
@@ -121175,6 +121279,136 @@ width = 309;
 unicode = 0029;
 },
 {
+glyphname = braceleft.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = braceleft;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 309;
+},
+{
+components = (
+{
+name = braceleft;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID1;
+width = 335;
+}
+);
+},
+{
+glyphname = braceright.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = braceright;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 309;
+},
+{
+components = (
+{
+name = braceright;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID1;
+width = 335;
+}
+);
+},
+{
+glyphname = bracketleft.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = bracketleft;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 309;
+},
+{
+components = (
+{
+name = bracketleft;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID1;
+width = 326;
+}
+);
+},
+{
+glyphname = bracketright.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = bracketright;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 309;
+},
+{
+components = (
+{
+name = bracketright;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID1;
+width = 326;
+}
+);
+},
+{
+glyphname = parenright.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = parenright;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 309;
+},
+{
+components = (
+{
+name = parenright;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID1;
+width = 309;
+}
+);
+},
+{
 color = 1;
 glyphname = emdash;
 lastChange = "2016-09-14 20:28:45 +0000";
@@ -121491,6 +121725,84 @@ width = 324;
 }
 );
 unicode = 00AD;
+},
+{
+glyphname = emdash.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = emdash;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 918;
+},
+{
+components = (
+{
+name = emdash;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 830;
+}
+);
+},
+{
+glyphname = endash.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = endash;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 458;
+},
+{
+components = (
+{
+name = endash;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 448;
+}
+);
+},
+{
+glyphname = hyphen.case;
+lastChange = "2016-09-22 15:29:19 +0000";
+layers = (
+{
+components = (
+{
+name = hyphen;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 324;
+},
+{
+components = (
+{
+name = hyphen;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 324;
+}
+);
 },
 {
 color = 10;
@@ -122530,6 +122842,110 @@ width = 238;
 leftKerningGroup = period;
 rightKerningGroup = period;
 unicode = 201A;
+},
+{
+glyphname = guillemetleft.case;
+lastChange = "2016-09-22 15:29:51 +0000";
+layers = (
+{
+components = (
+{
+name = guillemetleft;
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = UUID0;
+width = 427;
+},
+{
+components = (
+{
+name = guillemetleft;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 476;
+}
+);
+},
+{
+glyphname = guillemetright.case;
+lastChange = "2016-09-22 15:29:53 +0000";
+layers = (
+{
+components = (
+{
+name = guillemetright;
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = UUID0;
+width = 427;
+},
+{
+components = (
+{
+name = guillemetright;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 476;
+}
+);
+},
+{
+glyphname = guilsinglleft.case;
+lastChange = "2016-09-22 15:29:47 +0000";
+layers = (
+{
+components = (
+{
+name = guilsinglleft;
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = UUID0;
+width = 261;
+},
+{
+components = (
+{
+name = guilsinglleft;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 270;
+}
+);
+},
+{
+glyphname = guilsinglright.case;
+lastChange = "2016-09-22 15:29:49 +0000";
+layers = (
+{
+components = (
+{
+name = guilsinglright;
+transform = "{1, 0, 0, 1, 0, 80}";
+}
+);
+layerId = UUID0;
+width = 261;
+},
+{
+components = (
+{
+name = guilsinglright;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID1;
+width = 270;
+}
+);
 },
 {
 color = 10;
@@ -135115,6 +135531,32 @@ width = 356;
 leftMetricsKey = "=quotesingle";
 rightMetricsKey = "=quotesingle";
 unicode = 2033;
+},
+{
+glyphname = at.case;
+lastChange = "2016-09-22 15:29:26 +0000";
+layers = (
+{
+components = (
+{
+name = at;
+transform = "{1, 0, 0, 1, 0, 70}";
+}
+);
+layerId = UUID0;
+width = 832;
+},
+{
+components = (
+{
+name = at;
+transform = "{1, 0, 0, 1, 0, 90}";
+}
+);
+layerId = UUID1;
+width = 897;
+}
+);
 },
 {
 color = 1;
