@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/c.sc/cacute.sc/ccaron.sc/ccedilla.sc/ccedillaacute.sc/ccircumflex.sc/cdotaccent.sc/cedi/colonsign/ccedillaacute.sc
+/adblgrave.sc/ainvertedbreve.sc/germandbls.alt.sc/ccedillaacute.sc/ddotbelow.sc/dlinebelow.sc/dzcaron.sc/e.sc/ecedillabreve.sc/edblgrave.sc/einvertedbreve.sc/emacronacute.sc/emacrongrave.sc/g.sc/gcaron.sc/gmacron.sc
 );
 classes = (
 {
@@ -44377,21 +44377,21 @@ rightKerningGroup = C;
 {
 color = 1;
 glyphname = d.sc;
-lastChange = "2016-09-15 21:35:36 +0000";
+lastChange = "2016-09-22 21:54:08 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{318, 0}";
+position = "{298, 0}";
 },
 {
 name = center;
-position = "{341, 324}";
+position = "{298, 249}";
 },
 {
 name = top;
-position = "{347, 647}";
+position = "{298, 497}";
 }
 );
 layerId = UUID0;
@@ -44459,15 +44459,15 @@ width = 596;
 anchors = (
 {
 name = bottom;
-position = "{318, 0}";
+position = "{289, 0}";
 },
 {
 name = center;
-position = "{341, 324}";
+position = "{289, 252}";
 },
 {
 name = top;
-position = "{347, 647}";
+position = "{289, 503}";
 }
 );
 layerId = UUID1;
@@ -44871,7 +44871,7 @@ rightKerningGroup = O;
 },
 {
 glyphname = ddotbelow.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:54:08 +0000";
 layers = (
 {
 components = (
@@ -44881,7 +44881,7 @@ name = d.sc;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 116, 0}";
+transform = "{1, 0, 0, 1, 96, 0}";
 }
 );
 layerId = UUID0;
@@ -44895,7 +44895,7 @@ name = d.sc;
 {
 alignment = 1;
 name = dotbelowcomb;
-transform = "{1, 0, 0, 1, 195, 0}";
+transform = "{1, 0, 0, 1, 166, 0}";
 }
 );
 layerId = UUID1;
@@ -44905,7 +44905,7 @@ width = 578;
 },
 {
 glyphname = dlinebelow.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:54:08 +0000";
 layers = (
 {
 components = (
@@ -44915,7 +44915,7 @@ name = d.sc;
 {
 alignment = 1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 118, 0}";
+transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
 layerId = UUID0;
@@ -44929,7 +44929,7 @@ name = d.sc;
 {
 alignment = 1;
 name = macronbelowcomb;
-transform = "{1, 0, 0, 1, 114, 0}";
+transform = "{1, 0, 0, 1, 85, 0}";
 }
 );
 layerId = UUID1;
@@ -44972,21 +44972,25 @@ width = 1088;
 {
 color = 1;
 glyphname = e.sc;
-lastChange = "2016-09-15 21:35:36 +0000";
+lastChange = "2016-09-22 21:56:32 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{318, 0}";
+position = "{254, 0}";
 },
 {
 name = ogonek;
-position = "{524, 40}";
+position = "{457, 10}";
 },
 {
 name = top;
-position = "{326, 647}";
+position = "{256, 497}";
+},
+{
+name = topleft;
+position = "{20, 497}";
 }
 );
 layerId = UUID0;
@@ -45072,15 +45076,19 @@ width = 508;
 anchors = (
 {
 name = bottom;
-position = "{318, 0}";
+position = "{258, 0}";
 },
 {
 name = ogonek;
-position = "{524, 40}";
+position = "{464, 10}";
 },
 {
 name = top;
-position = "{326, 647}";
+position = "{268, 503}";
+},
+{
+name = topleft;
+position = "{20, 503}";
 }
 );
 layerId = UUID1;
@@ -45285,7 +45293,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = ecedillabreve.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:32 +0000";
 layers = (
 {
 components = (
@@ -45295,12 +45303,12 @@ name = e.sc;
 {
 alignment = 1;
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 134, 0}";
+transform = "{1, 0, 0, 1, 70, 0}";
 },
 {
 alignment = 1;
 name = brevecomb;
-transform = "{1, 0, 0, 1, 128, 175}";
+transform = "{1, 0, 0, 1, 58, 25}";
 }
 );
 layerId = UUID0;
@@ -45314,12 +45322,12 @@ name = e.sc;
 {
 alignment = 1;
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 134, 0}";
+transform = "{1, 0, 0, 1, 74, 0}";
 },
 {
 alignment = 1;
 name = brevecomb;
-transform = "{1, 0, 0, 1, 128, 175}";
+transform = "{1, 0, 0, 1, 70, 31}";
 }
 );
 layerId = UUID1;
@@ -45573,7 +45581,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = edblgrave.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:32 +0000";
 layers = (
 {
 components = (
@@ -45583,7 +45591,7 @@ name = e.sc;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 130, 195}";
+transform = "{1, 0, 0, 1, 60, 45}";
 }
 );
 layerId = UUID0;
@@ -45597,7 +45605,7 @@ name = e.sc;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 116, 175}";
+transform = "{1, 0, 0, 1, 58, 31}";
 }
 );
 layerId = UUID1;
@@ -45802,7 +45810,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = einvertedbreve.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:32 +0000";
 layers = (
 {
 components = (
@@ -45812,7 +45820,7 @@ name = e.sc;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 148, 195}";
+transform = "{1, 0, 0, 1, 78, 45}";
 }
 );
 layerId = UUID0;
@@ -45826,7 +45834,7 @@ name = e.sc;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, 115, 175}";
+transform = "{1, 0, 0, 1, 57, 31}";
 }
 );
 layerId = UUID1;
@@ -45875,7 +45883,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = emacronacute.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:32 +0000";
 layers = (
 {
 components = (
@@ -45885,7 +45893,7 @@ name = e.sc;
 {
 alignment = 1;
 name = macroncomb_acutecomb;
-transform = "{1, 0, 0, 1, 126, 195}";
+transform = "{1, 0, 0, 1, 56, 45}";
 }
 );
 layerId = UUID0;
@@ -45899,7 +45907,7 @@ name = e.sc;
 {
 alignment = 1;
 name = macroncomb_acutecomb;
-transform = "{1, 0, 0, 1, 122, 175}";
+transform = "{1, 0, 0, 1, 64, 31}";
 }
 );
 layerId = UUID1;
@@ -45909,7 +45917,7 @@ width = 516;
 },
 {
 glyphname = emacrongrave.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:32 +0000";
 layers = (
 {
 components = (
@@ -45919,7 +45927,7 @@ name = e.sc;
 {
 alignment = 1;
 name = macroncomb_gravecomb;
-transform = "{1, 0, 0, 1, 126, 195}";
+transform = "{1, 0, 0, 1, 56, 45}";
 }
 );
 layerId = UUID0;
@@ -45933,7 +45941,7 @@ name = e.sc;
 {
 alignment = 1;
 name = macroncomb_gravecomb;
-transform = "{1, 0, 0, 1, 120, 175}";
+transform = "{1, 0, 0, 1, 62, 31}";
 }
 );
 layerId = UUID1;
@@ -46195,17 +46203,17 @@ rightKerningGroup = F;
 {
 color = 1;
 glyphname = g.sc;
-lastChange = "2016-09-15 21:35:36 +0000";
+lastChange = "2016-09-22 21:56:20 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{334, 0}";
+position = "{283, 0}";
 },
 {
 name = top;
-position = "{342, 647}";
+position = "{303, 497}";
 }
 );
 layerId = UUID0;
@@ -46277,11 +46285,11 @@ width = 566;
 anchors = (
 {
 name = bottom;
-position = "{334, 0}";
+position = "{271, 0}";
 },
 {
 name = top;
-position = "{342, 647}";
+position = "{301, 503}";
 }
 );
 layerId = UUID1;
@@ -46394,7 +46402,7 @@ rightKerningGroup = G;
 },
 {
 glyphname = gcaron.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:20 +0000";
 layers = (
 {
 components = (
@@ -46404,7 +46412,7 @@ name = g.sc;
 {
 alignment = 1;
 name = caroncomb;
-transform = "{1, 0, 0, 1, 143, 195}";
+transform = "{1, 0, 0, 1, 104, 45}";
 }
 );
 layerId = UUID0;
@@ -46418,7 +46426,7 @@ name = g.sc;
 {
 alignment = 1;
 name = caroncomb;
-transform = "{1, 0, 0, 1, 144, 175}";
+transform = "{1, 0, 0, 1, 103, 31}";
 }
 );
 layerId = UUID1;
@@ -46545,7 +46553,7 @@ rightKerningGroup = G;
 },
 {
 glyphname = gmacron.sc;
-lastChange = "2016-09-22 21:47:49 +0000";
+lastChange = "2016-09-22 21:56:20 +0000";
 layers = (
 {
 components = (
@@ -46555,7 +46563,7 @@ name = g.sc;
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 142, 195}";
+transform = "{1, 0, 0, 1, 103, 45}";
 }
 );
 layerId = UUID0;
@@ -46569,7 +46577,7 @@ name = g.sc;
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 138, 175}";
+transform = "{1, 0, 0, 1, 97, 31}";
 }
 );
 layerId = UUID1;
