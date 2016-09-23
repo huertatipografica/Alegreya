@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+/whiteDiamond/whiteSquare/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle
+);
 classes = (
 {
 automatic = 1;
@@ -218,7 +221,9 @@ horizontalStems = (
 id = UUID0;
 userData = {
 GSCornerRadius = 45;
-GSOffsetHorizontal = 10;
+GSOffsetHorizontal = 20;
+GSOffsetMakeStroke = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 60;
 angle = 20;
 height = 39;
@@ -292,7 +297,9 @@ horizontalStems = (
 );
 id = UUID1;
 userData = {
-GSOffsetHorizontal = 10;
+GSOffsetHorizontal = 30;
+GSOffsetMakeStroke = 1;
+GSOffsetProportional = 1;
 GSOffsetVertical = 60;
 angle = 20;
 height = 6;
@@ -135242,18 +135249,61 @@ width = 450;
 unicode = 25C6;
 },
 {
+color = 1;
 glyphname = whiteDiamond;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:52:25 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"250 -8 LINE",
+"487 229 LINE",
+"250 466 LINE",
+"13 229 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"250 410 LINE",
+"431 229 LINE",
+"250 48 LINE",
+"69 229 LINE"
+);
+}
+);
+width = 500;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"267 -22 LINE",
+"518 229 LINE",
+"267 480 LINE",
+"16 229 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"267 396 LINE",
+"434 229 LINE",
+"267 62 LINE",
+"100 229 LINE"
+);
 }
 );
+width = 534;
+}
+);
+leftMetricsKey = "=blackDiamond";
+rightMetricsKey = "=blackDiamond";
 unicode = 25C7;
 },
 {
@@ -135383,18 +135433,61 @@ width = 432;
 unicode = 25A0;
 },
 {
+color = 1;
 glyphname = whiteSquare;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:52:25 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"400 61 LINE",
+"400 397 LINE",
+"64 397 LINE",
+"64 61 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"104 357 LINE",
+"360 357 LINE",
+"360 101 LINE",
+"104 101 LINE"
+);
+}
+);
+width = 464;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"424 51 LINE",
+"424 407 LINE",
+"68 407 LINE",
+"68 51 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"128 347 LINE",
+"364 347 LINE",
+"364 111 LINE",
+"128 111 LINE"
+);
 }
 );
+width = 492;
+}
+);
+leftMetricsKey = "=blackSquare";
+rightMetricsKey = "=blackSquare";
 unicode = 25A1;
 },
 {
@@ -135542,63 +135635,219 @@ width = 432;
 unicode = 25C0;
 },
 {
+color = 1;
 glyphname = upWhiteTriangle;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:52:25 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"238 433 LINE",
+"64 84 LINE",
+"412 84 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"128 124 LINE",
+"238 343 LINE",
+"348 124 LINE"
+);
+}
+);
+width = 476;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"263 478 LINE",
+"60 70 LINE",
+"468 70 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"156 130 LINE",
+"263 344 LINE",
+"370 130 LINE"
+);
 }
 );
+width = 529;
+}
+);
+leftMetricsKey = "=upBlackTriangle";
+rightMetricsKey = "=upBlackTriangle";
 unicode = 25B3;
 },
 {
+color = 1;
 glyphname = rightWhiteTriangle;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:52:25 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"443 226 LINE",
+"94 400 LINE",
+"94 52 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"134 336 LINE",
+"353 226 LINE",
+"134 116 LINE"
+);
+}
+);
+width = 477;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"488 236 LINE",
+"80 439 LINE",
+"80 31 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"140 343 LINE",
+"354 236 LINE",
+"140 129 LINE"
+);
 }
 );
+width = 529;
+}
+);
+leftMetricsKey = "=rightBlackTriangle";
+rightMetricsKey = "=rightBlackTriangle";
 unicode = 25B7;
 },
 {
+color = 1;
 glyphname = downWhiteTriangle;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:52:25 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"238 29 LINE",
+"412 378 LINE",
+"64 378 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"348 338 LINE",
+"238 119 LINE",
+"128 338 LINE"
+);
+}
+);
+width = 476;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"265 3 LINE",
+"468 411 LINE",
+"60 411 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"372 351 LINE",
+"265 137 LINE",
+"158 351 LINE"
+);
 }
 );
+width = 529;
+}
+);
+leftMetricsKey = "=downBlackTriangle";
+rightMetricsKey = "=downBlackTriangle";
 unicode = 25BD;
 },
 {
+color = 1;
 glyphname = leftWhiteTriangle;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:52:25 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"34 226 LINE",
+"383 52 LINE",
+"383 400 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"343 116 LINE",
+"124 226 LINE",
+"343 336 LINE"
+);
+}
+);
+width = 477;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"40 235 LINE",
+"448 32 LINE",
+"448 440 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"388 128 LINE",
+"174 235 LINE",
+"388 342 LINE"
+);
 }
 );
+width = 529;
+}
+);
+leftMetricsKey = "=leftBlackTriangle";
+rightMetricsKey = "=leftBlackTriangle";
 unicode = 25C1;
 },
 {
