@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-" /upArrow/rightArrow/downArrow/leftArrow/leftRightArrow/upDownArrow"
-);
 classes = (
 {
 automatic = 1;
@@ -135207,16 +135204,39 @@ width = 567;
 unicode = 2195;
 },
 {
+color = 1;
 glyphname = blackDiamond;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:47:07 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"222 20 LINE",
+"431 229 LINE",
+"222 438 LINE",
+"13 229 LINE"
+);
+}
+);
+width = 444;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"225 20 LINE",
+"434 229 LINE",
+"225 438 LINE",
+"16 229 LINE"
+);
+}
+);
+width = 450;
 }
 );
 unicode = 25C6;
@@ -135325,16 +135345,39 @@ width = 542;
 unicode = 25CA;
 },
 {
+color = 1;
 glyphname = blackSquare;
-lastChange = "2016-09-22 21:40:57 +0000";
+lastChange = "2016-09-23 14:46:38 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"360 81 LINE",
+"360 377 LINE",
+"64 377 LINE",
+"64 81 LINE"
+);
+}
+);
+width = 424;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"364 81 LINE",
+"364 377 LINE",
+"68 377 LINE",
+"68 81 LINE"
+);
+}
+);
+width = 432;
 }
 );
 unicode = 25A0;
@@ -135429,7 +135472,7 @@ unicode = 25B6;
 {
 color = 1;
 glyphname = downBlackTriangle;
-lastChange = "2016-09-14 20:28:45 +0000";
+lastChange = "2016-09-23 14:46:14 +0000";
 layers = (
 {
 layerId = UUID0;
