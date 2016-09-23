@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/whiteDiamond/whiteSquare/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle
-);
 classes = (
 {
 automatic = 1;
@@ -125862,85 +125859,139 @@ width = 270;
 },
 {
 glyphname = periodcentered.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = periodcentered;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 238;
 },
 {
+components = (
+{
+name = periodcentered;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 238;
 }
 );
 },
 {
 glyphname = exclam.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = exclam;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 285;
 },
 {
+components = (
+{
+name = exclam;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 284;
 }
 );
 },
 {
 glyphname = exclamdown.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = exclamdown;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 285;
 },
 {
+components = (
+{
+name = exclamdown;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 284;
 }
 );
 },
 {
 glyphname = question.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = question;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 360;
 },
 {
+components = (
+{
+name = question;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 381;
 }
 );
 },
 {
 glyphname = questiondown.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = questiondown;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 360;
 },
 {
+components = (
+{
+name = questiondown;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 381;
 }
 );
 },
 {
 glyphname = quotedbl.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = quotedbl;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 298;
 },
 {
+components = (
+{
+name = quotedbl;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 347;
 }
 );
 },
@@ -125950,26 +126001,20 @@ layers = (
 {
 components = (
 {
-name = quoteleft;
-},
-{
-name = quoteleft;
+name = quotedblleft;
 }
 );
 layerId = UUID0;
-width = 600;
+width = 331;
 },
 {
 components = (
 {
-name = quoteleft;
-},
-{
-name = quoteleft;
+name = quotedblleft;
 }
 );
 layerId = UUID1;
-width = 600;
+width = 478;
 }
 );
 },
@@ -125979,68 +126024,89 @@ layers = (
 {
 components = (
 {
-name = quoteright;
-},
-{
-name = quoteright;
+name = quotedblright;
 }
 );
 layerId = UUID0;
-width = 600;
+width = 331;
 },
 {
 components = (
 {
-name = quoteright;
-},
-{
-name = quoteright;
+name = quotedblright;
 }
 );
 layerId = UUID1;
-width = 600;
+width = 478;
 }
 );
 },
 {
 glyphname = quoteleft.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = quoteleft;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 176;
 },
 {
+components = (
+{
+name = quoteleft;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 263;
 }
 );
 },
 {
 glyphname = quoteright.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = quoteright;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 176;
 },
 {
+components = (
+{
+name = quoteright;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 263;
 }
 );
 },
 {
 glyphname = quotesingle.sc;
-lastChange = "2016-09-22 21:40:57 +0000";
 layers = (
 {
+components = (
+{
+name = quotesingle;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 176;
 },
 {
+components = (
+{
+name = quotesingle;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 176;
 }
 );
 },
@@ -134884,7 +134950,7 @@ unicode = 2196;
 {
 color = 1;
 glyphname = leftRightArrow;
-lastChange = "2016-09-23 14:43:44 +0000";
+lastChange = "2016-09-23 14:54:04 +0000";
 layers = (
 {
 background = {
@@ -134977,10 +135043,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"627 196 LINE",
-"627 257 LINE",
-"104 257 LINE",
-"104 196 LINE"
+"622 197 LINE",
+"622 256 LINE",
+"109 256 LINE",
+"109 197 LINE"
 );
 }
 );
@@ -135088,10 +135154,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"657 174 LINE",
-"657 293 LINE",
-"139 293 LINE",
-"139 174 LINE"
+"652 175 LINE",
+"652 292 LINE",
+"144 292 LINE",
+"144 175 LINE"
 );
 }
 );
@@ -135103,7 +135169,7 @@ unicode = 2194;
 {
 color = 1;
 glyphname = upDownArrow;
-lastChange = "2016-09-23 14:44:28 +0000";
+lastChange = "2016-09-23 14:54:01 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -135147,10 +135213,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"236 -32 LINE",
-"297 -32 LINE",
-"297 492 LINE",
-"236 492 LINE"
+"236 -29 LINE",
+"296 -29 LINE",
+"296 483 LINE",
+"236 483 LINE"
 );
 }
 );
@@ -135198,10 +135264,10 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"223 -26 LINE",
-"342 -26 LINE",
-"342 493 LINE",
-"223 493 LINE"
+"224 -20 LINE",
+"340 -20 LINE",
+"340 487 LINE",
+"224 487 LINE"
 );
 }
 );
