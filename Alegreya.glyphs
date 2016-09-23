@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/exclam.sc/exclamdown.sc/question.sc/questiondown.sc
+"/c_h/c_t/s_t \012Thchctst"
 );
 classes = (
 {
@@ -41655,40 +41655,6 @@ width = 355;
 }
 );
 leftKerningGroup = f;
-},
-{
-glyphname = T_h;
-lastChange = "2016-09-22 21:40:57 +0000";
-layers = (
-{
-components = (
-{
-name = T;
-},
-{
-name = h;
-transform = "{1, 0, 0, 1, 536, 0}";
-}
-);
-layerId = UUID0;
-width = 1070;
-},
-{
-components = (
-{
-name = T;
-},
-{
-name = h;
-transform = "{1, 0, 0, 1, 613, 0}";
-}
-);
-layerId = UUID1;
-width = 1167;
-}
-);
-leftMetricsKey = T;
-rightMetricsKey = h;
 },
 {
 glyphname = c_h;
@@ -125861,9 +125827,9 @@ width = 270;
 );
 },
 {
-color = 1;
+color = 5;
 glyphname = exclam.sc;
-lastChange = "2016-09-23 19:36:01 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 background = {
@@ -125987,8 +125953,9 @@ width = 285;
 );
 },
 {
+color = 5;
 glyphname = exclamdown.sc;
-lastChange = "2016-09-23 19:37:35 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126015,9 +125982,9 @@ width = 285;
 );
 },
 {
-color = 1;
+color = 5;
 glyphname = question.sc;
-lastChange = "2016-09-23 19:36:54 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 background = {
@@ -126324,8 +126291,9 @@ width = 330;
 );
 },
 {
+color = 5;
 glyphname = questiondown.sc;
-lastChange = "2016-09-23 19:38:01 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126352,8 +126320,9 @@ width = 332;
 );
 },
 {
+color = 5;
 glyphname = quotedbl.sc;
-lastChange = "2016-09-23 19:22:34 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126378,8 +126347,9 @@ width = 347;
 );
 },
 {
+color = 5;
 glyphname = quotedblleft.sc;
-lastChange = "2016-09-23 19:22:34 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126404,8 +126374,9 @@ width = 478;
 );
 },
 {
+color = 5;
 glyphname = quotedblright.sc;
-lastChange = "2016-09-23 19:22:34 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126430,8 +126401,9 @@ width = 478;
 );
 },
 {
+color = 5;
 glyphname = quoteleft.sc;
-lastChange = "2016-09-23 19:22:34 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126456,8 +126428,9 @@ width = 263;
 );
 },
 {
+color = 5;
 glyphname = quoteright.sc;
-lastChange = "2016-09-23 19:22:34 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
@@ -126482,8 +126455,9 @@ width = 263;
 );
 },
 {
+color = 5;
 glyphname = quotesingle.sc;
-lastChange = "2016-09-23 19:22:34 +0000";
+lastChange = "2016-09-23 19:38:34 +0000";
 layers = (
 {
 components = (
