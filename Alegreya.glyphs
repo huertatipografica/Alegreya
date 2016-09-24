@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+/Utildeacute/dieresiscomb
+);
 classes = (
 {
 automatic = 1;
@@ -15275,7 +15278,7 @@ unicode = 0168;
 {
 color = 5;
 glyphname = Utildeacute;
-lastChange = "2016-09-21 03:16:12 +0000";
+lastChange = "2016-09-24 12:02:52 +0000";
 layers = (
 {
 components = (
@@ -15296,14 +15299,8 @@ components = (
 name = U;
 },
 {
-alignment = 1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 114, 0}";
-},
-{
-alignment = 1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 95, 201}";
+name = tildecomb_acutecomb.case;
+transform = "{1, 0, 0, 1, 115, 0}";
 }
 );
 layerId = UUID1;
@@ -36452,7 +36449,7 @@ unicode = 1EF7;
 {
 color = 4;
 glyphname = ymacron;
-lastChange = "2016-09-23 13:13:32 +0000";
+lastChange = "2016-09-24 12:02:29 +0000";
 layers = (
 {
 components = (
@@ -36462,7 +36459,7 @@ name = y;
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 67, 0}";
+transform = "{1, 0, 0, 1, 23, 0}";
 }
 );
 layerId = UUID0;
@@ -143570,7 +143567,7 @@ unicode = 0375;
 {
 color = 1;
 glyphname = dieresiscomb;
-lastChange = "2016-09-21 03:10:55 +0000";
+lastChange = "2016-09-24 12:03:07 +0000";
 layers = (
 {
 anchors = (
@@ -143580,7 +143577,7 @@ position = "{199, 452}";
 },
 {
 name = top;
-position = "{199, 639}";
+position = "{199, 619}";
 }
 );
 layerId = UUID0;
@@ -143626,7 +143623,11 @@ width = 398;
 anchors = (
 {
 name = _top;
-position = "{196, 472}";
+position = "{199, 472}";
+},
+{
+name = top;
+position = "{199, 706}";
 }
 );
 layerId = UUID1;
