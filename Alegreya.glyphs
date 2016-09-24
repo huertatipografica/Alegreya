@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/Utildeacute/dieresiscomb
+"\U00C4\U00CB\U00CF/Idieresisacute \U00D6/Odieresismacron/Otildedieresis \U00DC/Udieresisacute/Udieresiscaron/Udieresisgrave/Udieresismacron/Umacrondieresis/Wdieresis/Ydieresis \U00E4\U00EB\U00EF/idieresisacute \U00F6/odieresismacron/otildedieresis/tdieresis \U00FC/udieresisacute/udieresiscaron/udieresisgrave/udieresismacron/umacrondieresis/wdieresis/ydieresis/adieresis.sc/edieresis.sc/idieresis.sc/idieresisacute.sc/odieresis.sc/odieresismacron.sc/otildedieresis.sc/tdieresis.sc/udieresis.sc/udieresisacute.sc/udieresiscaron.sc/udieresisgrave.sc/udieresismacron.sc/umacrondieresis.sc/wdieresis.sc/ydieresis.sc"
 );
 classes = (
 {
@@ -14801,7 +14801,7 @@ unicode = 016A;
 {
 color = 5;
 glyphname = Umacrondieresis;
-lastChange = "2016-09-21 03:16:12 +0000";
+lastChange = "2016-09-24 12:06:53 +0000";
 layers = (
 {
 components = (
@@ -14816,7 +14816,7 @@ transform = "{1, 0, 0, 1, 141, 0}";
 {
 alignment = 1;
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 142, 141}";
+transform = "{1, 0, 0, 1, 142, 108}";
 }
 );
 layerId = UUID0;
@@ -32712,7 +32712,7 @@ unicode = 021B;
 {
 color = 5;
 glyphname = tdieresis;
-lastChange = "2016-09-21 03:16:12 +0000";
+lastChange = "2016-09-24 12:05:05 +0000";
 layers = (
 {
 components = (
@@ -32734,7 +32734,7 @@ name = t;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -19, 31}";
+transform = "{1, 0, 0, 1, -22, 31}";
 }
 );
 layerId = UUID1;
@@ -34127,7 +34127,7 @@ unicode = 016B;
 {
 color = 5;
 glyphname = umacrondieresis;
-lastChange = "2016-09-21 03:16:12 +0000";
+lastChange = "2016-09-24 12:06:53 +0000";
 layers = (
 {
 components = (
@@ -34140,7 +34140,7 @@ transform = "{1, 0, 0, 1, 71, -185}";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 72, -44}";
+transform = "{1, 0, 0, 1, 72, -77}";
 }
 );
 layerId = UUID0;
@@ -58046,7 +58046,7 @@ rightKerningGroup = T;
 {
 color = 5;
 glyphname = tdieresis.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:04 +0000";
 layers = (
 {
 components = (
@@ -58070,7 +58070,7 @@ name = t.sc;
 {
 alignment = 1;
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 60, 31}";
+transform = "{1, 0, 0, 1, 57, 31}";
 }
 );
 layerId = UUID1;
@@ -59324,7 +59324,7 @@ rightKerningGroup = U;
 {
 color = 5;
 glyphname = umacrondieresis.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:06:51 +0000";
 layers = (
 {
 components = (
@@ -59339,7 +59339,7 @@ transform = "{1, 0, 0, 1, 88, -140}";
 {
 alignment = 1;
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 89, 1}";
+transform = "{1, 0, 0, 1, 89, -32}";
 }
 );
 layerId = UUID0;
@@ -59358,7 +59358,7 @@ transform = "{1, 0, 0, 1, 60, -144}";
 {
 alignment = 1;
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 65, 32}";
+transform = "{1, 0, 0, 1, 65, 31}";
 }
 );
 layerId = UUID1;
@@ -69881,7 +69881,7 @@ unicode = 038F;
 {
 color = 10;
 glyphname = Iotadieresis;
-lastChange = "2016-09-21 02:34:37 +0000";
+lastChange = "2016-09-24 12:05:04 +0000";
 layers = (
 {
 components = (
@@ -69903,7 +69903,7 @@ name = Iota;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -11, 175}";
+transform = "{1, 0, 0, 1, -14, 175}";
 }
 );
 layerId = UUID1;
@@ -69917,7 +69917,7 @@ unicode = 03AA;
 {
 color = 10;
 glyphname = Upsilondieresis;
-lastChange = "2016-09-21 02:34:03 +0000";
+lastChange = "2016-09-24 12:05:01 +0000";
 layers = (
 {
 components = (
@@ -69939,7 +69939,7 @@ name = Upsilon;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 123, 175}";
+transform = "{1, 0, 0, 1, 120, 175}";
 }
 );
 layerId = UUID1;
@@ -96503,7 +96503,7 @@ unicode = 03AF;
 {
 color = 10;
 glyphname = iotadieresis;
-lastChange = "2016-09-21 02:34:03 +0000";
+lastChange = "2016-09-24 12:05:01 +0000";
 layers = (
 {
 components = (
@@ -96525,7 +96525,7 @@ name = iota;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -65, 0}";
+transform = "{1, 0, 0, 1, -68, 0}";
 }
 );
 layerId = UUID1;
@@ -96611,7 +96611,7 @@ unicode = 03CD;
 {
 color = 10;
 glyphname = upsilondieresis;
-lastChange = "2016-09-21 02:34:03 +0000";
+lastChange = "2016-09-24 12:05:01 +0000";
 layers = (
 {
 components = (
@@ -96633,7 +96633,7 @@ name = upsilon;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 34, 0}";
+transform = "{1, 0, 0, 1, 31, 0}";
 }
 );
 layerId = UUID1;
@@ -106849,7 +106849,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadieresis.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -106871,7 +106871,7 @@ name = iota.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -35, 31}";
+transform = "{1, 0, 0, 1, -38, 31}";
 }
 );
 layerId = UUID1;
@@ -106884,7 +106884,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadieresistonos.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -106906,7 +106906,7 @@ name = iota.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -35, 31}";
+transform = "{1, 0, 0, 1, -38, 31}";
 }
 );
 layerId = UUID1;
@@ -106946,7 +106946,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondieresis.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -106968,7 +106968,7 @@ name = upsilon.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 80, 31}";
+transform = "{1, 0, 0, 1, 77, 31}";
 }
 );
 layerId = UUID1;
@@ -106981,7 +106981,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondieresistonos.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -107003,7 +107003,7 @@ name = upsilon.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 80, 31}";
+transform = "{1, 0, 0, 1, 77, 31}";
 }
 );
 layerId = UUID1;
@@ -109042,7 +109042,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikavaria.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -109064,7 +109064,7 @@ name = iota.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -35, 31}";
+transform = "{1, 0, 0, 1, -38, 31}";
 }
 );
 layerId = UUID1;
@@ -109104,7 +109104,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaperispomeni.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -109126,7 +109126,7 @@ name = iota.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -35, 31}";
+transform = "{1, 0, 0, 1, -38, 31}";
 }
 );
 layerId = UUID1;
@@ -109760,7 +109760,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikavaria.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -109782,7 +109782,7 @@ name = upsilon.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 80, 31}";
+transform = "{1, 0, 0, 1, 77, 31}";
 }
 );
 layerId = UUID1;
@@ -109822,7 +109822,7 @@ rightKerningGroup = Y;
 {
 color = 10;
 glyphname = upsilondialytikaperispomeni.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:03 +0000";
 layers = (
 {
 components = (
@@ -109844,7 +109844,7 @@ name = upsilon.sc;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 80, 31}";
+transform = "{1, 0, 0, 1, 77, 31}";
 }
 );
 layerId = UUID1;
@@ -111898,7 +111898,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonvaria.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -111907,7 +111907,7 @@ name = epsilon.sc;
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 72, 45}";
+transform = "{1, 0, 0, 1, -175, -194}";
 }
 );
 layerId = UUID0;
@@ -111920,7 +111920,7 @@ name = epsilon.sc;
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 71, 31}";
+transform = "{1, 0, 0, 1, -190, -256}";
 }
 );
 layerId = UUID1;
@@ -111933,7 +111933,7 @@ rightKerningGroup = E;
 {
 color = 10;
 glyphname = epsilonoxia.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -111942,7 +111942,7 @@ name = epsilon.sc;
 },
 {
 name = oxia;
-transform = "{1, 0, 0, 1, 76, 45}";
+transform = "{1, 0, 0, 1, -225, -177}";
 }
 );
 layerId = UUID0;
@@ -111955,7 +111955,7 @@ name = epsilon.sc;
 },
 {
 name = oxia;
-transform = "{1, 0, 0, 1, 80, 31}";
+transform = "{1, 0, 0, 1, -244, -256}";
 }
 );
 layerId = UUID1;
@@ -113123,7 +113123,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotaperispomeni.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -113132,7 +113132,7 @@ name = i.sc;
 },
 {
 name = perispomeni;
-transform = "{1, 0, 0, 1, -35, 25}";
+transform = "{1, 0, 0, 1, -33, 25}";
 }
 );
 layerId = UUID0;
@@ -113145,7 +113145,7 @@ name = i.sc;
 },
 {
 name = perispomeni;
-transform = "{1, 0, 0, 1, -34, 31}";
+transform = "{1, 0, 0, 1, -31, 31}";
 }
 );
 layerId = UUID1;
@@ -113228,7 +113228,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikavaria.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -113237,7 +113237,7 @@ name = i.sc;
 },
 {
 name = dialytikavaria;
-transform = "{1, 0, 0, 1, -39, 45}";
+transform = "{1, 0, 0, 1, -37, 45}";
 }
 );
 layerId = UUID0;
@@ -113250,7 +113250,7 @@ name = i.sc;
 },
 {
 name = dialytikavaria;
-transform = "{1, 0, 0, 1, -19, 31}";
+transform = "{1, 0, 0, 1, -16, 31}";
 }
 );
 layerId = UUID1;
@@ -113263,7 +113263,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaoxia.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -113272,7 +113272,7 @@ name = i.sc;
 },
 {
 name = dialytikaoxia;
-transform = "{1, 0, 0, 1, -39, 45}";
+transform = "{1, 0, 0, 1, -37, 45}";
 }
 );
 layerId = UUID0;
@@ -113285,7 +113285,7 @@ name = i.sc;
 },
 {
 name = dialytikaoxia;
-transform = "{1, 0, 0, 1, -19, 31}";
+transform = "{1, 0, 0, 1, -16, 31}";
 }
 );
 layerId = UUID1;
@@ -113298,7 +113298,7 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = iotadialytikaperispomeni.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -113307,7 +113307,7 @@ name = i.sc;
 },
 {
 name = dialytikaperispomeni;
-transform = "{1, 0, 0, 1, -66, 45}";
+transform = "{1, 0, 0, 1, -64, 45}";
 }
 );
 layerId = UUID0;
@@ -113320,7 +113320,7 @@ name = i.sc;
 },
 {
 name = dialytikaperispomeni;
-transform = "{1, 0, 0, 1, -65, 31}";
+transform = "{1, 0, 0, 1, -62, 31}";
 }
 );
 layerId = UUID1;
@@ -113543,7 +113543,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronvaria.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -113552,7 +113552,7 @@ name = omicron.sc;
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 91, 45}";
+transform = "{1, 0, 0, 1, -175, -194}";
 }
 );
 layerId = UUID0;
@@ -113565,7 +113565,7 @@ name = omicron.sc;
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 80, 31}";
+transform = "{1, 0, 0, 1, -190, -256}";
 }
 );
 layerId = UUID1;
@@ -113578,7 +113578,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omicronoxia.sc.ss05;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-24 12:05:02 +0000";
 layers = (
 {
 components = (
@@ -113587,7 +113587,7 @@ name = omicron.sc;
 },
 {
 name = oxia;
-transform = "{1, 0, 0, 1, 95, 45}";
+transform = "{1, 0, 0, 1, -225, -177}";
 }
 );
 layerId = UUID0;
@@ -113600,7 +113600,7 @@ name = omicron.sc;
 },
 {
 name = oxia;
-transform = "{1, 0, 0, 1, 89, 31}";
+transform = "{1, 0, 0, 1, -244, -256}";
 }
 );
 layerId = UUID1;
@@ -145535,7 +145535,7 @@ unicode = 0303;
 {
 color = 4;
 glyphname = tildecomb_dieresiscomb;
-lastChange = "2016-09-24 11:54:16 +0000";
+lastChange = "2016-09-24 12:05:01 +0000";
 layers = (
 {
 anchors = (
@@ -145581,7 +145581,7 @@ transform = "{0.9259, 0, 0, 0.9259, 0, 0}";
 {
 alignment = 1;
 name = dieresiscomb;
-transform = "{0.9246, 0, 0, 0.9246, 3, 178}";
+transform = "{0.9246, 0, 0, 0.9246, 0, 178}";
 }
 );
 layerId = UUID1;
@@ -148823,7 +148823,7 @@ width = 398;
 {
 color = 1;
 glyphname = macroncomb.case;
-lastChange = "2016-09-24 11:54:16 +0000";
+lastChange = "2016-09-24 12:06:51 +0000";
 layers = (
 {
 anchors = (
@@ -148833,7 +148833,7 @@ position = "{200, 637}";
 },
 {
 name = top;
-position = "{200, 778}";
+position = "{200, 745}";
 }
 );
 layerId = UUID0;
@@ -148868,7 +148868,7 @@ position = "{204, 647}";
 },
 {
 name = top;
-position = "{204, 823}";
+position = "{204, 822}";
 }
 );
 layerId = UUID1;
