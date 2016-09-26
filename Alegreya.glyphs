@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"\U00C4\U00CB\U00CF/Idieresisacute \U00D6/Odieresismacron/Otildedieresis \U00DC/Udieresisacute/Udieresiscaron/Udieresisgrave/Udieresismacron/Umacrondieresis/Wdieresis/Ydieresis \U00E4\U00EB\U00EF/idieresisacute \U00F6/odieresismacron/otildedieresis/tdieresis \U00FC/udieresisacute/udieresiscaron/udieresisgrave/udieresismacron/umacrondieresis/wdieresis/ydieresis/adieresis.sc/edieresis.sc/idieresis.sc/idieresisacute.sc/odieresis.sc/odieresismacron.sc/otildedieresis.sc/tdieresis.sc/udieresis.sc/udieresisacute.sc/udieresiscaron.sc/udieresisgrave.sc/udieresismacron.sc/umacrondieresis.sc/wdieresis.sc/ydieresis.sc"
+"/dotbelowcomb/dieresisbelowcomb/commaaccentcomb/cedillacomb \U00B8/ogonekcomb/brevebelowcomb/ogonek/macronbelowcomb \012\012/dotaccentcomb/gravecomb/acutecomb/hungarumlautcomb/caroncomb.alt/circumflexcomb/caroncomb/brevecomb/ringcomb/tildecomb/hookabovecomb/dblgravecomb/breveinvertedcomb/commaturnedabovecomb/horncomb/dotaccentcomb.case/gravecomb.case/acutecomb.case/hungarumlautcomb.case/macroncomb.case/circumflexcomb.case/caroncomb.case/brevecomb.case/ringcomb.case/tildecomb.case/apostrophemod/commaturnedmod/firsttonechinese/fourthtonechinese/primemod/ringhalfleft/ringhalfright/secondtonechinese/verticallinelowmod/verticallinemod \U00B4/breve/caron/circumflex \U00A8/dotaccent `/hungarumlaut \U00AF/ring/tilde/tonos/dieresistonos/psili/koronis/dasia/psilivaria/dasiavaria/psilioxia/dasiaoxia/varia/oxia/perispomeni/psili.case/dasia.case/psilivaria.case/dasiavaria.case/psilioxia.case/dasiaoxia.case \012/dieresiscomb.case/dieresiscomb/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/dotaccentcomb_macroncomb/tildecomb_dieresiscomb/tildecomb_acutecomb/tildecomb_macroncomb/macroncomb/macroncomb_gravecomb/macroncomb_acutecomb/dieresiscomb_acutecomb.case/dieresiscomb_macroncomb.case/dotaccentcomb_macroncomb.case/tildecomb_dieresiscomb.case/tildecomb_acutecomb.case/tildecomb_macroncomb.case/macroncomb_gravecomb.case/macroncomb_acutecomb.case/dblgravecomb.case/psiliperispomeni/dasiaperispomeni/dialytikavaria/dialytikaoxia/dialytikaperispomeni/psiliperispomeni.case/dasiaperispomeni.case/perispomeni.case/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb"
 );
 classes = (
 {
@@ -14801,7 +14801,7 @@ unicode = 016A;
 {
 color = 5;
 glyphname = Umacrondieresis;
-lastChange = "2016-09-24 12:06:53 +0000";
+lastChange = "2016-09-26 13:20:25 +0000";
 layers = (
 {
 components = (
@@ -14835,7 +14835,7 @@ transform = "{1, 0, 0, 1, 110, 0}";
 {
 alignment = 1;
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 115, 176}";
+transform = "{1, 0, 0, 1, 115, 175}";
 }
 );
 layerId = UUID1;
@@ -34127,7 +34127,7 @@ unicode = 016B;
 {
 color = 5;
 glyphname = umacrondieresis;
-lastChange = "2016-09-24 12:06:53 +0000";
+lastChange = "2016-09-26 13:20:13 +0000";
 layers = (
 {
 components = (
@@ -34157,7 +34157,7 @@ transform = "{1, 0, 0, 1, 67, -175}";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 72, 1}";
+transform = "{1, 0, 0, 1, 72, 0}";
 }
 );
 layerId = UUID1;
