@@ -12603,7 +12603,7 @@ unicode = 1E9E;
 {
 color = 1;
 glyphname = Schwa;
-lastChange = "2016-09-16 19:31:50 +0000";
+lastChange = "2016-09-26 14:53:58 +0000";
 layers = (
 {
 anchors = (
@@ -13035,6 +13035,8 @@ nodes = (
 width = 692;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 unicode = 018F;
 },
 {
@@ -57519,7 +57521,7 @@ rightKerningGroup = uni1E9E;
 {
 color = 1;
 glyphname = schwa.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-09-26 14:54:04 +0000";
 layers = (
 {
 anchors = (
@@ -57928,6 +57930,8 @@ nodes = (
 width = 692;
 }
 );
+leftKerningGroup = O;
+rightKerningGroup = O;
 },
 {
 color = 5;
