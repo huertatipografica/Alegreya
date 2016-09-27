@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+/Tbar/tbar/tbar.sc/Amacron
+);
 classes = (
 {
 code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Eogonek Eng Eth Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls Hbar Hcircumflex IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Thorn Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent";
@@ -12486,7 +12489,7 @@ unicode = 0054;
 },
 {
 glyphname = Tbar;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:29:40 +0000";
 layers = (
 {
 components = (
@@ -12499,14 +12502,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"281 355 LINE",
-"144 356 LINE",
-"137 317 LINE",
-"146 308 LINE",
-"259 309 LINE",
-"398 310 LINE",
-"402 347 LINE",
-"389 360 LINE"
+"279 345 LINE",
+"132 346 LINE",
+"125 307 LINE",
+"134 298 LINE",
+"257 299 LINE",
+"406 300 LINE",
+"410 337 LINE",
+"397 350 LINE"
 );
 }
 );
@@ -12523,14 +12526,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"318 308 LINE",
-"109 309 LINE",
-"101 251 LINE",
-"112 241 LINE",
-"292 242 LINE",
-"479 242 LINE",
-"484 297 LINE",
-"469 312 LINE"
+"317 296 LINE",
+"88 297 LINE",
+"80 239 LINE",
+"91 229 LINE",
+"291 230 LINE",
+"498 230 LINE",
+"503 285 LINE",
+"488 300 LINE"
 );
 }
 );
@@ -48863,7 +48866,7 @@ rightKerningGroup = T;
 },
 {
 glyphname = tbar.sc;
-lastChange = "2015-12-07 15:52:45 +0000";
+lastChange = "2016-09-27 14:29:26 +0000";
 layers = (
 {
 components = (
@@ -48876,14 +48879,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"241 255 LINE",
-"104 256 LINE",
-"97 217 LINE",
-"106 208 LINE",
-"219 209 LINE",
-"358 210 LINE",
-"362 247 LINE",
-"349 260 LINE"
+"242 252 LINE",
+"105 253 LINE",
+"98 214 LINE",
+"107 205 LINE",
+"220 206 LINE",
+"362 207 LINE",
+"366 244 LINE",
+"353 257 LINE"
 );
 }
 );
