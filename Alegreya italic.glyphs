@@ -724,7 +724,7 @@ unicode = 0041;
 },
 {
 glyphname = Aacute;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -733,7 +733,7 @@ alignment = -1;
 name = A;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 108, 0}";
 }
 );
@@ -747,7 +747,7 @@ alignment = -1;
 name = A;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 211, 0}";
 }
 );
@@ -761,7 +761,7 @@ unicode = 00C1;
 },
 {
 glyphname = Abreve;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -770,7 +770,7 @@ alignment = -1;
 name = A;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 97, 0}";
 }
 );
@@ -784,7 +784,7 @@ alignment = -1;
 name = A;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 142, 40}";
 }
 );
@@ -1091,7 +1091,7 @@ unicode = 1EB4;
 },
 {
 glyphname = Acaron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1099,7 +1099,7 @@ components = (
 name = A;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
@@ -1112,7 +1112,7 @@ components = (
 name = A;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 144, 0}";
 }
 );
@@ -1126,7 +1126,7 @@ unicode = 01CD;
 },
 {
 glyphname = Acircumflex;
-lastChange = "2015-12-07 19:04:52 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1135,7 +1135,7 @@ alignment = -1;
 name = A;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
@@ -1149,7 +1149,7 @@ alignment = -1;
 name = A;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 144, 0}";
 }
 );
@@ -1200,7 +1200,7 @@ unicode = 1EA4;
 },
 {
 glyphname = Acircumflexdotbelow;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1209,7 +1209,7 @@ alignment = -1;
 name = A;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 98, 0}";
 },
 {
@@ -1227,7 +1227,7 @@ alignment = -1;
 name = A;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 144, 0}";
 },
 {
@@ -1356,7 +1356,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adieresis;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1364,7 +1364,7 @@ components = (
 name = A;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
@@ -1377,7 +1377,7 @@ components = (
 name = A;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 143, 10}";
 }
 );
@@ -1428,7 +1428,7 @@ unicode = 1EA0;
 },
 {
 glyphname = Agrave;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1437,7 +1437,7 @@ alignment = -1;
 name = A;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 95, 0}";
 }
 );
@@ -1451,7 +1451,7 @@ alignment = -1;
 name = A;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 245, 0}";
 }
 );
@@ -1552,7 +1552,7 @@ unicode = 1EA2;
 },
 {
 glyphname = Amacron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1560,7 +1560,7 @@ components = (
 name = A;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 97, 0}";
 }
 );
@@ -1573,7 +1573,7 @@ components = (
 name = A;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
@@ -1622,7 +1622,7 @@ unicode = 0104;
 },
 {
 glyphname = Aring;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1630,7 +1630,7 @@ components = (
 name = A;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
@@ -1643,7 +1643,7 @@ components = (
 name = A;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 143, 0}";
 }
 );
@@ -1657,7 +1657,7 @@ unicode = 00C5;
 },
 {
 glyphname = Aringacute;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1665,11 +1665,11 @@ components = (
 name = A;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{0.901, 0, 0, 0.902, 129, 61}";
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{0.9, 0, 0, 0.9, 111, 185}";
 }
 );
@@ -1682,11 +1682,11 @@ components = (
 name = A;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{0.9, 0, 0, 0.9, 163, 46}";
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{0.9, 0, 0, 0.9, 244, 229}";
 }
 );
@@ -1700,7 +1700,7 @@ unicode = 01FA;
 },
 {
 glyphname = Atilde;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -1709,7 +1709,7 @@ alignment = -1;
 name = A;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 99, 0}";
 }
 );
@@ -1723,7 +1723,7 @@ alignment = -1;
 name = A;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
@@ -2586,7 +2586,7 @@ unicode = 0043;
 },
 {
 glyphname = Cacute;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -2594,7 +2594,7 @@ components = (
 name = C;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 150, 0}";
 }
 );
@@ -2607,7 +2607,7 @@ components = (
 name = C;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 175, 0}";
 }
 );
@@ -2621,7 +2621,7 @@ unicode = 0106;
 },
 {
 glyphname = Ccaron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -2629,7 +2629,7 @@ components = (
 name = C;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 160, 0}";
 }
 );
@@ -2642,7 +2642,7 @@ components = (
 name = C;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 126, 0}";
 }
 );
@@ -2726,7 +2726,7 @@ unicode = 0108;
 },
 {
 glyphname = Cdotaccent;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 components = (
@@ -2734,7 +2734,7 @@ components = (
 name = C;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 160, 0}";
 }
 );
@@ -2747,7 +2747,7 @@ components = (
 name = C;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 139, 0}";
 }
 );
@@ -3116,7 +3116,7 @@ unicode = 00D0;
 },
 {
 glyphname = Dcaron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3124,7 +3124,7 @@ components = (
 name = D;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 132, 0}";
 }
 );
@@ -3137,7 +3137,7 @@ components = (
 name = D;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 128, 0}";
 }
 );
@@ -3580,7 +3580,7 @@ unicode = 0045;
 },
 {
 glyphname = Eacute;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3589,7 +3589,7 @@ alignment = -1;
 name = E;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 79, 0}";
 }
 );
@@ -3603,7 +3603,7 @@ alignment = -1;
 name = E;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 176, 0}";
 }
 );
@@ -3652,7 +3652,7 @@ unicode = 0114;
 },
 {
 glyphname = Ecaron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3660,7 +3660,7 @@ components = (
 name = E;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
 );
@@ -3673,7 +3673,7 @@ components = (
 name = E;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 127, 0}";
 }
 );
@@ -3687,7 +3687,7 @@ unicode = 011A;
 },
 {
 glyphname = Ecircumflex;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3696,7 +3696,7 @@ alignment = -1;
 name = E;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
 );
@@ -3710,7 +3710,7 @@ alignment = -1;
 name = E;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 129, 0}";
 }
 );
@@ -3761,7 +3761,7 @@ unicode = 1EBE;
 },
 {
 glyphname = Ecircumflexdotbelow;
-lastChange = "2015-12-07 19:04:53 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3770,7 +3770,7 @@ alignment = -1;
 name = E;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 111, 0}";
 },
 {
@@ -3788,7 +3788,7 @@ alignment = -1;
 name = E;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 129, 0}";
 },
 {
@@ -3917,7 +3917,7 @@ unicode = 1EC4;
 },
 {
 glyphname = Edieresis;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3925,7 +3925,7 @@ components = (
 name = E;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
 );
@@ -3938,7 +3938,7 @@ components = (
 name = E;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 128, 10}";
 }
 );
@@ -3952,7 +3952,7 @@ unicode = 00CB;
 },
 {
 glyphname = Edotaccent;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -3960,7 +3960,7 @@ components = (
 name = E;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
 );
@@ -3973,7 +3973,7 @@ components = (
 name = E;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 130, 0}";
 }
 );
@@ -4024,7 +4024,7 @@ unicode = 1EB8;
 },
 {
 glyphname = Egrave;
-lastChange = "2015-12-07 19:04:52 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -4033,7 +4033,7 @@ alignment = -1;
 name = E;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 108, 0}";
 }
 );
@@ -4047,7 +4047,7 @@ alignment = -1;
 name = E;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 215, 0}";
 }
 );
@@ -4098,7 +4098,7 @@ unicode = 1EBA;
 },
 {
 glyphname = Emacron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -4106,7 +4106,7 @@ components = (
 name = E;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 110, 0}";
 }
 );
@@ -4119,7 +4119,7 @@ components = (
 name = E;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 127, 0}";
 }
 );
@@ -4168,7 +4168,7 @@ unicode = 0118;
 },
 {
 glyphname = Etilde;
-lastChange = "2015-12-07 19:04:52 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -4177,7 +4177,7 @@ alignment = -1;
 name = E;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 111, 0}";
 }
 );
@@ -4191,7 +4191,7 @@ alignment = -1;
 name = E;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 129, 0}";
 }
 );
@@ -4821,7 +4821,7 @@ unicode = 0047;
 },
 {
 glyphname = Gbreve;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -4829,7 +4829,7 @@ components = (
 name = G;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 146, 20}";
 }
 );
@@ -4842,7 +4842,7 @@ components = (
 name = G;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 130, 40}";
 }
 );
@@ -4926,7 +4926,7 @@ unicode = 0122;
 },
 {
 glyphname = Gdotaccent;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -4934,7 +4934,7 @@ components = (
 name = G;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 147, 0}";
 }
 );
@@ -4947,7 +4947,7 @@ components = (
 name = G;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 146, 0}";
 }
 );
@@ -5797,7 +5797,7 @@ unicode = 0132;
 },
 {
 glyphname = Iacute;
-lastChange = "2015-12-07 19:04:52 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -5806,7 +5806,7 @@ alignment = -1;
 name = I;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
@@ -5820,7 +5820,7 @@ alignment = -1;
 name = I;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 57, 0}";
 }
 );
@@ -5834,7 +5834,7 @@ unicode = 00CD;
 },
 {
 glyphname = Ibreve;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -5842,7 +5842,7 @@ components = (
 name = I;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, -21, 10}";
 }
 );
@@ -5855,7 +5855,7 @@ components = (
 name = I;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, -9, 40}";
 }
 );
@@ -5869,7 +5869,7 @@ unicode = 012C;
 },
 {
 glyphname = Icaron;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -5877,7 +5877,7 @@ components = (
 name = I;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
@@ -5890,7 +5890,7 @@ components = (
 name = I;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, -10, 0}";
 }
 );
@@ -5904,7 +5904,7 @@ unicode = 01CF;
 },
 {
 glyphname = Icircumflex;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -5912,7 +5912,7 @@ components = (
 name = I;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
@@ -5925,7 +5925,7 @@ components = (
 name = I;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, -10, 0}";
 }
 );
@@ -5939,7 +5939,7 @@ unicode = 00CE;
 },
 {
 glyphname = Idieresis;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -5947,7 +5947,7 @@ components = (
 name = I;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
@@ -5960,7 +5960,7 @@ components = (
 name = I;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, -11, 10}";
 }
 );
@@ -5974,7 +5974,7 @@ unicode = 00CF;
 },
 {
 glyphname = Idotaccent;
-lastChange = "2014-11-20 11:26:59 +0000";
+lastChange = "2016-09-27 14:44:33 +0000";
 layers = (
 {
 components = (
@@ -5982,7 +5982,7 @@ components = (
 name = I;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, -15, 0}";
 }
 );
@@ -5995,7 +5995,7 @@ components = (
 name = I;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, -9, 0}";
 }
 );
@@ -6055,7 +6055,7 @@ alignment = -1;
 name = I;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, -18, 0}";
 }
 );
@@ -6069,7 +6069,7 @@ alignment = -1;
 name = I;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 83, 0}";
 }
 );
@@ -6128,7 +6128,7 @@ components = (
 name = I;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, -16, 0}";
 }
 );
@@ -6141,7 +6141,7 @@ components = (
 name = I;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, -12, 0}";
 }
 );
@@ -7131,7 +7131,7 @@ components = (
 name = L;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 1, 0}";
 }
 );
@@ -7144,7 +7144,7 @@ components = (
 name = L;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
@@ -8116,7 +8116,7 @@ components = (
 name = N;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 172, 0}";
 }
 );
@@ -8129,7 +8129,7 @@ components = (
 name = N;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 214, 0}";
 }
 );
@@ -8151,7 +8151,7 @@ components = (
 name = N;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 162, 0}";
 }
 );
@@ -8164,7 +8164,7 @@ components = (
 name = N;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 175, 0}";
 }
 );
@@ -8539,7 +8539,7 @@ components = (
 name = N;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 163, 0}";
 }
 );
@@ -8552,7 +8552,7 @@ components = (
 name = N;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 175, 0}";
 }
 );
@@ -8761,7 +8761,7 @@ alignment = -1;
 name = O;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 123, 0}";
 }
 );
@@ -8775,7 +8775,7 @@ alignment = -1;
 name = O;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 188, 0}";
 }
 );
@@ -8832,7 +8832,7 @@ components = (
 name = O;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
@@ -8845,7 +8845,7 @@ components = (
 name = O;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 125, 0}";
 }
 );
@@ -8868,7 +8868,7 @@ alignment = -1;
 name = O;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 133, 0}";
 }
 );
@@ -8882,7 +8882,7 @@ alignment = -1;
 name = O;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 127, 0}";
 }
 );
@@ -8942,7 +8942,7 @@ alignment = -1;
 name = O;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 143, 0}";
 },
 {
@@ -8960,7 +8960,7 @@ alignment = -1;
 name = O;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 127, 0}";
 },
 {
@@ -9097,7 +9097,7 @@ components = (
 name = O;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 133, 0}";
 }
 );
@@ -9110,7 +9110,7 @@ components = (
 name = O;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 126, 10}";
 }
 );
@@ -9170,7 +9170,7 @@ alignment = -1;
 name = O;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 140, 0}";
 }
 );
@@ -9184,7 +9184,7 @@ alignment = -1;
 name = O;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 229, 0}";
 }
 );
@@ -9404,7 +9404,7 @@ alignment = -1;
 name = Ohorn;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 153, 0}";
 }
 );
@@ -9418,7 +9418,7 @@ alignment = -1;
 name = Ohorn;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 164, 10}";
 }
 );
@@ -9478,7 +9478,7 @@ alignment = -1;
 name = Ohorn;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 140, 0}";
 }
 );
@@ -9492,7 +9492,7 @@ alignment = -1;
 name = Ohorn;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 203, 0}";
 }
 );
@@ -9552,7 +9552,7 @@ alignment = -1;
 name = Ohorn;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
@@ -9566,7 +9566,7 @@ alignment = -1;
 name = Ohorn;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 105, 10}";
 }
 );
@@ -9588,7 +9588,7 @@ components = (
 name = O;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 117, 0}";
 }
 );
@@ -9601,7 +9601,7 @@ components = (
 name = O;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 174, 0}";
 }
 );
@@ -9623,7 +9623,7 @@ components = (
 name = O;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
@@ -9636,7 +9636,7 @@ components = (
 name = O;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 125, 0}";
 }
 );
@@ -9872,7 +9872,7 @@ components = (
 name = O;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
@@ -9913,7 +9913,7 @@ components = (
 name = Oslash;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 123, 0}";
 }
 );
@@ -9927,7 +9927,7 @@ components = (
 name = O;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 163, 10}";
 }
 );
@@ -9968,7 +9968,7 @@ components = (
 name = Oslash;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 165, 5}";
 }
 );
@@ -9991,7 +9991,7 @@ alignment = -1;
 name = O;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 144, 0}";
 }
 );
@@ -10005,7 +10005,7 @@ alignment = -1;
 name = O;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 125, 0}";
 }
 );
@@ -11329,7 +11329,7 @@ components = (
 name = R;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 106, 0}";
 }
 );
@@ -11342,7 +11342,7 @@ components = (
 name = R;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 172, 0}";
 }
 );
@@ -11364,7 +11364,7 @@ components = (
 name = R;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 96, 0}";
 }
 );
@@ -11377,7 +11377,7 @@ components = (
 name = R;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 133, 0}";
 }
 );
@@ -11704,7 +11704,7 @@ components = (
 name = S;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 73, 0}";
 }
 );
@@ -11717,7 +11717,7 @@ components = (
 name = S;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 147, 0}";
 }
 );
@@ -11837,7 +11837,7 @@ components = (
 name = S;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 73, 0}";
 }
 );
@@ -11850,7 +11850,7 @@ components = (
 name = S;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
@@ -12587,7 +12587,7 @@ components = (
 name = T;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 77, 0}";
 }
 );
@@ -12600,7 +12600,7 @@ components = (
 name = T;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 101, 0}";
 }
 );
@@ -13011,7 +13011,7 @@ alignment = -1;
 name = U;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 158, 0}";
 }
 );
@@ -13025,7 +13025,7 @@ alignment = -1;
 name = U;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 182, 0}";
 }
 );
@@ -13082,7 +13082,7 @@ components = (
 name = U;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 148, 0}";
 }
 );
@@ -13095,7 +13095,7 @@ components = (
 name = U;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 135, 0}";
 }
 );
@@ -13117,7 +13117,7 @@ components = (
 name = U;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 148, 0}";
 }
 );
@@ -13130,7 +13130,7 @@ components = (
 name = U;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 135, 0}";
 }
 );
@@ -13152,7 +13152,7 @@ components = (
 name = U;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 148, 0}";
 }
 );
@@ -13165,7 +13165,7 @@ components = (
 name = U;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 134, 10}";
 }
 );
@@ -13365,7 +13365,7 @@ alignment = -1;
 name = U;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 145, 0}";
 }
 );
@@ -13379,7 +13379,7 @@ alignment = -1;
 name = U;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 221, 0}";
 }
 );
@@ -13803,7 +13803,7 @@ alignment = -1;
 name = Uhorn;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 158, 0}";
 }
 );
@@ -13817,7 +13817,7 @@ alignment = -1;
 name = Uhorn;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 152, 0}";
 }
 );
@@ -13874,7 +13874,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 145, 0}";
 },
 {
@@ -13888,7 +13888,7 @@ width = 663;
 components = (
 {
 alignment = -1;
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 191, 0}";
 },
 {
@@ -13987,7 +13987,7 @@ components = (
 name = U;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 152, 0}";
 }
 );
@@ -14000,7 +14000,7 @@ components = (
 name = U;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 182, 0}";
 }
 );
@@ -14022,7 +14022,7 @@ components = (
 name = U;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 147, 0}";
 }
 );
@@ -14035,7 +14035,7 @@ components = (
 name = U;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 133, 0}";
 }
 );
@@ -14432,7 +14432,7 @@ components = (
 name = U;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 148, 0}";
 }
 );
@@ -14445,7 +14445,7 @@ components = (
 name = U;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 134, 0}";
 }
 );
@@ -15116,7 +15116,7 @@ components = (
 name = W;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 277, 0}";
 }
 );
@@ -15129,7 +15129,7 @@ components = (
 name = W;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 378, 0}";
 }
 );
@@ -15151,7 +15151,7 @@ components = (
 name = W;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 267, 0}";
 }
 );
@@ -15164,7 +15164,7 @@ components = (
 name = W;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 321, 0}";
 }
 );
@@ -15186,7 +15186,7 @@ components = (
 name = W;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 267, 0}";
 }
 );
@@ -15199,7 +15199,7 @@ components = (
 name = W;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 320, 0}";
 }
 );
@@ -15221,7 +15221,7 @@ components = (
 name = W;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 264, 0}";
 }
 );
@@ -15234,7 +15234,7 @@ components = (
 name = W;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 407, 0}";
 }
 );
@@ -15997,7 +15997,7 @@ alignment = -1;
 name = Y;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 96, 0}";
 }
 );
@@ -16011,7 +16011,7 @@ alignment = -1;
 name = Y;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 214, 0}";
 }
 );
@@ -16033,7 +16033,7 @@ components = (
 name = Y;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 86, 0}";
 }
 );
@@ -16046,7 +16046,7 @@ components = (
 name = Y;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 157, 0}";
 }
 );
@@ -16068,7 +16068,7 @@ components = (
 name = Y;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 86, 0}";
 }
 );
@@ -16081,7 +16081,7 @@ components = (
 name = Y;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 156, 0}";
 }
 );
@@ -16141,7 +16141,7 @@ alignment = -1;
 name = Y;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 83, 0}";
 }
 );
@@ -16155,7 +16155,7 @@ alignment = -1;
 name = Y;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 233, 0}";
 }
 );
@@ -16215,7 +16215,7 @@ alignment = -1;
 name = Y;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 96, 0}";
 }
 );
@@ -16229,7 +16229,7 @@ alignment = -1;
 name = Y;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 164, 0}";
 }
 );
@@ -16433,7 +16433,7 @@ components = (
 name = Z;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 103, 0}";
 }
 );
@@ -16446,7 +16446,7 @@ components = (
 name = Z;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 181, 0}";
 }
 );
@@ -16468,7 +16468,7 @@ components = (
 name = Z;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
@@ -16481,7 +16481,7 @@ components = (
 name = Z;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 132, 0}";
 }
 );
@@ -16503,7 +16503,7 @@ components = (
 name = Z;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
@@ -16516,7 +16516,7 @@ components = (
 name = Z;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 135, 0}";
 }
 );
@@ -19888,11 +19888,11 @@ components = (
 name = a;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{0.901, 0, 0, 0.902, 56, -127}";
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{0.9, 0, 0, 0.9, 36, -6}";
 }
 );
@@ -19905,11 +19905,11 @@ components = (
 name = a;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{0.9, 0, 0, 0.9, 85, -118}";
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{0.9, 0, 0, 0.9, 166, 57}";
 }
 );
@@ -43314,7 +43314,7 @@ components = (
 name = a.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 42, -140}";
 }
 );
@@ -43327,7 +43327,7 @@ components = (
 name = a.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 140, -144}";
 }
 );
@@ -43348,7 +43348,7 @@ components = (
 name = a.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 45, -140}";
 }
 );
@@ -43361,7 +43361,7 @@ components = (
 name = a.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 77, -114}";
 }
 );
@@ -43557,7 +43557,7 @@ layers = (
 {
 components = (
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 48, -140}";
 },
 {
@@ -43570,7 +43570,7 @@ width = 485;
 {
 components = (
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 77, -144}";
 },
 {
@@ -43594,7 +43594,7 @@ components = (
 name = a.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 47, -140}";
 }
 );
@@ -43607,7 +43607,7 @@ components = (
 name = a.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 81, -144}";
 }
 );
@@ -43659,7 +43659,7 @@ layers = (
 {
 components = (
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 58, -140}";
 },
 {
@@ -43676,7 +43676,7 @@ width = 485;
 {
 components = (
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 87, -144}";
 },
 {
@@ -43806,7 +43806,7 @@ components = (
 name = a.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 47, -140}";
 }
 );
@@ -43819,7 +43819,7 @@ components = (
 name = a.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 80, -134}";
 }
 );
@@ -43874,7 +43874,7 @@ components = (
 name = a.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 55, -140}";
 }
 );
@@ -43887,7 +43887,7 @@ components = (
 name = a.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 188, -144}";
 }
 );
@@ -43942,7 +43942,7 @@ components = (
 name = a.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 46, -140}";
 }
 );
@@ -43955,7 +43955,7 @@ components = (
 name = a.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 78, -144}";
 }
 );
@@ -44010,7 +44010,7 @@ components = (
 name = a.sc;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 47, -140}";
 }
 );
@@ -44023,7 +44023,7 @@ components = (
 name = a.sc;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 80, -144}";
 }
 );
@@ -44044,11 +44044,11 @@ components = (
 name = a.sc;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{0.901, 0, 0, 0.902, 71, -79}";
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{0.9, 0, 0, 0.9, 46, 45}";
 }
 );
@@ -44061,11 +44061,11 @@ components = (
 name = a.sc;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{0.9, 0, 0, 0.9, 95, -88}";
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{0.9, 0, 0, 0.9, 169, 85}";
 }
 );
@@ -44086,7 +44086,7 @@ components = (
 name = a.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 47, -140}";
 }
 );
@@ -44099,7 +44099,7 @@ components = (
 name = a.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 78, -144}";
 }
 );
@@ -44951,7 +44951,7 @@ components = (
 name = c.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 70, -140}";
 }
 );
@@ -44964,7 +44964,7 @@ components = (
 name = c.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 102, -144}";
 }
 );
@@ -44985,7 +44985,7 @@ components = (
 name = c.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 90, -140}";
 }
 );
@@ -44998,7 +44998,7 @@ components = (
 name = c.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 56, -144}";
 }
 );
@@ -45087,7 +45087,7 @@ components = (
 name = c.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 92, -140}";
 }
 );
@@ -45100,7 +45100,7 @@ components = (
 name = c.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 69, -144}";
 }
 );
@@ -45473,7 +45473,7 @@ components = (
 name = d.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 70, -140}";
 }
 );
@@ -45486,7 +45486,7 @@ components = (
 name = d.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 61, -144}";
 }
 );
@@ -45932,7 +45932,7 @@ components = (
 name = e.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 19, -140}";
 }
 );
@@ -45945,7 +45945,7 @@ components = (
 name = e.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 110, -144}";
 }
 );
@@ -45966,7 +45966,7 @@ components = (
 name = e.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 55, -140}";
 }
 );
@@ -45979,7 +45979,7 @@ components = (
 name = e.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 57, -114}";
 }
 );
@@ -46000,7 +46000,7 @@ components = (
 name = e.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 55, -140}";
 }
 );
@@ -46013,7 +46013,7 @@ components = (
 name = e.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 62, -144}";
 }
 );
@@ -46034,7 +46034,7 @@ components = (
 name = e.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 56, -140}";
 }
 );
@@ -46047,7 +46047,7 @@ components = (
 name = e.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 65, -144}";
 }
 );
@@ -46099,7 +46099,7 @@ layers = (
 {
 components = (
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 68, -140}";
 },
 {
@@ -46116,7 +46116,7 @@ width = 488;
 {
 components = (
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 72, -144}";
 },
 {
@@ -46246,7 +46246,7 @@ components = (
 name = e.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 56, -140}";
 }
 );
@@ -46259,7 +46259,7 @@ components = (
 name = e.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 64, -134}";
 }
 );
@@ -46280,7 +46280,7 @@ components = (
 name = e.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 56, -140}";
 }
 );
@@ -46293,7 +46293,7 @@ components = (
 name = e.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 66, -144}";
 }
 );
@@ -46348,7 +46348,7 @@ components = (
 name = e.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 63, -140}";
 }
 );
@@ -46361,7 +46361,7 @@ components = (
 name = e.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 158, -144}";
 }
 );
@@ -46416,7 +46416,7 @@ components = (
 name = e.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 56, -140}";
 }
 );
@@ -46429,7 +46429,7 @@ components = (
 name = e.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 63, -144}";
 }
 );
@@ -46481,7 +46481,7 @@ layers = (
 {
 components = (
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 67, -140}";
 },
 {
@@ -46494,7 +46494,7 @@ width = 488;
 {
 components = (
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 82, -144}";
 },
 {
@@ -47126,7 +47126,7 @@ components = (
 name = g.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 81, -140}";
 }
 );
@@ -47139,7 +47139,7 @@ components = (
 name = g.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 61, -104}";
 }
 );
@@ -47228,7 +47228,7 @@ components = (
 name = g.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 84, -140}";
 }
 );
@@ -47241,7 +47241,7 @@ components = (
 name = g.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 77, -144}";
 }
 );
@@ -48276,7 +48276,7 @@ components = (
 name = i.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, -71, -140}";
 }
 );
@@ -48289,7 +48289,7 @@ components = (
 name = i.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 9, -144}";
 }
 );
@@ -48310,7 +48310,7 @@ components = (
 name = i.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, -50, -140}";
 }
 );
@@ -48323,7 +48323,7 @@ components = (
 name = i.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, -56, -114}";
 }
 );
@@ -48344,7 +48344,7 @@ components = (
 name = i.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, -37, -140}";
 }
 );
@@ -48357,7 +48357,7 @@ components = (
 name = i.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, -35, -144}";
 }
 );
@@ -48378,7 +48378,7 @@ components = (
 name = i.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, -48, -140}";
 }
 );
@@ -48391,7 +48391,7 @@ components = (
 name = i.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, -52, -144}";
 }
 );
@@ -48412,7 +48412,7 @@ components = (
 name = i.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, -48, -140}";
 }
 );
@@ -48425,7 +48425,7 @@ components = (
 name = i.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, -49, -134}";
 }
 );
@@ -48446,7 +48446,7 @@ components = (
 name = i.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, -48, -140}";
 }
 );
@@ -48459,7 +48459,7 @@ components = (
 name = i.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, -51, -144}";
 }
 );
@@ -48514,7 +48514,7 @@ components = (
 name = i.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, -31, -140}";
 }
 );
@@ -48527,7 +48527,7 @@ components = (
 name = i.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 48, -144}";
 }
 );
@@ -48616,7 +48616,7 @@ components = (
 name = i.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, -49, -140}";
 }
 );
@@ -48629,7 +48629,7 @@ components = (
 name = i.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, -54, -144}";
 }
 );
@@ -50163,7 +50163,7 @@ components = (
 name = l.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, -49, -140}";
 }
 );
@@ -50176,7 +50176,7 @@ components = (
 name = l.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 11, -144}";
 }
 );
@@ -51126,7 +51126,7 @@ components = (
 name = n.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 90, -140}";
 }
 );
@@ -51139,7 +51139,7 @@ components = (
 name = n.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 136, -144}";
 }
 );
@@ -51160,7 +51160,7 @@ components = (
 name = n.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 97, -140}";
 }
 );
@@ -51173,7 +51173,7 @@ components = (
 name = n.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 101, -144}";
 }
 );
@@ -51544,7 +51544,7 @@ components = (
 name = n.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 98, -140}";
 }
 );
@@ -51557,7 +51557,7 @@ components = (
 name = n.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 102, -144}";
 }
 );
@@ -51775,7 +51775,7 @@ components = (
 name = o.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 52, -140}";
 }
 );
@@ -51788,7 +51788,7 @@ components = (
 name = o.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 117, -144}";
 }
 );
@@ -51809,7 +51809,7 @@ components = (
 name = o.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 85, -140}";
 }
 );
@@ -51822,7 +51822,7 @@ components = (
 name = o.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 47, -114}";
 }
 );
@@ -51843,7 +51843,7 @@ components = (
 name = o.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 90, -140}";
 }
 );
@@ -51856,7 +51856,7 @@ components = (
 name = o.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 55, -144}";
 }
 );
@@ -51877,7 +51877,7 @@ components = (
 name = o.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 72, -140}";
 }
 );
@@ -51890,7 +51890,7 @@ components = (
 name = o.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 61, -144}";
 }
 );
@@ -51942,7 +51942,7 @@ layers = (
 {
 components = (
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 71, -140}";
 },
 {
@@ -51959,7 +51959,7 @@ width = 564;
 {
 components = (
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 46, -144}";
 },
 {
@@ -52089,7 +52089,7 @@ components = (
 name = o.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 72, -140}";
 }
 );
@@ -52102,7 +52102,7 @@ components = (
 name = o.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 60, -134}";
 }
 );
@@ -52157,7 +52157,7 @@ components = (
 name = o.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 87, -140}";
 }
 );
@@ -52170,7 +52170,7 @@ components = (
 name = o.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 168, -144}";
 }
 );
@@ -52384,7 +52384,7 @@ components = (
 name = ohorn.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 89, -140}";
 }
 );
@@ -52397,7 +52397,7 @@ components = (
 name = ohorn.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 84, -144}";
 }
 );
@@ -52452,7 +52452,7 @@ components = (
 name = ohorn.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 97, -140}";
 }
 );
@@ -52465,7 +52465,7 @@ components = (
 name = ohorn.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 111, -144}";
 }
 );
@@ -52520,7 +52520,7 @@ components = (
 name = ohorn.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 89, -140}";
 }
 );
@@ -52533,7 +52533,7 @@ components = (
 name = ohorn.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 35, -134}";
 }
 );
@@ -52554,7 +52554,7 @@ components = (
 name = o.sc;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 44, -140}";
 }
 );
@@ -52567,7 +52567,7 @@ components = (
 name = o.sc;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 113, -144}";
 }
 );
@@ -52588,7 +52588,7 @@ components = (
 name = o.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 79, -140}";
 }
 );
@@ -52601,7 +52601,7 @@ components = (
 name = o.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 57, -144}";
 }
 );
@@ -52834,7 +52834,7 @@ components = (
 name = o.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 51, -115}";
 }
 );
@@ -52875,7 +52875,7 @@ components = (
 name = oslash.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 50, -120}";
 }
 );
@@ -52889,7 +52889,7 @@ components = (
 name = o.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 64, -111}";
 }
 );
@@ -52930,7 +52930,7 @@ components = (
 name = oslash.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 72, -110}";
 }
 );
@@ -52951,7 +52951,7 @@ components = (
 name = o.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 80, -140}";
 }
 );
@@ -52964,7 +52964,7 @@ components = (
 name = o.sc;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 57, -144}";
 }
 );
@@ -54266,7 +54266,7 @@ components = (
 name = r.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 38, -140}";
 }
 );
@@ -54279,7 +54279,7 @@ components = (
 name = r.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 104, -144}";
 }
 );
@@ -54300,7 +54300,7 @@ components = (
 name = r.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 45, -140}";
 }
 );
@@ -54313,7 +54313,7 @@ components = (
 name = r.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 69, -144}";
 }
 );
@@ -54637,7 +54637,7 @@ components = (
 name = s.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 12, -140}";
 }
 );
@@ -54650,7 +54650,7 @@ components = (
 name = s.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 94, -144}";
 }
 );
@@ -54671,7 +54671,7 @@ components = (
 name = s.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 25, -140}";
 }
 );
@@ -54684,7 +54684,7 @@ components = (
 name = s.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 39, -144}";
 }
 );
@@ -55414,7 +55414,7 @@ components = (
 name = t.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 28, -140}";
 }
 );
@@ -55427,7 +55427,7 @@ components = (
 name = t.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 41, -144}";
 }
 );
@@ -55695,7 +55695,7 @@ components = (
 name = u.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 77, -140}";
 }
 );
@@ -55708,7 +55708,7 @@ components = (
 name = u.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 108, -144}";
 }
 );
@@ -55729,7 +55729,7 @@ components = (
 name = u.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 65, -140}";
 }
 );
@@ -55742,7 +55742,7 @@ components = (
 name = u.sc;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 57, -114}";
 }
 );
@@ -55763,7 +55763,7 @@ components = (
 name = u.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 95, -140}";
 }
 );
@@ -55776,7 +55776,7 @@ components = (
 name = u.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 53, -144}";
 }
 );
@@ -55797,7 +55797,7 @@ components = (
 name = u.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 84, -140}";
 }
 );
@@ -55810,7 +55810,7 @@ components = (
 name = u.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 67, -144}";
 }
 );
@@ -55831,7 +55831,7 @@ components = (
 name = u.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 83, -140}";
 }
 );
@@ -55844,7 +55844,7 @@ components = (
 name = u.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 66, -134}";
 }
 );
@@ -56035,7 +56035,7 @@ components = (
 name = u.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 90, -140}";
 }
 );
@@ -56048,7 +56048,7 @@ components = (
 name = u.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 160, -144}";
 }
 );
@@ -56636,7 +56636,7 @@ components = (
 name = u.sc;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 70, -140}";
 }
 );
@@ -56649,7 +56649,7 @@ components = (
 name = u.sc;
 },
 {
-name = hungarumlaut.cap;
+name = hungarumlaut.case;
 transform = "{1, 0, 0, 1, 117, -144}";
 }
 );
@@ -56670,7 +56670,7 @@ components = (
 name = u.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 83, -140}";
 }
 );
@@ -56683,7 +56683,7 @@ components = (
 name = u.sc;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 64, -144}";
 }
 );
@@ -56989,7 +56989,7 @@ components = (
 name = u.sc;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 84, -140}";
 }
 );
@@ -57002,7 +57002,7 @@ components = (
 name = u.sc;
 },
 {
-name = ring.cap;
+name = ring.case;
 transform = "{1, 0, 0, 1, 66, -144}";
 }
 );
@@ -57705,7 +57705,7 @@ components = (
 name = w.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 182, -140}";
 }
 );
@@ -57718,7 +57718,7 @@ components = (
 name = w.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 278, -144}";
 }
 );
@@ -57739,7 +57739,7 @@ components = (
 name = w.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 188, -140}";
 }
 );
@@ -57752,7 +57752,7 @@ components = (
 name = w.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 228, -144}";
 }
 );
@@ -57773,7 +57773,7 @@ components = (
 name = w.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 188, -140}";
 }
 );
@@ -57786,7 +57786,7 @@ components = (
 name = w.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 227, -134}";
 }
 );
@@ -57807,7 +57807,7 @@ components = (
 name = w.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 194, -140}";
 }
 );
@@ -57820,7 +57820,7 @@ components = (
 name = w.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 322, -144}";
 }
 );
@@ -58577,7 +58577,7 @@ components = (
 name = y.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 35, -140}";
 }
 );
@@ -58590,7 +58590,7 @@ components = (
 name = y.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 144, -144}";
 }
 );
@@ -58611,7 +58611,7 @@ components = (
 name = y.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 41, -140}";
 }
 );
@@ -58624,7 +58624,7 @@ components = (
 name = y.sc;
 },
 {
-name = circumflex.cap;
+name = circumflex.case;
 transform = "{1, 0, 0, 1, 94, -144}";
 }
 );
@@ -58645,7 +58645,7 @@ components = (
 name = y.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 41, -140}";
 }
 );
@@ -58658,7 +58658,7 @@ components = (
 name = y.sc;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 93, -134}";
 }
 );
@@ -58713,7 +58713,7 @@ components = (
 name = y.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 47, -140}";
 }
 );
@@ -58726,7 +58726,7 @@ components = (
 name = y.sc;
 },
 {
-name = grave.cap;
+name = grave.case;
 transform = "{1, 0, 0, 1, 168, -144}";
 }
 );
@@ -58778,7 +58778,7 @@ layers = (
 {
 components = (
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 42, -140}";
 },
 {
@@ -58791,7 +58791,7 @@ width = 455;
 {
 components = (
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 100, -144}";
 },
 {
@@ -58996,7 +58996,7 @@ components = (
 name = z.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 37, -140}";
 }
 );
@@ -59009,7 +59009,7 @@ components = (
 name = z.sc;
 },
 {
-name = acute.cap;
+name = acute.case;
 transform = "{1, 0, 0, 1, 122, -144}";
 }
 );
@@ -59030,7 +59030,7 @@ components = (
 name = z.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 43, -140}";
 }
 );
@@ -59043,7 +59043,7 @@ components = (
 name = z.sc;
 },
 {
-name = caron.cap;
+name = caron.case;
 transform = "{1, 0, 0, 1, 68, -144}";
 }
 );
@@ -59064,7 +59064,7 @@ components = (
 name = z.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 44, -140}";
 }
 );
@@ -59077,7 +59077,7 @@ components = (
 name = z.sc;
 },
 {
-name = dotaccent.cap;
+name = dotaccent.case;
 transform = "{1, 0, 0, 1, 72, -144}";
 }
 );
@@ -66171,7 +66171,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -115, -36}";
 }
 );
@@ -66186,7 +66186,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 24, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -150, -76}";
 }
 );
@@ -66211,7 +66211,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -93, -36}";
 }
 );
@@ -66226,7 +66226,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 38, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -122, -76}";
 }
 );
@@ -66251,7 +66251,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 81, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -96, -36}";
 }
 );
@@ -66266,7 +66266,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 192, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -91, -76}";
 }
 );
@@ -66291,7 +66291,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 63, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -107, -36}";
 }
 );
@@ -66306,7 +66306,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 182, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -66331,7 +66331,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 67, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -98, -36}";
 }
 );
@@ -66346,7 +66346,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -66371,7 +66371,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 71, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -97, -36}";
 }
 );
@@ -66386,7 +66386,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 171, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -93, -76}";
 }
 );
@@ -66411,7 +66411,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 56, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -73, -36}";
 }
 );
@@ -66426,7 +66426,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 87, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -125, -76}";
 }
 );
@@ -66451,7 +66451,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 68, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -62, -36}";
 }
 );
@@ -66466,7 +66466,7 @@ name = Alpha;
 transform = "{1, 0, 0, 1, 81, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -112, -76}";
 }
 );
@@ -66569,7 +66569,7 @@ components = (
 name = Alpha;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 94, 0}";
 }
 );
@@ -66582,7 +66582,7 @@ components = (
 name = Alpha;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 142, 30}";
 }
 );
@@ -66604,7 +66604,7 @@ components = (
 name = Alpha;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 105, 0}";
 }
 );
@@ -66617,7 +66617,7 @@ components = (
 name = Alpha;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 142, 0}";
 }
 );
@@ -66673,7 +66673,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -125, -62}";
 },
 {
@@ -66688,7 +66688,7 @@ width = 859;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -150, -76}";
 },
 {
@@ -66717,7 +66717,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -93, -36}";
 }
 );
@@ -66732,7 +66732,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 21, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -122, -76}";
 }
 );
@@ -66757,7 +66757,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 83, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -96, -36}";
 }
 );
@@ -66772,7 +66772,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 184, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -91, -76}";
 }
 );
@@ -66797,7 +66797,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 59, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -107, -36}";
 }
 );
@@ -66812,7 +66812,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 179, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -66837,7 +66837,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 66, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -98, -36}";
 }
 );
@@ -66852,7 +66852,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -66877,7 +66877,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 63, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -97, -36}";
 }
 );
@@ -66892,7 +66892,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -93, -76}";
 }
 );
@@ -66917,7 +66917,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 56, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -73, -36}";
 }
 );
@@ -66932,7 +66932,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 90, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -125, -76}";
 }
 );
@@ -66957,7 +66957,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 36, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -62, -36}";
 }
 );
@@ -66972,7 +66972,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 80, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -112, -76}";
 }
 );
@@ -66997,7 +66997,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 88, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -157, -36}";
 }
 );
@@ -67012,7 +67012,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 214, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -67037,7 +67037,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 74, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -67052,7 +67052,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 199, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -67077,7 +67077,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 178, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -109, -36}";
 }
 );
@@ -67092,7 +67092,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 360, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
@@ -67117,7 +67117,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 163, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -120, -36}";
 }
 );
@@ -67132,7 +67132,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 360, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -22, -76}";
 }
 );
@@ -67157,7 +67157,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 202, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -111, -36}";
 }
 );
@@ -67172,7 +67172,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 377, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
@@ -67197,7 +67197,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 200, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -110, -36}";
 }
 );
@@ -67212,7 +67212,7 @@ name = Epsilon;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
@@ -67317,7 +67317,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 88, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -157, -36}";
 }
 );
@@ -67332,7 +67332,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 214, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -67357,7 +67357,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 74, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -67372,7 +67372,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 212, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -67397,7 +67397,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 173, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -109, -36}";
 }
 );
@@ -67412,7 +67412,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
@@ -67437,7 +67437,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 156, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -120, -36}";
 }
 );
@@ -67452,7 +67452,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 366, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -22, -76}";
 }
 );
@@ -67477,7 +67477,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 203, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -111, -36}";
 }
 );
@@ -67492,7 +67492,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 385, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
@@ -67517,7 +67517,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 200, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -110, -36}";
 }
 );
@@ -67532,7 +67532,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
@@ -67557,7 +67557,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 186, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -86, -36}";
 }
 );
@@ -67572,7 +67572,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
@@ -67597,7 +67597,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 190, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -75, -36}";
 }
 );
@@ -67612,7 +67612,7 @@ name = Eta;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -48, -76}";
 }
 );
@@ -67749,7 +67749,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -160, -62}";
 },
 {
@@ -67764,7 +67764,7 @@ width = 1084;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 },
 {
@@ -67793,7 +67793,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 73, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -67808,7 +67808,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 206, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -67833,7 +67833,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 176, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -109, -36}";
 }
 );
@@ -67848,7 +67848,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
@@ -67873,7 +67873,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 155, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -120, -36}";
 }
 );
@@ -67888,7 +67888,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -22, -76}";
 }
 );
@@ -67913,7 +67913,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 203, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -111, -36}";
 }
 );
@@ -67928,7 +67928,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
@@ -67953,7 +67953,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 200, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -110, -36}";
 }
 );
@@ -67968,7 +67968,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
@@ -67993,7 +67993,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 186, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -86, -36}";
 }
 );
@@ -68008,7 +68008,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
@@ -68033,7 +68033,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 190, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -75, -36}";
 }
 );
@@ -68048,7 +68048,7 @@ name = Etaprosgegrammeni;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -48, -76}";
 }
 );
@@ -68073,7 +68073,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 85, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -160, -62}";
 }
 );
@@ -68088,7 +68088,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 206, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -68113,7 +68113,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 84, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -68128,7 +68128,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 212, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -68153,7 +68153,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 178, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -109, -36}";
 }
 );
@@ -68168,7 +68168,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 365, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
@@ -68193,7 +68193,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 164, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -120, -36}";
 }
 );
@@ -68208,7 +68208,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 366, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -22, -76}";
 }
 );
@@ -68233,7 +68233,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 208, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -111, -36}";
 }
 );
@@ -68248,7 +68248,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 388, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
@@ -68273,7 +68273,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 204, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -110, -36}";
 }
 );
@@ -68288,7 +68288,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
@@ -68313,7 +68313,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 192, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -86, -36}";
 }
 );
@@ -68328,7 +68328,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
@@ -68353,7 +68353,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 190, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -75, -36}";
 }
 );
@@ -68368,7 +68368,7 @@ name = Iota;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -48, -76}";
 }
 );
@@ -68471,7 +68471,7 @@ components = (
 name = Iota;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, -12, 0}";
 }
 );
@@ -68484,7 +68484,7 @@ components = (
 name = Iota;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, -12, 30}";
 }
 );
@@ -68506,7 +68506,7 @@ components = (
 name = Iota;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, -12, 0}";
 }
 );
@@ -68519,7 +68519,7 @@ components = (
 name = Iota;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, -12, 0}";
 }
 );
@@ -68543,7 +68543,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 88, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -156, -62}";
 }
 );
@@ -68558,7 +68558,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 160, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -92, -76}";
 }
 );
@@ -68583,7 +68583,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 77, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -147, -36}";
 }
 );
@@ -68598,7 +68598,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 177, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -64, -76}";
 }
 );
@@ -68623,7 +68623,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 192, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -105, -36}";
 }
 );
@@ -68638,7 +68638,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 350, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -33, -76}";
 }
 );
@@ -68663,7 +68663,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -116, -36}";
 }
 );
@@ -68678,7 +68678,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 343, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -28, -76}";
 }
 );
@@ -68703,7 +68703,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 153, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -107, -36}";
 }
 );
@@ -68718,7 +68718,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 314, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -43, -76}";
 }
 );
@@ -68743,7 +68743,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 154, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -106, -36}";
 }
 );
@@ -68758,7 +68758,7 @@ name = Omicron;
 transform = "{1, 0, 0, 1, 324, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -35, -76}";
 }
 );
@@ -68863,7 +68863,7 @@ name = Rho;
 transform = "{1, 0, 0, 1, 74, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -68878,7 +68878,7 @@ name = Rho;
 transform = "{1, 0, 0, 1, 203, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -68903,7 +68903,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 194, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -99, -36}";
 }
 );
@@ -68918,7 +68918,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 212, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -60, -76}";
 }
 );
@@ -68943,7 +68943,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 292, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -68, -36}";
 }
 );
@@ -68958,7 +68958,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 375, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -24, -76}";
 }
 );
@@ -68983,7 +68983,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 342, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -58, -36}";
 }
 );
@@ -68998,7 +68998,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 384, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -31, -76}";
 }
 );
@@ -69023,7 +69023,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 315, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -23, -36}";
 }
 );
@@ -69038,7 +69038,7 @@ name = Upsilon;
 transform = "{1, 0, 0, 1, 293, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -50, -76}";
 }
 );
@@ -69141,7 +69141,7 @@ components = (
 name = Upsilon;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 66, -10}";
 }
 );
@@ -69154,7 +69154,7 @@ components = (
 name = Upsilon;
 },
 {
-name = breve.cap;
+name = breve.case;
 transform = "{1, 0, 0, 1, 120, 30}";
 }
 );
@@ -69176,7 +69176,7 @@ components = (
 name = Upsilon;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 66, -10}";
 }
 );
@@ -69189,7 +69189,7 @@ components = (
 name = Upsilon;
 },
 {
-name = macron.cap;
+name = macron.case;
 transform = "{1, 0, 0, 1, 120, 0}";
 }
 );
@@ -69213,7 +69213,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 53, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -141, -62}";
 }
 );
@@ -69228,7 +69228,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 96, 0}";
 },
 {
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -126, -76}";
 }
 );
@@ -69253,7 +69253,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 45, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -132, -36}";
 }
 );
@@ -69268,7 +69268,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 115, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -98, -76}";
 }
 );
@@ -69293,7 +69293,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 163, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -90, -36}";
 }
 );
@@ -69308,7 +69308,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 276, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -67, -76}";
 }
 );
@@ -69333,7 +69333,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 136, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -101, -36}";
 }
 );
@@ -69348,7 +69348,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -62, -76}";
 }
 );
@@ -69373,7 +69373,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 122, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -92, -36}";
 }
 );
@@ -69388,7 +69388,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 248, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -77, -76}";
 }
 );
@@ -69413,7 +69413,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 126, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -91, -36}";
 }
 );
@@ -69428,7 +69428,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 256, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -69, -76}";
 }
 );
@@ -69453,7 +69453,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -67, -36}";
 }
 );
@@ -69468,7 +69468,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 185, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -69493,7 +69493,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 109, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -56, -36}";
 }
 );
@@ -69508,7 +69508,7 @@ name = Omega;
 transform = "{1, 0, 0, 1, 185, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -88, -76}";
 }
 );
@@ -69644,7 +69644,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -141, -62}";
 },
 {
@@ -69659,7 +69659,7 @@ width = 1109;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -126, -76}";
 },
 {
@@ -69688,7 +69688,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 42, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -132, -36}";
 }
 );
@@ -69703,7 +69703,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 125, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -98, -76}";
 }
 );
@@ -69728,7 +69728,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 158, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -90, -36}";
 }
 );
@@ -69743,7 +69743,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -67, -76}";
 }
 );
@@ -69768,7 +69768,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 133, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -101, -36}";
 }
 );
@@ -69783,7 +69783,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -62, -76}";
 }
 );
@@ -69808,7 +69808,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 129, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -92, -36}";
 }
 );
@@ -69823,7 +69823,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 259, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -77, -76}";
 }
 );
@@ -69848,7 +69848,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 126, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -91, -36}";
 }
 );
@@ -69863,7 +69863,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 256, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -69, -76}";
 }
 );
@@ -69888,7 +69888,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 121, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -67, -36}";
 }
 );
@@ -69903,7 +69903,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 185, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -69928,7 +69928,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 109, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -56, -36}";
 }
 );
@@ -69943,7 +69943,7 @@ name = Omegaprosgegrammeni;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -88, -76}";
 }
 );
@@ -69998,7 +69998,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -115, -62}";
 },
 {
@@ -70013,7 +70013,7 @@ width = 604;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -150, -76}";
 },
 {
@@ -70041,7 +70041,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -93, -36}";
 }
 );
@@ -70056,7 +70056,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 21, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -122, -76}";
 }
 );
@@ -70080,7 +70080,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 83, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -96, -36}";
 }
 );
@@ -70095,7 +70095,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 184, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -91, -76}";
 }
 );
@@ -70119,7 +70119,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 59, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -107, -36}";
 }
 );
@@ -70134,7 +70134,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 179, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -70158,7 +70158,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 66, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -98, -36}";
 }
 );
@@ -70173,7 +70173,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -70197,7 +70197,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 63, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -97, -36}";
 }
 );
@@ -70212,7 +70212,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -93, -76}";
 }
 );
@@ -70236,7 +70236,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 56, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -73, -36}";
 }
 );
@@ -70251,7 +70251,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 90, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -125, -76}";
 }
 );
@@ -70275,7 +70275,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 46, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -62, -36}";
 }
 );
@@ -70290,7 +70290,7 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 80, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -112, -76}";
 }
 );
@@ -70344,7 +70344,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -160, -62}";
 },
 {
@@ -70359,7 +70359,7 @@ width = 829;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 },
 {
@@ -70387,7 +70387,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 73, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -70402,7 +70402,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 206, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -70426,7 +70426,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 176, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -109, -36}";
 }
 );
@@ -70441,7 +70441,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
@@ -70465,7 +70465,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 155, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -120, -36}";
 }
 );
@@ -70480,7 +70480,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -22, -76}";
 }
 );
@@ -70504,7 +70504,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 203, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -111, -36}";
 }
 );
@@ -70519,7 +70519,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
@@ -70543,7 +70543,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 200, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -110, -36}";
 }
 );
@@ -70558,7 +70558,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
@@ -70582,7 +70582,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 186, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -86, -36}";
 }
 );
@@ -70597,7 +70597,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
@@ -70621,7 +70621,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 190, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -75, -36}";
 }
 );
@@ -70636,7 +70636,7 @@ name = Etaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -48, -76}";
 }
 );
@@ -70690,7 +70690,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -141, -62}";
 },
 {
@@ -70705,7 +70705,7 @@ width = 824;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -126, -76}";
 },
 {
@@ -70733,7 +70733,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 32, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -132, -36}";
 }
 );
@@ -70748,7 +70748,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 125, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -98, -76}";
 }
 );
@@ -70772,7 +70772,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 158, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -90, -36}";
 }
 );
@@ -70787,7 +70787,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -67, -76}";
 }
 );
@@ -70811,7 +70811,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 133, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -101, -36}";
 }
 );
@@ -70826,7 +70826,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -62, -76}";
 }
 );
@@ -70850,7 +70850,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 129, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -92, -36}";
 }
 );
@@ -70865,7 +70865,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 259, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -77, -76}";
 }
 );
@@ -70889,7 +70889,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 126, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -91, -36}";
 }
 );
@@ -70904,7 +70904,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 256, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -69, -76}";
 }
 );
@@ -70928,7 +70928,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 121, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -67, -36}";
 }
 );
@@ -70943,7 +70943,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 185, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -70967,7 +70967,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 109, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -56, -36}";
 }
 );
@@ -70982,7 +70982,7 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -88, -76}";
 }
 );
@@ -71037,7 +71037,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -125, -62}";
 },
 {
@@ -71052,7 +71052,7 @@ width = 911;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -150, -76}";
 },
 {
@@ -71080,7 +71080,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 20, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -93, -36}";
 }
 );
@@ -71095,7 +71095,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 21, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -122, -76}";
 }
 );
@@ -71119,7 +71119,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 83, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -96, -36}";
 }
 );
@@ -71134,7 +71134,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 184, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -91, -76}";
 }
 );
@@ -71158,7 +71158,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 59, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -107, -36}";
 }
 );
@@ -71173,7 +71173,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 179, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 }
 );
@@ -71197,7 +71197,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 66, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -98, -36}";
 }
 );
@@ -71212,7 +71212,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -71236,7 +71236,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 63, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -97, -36}";
 }
 );
@@ -71251,7 +71251,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -93, -76}";
 }
 );
@@ -71275,7 +71275,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 56, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -73, -36}";
 }
 );
@@ -71290,7 +71290,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 90, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -125, -76}";
 }
 );
@@ -71314,7 +71314,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 46, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -62, -36}";
 }
 );
@@ -71329,7 +71329,7 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 80, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -112, -76}";
 }
 );
@@ -71384,7 +71384,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -160, -62}";
 },
 {
@@ -71399,7 +71399,7 @@ width = 1136;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -86, -76}";
 },
 {
@@ -71427,7 +71427,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 73, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -151, -36}";
 }
 );
@@ -71442,7 +71442,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 206, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -58, -76}";
 }
 );
@@ -71466,7 +71466,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 176, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -109, -36}";
 }
 );
@@ -71481,7 +71481,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
@@ -71505,7 +71505,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 155, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -120, -36}";
 }
 );
@@ -71520,7 +71520,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 367, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -22, -76}";
 }
 );
@@ -71544,7 +71544,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 203, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -111, -36}";
 }
 );
@@ -71559,7 +71559,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
@@ -71583,7 +71583,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 200, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -110, -36}";
 }
 );
@@ -71598,7 +71598,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 390, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
@@ -71622,7 +71622,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 186, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -86, -36}";
 }
 );
@@ -71637,7 +71637,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
@@ -71661,7 +71661,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 190, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -75, -36}";
 }
 );
@@ -71676,7 +71676,7 @@ name = Etaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 295, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -48, -76}";
 }
 );
@@ -71731,7 +71731,7 @@ layers = (
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -141, -62}";
 },
 {
@@ -71746,7 +71746,7 @@ width = 1151;
 components = (
 {
 alignment = -1;
-name = psili.cap;
+name = psili.case;
 transform = "{1, 0, 0, 1, -126, -76}";
 },
 {
@@ -71774,7 +71774,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 32, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -132, -36}";
 }
 );
@@ -71789,7 +71789,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 125, 0}";
 },
 {
-name = dasia.cap;
+name = dasia.case;
 transform = "{1, 0, 0, 1, -98, -76}";
 }
 );
@@ -71813,7 +71813,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 158, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -90, -36}";
 }
 );
@@ -71828,7 +71828,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = psilivaria.cap;
+name = psilivaria.case;
 transform = "{1, 0, 0, 1, -67, -76}";
 }
 );
@@ -71852,7 +71852,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 133, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -101, -36}";
 }
 );
@@ -71867,7 +71867,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
-name = dasiavaria.cap;
+name = dasiavaria.case;
 transform = "{1, 0, 0, 1, -62, -76}";
 }
 );
@@ -71891,7 +71891,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 129, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -92, -36}";
 }
 );
@@ -71906,7 +71906,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 259, 0}";
 },
 {
-name = psilioxia.cap;
+name = psilioxia.case;
 transform = "{1, 0, 0, 1, -77, -76}";
 }
 );
@@ -71930,7 +71930,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 126, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -91, -36}";
 }
 );
@@ -71945,7 +71945,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 256, 0}";
 },
 {
-name = dasiaoxia.cap;
+name = dasiaoxia.case;
 transform = "{1, 0, 0, 1, -69, -76}";
 }
 );
@@ -71969,7 +71969,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 121, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -67, -36}";
 }
 );
@@ -71984,7 +71984,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 185, 0}";
 },
 {
-name = psiliperispomeni.cap;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -101, -76}";
 }
 );
@@ -72008,7 +72008,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 109, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -56, -36}";
 }
 );
@@ -72023,7 +72023,7 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaperispomeni.cap;
+name = dasiaperispomeni.case;
 transform = "{1, 0, 0, 1, -88, -76}";
 }
 );
@@ -155838,8 +155838,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = acute.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = acute.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -155941,8 +155941,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = breve.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = breve.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156064,8 +156064,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = caron.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = caron.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156191,8 +156191,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = circumflex.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = circumflex.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156318,8 +156318,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = dieresis.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = dieresis.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156493,8 +156493,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = dotaccent.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = dotaccent.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156600,8 +156600,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = grave.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = grave.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156703,8 +156703,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = hungarumlaut.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = hungarumlaut.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156870,8 +156870,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = macron.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = macron.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -156985,8 +156985,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = ring.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = ring.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -157160,8 +157160,8 @@ width = 386;
 },
 {
 color = 1;
-glyphname = tilde.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = tilde.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -160209,8 +160209,8 @@ unicode = 1FC0;
 },
 {
 color = 1;
-glyphname = psili.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = psili.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -160514,8 +160514,8 @@ width = 398;
 },
 {
 color = 1;
-glyphname = dasia.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = dasia.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -160653,8 +160653,8 @@ width = 409;
 },
 {
 color = 0;
-glyphname = psilivaria.cap;
-lastChange = "2016-09-27 14:43:34 +0000";
+glyphname = psilivaria.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -160748,8 +160748,8 @@ width = 428;
 },
 {
 color = 1;
-glyphname = dasiavaria.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = dasiavaria.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -160902,8 +160902,8 @@ width = 474;
 },
 {
 color = 0;
-glyphname = psilioxia.cap;
-lastChange = "2016-09-27 14:43:34 +0000";
+glyphname = psilioxia.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -161038,8 +161038,8 @@ width = 407;
 },
 {
 color = 1;
-glyphname = dasiaoxia.cap;
-lastChange = "2016-09-27 14:43:18 +0000";
+glyphname = dasiaoxia.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -161151,8 +161151,8 @@ width = 453;
 },
 {
 color = 0;
-glyphname = psiliperispomeni.cap;
-lastChange = "2016-09-27 14:43:34 +0000";
+glyphname = psiliperispomeni.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -161454,8 +161454,8 @@ width = 458;
 },
 {
 color = 0;
-glyphname = dasiaperispomeni.cap;
-lastChange = "2016-09-27 14:43:34 +0000";
+glyphname = dasiaperispomeni.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -161753,8 +161753,8 @@ width = 458;
 );
 },
 {
-glyphname = perispomeni.cap;
-lastChange = "2016-09-27 14:41:54 +0000";
+glyphname = perispomeni.case;
+lastChange = "2016-09-27 14:44:32 +0000";
 layers = (
 {
 anchors = (
@@ -162158,7 +162158,7 @@ components = (
 name = G;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 156, 20}";
 }
 );
@@ -162171,7 +162171,7 @@ components = (
 name = G;
 },
 {
-name = dieresis.cap;
+name = dieresis.case;
 transform = "{1, 0, 0, 1, 140, 40}";
 }
 );
@@ -162190,7 +162190,7 @@ components = (
 name = G;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 146, 20}";
 }
 );
@@ -162203,7 +162203,7 @@ components = (
 name = G;
 },
 {
-name = tilde.cap;
+name = tilde.case;
 transform = "{1, 0, 0, 1, 130, 40}";
 }
 );
