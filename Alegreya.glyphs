@@ -7,6 +7,30 @@ code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove A
 name = Uppercase;
 },
 {
+code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Eogonek Eng Eth Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls Hbar Hcircumflex IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Thorn Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent";
+name = mayusc;
+},
+{
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z";
+name = ordn1;
+},
+{
+code = "a.sups b.sups c.sups d.sups e.sups f.sups g.sups h.sups i.sups j.sups k.sups l.sups m.sups n.sups o.sups p.sups q.sups r.sups s.sups t.sups u.sups v.sups w.sups x.sups y.sups z.sups";
+name = ordn2;
+},
+{
+code = "a b c d e f g h i j k l m n o p q r s t u v w x y z ae aeacute aacute abreve acircumflex adieresis agrave amacron aogonek aring aringacute atilde abreveacute abrevedotbelow abrevegrave abrevehookabove abrevetilde acaron acircumflexacute acircumflexdotbelow acircumflexgrave acircumflexhookabove acircumflextilde adotbelow ahookabove cacute ccaron ccedilla ccircumflex cdotaccent dcaron dcroat eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron ecircumflexacute ecircumflexdotbelow ecircumflexgrave ecircumflexhookabove ecircumflextilde edotbelow ehookabove etilde eogonek eng eth gbreve gcircumflex gcommaaccent gdotaccent germandbls hbar hcircumflex ij iacute ibreve icircumflex idieresis idotaccent igrave imacron iogonek itilde icaron idotbelow ihookabove jcircumflex kcommaaccent lacute lcaron lcommaaccent ldot lslash nacute ncaron ncommaaccent ntilde oe oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash oslashacute otilde ocaron ocircumflexacute ocircumflexdotbelow ocircumflexgrave ocircumflexhookabove ocircumflextilde odotbelow ohookabove ohorn ohornacute ohorndotbelow ohorngrave ohornhookabove ohorntilde racute rcaron rcommaaccent sacute scaron scedilla scircumflex scommaaccent tbar tcaron tcedilla thorn tcommaaccent uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde ucaron udieresisacute udieresiscaron udieresisgrave udieresismacron udotbelow uhookabove uhorn uhornacute uhorndotbelow uhorngrave uhornhookabove uhorntilde wacute wcircumflex wdieresis wgrave yacute ycircumflex ydieresis ygrave ydotbelow yhookabove ytilde zacute zcaron zdotaccent";
+name = minusc;
+},
+{
+code = "a.sc b.sc c.sc d.sc e.sc f.sc g.sc h.sc i.sc j.sc k.sc l.sc m.sc n.sc o.sc p.sc q.sc r.sc s.sc t.sc u.sc v.sc w.sc x.sc y.sc z.sc ae.sc aeacute.sc aacute.sc abreve.sc acircumflex.sc adieresis.sc agrave.sc amacron.sc aogonek.sc aring.sc aringacute.sc atilde.sc abreveacute.sc abrevedotbelow.sc abrevegrave.sc abrevehookabove.sc abrevetilde.sc acaron.sc acircumflexacute.sc acircumflexdotbelow.sc acircumflexgrave.sc acircumflexhookabove.sc acircumflextilde.sc adotbelow.sc ahookabove.sc cacute.sc ccaron.sc ccedilla.sc ccircumflex.sc cdotaccent.sc dcaron.sc dcroat.sc eacute.sc ebreve.sc ecaron.sc ecircumflex.sc edieresis.sc edotaccent.sc egrave.sc emacron.sc ecircumflexacute.sc ecircumflexdotbelow.sc ecircumflexgrave.sc ecircumflexhookabove.sc ecircumflextilde.sc edotbelow.sc ehookabove.sc etilde.sc eogonek.sc eng.sc eth.sc gbreve.sc gcircumflex.sc gcommaaccent.sc gdotaccent.sc germandbls.sc hbar.sc hcircumflex.sc ij.sc iacute.sc ibreve.sc icircumflex.sc idieresis.sc idotaccent.sc igrave.sc imacron.sc iogonek.sc itilde.sc icaron.sc idotbelow.sc ihookabove.sc jcircumflex.sc kcommaaccent.sc lacute.sc lcaron.sc lcommaaccent.sc ldot.sc lslash.sc nacute.sc ncaron.sc ncommaaccent.sc ntilde.sc oe.sc oacute.sc obreve.sc ocircumflex.sc odieresis.sc ograve.sc ohungarumlaut.sc omacron.sc oslash.sc oslashacute.sc otilde.sc ocaron.sc ocircumflexacute.sc ocircumflexdotbelow.sc ocircumflexgrave.sc ocircumflexhookabove.sc ocircumflextilde.sc odotbelow.sc ohookabove.sc ohorn.sc ohornacute.sc ohorndotbelow.sc ohorngrave.sc ohornhookabove.sc ohorntilde.sc racute.sc rcaron.sc rcommaaccent.sc sacute.sc scaron.sc scedilla.sc scircumflex.sc scommaaccent.sc tbar.sc tcaron.sc tcedilla.sc thorn.sc tcommaaccent.sc uacute.sc ubreve.sc ucircumflex.sc udieresis.sc ugrave.sc uhungarumlaut.sc umacron.sc uogonek.sc uring.sc utilde.sc ucaron.sc udieresisacute.sc udieresiscaron.sc udieresisgrave.sc udieresismacron.sc udotbelow.sc uhookabove.sc uhorn.sc uhornacute.sc uhorndotbelow.sc uhorngrave.sc uhornhookabove.sc uhorntilde.sc wacute.sc wcircumflex.sc wdieresis.sc wgrave.sc yacute.sc ycircumflex.sc ydieresis.sc ygrave.sc ydotbelow.sc yhookabove.sc ytilde.sc zacute.sc zcaron.sc zdotaccent.sc";
+name = smallc;
+},
+{
+code = "zero one two three four five six seven eight nine";
+name = num;
+},
+{
 code = "zero one two three four five six seven eight nine zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf";
 name = lnum1;
 },
@@ -15,12 +39,64 @@ code = "zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf 
 name = lnum2;
 },
 {
+code = "zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf";
+name = pnum1;
+},
+{
+code = "zero one two three four five six seven eight nine zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf";
+name = pnum2;
+},
+{
+code = "zero one two three four five six seven eight nine zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf";
+name = tnum1;
+},
+{
+code = "zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf";
+name = tnum2;
+},
+{
+code = "zero.lf one.lf two.lf three.lf four.lf five.lf six.lf seven.lf eight.lf nine.lf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf";
+name = onum1;
+},
+{
+code = "zero one two three four five six seven eight nine zero.tosf one.tosf two.tosf three.tosf four.tosf five.tosf six.tosf seven.tosf eight.tosf nine.tosf";
+name = onum2;
+},
+{
+code = "zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr";
+name = numr;
+},
+{
+code = "zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom";
+name = dnom;
+},
+{
+code = "b h k l hbar hcircumflex kcommaaccent lacute lcaron lcommaaccent ldot lslash thorn";
+name = f.l;
+},
+{
+code = "t tbar tcaron tcedilla tcommaaccent";
+name = f.t;
+},
+{
+code = "zero.sinf one.sinf two.sinf three.sinf four.sinf five.sinf six.sinf seven.sinf eight.sinf nine.sinf";
+name = sinf;
+},
+{
+code = "zero.sups one.sups two.sups three.sups four.sups five.sups six.sups seven.sups eight.sups nine.sups";
+name = sups;
+},
+{
 code = "C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01 C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01 C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01";
 name = siglo2;
 },
 {
 code = "c d i l m v x C D I L M V X c.sc d.sc i.sc l.sc m.sc v.sc x.sc";
 name = siglo1;
+},
+{
+code = "period comma ellipsis semicolon colon space quotedblright exclam question hyphen guillemetright guilsinglright quoteright emdash endash";
+name = puntuacion;
 }
 );
 copyright = "Copyright (c) 2011 by Juan Pablo del Peral. All rights reserved.";
@@ -57,7 +133,7 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature c2sc;\012feature smcp;\012feature case;\012feature salt;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss05;\012feature ss06;\012";
+code = "feature ccmp;\012feature locl;\012feature subs;\012feature sinf;\012feature sups;\012feature numr;\012feature dnom;\012feature frac;\012feature ordn;\012feature lnum;\012feature pnum;\012feature tnum;\012feature onum;\012feature c2sc;\012feature smcp;\012feature case;\012feature ss01;\012feature ss02;\012feature ss03;\012feature ss04;\012feature ss05;\012feature ss06;\012";
 name = aalt;
 },
 {
