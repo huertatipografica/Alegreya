@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+u/udblgrave
+);
 classes = (
 {
 code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Eogonek Eng Eth Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls Hbar Hcircumflex IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Thorn Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent";
@@ -41416,13 +41419,13 @@ unicode = 1E6F;
 {
 color = 1;
 glyphname = u;
-lastChange = "2016-09-27 15:43:11 +0000";
+lastChange = "2016-09-29 18:04:16 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
-position = "{254, 0}";
+position = "{215, 0}";
 },
 {
 name = ogonek;
@@ -41430,7 +41433,11 @@ position = "{437, 41}";
 },
 {
 name = top;
-position = "{232, 463}";
+position = "{271, 452}";
+},
+{
+name = topright;
+position = "{494, 452}";
 }
 );
 background = {
@@ -41556,7 +41563,7 @@ width = 486;
 anchors = (
 {
 name = bottom;
-position = "{254, 0}";
+position = "{237, 0}";
 },
 {
 name = ogonek;
@@ -41564,7 +41571,11 @@ position = "{437, 41}";
 },
 {
 name = top;
-position = "{232, 463}";
+position = "{295, 472}";
+},
+{
+name = topright;
+position = "{540, 472}";
 }
 );
 background = {
@@ -42114,7 +42125,7 @@ unicode = 00FB;
 },
 {
 glyphname = udblgrave;
-lastChange = "2016-09-27 15:37:36 +0000";
+lastChange = "2016-09-29 18:04:14 +0000";
 layers = (
 {
 components = (
@@ -42123,7 +42134,7 @@ name = u;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 36, 11}";
+transform = "{1, 0, 0, 1, 75, 0}";
 }
 );
 layerId = UUID0;
@@ -42136,7 +42147,7 @@ name = u;
 },
 {
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, 22, -9}";
+transform = "{1, 0, 0, 1, 85, 0}";
 }
 );
 layerId = UUID1;
