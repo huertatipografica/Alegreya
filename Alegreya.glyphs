@@ -1,8 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-a/Tbar,
-"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won"
+a/Tbar
 );
 classes = (
 {
@@ -131408,7 +131407,7 @@ unicode = 00A2;
 {
 color = 0;
 glyphname = colonsign;
-lastChange = "2016-09-29 20:10:01 +0000";
+lastChange = "2016-09-29 20:18:07 +0000";
 layers = (
 {
 components = (
@@ -131490,59 +131489,59 @@ paths = (
 {
 closed = 1;
 nodes = (
-"395 45 LINE",
-"450 484 LINE",
-"328 474 LINE",
-"273 34 LINE"
+"385 45 LINE",
+"440 484 LINE",
+"318 474 LINE",
+"263 34 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"208 -151 LINE",
-"233 45 LINE",
-"111 34 LINE",
-"86 -158 LINE",
-"94 -164 LINE"
+"198 -151 LINE",
+"223 45 LINE",
+"101 34 LINE",
+"76 -158 LINE",
+"84 -164 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"370 -151 LINE",
-"395 45 LINE",
-"273 34 LINE",
-"248 -158 LINE",
-"256 -164 LINE"
+"360 -151 LINE",
+"385 45 LINE",
+"263 34 LINE",
+"238 -158 LINE",
+"246 -164 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"233 45 LINE",
-"288 484 LINE",
-"166 474 LINE",
-"111 34 LINE"
+"223 45 LINE",
+"278 484 LINE",
+"156 474 LINE",
+"101 34 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"288 484 LINE",
-"309 649 LINE",
-"303 658 LINE",
-"187 644 LINE",
-"166 474 LINE"
+"278 484 LINE",
+"299 649 LINE",
+"293 658 LINE",
+"177 644 LINE",
+"156 474 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"450 484 LINE",
-"471 649 LINE",
-"465 658 LINE",
-"349 644 LINE",
-"328 474 LINE"
+"440 484 LINE",
+"461 649 LINE",
+"455 658 LINE",
+"339 644 LINE",
+"318 474 LINE"
 );
 }
 );
@@ -131603,13 +131602,12 @@ width = 533;
 },
 {
 associatedMasterId = UUID1;
+background = {
 components = (
 {
 name = c.sc;
 }
 );
-layerId = "0874689A-1017-4214-A251-78099202ED80";
-name = "Bold [75]";
 paths = (
 {
 closed = 1;
@@ -131649,6 +131647,56 @@ nodes = (
 "293 658 LINE",
 "177 644 LINE",
 "156 474 LINE"
+);
+}
+);
+};
+components = (
+{
+name = c.sc;
+}
+);
+layerId = "0874689A-1017-4214-A251-78099202ED80";
+name = "Bold [75]";
+paths = (
+{
+closed = 1;
+nodes = (
+"287 61 LINE",
+"258 -158 LINE",
+"266 -164 LINE",
+"380 -151 LINE",
+"409 72 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"455 448 LINE",
+"481 649 LINE",
+"475 658 LINE",
+"359 644 LINE",
+"333 438 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"105 61 LINE",
+"76 -158 LINE",
+"84 -164 LINE",
+"198 -151 LINE",
+"227 72 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"273 448 LINE",
+"299 649 LINE",
+"293 658 LINE",
+"177 644 LINE",
+"151 438 LINE"
 );
 }
 );
