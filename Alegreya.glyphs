@@ -1,7 +1,8 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-a/Tbar
+a/Tbar,
+/bulletoperator/divisionslash/emptyset
 );
 classes = (
 {
@@ -136130,25 +136131,27 @@ unicode = 2219;
 {
 color = 4;
 glyphname = divisionslash;
-lastChange = "2016-09-20 22:12:27 +0000";
+lastChange = "2016-09-29 20:48:35 +0000";
 layers = (
 {
 components = (
 {
-name = fraction;
+alignment = 1;
+name = slash;
 }
 );
 layerId = UUID0;
-width = 125;
+width = 329;
 },
 {
 components = (
 {
-name = fraction;
+alignment = 1;
+name = slash;
 }
 );
 layerId = UUID1;
-width = 187;
+width = 329;
 }
 );
 unicode = 2215;
