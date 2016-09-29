@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/guarani/cedi/colonsign/dong/naira/peso/won
-);
 classes = (
 {
 code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Eogonek Eng Eth Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls Hbar Hcircumflex IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Thorn Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent";
@@ -150040,6 +150037,25 @@ nodes = (
 {
 closed = 1;
 nodes = (
+"2 -81 OFFCURVE",
+"100 -80 OFFCURVE",
+"156 -80 CURVE SMOOTH",
+"307 -79 LINE",
+"317 -33 LINE",
+"311 -23 LINE",
+"311 -23 OFFCURVE",
+"216 -29 OFFCURVE",
+"169 -29 CURVE SMOOTH",
+"114 -29 OFFCURVE",
+"9 -29 OFFCURVE",
+"9 -29 CURVE",
+"-4 -73 LINE",
+"2 -81 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
 "95 122 OFFCURVE",
 "83 163 OFFCURVE",
 "83 217 CURVE SMOOTH",
@@ -150066,25 +150082,6 @@ nodes = (
 "205 596 LINE",
 "199 559 LINE",
 "207 551 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"2 -81 OFFCURVE",
-"100 -80 OFFCURVE",
-"156 -80 CURVE SMOOTH",
-"307 -79 LINE",
-"317 -33 LINE",
-"311 -23 LINE",
-"311 -23 OFFCURVE",
-"216 -29 OFFCURVE",
-"169 -29 CURVE SMOOTH",
-"114 -29 OFFCURVE",
-"9 -29 OFFCURVE",
-"9 -29 CURVE",
-"-4 -73 LINE",
-"2 -81 LINE"
 );
 }
 );
