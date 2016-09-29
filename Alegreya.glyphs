@@ -1,7 +1,8 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-a/Tbar
+a/Tbar,
+"\U00A2/colonsign $/guarani/naira/peso/won"
 );
 classes = (
 {
@@ -131189,7 +131190,7 @@ unicode = 20B5;
 {
 color = 3;
 glyphname = cent;
-lastChange = "2016-09-29 19:22:01 +0000";
+lastChange = "2016-09-29 20:09:12 +0000";
 layers = (
 {
 anchors = (
@@ -131227,30 +131228,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"271 427 LINE",
-"240 437 LINE",
-"202 32 LINE",
-"232 21 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"216 -151 LINE",
-"232 21 LINE",
-"202 32 LINE",
-"185 -147 LINE",
-"190 -154 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"292 649 LINE",
-"286 658 LINE",
 "260 654 LINE",
-"240 437 LINE",
-"271 427 LINE"
+"185 -147 LINE",
+"190 -154 LINE",
+"216 -151 LINE",
+"292 649 LINE",
+"286 658 LINE"
 );
 }
 );
@@ -131292,30 +131275,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"292 62 LINE",
-"338 427 LINE",
-"217 427 LINE",
-"171 62 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"265 -151 LINE",
-"292 62 LINE",
-"171 62 LINE",
-"143 -158 LINE",
-"151 -164 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"338 427 LINE",
-"366 649 LINE",
-"360 658 LINE",
 "244 644 LINE",
-"217 427 LINE"
+"143 -158 LINE",
+"151 -164 LINE",
+"265 -151 LINE",
+"366 649 LINE",
+"360 658 LINE"
 );
 }
 );
@@ -131359,21 +131324,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"202 32 LINE",
-"185 -147 LINE",
-"190 -154 LINE",
-"216 -151 LINE",
-"232 21 LINE"
+"292 649 LINE",
+"286 658 LINE",
+"260 654 LINE",
+"240 437 LINE",
+"271 427 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"271 427 LINE",
-"292 649 LINE",
-"286 658 LINE",
-"260 654 LINE",
-"240 437 LINE"
+"216 -151 LINE",
+"232 21 LINE",
+"202 32 LINE",
+"185 -147 LINE",
+"190 -154 LINE"
 );
 }
 );
@@ -131417,21 +131382,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"171 62 LINE",
-"143 -158 LINE",
-"151 -164 LINE",
-"265 -151 LINE",
-"292 62 LINE"
+"366 649 LINE",
+"360 658 LINE",
+"244 644 LINE",
+"217 427 LINE",
+"338 427 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"338 427 LINE",
-"366 649 LINE",
-"360 658 LINE",
-"244 644 LINE",
-"217 427 LINE"
+"265 -151 LINE",
+"292 62 LINE",
+"171 62 LINE",
+"143 -158 LINE",
+"151 -164 LINE"
 );
 }
 );
