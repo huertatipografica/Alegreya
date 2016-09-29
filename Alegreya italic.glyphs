@@ -1,9 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-O/Schwa/o.sc/schwa.sc,
-"OOOOO/Schwa/Schwa/Schwa/Schwa/Schwa/o.sc/o.sc/o.sc/o.sc/o.sc/schwa.sc/schwa.sc/schwa.sc/schwa.sc/schwa.sc \012O/Schwa/o.sc/schwa.sc/schwa \012/spacingGlyph O/spacingGlyph/Schwa/spacingGlyph/o.sc/spacingGlyph/schwa.sc/spacingGlyph"
-);
 classes = (
 {
 code = "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z AE AEacute Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Aringacute Atilde Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adotbelow Ahookabove Cacute Ccaron Ccedilla Ccircumflex Cdotaccent Dcaron Dcroat Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edotbelow Ehookabove Etilde Eogonek Eng Eth Gbreve Gcircumflex Gcommaaccent Gdotaccent Germandbls Hbar Hcircumflex IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde Icaron Idotbelow Ihookabove Jcircumflex Kcommaaccent Lacute Lcaron Lcommaaccent Ldot Lslash Nacute Ncaron Ncommaaccent Ntilde OE Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Oslashacute Otilde Ocaron Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odotbelow Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Racute Rcaron Rcommaaccent Sacute Scaron Scedilla Scircumflex Scommaaccent Tbar Tcaron Tcedilla Thorn Tcommaaccent Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde Ucaron Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Wacute Wcircumflex Wdieresis Wgrave Yacute Ycircumflex Ydieresis Ygrave Ydotbelow Yhookabove Ytilde Zacute Zcaron Zdotaccent";
@@ -177948,8 +177944,9 @@ width = 600;
 );
 },
 {
+color = 4;
 glyphname = Schwa;
-lastChange = "2016-09-29 17:57:39 +0000";
+lastChange = "2016-09-29 17:58:26 +0000";
 layers = (
 {
 anchors = (
@@ -178363,8 +178360,9 @@ rightKerningGroup = O;
 unicode = 018F;
 },
 {
+color = 4;
 glyphname = schwa;
-lastChange = "2016-09-29 17:51:45 +0000";
+lastChange = "2016-09-29 17:58:26 +0000";
 layers = (
 {
 components = (
@@ -178392,8 +178390,9 @@ rightKerningGroup = o;
 unicode = 0259;
 },
 {
+color = 4;
 glyphname = schwa.sc;
-lastChange = "2016-09-29 17:57:43 +0000";
+lastChange = "2016-09-29 17:58:26 +0000";
 layers = (
 {
 anchors = (
