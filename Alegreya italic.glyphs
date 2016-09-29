@@ -2,7 +2,7 @@
 .appVersion = "895";
 DisplayStrings = (
 "/cedi \U00A2/colonsign \U00A4$/euro/franc/guarani/kip/liraTurkish/manat/naira/peso/ruble/rupeeIndian \U00A3/won \U00A5",
-"/cedi \U00A2/colonsign $/guarani/naira/peso/won"
+/emptyset
 );
 classes = (
 {
@@ -155150,30 +155150,54 @@ unicode = 00A5;
 },
 {
 glyphname = bulletoperator;
-lastChange = "2016-09-27 15:37:36 +0000";
+lastChange = "2016-09-29 20:47:46 +0000";
 layers = (
 {
+components = (
+{
+alignment = 1;
+name = periodcentered;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 229;
 },
 {
+components = (
+{
+alignment = 1;
+name = periodcentered;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 231;
 }
 );
 unicode = 2219;
 },
 {
 glyphname = divisionslash;
-lastChange = "2016-09-27 15:37:36 +0000";
+lastChange = "2016-09-29 20:48:28 +0000";
 layers = (
 {
+components = (
+{
+alignment = 1;
+name = slash;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 316;
 },
 {
+components = (
+{
+alignment = 1;
+name = slash;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 319;
 }
 );
 unicode = 2215;
@@ -158067,16 +158091,111 @@ width = 509;
 unicode = 221E;
 },
 {
+color = 1;
 glyphname = emptyset;
-lastChange = "2016-09-27 15:37:36 +0000";
+lastChange = "2016-09-29 20:50:23 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"534 -12 OFFCURVE",
+"667 116 OFFCURVE",
+"693 322 CURVE SMOOTH",
+"718 526 OFFCURVE",
+"620 649 OFFCURVE",
+"432 649 CURVE SMOOTH",
+"242 649 OFFCURVE",
+"108 521 OFFCURVE",
+"83 315 CURVE SMOOTH",
+"58 110 OFFCURVE",
+"156 -12 OFFCURVE",
+"343 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"611 708 LINE",
+"98 -85 LINE",
+"99 -95 LINE",
+"125 -101 LINE",
+"641 689 LINE",
+"639 701 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"206 41 OFFCURVE",
+"128 146 OFFCURVE",
+"149 315 CURVE SMOOTH",
+"170 487 OFFCURVE",
+"274 591 OFFCURVE",
+"424 591 CURVE SMOOTH",
+"572 591 OFFCURVE",
+"647 489 OFFCURVE",
+"627 320 CURVE SMOOTH",
+"605 147 OFFCURVE",
+"502 41 OFFCURVE",
+"354 41 CURVE SMOOTH"
+);
+}
+);
+width = 750;
 },
 {
 layerId = UUID1;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"523 -12 OFFCURVE",
+"655 111 OFFCURVE",
+"680 315 CURVE SMOOTH",
+"706 528 OFFCURVE",
+"610 659 OFFCURVE",
+"427 659 CURVE SMOOTH",
+"234 659 OFFCURVE",
+"102 536 OFFCURVE",
+"77 331 CURVE SMOOTH",
+"51 119 OFFCURVE",
+"147 -12 OFFCURVE",
+"329 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"648 752 LINE",
+"18 -52 LINE",
+"22 -62 LINE",
+"105 -121 LINE",
+"736 681 LINE",
+"734 694 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"258 118 OFFCURVE",
+"212 192 OFFCURVE",
+"227 315 CURVE SMOOTH",
+"243 445 OFFCURVE",
+"311 526 OFFCURVE",
+"403 526 CURVE SMOOTH",
+"498 526 OFFCURVE",
+"545 453 OFFCURVE",
+"530 331 CURVE SMOOTH",
+"514 200 OFFCURVE",
+"445 118 OFFCURVE",
+"351 118 CURVE SMOOTH"
+);
+}
+);
+width = 735;
 }
 );
 unicode = 2205;
@@ -158291,15 +158410,25 @@ unicode = 2126;
 },
 {
 glyphname = increment;
-lastChange = "2016-09-27 15:37:36 +0000";
+lastChange = "2016-09-29 20:36:36 +0000";
 layers = (
 {
+components = (
+{
+name = Delta;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 530;
 },
 {
+components = (
+{
+name = Delta;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 657;
 }
 );
 unicode = 2206;
@@ -159210,15 +159339,25 @@ unicode = 2202;
 },
 {
 glyphname = micro;
-lastChange = "2016-09-27 15:37:36 +0000";
+lastChange = "2016-09-29 20:36:42 +0000";
 layers = (
 {
+components = (
+{
+name = mu;
+}
+);
 layerId = UUID0;
-width = 600;
+width = 518;
 },
 {
+components = (
+{
+name = mu;
+}
+);
 layerId = UUID1;
-width = 600;
+width = 558;
 }
 );
 unicode = 00B5;
