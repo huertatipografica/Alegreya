@@ -175200,7 +175200,7 @@ width = 386;
 {
 color = 4;
 glyphname = dotaccentcomb_macroncomb.case;
-lastChange = "2016-10-12 22:28:56 +0000";
+lastChange = "2016-10-12 22:54:25 +0000";
 layers = (
 {
 anchors = (
@@ -175222,7 +175222,7 @@ transform = "{0.9434, 0, 0, 0.9434, 11, 167}";
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 27, 368}";
+transform = "{1, 0, 0, 1, 8, 273}";
 }
 );
 layerId = UUID0;
@@ -177433,7 +177433,7 @@ unicode = 02CA;
 {
 color = 1;
 glyphname = verticallinelowmod;
-lastChange = "2016-09-27 15:43:11 +0000";
+lastChange = "2016-10-12 22:54:55 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -177441,10 +177441,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"172 -230 LINE",
-"172 -56 LINE",
-"105 -56 LINE",
-"105 -230 LINE"
+"116 -230 LINE",
+"137 -56 LINE",
+"70 -56 LINE",
+"49 -230 LINE"
 );
 }
 );
@@ -177456,10 +177456,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"210 -230 LINE",
-"210 -46 LINE",
-"90 -46 LINE",
-"90 -230 LINE"
+"153 -230 LINE",
+"175 -46 LINE",
+"55 -46 LINE",
+"33 -230 LINE"
 );
 }
 );
@@ -177471,7 +177471,7 @@ unicode = 02CC;
 {
 color = 1;
 glyphname = verticallinemod;
-lastChange = "2016-09-27 15:43:11 +0000";
+lastChange = "2016-10-12 22:54:55 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -177479,10 +177479,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"172 463 LINE",
-"172 637 LINE",
-"105 637 LINE",
-"105 463 LINE"
+"201 463 LINE",
+"222 637 LINE",
+"155 637 LINE",
+"134 463 LINE"
 );
 }
 );
@@ -177494,10 +177494,10 @@ paths = (
 {
 closed = 1;
 nodes = (
-"210 463 LINE",
-"210 647 LINE",
-"90 647 LINE",
-"90 463 LINE"
+"238 463 LINE",
+"260 647 LINE",
+"140 647 LINE",
+"118 463 LINE"
 );
 }
 );
