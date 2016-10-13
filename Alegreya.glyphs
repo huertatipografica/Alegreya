@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/hookabovecomb/Ahookabove/Ehookabove/Ihookabove/Ohookabove/Ohornhookabove/Uhookabove/Uhornhookabove/Yhookabove/ahookabove/ehookabove/ihookabove/ohookabove/ohornhookabove/uhookabove/uhornhookabove/yhookabove/ahookabove.sc/ehookabove.sc/ihookabove.sc/ohookabove.sc/ohornhookabove.sc/uhookabove.sc/uhornhookabove.sc/yhookabove.sc
+G/Gbreve/Gcaron/Gcircumflex/Gcommaaccent/Gdotaccent/Gmacron
 );
 classes = (
 {
@@ -4867,7 +4867,7 @@ unicode = 0046;
 {
 color = 1;
 glyphname = G;
-lastChange = "2016-09-27 13:21:01 +0000";
+lastChange = "2016-10-13 12:57:01 +0000";
 layers = (
 {
 anchors = (
@@ -4877,7 +4877,7 @@ position = "{334, 0}";
 },
 {
 name = top;
-position = "{342, 647}";
+position = "{373, 637}";
 }
 );
 layerId = UUID0;
@@ -4949,11 +4949,11 @@ width = 667;
 anchors = (
 {
 name = bottom;
-position = "{334, 0}";
+position = "{320, 0}";
 },
 {
 name = top;
-position = "{342, 647}";
+position = "{370, 647}";
 }
 );
 layerId = UUID1;
@@ -5029,18 +5029,17 @@ unicode = 0047;
 {
 color = 10;
 glyphname = Gbreve;
-lastChange = "2016-10-13 12:52:41 +0000";
+lastChange = "2016-10-13 12:57:01 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = brevecomb.case;
-transform = "{1, 0, 0, 1, 166, 0}";
+transform = "{1, 0, 0, 1, 174, -10}";
 }
 );
 layerId = UUID0;
@@ -5049,13 +5048,12 @@ width = 667;
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = brevecomb.case;
-transform = "{1, 0, 0, 1, 143, 30}";
+transform = "{1, 0, 0, 1, 171, 0}";
 }
 );
 layerId = UUID1;
@@ -5069,7 +5067,7 @@ unicode = 011E;
 {
 color = 4;
 glyphname = Gcaron;
-lastChange = "2016-10-13 12:52:41 +0000";
+lastChange = "2016-10-13 12:57:01 +0000";
 layers = (
 {
 components = (
@@ -5079,7 +5077,7 @@ name = G;
 {
 alignment = 1;
 name = caroncomb.case;
-transform = "{1, 0, 0, 1, 143, 10}";
+transform = "{1, 0, 0, 1, 174, 0}";
 }
 );
 layerId = UUID0;
@@ -5093,7 +5091,7 @@ name = G;
 {
 alignment = 1;
 name = caroncomb.case;
-transform = "{1, 0, 0, 1, 143, 0}";
+transform = "{1, 0, 0, 1, 171, 0}";
 }
 );
 layerId = UUID1;
@@ -5107,18 +5105,17 @@ unicode = 01E6;
 {
 color = 10;
 glyphname = Gcircumflex;
-lastChange = "2016-10-13 12:52:41 +0000";
+lastChange = "2016-10-13 12:57:01 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 149, 174}";
+transform = "{1, 0, 0, 1, 180, 164}";
 }
 );
 layerId = UUID0;
@@ -5127,13 +5124,12 @@ width = 667;
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = circumflexcomb;
-transform = "{1, 0, 0, 1, 149, 174}";
+transform = "{1, 0, 0, 1, 177, 174}";
 }
 );
 layerId = UUID1;
@@ -5147,18 +5143,17 @@ unicode = 011C;
 {
 color = 10;
 glyphname = Gcommaaccent;
-lastChange = "2016-10-13 12:52:41 +0000";
+lastChange = "2016-10-13 12:56:44 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 148, 0}";
+transform = "{1, 0, 0, 1, 137, 0}";
 }
 );
 layerId = UUID0;
@@ -5167,13 +5162,12 @@ width = 667;
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = commaaccentcomb;
-transform = "{1, 0, 0, 1, 137, 0}";
+transform = "{1, 0, 0, 1, 123, 0}";
 }
 );
 layerId = UUID1;
@@ -5187,18 +5181,17 @@ unicode = 0122;
 {
 color = 10;
 glyphname = Gdotaccent;
-lastChange = "2016-10-13 12:52:41 +0000";
+lastChange = "2016-10-13 12:57:01 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 167, 0}";
+transform = "{1, 0, 0, 1, 174, 0}";
 }
 );
 layerId = UUID0;
@@ -5207,13 +5200,12 @@ width = 667;
 {
 components = (
 {
-alignment = -1;
 name = G;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 146, 0}";
+transform = "{1, 0, 0, 1, 171, 0}";
 }
 );
 layerId = UUID1;
@@ -5227,7 +5219,7 @@ unicode = 0120;
 {
 color = 5;
 glyphname = Gmacron;
-lastChange = "2016-10-13 12:52:41 +0000";
+lastChange = "2016-10-13 12:57:01 +0000";
 layers = (
 {
 components = (
@@ -5237,7 +5229,7 @@ name = G;
 {
 alignment = 1;
 name = macroncomb.case;
-transform = "{1, 0, 0, 1, 142, 10}";
+transform = "{1, 0, 0, 1, 173, 0}";
 }
 );
 layerId = UUID0;
@@ -5251,7 +5243,7 @@ name = G;
 {
 alignment = 1;
 name = macroncomb.case;
-transform = "{1, 0, 0, 1, 138, 0}";
+transform = "{1, 0, 0, 1, 166, 0}";
 }
 );
 layerId = UUID1;
