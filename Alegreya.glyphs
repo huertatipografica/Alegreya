@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-/o.sc/oacute.sc/obreve.sc/ocaron.sc/ocircumflex.sc/ocircumflexacute.sc/ocircumflexdotbelow.sc/ocircumflexgrave.sc/ocircumflexhookabove.sc/ocircumflextilde.sc/odblgrave.sc/odieresis.sc/odieresismacron.sc/odotaccentmacron.sc/odotbelow.sc/ograve.sc/ohookabove.sc/ohorn.sc/ohorn.sc/ohornacute.sc/ohorndotbelow.sc/ohorngrave.sc/ohornhookabove.sc/ohorntilde.sc/ohungarumlaut.sc/oinvertedbreve.sc/omacron.sc/omacronacute.sc/omacrongrave.sc/oogonek.sc/oslash.sc/oslashacute.sc/tildecomb/otilde.sc/otildeacute.sc/otildedieresis.sc/otildemacron.sc
+/hungarumlautcomb/hungarumlautcomb.case/Ohungarumlaut/Uhungarumlaut/uhungarumlaut.sc/ohungarumlaut/uhungarumlaut/ohungarumlaut.sc
 );
 classes = (
 {
@@ -9988,18 +9988,17 @@ unicode = 1EE0;
 {
 color = 10;
 glyphname = Ohungarumlaut;
-lastChange = "2016-10-13 13:02:48 +0000";
+lastChange = "2016-10-14 14:26:23 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 157, 0}";
+transform = "{1, 0, 0, 1, 146, -10}";
 }
 );
 layerId = UUID0;
@@ -10008,13 +10007,12 @@ width = 692;
 {
 components = (
 {
-alignment = -1;
 name = O;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 124, 0}";
+transform = "{1, 0, 0, 1, 128, 0}";
 }
 );
 layerId = UUID1;
@@ -14843,18 +14841,17 @@ unicode = 1EEE;
 {
 color = 10;
 glyphname = Uhungarumlaut;
-lastChange = "2016-10-13 13:11:37 +0000";
+lastChange = "2016-10-14 14:26:23 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = U;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 162, 0}";
+transform = "{1, 0, 0, 1, 141, -10}";
 }
 );
 layerId = UUID0;
@@ -14863,13 +14860,12 @@ width = 681;
 {
 components = (
 {
-alignment = -1;
 name = U;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 132, 0}";
+transform = "{1, 0, 0, 1, 114, 0}";
 }
 );
 layerId = UUID1;
@@ -30111,18 +30107,17 @@ unicode = 1EE1;
 {
 color = 10;
 glyphname = ohungarumlaut;
-lastChange = "2016-10-13 14:31:25 +0000";
+lastChange = "2016-10-14 14:26:23 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 61, 0}";
+transform = "{1, 0, 0, 1, 100, 0}";
 }
 );
 layerId = UUID0;
@@ -30131,17 +30126,16 @@ width = 498;
 {
 components = (
 {
-alignment = -1;
 name = o;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 96, 0}";
+transform = "{1, 0, 0, 1, 103, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 538;
 }
 );
 leftKerningGroup = o;
@@ -34512,18 +34506,17 @@ unicode = 1EEF;
 {
 color = 10;
 glyphname = uhungarumlaut;
-lastChange = "2016-10-13 14:37:55 +0000";
+lastChange = "2016-10-14 14:26:23 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 66, 0}";
+transform = "{1, 0, 0, 1, 122, 0}";
 }
 );
 layerId = UUID0;
@@ -34532,13 +34525,12 @@ width = 541;
 {
 components = (
 {
-alignment = -1;
 name = u;
 },
 {
-alignment = -1;
+alignment = 1;
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 104, 0}";
+transform = "{1, 0, 0, 1, 105, 0}";
 }
 );
 layerId = UUID1;
@@ -54613,7 +54605,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oacute.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54648,7 +54640,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = obreve.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54683,7 +54675,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocaron.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54718,7 +54710,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflex.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54753,7 +54745,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexacute.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54788,7 +54780,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexdotbelow.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54831,7 +54823,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexgrave.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54866,7 +54858,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflexhookabove.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54901,7 +54893,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ocircumflextilde.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54936,7 +54928,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = odblgrave.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -54971,7 +54963,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = odieresis.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55006,7 +54998,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = odieresismacron.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55041,7 +55033,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = odotaccentmacron.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55076,7 +55068,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = odotbelow.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55111,7 +55103,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ograve.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55146,7 +55138,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohookabove.sc;
-lastChange = "2016-10-13 15:50:34 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55328,7 +55320,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohornacute.sc;
-lastChange = "2016-10-13 15:51:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55363,7 +55355,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohorndotbelow.sc;
-lastChange = "2016-10-13 15:51:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55398,7 +55390,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohorngrave.sc;
-lastChange = "2016-10-13 15:51:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55433,7 +55425,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohornhookabove.sc;
-lastChange = "2016-10-13 15:51:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55468,7 +55460,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohorntilde.sc;
-lastChange = "2016-10-13 15:51:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55503,7 +55495,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = ohungarumlaut.sc;
-lastChange = "2016-10-13 15:50:45 +0000";
+lastChange = "2016-10-14 14:26:23 +0000";
 layers = (
 {
 components = (
@@ -55511,8 +55503,9 @@ components = (
 name = o.sc;
 },
 {
+alignment = 1;
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 126, 25}";
+transform = "{1, 0, 0, 1, 144, 45}";
 }
 );
 layerId = UUID0;
@@ -55524,8 +55517,9 @@ components = (
 name = o.sc;
 },
 {
+alignment = 1;
 name = hungarumlautcomb;
-transform = "{1, 0, 0, 1, 110, 31}";
+transform = "{1, 0, 0, 1, 111, 31}";
 }
 );
 layerId = UUID1;
@@ -55538,7 +55532,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = oinvertedbreve.sc;
-lastChange = "2016-10-13 15:50:45 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55573,7 +55567,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = omacron.sc;
-lastChange = "2016-10-13 15:50:45 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55608,7 +55602,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = omacronacute.sc;
-lastChange = "2016-10-13 15:50:45 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55643,7 +55637,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = omacrongrave.sc;
-lastChange = "2016-10-13 15:50:45 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55678,7 +55672,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oogonek.sc;
-lastChange = "2016-10-13 15:48:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -55715,7 +55709,7 @@ width = 554;
 {
 color = 0;
 glyphname = oslash.sc;
-lastChange = "2016-10-13 15:48:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -55894,7 +55888,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oslashacute.sc;
-lastChange = "2016-10-13 15:48:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 background = {
@@ -56017,7 +56011,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = otilde.sc;
-lastChange = "2016-10-13 15:48:03 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -56056,7 +56050,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = otildeacute.sc;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -56093,7 +56087,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = otildedieresis.sc;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -56130,7 +56124,7 @@ rightKerningGroup = O;
 {
 color = 5;
 glyphname = otildemacron.sc;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 components = (
@@ -60060,18 +60054,16 @@ rightKerningGroup = U;
 {
 color = 10;
 glyphname = uhungarumlaut.sc;
-lastChange = "2016-09-24 11:54:15 +0000";
+lastChange = "2016-10-14 14:26:23 +0000";
 layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 92, -140}";
+name = hungarumlautcomb;
+transform = "{1, 0, 0, 1, 139, 45}";
 }
 );
 layerId = UUID0;
@@ -60080,13 +60072,11 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 70, -144}";
+name = hungarumlautcomb;
+transform = "{1, 0, 0, 1, 98, 31}";
 }
 );
 layerId = UUID1;
@@ -145379,7 +145369,7 @@ unicode = 0307;
 {
 color = 4;
 glyphname = dotaccentcomb_macroncomb;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -145624,17 +145614,17 @@ unicode = 0301;
 {
 color = 1;
 glyphname = hungarumlautcomb;
-lastChange = "2016-09-27 15:20:22 +0000";
+lastChange = "2016-10-14 14:25:17 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{167, 472}";
+position = "{149, 452}";
 },
 {
 name = top;
-position = "{229, 705}";
+position = "{149, 705}";
 }
 );
 background = {
@@ -145642,33 +145632,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"269 664 LINE",
-"236 702 LINE",
-"227 705 LINE",
-"227 705 OFFCURVE",
-"153 622 OFFCURVE",
-"87 554 CURVE",
-"103 536 LINE",
-"112 534 LINE",
-"191 600 OFFCURVE",
-"267 655 OFFCURVE",
-"267 655 CURVE"
+"169 664 LINE",
+"136 702 LINE",
+"127 705 LINE",
+"127 705 OFFCURVE",
+"53 622 OFFCURVE",
+"-13 554 CURVE",
+"3 536 LINE",
+"12 534 LINE",
+"91 600 OFFCURVE",
+"167 655 OFFCURVE",
+"167 655 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"397 664 LINE",
-"364 702 LINE",
-"355 705 LINE",
-"355 705 OFFCURVE",
-"281 622 OFFCURVE",
-"215 554 CURVE",
-"231 536 LINE",
-"240 534 LINE",
-"319 600 OFFCURVE",
-"395 655 OFFCURVE",
-"395 655 CURVE"
+"297 664 LINE",
+"264 702 LINE",
+"255 705 LINE",
+"255 705 OFFCURVE",
+"181 622 OFFCURVE",
+"115 554 CURVE",
+"131 536 LINE",
+"140 534 LINE",
+"219 600 OFFCURVE",
+"295 655 OFFCURVE",
+"295 655 CURVE"
 );
 }
 );
@@ -145678,47 +145668,47 @@ paths = (
 {
 closed = 1;
 nodes = (
-"384 664 LINE",
-"351 702 LINE",
-"342 705 LINE",
-"342 705 OFFCURVE",
-"268 622 OFFCURVE",
-"202 554 CURVE",
-"218 536 LINE",
-"227 534 LINE",
-"306 600 OFFCURVE",
-"382 655 OFFCURVE",
-"382 655 CURVE"
+"334 664 LINE",
+"301 702 LINE",
+"292 705 LINE",
+"292 705 OFFCURVE",
+"218 622 OFFCURVE",
+"152 554 CURVE",
+"168 536 LINE",
+"177 534 LINE",
+"256 600 OFFCURVE",
+"332 655 OFFCURVE",
+"332 655 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"256 664 LINE",
-"223 702 LINE",
-"214 705 LINE",
-"214 705 OFFCURVE",
-"140 622 OFFCURVE",
-"74 554 CURVE",
-"90 536 LINE",
-"99 534 LINE",
-"178 600 OFFCURVE",
-"254 655 OFFCURVE",
-"254 655 CURVE"
+"206 664 LINE",
+"173 702 LINE",
+"164 705 LINE",
+"164 705 OFFCURVE",
+"90 622 OFFCURVE",
+"24 554 CURVE",
+"40 536 LINE",
+"49 534 LINE",
+"128 600 OFFCURVE",
+"204 655 OFFCURVE",
+"204 655 CURVE"
 );
 }
 );
-width = 398;
+width = 362;
 },
 {
 anchors = (
 {
 name = _top;
-position = "{167, 472}";
+position = "{166, 472}";
 },
 {
 name = top;
-position = "{207, 754}";
+position = "{166, 754}";
 }
 );
 background = {
@@ -145726,33 +145716,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"382 691 LINE",
-"298 754 LINE",
-"284 749 LINE",
-"284 749 OFFCURVE",
-"231 656 OFFCURVE",
-"176 566 CURVE",
-"225 528 LINE",
-"244 528 LINE",
-"312 604 OFFCURVE",
-"385 677 OFFCURVE",
-"385 677 CURVE"
+"341 691 LINE",
+"257 754 LINE",
+"243 749 LINE",
+"243 749 OFFCURVE",
+"190 656 OFFCURVE",
+"135 566 CURVE",
+"184 528 LINE",
+"203 528 LINE",
+"271 604 OFFCURVE",
+"344 677 OFFCURVE",
+"344 677 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"219 691 LINE",
-"135 754 LINE",
-"121 749 LINE",
-"121 749 OFFCURVE",
-"68 656 OFFCURVE",
-"13 566 CURVE",
-"62 528 LINE",
-"81 528 LINE",
-"149 604 OFFCURVE",
-"222 677 OFFCURVE",
-"222 677 CURVE"
+"178 691 LINE",
+"94 754 LINE",
+"80 749 LINE",
+"80 749 OFFCURVE",
+"27 656 OFFCURVE",
+"-28 566 CURVE",
+"21 528 LINE",
+"40 528 LINE",
+"108 604 OFFCURVE",
+"181 677 OFFCURVE",
+"181 677 CURVE"
 );
 }
 );
@@ -145762,37 +145752,37 @@ paths = (
 {
 closed = 1;
 nodes = (
-"390 691 LINE",
-"306 754 LINE",
-"292 749 LINE",
-"292 749 OFFCURVE",
-"239 656 OFFCURVE",
-"184 566 CURVE",
-"233 528 LINE",
-"252 528 LINE",
-"320 604 OFFCURVE",
-"393 677 OFFCURVE",
-"393 677 CURVE"
+"389 691 LINE",
+"305 754 LINE",
+"291 749 LINE",
+"291 749 OFFCURVE",
+"238 656 OFFCURVE",
+"183 566 CURVE",
+"232 528 LINE",
+"251 528 LINE",
+"319 604 OFFCURVE",
+"392 677 OFFCURVE",
+"392 677 CURVE"
 );
 },
 {
 closed = 1;
 nodes = (
-"227 691 LINE",
-"143 754 LINE",
-"129 749 LINE",
-"129 749 OFFCURVE",
-"76 656 OFFCURVE",
-"21 566 CURVE",
-"70 528 LINE",
-"89 528 LINE",
-"157 604 OFFCURVE",
-"230 677 OFFCURVE",
-"230 677 CURVE"
+"226 691 LINE",
+"142 754 LINE",
+"128 749 LINE",
+"128 749 OFFCURVE",
+"75 656 OFFCURVE",
+"20 566 CURVE",
+"69 528 LINE",
+"88 528 LINE",
+"156 604 OFFCURVE",
+"229 677 OFFCURVE",
+"229 677 CURVE"
 );
 }
 );
-width = 398;
+width = 406;
 }
 );
 leftKerningGroup = asterisk;
@@ -146331,7 +146321,7 @@ unicode = 0303;
 {
 color = 4;
 glyphname = tildecomb_dieresiscomb;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -146388,7 +146378,7 @@ width = 369;
 {
 color = 4;
 glyphname = tildecomb_acutecomb;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -146447,7 +146437,7 @@ width = 398;
 {
 color = 4;
 glyphname = tildecomb_macroncomb;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -146586,7 +146576,7 @@ unicode = 0304;
 {
 color = 5;
 glyphname = macroncomb_gravecomb;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -146675,7 +146665,7 @@ rightMetricsKey = "=macroncomb";
 {
 color = 5;
 glyphname = macroncomb_acutecomb;
-lastChange = "2016-10-13 15:50:25 +0000";
+lastChange = "2016-10-14 14:17:46 +0000";
 layers = (
 {
 anchors = (
@@ -148743,7 +148733,7 @@ width = 398;
 {
 color = 1;
 glyphname = hungarumlautcomb.case;
-lastChange = "2016-09-27 15:20:22 +0000";
+lastChange = "2016-10-14 14:26:18 +0000";
 layers = (
 {
 anchors = (
@@ -148797,33 +148787,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"330 732 OFFCURVE",
-"410 772 OFFCURVE",
-"410 772 CURVE",
-"413 781 LINE",
-"391 823 LINE",
-"382 828 LINE",
-"382 828 OFFCURVE",
-"301 764 OFFCURVE",
-"229 710 CURVE",
-"239 689 LINE",
-"246 685 LINE"
+"320 732 OFFCURVE",
+"400 772 OFFCURVE",
+"400 772 CURVE",
+"403 781 LINE",
+"381 823 LINE",
+"372 828 LINE",
+"372 828 OFFCURVE",
+"291 764 OFFCURVE",
+"219 710 CURVE",
+"229 689 LINE",
+"236 685 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"190 741 OFFCURVE",
-"270 781 OFFCURVE",
-"270 781 CURVE",
-"273 790 LINE",
-"251 833 LINE",
-"242 837 LINE",
-"242 837 OFFCURVE",
-"161 773 OFFCURVE",
-"89 720 CURVE",
-"98 699 LINE",
-"106 694 LINE"
+"180 741 OFFCURVE",
+"260 781 OFFCURVE",
+"260 781 CURVE",
+"263 790 LINE",
+"241 833 LINE",
+"232 837 LINE",
+"232 837 OFFCURVE",
+"151 773 OFFCURVE",
+"79 720 CURVE",
+"88 699 LINE",
+"96 694 LINE"
 );
 }
 );
@@ -150785,7 +150775,7 @@ unicode = 0060;
 {
 color = 4;
 glyphname = hungarumlaut;
-lastChange = "2016-10-13 12:52:50 +0000";
+lastChange = "2016-10-14 14:25:24 +0000";
 layers = (
 {
 components = (
@@ -150805,7 +150795,7 @@ name = hungarumlautcomb;
 }
 );
 layerId = UUID1;
-width = 398;
+width = 406;
 }
 );
 unicode = 02DD;
