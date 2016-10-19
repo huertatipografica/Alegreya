@@ -5,7 +5,8 @@ DisplayStrings = (
 /ecedillabreve/edblgrave/einvertedbreve/emacronacute/emacrongrave/gcaron/gmacron/hbrevebelow/hdotbelow/idblgrave/idieresisacute/iinvertedbreve/ldotbelow/lj/llinebelow/mdotbelow/ndotaccent/ndotbelow/nj/nlinebelow/odblgrave/odieresismacron/odotaccentmacron/oinvertedbreve/omacronacute/omacrongrave/otildeacute/otildedieresis/otildemacron/rdblgrave/rdotbelow/rinvertedbreve/rlinebelow/sacutedotaccent/scarondotaccent/sdotaccent/sdotbelow/sdotbelowdotaccent/tdieresis/tdotbelow/tlinebelow/udblgrave/uinvertedbreve/umacrondieresis/utildeacute/ydotaccent/ymacron/zdotbelow,
 /iacute_j.loclNLD/a.sups/b.sups/c.sups/d.sups/e.sups/f.sups/g.sups/h.sups/i.sups/j.sups/k.sups/l.sups/m.sups/n.sups/o.sups/p.sups/q.sups/r.sups/s.sups/t.sups/u.sups/v.sups/w.sups/x.sups/y.sups/z.sups/T_h/c_h/c_t/s_t/adblgrave.sc/ainvertedbreve.sc/germandbls.alt.sc/ccedillaacute.sc/ddotbelow.sc/dlinebelow.sc/dzcaron.sc/ecedillabreve.sc/edblgrave.sc/einvertedbreve.sc/emacronacute.sc/emacrongrave.sc/gcaron.sc/gmacron.sc/brevebelowcomb/Hbrevebelow/hbrevebelow/hbrevebelow.sc/hbrevebelow.sc/hdotbelow.sc/iacute_j.loclNLD.sc,
 /idblgrave.sc/idieresisacute.sc/iinvertedbreve.sc/ldotbelow.sc/lj.sc/llinebelow.sc/mdotbelow.sc/dotaccentcomb/ndotaccent.sc/ndotbelow.sc/nj.sc/nlinebelow.sc/odblgrave.sc/odieresismacron.sc/odotaccentmacron.sc/oinvertedbreve.sc/omacronacute.sc/omacrongrave.sc/otildeacute.sc/otildedieresis.sc/tildecomb/tildecomb_macroncomb/otildemacron.sc/rdblgrave.sc/rdotbelow.sc/rinvertedbreve.sc/rlinebelow.sc/sacutedotaccent.sc/scarondotaccent.sc/sdotaccent.sc/sdotbelow.sc/sdotbelowdotaccent.sc/tdieresis.sc/tdotbelow.sc/tlinebelow.sc/udblgrave.sc/uinvertedbreve.sc/macroncomb.case/u.sc/umacrondieresis.sc/utildeacute.sc/ydotaccent.sc/ymacron.sc/zdotbelow.sc/hmod/jmod/lmod/nmod/smod/wmod/xmod/ymod,
-/backslash.case/slash.case/braceleft.case/braceright.case/bracketleft.case/bracketright.case/parenright.case/emdash.case/endash.case/hyphen.case/guillemetleft.case/guillemetright.case/guilsinglleft.case/guilsinglright.case/periodcentered.case/bullet.case
+/backslash.case/slash.case/braceleft.case/braceright.case/bracketleft.case/bracketright.case/parenright.case/emdash.case/endash.case/hyphen.case/guillemetleft.case/guillemetright.case/guilsinglleft.case/guilsinglright.case/periodcentered.case/bullet.case,
+"/bulletoperator/divisionslash/Ohm/increment \U00B5/numero/blackLargeSquare/at.case"
 );
 classes = (
 {
@@ -150661,7 +150662,7 @@ unicode = 005F;
 },
 {
 glyphname = backslash.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -150687,7 +150688,7 @@ width = 319;
 },
 {
 glyphname = periodcentered.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -150713,7 +150714,7 @@ width = 231;
 },
 {
 glyphname = bullet.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -150739,7 +150740,7 @@ width = 330;
 },
 {
 glyphname = slash.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -151765,7 +151766,7 @@ unicode = 0029;
 },
 {
 glyphname = braceleft.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -151791,7 +151792,7 @@ width = 326;
 },
 {
 glyphname = braceright.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -151817,7 +151818,7 @@ width = 326;
 },
 {
 glyphname = bracketleft.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -151843,7 +151844,7 @@ width = 317;
 },
 {
 glyphname = bracketright.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -151869,7 +151870,7 @@ width = 317;
 },
 {
 glyphname = parenright.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -152298,7 +152299,7 @@ unicode = 00AD;
 },
 {
 glyphname = emdash.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -152324,7 +152325,7 @@ width = 801;
 },
 {
 glyphname = endash.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -152350,7 +152351,7 @@ width = 434;
 },
 {
 glyphname = hyphen.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -152377,7 +152378,7 @@ width = 314;
 {
 color = 10;
 glyphname = guillemetleft;
-lastChange = "2016-10-19 22:17:40 +0000";
+lastChange = "2016-10-19 22:18:23 +0000";
 layers = (
 {
 components = (
@@ -152415,7 +152416,7 @@ unicode = 00AB;
 {
 color = 10;
 glyphname = guillemetright;
-lastChange = "2016-10-19 22:17:40 +0000";
+lastChange = "2016-10-19 22:18:23 +0000";
 layers = (
 {
 components = (
@@ -153260,7 +153261,7 @@ unicode = 201A;
 },
 {
 glyphname = guillemetleft.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:23 +0000";
 layers = (
 {
 components = (
@@ -153286,7 +153287,7 @@ width = 464;
 },
 {
 glyphname = guillemetright.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:23 +0000";
 layers = (
 {
 components = (
@@ -153312,7 +153313,7 @@ width = 464;
 },
 {
 glyphname = guilsinglleft.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -153338,7 +153339,7 @@ width = 262;
 },
 {
 glyphname = guilsinglright.case;
-lastChange = "2016-10-19 22:17:54 +0000";
+lastChange = "2016-10-19 22:18:12 +0000";
 layers = (
 {
 components = (
@@ -171945,12 +171946,13 @@ unicode = 2033;
 },
 {
 glyphname = at.case;
-lastChange = "2016-10-19 21:32:41 +0000";
+lastChange = "2016-10-19 22:19:14 +0000";
 layers = (
 {
 components = (
 {
 name = at;
+transform = "{1, 0, 0, 1, 10, 70}";
 }
 );
 layerId = UUID0;
@@ -171960,6 +171962,7 @@ width = 801;
 components = (
 {
 name = at;
+transform = "{1, 0, 0, 1, 11, 90}";
 }
 );
 layerId = UUID1;
