@@ -1,5 +1,8 @@
 {
 .appVersion = "895";
+DisplayStrings = (
+"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won/dagger/daggerdbl"
+);
 classes = (
 {
 automatic = 1;
@@ -154752,7 +154755,7 @@ unicode = 00A2;
 {
 color = 0;
 glyphname = colonsign;
-lastChange = "2016-10-19 21:32:41 +0000";
+lastChange = "2016-10-20 15:08:46 +0000";
 layers = (
 {
 components = (
@@ -154766,59 +154769,59 @@ paths = (
 {
 closed = 1;
 nodes = (
-"287 19 LINE",
-"388 484 LINE",
-"356 484 LINE",
-"256 19 LINE"
+"291 19 LINE",
+"392 484 LINE",
+"360 484 LINE",
+"260 19 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"148 -151 LINE",
-"184 19 LINE",
-"153 19 LINE",
-"117 -147 LINE",
-"121 -154 LINE"
+"152 -151 LINE",
+"188 19 LINE",
+"157 19 LINE",
+"121 -147 LINE",
+"125 -154 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"251 -151 LINE",
-"287 19 LINE",
-"256 19 LINE",
-"220 -147 LINE",
-"224 -154 LINE"
+"255 -151 LINE",
+"291 19 LINE",
+"260 19 LINE",
+"224 -147 LINE",
+"228 -154 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"184 19 LINE",
-"285 484 LINE",
-"253 484 LINE",
-"153 19 LINE"
+"188 19 LINE",
+"289 484 LINE",
+"257 484 LINE",
+"157 19 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"285 484 LINE",
-"322 649 LINE",
-"317 658 LINE",
-"290 654 LINE",
-"253 484 LINE"
+"289 484 LINE",
+"326 649 LINE",
+"321 658 LINE",
+"294 654 LINE",
+"257 484 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"388 484 LINE",
-"425 649 LINE",
-"420 658 LINE",
-"393 654 LINE",
-"356 484 LINE"
+"392 484 LINE",
+"429 649 LINE",
+"424 658 LINE",
+"397 654 LINE",
+"360 484 LINE"
 );
 }
 );
@@ -154836,59 +154839,59 @@ paths = (
 {
 closed = 1;
 nodes = (
-"365 45 LINE",
-"474 484 LINE",
-"351 474 LINE",
-"242 34 LINE"
+"355 45 LINE",
+"464 484 LINE",
+"341 474 LINE",
+"232 34 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"154 -151 LINE",
-"203 45 LINE",
-"80 34 LINE",
-"31 -158 LINE",
-"39 -164 LINE"
+"144 -151 LINE",
+"193 45 LINE",
+"70 34 LINE",
+"21 -158 LINE",
+"29 -164 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"316 -151 LINE",
-"365 45 LINE",
-"242 34 LINE",
-"193 -158 LINE",
-"201 -164 LINE"
+"306 -151 LINE",
+"355 45 LINE",
+"232 34 LINE",
+"183 -158 LINE",
+"191 -164 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"203 45 LINE",
-"312 484 LINE",
-"189 474 LINE",
-"80 34 LINE"
+"193 45 LINE",
+"302 484 LINE",
+"179 474 LINE",
+"70 34 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"312 484 LINE",
-"353 649 LINE",
-"348 658 LINE",
-"231 644 LINE",
-"189 474 LINE"
+"302 484 LINE",
+"343 649 LINE",
+"338 658 LINE",
+"221 644 LINE",
+"179 474 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"474 484 LINE",
-"515 649 LINE",
-"510 658 LINE",
-"393 644 LINE",
-"351 474 LINE"
+"464 484 LINE",
+"505 649 LINE",
+"500 658 LINE",
+"383 644 LINE",
+"341 474 LINE"
 );
 }
 );
@@ -154908,41 +154911,41 @@ paths = (
 {
 closed = 1;
 nodes = (
-"269 19 LINE",
-"233 -147 LINE",
-"237 -154 LINE",
-"264 -151 LINE",
-"300 19 LINE"
+"281 19 LINE",
+"254 -147 LINE",
+"258 -154 LINE",
+"285 -151 LINE",
+"312 19 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"401 484 LINE",
-"438 649 LINE",
-"433 658 LINE",
-"406 654 LINE",
-"369 484 LINE"
+"389 484 LINE",
+"417 649 LINE",
+"412 658 LINE",
+"385 654 LINE",
+"357 484 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"156 19 LINE",
-"120 -147 LINE",
-"124 -154 LINE",
-"151 -151 LINE",
-"187 19 LINE"
+"168 19 LINE",
+"141 -147 LINE",
+"145 -154 LINE",
+"172 -151 LINE",
+"199 19 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"288 484 LINE",
-"325 649 LINE",
-"320 658 LINE",
-"293 654 LINE",
-"256 484 LINE"
+"276 484 LINE",
+"304 649 LINE",
+"299 658 LINE",
+"272 654 LINE",
+"244 484 LINE"
 );
 }
 );
@@ -155006,41 +155009,41 @@ paths = (
 {
 closed = 1;
 nodes = (
-"265 73 LINE",
-"206 -158 LINE",
-"214 -164 LINE",
-"329 -151 LINE",
-"388 84 LINE"
+"271 73 LINE",
+"224 -158 LINE",
+"233 -164 LINE",
+"347 -151 LINE",
+"394 84 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"482 465 LINE",
-"528 649 LINE",
-"523 658 LINE",
-"406 644 LINE",
-"359 455 LINE"
+"468 465 LINE",
+"504 649 LINE",
+"498 658 LINE",
+"382 644 LINE",
+"345 455 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"93 73 LINE",
-"34 -158 LINE",
-"42 -164 LINE",
-"157 -151 LINE",
-"216 84 LINE"
+"99 73 LINE",
+"52 -158 LINE",
+"61 -164 LINE",
+"175 -151 LINE",
+"222 84 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"310 465 LINE",
-"356 649 LINE",
-"351 658 LINE",
-"234 644 LINE",
-"187 455 LINE"
+"296 465 LINE",
+"332 649 LINE",
+"326 658 LINE",
+"210 644 LINE",
+"173 455 LINE"
 );
 }
 );
