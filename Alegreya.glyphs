@@ -1,8 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won/dagger/daggerdbl",
-/.notdef
+"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won/dagger/daggerdbl"
 );
 classes = (
 {
@@ -65283,37 +65282,37 @@ unicode = 1F89;
 {
 color = 10;
 glyphname = Alphapsilivariaprosgegrammeni;
-lastChange = "2016-10-20 14:31:44 +0000";
+lastChange = "2016-10-20 19:09:12 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 90, 0}";
+transform = "{1, 0, 0, 1, 89, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -57, -36}";
+transform = "{1, 0, 0, 1, -58, -36}";
 }
 );
 layerId = UUID0;
-width = 1004;
+width = 1003;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 223, 0}";
+transform = "{1, 0, 0, 1, 224, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -38, -76}";
+transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
 layerId = UUID1;
-width = 1206;
+width = 1207;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -65367,37 +65366,37 @@ unicode = 1F8B;
 {
 color = 10;
 glyphname = Alphapsilioxiaprosgegrammeni;
-lastChange = "2016-10-20 14:31:44 +0000";
+lastChange = "2016-10-20 19:09:12 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 98, 0}";
+transform = "{1, 0, 0, 1, 97, 0}";
 },
 {
 name = psilioxia.case;
-transform = "{1, 0, 0, 1, -59, -36}";
+transform = "{1, 0, 0, 1, -60, -36}";
 }
 );
 layerId = UUID0;
-width = 1012;
+width = 1011;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 243, 0}";
+transform = "{1, 0, 0, 1, 244, 0}";
 },
 {
 name = psilioxia.case;
-transform = "{1, 0, 0, 1, -40, -76}";
+transform = "{1, 0, 0, 1, -39, -76}";
 }
 );
 layerId = UUID1;
-width = 1226;
+width = 1227;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -65451,49 +65450,7 @@ unicode = 1F8D;
 {
 color = 10;
 glyphname = Alphapsiliperispomeniprosgegrammeni;
-lastChange = "2016-10-20 14:31:44 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 58, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -39, -36}";
-}
-);
-layerId = UUID0;
-width = 972;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 140, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -76, -76}";
-}
-);
-layerId = UUID1;
-width = 1123;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = iota;
-rightMetricsKey = "=Alphaprosgegrammeni";
-unicode = 1F8E;
-},
-{
-color = 10;
-glyphname = Alphadasiaperispomeniprosgegrammeni;
-lastChange = "2016-10-20 14:31:44 +0000";
+lastChange = "2016-10-20 19:09:12 +0000";
 layers = (
 {
 components = (
@@ -65503,7 +65460,7 @@ name = Alphaprosgegrammeni;
 transform = "{1, 0, 0, 1, 59, 0}";
 },
 {
-name = dasiaperispomeni.case;
+name = psiliperispomeni.case;
 transform = "{1, 0, 0, 1, -38, -36}";
 }
 );
@@ -65515,15 +65472,57 @@ components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni;
-transform = "{1, 0, 0, 1, 133, 0}";
+transform = "{1, 0, 0, 1, 141, 0}";
 },
 {
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -60, -76}";
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, -75, -76}";
 }
 );
 layerId = UUID1;
-width = 1116;
+width = 1124;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = iota;
+rightMetricsKey = "=Alphaprosgegrammeni";
+unicode = 1F8E;
+},
+{
+color = 10;
+glyphname = Alphadasiaperispomeniprosgegrammeni;
+lastChange = "2016-10-20 19:09:07 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni;
+transform = "{1, 0, 0, 1, 60, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, -37, -36}";
+}
+);
+layerId = UUID0;
+width = 974;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni;
+transform = "{1, 0, 0, 1, 134, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, -59, -76}";
+}
+);
+layerId = UUID1;
+width = 1117;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -68690,37 +68689,37 @@ rightKerningGroup = A;
 {
 color = 10;
 glyphname = Alphapsiliprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -65, -62}";
+transform = "{1, 0, 0, 1, -55, -62}";
 },
 {
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 50, 0}";
+transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = UUID0;
-width = 634;
+width = 644;
 },
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -109, -76}";
+transform = "{1, 0, 0, 1, -99, -76}";
 },
 {
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 46, 0}";
+transform = "{1, 0, 0, 1, 56, 0}";
 }
 );
 layerId = UUID1;
-width = 722;
+width = 732;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -68731,37 +68730,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiaprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 50, 0}";
+transform = "{1, 0, 0, 1, 60, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -80, -36}";
+transform = "{1, 0, 0, 1, -70, -36}";
 }
 );
 layerId = UUID0;
-width = 634;
+width = 644;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 69, 0}";
+transform = "{1, 0, 0, 1, 79, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -95, -76}";
+transform = "{1, 0, 0, 1, -85, -76}";
 }
 );
 layerId = UUID1;
-width = 745;
+width = 755;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -68772,37 +68771,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphapsilivariaprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 139, 0}";
+transform = "{1, 0, 0, 1, 149, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -68, -36}";
+transform = "{1, 0, 0, 1, -58, -36}";
 }
 );
 layerId = UUID0;
-width = 723;
+width = 733;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 231, 0}";
+transform = "{1, 0, 0, 1, 241, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -47, -76}";
+transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
 layerId = UUID1;
-width = 907;
+width = 917;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -68813,89 +68812,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiavariaprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 134, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -63, -36}";
-}
-);
-layerId = UUID0;
-width = 718;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 253, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -37, -76}";
-}
-);
-layerId = UUID1;
-width = 929;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = A;
-rightMetricsKey = "=Alphaprosgegrammeni.ss05";
-},
-{
-color = 10;
-glyphname = Alphapsilioxiaprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 147, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -70, -36}";
-}
-);
-layerId = UUID0;
-width = 731;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 251, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -49, -76}";
-}
-);
-layerId = UUID1;
-width = 927;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = A;
-rightMetricsKey = "=Alphaprosgegrammeni.ss05";
-},
-{
-color = 10;
-glyphname = Alphadasiaoxiaprosgegrammeni.ss05;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -68905,8 +68822,8 @@ name = Alphaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 144, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -65, -36}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -53, -36}";
 }
 );
 layerId = UUID0;
@@ -68917,15 +68834,97 @@ components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 254, 0}";
+transform = "{1, 0, 0, 1, 263, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -46, -76}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
 layerId = UUID1;
-width = 930;
+width = 939;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = A;
+rightMetricsKey = "=Alphaprosgegrammeni.ss05";
+},
+{
+color = 10;
+glyphname = Alphapsilioxiaprosgegrammeni.ss05;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 157, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -60, -36}";
+}
+);
+layerId = UUID0;
+width = 741;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 261, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -39, -76}";
+}
+);
+layerId = UUID1;
+width = 937;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = A;
+rightMetricsKey = "=Alphaprosgegrammeni.ss05";
+},
+{
+color = 10;
+glyphname = Alphadasiaoxiaprosgegrammeni.ss05;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 154, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -55, -36}";
+}
+);
+layerId = UUID0;
+width = 738;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 264, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -36, -76}";
+}
+);
+layerId = UUID1;
+width = 940;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -68936,37 +68935,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphapsiliperispomeniprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 109, 0}";
+transform = "{1, 0, 0, 1, 119, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -48, -36}";
+transform = "{1, 0, 0, 1, -38, -36}";
 }
 );
 layerId = UUID0;
-width = 693;
+width = 703;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 148, 0}";
+transform = "{1, 0, 0, 1, 158, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -85, -76}";
+transform = "{1, 0, 0, 1, -75, -76}";
 }
 );
 layerId = UUID1;
-width = 824;
+width = 834;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -68977,37 +68976,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Alphadasiaperispomeniprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:20:15 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -47, -36}";
+transform = "{1, 0, 0, 1, -37, -36}";
 }
 );
 layerId = UUID0;
-width = 694;
+width = 704;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 141, 0}";
+transform = "{1, 0, 0, 1, 151, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -69, -76}";
+transform = "{1, 0, 0, 1, -59, -76}";
 }
 );
 layerId = UUID1;
-width = 817;
+width = 827;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -69420,37 +69419,37 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = Omegapsiliprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -114, -62}";
+transform = "{1, 0, 0, 1, -104, -62}";
 },
 {
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 50, 0}";
+transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = UUID0;
-width = 851;
+width = 861;
 },
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -111, -76}";
+transform = "{1, 0, 0, 1, -101, -76}";
 },
 {
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 111, 0}";
+transform = "{1, 0, 0, 1, 121, 0}";
 }
 );
 layerId = UUID1;
-width = 859;
+width = 869;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -69461,37 +69460,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiaprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 56, 0}";
+transform = "{1, 0, 0, 1, 66, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -108, -36}";
+transform = "{1, 0, 0, 1, -98, -36}";
 }
 );
 layerId = UUID0;
-width = 857;
+width = 867;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 126, 0}";
+transform = "{1, 0, 0, 1, 136, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -97, -76}";
+transform = "{1, 0, 0, 1, -87, -76}";
 }
 );
 layerId = UUID1;
-width = 874;
+width = 884;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -69502,37 +69501,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegapsilivariaprosgegrammeni.ss05;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 169, 0}";
+transform = "{1, 0, 0, 1, 179, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -72, -36}";
+transform = "{1, 0, 0, 1, -62, -36}";
 }
 );
 layerId = UUID0;
-width = 970;
+width = 980;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 288, 0}";
+transform = "{1, 0, 0, 1, 298, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -49, -76}";
+transform = "{1, 0, 0, 1, -39, -76}";
 }
 );
 layerId = UUID1;
-width = 1036;
+width = 1046;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -69543,89 +69542,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiavariaprosgegrammeni.ss05;
-lastChange = "2016-10-18 22:19:02 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 164, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -67, -36}";
-}
-);
-layerId = UUID0;
-width = 965;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 310, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -39, -76}";
-}
-);
-layerId = UUID1;
-width = 1058;
-}
-);
-leftKerningGroup = Omegatonos;
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = Omega;
-rightMetricsKey = "=Omegaprosgegrammeni.ss05";
-},
-{
-color = 10;
-glyphname = Omegapsilioxiaprosgegrammeni.ss05;
-lastChange = "2016-10-19 22:23:44 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 177, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -74, -36}";
-}
-);
-layerId = UUID0;
-width = 978;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 308, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -51, -76}";
-}
-);
-layerId = UUID1;
-width = 1056;
-}
-);
-leftKerningGroup = Omegatonos;
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = Omega;
-rightMetricsKey = "=Omegaprosgegrammeni.ss05";
-},
-{
-color = 10;
-glyphname = Omegadasiaoxiaprosgegrammeni.ss05;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -69635,8 +69552,8 @@ name = Omegaprosgegrammeni.ss05;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -69, -36}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -57, -36}";
 }
 );
 layerId = UUID0;
@@ -69647,15 +69564,97 @@ components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 311, 0}";
+transform = "{1, 0, 0, 1, 320, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -48, -76}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
 layerId = UUID1;
-width = 1059;
+width = 1068;
+}
+);
+leftKerningGroup = Omegatonos;
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = Omega;
+rightMetricsKey = "=Omegaprosgegrammeni.ss05";
+},
+{
+color = 10;
+glyphname = Omegapsilioxiaprosgegrammeni.ss05;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 187, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -64, -36}";
+}
+);
+layerId = UUID0;
+width = 988;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 318, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -41, -76}";
+}
+);
+layerId = UUID1;
+width = 1066;
+}
+);
+leftKerningGroup = Omegatonos;
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = Omega;
+rightMetricsKey = "=Omegaprosgegrammeni.ss05";
+},
+{
+color = 10;
+glyphname = Omegadasiaoxiaprosgegrammeni.ss05;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 184, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -59, -36}";
+}
+);
+layerId = UUID0;
+width = 985;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss05;
+transform = "{1, 0, 0, 1, 321, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -38, -76}";
+}
+);
+layerId = UUID1;
+width = 1069;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -69666,37 +69665,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegapsiliperispomeniprosgegrammeni.ss05;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 139, 0}";
+transform = "{1, 0, 0, 1, 149, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -52, -36}";
+transform = "{1, 0, 0, 1, -42, -36}";
 }
 );
 layerId = UUID0;
-width = 940;
+width = 950;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 205, 0}";
+transform = "{1, 0, 0, 1, 215, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -87, -76}";
+transform = "{1, 0, 0, 1, -77, -76}";
 }
 );
 layerId = UUID1;
-width = 953;
+width = 963;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -69707,37 +69706,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 {
 color = 10;
 glyphname = Omegadasiaperispomeniprosgegrammeni.ss05;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 140, 0}";
+transform = "{1, 0, 0, 1, 150, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -51, -36}";
+transform = "{1, 0, 0, 1, -41, -36}";
 }
 );
 layerId = UUID0;
-width = 941;
+width = 951;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss05;
-transform = "{1, 0, 0, 1, 198, 0}";
+transform = "{1, 0, 0, 1, 208, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -71, -76}";
+transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
 layerId = UUID1;
-width = 946;
+width = 956;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -69785,37 +69784,37 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = Alphapsiliprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -65, -62}";
+transform = "{1, 0, 0, 1, -55, -62}";
 },
 {
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 50, 0}";
+transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = UUID0;
-width = 953;
+width = 963;
 },
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -109, -76}";
+transform = "{1, 0, 0, 1, -99, -76}";
 },
 {
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 46, 0}";
+transform = "{1, 0, 0, 1, 56, 0}";
 }
 );
 layerId = UUID1;
-width = 1044;
+width = 1054;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -69826,37 +69825,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiaprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 50, 0}";
+transform = "{1, 0, 0, 1, 60, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -80, -36}";
+transform = "{1, 0, 0, 1, -70, -36}";
 }
 );
 layerId = UUID0;
-width = 953;
+width = 963;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 69, 0}";
+transform = "{1, 0, 0, 1, 79, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -95, -76}";
+transform = "{1, 0, 0, 1, -85, -76}";
 }
 );
 layerId = UUID1;
-width = 1067;
+width = 1077;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -69867,37 +69866,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphapsilivariaprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 139, 0}";
+transform = "{1, 0, 0, 1, 149, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -68, -36}";
+transform = "{1, 0, 0, 1, -58, -36}";
 }
 );
 layerId = UUID0;
-width = 1042;
+width = 1052;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 231, 0}";
+transform = "{1, 0, 0, 1, 241, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -47, -76}";
+transform = "{1, 0, 0, 1, -37, -76}";
 }
 );
 layerId = UUID1;
-width = 1229;
+width = 1239;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -69908,89 +69907,7 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiavariaprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 134, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -63, -36}";
-}
-);
-layerId = UUID0;
-width = 1037;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 253, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -37, -76}";
-}
-);
-layerId = UUID1;
-width = 1251;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=Alphaprosgegrammeni.ss06";
-},
-{
-color = 10;
-glyphname = Alphapsilioxiaprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 147, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -70, -36}";
-}
-);
-layerId = UUID0;
-width = 1050;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 251, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -49, -76}";
-}
-);
-layerId = UUID1;
-width = 1249;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=Alphaprosgegrammeni.ss06";
-},
-{
-color = 10;
-glyphname = Alphadasiaoxiaprosgegrammeni.ss06;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -70000,8 +69917,8 @@ name = Alphaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 144, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -65, -36}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -53, -36}";
 }
 );
 layerId = UUID0;
@@ -70012,15 +69929,97 @@ components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 254, 0}";
+transform = "{1, 0, 0, 1, 263, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -46, -76}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -27, -76}";
 }
 );
 layerId = UUID1;
-width = 1252;
+width = 1261;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=Alphaprosgegrammeni.ss06";
+},
+{
+color = 10;
+glyphname = Alphapsilioxiaprosgegrammeni.ss06;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 157, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -60, -36}";
+}
+);
+layerId = UUID0;
+width = 1060;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 261, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -39, -76}";
+}
+);
+layerId = UUID1;
+width = 1259;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=Alphaprosgegrammeni.ss06";
+},
+{
+color = 10;
+glyphname = Alphadasiaoxiaprosgegrammeni.ss06;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 154, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -55, -36}";
+}
+);
+layerId = UUID0;
+width = 1057;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 264, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -36, -76}";
+}
+);
+layerId = UUID1;
+width = 1262;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -70031,37 +70030,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphapsiliperispomeniprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 109, 0}";
+transform = "{1, 0, 0, 1, 119, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -48, -36}";
+transform = "{1, 0, 0, 1, -38, -36}";
 }
 );
 layerId = UUID0;
-width = 1012;
+width = 1022;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 148, 0}";
+transform = "{1, 0, 0, 1, 158, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -85, -76}";
+transform = "{1, 0, 0, 1, -75, -76}";
 }
 );
 layerId = UUID1;
-width = 1146;
+width = 1156;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -70072,37 +70071,37 @@ rightMetricsKey = "=Alphaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Alphadasiaperispomeniprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 120, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -47, -36}";
+transform = "{1, 0, 0, 1, -37, -36}";
 }
 );
 layerId = UUID0;
-width = 1013;
+width = 1023;
 },
 {
 components = (
 {
 alignment = -1;
 name = Alphaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 141, 0}";
+transform = "{1, 0, 0, 1, 151, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -69, -76}";
+transform = "{1, 0, 0, 1, -59, -76}";
 }
 );
 layerId = UUID1;
-width = 1139;
+width = 1149;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -70515,37 +70514,37 @@ rightKerningGroup = H;
 {
 color = 10;
 glyphname = Omegapsiliprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -114, -62}";
+transform = "{1, 0, 0, 1, -104, -62}";
 },
 {
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 50, 0}";
+transform = "{1, 0, 0, 1, 60, 0}";
 }
 );
 layerId = UUID0;
-width = 1170;
+width = 1180;
 },
 {
 components = (
 {
 alignment = -1;
 name = psili.case;
-transform = "{1, 0, 0, 1, -111, -76}";
+transform = "{1, 0, 0, 1, -101, -76}";
 },
 {
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 111, 0}";
+transform = "{1, 0, 0, 1, 121, 0}";
 }
 );
 layerId = UUID1;
-width = 1181;
+width = 1191;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -70556,37 +70555,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiaprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 56, 0}";
+transform = "{1, 0, 0, 1, 66, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -108, -36}";
+transform = "{1, 0, 0, 1, -98, -36}";
 }
 );
 layerId = UUID0;
-width = 1176;
+width = 1186;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 126, 0}";
+transform = "{1, 0, 0, 1, 136, 0}";
 },
 {
 name = dasia.case;
-transform = "{1, 0, 0, 1, -97, -76}";
+transform = "{1, 0, 0, 1, -87, -76}";
 }
 );
 layerId = UUID1;
-width = 1196;
+width = 1206;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -70597,37 +70596,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegapsilivariaprosgegrammeni.ss06;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 169, 0}";
+transform = "{1, 0, 0, 1, 179, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -72, -36}";
+transform = "{1, 0, 0, 1, -62, -36}";
 }
 );
 layerId = UUID0;
-width = 1289;
+width = 1299;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 288, 0}";
+transform = "{1, 0, 0, 1, 298, 0}";
 },
 {
 name = psilivaria.case;
-transform = "{1, 0, 0, 1, -49, -76}";
+transform = "{1, 0, 0, 1, -39, -76}";
 }
 );
 layerId = UUID1;
-width = 1358;
+width = 1368;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -70638,89 +70637,7 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiavariaprosgegrammeni.ss06;
-lastChange = "2016-10-18 22:19:02 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 164, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -67, -36}";
-}
-);
-layerId = UUID0;
-width = 1284;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 310, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -39, -76}";
-}
-);
-layerId = UUID1;
-width = 1380;
-}
-);
-leftKerningGroup = Omegatonos;
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=Omegaprosgegrammeni.ss06";
-},
-{
-color = 10;
-glyphname = Omegapsilioxiaprosgegrammeni.ss06;
-lastChange = "2016-10-19 22:23:44 +0000";
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 177, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -74, -36}";
-}
-);
-layerId = UUID0;
-width = 1297;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 308, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -51, -76}";
-}
-);
-layerId = UUID1;
-width = 1378;
-}
-);
-leftKerningGroup = Omegatonos;
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=Omegaprosgegrammeni.ss06";
-},
-{
-color = 10;
-glyphname = Omegadasiaoxiaprosgegrammeni.ss06;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -70730,8 +70647,8 @@ name = Omegaprosgegrammeni.ss06;
 transform = "{1, 0, 0, 1, 174, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -69, -36}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -57, -36}";
 }
 );
 layerId = UUID0;
@@ -70742,15 +70659,97 @@ components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 311, 0}";
+transform = "{1, 0, 0, 1, 320, 0}";
 },
 {
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -48, -76}";
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -29, -76}";
 }
 );
 layerId = UUID1;
-width = 1381;
+width = 1390;
+}
+);
+leftKerningGroup = Omegatonos;
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=Omegaprosgegrammeni.ss06";
+},
+{
+color = 10;
+glyphname = Omegapsilioxiaprosgegrammeni.ss06;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 187, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -64, -36}";
+}
+);
+layerId = UUID0;
+width = 1307;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 318, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -41, -76}";
+}
+);
+layerId = UUID1;
+width = 1388;
+}
+);
+leftKerningGroup = Omegatonos;
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=Omegaprosgegrammeni.ss06";
+},
+{
+color = 10;
+glyphname = Omegadasiaoxiaprosgegrammeni.ss06;
+lastChange = "2016-10-20 19:09:22 +0000";
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 184, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -59, -36}";
+}
+);
+layerId = UUID0;
+width = 1304;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.ss06;
+transform = "{1, 0, 0, 1, 321, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -38, -76}";
+}
+);
+layerId = UUID1;
+width = 1391;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -70761,37 +70760,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegapsiliperispomeniprosgegrammeni.ss06;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 139, 0}";
+transform = "{1, 0, 0, 1, 149, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -52, -36}";
+transform = "{1, 0, 0, 1, -42, -36}";
 }
 );
 layerId = UUID0;
-width = 1259;
+width = 1269;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 205, 0}";
+transform = "{1, 0, 0, 1, 215, 0}";
 },
 {
 name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -87, -76}";
+transform = "{1, 0, 0, 1, -77, -76}";
 }
 );
 layerId = UUID1;
-width = 1275;
+width = 1285;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -70802,37 +70801,37 @@ rightMetricsKey = "=Omegaprosgegrammeni.ss06";
 {
 color = 10;
 glyphname = Omegadasiaperispomeniprosgegrammeni.ss06;
-lastChange = "2016-10-19 22:23:44 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 140, 0}";
+transform = "{1, 0, 0, 1, 150, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -51, -36}";
+transform = "{1, 0, 0, 1, -41, -36}";
 }
 );
 layerId = UUID0;
-width = 1260;
+width = 1270;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omegaprosgegrammeni.ss06;
-transform = "{1, 0, 0, 1, 198, 0}";
+transform = "{1, 0, 0, 1, 208, 0}";
 },
 {
 name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -71, -76}";
+transform = "{1, 0, 0, 1, -61, -76}";
 }
 );
 layerId = UUID1;
-width = 1268;
+width = 1278;
 }
 );
 leftKerningGroup = Omegatonos;
@@ -103782,7 +103781,7 @@ unicode = 00BD;
 {
 color = 5;
 glyphname = onethird;
-lastChange = "2016-10-19 22:28:18 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -103826,7 +103825,7 @@ unicode = 2153;
 {
 color = 5;
 glyphname = twothirds;
-lastChange = "2016-10-19 22:28:18 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -103966,7 +103965,7 @@ unicode = 00BE;
 {
 color = 5;
 glyphname = oneeighth;
-lastChange = "2016-10-19 22:28:18 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -104010,7 +104009,7 @@ unicode = 215B;
 {
 color = 5;
 glyphname = threeeighths;
-lastChange = "2016-10-19 22:28:18 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -104054,7 +104053,7 @@ unicode = 215C;
 {
 color = 5;
 glyphname = fiveeighths;
-lastChange = "2016-10-19 22:28:18 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
@@ -104098,7 +104097,7 @@ unicode = 215D;
 {
 color = 5;
 glyphname = seveneighths;
-lastChange = "2016-10-19 22:28:18 +0000";
+lastChange = "2016-10-20 19:09:22 +0000";
 layers = (
 {
 components = (
