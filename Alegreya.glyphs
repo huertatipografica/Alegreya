@@ -1,7 +1,8 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won/dagger/daggerdbl"
+"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won/dagger/daggerdbl",
+/.notdef
 );
 classes = (
 {
@@ -108992,7 +108993,7 @@ unicode = 200B;
 {
 color = 1;
 glyphname = .notdef;
-lastChange = "2016-09-27 13:21:01 +0000";
+lastChange = "2016-10-20 15:16:57 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -109000,19 +109001,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-17 -93 LINE",
-"641 565 LINE",
-"657 549 LINE",
-"-1 -109 LINE"
+"657 -93 LINE",
+"-1 565 LINE",
+"-17 549 LINE",
+"641 -109 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-17 549 LINE",
-"-1 565 LINE",
-"657 -93 LINE",
-"641 -109 LINE"
+"657 549 LINE",
+"641 565 LINE",
+"-17 -93 LINE",
+"-1 -109 LINE"
 );
 }
 );
@@ -109024,19 +109025,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-17 -93 LINE",
-"641 565 LINE",
-"657 549 LINE",
-"-1 -109 LINE"
+"657 -93 LINE",
+"-1 565 LINE",
+"-17 549 LINE",
+"641 -109 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"-17 549 LINE",
-"-1 565 LINE",
-"657 -93 LINE",
-"641 -109 LINE"
+"657 549 LINE",
+"641 565 LINE",
+"-17 -93 LINE",
+"-1 -109 LINE"
 );
 }
 );
