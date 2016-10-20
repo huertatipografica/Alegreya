@@ -1,8 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"/Eta/Iota/Epsilon/Epsilontonos/Epsilonpsili/Epsilondasia/Epsilonpsilivaria/Epsilondasiavaria/Epsilonpsilioxia/Epsilondasiaoxia/Epsilonvaria/Epsilonoxia/Iotatonos  /quoteleft/Iotatonos  /quoteright/Iotatonos  /quotedblleft/Iotatonos  /quotedblright/Iotatonos  /quotesinglbase/Iotatonos/quotedblbase/Iotatonos/guilsinglleft/Iotatonos  /guilsinglright/Iotatonos  \U00AB/Iotatonos  \U00BB/Iotatonos  /endash/Iotatonos  /emdash/Iotatonos  /bullet/Iotatonos  /quoteleft/Iotatonos  (/Iotatonos  )/Iotatonos  \U00B7/Iotatonos  {/Iotatonos  }/Iotatonos  [/Iotatonos  ]/Iotatonos",
-/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek/aogonek/eogonek/iogonek/oogonek/uogonek/aogonek.sc/eogonek.sc/iogonek.sc/oogonek.sc/uogonek.sc/ogonekcomb/ogonek
+"\U00D8\U00F8/oslash.sc/cedi \U00A2/colonsign $/guarani/naira/peso/won/dagger/daggerdbl"
 );
 classes = (
 {
@@ -131206,7 +131205,7 @@ unicode = 20B5;
 {
 color = 3;
 glyphname = cent;
-lastChange = "2016-10-19 21:32:31 +0000";
+lastChange = "2016-10-20 15:07:35 +0000";
 layers = (
 {
 anchors = (
@@ -131244,12 +131243,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"260 654 LINE",
-"185 -147 LINE",
-"190 -154 LINE",
-"216 -151 LINE",
-"292 649 LINE",
-"286 658 LINE"
+"255 654 LINE",
+"180 -147 LINE",
+"185 -154 LINE",
+"211 -151 LINE",
+"287 649 LINE",
+"281 658 LINE"
 );
 }
 );
@@ -131291,12 +131290,12 @@ paths = (
 {
 closed = 1;
 nodes = (
-"244 644 LINE",
-"143 -158 LINE",
-"151 -164 LINE",
-"265 -151 LINE",
-"366 649 LINE",
-"360 658 LINE"
+"224 644 LINE",
+"123 -158 LINE",
+"131 -164 LINE",
+"245 -151 LINE",
+"346 649 LINE",
+"340 658 LINE"
 );
 }
 );
@@ -131424,7 +131423,7 @@ unicode = 00A2;
 {
 color = 0;
 glyphname = colonsign;
-lastChange = "2016-10-19 21:32:31 +0000";
+lastChange = "2016-10-20 15:07:10 +0000";
 layers = (
 {
 components = (
@@ -131577,41 +131576,41 @@ paths = (
 {
 closed = 1;
 nodes = (
-"297 19 LINE",
-"281 -147 LINE",
-"286 -154 LINE",
-"312 -151 LINE",
-"328 19 LINE"
+"313 19 LINE",
+"306 -147 LINE",
+"311 -154 LINE",
+"337 -151 LINE",
+"344 19 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"372 484 LINE",
-"388 649 LINE",
-"382 658 LINE",
-"356 654 LINE",
-"340 484 LINE"
+"364 484 LINE",
+"371 649 LINE",
+"365 658 LINE",
+"339 654 LINE",
+"332 484 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"184 19 LINE",
-"168 -147 LINE",
-"173 -154 LINE",
-"199 -151 LINE",
-"215 19 LINE"
+"200 19 LINE",
+"193 -147 LINE",
+"198 -154 LINE",
+"224 -151 LINE",
+"231 19 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"259 484 LINE",
-"275 649 LINE",
-"269 658 LINE",
-"243 654 LINE",
-"227 484 LINE"
+"251 484 LINE",
+"258 649 LINE",
+"252 658 LINE",
+"226 654 LINE",
+"219 484 LINE"
 );
 }
 );
@@ -131679,41 +131678,41 @@ paths = (
 {
 closed = 1;
 nodes = (
-"287 61 LINE",
-"258 -158 LINE",
-"266 -164 LINE",
-"380 -151 LINE",
-"409 72 LINE"
+"297 61 LINE",
+"279 -158 LINE",
+"288 -164 LINE",
+"401 -151 LINE",
+"418 72 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"455 448 LINE",
-"481 649 LINE",
-"475 658 LINE",
-"359 644 LINE",
-"333 438 LINE"
+"444 448 LINE",
+"460 649 LINE",
+"453 658 LINE",
+"338 644 LINE",
+"323 438 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"105 61 LINE",
-"76 -158 LINE",
-"84 -164 LINE",
-"198 -151 LINE",
-"227 72 LINE"
+"115 61 LINE",
+"97 -158 LINE",
+"106 -164 LINE",
+"219 -151 LINE",
+"236 72 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"273 448 LINE",
-"299 649 LINE",
-"293 658 LINE",
-"177 644 LINE",
-"151 438 LINE"
+"262 448 LINE",
+"278 649 LINE",
+"271 658 LINE",
+"156 644 LINE",
+"141 438 LINE"
 );
 }
 );
