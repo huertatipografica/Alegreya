@@ -134483,6 +134483,14 @@ UUID1 = 1;
 };
 name = Black;
 weightClass = Black;
+},
+{
+interpolationWeight = 20;
+instanceInterpolations = {
+UUID0 = 1.51961;
+UUID1 = -0.519608;
+};
+name = Regular;
 }
 );
 kerning = {
