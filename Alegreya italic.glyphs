@@ -1,8 +1,5 @@
 {
 .appVersion = "895";
-DisplayStrings = (
-/Alphatonos/Alphatonos/Alphatonos/Alphatonos/Alphatonos/Alphapsili/Alphadasia/Alphapsilivaria/Alphadasiavaria/Alphapsilioxia/Alphadasiaoxia/Alphapsiliperispomeni/Alphadasiaperispomeni/Alphavaria/Alphaoxia/Alphavrachy/Alphamacron/Alphaprosgegrammeni/Alphapsiliprosgegrammeni/Alphadasiaprosgegrammeni/Alphapsilivariaprosgegrammeni/Alphadasiavariaprosgegrammeni/Alphapsilioxiaprosgegrammeni/Alphadasiaoxiaprosgegrammeni/Alphapsiliperispomeniprosgegrammeni/Alphadasiaperispomeniprosgegrammeni/Epsilonpsili/Epsilondasia/Epsilonpsilivaria/Epsilondasiavaria/Epsilonpsilioxia/Epsilondasiaoxia/Epsilonvaria/Epsilonoxia/Etapsili/Etadasia/Etapsilivaria/Etadasiavaria/Etapsilioxia/Etadasiaoxia/Etapsiliperispomeni/Etadasiaperispomeni/Etavaria/Etaoxia/Etaprosgegrammeni/Etapsiliprosgegrammeni/Etadasiaprosgegrammeni/Etapsilivariaprosgegrammeni/Etadasiavariaprosgegrammeni/Etapsilioxiaprosgegrammeni/Etadasiaoxiaprosgegrammeni/Etapsiliperispomeniprosgegrammeni/Etadasiaperispomeniprosgegrammeni/Iotapsili/Iotadasia/Iotapsilivaria/Iotadasiavaria/Iotapsilioxia/Iotadasiaoxia/Iotapsiliperispomeni/Iotadasiaperispomeni/Iotavaria/Iotaoxia/Iotavrachy/Iotamacron/Omicronpsili/Omicrondasia/Omicronpsilivaria/Omicrondasiavaria/Omicronpsilioxia/Omicrondasiaoxia/Omicronvaria/Omicronoxia/Rhodasia/Upsilondasia/Upsilondasiavaria/Upsilondasiaoxia/Upsilondasiaperispomeni/Upsilonvaria/Upsilonoxia/Upsilonvrachy/Upsilonmacron/Omegapsili/Omegadasia/Omegapsilivaria/Omegadasiavaria/Omegapsilioxia/Omegadasiaoxia/Omegapsiliperispomeni/Omegadasiaperispomeni/Omegavaria/Omegaoxia/Omegaprosgegrammeni/Omegapsiliprosgegrammeni/Omegadasiaprosgegrammeni/Omegapsilivariaprosgegrammeni/Omegadasiavariaprosgegrammeni/Omegapsilioxiaprosgegrammeni/Omegadasiaoxiaprosgegrammeni/Omegapsiliperispomeniprosgegrammeni/Omegadasiaperispomeniprosgegrammeni
-);
 classes = (
 {
 automatic = 1;
@@ -121675,25 +121672,27 @@ unicode = 2012;
 },
 {
 glyphname = horizontalbar;
-lastChange = "2016-10-19 21:29:34 +0000";
+lastChange = "2016-11-08 13:53:55 +0000";
 layers = (
 {
 components = (
 {
+alignment = 1;
 name = emdash;
 }
 );
 layerId = UUID0;
-width = 600;
+width = 879;
 },
 {
 components = (
 {
+alignment = 1;
 name = emdash;
 }
 );
 layerId = UUID1;
-width = 600;
+width = 801;
 }
 );
 unicode = 2015;
