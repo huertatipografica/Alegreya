@@ -1,7 +1,7 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"\012\U00B4/acutecomb/acutecomb.case/apostrophemod/breve/brevebelowcomb/brevecomb/brevecomb.case/breveinvertedcomb/caron/caron.alt/caroncomb/caroncomb.alt/caroncomb.case \U00B8/cedillacomb/circumflex/circumflexcomb/circumflexcomb.case/commaaccentcomb/commaturnedabovecomb/commaturnedmod/dasia/dasia.case \U00A8/dieresisbelowcomb/dieresiscomb_acutecomb.case/dieresiscomb_macroncomb.case/dotaccent/dotaccentcomb/dotaccentcomb.case/dotbelowcomb/firsttonechinese/fourthtonechinese `/gravecomb/gravecomb.case/hookabovecomb/horncomb/hungarumlaut/koronis \U00AF/macronbelowcomb/macroncomb/macroncomb.case/macroncomb_acutecomb.case/macroncomb_gravecomb.case/ogonek/ogonekcomb/oxia/perispomeni/perispomeni.case/primemod/psili/psili.case/ring/ringhalfleft/ringhalfright/secondtonechinese/tilde/tildecomb/tildecomb.case/tildecomb_dieresiscomb.case/tildecomb_macroncomb.case/tonos/varia/verticallinelowmod/verticallinemod/ypogegrammenicomb \012/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/dasiaoxia/dasiaoxia.case/dasiaperispomeni/dasiaperispomeni.case/dasiavaria/dasiavaria.case/dblgravecomb/dblgravecomb.case/dieresiscomb/dieresiscomb.case/dotaccentcomb_macroncomb/dotaccentcomb_macroncomb.case/hungarumlautcomb/hungarumlautcomb.case/macroncomb_acutecomb/macroncomb_gravecomb/psilioxia/psilioxia.case/psiliperispomeni/psiliperispomeni.case/Alphapsiliperispomeni/Alphapsiliperispomeniprosgegrammeni/Etapsiliperispomeni/Etapsiliperispomeniprosgegrammeni/Iotapsiliperispomeni/Omegapsiliperispomeni/Omegapsiliperispomeniprosgegrammeni/Alphapsiliperispomeniprosgegrammeni.ss05/Etapsiliperispomeniprosgegrammeni.ss05/Omegapsiliperispomeniprosgegrammeni.ss05/psilivaria/psilivaria.case/ringcomb/ringcomb.case/tildecomb_acutecomb/tildecomb_acutecomb.case/tildecomb_dieresiscomb/tildecomb_macroncomb \012/dialytikaoxia/dialytikaperispomeni/dialytikavaria/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_gravecomb/dieresiscomb_macroncomb/dieresistonos"
+"/brevecomb_acutecomb/brevecomb_gravecomb/brevecomb_hookabovecomb/brevecomb_tildecomb/circumflexcomb_acutecomb/circumflexcomb_gravecomb/circumflexcomb_hookabovecomb/circumflexcomb_tildecomb/dasiaoxia/dasiaoxia.case/dasiaperispomeni/dasiaperispomeni.case/dasiavaria/dasiavaria.case/dblgravecomb/dblgravecomb.case/dieresiscomb/dieresiscomb.case/dotaccentcomb/dotaccentcomb_macroncomb/dotaccentcomb_macroncomb.case/hungarumlautcomb/hungarumlautcomb.case/macroncomb_acutecomb/macroncomb_gravecomb/psilioxia/psilioxia.case/psiliperispomeni/psiliperispomeni.case/psilivaria/psilivaria.case/ringcomb/ringcomb.case/tildecomb_acutecomb/tildecomb_acutecomb.case/tildecomb_dieresiscomb/tildecomb_dieresiscomb.case/tildecomb_macroncomb/tildecomb_macroncomb.case \012/dialytikaoxia/dialytikaperispomeni/dialytikavaria/dieresiscomb_acutecomb/dieresiscomb_acutecomb.case/dieresiscomb_caroncomb/dieresiscomb_gravecomb/dieresiscomb_macroncomb/dieresiscomb_macroncomb.case/dieresistonos"
 );
 classes = (
 {
@@ -142296,7 +142296,7 @@ width = 386;
 {
 color = 1;
 glyphname = dotaccentcomb;
-lastChange = "2016-10-19 22:00:47 +0000";
+lastChange = "2016-11-10 15:52:40 +0000";
 layers = (
 {
 anchors = (
@@ -142306,7 +142306,7 @@ position = "{223, 452}";
 },
 {
 name = top;
-position = "{245, 623}";
+position = "{240, 593}";
 }
 );
 background = {
@@ -142414,7 +142414,7 @@ unicode = 0307;
 {
 color = 4;
 glyphname = dotaccentcomb_macroncomb;
-lastChange = "2016-10-19 22:28:56 +0000";
+lastChange = "2016-11-10 15:52:40 +0000";
 layers = (
 {
 anchors = (
@@ -142436,7 +142436,7 @@ transform = "{0.9434, 0, 0, 0.9434, 11, -40}";
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 20, 96}";
+transform = "{1, 0, 0, 1, 15, 67}";
 }
 );
 layerId = UUID0;
@@ -145904,7 +145904,7 @@ width = 386;
 {
 color = 1;
 glyphname = dotaccentcomb_macroncomb.case;
-lastChange = "2016-10-19 22:28:56 +0000";
+lastChange = "2016-11-10 15:52:40 +0000";
 layers = (
 {
 anchors = (
@@ -145926,7 +145926,7 @@ transform = "{0.9434, 0, 0, 0.9434, 24, 148}";
 {
 alignment = 1;
 name = macroncomb;
-transform = "{1, 0, 0, 1, 33, 284}";
+transform = "{1, 0, 0, 1, 28, 255}";
 }
 );
 layerId = UUID0;
