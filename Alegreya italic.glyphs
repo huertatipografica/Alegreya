@@ -1,8 +1,9 @@
 {
 .appVersion = "895";
 DisplayStrings = (
-"Cyrillic shape groups\012/Ve-cy/Ze-cy/Ia-cy R/Zhe-cy/Ka-cy/Ha-cy/U-cy  /Iishort-cy/Ii-cy/Pe-cy/Tse-cy/Sha-cy/Shcha-cy  /De-cy/El-cy/U-cy/Zhe-cy/Ka-cy  /Che-cy/Er-cy/Softsign-cy/Hardsign-cy/Yeru-cy/Ge-cy/Be-cy  /Iu-cy/Ef-cy/Ereversed-cy/Es-cy \012/be-cy/de-cy/ve-cy/ge-cy/ze-cy/ereversed-cy  /ef-cy/iu-cy e/ereversed-cy  /zhe-cy/ka-cy k/ia-cy/el-cy/em-cy  /ii-cy/iishort-cy/en-cy  /softsign-cy/hardsign-cy/yeru-cy/che-cy  /pe-cy/te-cy/tse-cy/sha-cy/shcha-cy/che-cy/be-cy/de-cy/hardsign-cy",
-"eeeee/ereversed-cy/ereversed-cy/ereversed-cy/ereversed-cy/ereversed-cy \012ec/ereversed-cy \012/spacingGlyph e/spacingGlyph/ereversed-cy/spacingGlyph"
+"Cyrillic shape groups\012/Ve-cy/Ze-cy/Ia-cy R/Zhe-cy/Ka-cy/Ha-cy/U-cy  /Iishort-cy/Ii-cy/Pe-cy/Tse-cy/Sha-cy/Shcha-cy  /De-cy/El-cy/U-cy/Zhe-cy/Ka-cy  /Che-cy/Er-cy/Softsign-cy/Hardsign-cy/Yeru-cy/Ge-cy/Be-cy  /Iu-cy/Ef-cy/Ereversed-cy/Es-cy \012/be-cy/de-cy/ve-cy/ge-cy/ze-cy/ereversed-cy  /ef-cy/iu-cy e/ereversed-cy  /zhe-cy k/ka-cy/ia-cy/el-cy/em-cy  /ii-cy/iishort-cy/en-cy  /softsign-cy/hardsign-cy/yeru-cy/che-cy  /pe-cy/te-cy/tse-cy/sha-cy/shcha-cy/che-cy/be-cy/de-cy/hardsign-cy",
+"/idotless.serifless2/idotless.serifless/zhe-cy/ka-cy/ia-cy",
+"/idotless.serifless2/idotless.serifless2/idotless.serifless2/idotless.serifless2/idotless.serifless2/idotless.serifless/idotless.serifless/idotless.serifless/idotless.serifless/idotless.serifless \012/idotless.serifless2/idotless.serifless n\012/spacingGlyph/idotless.serifless2/spacingGlyph/idotless.serifless/spacingGlyph/spacingGlyph"
 );
 classes = (
 {
@@ -89175,8 +89176,17 @@ unicode = 0451;
 glyphname = "zhe-cy";
 layers = (
 {
+components = (
+{
+name = c;
+},
+{
+name = idotless.serifless;
+transform = "{1, 0, 0, 1, 344, 0}";
+}
+);
 layerId = UUID0;
-width = 600;
+width = 579;
 },
 {
 layerId = UUID1;
@@ -96572,71 +96582,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"423 119 LINE",
-"366 69 OFFCURVE",
-"354 60 OFFCURVE",
-"344 60 CURVE",
-"341 64 LINE",
-"361 190 OFFCURVE",
-"396 356 OFFCURVE",
-"424 443 CURVE",
-"421 455 LINE",
-"353 451 LINE",
-"274 457 LINE",
-"164 446 OFFCURVE",
-"95 399 OFFCURVE",
-"85 325 CURVE SMOOTH",
-"77 252 OFFCURVE",
-"149 188 OFFCURVE",
-"268 188 CURVE SMOOTH",
-"325 188 LINE",
-"329 228 LINE",
-"243 232 LINE",
-"182 243 OFFCURVE",
-"151 279 OFFCURVE",
-"158 330 CURVE SMOOTH",
-"165 373 OFFCURVE",
-"195 402 OFFCURVE",
-"244 412 CURVE",
-"273 412 OFFCURVE",
-"324 401 OFFCURVE",
-"357 389 CURVE",
-"339 405 LINE",
-"279 32 LINE SMOOTH",
-"275 6 OFFCURVE",
-"285 -12 OFFCURVE",
-"305 -12 CURVE SMOOTH",
-"331 -12 OFFCURVE",
-"373 19 OFFCURVE",
-"448 94 CURVE",
-"435 118 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"200 225 LINE",
-"138 140 LINE SMOOTH",
-"99 86 OFFCURVE",
-"78 72 OFFCURVE",
-"18 75 CURVE",
-"8 62 LINE",
-"9 38 OFFCURVE",
-"18 13 OFFCURVE",
-"26 -10 CURVE",
-"85 -11 OFFCURVE",
-"98 2 OFFCURVE",
-"172 114 CURVE SMOOTH",
-"236 210 LINE"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
 "331 -12 OFFCURVE",
 "373 19 OFFCURVE",
 "448 94 CURVE",
@@ -96682,6 +96627,71 @@ closed = 1;
 nodes = (
 "92 -12 OFFCURVE",
 "104 0 OFFCURVE",
+"178 115 CURVE SMOOTH",
+"240 212 LINE",
+"204 226 LINE",
+"143 140 LINE SMOOTH",
+"103 83 OFFCURVE",
+"82 71 OFFCURVE",
+"25 73 CURVE",
+"15 60 LINE",
+"16 36 OFFCURVE",
+"26 11 OFFCURVE",
+"34 -12 CURVE"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"331 -12 OFFCURVE",
+"373 19 OFFCURVE",
+"448 94 CURVE",
+"435 118 LINE",
+"423 119 LINE",
+"366 69 OFFCURVE",
+"354 60 OFFCURVE",
+"344 60 CURVE",
+"341 64 LINE",
+"364 205 OFFCURVE",
+"399 365 OFFCURVE",
+"424 443 CURVE",
+"419 455 LINE",
+"354 452 LINE",
+"276 459 LINE",
+"161 449 OFFCURVE",
+"84 392 OFFCURVE",
+"84 318 CURVE SMOOTH",
+"84 241 OFFCURVE",
+"156 191 OFFCURVE",
+"268 191 CURVE SMOOTH",
+"325 191 LINE",
+"329 231 LINE",
+"243 235 LINE",
+"183 248 OFFCURVE",
+"158 274 OFFCURVE",
+"158 324 CURVE SMOOTH",
+"158 367 OFFCURVE",
+"192 402 OFFCURVE",
+"244 412 CURVE",
+"274 412 OFFCURVE",
+"325 402 OFFCURVE",
+"357 389 CURVE",
+"339 405 LINE",
+"279 32 LINE SMOOTH",
+"275 6 OFFCURVE",
+"285 -12 OFFCURVE",
+"305 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"91 -12 OFFCURVE",
+"103 -1 OFFCURVE",
 "178 115 CURVE SMOOTH",
 "240 212 LINE",
 "204 226 LINE",
