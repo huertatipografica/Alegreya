@@ -1,9 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"Cyrillic shape groups\012/Ve-cy/Ze-cy/Ia-cy R/Zhe-cy/Ka-cy/Ha-cy/U-cy  /Iishort-cy/Ii-cy/Pe-cy/Shcha-cy/El-cy/De-cy/Tse-cy H/Sha-cy  /El-cy/U-cy/Zhe-cy/Ka-cy  /Che-cy/Er-cy/Softsign-cy/Hardsign-cy/Yeru-cy/Ge-cy/Be-cy  /Iu-cy/Ef-cy/Ereversed-cy/Es-cy \012/be-cy/de-cy/ve-cy/ge-cy/ze-cy/ereversed-cy  /ef-cy/iu-cy/ereversed-cy  /zhe-cy/ka-cy k/ia-cy/el-cy/em-cy  /ii-cy/iishort-cy/en-cy  /softsign-cy/hardsign-cy/yeru-cy/che-cy  /pe-cy/te-cy/tse-cy/sha-cy/shcha-cy/che-cy/be-cy/de-cy/hardsign-cy",
-"/El-cy/De-cy/Tse-cy H",
-"/El-cy/El-cy/El-cy/El-cy/El-cy/De-cy/De-cy/De-cy/De-cy/De-cy/Tse-cy/Tse-cy/Tse-cy/Tse-cy/Tse-cy HHHHH\012/El-cy/De-cy/Sha-cy/Tse-cy H\012/spacingGlyph/El-cy/spacingGlyph/De-cy/spacingGlyph/Tse-cy/spacingGlyph H/spacingGlyph"
+"Cyrillic shape groups\012/Ve-cy/Ze-cy/Ia-cy R/Zhe-cy/Ka-cy/Ha-cy/U-cy  /Iishort-cy/Ii-cy/Pe-cy/Shcha-cy/El-cy/De-cy/Tse-cy H/Sha-cy  /El-cy/U-cy/Zhe-cy/Ka-cy  /Che-cy/Er-cy/Softsign-cy/Hardsign-cy/Yeru-cy/Ge-cy/Be-cy  /Iu-cy/Ef-cy/Ereversed-cy/Es-cy \012spopo/be-cy/de-cy/ve-cy/ge-cy/ze-cy/ereversed-cy  /ef-cy/iu-cy/ereversed-cy  /zhe-cy/ka-cy k/ia-cy/el-cy/em-cy  /ii-cy/iishort-cy/en-cy  /softsign-cy/hardsign-cy/yeru-cy/che-cy  /pe-cy/te-cy/tse-cy/sha-cy/shcha-cy/che-cy/be-cy/de-cy/hardsign-cy"
 );
 classes = (
 {
@@ -220,7 +218,7 @@ name = c2sc;
 },
 {
 automatic = 1;
-code = "sub a by a.sc;\012sub aacute by aacute.sc;\012sub abreve by abreve.sc;\012sub abreveacute by abreveacute.sc;\012sub abrevedotbelow by abrevedotbelow.sc;\012sub abrevegrave by abrevegrave.sc;\012sub abrevehookabove by abrevehookabove.sc;\012sub abrevetilde by abrevetilde.sc;\012sub acaron by acaron.sc;\012sub acircumflex by acircumflex.sc;\012sub acircumflexacute by acircumflexacute.sc;\012sub acircumflexdotbelow by acircumflexdotbelow.sc;\012sub acircumflexgrave by acircumflexgrave.sc;\012sub acircumflexhookabove by acircumflexhookabove.sc;\012sub acircumflextilde by acircumflextilde.sc;\012sub adblgrave by adblgrave.sc;\012sub adieresis by adieresis.sc;\012sub adotbelow by adotbelow.sc;\012sub agrave by agrave.sc;\012sub ahookabove by ahookabove.sc;\012sub ainvertedbreve by ainvertedbreve.sc;\012sub amacron by amacron.sc;\012sub aogonek by aogonek.sc;\012sub aring by aring.sc;\012sub aringacute by aringacute.sc;\012sub atilde by atilde.sc;\012sub ae by ae.sc;\012sub aeacute by aeacute.sc;\012sub b by b.sc;\012sub c by c.sc;\012sub cacute by cacute.sc;\012sub ccaron by ccaron.sc;\012sub ccedilla by ccedilla.sc;\012sub ccedillaacute by ccedillaacute.sc;\012sub ccircumflex by ccircumflex.sc;\012sub cdotaccent by cdotaccent.sc;\012sub d by d.sc;\012sub eth by eth.sc;\012sub dcaron by dcaron.sc;\012sub dcroat by dcroat.sc;\012sub ddotbelow by ddotbelow.sc;\012sub dlinebelow by dlinebelow.sc;\012sub dzcaron by dzcaron.sc;\012sub e by e.sc;\012sub eacute by eacute.sc;\012sub ebreve by ebreve.sc;\012sub ecaron by ecaron.sc;\012sub ecedillabreve by ecedillabreve.sc;\012sub ecircumflex by ecircumflex.sc;\012sub ecircumflexacute by ecircumflexacute.sc;\012sub ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub ecircumflexgrave by ecircumflexgrave.sc;\012sub ecircumflexhookabove by ecircumflexhookabove.sc;\012sub ecircumflextilde by ecircumflextilde.sc;\012sub edblgrave by edblgrave.sc;\012sub edieresis by edieresis.sc;\012sub edotaccent by edotaccent.sc;\012sub edotbelow by edotbelow.sc;\012sub egrave by egrave.sc;\012sub ehookabove by ehookabove.sc;\012sub einvertedbreve by einvertedbreve.sc;\012sub emacron by emacron.sc;\012sub emacronacute by emacronacute.sc;\012sub emacrongrave by emacrongrave.sc;\012sub eogonek by eogonek.sc;\012sub etilde by etilde.sc;\012sub f by f.sc;\012sub g by g.sc;\012sub gbreve by gbreve.sc;\012sub gcaron by gcaron.sc;\012sub gcircumflex by gcircumflex.sc;\012sub gcommaaccent by gcommaaccent.sc;\012sub gdotaccent by gdotaccent.sc;\012sub gmacron by gmacron.sc;\012sub h by h.sc;\012sub hbar by hbar.sc;\012sub hbrevebelow by hbrevebelow.sc;\012sub hcircumflex by hcircumflex.sc;\012sub hdotbelow by hdotbelow.sc;\012sub i by i.sc;\012sub idotless by idotless.sc;\012sub iacute by iacute.sc;\012sub ibreve by ibreve.sc;\012sub icaron by icaron.sc;\012sub icircumflex by icircumflex.sc;\012sub idblgrave by idblgrave.sc;\012sub idieresis by idieresis.sc;\012sub idieresisacute by idieresisacute.sc;\012sub idotaccent by idotaccent.sc;\012sub idotbelow by idotbelow.sc;\012sub igrave by igrave.sc;\012sub ihookabove by ihookabove.sc;\012sub iinvertedbreve by iinvertedbreve.sc;\012sub ij by ij.sc;\012sub imacron by imacron.sc;\012sub iogonek by iogonek.sc;\012sub itilde by itilde.sc;\012sub j by j.sc;\012sub jdotless by jdotless.sc;\012sub jcircumflex by jcircumflex.sc;\012sub k by k.sc;\012sub kcommaaccent by kcommaaccent.sc;\012sub kgreenlandic by kgreenlandic.sc;\012sub l by l.sc;\012sub lacute by lacute.sc;\012sub lcaron by lcaron.sc;\012sub lcommaaccent by lcommaaccent.sc;\012sub ldot by ldot.sc;\012sub ldotbelow by ldotbelow.sc;\012sub lj by lj.sc;\012sub llinebelow by llinebelow.sc;\012sub lslash by lslash.sc;\012sub m by m.sc;\012sub mdotbelow by mdotbelow.sc;\012sub n by n.sc;\012sub nacute by nacute.sc;\012sub ncaron by ncaron.sc;\012sub ncommaaccent by ncommaaccent.sc;\012sub ndotaccent by ndotaccent.sc;\012sub ndotbelow by ndotbelow.sc;\012sub eng by eng.sc;\012sub nj by nj.sc;\012sub nlinebelow by nlinebelow.sc;\012sub ntilde by ntilde.sc;\012sub o by o.sc;\012sub oacute by oacute.sc;\012sub obreve by obreve.sc;\012sub ocaron by ocaron.sc;\012sub ocircumflex by ocircumflex.sc;\012sub ocircumflexacute by ocircumflexacute.sc;\012sub ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub ocircumflexgrave by ocircumflexgrave.sc;\012sub ocircumflexhookabove by ocircumflexhookabove.sc;\012sub ocircumflextilde by ocircumflextilde.sc;\012sub odblgrave by odblgrave.sc;\012sub odieresis by odieresis.sc;\012sub odieresismacron by odieresismacron.sc;\012sub odotaccentmacron by odotaccentmacron.sc;\012sub odotbelow by odotbelow.sc;\012sub ograve by ograve.sc;\012sub ohookabove by ohookabove.sc;\012sub ohorn by ohorn.sc;\012sub ohornacute by ohornacute.sc;\012sub ohorndotbelow by ohorndotbelow.sc;\012sub ohorngrave by ohorngrave.sc;\012sub ohornhookabove by ohornhookabove.sc;\012sub ohorntilde by ohorntilde.sc;\012sub ohungarumlaut by ohungarumlaut.sc;\012sub oinvertedbreve by oinvertedbreve.sc;\012sub omacron by omacron.sc;\012sub omacronacute by omacronacute.sc;\012sub omacrongrave by omacrongrave.sc;\012sub oogonek by oogonek.sc;\012sub oslash by oslash.sc;\012sub oslashacute by oslashacute.sc;\012sub otilde by otilde.sc;\012sub otildeacute by otildeacute.sc;\012sub otildedieresis by otildedieresis.sc;\012sub otildemacron by otildemacron.sc;\012sub oe by oe.sc;\012sub p by p.sc;\012sub thorn by thorn.sc;\012sub q by q.sc;\012sub r by r.sc;\012sub racute by racute.sc;\012sub rcaron by rcaron.sc;\012sub rcommaaccent by rcommaaccent.sc;\012sub rdblgrave by rdblgrave.sc;\012sub rdotbelow by rdotbelow.sc;\012sub rinvertedbreve by rinvertedbreve.sc;\012sub rlinebelow by rlinebelow.sc;\012sub s by s.sc;\012sub sacute by sacute.sc;\012sub sacutedotaccent by sacutedotaccent.sc;\012sub scaron by scaron.sc;\012sub scarondotaccent by scarondotaccent.sc;\012sub scedilla by scedilla.sc;\012sub scircumflex by scircumflex.sc;\012sub scommaaccent by scommaaccent.sc;\012sub sdotaccent by sdotaccent.sc;\012sub sdotbelow by sdotbelow.sc;\012sub sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub germandbls by germandbls.sc;\012sub schwa by schwa.sc;\012sub t by t.sc;\012sub tbar by tbar.sc;\012sub tcaron by tcaron.sc;\012sub tcedilla by tcedilla.sc;\012sub tcommaaccent by tcommaaccent.sc;\012sub tdieresis by tdieresis.sc;\012sub tdotbelow by tdotbelow.sc;\012sub tlinebelow by tlinebelow.sc;\012sub u by u.sc;\012sub uacute by uacute.sc;\012sub ubreve by ubreve.sc;\012sub ucaron by ucaron.sc;\012sub ucircumflex by ucircumflex.sc;\012sub udblgrave by udblgrave.sc;\012sub udieresis by udieresis.sc;\012sub udieresisacute by udieresisacute.sc;\012sub udieresiscaron by udieresiscaron.sc;\012sub udieresisgrave by udieresisgrave.sc;\012sub udieresismacron by udieresismacron.sc;\012sub udotbelow by udotbelow.sc;\012sub ugrave by ugrave.sc;\012sub uhookabove by uhookabove.sc;\012sub uhorn by uhorn.sc;\012sub uhornacute by uhornacute.sc;\012sub uhorndotbelow by uhorndotbelow.sc;\012sub uhorngrave by uhorngrave.sc;\012sub uhornhookabove by uhornhookabove.sc;\012sub uhorntilde by uhorntilde.sc;\012sub uhungarumlaut by uhungarumlaut.sc;\012sub uinvertedbreve by uinvertedbreve.sc;\012sub umacron by umacron.sc;\012sub umacrondieresis by umacrondieresis.sc;\012sub uogonek by uogonek.sc;\012sub uring by uring.sc;\012sub utilde by utilde.sc;\012sub utildeacute by utildeacute.sc;\012sub v by v.sc;\012sub w by w.sc;\012sub wacute by wacute.sc;\012sub wcircumflex by wcircumflex.sc;\012sub wdieresis by wdieresis.sc;\012sub wgrave by wgrave.sc;\012sub x by x.sc;\012sub y by y.sc;\012sub yacute by yacute.sc;\012sub ycircumflex by ycircumflex.sc;\012sub ydieresis by ydieresis.sc;\012sub ydotaccent by ydotaccent.sc;\012sub ydotbelow by ydotbelow.sc;\012sub ygrave by ygrave.sc;\012sub yhookabove by yhookabove.sc;\012sub ymacron by ymacron.sc;\012sub ytilde by ytilde.sc;\012sub z by z.sc;\012sub zacute by zacute.sc;\012sub zcaron by zcaron.sc;\012sub zdotaccent by zdotaccent.sc;\012sub zdotbelow by zdotbelow.sc;\012sub iacute_j.loclNLD by iacute_j.loclNLD.sc;\012sub alpha by alpha.sc;\012sub beta by beta.sc;\012sub gamma by gamma.sc;\012sub delta by delta.sc;\012sub epsilon by epsilon.sc;\012sub zeta by zeta.sc;\012sub eta by eta.sc;\012sub theta by theta.sc;\012sub iota by iota.sc;\012sub kappa by kappa.sc;\012sub lambda by lambda.sc;\012sub mu by mu.sc;\012sub nu by nu.sc;\012sub xi by xi.sc;\012sub omicron by omicron.sc;\012sub pi by pi.sc;\012sub rho by rho.sc;\012sub sigmafinal by sigmafinal.sc;\012sub sigma by sigma.sc;\012sub tau by tau.sc;\012sub upsilon by upsilon.sc;\012sub phi by phi.sc;\012sub chi by chi.sc;\012sub psi by psi.sc;\012sub omega by omega.sc;\012sub iotatonos by iotatonos.sc;\012sub iotadieresis by iotadieresis.sc;\012sub iotadieresistonos by iotadieresistonos.sc;\012sub upsilontonos by upsilontonos.sc;\012sub upsilondieresis by upsilondieresis.sc;\012sub upsilondieresistonos by upsilondieresistonos.sc;\012sub omicrontonos by omicrontonos.sc;\012sub omegatonos by omegatonos.sc;\012sub alphatonos by alphatonos.sc;\012sub epsilontonos by epsilontonos.sc;\012sub etatonos by etatonos.sc;\012sub alphapsili by alphapsili.sc;\012sub alphadasia by alphadasia.sc;\012sub alphapsilivaria by alphapsilivaria.sc;\012sub alphadasiavaria by alphadasiavaria.sc;\012sub alphapsilioxia by alphapsilioxia.sc;\012sub alphadasiaoxia by alphadasiaoxia.sc;\012sub alphapsiliperispomeni by alphapsiliperispomeni.sc;\012sub alphadasiaperispomeni by alphadasiaperispomeni.sc;\012sub alphavaria by alphavaria.sc;\012sub alphaoxia by alphaoxia.sc;\012sub alphaperispomeni by alphaperispomeni.sc;\012sub alphavrachy by alphavrachy.sc;\012sub alphamacron by alphamacron.sc;\012sub alphaypogegrammeni by alphaypogegrammeni.sc;\012sub alphavariaypogegrammeni by alphavariaypogegrammeni.sc;\012sub alphaoxiaypogegrammeni by alphaoxiaypogegrammeni.sc;\012sub alphapsiliypogegrammeni by alphapsiliypogegrammeni.sc;\012sub alphadasiaypogegrammeni by alphadasiaypogegrammeni.sc;\012sub alphapsilivariaypogegrammeni by alphapsilivariaypogegrammeni.sc;\012sub alphadasiavariaypogegrammeni by alphadasiavariaypogegrammeni.sc;\012sub alphapsilioxiaypogegrammeni by alphapsilioxiaypogegrammeni.sc;\012sub alphadasiaoxiaypogegrammeni by alphadasiaoxiaypogegrammeni.sc;\012sub alphapsiliperispomeniypogegrammeni by alphapsiliperispomeniypogegrammeni.sc;\012sub alphadasiaperispomeniypogegrammeni by alphadasiaperispomeniypogegrammeni.sc;\012sub alphaperispomeniypogegrammeni by alphaperispomeniypogegrammeni.sc;\012sub epsilonpsili by epsilonpsili.sc;\012sub epsilondasia by epsilondasia.sc;\012sub epsilonpsilivaria by epsilonpsilivaria.sc;\012sub epsilondasiavaria by epsilondasiavaria.sc;\012sub epsilonpsilioxia by epsilonpsilioxia.sc;\012sub epsilondasiaoxia by epsilondasiaoxia.sc;\012sub epsilonvaria by epsilonvaria.sc;\012sub epsilonoxia by epsilonoxia.sc;\012sub etapsili by etapsili.sc;\012sub etadasia by etadasia.sc;\012sub etapsilivaria by etapsilivaria.sc;\012sub etadasiavaria by etadasiavaria.sc;\012sub etapsilioxia by etapsilioxia.sc;\012sub etadasiaoxia by etadasiaoxia.sc;\012sub etapsiliperispomeni by etapsiliperispomeni.sc;\012sub etadasiaperispomeni by etadasiaperispomeni.sc;\012sub etavaria by etavaria.sc;\012sub etaoxia by etaoxia.sc;\012sub etaperispomeni by etaperispomeni.sc;\012sub etaypogegrammeni by etaypogegrammeni.sc;\012sub etavariaypogegrammeni by etavariaypogegrammeni.sc;\012sub etaoxiaypogegrammeni by etaoxiaypogegrammeni.sc;\012sub etapsiliypogegrammeni by etapsiliypogegrammeni.sc;\012sub etadasiaypogegrammeni by etadasiaypogegrammeni.sc;\012sub etapsilivariaypogegrammeni by etapsilivariaypogegrammeni.sc;\012sub etadasiavariaypogegrammeni by etadasiavariaypogegrammeni.sc;\012sub etapsilioxiaypogegrammeni by etapsilioxiaypogegrammeni.sc;\012sub etadasiaoxiaypogegrammeni by etadasiaoxiaypogegrammeni.sc;\012sub etapsiliperispomeniypogegrammeni by etapsiliperispomeniypogegrammeni.sc;\012sub etadasiaperispomeniypogegrammeni by etadasiaperispomeniypogegrammeni.sc;\012sub etaperispomeniypogegrammeni by etaperispomeniypogegrammeni.sc;\012sub iotapsili by iotapsili.sc;\012sub iotadasia by iotadasia.sc;\012sub iotapsilivaria by iotapsilivaria.sc;\012sub iotadasiavaria by iotadasiavaria.sc;\012sub iotapsilioxia by iotapsilioxia.sc;\012sub iotadasiaoxia by iotadasiaoxia.sc;\012sub iotapsiliperispomeni by iotapsiliperispomeni.sc;\012sub iotadasiaperispomeni by iotadasiaperispomeni.sc;\012sub iotavaria by iotavaria.sc;\012sub iotaoxia by iotaoxia.sc;\012sub iotaperispomeni by iotaperispomeni.sc;\012sub iotavrachy by iotavrachy.sc;\012sub iotamacron by iotamacron.sc;\012sub iotadialytikavaria by iotadialytikavaria.sc;\012sub iotadialytikaoxia by iotadialytikaoxia.sc;\012sub iotadialytikaperispomeni by iotadialytikaperispomeni.sc;\012sub omicronpsili by omicronpsili.sc;\012sub omicrondasia by omicrondasia.sc;\012sub omicronpsilivaria by omicronpsilivaria.sc;\012sub omicrondasiavaria by omicrondasiavaria.sc;\012sub omicronpsilioxia by omicronpsilioxia.sc;\012sub omicrondasiaoxia by omicrondasiaoxia.sc;\012sub omicronvaria by omicronvaria.sc;\012sub omicronoxia by omicronoxia.sc;\012sub rhopsili by rhopsili.sc;\012sub rhodasia by rhodasia.sc;\012sub upsilonpsili by upsilonpsili.sc;\012sub upsilondasia by upsilondasia.sc;\012sub upsilonpsilivaria by upsilonpsilivaria.sc;\012sub upsilondasiavaria by upsilondasiavaria.sc;\012sub upsilonpsilioxia by upsilonpsilioxia.sc;\012sub upsilondasiaoxia by upsilondasiaoxia.sc;\012sub upsilonpsiliperispomeni by upsilonpsiliperispomeni.sc;\012sub upsilondasiaperispomeni by upsilondasiaperispomeni.sc;\012sub upsilonvaria by upsilonvaria.sc;\012sub upsilonoxia by upsilonoxia.sc;\012sub upsilonperispomeni by upsilonperispomeni.sc;\012sub upsilonvrachy by upsilonvrachy.sc;\012sub upsilonmacron by upsilonmacron.sc;\012sub upsilondialytikavaria by upsilondialytikavaria.sc;\012sub upsilondialytikaoxia by upsilondialytikaoxia.sc;\012sub upsilondialytikaperispomeni by upsilondialytikaperispomeni.sc;\012sub omegapsili by omegapsili.sc;\012sub omegadasia by omegadasia.sc;\012sub omegapsilivaria by omegapsilivaria.sc;\012sub omegadasiavaria by omegadasiavaria.sc;\012sub omegapsilioxia by omegapsilioxia.sc;\012sub omegadasiaoxia by omegadasiaoxia.sc;\012sub omegapsiliperispomeni by omegapsiliperispomeni.sc;\012sub omegadasiaperispomeni by omegadasiaperispomeni.sc;\012sub omegavaria by omegavaria.sc;\012sub omegaoxia by omegaoxia.sc;\012sub omegaperispomeni by omegaperispomeni.sc;\012sub omegaypogegrammeni by omegaypogegrammeni.sc;\012sub omegavariaypogegrammeni by omegavariaypogegrammeni.sc;\012sub omegaoxiaypogegrammeni by omegaoxiaypogegrammeni.sc;\012sub omegapsiliypogegrammeni by omegapsiliypogegrammeni.sc;\012sub omegadasiaypogegrammeni by omegadasiaypogegrammeni.sc;\012sub omegapsilivariaypogegrammeni by omegapsilivariaypogegrammeni.sc;\012sub omegadasiavariaypogegrammeni by omegadasiavariaypogegrammeni.sc;\012sub omegapsilioxiaypogegrammeni by omegapsilioxiaypogegrammeni.sc;\012sub omegadasiaoxiaypogegrammeni by omegadasiaoxiaypogegrammeni.sc;\012sub omegapsiliperispomeniypogegrammeni by omegapsiliperispomeniypogegrammeni.sc;\012sub omegadasiaperispomeniypogegrammeni by omegadasiaperispomeniypogegrammeni.sc;\012sub omegaperispomeniypogegrammeni by omegaperispomeniypogegrammeni.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesingle by quotesingle.sc;\012sub ampersand by ampersand.sc;\012sub gdieresis by gdieresis.sc;\012sub gtilde by gtilde.sc;\012";
+code = "sub a by a.sc;\012sub aacute by aacute.sc;\012sub abreve by abreve.sc;\012sub abreveacute by abreveacute.sc;\012sub abrevedotbelow by abrevedotbelow.sc;\012sub abrevegrave by abrevegrave.sc;\012sub abrevehookabove by abrevehookabove.sc;\012sub abrevetilde by abrevetilde.sc;\012sub acaron by acaron.sc;\012sub acircumflex by acircumflex.sc;\012sub acircumflexacute by acircumflexacute.sc;\012sub acircumflexdotbelow by acircumflexdotbelow.sc;\012sub acircumflexgrave by acircumflexgrave.sc;\012sub acircumflexhookabove by acircumflexhookabove.sc;\012sub acircumflextilde by acircumflextilde.sc;\012sub adblgrave by adblgrave.sc;\012sub adieresis by adieresis.sc;\012sub adotbelow by adotbelow.sc;\012sub agrave by agrave.sc;\012sub ahookabove by ahookabove.sc;\012sub ainvertedbreve by ainvertedbreve.sc;\012sub amacron by amacron.sc;\012sub aogonek by aogonek.sc;\012sub aring by aring.sc;\012sub aringacute by aringacute.sc;\012sub atilde by atilde.sc;\012sub ae by ae.sc;\012sub aeacute by aeacute.sc;\012sub b by b.sc;\012sub c by c.sc;\012sub cacute by cacute.sc;\012sub ccaron by ccaron.sc;\012sub ccedilla by ccedilla.sc;\012sub ccedillaacute by ccedillaacute.sc;\012sub ccircumflex by ccircumflex.sc;\012sub cdotaccent by cdotaccent.sc;\012sub d by d.sc;\012sub eth by eth.sc;\012sub dcaron by dcaron.sc;\012sub dcroat by dcroat.sc;\012sub ddotbelow by ddotbelow.sc;\012sub dlinebelow by dlinebelow.sc;\012sub dzcaron by dzcaron.sc;\012sub e by e.sc;\012sub eacute by eacute.sc;\012sub ebreve by ebreve.sc;\012sub ecaron by ecaron.sc;\012sub ecedillabreve by ecedillabreve.sc;\012sub ecircumflex by ecircumflex.sc;\012sub ecircumflexacute by ecircumflexacute.sc;\012sub ecircumflexdotbelow by ecircumflexdotbelow.sc;\012sub ecircumflexgrave by ecircumflexgrave.sc;\012sub ecircumflexhookabove by ecircumflexhookabove.sc;\012sub ecircumflextilde by ecircumflextilde.sc;\012sub edblgrave by edblgrave.sc;\012sub edieresis by edieresis.sc;\012sub edotaccent by edotaccent.sc;\012sub edotbelow by edotbelow.sc;\012sub egrave by egrave.sc;\012sub ehookabove by ehookabove.sc;\012sub einvertedbreve by einvertedbreve.sc;\012sub emacron by emacron.sc;\012sub emacronacute by emacronacute.sc;\012sub emacrongrave by emacrongrave.sc;\012sub eogonek by eogonek.sc;\012sub etilde by etilde.sc;\012sub schwa by schwa.sc;\012sub f by f.sc;\012sub g by g.sc;\012sub gbreve by gbreve.sc;\012sub gcaron by gcaron.sc;\012sub gcircumflex by gcircumflex.sc;\012sub gcommaaccent by gcommaaccent.sc;\012sub gdotaccent by gdotaccent.sc;\012sub gmacron by gmacron.sc;\012sub h by h.sc;\012sub hbar by hbar.sc;\012sub hbrevebelow by hbrevebelow.sc;\012sub hcircumflex by hcircumflex.sc;\012sub hdotbelow by hdotbelow.sc;\012sub i by i.sc;\012sub idotless by idotless.sc;\012sub iacute by iacute.sc;\012sub ibreve by ibreve.sc;\012sub icaron by icaron.sc;\012sub icircumflex by icircumflex.sc;\012sub idblgrave by idblgrave.sc;\012sub idieresis by idieresis.sc;\012sub idieresisacute by idieresisacute.sc;\012sub idotaccent by idotaccent.sc;\012sub idotbelow by idotbelow.sc;\012sub igrave by igrave.sc;\012sub ihookabove by ihookabove.sc;\012sub iinvertedbreve by iinvertedbreve.sc;\012sub ij by ij.sc;\012sub imacron by imacron.sc;\012sub iogonek by iogonek.sc;\012sub itilde by itilde.sc;\012sub j by j.sc;\012sub jdotless by jdotless.sc;\012sub jcircumflex by jcircumflex.sc;\012sub k by k.sc;\012sub kcommaaccent by kcommaaccent.sc;\012sub kgreenlandic by kgreenlandic.sc;\012sub l by l.sc;\012sub lacute by lacute.sc;\012sub lcaron by lcaron.sc;\012sub lcommaaccent by lcommaaccent.sc;\012sub ldot by ldot.sc;\012sub ldotbelow by ldotbelow.sc;\012sub lj by lj.sc;\012sub llinebelow by llinebelow.sc;\012sub lslash by lslash.sc;\012sub m by m.sc;\012sub mdotbelow by mdotbelow.sc;\012sub n by n.sc;\012sub nacute by nacute.sc;\012sub ncaron by ncaron.sc;\012sub ncommaaccent by ncommaaccent.sc;\012sub ndotaccent by ndotaccent.sc;\012sub ndotbelow by ndotbelow.sc;\012sub eng by eng.sc;\012sub nj by nj.sc;\012sub nlinebelow by nlinebelow.sc;\012sub ntilde by ntilde.sc;\012sub o by o.sc;\012sub oacute by oacute.sc;\012sub obreve by obreve.sc;\012sub ocaron by ocaron.sc;\012sub ocircumflex by ocircumflex.sc;\012sub ocircumflexacute by ocircumflexacute.sc;\012sub ocircumflexdotbelow by ocircumflexdotbelow.sc;\012sub ocircumflexgrave by ocircumflexgrave.sc;\012sub ocircumflexhookabove by ocircumflexhookabove.sc;\012sub ocircumflextilde by ocircumflextilde.sc;\012sub odblgrave by odblgrave.sc;\012sub odieresis by odieresis.sc;\012sub odieresismacron by odieresismacron.sc;\012sub odotaccentmacron by odotaccentmacron.sc;\012sub odotbelow by odotbelow.sc;\012sub ograve by ograve.sc;\012sub ohookabove by ohookabove.sc;\012sub ohorn by ohorn.sc;\012sub ohornacute by ohornacute.sc;\012sub ohorndotbelow by ohorndotbelow.sc;\012sub ohorngrave by ohorngrave.sc;\012sub ohornhookabove by ohornhookabove.sc;\012sub ohorntilde by ohorntilde.sc;\012sub ohungarumlaut by ohungarumlaut.sc;\012sub oinvertedbreve by oinvertedbreve.sc;\012sub omacron by omacron.sc;\012sub omacronacute by omacronacute.sc;\012sub omacrongrave by omacrongrave.sc;\012sub oogonek by oogonek.sc;\012sub oslash by oslash.sc;\012sub oslashacute by oslashacute.sc;\012sub otilde by otilde.sc;\012sub otildeacute by otildeacute.sc;\012sub otildedieresis by otildedieresis.sc;\012sub otildemacron by otildemacron.sc;\012sub oe by oe.sc;\012sub p by p.sc;\012sub thorn by thorn.sc;\012sub q by q.sc;\012sub r by r.sc;\012sub racute by racute.sc;\012sub rcaron by rcaron.sc;\012sub rcommaaccent by rcommaaccent.sc;\012sub rdblgrave by rdblgrave.sc;\012sub rdotbelow by rdotbelow.sc;\012sub rinvertedbreve by rinvertedbreve.sc;\012sub rlinebelow by rlinebelow.sc;\012sub s by s.sc;\012sub sacute by sacute.sc;\012sub sacutedotaccent by sacutedotaccent.sc;\012sub scaron by scaron.sc;\012sub scarondotaccent by scarondotaccent.sc;\012sub scedilla by scedilla.sc;\012sub scircumflex by scircumflex.sc;\012sub scommaaccent by scommaaccent.sc;\012sub sdotaccent by sdotaccent.sc;\012sub sdotbelow by sdotbelow.sc;\012sub sdotbelowdotaccent by sdotbelowdotaccent.sc;\012sub germandbls by germandbls.sc;\012sub t by t.sc;\012sub tbar by tbar.sc;\012sub tcaron by tcaron.sc;\012sub tcedilla by tcedilla.sc;\012sub tcommaaccent by tcommaaccent.sc;\012sub tdieresis by tdieresis.sc;\012sub tdotbelow by tdotbelow.sc;\012sub tlinebelow by tlinebelow.sc;\012sub u by u.sc;\012sub uacute by uacute.sc;\012sub ubreve by ubreve.sc;\012sub ucaron by ucaron.sc;\012sub ucircumflex by ucircumflex.sc;\012sub udblgrave by udblgrave.sc;\012sub udieresis by udieresis.sc;\012sub udieresisacute by udieresisacute.sc;\012sub udieresiscaron by udieresiscaron.sc;\012sub udieresisgrave by udieresisgrave.sc;\012sub udieresismacron by udieresismacron.sc;\012sub udotbelow by udotbelow.sc;\012sub ugrave by ugrave.sc;\012sub uhookabove by uhookabove.sc;\012sub uhorn by uhorn.sc;\012sub uhornacute by uhornacute.sc;\012sub uhorndotbelow by uhorndotbelow.sc;\012sub uhorngrave by uhorngrave.sc;\012sub uhornhookabove by uhornhookabove.sc;\012sub uhorntilde by uhorntilde.sc;\012sub uhungarumlaut by uhungarumlaut.sc;\012sub uinvertedbreve by uinvertedbreve.sc;\012sub umacron by umacron.sc;\012sub umacrondieresis by umacrondieresis.sc;\012sub uogonek by uogonek.sc;\012sub uring by uring.sc;\012sub utilde by utilde.sc;\012sub utildeacute by utildeacute.sc;\012sub v by v.sc;\012sub w by w.sc;\012sub wacute by wacute.sc;\012sub wcircumflex by wcircumflex.sc;\012sub wdieresis by wdieresis.sc;\012sub wgrave by wgrave.sc;\012sub x by x.sc;\012sub y by y.sc;\012sub yacute by yacute.sc;\012sub ycircumflex by ycircumflex.sc;\012sub ydieresis by ydieresis.sc;\012sub ydotaccent by ydotaccent.sc;\012sub ydotbelow by ydotbelow.sc;\012sub ygrave by ygrave.sc;\012sub yhookabove by yhookabove.sc;\012sub ymacron by ymacron.sc;\012sub ytilde by ytilde.sc;\012sub z by z.sc;\012sub zacute by zacute.sc;\012sub zcaron by zcaron.sc;\012sub zdotaccent by zdotaccent.sc;\012sub zdotbelow by zdotbelow.sc;\012sub iacute_j.loclNLD by iacute_j.loclNLD.sc;\012sub alpha by alpha.sc;\012sub beta by beta.sc;\012sub gamma by gamma.sc;\012sub delta by delta.sc;\012sub epsilon by epsilon.sc;\012sub zeta by zeta.sc;\012sub eta by eta.sc;\012sub theta by theta.sc;\012sub iota by iota.sc;\012sub kappa by kappa.sc;\012sub lambda by lambda.sc;\012sub mu by mu.sc;\012sub nu by nu.sc;\012sub xi by xi.sc;\012sub omicron by omicron.sc;\012sub pi by pi.sc;\012sub rho by rho.sc;\012sub sigmafinal by sigmafinal.sc;\012sub sigma by sigma.sc;\012sub tau by tau.sc;\012sub upsilon by upsilon.sc;\012sub phi by phi.sc;\012sub chi by chi.sc;\012sub psi by psi.sc;\012sub omega by omega.sc;\012sub iotatonos by iotatonos.sc;\012sub iotadieresis by iotadieresis.sc;\012sub iotadieresistonos by iotadieresistonos.sc;\012sub upsilontonos by upsilontonos.sc;\012sub upsilondieresis by upsilondieresis.sc;\012sub upsilondieresistonos by upsilondieresistonos.sc;\012sub omicrontonos by omicrontonos.sc;\012sub omegatonos by omegatonos.sc;\012sub alphatonos by alphatonos.sc;\012sub epsilontonos by epsilontonos.sc;\012sub etatonos by etatonos.sc;\012sub alphapsili by alphapsili.sc;\012sub alphadasia by alphadasia.sc;\012sub alphapsilivaria by alphapsilivaria.sc;\012sub alphadasiavaria by alphadasiavaria.sc;\012sub alphapsilioxia by alphapsilioxia.sc;\012sub alphadasiaoxia by alphadasiaoxia.sc;\012sub alphapsiliperispomeni by alphapsiliperispomeni.sc;\012sub alphadasiaperispomeni by alphadasiaperispomeni.sc;\012sub alphavaria by alphavaria.sc;\012sub alphaoxia by alphaoxia.sc;\012sub alphaperispomeni by alphaperispomeni.sc;\012sub alphavrachy by alphavrachy.sc;\012sub alphamacron by alphamacron.sc;\012sub alphaypogegrammeni by alphaypogegrammeni.sc;\012sub alphavariaypogegrammeni by alphavariaypogegrammeni.sc;\012sub alphaoxiaypogegrammeni by alphaoxiaypogegrammeni.sc;\012sub alphapsiliypogegrammeni by alphapsiliypogegrammeni.sc;\012sub alphadasiaypogegrammeni by alphadasiaypogegrammeni.sc;\012sub alphapsilivariaypogegrammeni by alphapsilivariaypogegrammeni.sc;\012sub alphadasiavariaypogegrammeni by alphadasiavariaypogegrammeni.sc;\012sub alphapsilioxiaypogegrammeni by alphapsilioxiaypogegrammeni.sc;\012sub alphadasiaoxiaypogegrammeni by alphadasiaoxiaypogegrammeni.sc;\012sub alphapsiliperispomeniypogegrammeni by alphapsiliperispomeniypogegrammeni.sc;\012sub alphadasiaperispomeniypogegrammeni by alphadasiaperispomeniypogegrammeni.sc;\012sub alphaperispomeniypogegrammeni by alphaperispomeniypogegrammeni.sc;\012sub epsilonpsili by epsilonpsili.sc;\012sub epsilondasia by epsilondasia.sc;\012sub epsilonpsilivaria by epsilonpsilivaria.sc;\012sub epsilondasiavaria by epsilondasiavaria.sc;\012sub epsilonpsilioxia by epsilonpsilioxia.sc;\012sub epsilondasiaoxia by epsilondasiaoxia.sc;\012sub epsilonvaria by epsilonvaria.sc;\012sub epsilonoxia by epsilonoxia.sc;\012sub etapsili by etapsili.sc;\012sub etadasia by etadasia.sc;\012sub etapsilivaria by etapsilivaria.sc;\012sub etadasiavaria by etadasiavaria.sc;\012sub etapsilioxia by etapsilioxia.sc;\012sub etadasiaoxia by etadasiaoxia.sc;\012sub etapsiliperispomeni by etapsiliperispomeni.sc;\012sub etadasiaperispomeni by etadasiaperispomeni.sc;\012sub etavaria by etavaria.sc;\012sub etaoxia by etaoxia.sc;\012sub etaperispomeni by etaperispomeni.sc;\012sub etaypogegrammeni by etaypogegrammeni.sc;\012sub etavariaypogegrammeni by etavariaypogegrammeni.sc;\012sub etaoxiaypogegrammeni by etaoxiaypogegrammeni.sc;\012sub etapsiliypogegrammeni by etapsiliypogegrammeni.sc;\012sub etadasiaypogegrammeni by etadasiaypogegrammeni.sc;\012sub etapsilivariaypogegrammeni by etapsilivariaypogegrammeni.sc;\012sub etadasiavariaypogegrammeni by etadasiavariaypogegrammeni.sc;\012sub etapsilioxiaypogegrammeni by etapsilioxiaypogegrammeni.sc;\012sub etadasiaoxiaypogegrammeni by etadasiaoxiaypogegrammeni.sc;\012sub etapsiliperispomeniypogegrammeni by etapsiliperispomeniypogegrammeni.sc;\012sub etadasiaperispomeniypogegrammeni by etadasiaperispomeniypogegrammeni.sc;\012sub etaperispomeniypogegrammeni by etaperispomeniypogegrammeni.sc;\012sub iotapsili by iotapsili.sc;\012sub iotadasia by iotadasia.sc;\012sub iotapsilivaria by iotapsilivaria.sc;\012sub iotadasiavaria by iotadasiavaria.sc;\012sub iotapsilioxia by iotapsilioxia.sc;\012sub iotadasiaoxia by iotadasiaoxia.sc;\012sub iotapsiliperispomeni by iotapsiliperispomeni.sc;\012sub iotadasiaperispomeni by iotadasiaperispomeni.sc;\012sub iotavaria by iotavaria.sc;\012sub iotaoxia by iotaoxia.sc;\012sub iotaperispomeni by iotaperispomeni.sc;\012sub iotavrachy by iotavrachy.sc;\012sub iotamacron by iotamacron.sc;\012sub iotadialytikavaria by iotadialytikavaria.sc;\012sub iotadialytikaoxia by iotadialytikaoxia.sc;\012sub iotadialytikaperispomeni by iotadialytikaperispomeni.sc;\012sub omicronpsili by omicronpsili.sc;\012sub omicrondasia by omicrondasia.sc;\012sub omicronpsilivaria by omicronpsilivaria.sc;\012sub omicrondasiavaria by omicrondasiavaria.sc;\012sub omicronpsilioxia by omicronpsilioxia.sc;\012sub omicrondasiaoxia by omicrondasiaoxia.sc;\012sub omicronvaria by omicronvaria.sc;\012sub omicronoxia by omicronoxia.sc;\012sub rhopsili by rhopsili.sc;\012sub rhodasia by rhodasia.sc;\012sub upsilonpsili by upsilonpsili.sc;\012sub upsilondasia by upsilondasia.sc;\012sub upsilonpsilivaria by upsilonpsilivaria.sc;\012sub upsilondasiavaria by upsilondasiavaria.sc;\012sub upsilonpsilioxia by upsilonpsilioxia.sc;\012sub upsilondasiaoxia by upsilondasiaoxia.sc;\012sub upsilonpsiliperispomeni by upsilonpsiliperispomeni.sc;\012sub upsilondasiaperispomeni by upsilondasiaperispomeni.sc;\012sub upsilonvaria by upsilonvaria.sc;\012sub upsilonoxia by upsilonoxia.sc;\012sub upsilonperispomeni by upsilonperispomeni.sc;\012sub upsilonvrachy by upsilonvrachy.sc;\012sub upsilonmacron by upsilonmacron.sc;\012sub upsilondialytikavaria by upsilondialytikavaria.sc;\012sub upsilondialytikaoxia by upsilondialytikaoxia.sc;\012sub upsilondialytikaperispomeni by upsilondialytikaperispomeni.sc;\012sub omegapsili by omegapsili.sc;\012sub omegadasia by omegadasia.sc;\012sub omegapsilivaria by omegapsilivaria.sc;\012sub omegadasiavaria by omegadasiavaria.sc;\012sub omegapsilioxia by omegapsilioxia.sc;\012sub omegadasiaoxia by omegadasiaoxia.sc;\012sub omegapsiliperispomeni by omegapsiliperispomeni.sc;\012sub omegadasiaperispomeni by omegadasiaperispomeni.sc;\012sub omegavaria by omegavaria.sc;\012sub omegaoxia by omegaoxia.sc;\012sub omegaperispomeni by omegaperispomeni.sc;\012sub omegaypogegrammeni by omegaypogegrammeni.sc;\012sub omegavariaypogegrammeni by omegavariaypogegrammeni.sc;\012sub omegaoxiaypogegrammeni by omegaoxiaypogegrammeni.sc;\012sub omegapsiliypogegrammeni by omegapsiliypogegrammeni.sc;\012sub omegadasiaypogegrammeni by omegadasiaypogegrammeni.sc;\012sub omegapsilivariaypogegrammeni by omegapsilivariaypogegrammeni.sc;\012sub omegadasiavariaypogegrammeni by omegadasiavariaypogegrammeni.sc;\012sub omegapsilioxiaypogegrammeni by omegapsilioxiaypogegrammeni.sc;\012sub omegadasiaoxiaypogegrammeni by omegadasiaoxiaypogegrammeni.sc;\012sub omegapsiliperispomeniypogegrammeni by omegapsiliperispomeniypogegrammeni.sc;\012sub omegadasiaperispomeniypogegrammeni by omegadasiaperispomeniypogegrammeni.sc;\012sub omegaperispomeniypogegrammeni by omegaperispomeniypogegrammeni.sc;\012sub exclam by exclam.sc;\012sub exclamdown by exclamdown.sc;\012sub question by question.sc;\012sub questiondown by questiondown.sc;\012sub quotedbl by quotedbl.sc;\012sub quotedblleft by quotedblleft.sc;\012sub quotedblright by quotedblright.sc;\012sub quoteleft by quoteleft.sc;\012sub quoteright by quoteright.sc;\012sub quotesingle by quotesingle.sc;\012sub ampersand by ampersand.sc;\012sub gdieresis by gdieresis.sc;\012sub gtilde by gtilde.sc;\012";
 name = smcp;
 },
 {
@@ -23335,6 +23333,36 @@ rightKerningGroup = e;
 unicode = 1EBD;
 },
 {
+color = 4;
+glyphname = schwa;
+lastChange = "2016-11-08 12:55:38 +0000";
+layers = (
+{
+components = (
+{
+name = e;
+transform = "{-1, 0, 0, -1, 448, 452}";
+}
+);
+layerId = UUID0;
+width = 448;
+},
+{
+components = (
+{
+name = e;
+transform = "{-1, 0, 0, -1, 479, 472}";
+}
+);
+layerId = UUID1;
+width = 479;
+}
+);
+leftKerningGroup = o;
+rightKerningGroup = o;
+unicode = 0259;
+},
+{
 color = 1;
 glyphname = f;
 lastChange = "2016-09-27 13:21:01 +0000";
@@ -31810,36 +31838,6 @@ width = 692;
 );
 leftKerningGroup = f;
 unicode = 00DF;
-},
-{
-color = 4;
-glyphname = schwa;
-lastChange = "2016-11-08 12:55:38 +0000";
-layers = (
-{
-components = (
-{
-name = e;
-transform = "{-1, 0, 0, -1, 448, 452}";
-}
-);
-layerId = UUID0;
-width = 448;
-},
-{
-components = (
-{
-name = e;
-transform = "{-1, 0, 0, -1, 479, 472}";
-}
-);
-layerId = UUID1;
-width = 479;
-}
-);
-leftKerningGroup = o;
-rightKerningGroup = o;
-unicode = 0259;
 },
 {
 color = 1;
@@ -46259,6 +46257,207 @@ rightKerningGroup = E;
 },
 {
 color = 1;
+glyphname = schwa.sc;
+lastChange = "2016-10-20 15:15:41 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+position = "{322, 0}";
+},
+{
+name = top;
+position = "{322, 613}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"411 -9 OFFCURVE",
+"528 108 OFFCURVE",
+"528 266 CURVE SMOOTH",
+"528 411 OFFCURVE",
+"435 507 OFFCURVE",
+"295 507 CURVE SMOOTH",
+"141 507 OFFCURVE",
+"25 391 OFFCURVE",
+"25 233 CURVE SMOOTH",
+"25 88 OFFCURVE",
+"117 -9 OFFCURVE",
+"255 -9 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"178 39 OFFCURVE",
+"110 126 OFFCURVE",
+"110 260 CURVE SMOOTH",
+"110 376 OFFCURVE",
+"173 451 OFFCURVE",
+"268 451 CURVE SMOOTH",
+"372 451 OFFCURVE",
+"442 365 OFFCURVE",
+"442 231 CURVE SMOOTH",
+"442 115 OFFCURVE",
+"376 39 OFFCURVE",
+"279 39 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"407 -11 OFFCURVE",
+"522 108 OFFCURVE",
+"522 257 CURVE SMOOTH",
+"522 401 OFFCURVE",
+"417 505 OFFCURVE",
+"280 505 CURVE SMOOTH",
+"219 505 OFFCURVE",
+"168 486 OFFCURVE",
+"81 432 CURVE",
+"92 401 LINE",
+"99 400 LINE",
+"146 420 OFFCURVE",
+"207 432 OFFCURVE",
+"252 432 CURVE SMOOTH",
+"361 432 OFFCURVE",
+"436 355 OFFCURVE",
+"436 229 CURVE SMOOTH",
+"436 115 OFFCURVE",
+"371 39 OFFCURVE",
+"279 39 CURVE SMOOTH",
+"191 39 OFFCURVE",
+"129 108 OFFCURVE",
+"116 221 CURVE",
+"29 229 LINE",
+"31 83 OFFCURVE",
+"120 -11 OFFCURVE",
+"254 -11 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"476 204 LINE",
+"476 246 LINE",
+"38 246 LINE",
+"29 229 LINE",
+"42 197 LINE"
+);
+}
+);
+width = 563;
+},
+{
+anchors = (
+{
+name = bottom;
+position = "{261, 0}";
+},
+{
+name = top;
+position = "{261, 463}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"440 -9 OFFCURVE",
+"535 86 OFFCURVE",
+"535 264 CURVE SMOOTH",
+"535 432 OFFCURVE",
+"454 513 OFFCURVE",
+"286 513 CURVE SMOOTH",
+"107 513 OFFCURVE",
+"15 422 OFFCURVE",
+"15 245 CURVE SMOOTH",
+"15 78 OFFCURVE",
+"101 -9 OFFCURVE",
+"264 -9 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"232 99 OFFCURVE",
+"221 142 OFFCURVE",
+"221 285 CURVE SMOOTH",
+"221 371 OFFCURVE",
+"231 396 OFFCURVE",
+"270 396 CURVE SMOOTH",
+"318 396 OFFCURVE",
+"329 355 OFFCURVE",
+"329 212 CURVE SMOOTH",
+"329 126 OFFCURVE",
+"318 99 OFFCURVE",
+"279 99 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"431 -12 OFFCURVE",
+"530 80 OFFCURVE",
+"530 247 CURVE SMOOTH",
+"530 412 OFFCURVE",
+"430 511 OFFCURVE",
+"265 511 CURVE SMOOTH",
+"185 511 OFFCURVE",
+"123 490 OFFCURVE",
+"27 428 CURVE",
+"49 355 LINE",
+"60 351 LINE",
+"103 369 OFFCURVE",
+"162 382 OFFCURVE",
+"209 382 CURVE SMOOTH",
+"298 382 OFFCURVE",
+"323 353 OFFCURVE",
+"323 225 CURVE SMOOTH",
+"323 132 OFFCURVE",
+"311 102 OFFCURVE",
+"274 102 CURVE SMOOTH",
+"235 102 OFFCURVE",
+"223 147 OFFCURVE",
+"223 252 CURVE",
+"12 257 LINE",
+"14 82 OFFCURVE",
+"96 -12 OFFCURVE",
+"260 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"413 203 LINE",
+"413 285 LINE",
+"22 285 LINE",
+"12 257 LINE",
+"52 188 LINE"
+);
+}
+);
+width = 547;
+}
+);
+leftKerningGroup = O;
+rightKerningGroup = O;
+},
+{
+color = 1;
 glyphname = f.sc;
 lastChange = "2016-09-27 13:21:01 +0000";
 layers = (
@@ -54461,207 +54660,6 @@ width = 733;
 );
 leftKerningGroup = H;
 rightKerningGroup = Germandbls;
-},
-{
-color = 1;
-glyphname = schwa.sc;
-lastChange = "2016-10-20 15:15:41 +0000";
-layers = (
-{
-anchors = (
-{
-name = bottom;
-position = "{322, 0}";
-},
-{
-name = top;
-position = "{322, 613}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"411 -9 OFFCURVE",
-"528 108 OFFCURVE",
-"528 266 CURVE SMOOTH",
-"528 411 OFFCURVE",
-"435 507 OFFCURVE",
-"295 507 CURVE SMOOTH",
-"141 507 OFFCURVE",
-"25 391 OFFCURVE",
-"25 233 CURVE SMOOTH",
-"25 88 OFFCURVE",
-"117 -9 OFFCURVE",
-"255 -9 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"178 39 OFFCURVE",
-"110 126 OFFCURVE",
-"110 260 CURVE SMOOTH",
-"110 376 OFFCURVE",
-"173 451 OFFCURVE",
-"268 451 CURVE SMOOTH",
-"372 451 OFFCURVE",
-"442 365 OFFCURVE",
-"442 231 CURVE SMOOTH",
-"442 115 OFFCURVE",
-"376 39 OFFCURVE",
-"279 39 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = UUID0;
-paths = (
-{
-closed = 1;
-nodes = (
-"407 -11 OFFCURVE",
-"522 108 OFFCURVE",
-"522 257 CURVE SMOOTH",
-"522 401 OFFCURVE",
-"417 505 OFFCURVE",
-"280 505 CURVE SMOOTH",
-"219 505 OFFCURVE",
-"168 486 OFFCURVE",
-"81 432 CURVE",
-"92 401 LINE",
-"99 400 LINE",
-"146 420 OFFCURVE",
-"207 432 OFFCURVE",
-"252 432 CURVE SMOOTH",
-"361 432 OFFCURVE",
-"436 355 OFFCURVE",
-"436 229 CURVE SMOOTH",
-"436 115 OFFCURVE",
-"371 39 OFFCURVE",
-"279 39 CURVE SMOOTH",
-"191 39 OFFCURVE",
-"129 108 OFFCURVE",
-"116 221 CURVE",
-"29 229 LINE",
-"31 83 OFFCURVE",
-"120 -11 OFFCURVE",
-"254 -11 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"476 204 LINE",
-"476 246 LINE",
-"38 246 LINE",
-"29 229 LINE",
-"42 197 LINE"
-);
-}
-);
-width = 563;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{261, 0}";
-},
-{
-name = top;
-position = "{261, 463}";
-}
-);
-background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"440 -9 OFFCURVE",
-"535 86 OFFCURVE",
-"535 264 CURVE SMOOTH",
-"535 432 OFFCURVE",
-"454 513 OFFCURVE",
-"286 513 CURVE SMOOTH",
-"107 513 OFFCURVE",
-"15 422 OFFCURVE",
-"15 245 CURVE SMOOTH",
-"15 78 OFFCURVE",
-"101 -9 OFFCURVE",
-"264 -9 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"232 99 OFFCURVE",
-"221 142 OFFCURVE",
-"221 285 CURVE SMOOTH",
-"221 371 OFFCURVE",
-"231 396 OFFCURVE",
-"270 396 CURVE SMOOTH",
-"318 396 OFFCURVE",
-"329 355 OFFCURVE",
-"329 212 CURVE SMOOTH",
-"329 126 OFFCURVE",
-"318 99 OFFCURVE",
-"279 99 CURVE SMOOTH"
-);
-}
-);
-};
-layerId = UUID1;
-paths = (
-{
-closed = 1;
-nodes = (
-"431 -12 OFFCURVE",
-"530 80 OFFCURVE",
-"530 247 CURVE SMOOTH",
-"530 412 OFFCURVE",
-"430 511 OFFCURVE",
-"265 511 CURVE SMOOTH",
-"185 511 OFFCURVE",
-"123 490 OFFCURVE",
-"27 428 CURVE",
-"49 355 LINE",
-"60 351 LINE",
-"103 369 OFFCURVE",
-"162 382 OFFCURVE",
-"209 382 CURVE SMOOTH",
-"298 382 OFFCURVE",
-"323 353 OFFCURVE",
-"323 225 CURVE SMOOTH",
-"323 132 OFFCURVE",
-"311 102 OFFCURVE",
-"274 102 CURVE SMOOTH",
-"235 102 OFFCURVE",
-"223 147 OFFCURVE",
-"223 252 CURVE",
-"12 257 LINE",
-"14 82 OFFCURVE",
-"96 -12 OFFCURVE",
-"260 -12 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"413 203 LINE",
-"413 285 LINE",
-"22 285 LINE",
-"12 257 LINE",
-"52 188 LINE"
-);
-}
-);
-width = 547;
-}
-);
-leftKerningGroup = O;
-rightKerningGroup = O;
 },
 {
 color = 1;
@@ -77228,7 +77226,7 @@ unicode = 0430;
 {
 color = 1;
 glyphname = "be-cy";
-lastChange = "2016-11-03 21:35:43 +0000";
+lastChange = "2016-11-17 16:21:20 +0000";
 layers = (
 {
 background = {
@@ -77236,33 +77234,33 @@ paths = (
 {
 closed = 1;
 nodes = (
-"377 -12 OFFCURVE",
-"469 100 OFFCURVE",
-"469 242 CURVE SMOOTH",
+"372 -12 OFFCURVE",
+"469 94 OFFCURVE",
+"469 240 CURVE SMOOTH",
 "469 373 OFFCURVE",
-"385 464 OFFCURVE",
+"386 464 OFFCURVE",
 "265 464 CURVE",
-"218 459 OFFCURVE",
-"165 429 OFFCURVE",
-"121 381 CURVE",
-"103 389 LINE",
-"113 347 LINE",
-"119 561 OFFCURVE",
-"180 629 OFFCURVE",
-"362 629 CURVE SMOOTH",
-"420 629 LINE",
-"428 638 LINE",
-"431 745 LINE",
-"396 743 LINE",
-"391 707 OFFCURVE",
-"389 704 OFFCURVE",
-"360 702 CURVE SMOOTH",
-"153 687 OFFCURVE",
-"44 565 OFFCURVE",
-"44 286 CURVE SMOOTH",
-"44 84 OFFCURVE",
-"114 -12 OFFCURVE",
-"241 -12 CURVE SMOOTH"
+"212 455 OFFCURVE",
+"164 433 OFFCURVE",
+"126 395 CURVE",
+"108 401 LINE",
+"121 347 LINE",
+"110 562 OFFCURVE",
+"169 619 OFFCURVE",
+"400 615 CURVE",
+"410 624 LINE",
+"454 734 LINE",
+"450 739 LINE",
+"421 742 LINE",
+"405 713 OFFCURVE",
+"389 702 OFFCURVE",
+"351 695 CURVE SMOOTH",
+"153 658 OFFCURVE",
+"44 529 OFFCURVE",
+"44 296 CURVE SMOOTH",
+"44 89 OFFCURVE",
+"108 -12 OFFCURVE",
+"239 -12 CURVE SMOOTH"
 );
 },
 {
@@ -77295,23 +77293,23 @@ nodes = (
 "469 373 OFFCURVE",
 "386 464 OFFCURVE",
 "265 464 CURVE",
-"217 459 OFFCURVE",
-"164 429 OFFCURVE",
-"121 382 CURVE",
-"103 392 LINE",
-"109 347 LINE",
-"124 560 OFFCURVE",
-"185 629 OFFCURVE",
-"362 629 CURVE SMOOTH",
-"420 629 LINE",
-"428 638 LINE",
-"431 741 LINE",
-"396 739 LINE",
-"391 706 OFFCURVE",
-"390 704 OFFCURVE",
-"360 702 CURVE SMOOTH",
-"147 686 OFFCURVE",
-"44 554 OFFCURVE",
+"212 455 OFFCURVE",
+"164 433 OFFCURVE",
+"126 395 CURVE",
+"108 401 LINE",
+"121 347 LINE",
+"110 562 OFFCURVE",
+"169 619 OFFCURVE",
+"400 615 CURVE",
+"410 624 LINE",
+"451 726 LINE",
+"449 730 LINE",
+"421 742 LINE",
+"405 713 OFFCURVE",
+"389 702 OFFCURVE",
+"351 695 CURVE SMOOTH",
+"153 658 OFFCURVE",
+"44 529 OFFCURVE",
 "44 296 CURVE SMOOTH",
 "44 89 OFFCURVE",
 "108 -12 OFFCURVE",
@@ -77348,25 +77346,25 @@ nodes = (
 "511 82 OFFCURVE",
 "511 255 CURVE SMOOTH",
 "511 400 OFFCURVE",
-"430 479 OFFCURVE",
-"279 479 CURVE",
-"227 470 OFFCURVE",
-"186 441 OFFCURVE",
-"157 394 CURVE",
-"115 413 LINE",
-"133 298 LINE",
-"174 522 OFFCURVE",
-"195 562 OFFCURVE",
-"323 558 CURVE SMOOTH",
-"459 554 LINE",
-"476 570 LINE",
-"482 742 LINE",
-"402 738 LINE",
-"389 692 OFFCURVE",
-"384 692 OFFCURVE",
-"318 689 CURVE SMOOTH",
-"120 680 OFFCURVE",
-"30 549 OFFCURVE",
+"421 479 OFFCURVE",
+"305 479 CURVE",
+"257 473 OFFCURVE",
+"213 450 OFFCURVE",
+"173 408 CURVE",
+"131 427 LINE",
+"181 306 LINE",
+"139 534 OFFCURVE",
+"171 564 OFFCURVE",
+"419 539 CURVE",
+"436 555 LINE",
+"493 707 LINE",
+"490 716 LINE",
+"429 742 LINE",
+"403 714 OFFCURVE",
+"380 701 OFFCURVE",
+"341 691 CURVE SMOOTH",
+"112 632 OFFCURVE",
+"30 528 OFFCURVE",
 "30 299 CURVE SMOOTH",
 "30 78 OFFCURVE",
 "98 -12 OFFCURVE",
@@ -77397,32 +77395,32 @@ paths = (
 {
 closed = 1;
 nodes = (
-"420 -12 OFFCURVE",
-"511 82 OFFCURVE",
+"421 -12 OFFCURVE",
+"511 83 OFFCURVE",
 "511 255 CURVE SMOOTH",
-"511 400 OFFCURVE",
+"511 391 OFFCURVE",
 "430 479 OFFCURVE",
-"279 479 CURVE",
-"230 472 OFFCURVE",
-"190 444 OFFCURVE",
-"160 397 CURVE",
-"118 416 LINE",
-"133 298 LINE",
-"182 514 OFFCURVE",
-"209 562 OFFCURVE",
-"333 558 CURVE SMOOTH",
-"459 554 LINE",
-"476 570 LINE",
-"482 742 LINE",
-"402 738 LINE",
-"389 692 OFFCURVE",
-"384 692 OFFCURVE",
-"318 689 CURVE SMOOTH",
-"120 680 OFFCURVE",
-"30 549 OFFCURVE",
+"305 479 CURVE",
+"263 474 OFFCURVE",
+"225 455 OFFCURVE",
+"192 423 CURVE",
+"150 442 LINE",
+"211 336 LINE",
+"138 536 OFFCURVE",
+"167 564 OFFCURVE",
+"419 539 CURVE",
+"436 555 LINE",
+"493 707 LINE",
+"490 716 LINE",
+"429 742 LINE",
+"403 714 OFFCURVE",
+"381 701 OFFCURVE",
+"341 691 CURVE SMOOTH",
+"112 632 OFFCURVE",
+"30 528 OFFCURVE",
 "30 299 CURVE SMOOTH",
-"30 78 OFFCURVE",
-"98 -12 OFFCURVE",
+"30 79 OFFCURVE",
+"97 -12 OFFCURVE",
 "258 -12 CURVE SMOOTH"
 );
 },
@@ -78187,6 +78185,116 @@ nodes = (
 }
 );
 width = 516;
+},
+{
+associatedMasterId = UUID1;
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"420 -12 OFFCURVE",
+"511 82 OFFCURVE",
+"511 255 CURVE SMOOTH",
+"511 400 OFFCURVE",
+"421 479 OFFCURVE",
+"305 479 CURVE",
+"257 473 OFFCURVE",
+"213 450 OFFCURVE",
+"173 408 CURVE",
+"131 427 LINE",
+"181 306 LINE",
+"139 534 OFFCURVE",
+"171 564 OFFCURVE",
+"419 539 CURVE",
+"436 555 LINE",
+"493 707 LINE",
+"490 716 LINE",
+"429 742 LINE",
+"403 714 OFFCURVE",
+"380 701 OFFCURVE",
+"341 691 CURVE SMOOTH",
+"112 632 OFFCURVE",
+"30 528 OFFCURVE",
+"30 299 CURVE SMOOTH",
+"30 78 OFFCURVE",
+"98 -12 OFFCURVE",
+"258 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"233 95 OFFCURVE",
+"220 134 OFFCURVE",
+"220 259 CURVE SMOOTH",
+"220 341 OFFCURVE",
+"230 364 OFFCURVE",
+"264 364 CURVE SMOOTH",
+"305 364 OFFCURVE",
+"318 326 OFFCURVE",
+"318 204 CURVE SMOOTH",
+"318 118 OFFCURVE",
+"309 95 OFFCURVE",
+"274 95 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "4BDCE298-06A3-4E5A-BFB5-4D6B79D0FBBA";
+name = "Nov 17 16, 13:20";
+paths = (
+{
+closed = 1;
+nodes = (
+"420 -12 OFFCURVE",
+"511 82 OFFCURVE",
+"511 255 CURVE SMOOTH",
+"511 400 OFFCURVE",
+"421 479 OFFCURVE",
+"305 479 CURVE",
+"257 473 OFFCURVE",
+"213 450 OFFCURVE",
+"173 408 CURVE",
+"131 427 LINE",
+"181 306 LINE",
+"139 534 OFFCURVE",
+"171 564 OFFCURVE",
+"419 539 CURVE",
+"436 555 LINE",
+"493 707 LINE",
+"490 716 LINE",
+"429 742 LINE",
+"403 714 OFFCURVE",
+"380 701 OFFCURVE",
+"341 691 CURVE SMOOTH",
+"112 632 OFFCURVE",
+"30 528 OFFCURVE",
+"30 299 CURVE SMOOTH",
+"30 78 OFFCURVE",
+"98 -12 OFFCURVE",
+"258 -12 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"233 95 OFFCURVE",
+"220 134 OFFCURVE",
+"220 259 CURVE SMOOTH",
+"220 341 OFFCURVE",
+"230 364 OFFCURVE",
+"264 364 CURVE SMOOTH",
+"305 364 OFFCURVE",
+"318 326 OFFCURVE",
+"318 204 CURVE SMOOTH",
+"318 118 OFFCURVE",
+"309 95 OFFCURVE",
+"274 95 CURVE SMOOTH"
+);
+}
+);
+width = 541;
 }
 );
 leftKerningGroup = "be-cy";
@@ -158132,7 +158240,7 @@ width = 1073;
 },
 {
 glyphname = areas;
-lastChange = "2016-11-17 15:50:24 +0000";
+lastChange = "2016-11-17 16:05:34 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -158140,285 +158248,323 @@ paths = (
 {
 closed = 1;
 nodes = (
-"69 -9 LINE",
-"69 -9 LINE",
-"69 -9 LINE",
-"69.444 -4 LINE",
-"69.889 1 LINE",
-"70.333 6 LINE",
-"70.778 11 LINE",
-"71.222 16 LINE",
-"71.667 21 LINE",
-"72.111 26 LINE",
-"72.556 31 LINE",
-"73 36 LINE",
-"78 41 LINE",
-"83 46 LINE",
-"88 51 LINE",
-"93 56 LINE",
-"98 61 LINE",
-"103 66 LINE",
-"108 71 LINE",
-"113 76 LINE",
-"118 81 LINE",
-"123 86 LINE",
-"128 91 LINE",
-"133 96 LINE",
-"138 101 LINE",
-"143 106 LINE",
-"147.774 111 LINE",
-"147.921 116 LINE",
-"148.005 121 LINE",
-"148.029 126 LINE",
-"148.052 131 LINE",
-"148.076 136 LINE",
-"148.1 141 LINE",
-"148.124 146 LINE",
-"148.148 151 LINE",
-"148.171 156 LINE",
-"148.195 161 LINE",
-"148.219 166 LINE",
-"148.243 171 LINE",
-"148.267 176 LINE",
-"148.29 181 LINE",
-"148.314 186 LINE",
-"148.338 191 LINE",
-"148.362 196 LINE",
-"148.386 201 LINE",
-"148.41 206 LINE",
-"148.433 211 LINE",
-"148.457 216 LINE",
-"148.481 221 LINE",
-"148.505 226 LINE",
-"148.529 231 LINE",
-"148.552 236 LINE",
-"148.576 241 LINE",
-"148.6 246 LINE",
-"148.624 251 LINE",
-"148.648 256 LINE",
-"148.671 261 LINE",
-"148.695 266 LINE",
-"148.719 271 LINE",
-"148.743 276 LINE",
-"148.767 281 LINE",
-"148.79 286 LINE",
-"148.814 291 LINE",
-"148.838 296 LINE",
-"148.862 301 LINE",
-"148.886 306 LINE",
-"148.91 311 LINE",
-"148.933 316 LINE",
-"148.957 321 LINE",
-"148.981 326 LINE",
-"149.005 331 LINE",
-"149.029 336 LINE",
-"149.052 341 LINE",
-"149.076 346 LINE",
-"149.1 351 LINE",
-"149.124 356 LINE",
-"149.148 361 LINE",
-"149.171 366 LINE",
-"149.195 371 LINE",
-"149.219 376 LINE",
-"149.243 381 LINE",
-"149.267 386 LINE",
-"149.29 391 LINE",
-"149.314 396 LINE",
-"149.338 401 LINE",
-"149.362 406 LINE",
-"149.386 411 LINE",
-"149.41 416 LINE",
-"149.433 421 LINE",
-"149.457 426 LINE",
-"149.481 431 LINE",
-"149.505 436 LINE",
-"149.529 441 LINE",
-"149.552 446 LINE",
-"149.576 451 LINE",
-"149.6 456 LINE",
-"149.624 461 LINE",
-"149.648 466 LINE",
-"149.671 471 LINE",
-"149.695 476 LINE",
-"149.719 481 LINE",
-"149.743 486 LINE",
-"149.767 491 LINE",
-"149.79 496 LINE",
-"149.814 501 LINE",
-"149.838 506 LINE",
-"149.862 511 LINE",
-"149.886 516 LINE",
-"149.91 521 LINE",
-"147 526 LINE",
-"142 531 LINE",
-"137 536 LINE",
-"132 541 LINE",
-"127 546 LINE",
-"122 551 LINE",
-"117 556 LINE",
-"112 561 LINE",
-"107 566 LINE",
-"102 571 LINE",
-"97 576 LINE",
-"92 581 LINE",
-"87 586 LINE",
-"82 591 LINE",
-"77 596 LINE",
-"77.795 601 LINE",
-"78.591 606 LINE",
-"79.386 611 LINE",
-"80.182 616 LINE",
-"80.977 621 LINE",
-"81.773 626 LINE",
-"82.568 631 LINE",
-"83.364 636 LINE",
-"88.364 641 LINE",
-"93.364 646 LINE",
-"69 646 LINE"
+"64.005 -12 LINE",
+"64.005 -12 LINE",
+"177.005 -12 LINE",
+"177.005 -7 LINE",
+"177.005 -2 LINE",
+"172.815 3 LINE",
+"167.815 8 LINE",
+"162.815 13 LINE",
+"155.364 18 LINE",
+"148.775 23 LINE",
+"142.868 28 LINE",
+"137.518 33 LINE",
+"132.634 38 LINE",
+"128.148 43 LINE",
+"124.005 48 LINE",
+"120.164 53 LINE",
+"116.589 58 LINE",
+"113.254 63 LINE",
+"110.133 68 LINE",
+"107.207 73 LINE",
+"104.46 78 LINE",
+"101.875 83 LINE",
+"99.441 88 LINE",
+"97.145 93 LINE",
+"94.979 98 LINE",
+"92.933 103 LINE",
+"91 108 LINE",
+"89.172 113 LINE",
+"87.443 118 LINE",
+"85.807 123 LINE",
+"84.26 128 LINE",
+"82.796 133 LINE",
+"81.411 138 LINE",
+"80.101 143 LINE",
+"78.862 148 LINE",
+"77.692 153 LINE",
+"76.586 158 LINE",
+"75.542 163 LINE",
+"74.558 168 LINE",
+"73.631 173 LINE",
+"72.758 178 LINE",
+"71.937 183 LINE",
+"71.167 188 LINE",
+"70.445 193 LINE",
+"69.77 198 LINE",
+"69.139 203 LINE",
+"68.552 208 LINE",
+"68.007 213 LINE",
+"67.502 218 LINE",
+"67.036 223 LINE",
+"66.607 228 LINE",
+"66.216 233 LINE",
+"65.86 238 LINE",
+"65.538 243 LINE",
+"65.249 248 LINE",
+"64.993 253 LINE",
+"64.769 258 LINE",
+"64.574 263 LINE",
+"64.41 268 LINE",
+"64.274 273 LINE",
+"64.166 278 LINE",
+"64.086 283 LINE",
+"64.032 288 LINE",
+"64.005 293 LINE",
+"69.005 298 LINE",
+"64.031 303 LINE",
+"64.091 308 LINE",
+"64.184 313 LINE",
+"64.31 318 LINE",
+"64.47 323 LINE",
+"64.665 328 LINE",
+"64.895 333 LINE",
+"65.162 338 LINE",
+"65.466 343 LINE",
+"65.808 348 LINE",
+"66.189 353 LINE",
+"66.61 358 LINE",
+"67.072 363 LINE",
+"67.576 368 LINE",
+"68.123 373 LINE",
+"68.713 378 LINE",
+"69.349 383 LINE",
+"70.031 388 LINE",
+"70.76 393 LINE",
+"71.538 398 LINE",
+"72.366 403 LINE",
+"73.246 408 LINE",
+"74.178 413 LINE",
+"75.164 418 LINE",
+"76.206 423 LINE",
+"77.306 428 LINE",
+"78.464 433 LINE",
+"79.684 438 LINE",
+"80.966 443 LINE",
+"82.312 448 LINE",
+"83.726 453 LINE",
+"85.208 458 LINE",
+"86.761 463 LINE",
+"88.387 468 LINE",
+"90.089 473 LINE",
+"91.87 478 LINE",
+"93.731 483 LINE",
+"95.677 488 LINE",
+"97.71 493 LINE",
+"99.833 498 LINE",
+"102.05 503 LINE",
+"104.364 508 LINE",
+"106.78 513 LINE",
+"109.301 518 LINE",
+"111.932 523 LINE",
+"114.678 528 LINE",
+"117.543 533 LINE",
+"120.533 538 LINE",
+"123.654 543 LINE",
+"126.911 548 LINE",
+"130.313 553 LINE",
+"133.865 558 LINE",
+"137.576 563 LINE",
+"141.454 568 LINE",
+"145.508 573 LINE",
+"149.749 578 LINE",
+"154.187 583 LINE",
+"158.835 588 LINE",
+"163.706 593 LINE",
+"168.706 598 LINE",
+"173.706 603 LINE",
+"177.005 608 LINE",
+"177.005 613 LINE",
+"177.005 618 LINE",
+"177.005 623 LINE",
+"177.005 628 LINE",
+"177.005 633 LINE",
+"177.005 638 LINE",
+"177.005 643 LINE",
+"177.005 648 LINE",
+"177.005 653 LINE",
+"177.005 658 LINE",
+"177.005 663 LINE",
+"177.005 668 LINE",
+"177.005 673 LINE",
+"177.005 678 LINE",
+"177.005 683 LINE",
+"177.005 688 LINE",
+"177.005 693 LINE",
+"177.005 698 LINE",
+"177.005 703 LINE",
+"177.005 708 LINE",
+"177.005 713 LINE",
+"177.005 718 LINE",
+"177.005 723 LINE",
+"177.005 728 LINE",
+"177.005 733 LINE",
+"177.005 738 LINE",
+"64.005 742 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"992 -9 LINE",
-"992 -9 LINE",
-"974.636 -9 LINE",
-"979.636 -4 LINE",
-"984.636 1 LINE",
-"985.432 6 LINE",
-"986.227 11 LINE",
-"987.023 16 LINE",
-"987.818 21 LINE",
-"988.614 26 LINE",
-"989.409 31 LINE",
-"990.205 36 LINE",
-"991 41 LINE",
-"986 46 LINE",
-"981 51 LINE",
-"976 56 LINE",
-"971 61 LINE",
-"966 66 LINE",
-"961 71 LINE",
-"956 76 LINE",
-"951 81 LINE",
-"946 86 LINE",
-"941 91 LINE",
-"936 96 LINE",
-"931 101 LINE",
-"926 106 LINE",
-"921 111 LINE",
-"916 116 LINE",
-"911 121 LINE",
-"910.102 126 LINE",
-"910.153 131 LINE",
-"910.211 136 LINE",
-"910.276 141 LINE",
-"910.347 146 LINE",
-"910.424 151 LINE",
-"910.506 156 LINE",
-"910.592 161 LINE",
-"910.684 166 LINE",
-"910.779 171 LINE",
-"910.878 176 LINE",
-"910.981 181 LINE",
-"911.087 186 LINE",
-"911.197 191 LINE",
-"911.31 196 LINE",
-"911.426 201 LINE",
-"911.545 206 LINE",
-"911.666 211 LINE",
-"911.79 216 LINE",
-"911.917 221 LINE",
-"912.046 226 LINE",
-"912.178 231 LINE",
-"912.312 236 LINE",
-"912.448 241 LINE",
-"912.586 246 LINE",
-"912.726 251 LINE",
-"912.869 256 LINE",
-"913.014 261 LINE",
-"913.16 266 LINE",
-"913.309 271 LINE",
-"913.459 276 LINE",
-"913.611 281 LINE",
-"913.765 286 LINE",
-"913.921 291 LINE",
-"914.079 296 LINE",
-"914.239 301 LINE",
-"914.4 306 LINE",
-"914.563 311 LINE",
-"914.727 316 LINE",
-"914.894 321 LINE",
-"915.062 326 LINE",
-"915.231 331 LINE",
-"915.403 336 LINE",
-"915.576 341 LINE",
-"915.75 346 LINE",
-"915.926 351 LINE",
-"916.104 356 LINE",
-"916.284 361 LINE",
-"916.465 366 LINE",
-"916.647 371 LINE",
-"916.831 376 LINE",
-"917.017 381 LINE",
-"917.204 386 LINE",
-"917.393 391 LINE",
-"917.584 396 LINE",
-"917.776 401 LINE",
-"917.97 406 LINE",
-"918.165 411 LINE",
-"918.362 416 LINE",
-"918.561 421 LINE",
-"918.761 426 LINE",
-"918.963 431 LINE",
-"919.166 436 LINE",
-"919.371 441 LINE",
-"919.578 446 LINE",
-"919.787 451 LINE",
-"919.997 456 LINE",
-"920.209 461 LINE",
-"920.423 466 LINE",
-"920.638 471 LINE",
-"920.855 476 LINE",
-"921.074 481 LINE",
-"921.295 486 LINE",
-"921.518 491 LINE",
-"921.742 496 LINE",
-"921.969 501 LINE",
-"922.197 506 LINE",
-"922.428 511 LINE",
-"922.66 516 LINE",
-"922.894 521 LINE",
-"923.131 526 LINE",
-"923.369 531 LINE",
-"923.61 536 LINE",
-"928 541 LINE",
-"933 546 LINE",
-"938 551 LINE",
-"943 556 LINE",
-"948 561 LINE",
-"953 566 LINE",
-"958 571 LINE",
-"963 576 LINE",
-"968 581 LINE",
-"973 586 LINE",
-"978 591 LINE",
-"983 596 LINE",
-"988 601 LINE",
-"988.444 606 LINE",
-"988.889 611 LINE",
-"989.333 616 LINE",
-"989.778 621 LINE",
-"990.222 626 LINE",
-"990.667 631 LINE",
-"991.111 636 LINE",
-"991.556 641 LINE",
-"992 646 LINE",
-"992 646 LINE"
+"488.925 -12 LINE",
+"488.925 -12 LINE",
+"375.925 -12 LINE",
+"375.925 -7 LINE",
+"375.925 -2 LINE",
+"375.925 3 LINE",
+"375.925 8 LINE",
+"377.941 13 LINE",
+"382.941 18 LINE",
+"387.941 23 LINE",
+"392.941 28 LINE",
+"397.941 33 LINE",
+"402.941 38 LINE",
+"407.941 43 LINE",
+"412.941 48 LINE",
+"417.941 53 LINE",
+"422.725 58 LINE",
+"427.224 63 LINE",
+"431.464 68 LINE",
+"435.465 73 LINE",
+"439.244 78 LINE",
+"442.817 83 LINE",
+"446.197 88 LINE",
+"449.395 93 LINE",
+"452.422 98 LINE",
+"455.287 103 LINE",
+"457.998 108 LINE",
+"460.562 113 LINE",
+"462.985 118 LINE",
+"465.274 123 LINE",
+"467.434 128 LINE",
+"469.469 133 LINE",
+"471.385 138 LINE",
+"473.185 143 LINE",
+"474.873 148 LINE",
+"476.452 153 LINE",
+"477.926 158 LINE",
+"479.297 163 LINE",
+"480.568 168 LINE",
+"481.741 173 LINE",
+"482.82 178 LINE",
+"483.805 183 LINE",
+"484.7 188 LINE",
+"485.506 193 LINE",
+"486.224 198 LINE",
+"486.856 203 LINE",
+"487.404 208 LINE",
+"487.869 213 LINE",
+"488.252 218 LINE",
+"488.556 223 LINE",
+"488.779 228 LINE",
+"488.925 233 LINE",
+"483.925 238 LINE",
+"483.899 243 LINE",
+"488.899 248 LINE",
+"488.732 253 LINE",
+"488.482 258 LINE",
+"488.149 263 LINE",
+"487.731 268 LINE",
+"487.226 273 LINE",
+"486.631 278 LINE",
+"485.945 283 LINE",
+"485.166 288 LINE",
+"484.291 293 LINE",
+"483.316 298 LINE",
+"482.241 303 LINE",
+"481.06 308 LINE",
+"479.772 313 LINE",
+"478.372 318 LINE",
+"476.856 323 LINE",
+"475.22 328 LINE",
+"473.46 333 LINE",
+"471.57 338 LINE",
+"469.544 343 LINE",
+"467.376 348 LINE",
+"465.059 353 LINE",
+"462.586 358 LINE",
+"459.947 363 LINE",
+"457.132 368 LINE",
+"454.131 373 LINE",
+"450.931 378 LINE",
+"447.517 383 LINE",
+"443.873 388 LINE",
+"439.978 393 LINE",
+"435.81 398 LINE",
+"431.342 403 LINE",
+"426.539 408 LINE",
+"421.539 413 LINE",
+"416.539 418 LINE",
+"411.539 423 LINE",
+"406.539 428 LINE",
+"401.539 433 LINE",
+"396.539 438 LINE",
+"391.539 443 LINE",
+"386.539 448 LINE",
+"381.539 453 LINE",
+"376.539 458 LINE",
+"375.925 463 LINE",
+"375.925 468 LINE",
+"375.925 473 LINE",
+"375.925 478 LINE",
+"375.925 483 LINE",
+"375.925 488 LINE",
+"375.925 493 LINE",
+"375.925 498 LINE",
+"375.925 503 LINE",
+"375.925 508 LINE",
+"375.925 513 LINE",
+"375.925 518 LINE",
+"375.925 523 LINE",
+"375.925 528 LINE",
+"375.925 533 LINE",
+"375.925 538 LINE",
+"375.925 543 LINE",
+"375.925 548 LINE",
+"375.925 553 LINE",
+"375.925 558 LINE",
+"375.925 563 LINE",
+"378.889 568 LINE",
+"383.889 573 LINE",
+"388.889 578 LINE",
+"393.889 583 LINE",
+"398.889 588 LINE",
+"403.889 593 LINE",
+"408.889 598 LINE",
+"413.889 603 LINE",
+"418.889 608 LINE",
+"423.889 613 LINE",
+"428.889 618 LINE",
+"433.889 623 LINE",
+"436.418 628 LINE",
+"438.191 633 LINE",
+"439.964 638 LINE",
+"441.736 643 LINE",
+"443.509 648 LINE",
+"445.282 653 LINE",
+"447.055 658 LINE",
+"448.827 663 LINE",
+"450.6 668 LINE",
+"452.373 673 LINE",
+"454.145 678 LINE",
+"455.918 683 LINE",
+"457.691 688 LINE",
+"459.464 693 LINE",
+"461.236 698 LINE",
+"463.009 703 LINE",
+"464.782 708 LINE",
+"466.555 713 LINE",
+"468.327 718 LINE",
+"470.1 723 LINE",
+"471.873 728 LINE",
+"473.645 733 LINE",
+"470.8 738 LINE",
+"488.925 742 LINE"
 );
 }
 );
-width = 973;
+width = 497;
 },
 {
 layerId = UUID1;
