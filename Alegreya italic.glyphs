@@ -1,7 +1,8 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"/a-cy/be-cy/ve-cy/ge-cy/de-cy/ie-cy/io-cy/zhe-cy/ze-cy/ii-cy/iishort-cy/ka-cy yM/m.sc/el-cy/em-cy/en-cy/o-cy/pe-cy/er-cy/es-cy/te-cy/u-cy/ef-cy/ha-cy/che-cy/tse-cy/sha-cy/shcha-cy/softsign-cy/hardsign-cy/yeru-cy/ereversed-cy/iu-cy/ia-cy"
+"/a-cy/be-cy/ve-cy/ge-cy/de-cy/ie-cy/io-cy/zhe-cy/ze-cy/ii-cy/iishort-cy/ka-cy y/el-cy/em-cy/en-cy/o-cy/pe-cy/er-cy/es-cy/te-cy/u-cy/ef-cy/ha-cy/che-cy/tse-cy/sha-cy/shcha-cy/softsign-cy/hardsign-cy/yeru-cy/ereversed-cy/iu-cy/ia-cy",
+"y/el-cy/em-cy"
 );
 classes = (
 {
@@ -39104,7 +39105,7 @@ unicode = 0078;
 {
 color = 1;
 glyphname = y;
-lastChange = "2016-11-21 13:00:57 +0000";
+lastChange = "2016-11-25 20:42:09 +0000";
 layers = (
 {
 anchors = (
@@ -39200,8 +39201,8 @@ nodes = (
 "132 221 OFFCURVE",
 "143 101 OFFCURVE",
 "151 -43 CURVE",
-"58 -170 OFFCURVE",
-"2 -192 OFFCURVE",
+"66 -160 OFFCURVE",
+"-3 -187 OFFCURVE",
 "-59 -124 CURVE",
 "-73 -124 LINE",
 "-83 -147 OFFCURVE",
@@ -39210,8 +39211,8 @@ nodes = (
 "-85 -220 OFFCURVE",
 "-54 -235 OFFCURVE",
 "-15 -235 CURVE SMOOTH",
-"48 -235 OFFCURVE",
-"111 -172 OFFCURVE",
+"46 -235 OFFCURVE",
+"122 -159 OFFCURVE",
 "243 21 CURVE SMOOTH",
 "360 196 OFFCURVE",
 "423 323 OFFCURVE",
@@ -39316,8 +39317,8 @@ nodes = (
 "71 304 OFFCURVE",
 "94 141 OFFCURVE",
 "119 -56 CURVE",
-"48 -132 OFFCURVE",
-"13 -133 OFFCURVE",
+"48 -130 OFFCURVE",
+"13 -131 OFFCURVE",
 "-44 -60 CURVE",
 "-59 -61 LINE",
 "-91 -99 OFFCURVE",
