@@ -1,9 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-"/de-cy n/el-cy n/De-cy H/El-cy H required some more work (comments in this thread). The other changes that you implemented are good as they are now. \012",
-"/en-cy/a-cy/es-cy/de-cy n/el-cy/a-cy/el-cy"
-);
 classes = (
 {
 automatic = 1;
@@ -60825,8 +60821,9 @@ width = 359;
 unicode = 02B8;
 },
 {
+color = 10;
 glyphname = "A-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -62019,8 +62016,9 @@ rightKerningGroup = "Be-cy";
 unicode = 0411;
 },
 {
+color = 10;
 glyphname = "Ve-cy";
-lastChange = "2016-11-17 20:13:23 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -62046,8 +62044,9 @@ rightKerningGroup = B;
 unicode = 0412;
 },
 {
+color = 10;
 glyphname = "Ge-cy";
-lastChange = "2016-11-23 18:40:35 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 background = {
@@ -64481,8 +64480,9 @@ rightMetricsKey = "=Tse-cy";
 unicode = 0414;
 },
 {
+color = 10;
 glyphname = "Ie-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -64508,8 +64508,9 @@ rightKerningGroup = E;
 unicode = 0415;
 },
 {
+color = 10;
 glyphname = "Io-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -68983,8 +68984,9 @@ rightMetricsKey = "=H";
 unicode = 0418;
 },
 {
+color = 10;
 glyphname = "Iishort-cy";
-lastChange = "2016-11-24 15:24:11 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71452,8 +71454,9 @@ rightMetricsKey = "=Pe-cy";
 unicode = 041B;
 },
 {
+color = 10;
 glyphname = "Em-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71479,8 +71482,9 @@ rightKerningGroup = M;
 unicode = 041C;
 },
 {
+color = 10;
 glyphname = "En-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71506,8 +71510,9 @@ rightKerningGroup = H;
 unicode = 041D;
 },
 {
+color = 10;
 glyphname = "O-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71533,8 +71538,9 @@ rightKerningGroup = O;
 unicode = 041E;
 },
 {
+color = 10;
 glyphname = "Pe-cy";
-lastChange = "2016-11-03 21:44:07 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71560,8 +71566,9 @@ rightKerningGroup = H;
 unicode = 041F;
 },
 {
+color = 10;
 glyphname = "Er-cy";
-lastChange = "2016-11-17 20:13:23 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71587,8 +71594,9 @@ rightKerningGroup = P;
 unicode = 0420;
 },
 {
+color = 10;
 glyphname = "Es-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -71614,8 +71622,9 @@ rightKerningGroup = C;
 unicode = 0421;
 },
 {
+color = 10;
 glyphname = "Te-cy";
-lastChange = "2016-11-03 21:34:20 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -73129,8 +73138,9 @@ rightKerningGroup = V;
 unicode = 0423;
 },
 {
+color = 10;
 glyphname = "Ef-cy";
-lastChange = "2016-11-17 20:13:23 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -73156,8 +73166,9 @@ rightKerningGroup = Phi;
 unicode = 0424;
 },
 {
+color = 10;
 glyphname = "Ha-cy";
-lastChange = "2016-11-17 20:13:23 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -78260,8 +78271,9 @@ rightMetricsKey = "=Softsign-cy";
 unicode = 042A;
 },
 {
+color = 10;
 glyphname = "Yeru-cy";
-lastChange = "2016-11-17 20:13:23 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -81511,8 +81523,9 @@ rightMetricsKey = "=I";
 unicode = 042F;
 },
 {
+color = 10;
 glyphname = "a-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -84161,8 +84174,9 @@ width = 567;
 unicode = 0434;
 },
 {
+color = 10;
 glyphname = "ie-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -84192,8 +84206,9 @@ rightKerningGroup = e;
 unicode = 0435;
 },
 {
+color = 10;
 glyphname = "io-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -85433,8 +85448,9 @@ width = 601;
 unicode = 0438;
 },
 {
+color = 10;
 glyphname = "iishort-cy";
-lastChange = "2016-11-24 15:24:11 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 anchors = (
@@ -88070,8 +88086,9 @@ width = 599;
 unicode = 043D;
 },
 {
+color = 10;
 glyphname = "o-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -88367,8 +88384,9 @@ width = 587;
 unicode = 043F;
 },
 {
+color = 10;
 glyphname = "er-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -88398,8 +88416,9 @@ rightKerningGroup = o;
 unicode = 0440;
 },
 {
+color = 10;
 glyphname = "es-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -88647,8 +88666,9 @@ width = 472;
 unicode = 0442;
 },
 {
+color = 10;
 glyphname = "u-cy";
-lastChange = "2016-11-21 12:48:19 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
@@ -89715,8 +89735,9 @@ width = 724;
 unicode = 0444;
 },
 {
+color = 10;
 glyphname = "ha-cy";
-lastChange = "2016-11-21 12:48:33 +0000";
+lastChange = "2016-11-28 12:12:52 +0000";
 layers = (
 {
 components = (
