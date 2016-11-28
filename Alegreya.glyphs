@@ -1,7 +1,8 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"VVVVV/U-cy/U-cy/U-cy/U-cy/U-cy XXXXX\012V/U-cy X\012/spacingGlyph V/spacingGlyph/U-cy/spacingGlyph X/spacingGlyph"
+"VVVVV/U-cy/U-cy/U-cy/U-cy/U-cy XXXXX\012V/U-cy X\012/spacingGlyph V/spacingGlyph/U-cy/spacingGlyph X/spacingGlyph",
+"/brevecomb-cy.case/Iishort-cy"
 );
 classes = (
 {
@@ -149,7 +150,7 @@ name = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb ypogegrammenicomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dieresiscomb_acutecomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_gravecomb macroncomb_acutecomb dblgravecomb psili dasia psilivaria dasiavaria psilioxia dasiaoxia psiliperispomeni dasiaperispomeni perispomeni descender-cy];\012	@MarkscombCase = [dieresiscomb.case dieresiscomb_acutecomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case dblgravecomb.case psili.case dasia.case psilivaria.case dasiavaria.case psilioxia.case dasiaoxia.case psiliperispomeni.case dasiaperispomeni.case perispomeni.case descender-cy.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_2;\012";
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb ypogegrammenicomb horncomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dieresiscomb_acutecomb dieresiscomb_macroncomb dotaccentcomb dotaccentcomb_macroncomb gravecomb acutecomb hungarumlautcomb circumflexcomb caroncomb brevecomb ringcomb tildecomb tildecomb_dieresiscomb tildecomb_acutecomb tildecomb_macroncomb macroncomb macroncomb_gravecomb macroncomb_acutecomb dblgravecomb psili dasia psilivaria dasiavaria psilioxia dasiaoxia psiliperispomeni dasiaperispomeni perispomeni brevecomb-cy descender-cy];\012	@MarkscombCase = [dieresiscomb.case dieresiscomb_acutecomb.case dieresiscomb_macroncomb.case dotaccentcomb.case dotaccentcomb_macroncomb.case gravecomb.case acutecomb.case hungarumlautcomb.case circumflexcomb.case caroncomb.case brevecomb.case ringcomb.case tildecomb.case tildecomb_dieresiscomb.case tildecomb_acutecomb.case tildecomb_macroncomb.case macroncomb.case macroncomb_gravecomb.case macroncomb_acutecomb.case dblgravecomb.case psili.case dasia.case psilivaria.case dasiavaria.case psilioxia.case dasiaoxia.case psiliperispomeni.case dasiaperispomeni.case perispomeni.case brevecomb-cy.case descender-cy.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_Other_3 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012} ccmp_Other_3;\012\012lookup ccmp_Other_4 {\012	lookupflag 0;\012	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;\012	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;\012	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;\012	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;\012	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;\012	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;\012	sub tildecomb acutecomb by tildecomb_acutecomb;\012	sub tildecomb macroncomb by tildecomb_macroncomb;\012	sub macroncomb gravecomb by macroncomb_gravecomb;\012	sub macroncomb acutecomb by macroncomb_acutecomb;\012	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;\012	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;\012	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;\012	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;\012	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;\012	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;\012	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;\012	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;\012} ccmp_Other_4;\012\012lookup ccmp_latn_1 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012lookup ccmp_latn_2 {\012	script latn;\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_2;\012";
 name = ccmp;
 },
 {
@@ -69067,7 +69068,7 @@ unicode = 0418;
 {
 color = 10;
 glyphname = "Iishort-cy";
-lastChange = "2016-11-28 12:12:52 +0000";
+lastChange = "2016-11-28 20:03:13 +0000";
 layers = (
 {
 components = (
@@ -69075,8 +69076,8 @@ components = (
 name = "Ii-cy";
 },
 {
-name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 193, 185}";
+name = "brevecomb-cy.case";
+transform = "{1, 0, 0, 1, 170, 185}";
 }
 );
 layerId = UUID0;
@@ -69088,8 +69089,8 @@ components = (
 name = "Ii-cy";
 },
 {
-name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 179, 175}";
+name = "brevecomb-cy.case";
+transform = "{1, 0, 0, 1, 160, 175}";
 }
 );
 layerId = UUID1;
@@ -73283,7 +73284,7 @@ unicode = 0423;
 },
 {
 glyphname = "Ushort-cy";
-lastChange = "2016-11-28 12:13:04 +0000";
+lastChange = "2016-11-28 19:50:12 +0000";
 layers = (
 {
 components = (
@@ -73296,7 +73297,7 @@ transform = "{1, 0, 0, 1, 110, 185}";
 }
 );
 layerId = UUID0;
-width = 563;
+width = 562;
 },
 {
 components = (
@@ -73305,11 +73306,11 @@ name = "U-cy";
 },
 {
 name = "brevecomb-cy";
-transform = "{1, 0, 0, 1, 99, 175}";
+transform = "{1, 0, 0, 1, 101, 175}";
 }
 );
 layerId = UUID1;
-width = 599;
+width = 602;
 }
 );
 unicode = 040E;
@@ -73317,7 +73318,7 @@ unicode = 040E;
 {
 color = 10;
 glyphname = "Ef-cy";
-lastChange = "2016-11-28 19:34:17 +0000";
+lastChange = "2016-11-28 19:50:12 +0000";
 layers = (
 {
 components = (
@@ -73335,7 +73336,7 @@ name = Phi;
 }
 );
 layerId = UUID1;
-width = 810;
+width = 804;
 }
 );
 leftKerningGroup = Phi;
@@ -82732,7 +82733,7 @@ unicode = 04E8;
 },
 {
 glyphname = "Umacron-cy";
-lastChange = "2016-11-28 12:13:23 +0000";
+lastChange = "2016-11-28 19:50:12 +0000";
 layers = (
 {
 components = (
@@ -82745,7 +82746,7 @@ transform = "{1, 0, 0, 1, 94, 0}";
 }
 );
 layerId = UUID0;
-width = 563;
+width = 562;
 },
 {
 components = (
@@ -82754,18 +82755,18 @@ name = "U-cy";
 },
 {
 name = macroncomb.case;
-transform = "{1, 0, 0, 1, 91, 0}";
+transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
 layerId = UUID1;
-width = 599;
+width = 602;
 }
 );
 unicode = 04EE;
 },
 {
 glyphname = "Udieresis-cy";
-lastChange = "2016-11-28 12:13:23 +0000";
+lastChange = "2016-11-28 19:50:12 +0000";
 layers = (
 {
 components = (
@@ -82778,7 +82779,7 @@ transform = "{1, 0, 0, 1, 95, 0}";
 }
 );
 layerId = UUID0;
-width = 563;
+width = 562;
 },
 {
 components = (
@@ -82787,18 +82788,18 @@ name = "U-cy";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 96, 0}";
+transform = "{1, 0, 0, 1, 98, 0}";
 }
 );
 layerId = UUID1;
-width = 599;
+width = 602;
 }
 );
 unicode = 04F0;
 },
 {
 glyphname = "Uhungarumlaut-cy";
-lastChange = "2016-11-28 12:13:23 +0000";
+lastChange = "2016-11-28 19:50:12 +0000";
 layers = (
 {
 components = (
@@ -82811,7 +82812,7 @@ transform = "{1, 0, 0, 1, 94, -10}";
 }
 );
 layerId = UUID0;
-width = 563;
+width = 562;
 },
 {
 components = (
@@ -82820,11 +82821,11 @@ name = "U-cy";
 },
 {
 name = hungarumlautcomb.case;
-transform = "{1, 0, 0, 1, 95, 0}";
+transform = "{1, 0, 0, 1, 97, 0}";
 }
 );
 layerId = UUID1;
-width = 599;
+width = 602;
 }
 );
 unicode = 04F2;
@@ -169687,6 +169688,294 @@ leftKerningGroup = "brevecomb-cy";
 rightKerningGroup = "brevecomb-cy";
 },
 {
+color = 10;
+glyphname = "brevecomb-cy.case";
+lastChange = "2016-11-28 20:03:32 +0000";
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{207, 452}";
+}
+);
+background = {
+anchors = (
+{
+name = _top;
+position = "{209, 452}";
+}
+);
+paths = (
+{
+closed = 1;
+nodes = (
+"287 542 OFFCURVE",
+"342 578 OFFCURVE",
+"355 637 CURVE",
+"300 655 LINE",
+"288 650 LINE",
+"287 599 OFFCURVE",
+"260 574 OFFCURVE",
+"208 574 CURVE SMOOTH",
+"157 574 OFFCURVE",
+"130 599 OFFCURVE",
+"129 650 CURVE",
+"117 655 LINE",
+"62 637 LINE",
+"75 577 OFFCURVE",
+"125 542 OFFCURVE",
+"207 542 CURVE SMOOTH"
+);
+}
+);
+};
+color = 8;
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"286 539 OFFCURVE",
+"343 575 OFFCURVE",
+"353 632 CURVE",
+"298 656 LINE",
+"287 651 LINE",
+"285 600 OFFCURVE",
+"256 571 OFFCURVE",
+"206 571 CURVE SMOOTH",
+"157 571 OFFCURVE",
+"128 600 OFFCURVE",
+"126 651 CURVE",
+"115 656 LINE",
+"60 632 LINE",
+"70 574 OFFCURVE",
+"125 539 OFFCURVE",
+"205 539 CURVE SMOOTH"
+);
+}
+);
+width = 444;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{215, 472}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"332 524 OFFCURVE",
+"419 579 OFFCURVE",
+"442 674 CURVE",
+"299 710 LINE",
+"282 705 LINE",
+"270 622 OFFCURVE",
+"255 599 OFFCURVE",
+"210 599 CURVE SMOOTH",
+"165 599 OFFCURVE",
+"145 626 OFFCURVE",
+"134 705 CURVE",
+"117 710 LINE",
+"-26 674 LINE",
+"-2 576 OFFCURVE",
+"76 524 OFFCURVE",
+"201 524 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"326 517 OFFCURVE",
+"405 571 OFFCURVE",
+"424 664 CURVE",
+"308 699 LINE",
+"293 695 LINE",
+"282 613 OFFCURVE",
+"264 593 OFFCURVE",
+"217 593 CURVE SMOOTH",
+"169 593 OFFCURVE",
+"147 617 OFFCURVE",
+"137 695 CURVE",
+"122 699 LINE",
+"6 664 LINE",
+"26 568 OFFCURVE",
+"97 517 OFFCURVE",
+"209 517 CURVE SMOOTH"
+);
+}
+);
+width = 429;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{211, 472}";
+}
+);
+associatedMasterId = UUID1;
+layerId = "050C75B1-A789-48A6-8644-4F4FF34B8B6C";
+name = "Nov 24 16, 12:16";
+paths = (
+{
+closed = 1;
+nodes = (
+"313 517 OFFCURVE",
+"368 585 OFFCURVE",
+"389 653 CURVE",
+"349 715 LINE",
+"322 722 LINE",
+"302 675 OFFCURVE",
+"260 652 OFFCURVE",
+"211 652 CURVE SMOOTH",
+"162 652 OFFCURVE",
+"120 675 OFFCURVE",
+"100 722 CURVE",
+"73 715 LINE",
+"33 653 LINE",
+"54 585 OFFCURVE",
+"109 517 OFFCURVE",
+"211 517 CURVE SMOOTH"
+);
+}
+);
+width = 423;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{184, 452}";
+}
+);
+associatedMasterId = UUID0;
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"254 542 OFFCURVE",
+"303 578 OFFCURVE",
+"315 637 CURVE",
+"262 655 LINE",
+"251 650 LINE",
+"249 599 OFFCURVE",
+"227 574 OFFCURVE",
+"183 574 CURVE SMOOTH",
+"140 574 OFFCURVE",
+"118 599 OFFCURVE",
+"116 650 CURVE",
+"105 655 LINE",
+"52 637 LINE",
+"64 577 OFFCURVE",
+"109 542 OFFCURVE",
+"182 542 CURVE SMOOTH"
+);
+}
+);
+};
+color = 8;
+layerId = "06616BDD-C312-4269-A767-36D7638AFC7A";
+name = "Nov 28 16, 16:59";
+paths = (
+{
+closed = 1;
+nodes = (
+"254 542 OFFCURVE",
+"303 578 OFFCURVE",
+"315 637 CURVE",
+"262 655 LINE",
+"251 650 LINE",
+"249 599 OFFCURVE",
+"227 574 OFFCURVE",
+"183 574 CURVE SMOOTH",
+"140 574 OFFCURVE",
+"118 599 OFFCURVE",
+"116 650 CURVE",
+"105 655 LINE",
+"52 637 LINE",
+"64 577 OFFCURVE",
+"109 542 OFFCURVE",
+"182 542 CURVE SMOOTH"
+);
+}
+);
+width = 368;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{196, 472}";
+}
+);
+associatedMasterId = UUID1;
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"284 517 OFFCURVE",
+"339 585 OFFCURVE",
+"360 653 CURVE",
+"320 715 LINE",
+"293 722 LINE",
+"273 675 OFFCURVE",
+"231 652 OFFCURVE",
+"182 652 CURVE SMOOTH",
+"133 652 OFFCURVE",
+"91 675 OFFCURVE",
+"71 722 CURVE",
+"44 715 LINE",
+"4 653 LINE",
+"25 585 OFFCURVE",
+"80 517 OFFCURVE",
+"182 517 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = "077937E2-C3DA-41B6-8F7B-FFFC32387E29";
+name = "Nov 28 16, 16:59";
+paths = (
+{
+closed = 1;
+nodes = (
+"296 524 OFFCURVE",
+"367 579 OFFCURVE",
+"385 674 CURVE",
+"270 710 LINE",
+"256 705 LINE",
+"246 622 OFFCURVE",
+"234 599 OFFCURVE",
+"198 599 CURVE SMOOTH",
+"161 599 OFFCURVE",
+"145 626 OFFCURVE",
+"136 705 CURVE",
+"122 710 LINE",
+"7 674 LINE",
+"26 576 OFFCURVE",
+"89 524 OFFCURVE",
+"190 524 CURVE SMOOTH"
+);
+}
+);
+width = 391;
+}
+);
+leftKerningGroup = "brevecomb-cy";
+rightKerningGroup = "brevecomb-cy";
+},
+{
 glyphname = "descender-cy";
 lastChange = "2016-11-28 12:13:23 +0000";
 layers = (
@@ -172415,7 +172704,7 @@ width = 1073;
 },
 {
 glyphname = areas;
-lastChange = "2016-11-28 19:49:09 +0000";
+lastChange = "2016-11-28 20:02:05 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -172423,311 +172712,91 @@ paths = (
 {
 closed = 1;
 nodes = (
-"17.128 -43.64 LINE",
-"17.128 -43.64 LINE",
-"143.688 -43 LINE",
-"143.688 -38 LINE",
-"143.688 -33 LINE",
-"143.688 -28 LINE",
-"143.688 -23 LINE",
-"143.688 -18 LINE",
-"143.688 -13 LINE",
-"143.688 -8 LINE",
-"143.688 -3 LINE",
-"139.862 2 LINE",
-"134.004 7 LINE",
-"128.785 12 LINE",
-"124.112 17 LINE",
-"119.912 22 LINE",
-"116.126 27 LINE",
-"112.703 32 LINE",
-"109.604 37 LINE",
-"106.795 42 LINE",
-"104.245 47 LINE",
-"101.93 52 LINE",
-"99.827 57 LINE",
-"97.919 62 LINE",
-"96.188 67 LINE",
-"94.621 72 LINE",
-"93.203 77 LINE",
-"91.923 82 LINE",
-"90.772 87 LINE",
-"89.74 92 LINE",
-"88.818 97 LINE",
-"88 102 LINE",
-"93 107 LINE",
-"98 112 LINE",
-"103 117 LINE",
-"108 122 LINE",
-"113 127 LINE",
-"118 132 LINE",
-"123 137 LINE",
-"128 142 LINE",
-"133 147 LINE",
-"138 152 LINE",
-"143 157 LINE",
-"143.688 162 LINE",
-"143.688 167 LINE",
-"143.688 172 LINE",
-"143.688 177 LINE",
-"143.688 182 LINE",
-"143.688 187 LINE",
-"143.688 192 LINE",
-"143.688 197 LINE",
-"143.688 202 LINE",
-"143.688 207 LINE",
-"143.688 212 LINE",
-"143.688 217 LINE",
-"143.688 222 LINE",
-"143.688 227 LINE",
-"143.688 232 LINE",
-"143.688 237 LINE",
-"143.688 242 LINE",
-"143.688 247 LINE",
-"143.688 252 LINE",
-"143.688 257 LINE",
-"143.688 262 LINE",
-"143.688 267 LINE",
-"143.688 272 LINE",
-"143.688 277 LINE",
-"143.688 282 LINE",
-"143.688 287 LINE",
-"143.688 292 LINE",
-"143.688 297 LINE",
-"143.688 302 LINE",
-"143.688 307 LINE",
-"143.688 312 LINE",
-"143.688 317 LINE",
-"143.688 322 LINE",
-"143.688 327 LINE",
-"143.688 332 LINE",
-"143.688 337 LINE",
-"143.688 342 LINE",
-"143.688 347 LINE",
-"143.688 352 LINE",
-"143.688 357 LINE",
-"143.688 362 LINE",
-"143.688 367 LINE",
-"143.688 372 LINE",
-"143.688 377 LINE",
-"143.688 382 LINE",
-"143.688 387 LINE",
-"143.688 392 LINE",
-"143.688 397 LINE",
-"143.688 402 LINE",
-"143.688 407 LINE",
-"143.688 412 LINE",
-"143.688 417 LINE",
-"143.688 422 LINE",
-"143.688 427 LINE",
-"142.892 432 LINE",
-"140.003 437 LINE",
-"137.114 442 LINE",
-"134.225 447 LINE",
-"131.335 452 LINE",
-"128.446 457 LINE",
-"125.557 462 LINE",
-"122.668 467 LINE",
-"119.778 472 LINE",
-"116.889 477 LINE",
-"114 482 LINE",
-"111.071 487 LINE",
-"108.127 492 LINE",
-"105.164 497 LINE",
-"102.179 502 LINE",
-"99.169 507 LINE",
-"96.128 512 LINE",
-"93.05 517 LINE",
-"89.929 522 LINE",
-"86.754 527 LINE",
-"83.515 532 LINE",
-"80.196 537 LINE",
-"74 542 LINE",
-"69 547 LINE",
-"64 552 LINE",
-"59 557 LINE",
-"54 562 LINE",
-"49 567 LINE",
-"44 572 LINE",
-"39 577 LINE",
-"34 582 LINE",
-"29 587 LINE",
-"24 592 LINE",
-"19 597 LINE",
-"17.128 602 LINE",
-"17.769 607 LINE",
-"18.41 612 LINE",
-"19.051 617 LINE",
-"19.692 622 LINE",
-"20.333 627 LINE",
-"20.974 632 LINE",
-"21.615 637 LINE",
-"26.615 642 LINE",
-"31.615 647 LINE",
-"36.615 652 LINE",
-"41.615 657 LINE",
-"46.615 662 LINE",
-"51.615 667 LINE",
-"56.615 672 LINE",
-"61.615 677 LINE",
-"17.128 677.64 LINE"
+"26 510.36 LINE",
+"26 510.36 LINE",
+"131.25 512 LINE",
+"126.25 517 LINE",
+"121.25 522 LINE",
+"116.25 527 LINE",
+"111.25 532 LINE",
+"106.25 537 LINE",
+"101.25 542 LINE",
+"96.25 547 LINE",
+"91.25 552 LINE",
+"86.25 557 LINE",
+"81.25 562 LINE",
+"76.25 567 LINE",
+"68.789 572 LINE",
+"62.373 577 LINE",
+"56.793 582 LINE",
+"51.903 587 LINE",
+"47.597 592 LINE",
+"43.794 597 LINE",
+"40.433 602 LINE",
+"37.462 607 LINE",
+"34.842 612 LINE",
+"32.54 617 LINE",
+"30.526 622 LINE",
+"28.778 627 LINE",
+"27.275 632 LINE",
+"26 637 LINE",
+"31 642 LINE",
+"36 647 LINE",
+"41 652 LINE",
+"46 657 LINE",
+"51 662 LINE",
+"56 667 LINE",
+"61 672 LINE",
+"66 677 LINE",
+"71 682 LINE",
+"26 686.64 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"551.676 -43.64 LINE",
-"551.676 -43.64 LINE",
-"425.116 -43 LINE",
-"425.116 -38 LINE",
-"425.116 -33 LINE",
-"425.116 -28 LINE",
-"425.116 -23 LINE",
-"425.116 -18 LINE",
-"425.116 -13 LINE",
-"425.116 -8 LINE",
-"425.116 -3 LINE",
-"425.116 2 LINE",
-"425.116 7 LINE",
-"425.116 12 LINE",
-"425.116 17 LINE",
-"425.116 22 LINE",
-"425.116 27 LINE",
-"425.116 32 LINE",
-"425.116 37 LINE",
-"425.116 42 LINE",
-"425.116 47 LINE",
-"425.116 52 LINE",
-"425.116 57 LINE",
-"425.116 62 LINE",
-"425.116 67 LINE",
-"425.116 72 LINE",
-"425.116 77 LINE",
-"425.116 82 LINE",
-"425.116 87 LINE",
-"425.116 92 LINE",
-"425.116 97 LINE",
-"425.116 102 LINE",
-"425.116 107 LINE",
-"425.116 112 LINE",
-"425.116 117 LINE",
-"425.116 122 LINE",
-"425.116 127 LINE",
-"425.116 132 LINE",
-"425.116 137 LINE",
-"425.116 142 LINE",
-"425.116 147 LINE",
-"425.116 152 LINE",
-"425.116 157 LINE",
-"425.116 162 LINE",
-"425.116 167 LINE",
-"425.116 172 LINE",
-"425.116 177 LINE",
-"425.116 182 LINE",
-"425.116 187 LINE",
-"425.116 192 LINE",
-"425.116 197 LINE",
-"425.116 202 LINE",
-"425.116 207 LINE",
-"425.116 212 LINE",
-"425.116 217 LINE",
-"425.116 222 LINE",
-"425.116 227 LINE",
-"425.116 232 LINE",
-"425.116 237 LINE",
-"425.116 242 LINE",
-"425.116 247 LINE",
-"425.116 252 LINE",
-"425.116 257 LINE",
-"425.116 262 LINE",
-"425.116 267 LINE",
-"425.116 272 LINE",
-"425.116 277 LINE",
-"425.116 282 LINE",
-"425.116 287 LINE",
-"425.116 292 LINE",
-"425.116 297 LINE",
-"425.116 302 LINE",
-"425.116 307 LINE",
-"425.116 312 LINE",
-"425.116 317 LINE",
-"425.116 322 LINE",
-"425.116 327 LINE",
-"425.116 332 LINE",
-"425.116 337 LINE",
-"425.116 342 LINE",
-"425.116 347 LINE",
-"425.116 352 LINE",
-"425.116 357 LINE",
-"425.116 362 LINE",
-"425.728 367 LINE",
-"427.805 372 LINE",
-"429.883 377 LINE",
-"431.96 382 LINE",
-"434.037 387 LINE",
-"436.115 392 LINE",
-"438.192 397 LINE",
-"440.269 402 LINE",
-"442.347 407 LINE",
-"444.424 412 LINE",
-"446.501 417 LINE",
-"448.579 422 LINE",
-"450.656 427 LINE",
-"452.734 432 LINE",
-"454.811 437 LINE",
-"456.888 442 LINE",
-"458.966 447 LINE",
-"461.043 452 LINE",
-"463.12 457 LINE",
-"465.198 462 LINE",
-"467.275 467 LINE",
-"469.352 472 LINE",
-"471.43 477 LINE",
-"473.507 482 LINE",
-"475.585 487 LINE",
-"477.683 492 LINE",
-"479.804 497 LINE",
-"481.949 502 LINE",
-"484.123 507 LINE",
-"486.333 512 LINE",
-"488.588 517 LINE",
-"490.898 522 LINE",
-"493.276 527 LINE",
-"495.738 532 LINE",
-"498.303 537 LINE",
-"500.997 542 LINE",
-"503.847 547 LINE",
-"506.885 552 LINE",
-"510.149 557 LINE",
-"513.671 562 LINE",
-"517.481 567 LINE",
-"521.595 572 LINE",
-"526.009 577 LINE",
-"531 582 LINE",
-"536 587 LINE",
-"541 592 LINE",
-"546 597 LINE",
-"546.811 602 LINE",
-"547.622 607 LINE",
-"548.432 612 LINE",
-"549.243 617 LINE",
-"550.054 622 LINE",
-"550.865 627 LINE",
-"551.676 632 LINE",
-"550.286 637 LINE",
-"545.286 642 LINE",
-"540.286 647 LINE",
-"535.286 652 LINE",
-"530.286 657 LINE",
-"525.286 662 LINE",
-"520.286 667 LINE",
-"515.286 672 LINE",
-"510.286 677 LINE",
-"551.676 677.64 LINE"
+"341 510.36 LINE",
+"341 510.36 LINE",
+"238.505 512 LINE",
+"243.505 517 LINE",
+"248.505 522 LINE",
+"253.505 527 LINE",
+"258.505 532 LINE",
+"263.505 537 LINE",
+"268.505 542 LINE",
+"273.505 547 LINE",
+"278.505 552 LINE",
+"283.505 557 LINE",
+"288.505 562 LINE",
+"293.505 567 LINE",
+"298.505 572 LINE",
+"303.505 577 LINE",
+"308.505 582 LINE",
+"313.505 587 LINE",
+"318.087 592 LINE",
+"322.142 597 LINE",
+"325.731 602 LINE",
+"328.904 607 LINE",
+"331.699 612 LINE",
+"334.15 617 LINE",
+"336.284 622 LINE",
+"338.124 627 LINE",
+"339.69 632 LINE",
+"341 637 LINE",
+"336 642 LINE",
+"331 647 LINE",
+"326 652 LINE",
+"321 657 LINE",
+"316 662 LINE",
+"311 667 LINE",
+"306 672 LINE",
+"301 677 LINE",
+"296 682 LINE",
+"341 686.64 LINE"
 );
 }
 );
-width = 562;
+width = 414;
 },
 {
 layerId = UUID1;
@@ -172735,325 +172804,137 @@ paths = (
 {
 closed = 1;
 nodes = (
-"2.118 -56.92 LINE",
-"2.118 -56.92 LINE",
-"87.078 -55 LINE",
-"87.078 -50 LINE",
-"87.078 -45 LINE",
-"87.078 -40 LINE",
-"87.078 -35 LINE",
-"87.078 -30 LINE",
-"87.078 -25 LINE",
-"87.078 -20 LINE",
-"87.078 -15 LINE",
-"87.078 -10 LINE",
-"87.078 -5 LINE",
-"87.078 0 LINE",
-"87.078 5 LINE",
-"87.078 10 LINE",
-"87.078 15 LINE",
-"87.078 20 LINE",
-"87.078 25 LINE",
-"87.078 30 LINE",
-"87.078 35 LINE",
-"87.078 40 LINE",
-"87.078 45 LINE",
-"87.078 50 LINE",
-"87.078 55 LINE",
-"87.078 60 LINE",
-"87.078 65 LINE",
-"87.078 70 LINE",
-"87.078 75 LINE",
-"87.078 80 LINE",
-"86.581 85 LINE",
-"84.822 90 LINE",
-"83.129 95 LINE",
-"81.501 100 LINE",
-"79.937 105 LINE",
-"78.436 110 LINE",
-"76.994 115 LINE",
-"75.612 120 LINE",
-"74.286 125 LINE",
-"73.016 130 LINE",
-"71.8 135 LINE",
-"70.636 140 LINE",
-"69.522 145 LINE",
-"68.457 150 LINE",
-"67.438 155 LINE",
-"66.466 160 LINE",
-"65.537 165 LINE",
-"66.5 170 LINE",
-"70.25 175 LINE",
-"74 180 LINE",
-"77.75 185 LINE",
-"82.75 190 LINE",
-"87.078 195 LINE",
-"87.078 200 LINE",
-"87.078 205 LINE",
-"87.078 210 LINE",
-"87.078 215 LINE",
-"87.078 220 LINE",
-"87.078 225 LINE",
-"87.078 230 LINE",
-"87.078 235 LINE",
-"87.078 240 LINE",
-"87.078 245 LINE",
-"87.078 250 LINE",
-"87.078 255 LINE",
-"87.078 260 LINE",
-"87.078 265 LINE",
-"87.078 270 LINE",
-"87.078 275 LINE",
-"87.078 280 LINE",
-"87.078 285 LINE",
-"87.078 290 LINE",
-"87.078 295 LINE",
-"87.078 300 LINE",
-"87.078 305 LINE",
-"87.078 310 LINE",
-"87.078 315 LINE",
-"87.078 320 LINE",
-"87.078 325 LINE",
-"87.078 330 LINE",
-"87.078 335 LINE",
-"87.078 340 LINE",
-"87.078 345 LINE",
-"87.078 350 LINE",
-"87.078 355 LINE",
-"87.078 360 LINE",
-"87.078 365 LINE",
-"87.078 370 LINE",
-"87.078 375 LINE",
-"87.078 380 LINE",
-"87.078 385 LINE",
-"87.078 390 LINE",
-"87.078 395 LINE",
-"87.078 400 LINE",
-"87.078 405 LINE",
-"87.078 410 LINE",
-"87.078 415 LINE",
-"87.078 420 LINE",
-"87.078 425 LINE",
-"87.078 430 LINE",
-"87.078 435 LINE",
-"87.078 440 LINE",
-"87.078 445 LINE",
-"87.078 450 LINE",
-"87.078 455 LINE",
-"87.078 460 LINE",
-"84.827 465 LINE",
-"82 470 LINE",
-"79.15 475 LINE",
-"76.204 480 LINE",
-"73.153 485 LINE",
-"69.987 490 LINE",
-"66.693 495 LINE",
-"63.26 500 LINE",
-"59.67 505 LINE",
-"55.906 510 LINE",
-"51.948 515 LINE",
-"47.769 520 LINE",
-"43.343 525 LINE",
-"38.633 530 LINE",
-"33.597 535 LINE",
-"28.186 540 LINE",
-"22.336 545 LINE",
-"15.971 550 LINE",
-"8.991 555 LINE",
-"4 560 LINE",
-"2.118 565 LINE",
-"2.412 570 LINE",
-"2.706 575 LINE",
-"3 580 LINE",
-"3.294 585 LINE",
-"3.588 590 LINE",
-"3.882 595 LINE",
-"4.176 600 LINE",
-"4.471 605 LINE",
-"4.765 610 LINE",
-"5.059 615 LINE",
-"5.353 620 LINE",
-"5.647 625 LINE",
-"5.941 630 LINE",
-"6.235 635 LINE",
-"6.529 640 LINE",
-"6.824 645 LINE",
-"11.824 650 LINE",
-"16.824 655 LINE",
-"21.824 660 LINE",
-"26.824 665 LINE",
-"31.824 670 LINE",
-"36.824 675 LINE",
-"41.824 680 LINE",
-"46.824 685 LINE",
-"51.824 690 LINE",
-"56.824 695 LINE",
-"61.824 700 LINE",
-"2.118 703.92 LINE"
+"36 472.08 LINE",
+"36 472.08 LINE",
+"120.96 474 LINE",
+"120.96 479 LINE",
+"120.96 484 LINE",
+"120.96 489 LINE",
+"120.96 494 LINE",
+"120.96 499 LINE",
+"120.96 504 LINE",
+"120.96 509 LINE",
+"120.96 514 LINE",
+"120.96 519 LINE",
+"120.96 524 LINE",
+"120.96 529 LINE",
+"120.96 534 LINE",
+"120.96 539 LINE",
+"120.96 544 LINE",
+"117.57 549 LINE",
+"112.57 554 LINE",
+"107.57 559 LINE",
+"100.67 564 LINE",
+"94.462 569 LINE",
+"88.835 574 LINE",
+"83.707 579 LINE",
+"79.012 584 LINE",
+"74.7 589 LINE",
+"70.728 594 LINE",
+"67.062 599 LINE",
+"63.674 604 LINE",
+"60.538 609 LINE",
+"57.634 614 LINE",
+"54.943 619 LINE",
+"52.451 624 LINE",
+"50.142 629 LINE",
+"48.005 634 LINE",
+"46.029 639 LINE",
+"44.205 644 LINE",
+"42.523 649 LINE",
+"40.975 654 LINE",
+"39.556 659 LINE",
+"38.257 664 LINE",
+"37.074 669 LINE",
+"36 674 LINE",
+"41 679 LINE",
+"46 684 LINE",
+"51 689 LINE",
+"56 694 LINE",
+"61 699 LINE",
+"66 704 LINE",
+"71 709 LINE",
+"76 714 LINE",
+"81 719 LINE",
+"86 724 LINE",
+"91 729 LINE",
+"96 734 LINE",
+"101 739 LINE",
+"106 744 LINE",
+"111 749 LINE",
+"116 754 LINE",
+"120.96 759 LINE",
+"36 761.92 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"595.788 -56.92 LINE",
-"595.788 -56.92 LINE",
-"510.828 -55 LINE",
-"510.828 -50 LINE",
-"510.828 -45 LINE",
-"510.828 -40 LINE",
-"510.828 -35 LINE",
-"510.828 -30 LINE",
-"510.828 -25 LINE",
-"510.828 -20 LINE",
-"510.828 -15 LINE",
-"510.828 -10 LINE",
-"510.828 -5 LINE",
-"510.828 0 LINE",
-"510.828 5 LINE",
-"510.828 10 LINE",
-"510.828 15 LINE",
-"510.828 20 LINE",
-"510.828 25 LINE",
-"510.828 30 LINE",
-"510.828 35 LINE",
-"510.828 40 LINE",
-"510.828 45 LINE",
-"510.828 50 LINE",
-"510.828 55 LINE",
-"510.828 60 LINE",
-"510.828 65 LINE",
-"510.828 70 LINE",
-"510.828 75 LINE",
-"510.828 80 LINE",
-"510.828 85 LINE",
-"510.828 90 LINE",
-"510.828 95 LINE",
-"510.828 100 LINE",
-"510.828 105 LINE",
-"510.828 110 LINE",
-"510.828 115 LINE",
-"510.828 120 LINE",
-"510.828 125 LINE",
-"510.828 130 LINE",
-"510.828 135 LINE",
-"510.828 140 LINE",
-"510.828 145 LINE",
-"510.828 150 LINE",
-"510.828 155 LINE",
-"510.828 160 LINE",
-"510.828 165 LINE",
-"510.828 170 LINE",
-"510.828 175 LINE",
-"510.828 180 LINE",
-"510.828 185 LINE",
-"510.828 190 LINE",
-"510.828 195 LINE",
-"510.828 200 LINE",
-"510.828 205 LINE",
-"510.828 210 LINE",
-"510.828 215 LINE",
-"510.828 220 LINE",
-"510.828 225 LINE",
-"510.828 230 LINE",
-"510.828 235 LINE",
-"510.828 240 LINE",
-"510.828 245 LINE",
-"510.828 250 LINE",
-"510.828 255 LINE",
-"510.828 260 LINE",
-"510.828 265 LINE",
-"510.828 270 LINE",
-"510.828 275 LINE",
-"510.828 280 LINE",
-"510.828 285 LINE",
-"510.828 290 LINE",
-"510.828 295 LINE",
-"510.828 300 LINE",
-"510.828 305 LINE",
-"510.828 310 LINE",
-"510.828 315 LINE",
-"510.828 320 LINE",
-"510.828 325 LINE",
-"510.828 330 LINE",
-"510.828 335 LINE",
-"510.828 340 LINE",
-"510.828 345 LINE",
-"510.828 350 LINE",
-"510.828 355 LINE",
-"510.828 360 LINE",
-"510.828 365 LINE",
-"510.828 370 LINE",
-"510.828 375 LINE",
-"510.828 380 LINE",
-"510.828 385 LINE",
-"510.828 390 LINE",
-"510.828 395 LINE",
-"510.828 400 LINE",
-"510.828 405 LINE",
-"512.766 410 LINE",
-"514.868 415 LINE",
-"516.969 420 LINE",
-"519.071 425 LINE",
-"521.173 430 LINE",
-"523.275 435 LINE",
-"525.376 440 LINE",
-"527.478 445 LINE",
-"529.58 450 LINE",
-"531.658 455 LINE",
-"533.778 460 LINE",
-"535.955 465 LINE",
-"538.191 470 LINE",
-"540.488 475 LINE",
-"542.848 480 LINE",
-"545.272 485 LINE",
-"547.763 490 LINE",
-"550.321 495 LINE",
-"552.945 500 LINE",
-"555.636 505 LINE",
-"558.392 510 LINE",
-"561.212 515 LINE",
-"564.094 520 LINE",
-"567.034 525 LINE",
-"570.03 530 LINE",
-"573.077 535 LINE",
-"576.173 540 LINE",
-"579.312 545 LINE",
-"582.491 550 LINE",
-"585.705 555 LINE",
-"587.318 560 LINE",
-"587.847 565 LINE",
-"588.376 570 LINE",
-"588.906 575 LINE",
-"589.435 580 LINE",
-"589.965 585 LINE",
-"590.494 590 LINE",
-"591.024 595 LINE",
-"591.553 600 LINE",
-"592.082 605 LINE",
-"592.612 610 LINE",
-"593.141 615 LINE",
-"593.671 620 LINE",
-"594.2 625 LINE",
-"594.729 630 LINE",
-"595.259 635 LINE",
-"595.788 640 LINE",
-"592.25 645 LINE",
-"587.25 650 LINE",
-"582.25 655 LINE",
-"577.25 660 LINE",
-"572.25 665 LINE",
-"567.25 670 LINE",
-"562.25 675 LINE",
-"557.25 680 LINE",
-"552.25 685 LINE",
-"547.25 690 LINE",
-"542.25 695 LINE",
-"537.25 700 LINE",
-"595.788 703.92 LINE"
+"454 472.08 LINE",
+"454 472.08 LINE",
+"369.04 474 LINE",
+"369.04 479 LINE",
+"369.04 484 LINE",
+"369.04 489 LINE",
+"369.04 494 LINE",
+"369.04 499 LINE",
+"369.04 504 LINE",
+"369.04 509 LINE",
+"369.04 514 LINE",
+"369.04 519 LINE",
+"369.04 524 LINE",
+"369.04 529 LINE",
+"369.04 534 LINE",
+"369.04 539 LINE",
+"369.04 544 LINE",
+"372.702 549 LINE",
+"377.702 554 LINE",
+"382.702 559 LINE",
+"387.702 564 LINE",
+"392.702 569 LINE",
+"397.702 574 LINE",
+"402.702 579 LINE",
+"407.702 584 LINE",
+"412.41 589 LINE",
+"416.749 594 LINE",
+"420.754 599 LINE",
+"424.456 604 LINE",
+"427.878 609 LINE",
+"431.043 614 LINE",
+"433.97 619 LINE",
+"436.675 624 LINE",
+"439.172 629 LINE",
+"441.474 634 LINE",
+"443.592 639 LINE",
+"445.536 644 LINE",
+"447.315 649 LINE",
+"448.938 654 LINE",
+"450.411 659 LINE",
+"451.742 664 LINE",
+"452.936 669 LINE",
+"454 674 LINE",
+"449 679 LINE",
+"444 684 LINE",
+"439 689 LINE",
+"434 694 LINE",
+"429 699 LINE",
+"424 704 LINE",
+"419 709 LINE",
+"414 714 LINE",
+"409 719 LINE",
+"404 724 LINE",
+"399 729 LINE",
+"394 734 LINE",
+"389 739 LINE",
+"384 744 LINE",
+"379 749 LINE",
+"374 754 LINE",
+"369.04 759 LINE",
+"454 761.92 LINE"
 );
 }
 );
-width = 598;
+width = 429;
 }
 );
 },
