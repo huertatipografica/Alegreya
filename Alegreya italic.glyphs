@@ -1,8 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-"/o-cy/te-cy/de-cy/ie-cy/el-cy/a-cy/te-cy/softsign-cy/es-cy/ia-cy"
-);
 classes = (
 {
 automatic = 1;
@@ -200820,7 +200817,7 @@ rightMetricsKey = tilde;
 {
 color = 1;
 glyphname = "brevecomb-cy";
-lastChange = "2016-11-25 20:15:45 +0000";
+lastChange = "2016-11-28 11:43:21 +0000";
 layers = (
 {
 anchors = (
@@ -200834,11 +200831,11 @@ paths = (
 {
 closed = 1;
 nodes = (
-"299 509 OFFCURVE",
+"289 509 OFFCURVE",
 "346 647 CURVE",
 "336 656 LINE",
 "328 657 LINE",
-"285 567 OFFCURVE",
+"275 567 OFFCURVE",
 "167 572 OFFCURVE",
 "152 664 CURVE",
 "144 665 LINE",
@@ -200857,8 +200854,8 @@ nodes = (
 "346 647 CURVE",
 "336 656 LINE",
 "328 657 LINE",
-"275 567 OFFCURVE",
-"167 572 OFFCURVE",
+"276 568 OFFCURVE",
+"160 573 OFFCURVE",
 "152 664 CURVE",
 "144 665 LINE",
 "103 641 LINE",
@@ -200880,22 +200877,16 @@ paths = (
 {
 closed = 1;
 nodes = (
-"318 517 OFFCURVE",
-"378 581 OFFCURVE",
-"408 649 CURVE",
-"373 715 LINE",
-"348 726 LINE",
-"322 679 OFFCURVE",
-"275 652 OFFCURVE",
-"223 652 CURVE SMOOTH",
-"177 652 OFFCURVE",
-"139 671 OFFCURVE",
-"125 718 CURVE",
-"98 715 LINE",
-"51 657 LINE",
-"65 589 OFFCURVE",
-"114 517 OFFCURVE",
-"219 517 CURVE SMOOTH"
+"337 486 OFFCURVE",
+"410 676 CURVE",
+"396 720 LINE",
+"386 721 LINE",
+"320 620 OFFCURVE",
+"167 625 OFFCURVE",
+"137 728 CURVE",
+"127 729 LINE",
+"63 664 LINE",
+"56 476 OFFCURVE"
 );
 }
 );
@@ -200910,7 +200901,7 @@ nodes = (
 "396 720 LINE",
 "386 721 LINE",
 "320 620 OFFCURVE",
-"167 625 OFFCURVE",
+"176 625 OFFCURVE",
 "137 728 CURVE",
 "127 729 LINE",
 "63 664 LINE",
