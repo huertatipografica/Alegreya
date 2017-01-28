@@ -1,8 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"O\U00D8/Iacute_J.loclNLD/Germandbls.alt/C.ss01/I.ss01/L.ss01/V.ss01/X.ss01 go\U00F8/iacute_j.loclNLD/g.sups/o.sups/germandbls.alt.sc/iacute_j.loclNLD.sc/o.sc/oslash.sc \U00BA/Ii-cy/Fita-cy/ve-cy/ii-cy/ef-cy/iu-cy/fita-cy/obarred-cy/Theta/Phi/Psi/epsilon/theta/omicron/phi/theta.sc/xi.sc/phi.sc/psi.sc 08/zero.lf/eight.lf/zero.tf/eight.tf/zero.tosf/eight.tosf/zeroinferior/eightinferior/zero.dnom/eight.dnom/zero.numr/eight.numr/zerosuperior/eightsuperior *:/ellipsis \"/twodotenleader \U00AB\U00BB/quotedblbase/quotedblleft/quotedblright/.notdef/cedi/colonsign $/euro/guarani/hryvnia/lira/liraTurkish/naira/rupeeIndian/tenge/tugrik/won \U00F7=/approxequal/infinity %/perthousand/leftRightArrow/whiteDiamond/whiteSquare/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle \U00A7\U00AE\U00B0\U00A6/dagger/daggerdbl/second/dieresiscomb/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/hungarumlautcomb/ringcomb/dblgravecomb/dieresiscomb.case/dieresiscomb_acutecomb.case/dieresiscomb_macroncomb.case/hungarumlautcomb.case/ringcomb.case/dblgravecomb.case/dieresistonos/dialytikavaria/dialytikaoxia/dialytikaperispomeni/areas",
-"/fita-cy/obarred-cy"
+"O\U00D8/Iacute_J.loclNLD/Germandbls.alt/C.ss01/I.ss01/L.ss01/V.ss01/X.ss01 go\U00F8/iacute_j.loclNLD/g.sups/o.sups/germandbls.alt.sc/iacute_j.loclNLD.sc/o.sc/oslash.sc \U00BA/Ii-cy/Fita-cy/ve-cy/ii-cy/ef-cy/iu-cy/fita-cy/obarred-cy/Theta/Phi/Psi/epsilon/theta/omicron/phi/theta.sc/xi.sc/phi.sc/psi.sc 08/zero.lf/eight.lf/zero.tf/eight.tf/zero.tosf/eight.tosf/zeroinferior/eightinferior/zero.dnom/eight.dnom/zero.numr/eight.numr/zerosuperior/eightsuperior *:/ellipsis \"/twodotenleader \U00AB\U00BB/quotedblbase/quotedblleft/quotedblright/.notdef/cedi/colonsign $/euro/guarani/hryvnia/lira/liraTurkish/naira/rupeeIndian/tenge/tugrik/won \U00F7=/approxequal/infinity %/perthousand/leftRightArrow/whiteDiamond/whiteSquare/upWhiteTriangle/rightWhiteTriangle/downWhiteTriangle/leftWhiteTriangle \U00A7\U00AE\U00B0\U00A6/dagger/daggerdbl/second/dieresiscomb/dieresiscomb_gravecomb/dieresiscomb_acutecomb/dieresiscomb_caroncomb/dieresiscomb_macroncomb/hungarumlautcomb/ringcomb/dblgravecomb/dieresiscomb.case/dieresiscomb_acutecomb.case/dieresiscomb_macroncomb.case/hungarumlautcomb.case/ringcomb.case/dblgravecomb.case/dieresistonos/dialytikavaria/dialytikaoxia/dialytikaperispomeni/areas"
 );
 classes = (
 {
@@ -166172,7 +166171,7 @@ unicode = 00AC;
 {
 color = 1;
 glyphname = infinity;
-lastChange = "2016-09-27 13:21:01 +0000";
+lastChange = "2017-01-28 13:04:27 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -166249,6 +166248,12 @@ paths = (
 {
 closed = 1;
 nodes = (
+"185 76 OFFCURVE",
+"215 109 OFFCURVE",
+"233 143 CURVE",
+"258 103 OFFCURVE",
+"293 70 OFFCURVE",
+"355 70 CURVE SMOOTH",
 "448 70 OFFCURVE",
 "518 151 OFFCURVE",
 "518 260 CURVE SMOOTH",
@@ -166266,13 +166271,7 @@ nodes = (
 "6 236 CURVE SMOOTH",
 "6 147 OFFCURVE",
 "60 76 OFFCURVE",
-"129 76 CURVE SMOOTH",
-"185 76 OFFCURVE",
-"215 109 OFFCURVE",
-"233 143 CURVE",
-"258 103 OFFCURVE",
-"293 70 OFFCURVE",
-"355 70 CURVE SMOOTH"
+"129 76 CURVE SMOOTH"
 );
 },
 {
