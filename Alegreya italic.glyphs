@@ -40375,7 +40375,7 @@ unicode = 017A;
 {
 color = 10;
 glyphname = zcaron;
-lastChange = "2017-01-28 14:39:35 +0000";
+lastChange = "2017-01-30 15:52:53 +0000";
 layers = (
 {
 components = (
@@ -40384,7 +40384,7 @@ name = z;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 63, -20}";
+transform = "{1, 0, 0, 1, 31, -20}";
 }
 );
 layerId = UUID0;
@@ -223220,8 +223220,9 @@ width = 521;
 rightMetricsKey = "=h";
 },
 {
+export = 0;
 glyphname = areas;
-lastChange = "2017-01-30 15:28:22 +0000";
+lastChange = "2017-01-30 15:52:59 +0000";
 layers = (
 {
 layerId = UUID0;
