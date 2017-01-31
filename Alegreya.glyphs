@@ -1,8 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek,
-"Regular\012/Ge-cy/ii-cy  /Ge-cy/tse-cy  V/en-cy  Y/Omegadasiavaria  Yi a/quoteright  b/quoteright  g/quoteright \012\012Bold\012Na Nb Nc Yi\012\012"
+/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek
 );
 classes = (
 {
@@ -139446,7 +139445,7 @@ rightKerningGroup = Omega;
 {
 color = 10;
 glyphname = omegaypogegrammeni.sc;
-lastChange = "2017-01-30 18:56:29 +0000";
+lastChange = "2017-01-31 23:45:19 +0000";
 layers = (
 {
 components = (
@@ -139459,7 +139458,7 @@ transform = "{1, 0, 0, 1, 673, 0}";
 }
 );
 layerId = UUID0;
-width = 939;
+width = 920;
 },
 {
 components = (
@@ -188956,6 +188955,6 @@ HV = 20;
 };
 };
 };
-versionMajor = 1;
-versionMinor = 102;
+versionMajor = 3;
+versionMinor = 0;
 }
