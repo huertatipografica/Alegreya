@@ -1,7 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"/Gamma/Gheupturn-cy/De-cy/U-cy/Che-cy/Softsign-cy/Ereversed-cy/Ia-cy/Shha-cy",
+"/Gamma/Gheupturn-cy/De-cy/U-cy/Ereversed-cy/Ia-cy/Softsign-cy/Shha-cy/Che-cy",
 /hryvnia/tenge/tugrik
 );
 classes = (
@@ -76725,7 +76725,7 @@ unicode = 0408;
 {
 color = 1;
 glyphname = "Tshe-cy";
-lastChange = "2017-01-30 20:52:53 +0000";
+lastChange = "2017-01-31 16:02:24 +0000";
 layers = (
 {
 background = {
@@ -187747,7 +187747,7 @@ x = -20;
 };
 "@MMK_L_Shha-cy" = {
 "@MMK_R_Che-cy" = -100;
-"@MMK_R_T" = -50;
+"@MMK_R_T" = -70;
 "@MMK_R_U-cy" = -50;
 "@MMK_R_V" = -70;
 "@MMK_R_Y" = -70;
@@ -188487,7 +188487,7 @@ x = -20;
 };
 "@MMK_L_Shha-cy" = {
 "@MMK_R_Che-cy" = -90;
-"@MMK_R_T" = -40;
+"@MMK_R_T" = -50;
 "@MMK_R_U-cy" = -40;
 "@MMK_R_V" = -60;
 };
