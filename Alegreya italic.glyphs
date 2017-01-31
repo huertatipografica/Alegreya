@@ -1,9 +1,5 @@
 {
 .appVersion = "939";
-DisplayStrings = (
-/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek,
-/Aogonek/aogonek.sc/aogonek/Eogonek/eogonek.sc/eogonek/Iogonek/iogonek.sc/iogonek/Oogonek/oogonek.sc/oogonek/Uogonek/uogonek.sc/uogonek
-);
 classes = (
 {
 automatic = 1;
@@ -929,424 +925,6 @@ sub gdieresis by gdieresis.sc;
 sub gtilde by gtilde.sc;
 ";
 name = c2sc;
-},
-{
-automatic = 1;
-code = "sub a by a.sc;
-sub aacute by aacute.sc;
-sub abreve by abreve.sc;
-sub abreveacute by abreveacute.sc;
-sub abrevedotbelow by abrevedotbelow.sc;
-sub abrevegrave by abrevegrave.sc;
-sub abrevehookabove by abrevehookabove.sc;
-sub abrevetilde by abrevetilde.sc;
-sub acaron by acaron.sc;
-sub acircumflex by acircumflex.sc;
-sub acircumflexacute by acircumflexacute.sc;
-sub acircumflexdotbelow by acircumflexdotbelow.sc;
-sub acircumflexgrave by acircumflexgrave.sc;
-sub acircumflexhookabove by acircumflexhookabove.sc;
-sub acircumflextilde by acircumflextilde.sc;
-sub adblgrave by adblgrave.sc;
-sub adieresis by adieresis.sc;
-sub adotbelow by adotbelow.sc;
-sub agrave by agrave.sc;
-sub ahookabove by ahookabove.sc;
-sub ainvertedbreve by ainvertedbreve.sc;
-sub amacron by amacron.sc;
-sub aogonek by aogonek.sc;
-sub aring by aring.sc;
-sub aringacute by aringacute.sc;
-sub atilde by atilde.sc;
-sub ae by ae.sc;
-sub aeacute by aeacute.sc;
-sub b by b.sc;
-sub c by c.sc;
-sub cacute by cacute.sc;
-sub ccaron by ccaron.sc;
-sub ccedilla by ccedilla.sc;
-sub ccedillaacute by ccedillaacute.sc;
-sub ccircumflex by ccircumflex.sc;
-sub cdotaccent by cdotaccent.sc;
-sub d by d.sc;
-sub eth by eth.sc;
-sub dcaron by dcaron.sc;
-sub dcroat by dcroat.sc;
-sub ddotbelow by ddotbelow.sc;
-sub dlinebelow by dlinebelow.sc;
-sub dzcaron by dzcaron.sc;
-sub e by e.sc;
-sub eacute by eacute.sc;
-sub ebreve by ebreve.sc;
-sub ecaron by ecaron.sc;
-sub ecedillabreve by ecedillabreve.sc;
-sub ecircumflex by ecircumflex.sc;
-sub ecircumflexacute by ecircumflexacute.sc;
-sub ecircumflexdotbelow by ecircumflexdotbelow.sc;
-sub ecircumflexgrave by ecircumflexgrave.sc;
-sub ecircumflexhookabove by ecircumflexhookabove.sc;
-sub ecircumflextilde by ecircumflextilde.sc;
-sub edblgrave by edblgrave.sc;
-sub edieresis by edieresis.sc;
-sub edotaccent by edotaccent.sc;
-sub edotbelow by edotbelow.sc;
-sub egrave by egrave.sc;
-sub ehookabove by ehookabove.sc;
-sub einvertedbreve by einvertedbreve.sc;
-sub emacron by emacron.sc;
-sub emacronacute by emacronacute.sc;
-sub emacrongrave by emacrongrave.sc;
-sub eogonek by eogonek.sc;
-sub etilde by etilde.sc;
-sub f by f.sc;
-sub g by g.sc;
-sub gbreve by gbreve.sc;
-sub gcaron by gcaron.sc;
-sub gcircumflex by gcircumflex.sc;
-sub gcommaaccent by gcommaaccent.sc;
-sub gdotaccent by gdotaccent.sc;
-sub gmacron by gmacron.sc;
-sub h by h.sc;
-sub hbar by hbar.sc;
-sub hbrevebelow by hbrevebelow.sc;
-sub hcircumflex by hcircumflex.sc;
-sub hdotbelow by hdotbelow.sc;
-sub i by i.sc;
-sub idotless by idotless.sc;
-sub iacute by iacute.sc;
-sub iacute_j.loclNLD by iacute_j.loclNLD.sc;
-sub ibreve by ibreve.sc;
-sub icaron by icaron.sc;
-sub icircumflex by icircumflex.sc;
-sub idblgrave by idblgrave.sc;
-sub idieresis by idieresis.sc;
-sub idieresisacute by idieresisacute.sc;
-sub idotaccent by idotaccent.sc;
-sub idotbelow by idotbelow.sc;
-sub igrave by igrave.sc;
-sub ihookabove by ihookabove.sc;
-sub iinvertedbreve by iinvertedbreve.sc;
-sub ij by ij.sc;
-sub imacron by imacron.sc;
-sub iogonek by iogonek.sc;
-sub itilde by itilde.sc;
-sub j by j.sc;
-sub jdotless by jdotless.sc;
-sub jcircumflex by jcircumflex.sc;
-sub k by k.sc;
-sub kcommaaccent by kcommaaccent.sc;
-sub kgreenlandic by kgreenlandic.sc;
-sub l by l.sc;
-sub lacute by lacute.sc;
-sub lcaron by lcaron.sc;
-sub lcommaaccent by lcommaaccent.sc;
-sub ldot by ldot.sc;
-sub ldotbelow by ldotbelow.sc;
-sub lj by lj.sc;
-sub llinebelow by llinebelow.sc;
-sub lslash by lslash.sc;
-sub m by m.sc;
-sub mdotbelow by mdotbelow.sc;
-sub n by n.sc;
-sub nacute by nacute.sc;
-sub ncaron by ncaron.sc;
-sub ncommaaccent by ncommaaccent.sc;
-sub ndotaccent by ndotaccent.sc;
-sub ndotbelow by ndotbelow.sc;
-sub eng by eng.sc;
-sub nj by nj.sc;
-sub nlinebelow by nlinebelow.sc;
-sub ntilde by ntilde.sc;
-sub o by o.sc;
-sub oacute by oacute.sc;
-sub obreve by obreve.sc;
-sub ocaron by ocaron.sc;
-sub ocircumflex by ocircumflex.sc;
-sub ocircumflexacute by ocircumflexacute.sc;
-sub ocircumflexdotbelow by ocircumflexdotbelow.sc;
-sub ocircumflexgrave by ocircumflexgrave.sc;
-sub ocircumflexhookabove by ocircumflexhookabove.sc;
-sub ocircumflextilde by ocircumflextilde.sc;
-sub odblgrave by odblgrave.sc;
-sub odieresis by odieresis.sc;
-sub odieresismacron by odieresismacron.sc;
-sub odotaccentmacron by odotaccentmacron.sc;
-sub odotbelow by odotbelow.sc;
-sub ograve by ograve.sc;
-sub ohookabove by ohookabove.sc;
-sub ohorn by ohorn.sc;
-sub ohornacute by ohornacute.sc;
-sub ohorndotbelow by ohorndotbelow.sc;
-sub ohorngrave by ohorngrave.sc;
-sub ohornhookabove by ohornhookabove.sc;
-sub ohorntilde by ohorntilde.sc;
-sub ohungarumlaut by ohungarumlaut.sc;
-sub oinvertedbreve by oinvertedbreve.sc;
-sub omacron by omacron.sc;
-sub omacronacute by omacronacute.sc;
-sub omacrongrave by omacrongrave.sc;
-sub oogonek by oogonek.sc;
-sub oslash by oslash.sc;
-sub oslashacute by oslashacute.sc;
-sub otilde by otilde.sc;
-sub otildeacute by otildeacute.sc;
-sub otildedieresis by otildedieresis.sc;
-sub otildemacron by otildemacron.sc;
-sub oe by oe.sc;
-sub p by p.sc;
-sub thorn by thorn.sc;
-sub q by q.sc;
-sub r by r.sc;
-sub racute by racute.sc;
-sub rcaron by rcaron.sc;
-sub rcommaaccent by rcommaaccent.sc;
-sub rdblgrave by rdblgrave.sc;
-sub rdotbelow by rdotbelow.sc;
-sub rinvertedbreve by rinvertedbreve.sc;
-sub rlinebelow by rlinebelow.sc;
-sub s by s.sc;
-sub sacute by sacute.sc;
-sub sacutedotaccent by sacutedotaccent.sc;
-sub scaron by scaron.sc;
-sub scarondotaccent by scarondotaccent.sc;
-sub scedilla by scedilla.sc;
-sub scircumflex by scircumflex.sc;
-sub scommaaccent by scommaaccent.sc;
-sub sdotaccent by sdotaccent.sc;
-sub sdotbelow by sdotbelow.sc;
-sub sdotbelowdotaccent by sdotbelowdotaccent.sc;
-sub germandbls by germandbls.sc;
-sub schwa by schwa.sc;
-sub t by t.sc;
-sub tbar by tbar.sc;
-sub tcaron by tcaron.sc;
-sub tcedilla by tcedilla.sc;
-sub tcommaaccent by tcommaaccent.sc;
-sub tdieresis by tdieresis.sc;
-sub tdotbelow by tdotbelow.sc;
-sub tlinebelow by tlinebelow.sc;
-sub u by u.sc;
-sub uacute by uacute.sc;
-sub ubreve by ubreve.sc;
-sub ucaron by ucaron.sc;
-sub ucircumflex by ucircumflex.sc;
-sub udblgrave by udblgrave.sc;
-sub udieresis by udieresis.sc;
-sub udieresisacute by udieresisacute.sc;
-sub udieresiscaron by udieresiscaron.sc;
-sub udieresisgrave by udieresisgrave.sc;
-sub udieresismacron by udieresismacron.sc;
-sub udotbelow by udotbelow.sc;
-sub ugrave by ugrave.sc;
-sub uhookabove by uhookabove.sc;
-sub uhorn by uhorn.sc;
-sub uhornacute by uhornacute.sc;
-sub uhorndotbelow by uhorndotbelow.sc;
-sub uhorngrave by uhorngrave.sc;
-sub uhornhookabove by uhornhookabove.sc;
-sub uhorntilde by uhorntilde.sc;
-sub uhungarumlaut by uhungarumlaut.sc;
-sub uinvertedbreve by uinvertedbreve.sc;
-sub umacron by umacron.sc;
-sub umacrondieresis by umacrondieresis.sc;
-sub uogonek by uogonek.sc;
-sub uring by uring.sc;
-sub utilde by utilde.sc;
-sub utildeacute by utildeacute.sc;
-sub v by v.sc;
-sub w by w.sc;
-sub wacute by wacute.sc;
-sub wcircumflex by wcircumflex.sc;
-sub wdieresis by wdieresis.sc;
-sub wgrave by wgrave.sc;
-sub x by x.sc;
-sub y by y.sc;
-sub yacute by yacute.sc;
-sub ycircumflex by ycircumflex.sc;
-sub ydieresis by ydieresis.sc;
-sub ydotaccent by ydotaccent.sc;
-sub ydotbelow by ydotbelow.sc;
-sub ygrave by ygrave.sc;
-sub yhookabove by yhookabove.sc;
-sub ymacron by ymacron.sc;
-sub ytilde by ytilde.sc;
-sub z by z.sc;
-sub zacute by zacute.sc;
-sub zcaron by zcaron.sc;
-sub zdotaccent by zdotaccent.sc;
-sub zdotbelow by zdotbelow.sc;
-sub alpha by alpha.sc;
-sub beta by beta.sc;
-sub gamma by gamma.sc;
-sub delta by delta.sc;
-sub epsilon by epsilon.sc;
-sub zeta by zeta.sc;
-sub eta by eta.sc;
-sub theta by theta.sc;
-sub iota by iota.sc;
-sub kappa by kappa.sc;
-sub lambda by lambda.sc;
-sub mu by mu.sc;
-sub nu by nu.sc;
-sub xi by xi.sc;
-sub omicron by omicron.sc;
-sub pi by pi.sc;
-sub rho by rho.sc;
-sub sigmafinal by sigmafinal.sc;
-sub sigma by sigma.sc;
-sub tau by tau.sc;
-sub upsilon by upsilon.sc;
-sub phi by phi.sc;
-sub chi by chi.sc;
-sub psi by psi.sc;
-sub omega by omega.sc;
-sub iotatonos by iotatonos.sc;
-sub iotadieresis by iotadieresis.sc;
-sub iotadieresistonos by iotadieresistonos.sc;
-sub upsilontonos by upsilontonos.sc;
-sub upsilondieresis by upsilondieresis.sc;
-sub upsilondieresistonos by upsilondieresistonos.sc;
-sub omicrontonos by omicrontonos.sc;
-sub omegatonos by omegatonos.sc;
-sub alphatonos by alphatonos.sc;
-sub epsilontonos by epsilontonos.sc;
-sub etatonos by etatonos.sc;
-sub alphapsili by alphapsili.sc;
-sub alphadasia by alphadasia.sc;
-sub alphapsilivaria by alphapsilivaria.sc;
-sub alphadasiavaria by alphadasiavaria.sc;
-sub alphapsilioxia by alphapsilioxia.sc;
-sub alphadasiaoxia by alphadasiaoxia.sc;
-sub alphapsiliperispomeni by alphapsiliperispomeni.sc;
-sub alphadasiaperispomeni by alphadasiaperispomeni.sc;
-sub alphavaria by alphavaria.sc;
-sub alphaoxia by alphaoxia.sc;
-sub alphaperispomeni by alphaperispomeni.sc;
-sub alphavrachy by alphavrachy.sc;
-sub alphamacron by alphamacron.sc;
-sub alphaypogegrammeni by alphaypogegrammeni.sc;
-sub alphavariaypogegrammeni by alphavariaypogegrammeni.sc;
-sub alphaoxiaypogegrammeni by alphaoxiaypogegrammeni.sc;
-sub alphapsiliypogegrammeni by alphapsiliypogegrammeni.sc;
-sub alphadasiaypogegrammeni by alphadasiaypogegrammeni.sc;
-sub alphapsilivariaypogegrammeni by alphapsilivariaypogegrammeni.sc;
-sub alphadasiavariaypogegrammeni by alphadasiavariaypogegrammeni.sc;
-sub alphapsilioxiaypogegrammeni by alphapsilioxiaypogegrammeni.sc;
-sub alphadasiaoxiaypogegrammeni by alphadasiaoxiaypogegrammeni.sc;
-sub alphapsiliperispomeniypogegrammeni by alphapsiliperispomeniypogegrammeni.sc;
-sub alphadasiaperispomeniypogegrammeni by alphadasiaperispomeniypogegrammeni.sc;
-sub alphaperispomeniypogegrammeni by alphaperispomeniypogegrammeni.sc;
-sub epsilonpsili by epsilonpsili.sc;
-sub epsilondasia by epsilondasia.sc;
-sub epsilonpsilivaria by epsilonpsilivaria.sc;
-sub epsilondasiavaria by epsilondasiavaria.sc;
-sub epsilonpsilioxia by epsilonpsilioxia.sc;
-sub epsilondasiaoxia by epsilondasiaoxia.sc;
-sub epsilonvaria by epsilonvaria.sc;
-sub epsilonoxia by epsilonoxia.sc;
-sub etapsili by etapsili.sc;
-sub etadasia by etadasia.sc;
-sub etapsilivaria by etapsilivaria.sc;
-sub etadasiavaria by etadasiavaria.sc;
-sub etapsilioxia by etapsilioxia.sc;
-sub etadasiaoxia by etadasiaoxia.sc;
-sub etapsiliperispomeni by etapsiliperispomeni.sc;
-sub etadasiaperispomeni by etadasiaperispomeni.sc;
-sub etavaria by etavaria.sc;
-sub etaoxia by etaoxia.sc;
-sub etaperispomeni by etaperispomeni.sc;
-sub etaypogegrammeni by etaypogegrammeni.sc;
-sub etavariaypogegrammeni by etavariaypogegrammeni.sc;
-sub etaoxiaypogegrammeni by etaoxiaypogegrammeni.sc;
-sub etapsiliypogegrammeni by etapsiliypogegrammeni.sc;
-sub etadasiaypogegrammeni by etadasiaypogegrammeni.sc;
-sub etapsilivariaypogegrammeni by etapsilivariaypogegrammeni.sc;
-sub etadasiavariaypogegrammeni by etadasiavariaypogegrammeni.sc;
-sub etapsilioxiaypogegrammeni by etapsilioxiaypogegrammeni.sc;
-sub etadasiaoxiaypogegrammeni by etadasiaoxiaypogegrammeni.sc;
-sub etapsiliperispomeniypogegrammeni by etapsiliperispomeniypogegrammeni.sc;
-sub etadasiaperispomeniypogegrammeni by etadasiaperispomeniypogegrammeni.sc;
-sub etaperispomeniypogegrammeni by etaperispomeniypogegrammeni.sc;
-sub iotapsili by iotapsili.sc;
-sub iotadasia by iotadasia.sc;
-sub iotapsilivaria by iotapsilivaria.sc;
-sub iotadasiavaria by iotadasiavaria.sc;
-sub iotapsilioxia by iotapsilioxia.sc;
-sub iotadasiaoxia by iotadasiaoxia.sc;
-sub iotapsiliperispomeni by iotapsiliperispomeni.sc;
-sub iotadasiaperispomeni by iotadasiaperispomeni.sc;
-sub iotavaria by iotavaria.sc;
-sub iotaoxia by iotaoxia.sc;
-sub iotaperispomeni by iotaperispomeni.sc;
-sub iotavrachy by iotavrachy.sc;
-sub iotamacron by iotamacron.sc;
-sub iotadialytikavaria by iotadialytikavaria.sc;
-sub iotadialytikaoxia by iotadialytikaoxia.sc;
-sub iotadialytikaperispomeni by iotadialytikaperispomeni.sc;
-sub omicronpsili by omicronpsili.sc;
-sub omicrondasia by omicrondasia.sc;
-sub omicronpsilivaria by omicronpsilivaria.sc;
-sub omicrondasiavaria by omicrondasiavaria.sc;
-sub omicronpsilioxia by omicronpsilioxia.sc;
-sub omicrondasiaoxia by omicrondasiaoxia.sc;
-sub omicronvaria by omicronvaria.sc;
-sub omicronoxia by omicronoxia.sc;
-sub rhopsili by rhopsili.sc;
-sub rhodasia by rhodasia.sc;
-sub upsilonpsili by upsilonpsili.sc;
-sub upsilondasia by upsilondasia.sc;
-sub upsilonpsilivaria by upsilonpsilivaria.sc;
-sub upsilondasiavaria by upsilondasiavaria.sc;
-sub upsilonpsilioxia by upsilonpsilioxia.sc;
-sub upsilondasiaoxia by upsilondasiaoxia.sc;
-sub upsilonpsiliperispomeni by upsilonpsiliperispomeni.sc;
-sub upsilondasiaperispomeni by upsilondasiaperispomeni.sc;
-sub upsilonvaria by upsilonvaria.sc;
-sub upsilonoxia by upsilonoxia.sc;
-sub upsilonperispomeni by upsilonperispomeni.sc;
-sub upsilonvrachy by upsilonvrachy.sc;
-sub upsilonmacron by upsilonmacron.sc;
-sub upsilondialytikavaria by upsilondialytikavaria.sc;
-sub upsilondialytikaoxia by upsilondialytikaoxia.sc;
-sub upsilondialytikaperispomeni by upsilondialytikaperispomeni.sc;
-sub omegapsili by omegapsili.sc;
-sub omegadasia by omegadasia.sc;
-sub omegapsilivaria by omegapsilivaria.sc;
-sub omegadasiavaria by omegadasiavaria.sc;
-sub omegapsilioxia by omegapsilioxia.sc;
-sub omegadasiaoxia by omegadasiaoxia.sc;
-sub omegapsiliperispomeni by omegapsiliperispomeni.sc;
-sub omegadasiaperispomeni by omegadasiaperispomeni.sc;
-sub omegavaria by omegavaria.sc;
-sub omegaoxia by omegaoxia.sc;
-sub omegaperispomeni by omegaperispomeni.sc;
-sub omegaypogegrammeni by omegaypogegrammeni.sc;
-sub omegavariaypogegrammeni by omegavariaypogegrammeni.sc;
-sub omegaoxiaypogegrammeni by omegaoxiaypogegrammeni.sc;
-sub omegapsiliypogegrammeni by omegapsiliypogegrammeni.sc;
-sub omegadasiaypogegrammeni by omegadasiaypogegrammeni.sc;
-sub omegapsilivariaypogegrammeni by omegapsilivariaypogegrammeni.sc;
-sub omegadasiavariaypogegrammeni by omegadasiavariaypogegrammeni.sc;
-sub omegapsilioxiaypogegrammeni by omegapsilioxiaypogegrammeni.sc;
-sub omegadasiaoxiaypogegrammeni by omegadasiaoxiaypogegrammeni.sc;
-sub omegapsiliperispomeniypogegrammeni by omegapsiliperispomeniypogegrammeni.sc;
-sub omegadasiaperispomeniypogegrammeni by omegadasiaperispomeniypogegrammeni.sc;
-sub omegaperispomeniypogegrammeni by omegaperispomeniypogegrammeni.sc;
-sub exclam by exclam.sc;
-sub exclamdown by exclamdown.sc;
-sub question by question.sc;
-sub questiondown by questiondown.sc;
-sub quotedbl by quotedbl.sc;
-sub quotedblleft by quotedblleft.sc;
-sub quotedblright by quotedblright.sc;
-sub quoteleft by quoteleft.sc;
-sub quoteright by quoteright.sc;
-sub quotesingle by quotesingle.sc;
-sub ampersand by ampersand.sc;
-sub gdieresis by gdieresis.sc;
-sub gtilde by gtilde.sc;
-";
-name = smcp;
 },
 {
 code = "sub Alphatonos by Alpha;
@@ -98648,8 +98226,8 @@ nodes = (
 width = 487;
 }
 );
-leftKerningGroup = "be-cy";
-rightKerningGroup = "be-cy";
+leftKerningGroup = O;
+rightKerningGroup = o;
 unicode = 0431;
 },
 {
@@ -99436,6 +99014,8 @@ nodes = (
 width = 378;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = "ve-cy";
 unicode = 0432;
 },
 {
@@ -101473,6 +101053,8 @@ nodes = (
 width = 371;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 0433;
 },
 {
@@ -101505,6 +101087,8 @@ layerId = UUID1;
 width = 360;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 0453;
 },
 {
@@ -101776,6 +101360,8 @@ nodes = (
 width = 302;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "gheupturn-cy";
 unicode = 0491;
 },
 {
@@ -103461,6 +103047,8 @@ nodes = (
 width = 471;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = O;
 unicode = 0434;
 },
 {
@@ -103524,6 +103112,8 @@ layerId = UUID1;
 width = 417;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 0450;
 },
 {
@@ -104502,6 +104092,8 @@ nodes = (
 width = 691;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 0436;
 },
 {
@@ -105867,6 +105459,8 @@ nodes = (
 width = 404;
 }
 );
+leftKerningGroup = "ze-cy";
+rightKerningGroup = "ve-cy";
 unicode = 0437;
 },
 {
@@ -105916,6 +105510,8 @@ layerId = UUID1;
 width = 538;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0438;
 },
 {
@@ -105951,6 +105547,8 @@ layerId = UUID1;
 width = 538;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0439;
 },
 {
@@ -105983,6 +105581,8 @@ layerId = UUID1;
 width = 538;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 045D;
 },
 {
@@ -107101,6 +106701,8 @@ layerId = UUID1;
 width = 516;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = x;
 unicode = 045C;
 },
 {
@@ -109095,6 +108697,8 @@ nodes = (
 width = 451;
 }
 );
+leftKerningGroup = "el-cy";
+rightKerningGroup = u;
 unicode = 043B;
 },
 {
@@ -110560,6 +110164,8 @@ nodes = (
 width = 726;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = u;
 unicode = 043C;
 },
 {
@@ -110823,6 +110429,7 @@ width = 563;
 }
 );
 leftKerningGroup = n;
+rightKerningGroup = u;
 unicode = 043D;
 },
 {
@@ -111018,6 +110625,8 @@ nodes = (
 width = 545;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = u;
 unicode = 043F;
 },
 {
@@ -111110,6 +110719,7 @@ width = 811;
 }
 );
 leftKerningGroup = n;
+rightKerningGroup = n;
 unicode = 0442;
 },
 {
@@ -111173,6 +110783,8 @@ layerId = UUID1;
 width = 486;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 045E;
 },
 {
@@ -115081,6 +114693,8 @@ nodes = (
 width = 572;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0447;
 },
 {
@@ -115118,6 +114732,8 @@ layerId = UUID1;
 width = 561;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0446;
 },
 {
@@ -116406,6 +116022,8 @@ nodes = (
 width = 795;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0448;
 },
 {
@@ -116442,6 +116060,8 @@ layerId = UUID1;
 width = 805;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 0449;
 },
 {
@@ -116514,6 +116134,8 @@ layerId = UUID1;
 width = 531;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 045F;
 },
 {
@@ -118287,6 +117909,8 @@ nodes = (
 width = 494;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "softsign-cy";
 unicode = 044C;
 },
 {
@@ -121439,6 +121063,8 @@ nodes = (
 width = 454;
 }
 );
+leftKerningGroup = "hardsign-cy";
+rightKerningGroup = "softsign-cy";
 unicode = 044A;
 },
 {
@@ -121486,6 +121112,8 @@ layerId = UUID1;
 width = 744;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = u;
 unicode = 044B;
 },
 {
@@ -122352,6 +121980,8 @@ nodes = (
 width = 641;
 }
 );
+leftKerningGroup = "el-cy";
+rightKerningGroup = "softsign-cy";
 unicode = 0459;
 },
 {
@@ -122794,6 +122424,8 @@ nodes = (
 width = 744;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "softsign-cy";
 unicode = 045A;
 },
 {
@@ -122818,6 +122450,8 @@ layerId = UUID1;
 width = 402;
 }
 );
+leftKerningGroup = s;
+rightKerningGroup = s;
 unicode = 0455;
 },
 {
@@ -122908,6 +122542,8 @@ nodes = (
 width = 389;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = c;
 unicode = 0454;
 },
 {
@@ -123113,6 +122749,8 @@ nodes = (
 width = 408;
 }
 );
+leftKerningGroup = "ereversed-cy";
+rightKerningGroup = o;
 unicode = 044D;
 },
 {
@@ -123137,6 +122775,8 @@ layerId = UUID1;
 width = 304;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = i;
 unicode = 0456;
 },
 {
@@ -123169,6 +122809,8 @@ layerId = UUID1;
 width = 304;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = i;
 unicode = 0457;
 },
 {
@@ -123193,6 +122835,8 @@ layerId = UUID1;
 width = 300;
 }
 );
+leftKerningGroup = j;
+rightKerningGroup = j;
 unicode = 0458;
 },
 {
@@ -123217,6 +122861,8 @@ layerId = UUID1;
 width = 524;
 }
 );
+leftKerningGroup = h;
+rightKerningGroup = n;
 unicode = 045B;
 },
 {
@@ -123286,6 +122932,8 @@ nodes = (
 width = 748;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = o;
 unicode = 044E;
 },
 {
@@ -124379,6 +124027,8 @@ nodes = (
 width = 515;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = u;
 unicode = 044F;
 },
 {
@@ -124915,6 +124565,8 @@ nodes = (
 width = 529;
 }
 );
+leftKerningGroup = hbar;
+rightKerningGroup = j;
 unicode = 0452;
 },
 {
@@ -125942,6 +125594,8 @@ nodes = (
 width = 740;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "softsign-cy";
 unicode = 0463;
 },
 {
@@ -127635,6 +127289,8 @@ nodes = (
 width = 706;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 046B;
 },
 {
@@ -127659,6 +127315,8 @@ layerId = UUID1;
 width = 463;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 0473;
 },
 {
@@ -127683,6 +127341,8 @@ layerId = UUID1;
 width = 482;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 0475;
 },
 {
@@ -127715,6 +127375,8 @@ layerId = UUID1;
 width = 360;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 0493;
 },
 {
@@ -128443,6 +128105,8 @@ nodes = (
 width = 513;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "ghemiddlehook-cy";
 unicode = 0495;
 },
 {
@@ -128869,6 +128533,8 @@ nodes = (
 width = 827;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 0497;
 },
 {
@@ -128901,6 +128567,8 @@ layerId = UUID1;
 width = 404;
 }
 );
+leftKerningGroup = "ze-cy";
+rightKerningGroup = "ve-cy";
 unicode = 0499;
 },
 {
@@ -129233,6 +128901,8 @@ nodes = (
 width = 527;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = x;
 unicode = 049B;
 },
 {
@@ -129555,6 +129225,8 @@ nodes = (
 width = 596;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = x;
 unicode = 049D;
 },
 {
@@ -129920,6 +129592,8 @@ nodes = (
 width = 589;
 }
 );
+leftKerningGroup = "hardsign-cy";
+rightKerningGroup = x;
 unicode = 04A1;
 },
 {
@@ -129952,6 +129626,8 @@ layerId = UUID1;
 width = 563;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = u;
 unicode = 04A3;
 },
 {
@@ -130270,6 +129946,8 @@ nodes = (
 width = 643;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "gheupturn-cy";
 unicode = 04A5;
 },
 {
@@ -130302,6 +129980,8 @@ layerId = UUID1;
 width = 389;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = c;
 unicode = 04AB;
 },
 {
@@ -131105,6 +130785,8 @@ nodes = (
 width = 469;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 04AF;
 },
 {
@@ -131137,6 +130819,8 @@ layerId = UUID1;
 width = 471;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 04B1;
 },
 {
@@ -131169,6 +130853,8 @@ layerId = UUID1;
 width = 517;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 04B7;
 },
 {
@@ -131454,6 +131140,8 @@ nodes = (
 width = 558;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 04B9;
 },
 {
@@ -131478,6 +131166,8 @@ layerId = UUID1;
 width = 524;
 }
 );
+leftKerningGroup = h;
+rightKerningGroup = n;
 unicode = 04BB;
 },
 {
@@ -131502,6 +131192,8 @@ layerId = UUID1;
 width = 291;
 }
 );
+leftKerningGroup = h;
+rightKerningGroup = l;
 unicode = 04CF;
 },
 {
@@ -131534,6 +131226,8 @@ layerId = UUID1;
 width = 813;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 04C2;
 },
 {
@@ -131566,6 +131260,8 @@ layerId = UUID1;
 width = 517;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 04CC;
 },
 {
@@ -131598,6 +131294,8 @@ layerId = UUID1;
 width = 521;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 04D1;
 },
 {
@@ -131630,6 +131328,8 @@ layerId = UUID1;
 width = 521;
 }
 );
+leftKerningGroup = a;
+rightKerningGroup = n;
 unicode = 04D3;
 },
 {
@@ -131654,6 +131354,8 @@ layerId = UUID1;
 width = 686;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 04D5;
 },
 {
@@ -131686,6 +131388,8 @@ layerId = UUID1;
 width = 417;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = e;
 unicode = 04D7;
 },
 {
@@ -131710,6 +131414,8 @@ layerId = UUID1;
 width = 429;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 04D9;
 },
 {
@@ -131742,6 +131448,8 @@ layerId = UUID1;
 width = 813;
 }
 );
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 04DD;
 },
 {
@@ -131774,6 +131482,8 @@ layerId = UUID1;
 width = 404;
 }
 );
+leftKerningGroup = "ze-cy";
+rightKerningGroup = "ve-cy";
 unicode = 04DF;
 },
 {
@@ -131806,6 +131516,8 @@ layerId = UUID1;
 width = 538;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 04E3;
 },
 {
@@ -131838,6 +131550,8 @@ layerId = UUID1;
 width = 538;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 04E5;
 },
 {
@@ -131870,6 +131584,8 @@ layerId = UUID1;
 width = 459;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 04E7;
 },
 {
@@ -132020,6 +131736,8 @@ nodes = (
 width = 463;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 04E9;
 },
 {
@@ -132052,6 +131770,8 @@ layerId = UUID1;
 width = 486;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 04EF;
 },
 {
@@ -132084,6 +131804,8 @@ layerId = UUID1;
 width = 486;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 04F1;
 },
 {
@@ -132116,6 +131838,8 @@ layerId = UUID1;
 width = 486;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 04F3;
 },
 {
@@ -132148,6 +131872,8 @@ layerId = UUID1;
 width = 517;
 }
 );
+leftKerningGroup = u;
+rightKerningGroup = u;
 unicode = 04F5;
 },
 {
@@ -132180,6 +131906,8 @@ layerId = UUID1;
 width = 360;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = o;
 unicode = 04F7;
 },
 {
@@ -132212,6 +131940,8 @@ layerId = UUID1;
 width = 744;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = u;
 unicode = 04F9;
 },
 {
@@ -132237,6 +131967,8 @@ layerId = UUID1;
 width = 506;
 }
 );
+leftKerningGroup = o;
+rightKerningGroup = q;
 unicode = 051B;
 },
 {
@@ -132262,6 +131994,8 @@ layerId = UUID1;
 width = 725;
 }
 );
+leftKerningGroup = v;
+rightKerningGroup = v;
 unicode = 051D;
 },
 {
@@ -134035,6 +133769,8 @@ nodes = (
 width = 494;
 }
 );
+leftKerningGroup = n;
+rightKerningGroup = "softsign-cy";
 },
 {
 color = 10;
@@ -223833,309 +223569,237 @@ paths = (
 {
 closed = 1;
 nodes = (
-"40.045 -43.64 LINE",
-"40.045 -43.64 LINE",
-"94.432 -42 LINE",
-"90.046 -37 LINE",
-"85.66 -32 LINE",
-"81.274 -27 LINE",
-"76.888 -22 LINE",
-"72.502 -17 LINE",
-"68.116 -12 LINE",
-"63.73 -7 LINE",
-"59.344 -2 LINE",
-"54.958 3 LINE",
-"50.571 8 LINE",
-"47 13 LINE",
-"47.797 18 LINE",
-"48.593 23 LINE",
-"49.387 28 LINE",
-"50.179 33 LINE",
-"50.969 38 LINE",
-"51.756 43 LINE",
-"52.54 48 LINE",
-"53.321 53 LINE",
-"54.098 58 LINE",
-"54.87 63 LINE",
-"55.637 68 LINE",
-"56.397 73 LINE",
-"57.151 78 LINE",
-"57.897 83 LINE",
-"58.633 88 LINE",
-"59.359 93 LINE",
-"60.073 98 LINE",
-"60.773 103 LINE",
-"61.458 108 LINE",
-"62.125 113 LINE",
-"62.773 118 LINE",
-"63.4 123 LINE",
-"64.004 128 LINE",
-"64.585 133 LINE",
-"65.141 138 LINE",
-"65.673 143 LINE",
-"66.182 148 LINE",
-"66.668 153 LINE",
-"67.133 158 LINE",
-"67.581 163 LINE",
-"68.013 168 LINE",
-"68.431 173 LINE",
-"68.839 178 LINE",
-"74.453 183 LINE",
-"80.067 188 LINE",
-"85.681 193 LINE",
-"91.295 198 LINE",
-"96.909 203 LINE",
-"102.523 208 LINE",
-"108.137 213 LINE",
-"113.751 218 LINE",
-"119.365 223 LINE",
-"124.979 228 LINE",
-"130.593 233 LINE",
-"136.206 238 LINE",
-"141.82 243 LINE",
-"147.434 248 LINE",
-"153.048 253 LINE",
-"158.662 258 LINE",
-"164.276 263 LINE",
-"169.89 268 LINE",
-"175.504 273 LINE",
-"181.118 278 LINE",
-"186.732 283 LINE",
-"192.346 288 LINE",
-"193.386 293 LINE",
-"189 298 LINE",
-"187.764 303 LINE",
-"189.036 308 LINE",
-"190.309 313 LINE",
-"191.582 318 LINE",
-"192.855 323 LINE",
-"194.127 328 LINE",
-"195.4 333 LINE",
-"196.673 338 LINE",
-"197.945 343 LINE",
-"199.218 348 LINE",
-"197.422 353 LINE",
-"193.036 358 LINE",
-"188.65 363 LINE",
-"184.264 368 LINE",
-"179.878 373 LINE",
-"175.492 378 LINE",
-"171.106 383 LINE",
-"166.719 388 LINE",
-"162.333 393 LINE",
-"157.947 398 LINE",
-"153.561 403 LINE",
-"149.175 408 LINE",
-"144.789 413 LINE",
-"140.403 418 LINE",
-"136.017 423 LINE",
-"131.631 428 LINE",
-"127.245 433 LINE",
-"122.859 438 LINE",
-"118.473 443 LINE",
-"114.087 448 LINE",
-"109.7 453 LINE",
-"110.845 458 LINE",
-"111.961 463 LINE",
-"113.052 468 LINE",
-"114.117 473 LINE",
-"115.159 478 LINE",
-"116.177 483 LINE",
-"117.174 488 LINE",
-"118.149 493 LINE",
-"119.103 498 LINE",
-"120.036 503 LINE",
-"120.949 508 LINE",
-"121.843 513 LINE",
-"122.716 518 LINE",
-"123.57 523 LINE",
-"124.404 528 LINE",
-"125.219 533 LINE",
-"126.015 538 LINE",
-"126.79 543 LINE",
-"127.546 548 LINE",
-"128.282 553 LINE",
-"128.998 558 LINE",
-"129.692 563 LINE",
-"130.366 568 LINE",
-"131.017 573 LINE",
-"131.647 578 LINE",
-"132.253 583 LINE",
-"132.835 588 LINE",
-"133.393 593 LINE",
-"133.925 598 LINE",
-"134.43 603 LINE",
-"134.906 608 LINE",
-"135.353 613 LINE",
-"135.767 618 LINE",
-"137.2 623 LINE",
-"142.814 628 LINE",
-"148.428 633 LINE",
-"154.042 638 LINE",
-"159.656 643 LINE",
-"165.27 648 LINE",
-"170.884 653 LINE",
-"176.497 658 LINE",
-"182.111 663 LINE",
-"187.725 668 LINE",
-"193.339 673 LINE",
-"128.608 677.64 LINE"
+"3.131 -43.64 LINE",
+"3.131 -43.64 LINE",
+"120.585 -40 LINE",
+"116.199 -35 LINE",
+"111.813 -30 LINE",
+"107.426 -25 LINE",
+"103.04 -20 LINE",
+"98.654 -15 LINE",
+"94.268 -10 LINE",
+"89.882 -5 LINE",
+"85.496 0 LINE",
+"81.11 5 LINE",
+"76.724 10 LINE",
+"70.273 15 LINE",
+"64.839 20 LINE",
+"60.173 25 LINE",
+"56.117 30 LINE",
+"52.557 35 LINE",
+"49.413 40 LINE",
+"46.624 45 LINE",
+"44.142 50 LINE",
+"41.928 55 LINE",
+"39.953 60 LINE",
+"38.191 65 LINE",
+"36.621 70 LINE",
+"35.225 75 LINE",
+"33.988 80 LINE",
+"32.896 85 LINE",
+"31.939 90 LINE",
+"31.106 95 LINE",
+"30.388 100 LINE",
+"29.777 105 LINE",
+"29.267 110 LINE",
+"28.851 115 LINE",
+"28.523 120 LINE",
+"28.279 125 LINE",
+"28.113 130 LINE",
+"28.022 135 LINE",
+"33.636 140 LINE",
+"28.056 145 LINE",
+"28.189 150 LINE",
+"28.399 155 LINE",
+"28.686 160 LINE",
+"29.049 165 LINE",
+"29.487 170 LINE",
+"30.001 175 LINE",
+"30.59 180 LINE",
+"31.254 185 LINE",
+"31.992 190 LINE",
+"32.805 195 LINE",
+"33.692 200 LINE",
+"34.653 205 LINE",
+"35.688 210 LINE",
+"36.798 215 LINE",
+"37.982 220 LINE",
+"39.24 225 LINE",
+"40.574 230 LINE",
+"41.983 235 LINE",
+"43.467 240 LINE",
+"45.028 245 LINE",
+"46.665 250 LINE",
+"48.38 255 LINE",
+"50.173 260 LINE",
+"52.045 265 LINE",
+"53.997 270 LINE",
+"56.03 275 LINE",
+"58.146 280 LINE",
+"60.345 285 LINE",
+"62.628 290 LINE",
+"64.999 295 LINE",
+"67.458 300 LINE",
+"70.007 305 LINE",
+"72.648 310 LINE",
+"75.384 315 LINE",
+"78.218 320 LINE",
+"81.152 325 LINE",
+"84.189 330 LINE",
+"87.333 335 LINE",
+"90.588 340 LINE",
+"93.958 345 LINE",
+"97.448 350 LINE",
+"101.064 355 LINE",
+"104.811 360 LINE",
+"108.696 365 LINE",
+"112.728 370 LINE",
+"116.914 375 LINE",
+"121.265 380 LINE",
+"125.793 385 LINE",
+"130.511 390 LINE",
+"135.436 395 LINE",
+"140.586 400 LINE",
+"145.985 405 LINE",
+"151.598 410 LINE",
+"157.212 415 LINE",
+"162.826 420 LINE",
+"168.44 425 LINE",
+"174.054 430 LINE",
+"179.668 435 LINE",
+"185.282 440 LINE",
+"190.896 445 LINE",
+"196.51 450 LINE",
+"202.124 455 LINE",
+"207.738 460 LINE",
+"213.352 465 LINE",
+"218.966 470 LINE",
+"224.579 475 LINE",
+"225.626 480 LINE",
+"226.24 485 LINE",
+"226.854 490 LINE",
+"227.468 495 LINE",
+"69.346 495.64 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"444.535 -43.64 LINE",
-"444.535 -43.64 LINE",
-"289.407 -42 LINE",
-"295.021 -37 LINE",
-"300.635 -32 LINE",
-"306.249 -27 LINE",
-"311.863 -22 LINE",
-"317.477 -17 LINE",
-"323.091 -12 LINE",
-"328.704 -7 LINE",
-"334.318 -2 LINE",
-"339.932 3 LINE",
-"345.546 8 LINE",
-"351.16 13 LINE",
-"356.774 18 LINE",
-"362.388 23 LINE",
-"368.002 28 LINE",
-"373.616 33 LINE",
-"379.23 38 LINE",
-"384.844 43 LINE",
-"390.458 48 LINE",
-"396.072 53 LINE",
-"401.685 58 LINE",
-"407.299 63 LINE",
-"412.734 68 LINE",
-"417.84 73 LINE",
-"422.64 78 LINE",
-"427.151 83 LINE",
-"431.391 88 LINE",
-"435.373 93 LINE",
-"439.11 98 LINE",
-"442.613 103 LINE",
-"445.891 108 LINE",
-"448.953 113 LINE",
-"451.807 118 LINE",
-"454.46 123 LINE",
-"456.917 128 LINE",
-"459.185 133 LINE",
-"461.268 138 LINE",
-"463.171 143 LINE",
-"464.898 148 LINE",
-"466.453 153 LINE",
-"467.839 158 LINE",
-"469.059 163 LINE",
-"470.116 168 LINE",
-"471.012 173 LINE",
-"471.749 178 LINE",
-"472.32 183 LINE",
-"472.736 188 LINE",
-"473 193 LINE",
-"473.107 198 LINE",
-"473.051 203 LINE",
-"472.824 208 LINE",
-"472.419 213 LINE",
-"471.829 218 LINE",
-"471.044 223 LINE",
-"470.055 228 LINE",
-"468.85 233 LINE",
-"467.418 238 LINE",
-"465.745 243 LINE",
-"463.815 248 LINE",
-"461.612 253 LINE",
-"459.116 258 LINE",
-"456.303 263 LINE",
-"453.149 268 LINE",
-"449.623 273 LINE",
-"445.688 278 LINE",
-"441.302 283 LINE",
-"436.916 288 LINE",
-"432.529 293 LINE",
-"428.143 298 LINE",
-"423.757 303 LINE",
-"419.371 308 LINE",
-"414.985 313 LINE",
-"410.599 318 LINE",
-"406.213 323 LINE",
-"401.827 328 LINE",
-"397.441 333 LINE",
-"393.055 338 LINE",
-"388.669 343 LINE",
-"384.283 348 LINE",
-"388.282 353 LINE",
-"393.896 358 LINE",
-"399.51 363 LINE",
-"405.124 368 LINE",
-"410.737 373 LINE",
-"416.351 378 LINE",
-"421.916 383 LINE",
-"427.082 388 LINE",
-"431.878 393 LINE",
-"436.331 398 LINE",
-"440.463 403 LINE",
-"444.297 408 LINE",
-"447.85 413 LINE",
-"451.139 418 LINE",
-"454.181 423 LINE",
-"456.989 428 LINE",
-"459.576 433 LINE",
-"461.953 438 LINE",
-"464.133 443 LINE",
-"466.123 448 LINE",
-"467.935 453 LINE",
-"469.576 458 LINE",
-"471.055 463 LINE",
-"472.377 468 LINE",
-"473.552 473 LINE",
-"474.584 478 LINE",
-"475.48 483 LINE",
-"476.246 488 LINE",
-"476.886 493 LINE",
-"477.414 498 LINE",
-"477.814 503 LINE",
-"478.08 508 LINE",
-"473.694 513 LINE",
-"472.38 518 LINE",
-"477.994 523 LINE",
-"477.642 528 LINE",
-"477.111 533 LINE",
-"476.39 538 LINE",
-"475.465 543 LINE",
-"474.323 548 LINE",
-"472.945 553 LINE",
-"471.313 558 LINE",
-"469.406 563 LINE",
-"467.196 568 LINE",
-"464.654 573 LINE",
-"461.746 578 LINE",
-"458.428 583 LINE",
-"454.648 588 LINE",
-"450.343 593 LINE",
-"445.957 598 LINE",
-"441.571 603 LINE",
-"437.185 608 LINE",
-"432.799 613 LINE",
-"428.413 618 LINE",
-"424.027 623 LINE",
-"419.641 628 LINE",
-"415.255 633 LINE",
-"410.869 638 LINE",
-"406.482 643 LINE",
-"402.096 648 LINE",
-"397.71 653 LINE",
-"393.324 658 LINE",
-"388.938 663 LINE",
-"384.552 668 LINE",
-"380.166 673 LINE",
-"533.097 677.64 LINE"
+"306.238 -43.64 LINE",
+"306.238 -43.64 LINE",
+"185.616 -40 LINE",
+"191.23 -35 LINE",
+"196.844 -30 LINE",
+"202.458 -25 LINE",
+"208.072 -20 LINE",
+"213.686 -15 LINE",
+"219.3 -10 LINE",
+"224.914 -5 LINE",
+"230.528 0 LINE",
+"236.142 5 LINE",
+"241.756 10 LINE",
+"247.369 15 LINE",
+"252.983 20 LINE",
+"258.597 25 LINE",
+"264.211 30 LINE",
+"269.825 35 LINE",
+"275.152 40 LINE",
+"280.03 45 LINE",
+"284.508 50 LINE",
+"288.623 55 LINE",
+"292.404 60 LINE",
+"295.878 65 LINE",
+"299.064 70 LINE",
+"301.981 75 LINE",
+"304.643 80 LINE",
+"307.062 85 LINE",
+"309.249 90 LINE",
+"311.214 95 LINE",
+"312.965 100 LINE",
+"314.509 105 LINE",
+"315.852 110 LINE",
+"317 115 LINE",
+"317.955 120 LINE",
+"318.725 125 LINE",
+"319.311 130 LINE",
+"319.716 135 LINE",
+"319.944 140 LINE",
+"319.996 145 LINE",
+"319.866 150 LINE",
+"319.542 155 LINE",
+"319.014 160 LINE",
+"318.271 165 LINE",
+"317.3 170 LINE",
+"316.087 175 LINE",
+"314.615 180 LINE",
+"312.865 185 LINE",
+"310.816 190 LINE",
+"308.44 195 LINE",
+"305.708 200 LINE",
+"302.582 205 LINE",
+"299.019 210 LINE",
+"294.961 215 LINE",
+"290.575 220 LINE",
+"286.189 225 LINE",
+"281.803 230 LINE",
+"277.417 235 LINE",
+"273.031 240 LINE",
+"268.645 245 LINE",
+"266.615 250 LINE",
+"272.229 255 LINE",
+"277.843 260 LINE",
+"283.457 265 LINE",
+"289.071 270 LINE",
+"294.685 275 LINE",
+"300.299 280 LINE",
+"305.913 285 LINE",
+"311.527 290 LINE",
+"316.968 295 LINE",
+"321.994 300 LINE",
+"326.619 305 LINE",
+"330.86 310 LINE",
+"334.731 315 LINE",
+"338.248 320 LINE",
+"341.425 325 LINE",
+"344.277 330 LINE",
+"346.819 335 LINE",
+"349.064 340 LINE",
+"351.025 345 LINE",
+"352.717 350 LINE",
+"354.151 355 LINE",
+"355.339 360 LINE",
+"356.294 365 LINE",
+"357.027 370 LINE",
+"357.548 375 LINE",
+"357.868 380 LINE",
+"353.482 385 LINE",
+"357.939 390 LINE",
+"357.683 395 LINE",
+"357.209 400 LINE",
+"356.494 405 LINE",
+"355.511 410 LINE",
+"354.226 415 LINE",
+"352.596 420 LINE",
+"350.567 425 LINE",
+"348.065 430 LINE",
+"344.992 435 LINE",
+"341.2 440 LINE",
+"336.814 445 LINE",
+"332.428 450 LINE",
+"328.042 455 LINE",
+"323.655 460 LINE",
+"319.269 465 LINE",
+"314.883 470 LINE",
+"310.497 475 LINE",
+"306.111 480 LINE",
+"301.725 485 LINE",
+"297.339 490 LINE",
+"292.953 495 LINE",
+"372.453 495.64 LINE"
 );
 }
 );
-width = 514;
+width = 388;
 },
 {
 layerId = UUID1;
@@ -224143,325 +223807,261 @@ paths = (
 {
 closed = 1;
 nodes = (
-"-5.879 -56.92 LINE",
-"-5.879 -56.92 LINE",
-"69.159 -52 LINE",
-"64.773 -47 LINE",
-"60.387 -42 LINE",
-"56.001 -37 LINE",
-"51.615 -32 LINE",
-"47.229 -27 LINE",
-"42.843 -22 LINE",
-"38.457 -17 LINE",
-"34.071 -12 LINE",
-"29.685 -7 LINE",
-"25.298 -2 LINE",
-"20.912 3 LINE",
-"16.526 8 LINE",
-"12.842 13 LINE",
-"9.158 18 LINE",
-"5.474 23 LINE",
-"4.548 28 LINE",
-"5.456 33 LINE",
-"6.359 38 LINE",
-"7.255 43 LINE",
-"8.144 48 LINE",
-"9.027 53 LINE",
-"9.903 58 LINE",
-"10.771 63 LINE",
-"11.631 68 LINE",
-"12.483 73 LINE",
-"13.327 78 LINE",
-"14.161 83 LINE",
-"14.985 88 LINE",
-"15.8 93 LINE",
-"16.603 98 LINE",
-"17.396 103 LINE",
-"18.176 108 LINE",
-"18.943 113 LINE",
-"19.697 118 LINE",
-"20.437 123 LINE",
-"21.161 128 LINE",
-"21.869 133 LINE",
-"22.559 138 LINE",
-"23.23 143 LINE",
-"23.882 148 LINE",
-"24.512 153 LINE",
-"25.118 158 LINE",
-"25.699 163 LINE",
-"26.252 168 LINE",
-"26.776 173 LINE",
-"27.267 178 LINE",
-"27.722 183 LINE",
-"28.137 188 LINE",
-"28.509 193 LINE",
-"28.832 198 LINE",
-"31.727 203 LINE",
-"37.341 208 LINE",
-"42.955 213 LINE",
-"48.569 218 LINE",
-"54.183 223 LINE",
-"59.797 228 LINE",
-"65.411 233 LINE",
-"71.025 238 LINE",
-"76.639 243 LINE",
-"82.253 248 LINE",
-"87.867 253 LINE",
-"93.48 258 LINE",
-"99.094 263 LINE",
-"104.708 268 LINE",
-"110.322 273 LINE",
-"115.936 278 LINE",
-"121.55 283 LINE",
-"127.164 288 LINE",
-"132.778 293 LINE",
-"138.392 298 LINE",
-"144.006 303 LINE",
-"149.62 308 LINE",
-"155.234 313 LINE",
-"158.216 318 LINE",
-"159.297 323 LINE",
-"160.378 328 LINE",
-"157.476 333 LINE",
-"153.089 338 LINE",
-"148.703 343 LINE",
-"144.317 348 LINE",
-"139.931 353 LINE",
-"135.545 358 LINE",
-"131.159 363 LINE",
-"126.773 368 LINE",
-"122.387 373 LINE",
-"118 378 LINE",
-"113.615 383 LINE",
-"109.229 388 LINE",
-"104.843 393 LINE",
-"100.456 398 LINE",
-"96.07 403 LINE",
-"91.684 408 LINE",
-"87.298 413 LINE",
-"82.912 418 LINE",
-"78.526 423 LINE",
-"74.14 428 LINE",
-"69.754 433 LINE",
-"65.368 438 LINE",
-"60.982 443 LINE",
-"62.163 448 LINE",
-"63.301 453 LINE",
-"64.4 458 LINE",
-"65.466 463 LINE",
-"66.503 468 LINE",
-"67.511 473 LINE",
-"68.495 478 LINE",
-"69.455 483 LINE",
-"70.394 488 LINE",
-"71.312 493 LINE",
-"72.21 498 LINE",
-"73.09 503 LINE",
-"73.952 508 LINE",
-"74.797 513 LINE",
-"75.625 518 LINE",
-"76.437 523 LINE",
-"77.233 528 LINE",
-"78.014 533 LINE",
-"78.779 538 LINE",
-"79.53 543 LINE",
-"80.265 548 LINE",
-"80.986 553 LINE",
-"81.692 558 LINE",
-"82.383 563 LINE",
-"83.06 568 LINE",
-"83.722 573 LINE",
-"84.37 578 LINE",
-"85.003 583 LINE",
-"85.62 588 LINE",
-"86.223 593 LINE",
-"86.81 598 LINE",
-"87.382 603 LINE",
-"87.937 608 LINE",
-"88.477 613 LINE",
-"89 618 LINE",
-"94.614 623 LINE",
-"100.228 628 LINE",
-"105.842 633 LINE",
-"111.456 638 LINE",
-"117.07 643 LINE",
-"122.684 648 LINE",
-"128.297 653 LINE",
-"133.911 658 LINE",
-"139.525 663 LINE",
-"145.139 668 LINE",
-"150.753 673 LINE",
-"156.367 678 LINE",
-"161.981 683 LINE",
-"167.595 688 LINE",
-"173.209 693 LINE",
-"178.823 698 LINE",
-"184.437 703 LINE",
-"87.54 703.92 LINE"
+"-34.394 -63.92 LINE",
+"-34.394 -63.92 LINE",
+"102.722 -62 LINE",
+"103.336 -57 LINE",
+"103.95 -52 LINE",
+"104.564 -47 LINE",
+"105.178 -42 LINE",
+"105.792 -37 LINE",
+"106.406 -32 LINE",
+"107.02 -27 LINE",
+"102.31 -22 LINE",
+"97.923 -17 LINE",
+"93.537 -12 LINE",
+"89.151 -7 LINE",
+"84.765 -2 LINE",
+"80.379 3 LINE",
+"75.993 8 LINE",
+"71.607 13 LINE",
+"67.221 18 LINE",
+"62.835 23 LINE",
+"56.373 28 LINE",
+"50.577 33 LINE",
+"45.344 38 LINE",
+"40.594 43 LINE",
+"36.266 48 LINE",
+"32.31 53 LINE",
+"28.688 58 LINE",
+"25.365 63 LINE",
+"22.316 68 LINE",
+"19.515 73 LINE",
+"16.944 78 LINE",
+"14.585 83 LINE",
+"12.422 88 LINE",
+"10.444 93 LINE",
+"8.637 98 LINE",
+"6.992 103 LINE",
+"5.499 108 LINE",
+"4.15 113 LINE",
+"2.937 118 LINE",
+"1.854 123 LINE",
+"0.894 128 LINE",
+"0.052 133 LINE",
+"-0.678 138 LINE",
+"-1.3 143 LINE",
+"-1.819 148 LINE",
+"-2.239 153 LINE",
+"-2.564 158 LINE",
+"-2.796 163 LINE",
+"-2.94 168 LINE",
+"2.674 173 LINE",
+"-2.972 178 LINE",
+"-2.861 183 LINE",
+"-2.663 188 LINE",
+"-2.378 193 LINE",
+"-2.008 198 LINE",
+"-1.55 203 LINE",
+"-1.006 208 LINE",
+"-0.375 213 LINE",
+"0.344 218 LINE",
+"1.151 223 LINE",
+"2.047 228 LINE",
+"3.031 233 LINE",
+"4.105 238 LINE",
+"5.27 243 LINE",
+"6.526 248 LINE",
+"7.873 253 LINE",
+"9.314 258 LINE",
+"10.849 263 LINE",
+"12.478 268 LINE",
+"14.204 273 LINE",
+"16.028 278 LINE",
+"17.951 283 LINE",
+"19.974 288 LINE",
+"22.1 293 LINE",
+"24.33 298 LINE",
+"26.666 303 LINE",
+"29.111 308 LINE",
+"31.666 313 LINE",
+"34.335 318 LINE",
+"37.12 323 LINE",
+"40.024 328 LINE",
+"43.051 333 LINE",
+"46.205 338 LINE",
+"49.488 343 LINE",
+"52.907 348 LINE",
+"56.465 353 LINE",
+"60.169 358 LINE",
+"64.023 363 LINE",
+"68.035 368 LINE",
+"72.211 373 LINE",
+"76.561 378 LINE",
+"81.094 383 LINE",
+"85.819 388 LINE",
+"90.748 393 LINE",
+"95.896 398 LINE",
+"101.278 403 LINE",
+"106.892 408 LINE",
+"112.506 413 LINE",
+"118.12 418 LINE",
+"123.734 423 LINE",
+"129.348 428 LINE",
+"134.962 433 LINE",
+"140.575 438 LINE",
+"146.189 443 LINE",
+"151.803 448 LINE",
+"157.417 453 LINE",
+"163.031 458 LINE",
+"167.184 463 LINE",
+"167.798 468 LINE",
+"168.412 473 LINE",
+"169.026 478 LINE",
+"169.64 483 LINE",
+"170.254 488 LINE",
+"170.868 493 LINE",
+"171.481 498 LINE",
+"172.095 503 LINE",
+"172.709 508 LINE",
+"173.323 513 LINE",
+"173.937 518 LINE",
+"174.551 523 LINE",
+"175.165 528 LINE",
+"175.779 533 LINE",
+"39.257 535.92 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"506.67 -56.92 LINE",
-"506.67 -56.92 LINE",
-"370.394 -52 LINE",
-"371.008 -47 LINE",
-"371.622 -42 LINE",
-"372.236 -37 LINE",
-"372.85 -32 LINE",
-"373.464 -27 LINE",
-"377.37 -22 LINE",
-"382.984 -17 LINE",
-"388.598 -12 LINE",
-"394.212 -7 LINE",
-"399.826 -2 LINE",
-"405.44 3 LINE",
-"411.054 8 LINE",
-"416.668 13 LINE",
-"422.282 18 LINE",
-"427.895 23 LINE",
-"433.509 28 LINE",
-"439.123 33 LINE",
-"444.737 38 LINE",
-"450.351 43 LINE",
-"455.965 48 LINE",
-"461.579 53 LINE",
-"467.193 58 LINE",
-"472.807 63 LINE",
-"478.267 68 LINE",
-"483.333 73 LINE",
-"488.04 78 LINE",
-"492.418 83 LINE",
-"496.492 88 LINE",
-"500.285 93 LINE",
-"503.817 98 LINE",
-"507.106 103 LINE",
-"510.168 108 LINE",
-"513.018 113 LINE",
-"515.667 118 LINE",
-"518.128 123 LINE",
-"520.41 128 LINE",
-"522.524 133 LINE",
-"524.479 138 LINE",
-"526.282 143 LINE",
-"527.941 148 LINE",
-"529.462 153 LINE",
-"530.853 158 LINE",
-"532.118 163 LINE",
-"533.263 168 LINE",
-"534.294 173 LINE",
-"535.214 178 LINE",
-"536.029 183 LINE",
-"536.742 188 LINE",
-"537.325 193 LINE",
-"537.772 198 LINE",
-"538.097 203 LINE",
-"538.293 208 LINE",
-"538.356 213 LINE",
-"538.28 218 LINE",
-"538.058 223 LINE",
-"537.684 228 LINE",
-"537.15 233 LINE",
-"536.448 238 LINE",
-"535.569 243 LINE",
-"534.505 248 LINE",
-"533.243 253 LINE",
-"531.773 258 LINE",
-"530.082 263 LINE",
-"528.155 268 LINE",
-"525.976 273 LINE",
-"523.529 278 LINE",
-"520.791 283 LINE",
-"517.742 288 LINE",
-"514.354 293 LINE",
-"510.598 298 LINE",
-"506.438 303 LINE",
-"502.052 308 LINE",
-"497.666 313 LINE",
-"493.28 318 LINE",
-"488.894 323 LINE",
-"484.508 328 LINE",
-"480.122 333 LINE",
-"475.736 338 LINE",
-"471.35 343 LINE",
-"466.964 348 LINE",
-"462.578 353 LINE",
-"458.191 358 LINE",
-"461.099 363 LINE",
-"466.713 368 LINE",
-"472.327 373 LINE",
-"477.94 378 LINE",
-"483.554 383 LINE",
-"489.168 388 LINE",
-"494.768 393 LINE",
-"500.025 398 LINE",
-"504.946 403 LINE",
-"509.536 408 LINE",
-"513.806 413 LINE",
-"517.763 418 LINE",
-"521.417 423 LINE",
-"524.778 428 LINE",
-"527.855 433 LINE",
-"530.659 438 LINE",
-"533.201 443 LINE",
-"535.491 448 LINE",
-"537.54 453 LINE",
-"539.358 458 LINE",
-"540.956 463 LINE",
-"542.345 468 LINE",
-"543.533 473 LINE",
-"544.533 478 LINE",
-"545.352 483 LINE",
-"546 488 LINE",
-"546.535 493 LINE",
-"546.933 498 LINE",
-"547.188 503 LINE",
-"542.802 508 LINE",
-"541.418 513 LINE",
-"547.032 518 LINE",
-"546.649 523 LINE",
-"546.086 528 LINE",
-"545.334 533 LINE",
-"544.382 538 LINE",
-"543.219 543 LINE",
-"541.832 548 LINE",
-"540.206 553 LINE",
-"538.326 558 LINE",
-"536.173 563 LINE",
-"533.727 568 LINE",
-"530.964 573 LINE",
-"527.856 578 LINE",
-"524.374 583 LINE",
-"520.478 588 LINE",
-"516.127 593 LINE",
-"511.74 598 LINE",
-"507.354 603 LINE",
-"502.968 608 LINE",
-"498.582 613 LINE",
-"494.196 618 LINE",
-"489.81 623 LINE",
-"485.424 628 LINE",
-"481.038 633 LINE",
-"476.652 638 LINE",
-"472.266 643 LINE",
-"467.88 648 LINE",
-"463.494 653 LINE",
-"459.108 658 LINE",
-"458.185 663 LINE",
-"458.799 668 LINE",
-"459.413 673 LINE",
-"460.027 678 LINE",
-"460.641 683 LINE",
-"461.255 688 LINE",
-"461.868 693 LINE",
-"462.482 698 LINE",
-"463.096 703 LINE",
-"600.089 703.92 LINE"
+"385.744 -63.92 LINE",
+"385.744 -63.92 LINE",
+"249.1 -62 LINE",
+"249.714 -57 LINE",
+"250.328 -52 LINE",
+"255.232 -47 LINE",
+"260.846 -42 LINE",
+"266.46 -37 LINE",
+"272.074 -32 LINE",
+"277.688 -27 LINE",
+"283.302 -22 LINE",
+"288.916 -17 LINE",
+"294.53 -12 LINE",
+"300.144 -7 LINE",
+"305.758 -2 LINE",
+"311.371 3 LINE",
+"316.985 8 LINE",
+"322.599 13 LINE",
+"328.213 18 LINE",
+"333.827 23 LINE",
+"339.441 28 LINE",
+"345.055 33 LINE",
+"350.669 38 LINE",
+"356.283 43 LINE",
+"361.897 48 LINE",
+"367.253 53 LINE",
+"372.193 58 LINE",
+"376.747 63 LINE",
+"380.943 68 LINE",
+"384.804 73 LINE",
+"388.349 78 LINE",
+"391.595 83 LINE",
+"394.555 88 LINE",
+"397.243 93 LINE",
+"399.667 98 LINE",
+"401.839 103 LINE",
+"403.764 108 LINE",
+"405.451 113 LINE",
+"406.906 118 LINE",
+"408.133 123 LINE",
+"409.138 128 LINE",
+"409.923 133 LINE",
+"410.493 138 LINE",
+"410.85 143 LINE",
+"410.996 148 LINE",
+"410.925 153 LINE",
+"410.613 158 LINE",
+"410.044 163 LINE",
+"409.204 168 LINE",
+"408.074 173 LINE",
+"406.635 178 LINE",
+"404.865 183 LINE",
+"402.736 188 LINE",
+"400.22 193 LINE",
+"397.283 198 LINE",
+"393.884 203 LINE",
+"389.974 208 LINE",
+"385.588 213 LINE",
+"381.202 218 LINE",
+"376.816 223 LINE",
+"372.43 228 LINE",
+"368.044 233 LINE",
+"363.658 238 LINE",
+"359.272 243 LINE",
+"361.032 248 LINE",
+"366.646 253 LINE",
+"372.26 258 LINE",
+"377.873 263 LINE",
+"383.487 268 LINE",
+"389.101 273 LINE",
+"394.635 278 LINE",
+"399.715 283 LINE",
+"404.362 288 LINE",
+"408.596 293 LINE",
+"412.436 298 LINE",
+"415.904 303 LINE",
+"419.018 308 LINE",
+"421.797 313 LINE",
+"424.259 318 LINE",
+"426.423 323 LINE",
+"428.304 328 LINE",
+"429.919 333 LINE",
+"431.283 338 LINE",
+"432.412 343 LINE",
+"433.32 348 LINE",
+"434.018 353 LINE",
+"434.521 358 LINE",
+"434.841 363 LINE",
+"430.455 368 LINE",
+"429.178 373 LINE",
+"434.792 378 LINE",
+"434.441 383 LINE",
+"433.906 388 LINE",
+"433.175 393 LINE",
+"432.234 398 LINE",
+"431.068 403 LINE",
+"429.658 408 LINE",
+"427.981 413 LINE",
+"426.013 418 LINE",
+"423.724 423 LINE",
+"421.075 428 LINE",
+"418.022 433 LINE",
+"414.509 438 LINE",
+"410.461 443 LINE",
+"406.075 448 LINE",
+"401.689 453 LINE",
+"397.303 458 LINE",
+"392.917 463 LINE",
+"388.531 468 LINE",
+"384.145 473 LINE",
+"379.759 478 LINE",
+"375.372 483 LINE",
+"370.986 488 LINE",
+"366.6 493 LINE",
+"362.214 498 LINE",
+"357.828 503 LINE",
+"353.442 508 LINE",
+"349.056 513 LINE",
+"344.67 518 LINE",
+"340.284 523 LINE",
+"335.898 528 LINE",
+"331.512 533 LINE",
+"459.395 535.92 LINE"
 );
 }
 );
-width = 560;
+width = 443;
 }
 );
 },
@@ -224603,18 +224203,21 @@ weightClass = Black;
 kerning = {
 UUID0 = {
 "@MMK_L_A" = {
+"@MMK_R_Che-cy" = -70;
+"@MMK_R_El-cy" = 20;
 "@MMK_R_J" = -10;
 "@MMK_R_O" = -10;
 "@MMK_R_Phi" = -40;
 "@MMK_R_T" = -25;
 "@MMK_R_U" = -10;
-"@MMK_R_V" = -41;
+"@MMK_R_U-cy" = -30;
+"@MMK_R_V" = -42;
 "@MMK_R_X" = -16;
 "@MMK_R_Y" = -40;
 "@MMK_R_asterisk" = -100;
 "@MMK_R_chi" = -20;
 "@MMK_R_gamma" = -20;
-"@MMK_R_h" = 5;
+"@MMK_R_h" = -20;
 "@MMK_R_hyphen" = -50;
 "@MMK_R_n" = -20;
 "@MMK_R_nu" = -30;
@@ -224625,13 +224228,14 @@ UUID0 = {
 "@MMK_R_pi" = -20;
 "@MMK_R_u" = -20;
 "@MMK_R_upsilon" = -20;
-"@MMK_R_v" = -19;
-b = -20;
+"@MMK_R_v" = -20;
 colon = 0;
 semicolon = 0;
 x = 0;
 };
 "@MMK_L_B" = {
+"@MMK_R_Che-cy" = -20;
+"@MMK_R_Ia-cy" = -20;
 "@MMK_R_T" = 0;
 "@MMK_R_V" = 0;
 "@MMK_R_Y" = 0;
@@ -224654,12 +224258,19 @@ x = 0;
 "@MMK_R_v" = -10;
 "@MMK_R_z" = -20;
 };
+"@MMK_L_Dje-cy" = {
+"@MMK_R_El-cy" = -10;
+};
 "@MMK_L_E" = {
+"@MMK_R_Che-cy" = -40;
+"@MMK_R_Ia-cy" = -20;
 "@MMK_R_O" = -20;
 "@MMK_R_Phi" = -40;
 "@MMK_R_Y" = -30;
+"@MMK_R_a" = -20;
 "@MMK_R_epsilon" = -20;
 "@MMK_R_f" = -20;
+"@MMK_R_g" = -40;
 "@MMK_R_gamma" = -30;
 "@MMK_R_h" = 0;
 "@MMK_R_hyphen" = -30;
@@ -224667,9 +224278,9 @@ x = 0;
 "@MMK_R_nu" = -40;
 "@MMK_R_o" = -25;
 "@MMK_R_pi" = -30;
-"@MMK_R_u" = -19;
-"@MMK_R_v" = -19;
-"@MMK_R_z" = -19;
+"@MMK_R_u" = -20;
+"@MMK_R_v" = -30;
+"@MMK_R_z" = -20;
 };
 "@MMK_L_F" = {
 "@MMK_R_A" = -16;
@@ -224695,28 +224306,64 @@ x = -10;
 "@MMK_R_v" = -19;
 };
 "@MMK_L_Gamma" = {
-"@MMK_R_A" = -45;
+"@MMK_R_A" = -55;
+"@MMK_R_El-cy" = -30;
+"@MMK_R_Ia-cy" = -30;
 "@MMK_R_O" = -30;
 "@MMK_R_Omega" = -50;
 "@MMK_R_Phi" = -60;
+"@MMK_R_V" = 10;
 "@MMK_R_Y" = 20;
+"@MMK_R_a" = -60;
 "@MMK_R_alpha" = -60;
 "@MMK_R_chi" = -40;
-"@MMK_R_epsilon" = -30;
-"@MMK_R_gamma" = -20;
+"@MMK_R_epsilon" = -40;
+"@MMK_R_g" = -60;
+"@MMK_R_gamma" = -30;
 "@MMK_R_lambda" = 20;
-"@MMK_R_n" = -30;
+"@MMK_R_n" = -40;
 "@MMK_R_nu" = -40;
-"@MMK_R_o" = -60;
+"@MMK_R_o" = -70;
 "@MMK_R_omega" = -60;
 "@MMK_R_p" = -40;
+"@MMK_R_period" = -150;
 "@MMK_R_pi" = -40;
 "@MMK_R_rho" = -60;
+"@MMK_R_u" = -30;
 "@MMK_R_upsilon" = -30;
+"@MMK_R_x" = -30;
 "@MMK_R_xi" = 30;
+"ii-cy" = -30;
+"tse-cy" = -20;
+};
+"@MMK_L_Ge-cy" = {
+"@MMK_R_A" = -70;
+"@MMK_R_El-cy" = -30;
+"@MMK_R_Ia-cy" = -50;
+"@MMK_R_O" = -60;
+"@MMK_R_V" = 10;
+"@MMK_R_a" = -100;
+"@MMK_R_chi" = -50;
+"@MMK_R_epsilon" = -50;
+"@MMK_R_g" = -90;
+"@MMK_R_n" = -70;
+"@MMK_R_o" = -90;
+"@MMK_R_p" = -70;
+"@MMK_R_period" = -150;
+"@MMK_R_pi" = -70;
+"@MMK_R_u" = -90;
+"@MMK_R_upsilon" = -40;
+"@MMK_R_v" = -50;
+"@MMK_R_x" = -70;
+};
+"@MMK_L_Ghemiddlehook-cy" = {
+"@MMK_R_Che-cy" = -20;
+"@MMK_R_Ia-cy" = -10;
 };
 "@MMK_L_H" = {
 "@MMK_R_A" = -10;
+"@MMK_R_a" = -20;
+"@MMK_R_g" = -20;
 "@MMK_R_h" = 0;
 "@MMK_R_hyphen" = -30;
 "@MMK_R_n" = -10;
@@ -224730,26 +224377,29 @@ x = -10;
 "@MMK_L_J" = {
 "@MMK_R_A" = -10;
 "@MMK_R_H" = -12;
+"@MMK_R_a" = -30;
+"@MMK_R_g" = -20;
 "@MMK_R_h" = 0;
-"@MMK_R_hyphen" = -29;
-"@MMK_R_n" = -19;
-"@MMK_R_o" = -49;
-"@MMK_R_p" = -19;
-"@MMK_R_period" = -58;
-"@MMK_R_s" = -19;
-"@MMK_R_u" = -19;
-"@MMK_R_v" = -10;
-"@MMK_R_z" = -19;
+"@MMK_R_hyphen" = -30;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -40;
+"@MMK_R_p" = -20;
+"@MMK_R_period" = -60;
+"@MMK_R_s" = -20;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -40;
+"@MMK_R_x" = -10;
+"@MMK_R_z" = -20;
 x = -10;
 };
 "@MMK_L_L" = {
-"@MMK_R_A" = 24;
-"@MMK_R_H" = -19;
-"@MMK_R_T" = -39;
+"@MMK_R_A" = 25;
+"@MMK_R_H" = -20;
+"@MMK_R_T" = -40;
 "@MMK_R_U" = 0;
-"@MMK_R_V" = -39;
-"@MMK_R_Y" = -39;
-"@MMK_R_asterisk" = -97;
+"@MMK_R_V" = -40;
+"@MMK_R_Y" = -40;
+"@MMK_R_asterisk" = -100;
 "@MMK_R_v" = -13;
 };
 "@MMK_L_M" = {
@@ -224765,8 +224415,11 @@ x = -10;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -10;
+"@MMK_R_El-cy" = -30;
+"@MMK_R_Ereversed-cy" = -20;
+"@MMK_R_Ia-cy" = -10;
 "@MMK_R_T" = -12;
-"@MMK_R_V" = -29;
+"@MMK_R_V" = -30;
 "@MMK_R_X" = -18;
 "@MMK_R_Xi" = -20;
 "@MMK_R_Y" = -20;
@@ -224800,19 +224453,21 @@ x = -10;
 };
 "@MMK_L_R" = {
 "@MMK_R_O" = -10;
-"@MMK_R_U" = -19;
-"@MMK_R_V" = -29;
+"@MMK_R_U" = -20;
+"@MMK_R_U-cy" = -30;
+"@MMK_R_V" = -30;
 "@MMK_R_Y" = 0;
-"@MMK_R_asterisk" = 0;
+"@MMK_R_a" = -20;
+"@MMK_R_asterisk" = -40;
 "@MMK_R_h" = -10;
-"@MMK_R_hyphen" = -68;
+"@MMK_R_hyphen" = -70;
 "@MMK_R_n" = -10;
-"@MMK_R_o" = -29;
-"@MMK_R_p" = -19;
+"@MMK_R_o" = -30;
+"@MMK_R_p" = -20;
 "@MMK_R_period" = 0;
 "@MMK_R_s" = -20;
 "@MMK_R_u" = -30;
-"@MMK_R_v" = -19;
+"@MMK_R_v" = -20;
 };
 "@MMK_L_S" = {
 "@MMK_R_Y" = 0;
@@ -224824,21 +224479,44 @@ x = -10;
 "@MMK_R_v" = -19;
 x = -19;
 };
+"@MMK_L_Shha-cy" = {
+"@MMK_R_Che-cy" = -100;
+"@MMK_R_T" = -70;
+"@MMK_R_U-cy" = -50;
+"@MMK_R_V" = -70;
+"@MMK_R_Y" = -70;
+"@MMK_R_asterisk" = -100;
+};
+"@MMK_L_Softsign-cy" = {
+"@MMK_R_Che-cy" = -80;
+"@MMK_R_El-cy" = -20;
+"@MMK_R_T" = -50;
+"@MMK_R_U-cy" = -30;
+"@MMK_R_V" = -50;
+"@MMK_R_asterisk" = -100;
+"@MMK_R_period" = -20;
+};
 "@MMK_L_T" = {
 "@MMK_R_A" = -25;
+"@MMK_R_El-cy" = -20;
 "@MMK_R_O" = -12;
 "@MMK_R_Omega" = -30;
+"@MMK_R_a" = -50;
 "@MMK_R_h" = -10;
 "@MMK_R_hyphen" = -70;
 "@MMK_R_n" = -30;
 "@MMK_R_o" = -60;
 "@MMK_R_p" = -30;
 "@MMK_R_period" = -80;
-"@MMK_R_s" = -39;
-"@MMK_R_u" = -29;
-"@MMK_R_v" = -19;
-"@MMK_R_z" = -29;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
+"@MMK_R_v" = -50;
+"@MMK_R_x" = -30;
+"@MMK_R_z" = -30;
 x = -29;
+};
+"@MMK_L_Tshe-cy" = {
+"@MMK_R_Che-cy" = -60;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -10;
@@ -224849,51 +224527,69 @@ x = -29;
 "@MMK_R_period" = -49;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -41;
+"@MMK_R_A" = -42;
+"@MMK_R_El-cy" = -40;
+"@MMK_R_Ereversed-cy" = -10;
+"@MMK_R_Ia-cy" = -40;
 "@MMK_R_M" = -10;
-"@MMK_R_O" = -29;
+"@MMK_R_O" = -30;
+"@MMK_R_Phi" = -30;
 "@MMK_R_S" = -15;
-"@MMK_R_Y" = 0;
-"@MMK_R_f" = -29;
+"@MMK_R_Y" = 30;
+"@MMK_R_a" = -80;
+"@MMK_R_chi" = -20;
+"@MMK_R_epsilon" = -40;
+"@MMK_R_f" = -30;
+"@MMK_R_g" = -83;
+"@MMK_R_gamma" = -30;
 "@MMK_R_h" = -10;
-"@MMK_R_hyphen" = -78;
-"@MMK_R_j" = -29;
-"@MMK_R_n" = -39;
-"@MMK_R_o" = -73;
-"@MMK_R_p" = -39;
-"@MMK_R_period" = -116;
-"@MMK_R_s" = -68;
-"@MMK_R_u" = -41;
-"@MMK_R_v" = -26;
-"@MMK_R_z" = -39;
+"@MMK_R_hyphen" = -80;
+"@MMK_R_j" = -30;
+"@MMK_R_n" = -40;
+"@MMK_R_o" = -75;
+"@MMK_R_p" = -40;
+"@MMK_R_period" = -100;
+"@MMK_R_s" = -70;
+"@MMK_R_u" = -42;
+"@MMK_R_upsilon" = -20;
+"@MMK_R_v" = -27;
+"@MMK_R_x" = -40;
+"@MMK_R_z" = -40;
+"en-cy" = -70;
 x = -19;
 };
 "@MMK_L_X" = {
 "@MMK_R_A" = -16;
+"@MMK_R_Che-cy" = -10;
 "@MMK_R_O" = -18;
+"@MMK_R_a" = -10;
 "@MMK_R_hyphen" = -60;
 "@MMK_R_n" = 0;
 "@MMK_R_o" = -30;
 "@MMK_R_p" = -20;
 "@MMK_R_period" = 0;
-"@MMK_R_u" = -19;
-"@MMK_R_v" = -29;
+"@MMK_R_u" = -20;
+"@MMK_R_v" = -30;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -40;
 "@MMK_R_H" = 0;
+"@MMK_R_Ia-cy" = -30;
 "@MMK_R_M" = -10;
 "@MMK_R_O" = -20;
 "@MMK_R_Omega" = -30;
+"@MMK_R_Omegatonos" = 60;
 "@MMK_R_S" = 0;
-"@MMK_R_V" = 0;
+"@MMK_R_V" = 30;
 "@MMK_R_X" = -10;
 "@MMK_R_Y" = 30;
+"@MMK_R_a" = -60;
 "@MMK_R_alpha" = -50;
 "@MMK_R_asterisk" = 20;
 "@MMK_R_chi" = -30;
 "@MMK_R_epsilon" = -50;
 "@MMK_R_f" = -30;
+"@MMK_R_g" = -40;
 "@MMK_R_gamma" = -30;
 "@MMK_R_h" = 10;
 "@MMK_R_hyphen" = -60;
@@ -224906,15 +224602,18 @@ x = -19;
 "@MMK_R_period" = -80;
 "@MMK_R_pi" = -50;
 "@MMK_R_rho" = -30;
-"@MMK_R_s" = -49;
-"@MMK_R_u" = -29;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -30;
 "@MMK_R_upsilon" = -30;
-"@MMK_R_v" = -19;
-"@MMK_R_z" = -39;
-Omegadasia = 60;
+"@MMK_R_v" = -30;
+"@MMK_R_x" = -30;
+"@MMK_R_z" = -40;
 Omegadasiavaria = 65;
-i = -19;
+i = -20;
 x = -29;
+};
+"@MMK_L_Yat-cy" = {
+"@MMK_R_Che-cy" = -20;
 };
 "@MMK_L_Z" = {
 "@MMK_R_o" = -20;
@@ -224931,20 +224630,25 @@ x = -29;
 };
 "@MMK_L_asterisk" = {
 "@MMK_R_A" = -100;
+"@MMK_R_El-cy" = -50;
+"@MMK_R_Ia-cy" = -40;
+"@MMK_R_Omega" = 10;
 space = -38;
 };
 "@MMK_L_c" = {
 "@MMK_R_A" = 0;
 "@MMK_R_H" = -30;
 "@MMK_R_J" = -30;
-"@MMK_R_T" = -62;
-"@MMK_R_V" = -41;
+"@MMK_R_T" = -60;
+"@MMK_R_V" = -40;
 "@MMK_R_X" = 0;
 "@MMK_R_Y" = -50;
+"@MMK_R_a" = -10;
 "@MMK_R_h" = 0;
-"@MMK_R_hyphen" = -19;
-"@MMK_R_o" = -12;
-"@MMK_R_period" = -29;
+"@MMK_R_hyphen" = -20;
+"@MMK_R_o" = -15;
+"@MMK_R_period" = -30;
+"@MMK_R_x" = -20;
 x = -20;
 };
 "@MMK_L_chi" = {
@@ -224966,14 +224670,16 @@ x = -20;
 "@MMK_L_e" = {
 "@MMK_R_A" = -15;
 "@MMK_R_H" = -30;
-"@MMK_R_T" = -61;
+"@MMK_R_T" = -60;
 "@MMK_R_V" = -40;
 "@MMK_R_X" = 0;
 "@MMK_R_Y" = -50;
-"@MMK_R_asterisk" = -49;
+"@MMK_R_asterisk" = -50;
+"@MMK_R_g" = -10;
 "@MMK_R_h" = 0;
 "@MMK_R_o" = 0;
-"@MMK_R_period" = -29;
+"@MMK_R_period" = -30;
+"@MMK_R_x" = -20;
 x = -20;
 };
 "@MMK_L_epsilon" = {
@@ -224982,19 +224688,31 @@ x = -20;
 "@MMK_R_lambda" = -10;
 };
 "@MMK_L_f" = {
-"@MMK_R_H" = 49;
+"@MMK_R_H" = 50;
 "@MMK_R_S" = 30;
-"@MMK_R_T" = 97;
-"@MMK_R_U" = 97;
-"@MMK_R_V" = 97;
-"@MMK_R_X" = 97;
-"@MMK_R_Y" = 97;
-"@MMK_R_Z" = 97;
-"@MMK_R_asterisk" = 88;
-"@MMK_R_o" = -17;
-"@MMK_R_period" = -29;
-exclam = 39;
-question = 116;
+"@MMK_R_T" = 100;
+"@MMK_R_U" = 100;
+"@MMK_R_V" = 100;
+"@MMK_R_X" = 100;
+"@MMK_R_Y" = 100;
+"@MMK_R_Z" = 100;
+"@MMK_R_a" = -10;
+"@MMK_R_asterisk" = 90;
+"@MMK_R_g" = -20;
+"@MMK_R_o" = -18;
+"@MMK_R_period" = -30;
+exclam = 40;
+question = 120;
+};
+"@MMK_L_g" = {
+"@MMK_R_H" = -20;
+"@MMK_R_M" = -20;
+"@MMK_R_V" = -30;
+"@MMK_R_Y" = -20;
+"@MMK_R_a" = -13;
+"@MMK_R_asterisk" = -50;
+"@MMK_R_f" = -10;
+quoteright = 20;
 };
 "@MMK_L_gamma" = {
 "@MMK_R_X" = -10;
@@ -225004,16 +224722,18 @@ question = 116;
 };
 "@MMK_L_hyphen" = {
 "@MMK_R_A" = -50;
+"@MMK_R_Etatonos" = -10;
 "@MMK_R_H" = -30;
-"@MMK_R_J" = -29;
+"@MMK_R_J" = -30;
 "@MMK_R_M" = -30;
 "@MMK_R_T" = -70;
-"@MMK_R_U" = -29;
-"@MMK_R_V" = -78;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -80;
 "@MMK_R_X" = -60;
 "@MMK_R_Y" = -60;
 "@MMK_R_Z" = 0;
-"@MMK_R_v" = -19;
+"@MMK_R_v" = -20;
+"@MMK_R_x" = -20;
 space = -38;
 x = -19;
 };
@@ -225035,6 +224755,7 @@ x = -19;
 "@MMK_R_p" = 0;
 };
 "@MMK_L_lambda" = {
+"@MMK_R_Che-cy" = -90;
 "@MMK_R_Y" = -20;
 "@MMK_R_alpha" = -10;
 "@MMK_R_chi" = -30;
@@ -225054,7 +224775,7 @@ x = -19;
 "@MMK_R_V" = -40;
 "@MMK_R_Y" = -50;
 "@MMK_R_asterisk" = -80;
-"@MMK_R_v" = -18;
+"@MMK_R_v" = -19;
 quoteright = -40;
 };
 "@MMK_L_nu" = {
@@ -225065,7 +224786,9 @@ quoteright = -40;
 };
 "@MMK_L_o" = {
 "@MMK_R_A" = -5;
+"@MMK_R_Che-cy" = -20;
 "@MMK_R_H" = -20;
+"@MMK_R_Ia-cy" = -30;
 "@MMK_R_J" = -40;
 "@MMK_R_T" = -60;
 "@MMK_R_V" = -75;
@@ -225076,6 +224799,7 @@ quoteright = -40;
 "@MMK_R_gamma" = -30;
 "@MMK_R_period" = -40;
 "@MMK_R_v" = -16;
+"@MMK_R_x" = -20;
 quoteright = -20;
 x = -19;
 };
@@ -225086,7 +224810,10 @@ x = -19;
 "@MMK_R_chi" = -10;
 };
 "@MMK_L_period" = {
+"@MMK_R_Che-cy" = -160;
+"@MMK_R_Etatonos" = -50;
 "@MMK_R_O" = -50;
+"@MMK_R_Omega" = -10;
 "@MMK_R_T" = 0;
 "@MMK_R_U" = 0;
 "@MMK_R_V" = -100;
@@ -225095,8 +224822,8 @@ x = -19;
 "@MMK_R_h" = -40;
 "@MMK_R_o" = -40;
 "@MMK_R_p" = -30;
-"@MMK_R_u" = -42;
-"@MMK_R_v" = -74;
+"@MMK_R_u" = -40;
+"@MMK_R_v" = -70;
 space = -38;
 };
 "@MMK_L_pi" = {
@@ -225110,22 +224837,23 @@ space = -38;
 "@MMK_R_V" = -20;
 "@MMK_R_X" = -40;
 "@MMK_R_Y" = -40;
+"@MMK_R_a" = -10;
 "@MMK_R_asterisk" = 40;
 "@MMK_R_h" = 0;
-"@MMK_R_hyphen" = -19;
+"@MMK_R_hyphen" = -20;
 "@MMK_R_o" = -10;
-"@MMK_R_period" = -78;
+"@MMK_R_period" = -80;
 "@MMK_R_u" = 0;
-"@MMK_R_v" = 10;
+"@MMK_R_v" = 15;
 };
 "@MMK_L_s" = {
 "@MMK_R_H" = -30;
 "@MMK_R_J" = -10;
-"@MMK_R_T" = -42;
-"@MMK_R_V" = -61;
+"@MMK_R_T" = -40;
+"@MMK_R_V" = -60;
 "@MMK_R_X" = -30;
 "@MMK_R_Y" = -40;
-"@MMK_R_period" = -19;
+"@MMK_R_period" = -20;
 };
 "@MMK_L_sigma" = {
 "@MMK_R_Y" = -30;
@@ -225155,16 +224883,20 @@ quotesingle = 0;
 "@MMK_L_v" = {
 "@MMK_R_A" = -20;
 "@MMK_R_H" = -30;
+"@MMK_R_Ia-cy" = -20;
 "@MMK_R_J" = -40;
 "@MMK_R_M" = -20;
 "@MMK_R_S" = -20;
-"@MMK_R_T" = -51;
+"@MMK_R_T" = -50;
 "@MMK_R_V" = -27;
 "@MMK_R_X" = -30;
 "@MMK_R_Y" = -30;
-"@MMK_R_hyphen" = -29;
+"@MMK_R_a" = -16;
+"@MMK_R_asterisk" = 60;
+"@MMK_R_g" = -20;
+"@MMK_R_hyphen" = -30;
 "@MMK_R_o" = -16;
-"@MMK_R_period" = -78;
+"@MMK_R_period" = -70;
 };
 "@MMK_L_x" = {
 "@MMK_R_A" = 0;
@@ -225180,10 +224912,11 @@ quotesingle = 0;
 "@MMK_R_H" = -10;
 "@MMK_R_J" = -20;
 "@MMK_R_T" = -30;
-"@MMK_R_V" = -41;
+"@MMK_R_V" = -40;
 "@MMK_R_Y" = -40;
 };
 "@MMK_L_zeta" = {
+"@MMK_R_Che-cy" = 40;
 "@MMK_R_X" = 20;
 "@MMK_R_chi" = -10;
 "@MMK_R_gamma" = -20;
@@ -225204,14 +224937,18 @@ space = {
 };
 UUID1 = {
 "@MMK_L_A" = {
-"@MMK_R_J" = -19;
+"@MMK_R_Che-cy" = -70;
+"@MMK_R_El-cy" = 20;
+"@MMK_R_J" = -20;
 "@MMK_R_O" = -17;
 "@MMK_R_Phi" = -50;
 "@MMK_R_T" = -42;
-"@MMK_R_U" = -29;
-"@MMK_R_V" = -58;
+"@MMK_R_U" = -30;
+"@MMK_R_U-cy" = -40;
+"@MMK_R_V" = -60;
 "@MMK_R_X" = 0;
 "@MMK_R_Y" = -60;
+"@MMK_R_a" = -10;
 "@MMK_R_alpha" = -10;
 "@MMK_R_asterisk" = -80;
 "@MMK_R_chi" = -20;
@@ -225229,9 +224966,10 @@ UUID1 = {
 "@MMK_R_pi" = -20;
 "@MMK_R_rho" = -10;
 "@MMK_R_theta" = -20;
-"@MMK_R_u" = -10;
+"@MMK_R_u" = -20;
 "@MMK_R_upsilon" = -40;
-"@MMK_R_v" = -29;
+"@MMK_R_v" = -30;
+"@MMK_R_x" = 30;
 "@MMK_R_xi" = -10;
 b = 0;
 colon = 10;
@@ -225260,6 +224998,9 @@ x = 30;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -10;
 "@MMK_R_z" = 0;
+};
+"@MMK_L_Dje-cy" = {
+"@MMK_R_Che-cy" = -50;
 };
 "@MMK_L_E" = {
 "@MMK_R_Omega" = -10;
@@ -225306,10 +225047,12 @@ x = -10;
 };
 "@MMK_L_Gamma" = {
 "@MMK_R_A" = -60;
+"@MMK_R_El-cy" = -30;
 "@MMK_R_O" = -10;
 "@MMK_R_Omega" = -40;
 "@MMK_R_Y" = 10;
 "@MMK_R_alpha" = -40;
+"@MMK_R_asterisk" = 20;
 "@MMK_R_chi" = -20;
 "@MMK_R_epsilon" = -20;
 "@MMK_R_gamma" = -10;
@@ -225319,13 +225062,27 @@ x = -10;
 "@MMK_R_o" = -40;
 "@MMK_R_omega" = -30;
 "@MMK_R_p" = -30;
+"@MMK_R_period" = -100;
 "@MMK_R_pi" = -30;
 "@MMK_R_rho" = -40;
 "@MMK_R_upsilon" = -10;
 "@MMK_R_xi" = 20;
 };
+"@MMK_L_Ge-cy" = {
+"@MMK_R_A" = -90;
+"@MMK_R_El-cy" = -40;
+"@MMK_R_Ia-cy" = -30;
+"@MMK_R_O" = -50;
+"@MMK_R_U-cy" = 10;
+"@MMK_R_asterisk" = 20;
+"@MMK_R_period" = -100;
+};
+"@MMK_L_Ghemiddlehook-cy" = {
+"@MMK_R_Che-cy" = -10;
+};
 "@MMK_L_H" = {
 "@MMK_R_A" = -20;
+"@MMK_R_a" = -10;
 "@MMK_R_h" = 40;
 "@MMK_R_hyphen" = -30;
 "@MMK_R_n" = 0;
@@ -225333,21 +225090,24 @@ x = -10;
 "@MMK_R_p" = -20;
 "@MMK_R_period" = -30;
 "@MMK_R_s" = 0;
-"@MMK_R_u" = -15;
-"@MMK_R_v" = -10;
+"@MMK_R_u" = -20;
+"@MMK_R_v" = -20;
 };
 "@MMK_L_J" = {
-"@MMK_R_A" = -19;
+"@MMK_R_A" = -20;
 "@MMK_R_H" = -10;
+"@MMK_R_a" = -10;
+"@MMK_R_g" = -20;
 "@MMK_R_h" = 40;
-"@MMK_R_hyphen" = -29;
-"@MMK_R_n" = -19;
-"@MMK_R_o" = -19;
+"@MMK_R_hyphen" = -30;
+"@MMK_R_n" = -20;
+"@MMK_R_o" = -20;
 "@MMK_R_p" = -15;
-"@MMK_R_period" = -29;
+"@MMK_R_period" = -30;
 "@MMK_R_s" = -10;
 "@MMK_R_u" = -10;
 "@MMK_R_v" = -10;
+"@MMK_R_x" = -10;
 "@MMK_R_z" = -10;
 t = 0;
 x = -10;
@@ -225375,15 +225135,20 @@ x = -10;
 };
 "@MMK_L_O" = {
 "@MMK_R_A" = -17;
+"@MMK_R_El-cy" = -20;
+"@MMK_R_Ereversed-cy" = -10;
+"@MMK_R_Ia-cy" = -10;
 "@MMK_R_T" = -8;
-"@MMK_R_V" = -29;
+"@MMK_R_U-cy" = -10;
+"@MMK_R_V" = -30;
 "@MMK_R_X" = -17;
 "@MMK_R_Y" = -50;
+"@MMK_R_a" = -10;
 "@MMK_R_asterisk" = -10;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -10;
 "@MMK_R_period" = -50;
-"@MMK_R_v" = 19;
+"@MMK_R_v" = 20;
 };
 "@MMK_L_Omega" = {
 "@MMK_R_Xi" = -10;
@@ -225433,9 +225198,24 @@ x = -10;
 "@MMK_R_v" = -19;
 x = -19;
 };
+"@MMK_L_Shha-cy" = {
+"@MMK_R_Che-cy" = -90;
+"@MMK_R_T" = -50;
+"@MMK_R_U-cy" = -40;
+"@MMK_R_V" = -60;
+"@MMK_R_asterisk" = -100;
+};
+"@MMK_L_Softsign-cy" = {
+"@MMK_R_Che-cy" = -80;
+"@MMK_R_T" = -40;
+"@MMK_R_U-cy" = -30;
+"@MMK_R_asterisk" = -100;
+};
 "@MMK_L_T" = {
 "@MMK_R_A" = -42;
+"@MMK_R_El-cy" = -20;
 "@MMK_R_O" = -8;
+"@MMK_R_a" = -20;
 "@MMK_R_h" = 20;
 "@MMK_R_hyphen" = -70;
 "@MMK_R_n" = 10;
@@ -225443,10 +225223,14 @@ x = -19;
 "@MMK_R_p" = 20;
 "@MMK_R_period" = -50;
 "@MMK_R_s" = -10;
-"@MMK_R_u" = 19;
-"@MMK_R_v" = 19;
+"@MMK_R_u" = 20;
+"@MMK_R_v" = 20;
+"@MMK_R_x" = 20;
 "@MMK_R_z" = -10;
 x = 19;
+};
+"@MMK_L_Tshe-cy" = {
+"@MMK_R_Che-cy" = -60;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -29;
@@ -225457,23 +225241,27 @@ x = 19;
 "@MMK_R_period" = -49;
 };
 "@MMK_L_V" = {
-"@MMK_R_A" = -58;
+"@MMK_R_A" = -60;
 "@MMK_R_M" = -10;
-"@MMK_R_O" = -29;
+"@MMK_R_O" = -30;
+"@MMK_R_Phi" = -20;
 "@MMK_R_S" = -10;
 "@MMK_R_Y" = 10;
-"@MMK_R_f" = -19;
+"@MMK_R_a" = -60;
+"@MMK_R_f" = -20;
+"@MMK_R_g" = -40;
 "@MMK_R_h" = 10;
-"@MMK_R_hyphen" = -58;
+"@MMK_R_hyphen" = -60;
 "@MMK_R_j" = -10;
-"@MMK_R_n" = -58;
-"@MMK_R_o" = -58;
-"@MMK_R_p" = -39;
-"@MMK_R_period" = -78;
-"@MMK_R_s" = -39;
-"@MMK_R_u" = -49;
-"@MMK_R_v" = -19;
-"@MMK_R_z" = -39;
+"@MMK_R_n" = -60;
+"@MMK_R_o" = -60;
+"@MMK_R_p" = -40;
+"@MMK_R_period" = -80;
+"@MMK_R_s" = -40;
+"@MMK_R_u" = -50;
+"@MMK_R_v" = -20;
+"@MMK_R_x" = -30;
+"@MMK_R_z" = -40;
 x = -29;
 };
 "@MMK_L_X" = {
@@ -225489,16 +225277,20 @@ x = -29;
 };
 "@MMK_L_Y" = {
 "@MMK_R_A" = -60;
+"@MMK_R_Ia-cy" = -40;
 "@MMK_R_M" = -20;
 "@MMK_R_O" = -50;
 "@MMK_R_Omega" = -50;
-"@MMK_R_S" = -19;
+"@MMK_R_Phi" = -50;
+"@MMK_R_S" = -20;
 "@MMK_R_V" = 10;
 "@MMK_R_X" = -30;
+"@MMK_R_a" = -70;
 "@MMK_R_alpha" = -50;
 "@MMK_R_asterisk" = 20;
 "@MMK_R_epsilon" = -40;
 "@MMK_R_f" = -30;
+"@MMK_R_g" = -60;
 "@MMK_R_gamma" = -20;
 "@MMK_R_h" = 10;
 "@MMK_R_hyphen" = -100;
@@ -225510,13 +225302,17 @@ x = -29;
 "@MMK_R_period" = -60;
 "@MMK_R_pi" = -40;
 "@MMK_R_rho" = -40;
-"@MMK_R_s" = -58;
-"@MMK_R_u" = -68;
+"@MMK_R_s" = -60;
+"@MMK_R_u" = -70;
 "@MMK_R_upsilon" = -20;
-"@MMK_R_v" = -68;
-"@MMK_R_z" = -58;
-i = -29;
+"@MMK_R_v" = -70;
+"@MMK_R_x" = -60;
+"@MMK_R_z" = -60;
+i = -30;
 x = -58;
+};
+"@MMK_L_Yat-cy" = {
+"@MMK_R_Che-cy" = -50;
 };
 "@MMK_L_Z" = {
 "@MMK_R_o" = 0;
@@ -225536,18 +225332,21 @@ x = -58;
 };
 "@MMK_L_asterisk" = {
 "@MMK_R_A" = 0;
+"@MMK_R_Ia-cy" = -20;
 space = -38;
 };
 "@MMK_L_c" = {
 "@MMK_R_A" = -20;
-"@MMK_R_H" = -10;
+"@MMK_R_H" = -20;
 "@MMK_R_J" = 0;
 "@MMK_R_T" = 0;
 "@MMK_R_V" = 0;
 "@MMK_R_X" = -20;
 "@MMK_R_Y" = -60;
+"@MMK_R_a" = -10;
+"@MMK_R_g" = -20;
 "@MMK_R_h" = -10;
-"@MMK_R_hyphen" = -19;
+"@MMK_R_hyphen" = -20;
 "@MMK_R_o" = -15;
 "@MMK_R_period" = -10;
 x = 0;
@@ -225572,12 +225371,13 @@ x = 0;
 };
 "@MMK_L_e" = {
 "@MMK_R_A" = -20;
-"@MMK_R_H" = -10;
+"@MMK_R_H" = -20;
 "@MMK_R_T" = -10;
 "@MMK_R_V" = 0;
 "@MMK_R_X" = -20;
 "@MMK_R_Y" = -60;
-"@MMK_R_asterisk" = -19;
+"@MMK_R_asterisk" = -20;
+"@MMK_R_g" = -10;
 "@MMK_R_h" = -10;
 "@MMK_R_o" = -5;
 "@MMK_R_period" = -10;
@@ -225590,19 +225390,20 @@ x = 0;
 "@MMK_R_lambda" = -10;
 };
 "@MMK_L_f" = {
-"@MMK_R_H" = 78;
+"@MMK_R_H" = 80;
 "@MMK_R_S" = 40;
-"@MMK_R_T" = 78;
-"@MMK_R_U" = 78;
-"@MMK_R_V" = 78;
-"@MMK_R_X" = 78;
-"@MMK_R_Y" = 78;
-"@MMK_R_Z" = 78;
-"@MMK_R_asterisk" = 116;
+"@MMK_R_T" = 80;
+"@MMK_R_U" = 80;
+"@MMK_R_V" = 80;
+"@MMK_R_X" = 80;
+"@MMK_R_Y" = 120;
+"@MMK_R_Z" = 80;
+"@MMK_R_asterisk" = 120;
+"@MMK_R_g" = 10;
 "@MMK_R_o" = 0;
 "@MMK_R_period" = 0;
-exclam = 97;
-question = 97;
+exclam = 100;
+question = 100;
 };
 "@MMK_L_gamma" = {
 "@MMK_R_A" = -30;
@@ -225614,16 +225415,18 @@ question = 97;
 };
 "@MMK_L_hyphen" = {
 "@MMK_R_A" = -40;
+"@MMK_R_Etatonos" = -10;
 "@MMK_R_H" = -30;
-"@MMK_R_J" = -29;
+"@MMK_R_J" = -30;
 "@MMK_R_M" = -30;
 "@MMK_R_T" = -70;
-"@MMK_R_U" = -29;
-"@MMK_R_V" = -58;
+"@MMK_R_U" = -30;
+"@MMK_R_V" = -60;
 "@MMK_R_X" = -60;
 "@MMK_R_Y" = -100;
 "@MMK_R_Z" = -50;
-"@MMK_R_v" = -29;
+"@MMK_R_v" = -30;
+"@MMK_R_x" = -40;
 space = -38;
 x = -39;
 };
@@ -225660,8 +225463,8 @@ x = -39;
 };
 "@MMK_L_n" = {
 "@MMK_R_A" = -10;
-"@MMK_R_H" = 0;
-"@MMK_R_J" = 0;
+"@MMK_R_H" = -10;
+"@MMK_R_J" = -20;
 "@MMK_R_S" = 0;
 "@MMK_R_T" = -20;
 "@MMK_R_V" = 0;
@@ -225690,6 +225493,7 @@ quoteright = 0;
 "@MMK_R_chi" = -20;
 "@MMK_R_period" = -20;
 "@MMK_R_v" = -10;
+"@MMK_R_x" = -13;
 quoteright = 0;
 x = -13;
 };
@@ -225701,9 +225505,13 @@ x = -13;
 "@MMK_R_lambda" = -20;
 };
 "@MMK_L_period" = {
-"@MMK_R_O" = -50;
+"@MMK_R_Che-cy" = -150;
+"@MMK_R_Etatonos" = -80;
+"@MMK_R_O" = -70;
+"@MMK_R_Omega" = -30;
 "@MMK_R_T" = -50;
 "@MMK_R_U" = -50;
+"@MMK_R_Upsilontonos" = -90;
 "@MMK_R_V" = -80;
 "@MMK_R_Y" = -60;
 "@MMK_R_asterisk" = -60;
@@ -225711,7 +225519,7 @@ x = -13;
 "@MMK_R_o" = 0;
 "@MMK_R_p" = 0;
 "@MMK_R_u" = 0;
-"@MMK_R_v" = -62;
+"@MMK_R_v" = -60;
 space = -38;
 };
 "@MMK_L_pi" = {
@@ -225721,16 +225529,17 @@ space = -38;
 };
 "@MMK_L_r" = {
 "@MMK_R_A" = -50;
-"@MMK_R_H" = -42;
+"@MMK_R_H" = -40;
 "@MMK_R_J" = -20;
 "@MMK_R_V" = 0;
 "@MMK_R_X" = -60;
 "@MMK_R_Y" = -60;
-"@MMK_R_asterisk" = 0;
+"@MMK_R_a" = -10;
+"@MMK_R_asterisk" = 20;
 "@MMK_R_h" = -20;
-"@MMK_R_hyphen" = -19;
+"@MMK_R_hyphen" = -20;
 "@MMK_R_o" = -10;
-"@MMK_R_period" = -49;
+"@MMK_R_period" = -50;
 "@MMK_R_u" = 10;
 "@MMK_R_v" = 10;
 };
@@ -225791,9 +225600,12 @@ quotesingle = 20;
 "@MMK_R_V" = 0;
 "@MMK_R_X" = -40;
 "@MMK_R_Y" = -70;
-"@MMK_R_hyphen" = -29;
+"@MMK_R_a" = -10;
+"@MMK_R_asterisk" = 40;
+"@MMK_R_g" = -10;
+"@MMK_R_hyphen" = -30;
 "@MMK_R_o" = -10;
-"@MMK_R_period" = -58;
+"@MMK_R_period" = -60;
 };
 "@MMK_L_x" = {
 "@MMK_R_A" = 30;
@@ -225835,6 +225647,9 @@ space = {
 "@MMK_R_asterisk" = -18;
 "@MMK_R_hyphen" = -18;
 "@MMK_R_period" = -18;
+};
+t = {
+"@MMK_R_H" = -10;
 };
 };
 };
