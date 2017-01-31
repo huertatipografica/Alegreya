@@ -1,5 +1,9 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek,
+/Aogonek/aogonek.sc/aogonek/Eogonek/eogonek.sc/eogonek/Iogonek/iogonek.sc/iogonek/Oogonek/oogonek.sc/oogonek/Uogonek/uogonek.sc/uogonek
+);
 classes = (
 {
 automatic = 1;
@@ -4606,7 +4610,7 @@ unicode = 1E14;
 {
 color = 10;
 glyphname = Eogonek;
-lastChange = "2016-11-08 12:58:06 +0000";
+lastChange = "2017-01-31 22:07:45 +0000";
 layers = (
 {
 components = (
@@ -4624,6 +4628,7 @@ layerId = UUID0;
 width = 591;
 },
 {
+background = {
 components = (
 {
 alignment = -1;
@@ -4632,7 +4637,19 @@ name = E;
 {
 alignment = -1;
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 278, 0}";
+transform = "{1, 0, 0, 1, 258, 0}";
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = E;
+},
+{
+alignment = -1;
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 258, 0}";
 }
 );
 layerId = UUID1;
@@ -10369,7 +10386,7 @@ unicode = 1E50;
 {
 color = 10;
 glyphname = Oogonek;
-lastChange = "2016-11-08 12:55:50 +0000";
+lastChange = "2017-01-31 22:07:58 +0000";
 layers = (
 {
 components = (
@@ -10395,7 +10412,7 @@ name = O;
 {
 alignment = -1;
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 197, 0}";
+transform = "{1, 0, 0, 1, 187, 0}";
 }
 );
 layerId = UUID1;
@@ -25647,14 +25664,14 @@ unicode = 012B;
 {
 color = 10;
 glyphname = iogonek;
-lastChange = "2016-11-08 12:55:35 +0000";
+lastChange = "2017-01-31 22:08:11 +0000";
 layers = (
 {
 components = (
 {
 alignment = -1;
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, -50, 0}";
+transform = "{1, 0, 0, 1, -54, 0}";
 },
 {
 alignment = -1;
@@ -25669,7 +25686,7 @@ components = (
 {
 alignment = -1;
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 5, 9}";
+transform = "{1, 0, 0, 1, -5, 9}";
 },
 {
 alignment = -1;
