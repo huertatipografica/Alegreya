@@ -1,5 +1,9 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+/Aogonek/Eogonek/Iogonek/Oogonek/Uogonek,
+/Aogonek/aogonek.sc/aogonek/Eogonek/eogonek.sc/eogonek/Iogonek/iogonek.sc/iogonek/Oogonek/oogonek.sc/oogonek/Uogonek/uogonek.sc/uogonek
+);
 classes = (
 {
 automatic = 1;
@@ -1992,7 +1996,7 @@ position = "{250, 0}";
 },
 {
 name = ogonek;
-position = "{472, 10}";
+position = "{502, 40}";
 },
 {
 name = top;
@@ -2154,7 +2158,7 @@ position = "{302, 0}";
 },
 {
 name = ogonek;
-position = "{576, 40}";
+position = "{596, 40}";
 },
 {
 name = top;
@@ -3253,7 +3257,7 @@ name = A;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 239, -30}";
+transform = "{1, 0, 0, 1, 269, 0}";
 }
 );
 layerId = UUID0;
@@ -3266,7 +3270,7 @@ name = A;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 343, 0}";
+transform = "{1, 0, 0, 1, 363, 0}";
 }
 );
 layerId = UUID1;
@@ -5012,7 +5016,7 @@ position = "{256, 0}";
 },
 {
 name = ogonek;
-position = "{454, 10}";
+position = "{434, 38}";
 },
 {
 name = top;
@@ -6098,7 +6102,7 @@ name = E;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 221, -30}";
+transform = "{1, 0, 0, 1, 201, -2}";
 }
 );
 layerId = UUID0;
@@ -7672,7 +7676,7 @@ position = "{145, 0}";
 },
 {
 name = ogonek;
-position = "{232, 30}";
+position = "{242, 33}";
 },
 {
 name = top;
@@ -7794,7 +7798,7 @@ position = "{151, 0}";
 },
 {
 name = ogonek;
-position = "{274, 40}";
+position = "{264, 40}";
 },
 {
 name = top;
@@ -8416,7 +8420,7 @@ name = I;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, -1, -10}";
+transform = "{1, 0, 0, 1, 9, -7}";
 }
 );
 layerId = UUID0;
@@ -8429,7 +8433,7 @@ name = I;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 41, 0}";
+transform = "{1, 0, 0, 1, 31, 0}";
 }
 );
 layerId = UUID1;
@@ -29627,8 +29631,8 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"229 136 LINE",
-"56 -40 OFFCURVE",
+"259 136 LINE",
+"66 -40 OFFCURVE",
 "15 -95 OFFCURVE",
 "15 -151 CURVE SMOOTH",
 "15 -208 OFFCURVE",
@@ -51045,7 +51049,7 @@ position = "{212, 0}";
 },
 {
 name = ogonek;
-position = "{405, 10}";
+position = "{435, 39}";
 },
 {
 name = top;
@@ -51207,7 +51211,7 @@ position = "{256, 0}";
 },
 {
 name = ogonek;
-position = "{486, 10}";
+position = "{500, 40}";
 },
 {
 name = top;
@@ -52134,7 +52138,7 @@ name = a.sc;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 172, -30}";
+transform = "{1, 0, 0, 1, 202, -1}";
 }
 );
 layerId = UUID0;
@@ -52147,7 +52151,7 @@ name = a.sc;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 253, -30}";
+transform = "{1, 0, 0, 1, 267, 0}";
 }
 );
 layerId = UUID1;
@@ -53830,7 +53834,7 @@ position = "{223, 0}";
 },
 {
 name = ogonek;
-position = "{408, 10}";
+position = "{378, 40}";
 },
 {
 name = top;
@@ -54006,7 +54010,7 @@ position = "{230, 0}";
 },
 {
 name = ogonek;
-position = "{421, 10}";
+position = "{391, 39}";
 },
 {
 name = top;
@@ -54875,7 +54879,7 @@ name = e.sc;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 175, -30}";
+transform = "{1, 0, 0, 1, 145, 0}";
 }
 );
 layerId = UUID0;
@@ -54888,7 +54892,7 @@ name = e.sc;
 },
 {
 name = ogonekcomb;
-transform = "{1, 0, 0, 1, 188, -30}";
+transform = "{1, 0, 0, 1, 158, -1}";
 }
 );
 layerId = UUID1;
@@ -56580,7 +56584,7 @@ position = "{123, 0}";
 },
 {
 name = ogonek;
-position = "{235, 10}";
+position = "{235, 35}";
 },
 {
 name = top;
@@ -56696,7 +56700,7 @@ position = "{126, 0}";
 },
 {
 name = ogonek;
-position = "{251, 10}";
+position = "{237, 40}";
 },
 {
 name = top;
@@ -57577,25 +57581,26 @@ layers = (
 {
 components = (
 {
-name = ogonekcomb;
-transform = "{0.965, 0, 0, 0.968, 26, -9}";
+name = i.sc;
 },
 {
-name = i.sc;
-transform = "{1, 0, 0, 1, 19, 0}";
+alignment = 1;
+name = ogonekcomb;
+transform = "{0.965, 0, 0, 0.968, 10, -4}";
 }
 );
 layerId = UUID0;
-width = 303;
+width = 307;
 },
 {
 components = (
 {
-name = ogonekcomb;
-transform = "{1, 0, 0, 1, 31, 0}";
+name = i.sc;
 },
 {
-name = i.sc;
+alignment = 1;
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 4, 0}";
 }
 );
 layerId = UUID1;
@@ -60887,7 +60892,7 @@ position = "{268, 252}";
 },
 {
 name = ogonek;
-position = "{451, 10}";
+position = "{370, 39}";
 },
 {
 name = top;
@@ -62045,6 +62050,7 @@ layerId = UUID0;
 width = 564;
 },
 {
+background = {
 components = (
 {
 name = ogonekcomb;
@@ -62052,6 +62058,17 @@ transform = "{1, 0, 0, 1, 149, 0}";
 },
 {
 name = o.sc;
+}
+);
+};
+components = (
+{
+name = o.sc;
+},
+{
+alignment = 1;
+name = ogonekcomb;
+transform = "{1, 0, 0, 1, 137, -1}";
 }
 );
 layerId = UUID1;
