@@ -1,9 +1,12 @@
 {
 .appVersion = "939";
+DisplayStrings = (
+"/alphavariaypogegrammeni/alphavariaypogegrammeni.sc/alphavariaypogegrammeni.sc.ss05 \012/ypogegrammenicomb/Alphaprosgegrammeni/Etaprosgegrammeni/Omegaprosgegrammeni/alphaypogegrammeni/etaypogegrammeni/omegaypogegrammeni/alphaypogegrammeni.sc/alphavariaypogegrammeni.sc/etaypogegrammeni.sc/omegaypogegrammeni.sc/omegavariaypogegrammeni.sc/omegaperispomeniypogegrammeni.sc/ypogegrammeni/alphavariaypogegrammeni.sc/omegavariaypogegrammeni.sc \012/varia/Alphavaria/Epsilonvaria/Etavaria/Iotavaria/Omicronvaria/Upsilonvaria/Omegavaria/alphavaria/alphavariaypogegrammeni/epsilonvaria/etavaria/etavariaypogegrammeni/iotavaria/omicronvaria/upsilonvaria/omegavaria/omegavariaypogegrammeni/alphavaria.sc/epsilonvaria.sc/etavaria.sc/etavariaypogegrammeni.sc/omicronvaria.sc/upsilonvaria.sc/omegavaria.sc/alphavariaypogegrammeni.sc.ss05/etavariaypogegrammeni.sc.ss05/omegavariaypogegrammeni.sc.ss05"
+);
 classes = (
 {
 automatic = 1;
-code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD Germandbls.alt C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Qa-cy We-cy Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.scss05 Alphapsiliprosgegrammeni.scss05 Alphadasiaprosgegrammeni.scss05 Alphapsilivariaprosgegrammeni.scss05 Alphadasiavariaprosgegrammeni.scss05 Alphapsilioxiaprosgegrammeni.scss05 Alphadasiaoxiaprosgegrammeni.scss05 Alphapsiliperispomeniprosgegrammeni.scss05 Alphadasiaperispomeniprosgegrammeni.scss05 Etaprosgegrammeni.scss05 Etapsiliprosgegrammeni.scss05 Etadasiaprosgegrammeni.scss05 Etapsilivariaprosgegrammeni.scss05 Etadasiavariaprosgegrammeni.scss05 Etapsilioxiaprosgegrammeni.scss05 Etadasiaoxiaprosgegrammeni.scss05 Etapsiliperispomeniprosgegrammeni.scss05 Etadasiaperispomeniprosgegrammeni.scss05 Omegaprosgegrammeni.scss05 Omegapsiliprosgegrammeni.scss05 Omegadasiaprosgegrammeni.scss05 Omegapsilivariaprosgegrammeni.scss05 Omegadasiavariaprosgegrammeni.scss05 Omegapsilioxiaprosgegrammeni.scss05 Omegadasiaoxiaprosgegrammeni.scss05 Omegapsiliperispomeniprosgegrammeni.scss05 Omegadasiaperispomeniprosgegrammeni.scss05 Alphaprosgegrammeni.ss05 Alphapsiliprosgegrammeni.ss05 Alphadasiaprosgegrammeni.ss05 Alphapsilivariaprosgegrammeni.ss05 Alphadasiavariaprosgegrammeni.ss05 Alphapsilioxiaprosgegrammeni.ss05 Alphadasiaoxiaprosgegrammeni.ss05 Alphapsiliperispomeniprosgegrammeni.ss05 Alphadasiaperispomeniprosgegrammeni.ss05 Etaprosgegrammeni.ss05 Etapsiliprosgegrammeni.ss05 Etadasiaprosgegrammeni.ss05 Etapsilivariaprosgegrammeni.ss05 Etadasiavariaprosgegrammeni.ss05 Etapsilioxiaprosgegrammeni.ss05 Etadasiaoxiaprosgegrammeni.ss05 Etapsiliperispomeniprosgegrammeni.ss05 Etadasiaperispomeniprosgegrammeni.ss05 Omegaprosgegrammeni.ss05 Omegapsiliprosgegrammeni.ss05 Omegadasiaprosgegrammeni.ss05 Omegapsilivariaprosgegrammeni.ss05 Omegadasiavariaprosgegrammeni.ss05 Omegapsilioxiaprosgegrammeni.ss05 Omegadasiaoxiaprosgegrammeni.ss05 Omegapsiliperispomeniprosgegrammeni.ss05 Omegadasiaperispomeniprosgegrammeni.ss05";
+code = "A Aacute Abreve Abreveacute Abrevedotbelow Abrevegrave Abrevehookabove Abrevetilde Acaron Acircumflex Acircumflexacute Acircumflexdotbelow Acircumflexgrave Acircumflexhookabove Acircumflextilde Adblgrave Adieresis Adotbelow Agrave Ahookabove Ainvertedbreve Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D DZcaron Eth Dcaron Dcroat Ddotbelow Dlinebelow Dzcaron E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Ecircumflexacute Ecircumflexdotbelow Ecircumflexgrave Ecircumflexhookabove Ecircumflextilde Edblgrave Edieresis Edotaccent Edotbelow Egrave Ehookabove Einvertedbreve Emacron Emacronacute Emacrongrave Eogonek Etilde F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icaron Icircumflex Idblgrave Idieresis Idieresisacute Idotaccent Idotbelow Igrave Ihookabove Iinvertedbreve Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L LJ Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lj Llinebelow Lslash M Mdotbelow N NJ Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Eng Nj Nlinebelow Ntilde O Oacute Obreve Ocaron Ocircumflex Ocircumflexacute Ocircumflexdotbelow Ocircumflexgrave Ocircumflexhookabove Ocircumflextilde Odblgrave Odieresis Odieresismacron Odotaccentmacron Odotbelow Ograve Ohookabove Ohorn Ohornacute Ohorndotbelow Ohorngrave Ohornhookabove Ohorntilde Ohungarumlaut Oinvertedbreve Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis Otildemacron OE P Thorn Q R Racute Rcaron Rcommaaccent Rdblgrave Rdotbelow Rinvertedbreve Rlinebelow S Sacute Sacutedotaccent Saltillo Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls Schwa T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tlinebelow U Uacute Ubreve Ucaron Ucircumflex Udblgrave Udieresis Udieresisacute Udieresiscaron Udieresisgrave Udieresismacron Udotbelow Ugrave Uhookabove Uhorn Uhornacute Uhorndotbelow Uhorngrave Uhornhookabove Uhorntilde Uhungarumlaut Uinvertedbreve Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ydotbelow Ygrave Yhookabove Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Iacute_J.loclNLD Germandbls.alt C.ss01 D.ss01 I.ss01 L.ss01 M.ss01 V.ss01 X.ss01 A-cy Be-cy Ve-cy Ge-cy Gje-cy Gheupturn-cy De-cy Ie-cy Iegrave-cy Io-cy Zhe-cy Ze-cy Ii-cy Iishort-cy Iigrave-cy Ka-cy Kje-cy El-cy Em-cy En-cy O-cy Pe-cy Er-cy Es-cy Te-cy U-cy Ushort-cy Ef-cy Ha-cy Che-cy Tse-cy Sha-cy Shcha-cy Dzhe-cy Softsign-cy Hardsign-cy Yeru-cy Lje-cy Nje-cy Dze-cy E-cy Ereversed-cy I-cy Yi-cy Je-cy Tshe-cy Iu-cy Ia-cy Dje-cy Yat-cy Yusbig-cy Fita-cy Izhitsa-cy Ghestroke-cy Ghemiddlehook-cy Zhedescender-cy Zedescender-cy Kadescender-cy Kaverticalstroke-cy Kabashkir-cy Endescender-cy Enghe-cy Esdescender-cy Ustrait-cy Ustraitstroke-cy Chedescender-cy Cheverticalstroke-cy Shha-cy Palochka-cy Zhebreve-cy Chekhakassian-cy Abreve-cy Adieresis-cy Aie-cy Iebreve-cy Schwa-cy Zhedieresis-cy Zedieresis-cy Imacron-cy Idieresis-cy Odieresis-cy Obarred-cy Umacron-cy Udieresis-cy Uhungarumlaut-cy Chedieresis-cy Gedescender-cy Yerudieresis-cy Qa-cy We-cy Alpha Beta Gamma Delta Epsilon Zeta Eta Theta Iota Kappa Lambda Mu Nu Xi Omicron Pi Rho Sigma Tau Upsilon Phi Chi Psi Omega Alphatonos Epsilontonos Etatonos Iotatonos Omicrontonos Upsilontonos Omegatonos Iotadieresis Upsilondieresis Alphapsili Alphadasia Alphapsilivaria Alphadasiavaria Alphapsilioxia Alphadasiaoxia Alphapsiliperispomeni Alphadasiaperispomeni Alphavaria Alphaoxia Alphavrachy Alphamacron Alphaprosgegrammeni Alphapsiliprosgegrammeni Alphadasiaprosgegrammeni Alphapsilivariaprosgegrammeni Alphadasiavariaprosgegrammeni Alphapsilioxiaprosgegrammeni Alphadasiaoxiaprosgegrammeni Alphapsiliperispomeniprosgegrammeni Alphadasiaperispomeniprosgegrammeni Epsilonpsili Epsilondasia Epsilonpsilivaria Epsilondasiavaria Epsilonpsilioxia Epsilondasiaoxia Epsilonvaria Epsilonoxia Etapsili Etadasia Etapsilivaria Etadasiavaria Etapsilioxia Etadasiaoxia Etapsiliperispomeni Etadasiaperispomeni Etavaria Etaoxia Etaprosgegrammeni Etapsiliprosgegrammeni Etadasiaprosgegrammeni Etapsilivariaprosgegrammeni Etadasiavariaprosgegrammeni Etapsilioxiaprosgegrammeni Etadasiaoxiaprosgegrammeni Etapsiliperispomeniprosgegrammeni Etadasiaperispomeniprosgegrammeni Iotapsili Iotadasia Iotapsilivaria Iotadasiavaria Iotapsilioxia Iotadasiaoxia Iotapsiliperispomeni Iotadasiaperispomeni Iotavaria Iotaoxia Iotavrachy Iotamacron Omicronpsili Omicrondasia Omicronpsilivaria Omicrondasiavaria Omicronpsilioxia Omicrondasiaoxia Omicronvaria Omicronoxia Rhodasia Upsilondasia Upsilondasiavaria Upsilondasiaoxia Upsilondasiaperispomeni Upsilonvaria Upsilonoxia Upsilonvrachy Upsilonmacron Omegapsili Omegadasia Omegapsilivaria Omegadasiavaria Omegapsilioxia Omegadasiaoxia Omegapsiliperispomeni Omegadasiaperispomeni Omegavaria Omegaoxia Omegaprosgegrammeni Omegapsiliprosgegrammeni Omegadasiaprosgegrammeni Omegapsilivariaprosgegrammeni Omegadasiavariaprosgegrammeni Omegapsilioxiaprosgegrammeni Omegadasiaoxiaprosgegrammeni Omegapsiliperispomeniprosgegrammeni Omegadasiaperispomeniprosgegrammeni Alphaprosgegrammeni.ss05 Alphapsiliprosgegrammeni.ss05 Alphadasiaprosgegrammeni.ss05 Alphapsilivariaprosgegrammeni.ss05 Alphadasiavariaprosgegrammeni.ss05 Alphapsilioxiaprosgegrammeni.ss05 Alphadasiaoxiaprosgegrammeni.ss05 Alphapsiliperispomeniprosgegrammeni.ss05 Alphadasiaperispomeniprosgegrammeni.ss05 Etaprosgegrammeni.ss05 Etapsiliprosgegrammeni.ss05 Etadasiaprosgegrammeni.ss05 Etapsilivariaprosgegrammeni.ss05 Etadasiavariaprosgegrammeni.ss05 Etapsilioxiaprosgegrammeni.ss05 Etadasiaoxiaprosgegrammeni.ss05 Etapsiliperispomeniprosgegrammeni.ss05 Etadasiaperispomeniprosgegrammeni.ss05 Omegaprosgegrammeni.ss05 Omegapsiliprosgegrammeni.ss05 Omegadasiaprosgegrammeni.ss05 Omegapsilivariaprosgegrammeni.ss05 Omegadasiavariaprosgegrammeni.ss05 Omegapsilioxiaprosgegrammeni.ss05 Omegadasiaoxiaprosgegrammeni.ss05 Omegapsiliperispomeniprosgegrammeni.ss05 Omegadasiaperispomeniprosgegrammeni.ss05";
 name = Uppercase;
 }
 );
@@ -138801,15 +138804,15 @@ components = (
 {
 alignment = -1;
 name = Alpha;
-transform = "{1, 0, 0, 1, 26, 0}";
+transform = "{1, 0, 0, 1, 142, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 166, 175}";
+transform = "{1, 0, 0, 1, -56, -112}";
 }
 );
 layerId = UUID1;
-width = 687;
+width = 803;
 }
 );
 leftKerningGroup = Alphatonos;
@@ -139547,30 +139550,30 @@ components = (
 {
 alignment = -1;
 name = Epsilon;
-transform = "{1, 0, 0, 1, 60, 0}";
+transform = "{1, 0, 0, 1, 247, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 134, 185}";
+transform = "{1, 0, 0, 1, 10, -37}";
 }
 );
 layerId = UUID0;
-width = 627;
+width = 814;
 },
 {
 components = (
 {
 alignment = -1;
 name = Epsilon;
-transform = "{1, 0, 0, 1, 13, 0}";
+transform = "{1, 0, 0, 1, 269, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 74, 175}";
+transform = "{1, 0, 0, 1, -55, -112}";
 }
 );
 layerId = UUID1;
-width = 599;
+width = 855;
 }
 );
 leftKerningGroup = asterisk;
@@ -140730,30 +140733,30 @@ components = (
 {
 alignment = -1;
 name = Iota;
-transform = "{1, 0, 0, 1, 63, 0}";
+transform = "{1, 0, 0, 1, 247, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 64, 184}";
+transform = "{1, 0, 0, 1, 10, -37}";
 }
 );
 layerId = UUID0;
-width = 409;
+width = 593;
 },
 {
 components = (
 {
 alignment = -1;
 name = Iota;
-transform = "{1, 0, 0, 1, 10, 0}";
+transform = "{1, 0, 0, 1, 269, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, -1, 175}";
+transform = "{1, 0, 0, 1, -55, -112}";
 }
 );
 layerId = UUID1;
-width = 369;
+width = 628;
 }
 );
 leftKerningGroup = asterisk;
@@ -141128,30 +141131,30 @@ components = (
 {
 alignment = -1;
 name = Omicron;
-transform = "{1, 0, 0, 1, 48, 0}";
+transform = "{1, 0, 0, 1, 210, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 209, 184}";
+transform = "{1, 0, 0, 1, -22, -38}";
 }
 );
 layerId = UUID0;
-width = 713;
+width = 875;
 },
 {
 components = (
 {
 alignment = -1;
 name = Omicron;
-transform = "{1, 0, 0, 1, 7, 0}";
+transform = "{1, 0, 0, 1, 229, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 133, 175}";
+transform = "{1, 0, 0, 1, -61, -112}";
 }
 );
 layerId = UUID1;
-width = 640;
+width = 862;
 }
 );
 leftKerningGroup = Omicrontonos;
@@ -141415,30 +141418,30 @@ components = (
 {
 alignment = -1;
 name = Upsilon;
-transform = "{1, 0, 0, 1, 53, 0}";
+transform = "{1, 0, 0, 1, 245, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 138, 185}";
+transform = "{1, 0, 0, 1, -84, -37}";
 }
 );
 layerId = UUID0;
-width = 570;
+width = 762;
 },
 {
 components = (
 {
 alignment = -1;
 name = Upsilon;
-transform = "{1, 0, 0, 1, 9, 0}";
+transform = "{1, 0, 0, 1, 277, 0}";
 },
 {
 name = varia;
-transform = "{1, 0, 0, 1, 128, 175}";
+transform = "{1, 0, 0, 1, -68, -112}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 897;
 }
 );
 leftKerningGroup = Y;
@@ -142311,1140 +142314,6 @@ leftMetricsKey = "=Omegatonos";
 rightKerningGroup = Omega;
 rightMetricsKey = "=Omegaprosgegrammeni.ss05";
 unicode = 1FAF;
-},
-{
-color = 10;
-glyphname = Alphaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-name = Alpha;
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 556, 0}";
-}
-);
-layerId = UUID0;
-width = 863;
-},
-{
-components = (
-{
-name = Alpha;
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 661, 0}";
-}
-);
-layerId = UUID1;
-width = 974;
-}
-);
-leftKerningGroup = A;
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Alphapsiliprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 174, 0}";
-},
-{
-name = psili.case;
-transform = "{1, 0, 0, 1, -41, -26}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 730, 0}";
-}
-);
-layerId = UUID0;
-width = 1037;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 132, 0}";
-},
-{
-name = psili.case;
-transform = "{1, 0, 0, 1, -80, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 793, 0}";
-}
-);
-layerId = UUID1;
-width = 1106;
-}
-);
-leftMetricsKey = "=Alphatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Alphadasiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 144, 0}";
-},
-{
-name = dasia.case;
-transform = "{1, 0, 0, 1, -36, -36}";
-}
-);
-layerId = UUID0;
-width = 1007;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 128, 0}";
-},
-{
-name = dasia.case;
-transform = "{1, 0, 0, 1, -52, -76}";
-}
-);
-layerId = UUID1;
-width = 1102;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Alphapsilivariaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 225, 0}";
-},
-{
-name = psilivaria.case;
-transform = "{1, 0, 0, 1, 6, -36}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 781, 0}";
-}
-);
-layerId = UUID0;
-width = 1088;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 297, 0}";
-},
-{
-name = psilivaria.case;
-transform = "{1, 0, 0, 1, -21, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 958, 0}";
-}
-);
-layerId = UUID1;
-width = 1271;
-}
-);
-leftMetricsKey = "=Alphatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Alphadasiavariaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 201, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -5, -36}";
-}
-);
-layerId = UUID0;
-width = 1064;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 302, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -16, -76}";
-}
-);
-layerId = UUID1;
-width = 1276;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Alphapsilioxiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 214, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, 4, -36}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 770, 0}";
-}
-);
-layerId = UUID0;
-width = 1077;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 267, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -31, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 928, 0}";
-}
-);
-layerId = UUID1;
-width = 1241;
-}
-);
-leftMetricsKey = "=Alphatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Alphadasiaoxiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 215, 0}";
-},
-{
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, 5, -36}";
-}
-);
-layerId = UUID0;
-width = 1078;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 309, 0}";
-},
-{
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -23, -76}";
-}
-);
-layerId = UUID1;
-width = 1283;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Alphapsiliperispomeniprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 195, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, 29, -36}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 751, 0}";
-}
-);
-layerId = UUID0;
-width = 1058;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alpha;
-transform = "{1, 0, 0, 1, 213, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -50, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 874, 0}";
-}
-);
-layerId = UUID1;
-width = 1187;
-}
-);
-leftMetricsKey = "=Alphatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Alphadasiaperispomeniprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 193, 0}";
-},
-{
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, 40, -36}";
-}
-);
-layerId = UUID0;
-width = 1056;
-},
-{
-components = (
-{
-alignment = -1;
-name = Alphaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 209, 0}";
-},
-{
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -37, -76}";
-}
-);
-layerId = UUID1;
-width = 1183;
-}
-);
-leftKerningGroup = Alphatonos;
-leftMetricsKey = "=Alphatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Etaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-name = Eta;
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 723, 0}";
-}
-);
-layerId = UUID0;
-width = 1030;
-},
-{
-components = (
-{
-name = Eta;
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 716, 0}";
-}
-);
-layerId = UUID1;
-width = 1029;
-}
-);
-leftKerningGroup = H;
-leftMetricsKey = "=Etatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Etapsiliprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 269, 0}";
-},
-{
-name = psili.case;
-transform = "{1, 0, 0, 1, -30, -26}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 992, 0}";
-}
-);
-layerId = UUID0;
-width = 1315;
-},
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 259, 0}";
-},
-{
-name = psili.case;
-transform = "{1, 0, 0, 1, -79, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 975, 0}";
-}
-);
-layerId = UUID1;
-width = 1288;
-}
-);
-leftMetricsKey = "=Etatonos";
-rightMetricsKey = "=Etaprosgegrammeni";
-},
-{
-color = 10;
-glyphname = Etadasiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 239, 0}";
-},
-{
-name = dasia.case;
-transform = "{1, 0, 0, 1, -25, -36}";
-}
-);
-layerId = UUID0;
-width = 1269;
-},
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 255, 0}";
-},
-{
-name = dasia.case;
-transform = "{1, 0, 0, 1, -51, -76}";
-}
-);
-layerId = UUID1;
-width = 1284;
-}
-);
-leftKerningGroup = Etatonos;
-leftMetricsKey = "=Etatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Etapsilivariaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 320, 0}";
-},
-{
-name = psilivaria.case;
-transform = "{1, 0, 0, 1, 17, -36}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1043, 0}";
-}
-);
-layerId = UUID0;
-width = 1350;
-},
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 424, 0}";
-},
-{
-name = psilivaria.case;
-transform = "{1, 0, 0, 1, -20, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1140, 0}";
-}
-);
-layerId = UUID1;
-width = 1453;
-}
-);
-leftMetricsKey = "=Etatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Etadasiavariaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 296, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, 6, -36}";
-}
-);
-layerId = UUID0;
-width = 1326;
-},
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 429, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -15, -76}";
-}
-);
-layerId = UUID1;
-width = 1458;
-}
-);
-leftKerningGroup = Etatonos;
-leftMetricsKey = "=Etatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Etapsilioxiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 309, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, 15, -36}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1032, 0}";
-}
-);
-layerId = UUID0;
-width = 1339;
-},
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 394, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -30, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1110, 0}";
-}
-);
-layerId = UUID1;
-width = 1423;
-}
-);
-leftMetricsKey = "=Etatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Etadasiaoxiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 310, 0}";
-},
-{
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, 16, -36}";
-}
-);
-layerId = UUID0;
-width = 1340;
-},
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 436, 0}";
-},
-{
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -22, -76}";
-}
-);
-layerId = UUID1;
-width = 1465;
-}
-);
-leftKerningGroup = Etatonos;
-leftMetricsKey = "=Etatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Etapsiliperispomeniprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 290, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, 40, -36}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1013, 0}";
-}
-);
-layerId = UUID0;
-width = 1320;
-},
-{
-components = (
-{
-alignment = -1;
-name = Eta;
-transform = "{1, 0, 0, 1, 340, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -49, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1056, 0}";
-}
-);
-layerId = UUID1;
-width = 1369;
-}
-);
-leftMetricsKey = "=Etatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Etadasiaperispomeniprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 288, 0}";
-},
-{
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, 51, -36}";
-}
-);
-layerId = UUID0;
-width = 1318;
-},
-{
-components = (
-{
-alignment = -1;
-name = Etaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 336, 0}";
-},
-{
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -36, -76}";
-}
-);
-layerId = UUID1;
-width = 1365;
-}
-);
-leftKerningGroup = Etatonos;
-leftMetricsKey = "=Etatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Omegaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-name = Omega;
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 782, 0}";
-}
-);
-layerId = UUID0;
-width = 1089;
-},
-{
-components = (
-{
-name = Omega;
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 728, 0}";
-}
-);
-layerId = UUID1;
-width = 1041;
-}
-);
-leftKerningGroup = Omega;
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Omegapsiliprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 222, 0}";
-},
-{
-name = psili.case;
-transform = "{1, 0, 0, 1, -22, -27}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1004, 0}";
-}
-);
-layerId = UUID0;
-width = 1311;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 182, 0}";
-},
-{
-name = psili.case;
-transform = "{1, 0, 0, 1, -92, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 910, 0}";
-}
-);
-layerId = UUID1;
-width = 1223;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Omegadasiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 192, 0}";
-},
-{
-name = dasia.case;
-transform = "{1, 0, 0, 1, -17, -37}";
-}
-);
-layerId = UUID0;
-width = 1281;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 178, 0}";
-},
-{
-name = dasia.case;
-transform = "{1, 0, 0, 1, -64, -76}";
-}
-);
-layerId = UUID1;
-width = 1219;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Omegapsilivariaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 273, 0}";
-},
-{
-name = psilivaria.case;
-transform = "{1, 0, 0, 1, 25, -37}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1055, 0}";
-}
-);
-layerId = UUID0;
-width = 1362;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 347, 0}";
-},
-{
-name = psilivaria.case;
-transform = "{1, 0, 0, 1, -33, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1075, 0}";
-}
-);
-layerId = UUID1;
-width = 1388;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Omegadasiavariaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 249, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, 14, -37}";
-}
-);
-layerId = UUID0;
-width = 1338;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 352, 0}";
-},
-{
-name = dasiavaria.case;
-transform = "{1, 0, 0, 1, -28, -76}";
-}
-);
-layerId = UUID1;
-width = 1393;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Omegapsilioxiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 262, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, 23, -37}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1044, 0}";
-}
-);
-layerId = UUID0;
-width = 1351;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 317, 0}";
-},
-{
-name = psilioxia.case;
-transform = "{1, 0, 0, 1, -43, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1045, 0}";
-}
-);
-layerId = UUID1;
-width = 1358;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Omegadasiaoxiaprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 263, 0}";
-},
-{
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, 24, -37}";
-}
-);
-layerId = UUID0;
-width = 1352;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 359, 0}";
-},
-{
-name = dasiaoxia.case;
-transform = "{1, 0, 0, 1, -35, -76}";
-}
-);
-layerId = UUID1;
-width = 1400;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
-},
-{
-color = 5;
-glyphname = Omegapsiliperispomeniprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 243, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, 48, -37}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 1025, 0}";
-}
-);
-layerId = UUID0;
-width = 1332;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omega;
-transform = "{1, 0, 0, 1, 263, 0}";
-},
-{
-name = psiliperispomeni.case;
-transform = "{1, 0, 0, 1, -62, -76}";
-},
-{
-name = iota.sc;
-transform = "{1, 0, 0, 1, 991, 0}";
-}
-);
-layerId = UUID1;
-width = 1304;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightMetricsKey = "=i.sc";
-},
-{
-color = 10;
-glyphname = Omegadasiaperispomeniprosgegrammeni.scss05;
-layers = (
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 241, 0}";
-},
-{
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, 59, -37}";
-}
-);
-layerId = UUID0;
-width = 1330;
-},
-{
-components = (
-{
-alignment = -1;
-name = Omegaprosgegrammeni.scss05;
-transform = "{1, 0, 0, 1, 259, 0}";
-},
-{
-name = dasiaperispomeni.case;
-transform = "{1, 0, 0, 1, -49, -76}";
-}
-);
-layerId = UUID1;
-width = 1300;
-}
-);
-leftMetricsKey = "=Omegatonos";
-rightKerningGroup = H;
-rightMetricsKey = "=i.sc";
 },
 {
 color = 10;
@@ -160833,12 +159702,6 @@ color = 10;
 glyphname = alphaypogegrammeni.sc;
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{255, 497}";
-}
-);
 components = (
 {
 name = alpha.sc;
@@ -160852,12 +159715,6 @@ layerId = UUID0;
 width = 485;
 },
 {
-anchors = (
-{
-name = top;
-position = "{293, 503}";
-}
-);
 components = (
 {
 name = alpha.sc;
@@ -160881,28 +159738,32 @@ layers = (
 {
 components = (
 {
-name = alphaypogegrammeni.sc;
+name = alpha.sc;
 },
 {
-alignment = 1;
-anchor = topleft_varia;
 name = varia;
-transform = "{1, 0, 0, 1, 485, 0}";
+transform = "{1, 0, 0, 1, 33, 45}";
+},
+{
+name = ypogegrammenicomb;
+transform = "{1, 0, 0, 1, 80, 0}";
 }
 );
 layerId = UUID0;
-width = 903;
+width = 485;
 },
 {
 components = (
 {
-name = alphaypogegrammeni.sc;
+name = alpha.sc;
 },
 {
-alignment = 1;
-anchor = topleft_varia;
 name = varia;
 transform = "{1, 0, 0, 1, 52, 31}";
+},
+{
+name = ypogegrammenicomb;
+transform = "{1, 0, 0, 1, 114, 0}";
 }
 );
 layerId = UUID1;
@@ -164194,27 +163055,32 @@ layers = (
 {
 components = (
 {
-name = omegaypogegrammeni.sc;
+name = omega.sc;
 },
 {
-alignment = 1;
-anchor = topleft_varia;
 name = varia;
-transform = "{1, 0, 0, 1, 671, 0}";
+transform = "{1, 0, 0, 1, 159, 45}";
+},
+{
+name = ypogegrammenicomb;
+transform = "{1, 0, 0, 1, 188, 0}";
 }
 );
 layerId = UUID0;
-width = 1089;
+width = 671;
 },
 {
 components = (
 {
-name = omegaypogegrammeni.sc;
+name = omega.sc;
 },
 {
-anchor = topleft_varia;
 name = varia;
 transform = "{1, 0, 0, 1, 113, 31}";
+},
+{
+name = ypogegrammenicomb;
+transform = "{1, 0, 0, 1, 156, 0}";
 }
 );
 layerId = UUID1;
@@ -164839,6 +163705,1140 @@ width = 309;
 leftKerningGroup = iota;
 leftMetricsKey = "=i.sc";
 rightKerningGroup = iota;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Alphaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+name = Alpha;
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 556, 0}";
+}
+);
+layerId = UUID0;
+width = 863;
+},
+{
+components = (
+{
+name = Alpha;
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 661, 0}";
+}
+);
+layerId = UUID1;
+width = 974;
+}
+);
+leftKerningGroup = A;
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Alphapsiliprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 174, 0}";
+},
+{
+name = psili.case;
+transform = "{1, 0, 0, 1, -41, -26}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 730, 0}";
+}
+);
+layerId = UUID0;
+width = 1037;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 132, 0}";
+},
+{
+name = psili.case;
+transform = "{1, 0, 0, 1, -80, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 793, 0}";
+}
+);
+layerId = UUID1;
+width = 1106;
+}
+);
+leftMetricsKey = "=Alphatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Alphadasiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 144, 0}";
+},
+{
+name = dasia.case;
+transform = "{1, 0, 0, 1, -36, -36}";
+}
+);
+layerId = UUID0;
+width = 1007;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 128, 0}";
+},
+{
+name = dasia.case;
+transform = "{1, 0, 0, 1, -52, -76}";
+}
+);
+layerId = UUID1;
+width = 1102;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Alphapsilivariaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 225, 0}";
+},
+{
+name = psilivaria.case;
+transform = "{1, 0, 0, 1, 6, -36}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 781, 0}";
+}
+);
+layerId = UUID0;
+width = 1088;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 297, 0}";
+},
+{
+name = psilivaria.case;
+transform = "{1, 0, 0, 1, -21, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 958, 0}";
+}
+);
+layerId = UUID1;
+width = 1271;
+}
+);
+leftMetricsKey = "=Alphatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Alphadasiavariaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 201, 0}";
+},
+{
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -5, -36}";
+}
+);
+layerId = UUID0;
+width = 1064;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 302, 0}";
+},
+{
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -16, -76}";
+}
+);
+layerId = UUID1;
+width = 1276;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Alphapsilioxiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 214, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, 4, -36}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 770, 0}";
+}
+);
+layerId = UUID0;
+width = 1077;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 267, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -31, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 928, 0}";
+}
+);
+layerId = UUID1;
+width = 1241;
+}
+);
+leftMetricsKey = "=Alphatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Alphadasiaoxiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 215, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, 5, -36}";
+}
+);
+layerId = UUID0;
+width = 1078;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 309, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -23, -76}";
+}
+);
+layerId = UUID1;
+width = 1283;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Alphapsiliperispomeniprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 195, 0}";
+},
+{
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, 29, -36}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 751, 0}";
+}
+);
+layerId = UUID0;
+width = 1058;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alpha;
+transform = "{1, 0, 0, 1, 213, 0}";
+},
+{
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, -50, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 874, 0}";
+}
+);
+layerId = UUID1;
+width = 1187;
+}
+);
+leftMetricsKey = "=Alphatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Alphadasiaperispomeniprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 193, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, 40, -36}";
+}
+);
+layerId = UUID0;
+width = 1056;
+},
+{
+components = (
+{
+alignment = -1;
+name = Alphaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 209, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, -37, -76}";
+}
+);
+layerId = UUID1;
+width = 1183;
+}
+);
+leftKerningGroup = Alphatonos;
+leftMetricsKey = "=Alphatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Etaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+name = Eta;
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 723, 0}";
+}
+);
+layerId = UUID0;
+width = 1030;
+},
+{
+components = (
+{
+name = Eta;
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 716, 0}";
+}
+);
+layerId = UUID1;
+width = 1029;
+}
+);
+leftKerningGroup = H;
+leftMetricsKey = "=Etatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Etapsiliprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 269, 0}";
+},
+{
+name = psili.case;
+transform = "{1, 0, 0, 1, -30, -26}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 992, 0}";
+}
+);
+layerId = UUID0;
+width = 1315;
+},
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 259, 0}";
+},
+{
+name = psili.case;
+transform = "{1, 0, 0, 1, -79, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 975, 0}";
+}
+);
+layerId = UUID1;
+width = 1288;
+}
+);
+leftMetricsKey = "=Etatonos";
+rightMetricsKey = "=Etaprosgegrammeni";
+},
+{
+color = 10;
+glyphname = Etadasiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 239, 0}";
+},
+{
+name = dasia.case;
+transform = "{1, 0, 0, 1, -25, -36}";
+}
+);
+layerId = UUID0;
+width = 1269;
+},
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 255, 0}";
+},
+{
+name = dasia.case;
+transform = "{1, 0, 0, 1, -51, -76}";
+}
+);
+layerId = UUID1;
+width = 1284;
+}
+);
+leftKerningGroup = Etatonos;
+leftMetricsKey = "=Etatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Etapsilivariaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 320, 0}";
+},
+{
+name = psilivaria.case;
+transform = "{1, 0, 0, 1, 17, -36}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1043, 0}";
+}
+);
+layerId = UUID0;
+width = 1350;
+},
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 424, 0}";
+},
+{
+name = psilivaria.case;
+transform = "{1, 0, 0, 1, -20, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1140, 0}";
+}
+);
+layerId = UUID1;
+width = 1453;
+}
+);
+leftMetricsKey = "=Etatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Etadasiavariaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 296, 0}";
+},
+{
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, 6, -36}";
+}
+);
+layerId = UUID0;
+width = 1326;
+},
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 429, 0}";
+},
+{
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -15, -76}";
+}
+);
+layerId = UUID1;
+width = 1458;
+}
+);
+leftKerningGroup = Etatonos;
+leftMetricsKey = "=Etatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Etapsilioxiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 309, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, 15, -36}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1032, 0}";
+}
+);
+layerId = UUID0;
+width = 1339;
+},
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 394, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -30, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1110, 0}";
+}
+);
+layerId = UUID1;
+width = 1423;
+}
+);
+leftMetricsKey = "=Etatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Etadasiaoxiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 310, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, 16, -36}";
+}
+);
+layerId = UUID0;
+width = 1340;
+},
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 436, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -22, -76}";
+}
+);
+layerId = UUID1;
+width = 1465;
+}
+);
+leftKerningGroup = Etatonos;
+leftMetricsKey = "=Etatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Etapsiliperispomeniprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 290, 0}";
+},
+{
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, 40, -36}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1013, 0}";
+}
+);
+layerId = UUID0;
+width = 1320;
+},
+{
+components = (
+{
+alignment = -1;
+name = Eta;
+transform = "{1, 0, 0, 1, 340, 0}";
+},
+{
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, -49, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1056, 0}";
+}
+);
+layerId = UUID1;
+width = 1369;
+}
+);
+leftMetricsKey = "=Etatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Etadasiaperispomeniprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 288, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, 51, -36}";
+}
+);
+layerId = UUID0;
+width = 1318;
+},
+{
+components = (
+{
+alignment = -1;
+name = Etaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 336, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, -36, -76}";
+}
+);
+layerId = UUID1;
+width = 1365;
+}
+);
+leftKerningGroup = Etatonos;
+leftMetricsKey = "=Etatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Omegaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+name = Omega;
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 782, 0}";
+}
+);
+layerId = UUID0;
+width = 1089;
+},
+{
+components = (
+{
+name = Omega;
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 728, 0}";
+}
+);
+layerId = UUID1;
+width = 1041;
+}
+);
+leftKerningGroup = Omega;
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Omegapsiliprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 222, 0}";
+},
+{
+name = psili.case;
+transform = "{1, 0, 0, 1, -22, -27}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1004, 0}";
+}
+);
+layerId = UUID0;
+width = 1311;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 182, 0}";
+},
+{
+name = psili.case;
+transform = "{1, 0, 0, 1, -92, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 910, 0}";
+}
+);
+layerId = UUID1;
+width = 1223;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Omegadasiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 192, 0}";
+},
+{
+name = dasia.case;
+transform = "{1, 0, 0, 1, -17, -37}";
+}
+);
+layerId = UUID0;
+width = 1281;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 178, 0}";
+},
+{
+name = dasia.case;
+transform = "{1, 0, 0, 1, -64, -76}";
+}
+);
+layerId = UUID1;
+width = 1219;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Omegapsilivariaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 273, 0}";
+},
+{
+name = psilivaria.case;
+transform = "{1, 0, 0, 1, 25, -37}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1055, 0}";
+}
+);
+layerId = UUID0;
+width = 1362;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 347, 0}";
+},
+{
+name = psilivaria.case;
+transform = "{1, 0, 0, 1, -33, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1075, 0}";
+}
+);
+layerId = UUID1;
+width = 1388;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Omegadasiavariaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 249, 0}";
+},
+{
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, 14, -37}";
+}
+);
+layerId = UUID0;
+width = 1338;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 352, 0}";
+},
+{
+name = dasiavaria.case;
+transform = "{1, 0, 0, 1, -28, -76}";
+}
+);
+layerId = UUID1;
+width = 1393;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Omegapsilioxiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 262, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, 23, -37}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1044, 0}";
+}
+);
+layerId = UUID0;
+width = 1351;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 317, 0}";
+},
+{
+name = psilioxia.case;
+transform = "{1, 0, 0, 1, -43, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1045, 0}";
+}
+);
+layerId = UUID1;
+width = 1358;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Omegadasiaoxiaprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 263, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, 24, -37}";
+}
+);
+layerId = UUID0;
+width = 1352;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 359, 0}";
+},
+{
+name = dasiaoxia.case;
+transform = "{1, 0, 0, 1, -35, -76}";
+}
+);
+layerId = UUID1;
+width = 1400;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = H;
+rightMetricsKey = "=i.sc";
+},
+{
+color = 5;
+glyphname = Omegapsiliperispomeniprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 243, 0}";
+},
+{
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, 48, -37}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 1025, 0}";
+}
+);
+layerId = UUID0;
+width = 1332;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omega;
+transform = "{1, 0, 0, 1, 263, 0}";
+},
+{
+name = psiliperispomeni.case;
+transform = "{1, 0, 0, 1, -62, -76}";
+},
+{
+name = iota.sc;
+transform = "{1, 0, 0, 1, 991, 0}";
+}
+);
+layerId = UUID1;
+width = 1304;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightMetricsKey = "=i.sc";
+},
+{
+color = 10;
+glyphname = Omegadasiaperispomeniprosgegrammeni.sc.ss05;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 241, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, 59, -37}";
+}
+);
+layerId = UUID0;
+width = 1330;
+},
+{
+components = (
+{
+alignment = -1;
+name = Omegaprosgegrammeni.sc.ss05;
+transform = "{1, 0, 0, 1, 259, 0}";
+},
+{
+name = dasiaperispomeni.case;
+transform = "{1, 0, 0, 1, -49, -76}";
+}
+);
+layerId = UUID1;
+width = 1300;
+}
+);
+leftMetricsKey = "=Omegatonos";
+rightKerningGroup = H;
 rightMetricsKey = "=i.sc";
 },
 {
