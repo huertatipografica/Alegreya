@@ -1,7 +1,7 @@
 {
 .appVersion = "939";
 DisplayStrings = (
-"/alphavariaypogegrammeni/alphavariaypogegrammeni.sc/alphavariaypogegrammeni.sc.ss05 \012/ypogegrammenicomb/Alphaprosgegrammeni/Etaprosgegrammeni/Omegaprosgegrammeni/alphaypogegrammeni/etaypogegrammeni/omegaypogegrammeni/alphaypogegrammeni.sc/alphavariaypogegrammeni.sc/etaypogegrammeni.sc/omegaypogegrammeni.sc/omegavariaypogegrammeni.sc/omegaperispomeniypogegrammeni.sc/ypogegrammeni/alphavariaypogegrammeni.sc/omegavariaypogegrammeni.sc \012/varia/Alphavaria/Epsilonvaria/Etavaria/Iotavaria/Omicronvaria/Upsilonvaria/Omegavaria/alphavaria/alphavariaypogegrammeni/epsilonvaria/etavaria/etavariaypogegrammeni/iotavaria/omicronvaria/upsilonvaria/omegavaria/omegavariaypogegrammeni/alphavaria.sc/epsilonvaria.sc/etavaria.sc/etavariaypogegrammeni.sc/omicronvaria.sc/upsilonvaria.sc/omegavaria.sc/alphavariaypogegrammeni.sc.ss05/etavariaypogegrammeni.sc.ss05/omegavariaypogegrammeni.sc.ss05"
+"/alphaypogegrammeni/alphavariaypogegrammeni/alphavariaypogegrammeni.sc/alphavariaypogegrammeni.sc.ss05 \012/ypogegrammenicomb/Alphaprosgegrammeni/Etaprosgegrammeni/Omegaprosgegrammeni/alphaypogegrammeni/etaypogegrammeni/omegaypogegrammeni/alphaypogegrammeni.sc/alphavariaypogegrammeni.sc/etaypogegrammeni.sc/omegaypogegrammeni.sc/omegavariaypogegrammeni.sc/omegaperispomeniypogegrammeni.sc/omegaperispomeniypogegrammeni.sc.ss05/alphavariaypogegrammeni.sc/omegavariaypogegrammeni.sc \012/varia/Alphavaria/Epsilonvaria/Etavaria/Iotavaria/Omicronvaria/Upsilonvaria/Omegavaria/alphavaria/alphavariaypogegrammeni/epsilonvaria/etavaria/etavariaypogegrammeni/iotavaria/omicronvaria/upsilonvaria/omegavaria/omegavariaypogegrammeni/alphavaria.sc/epsilonvaria.sc/etavaria.sc/etavariaypogegrammeni.sc/omicronvaria.sc/upsilonvaria.sc/omegavaria.sc/alphavariaypogegrammeni.sc.ss05/etavariaypogegrammeni.sc.ss05/omegavariaypogegrammeni.sc.ss05"
 );
 classes = (
 {
@@ -825,7 +825,6 @@ sub gtilde by gtilde.sc;
 name = c2sc;
 },
 {
-automatic = 1;
 code = "sub a by a.sc;
 sub aacute by aacute.sc;
 sub abreve by abreve.sc;
@@ -909,6 +908,7 @@ sub hdotbelow by hdotbelow.sc;
 sub i by i.sc;
 sub idotless by idotless.sc;
 sub iacute by iacute.sc;
+sub iacute_j.loclNLD by iacute_j.loclNLD.sc;
 sub ibreve by ibreve.sc;
 sub icaron by icaron.sc;
 sub icircumflex by icircumflex.sc;
@@ -1068,7 +1068,6 @@ sub zacute by zacute.sc;
 sub zcaron by zcaron.sc;
 sub zdotaccent by zdotaccent.sc;
 sub zdotbelow by zdotbelow.sc;
-sub iacute_j.loclNLD by iacute_j.loclNLD.sc;
 sub alpha by alpha.sc;
 sub beta by beta.sc;
 sub gamma by gamma.sc;
@@ -1227,6 +1226,33 @@ sub omegapsiliperispomeniypogegrammeni by omegapsiliperispomeniypogegrammeni.sc;
 sub omegadasiaperispomeniypogegrammeni by omegadasiaperispomeniypogegrammeni.sc;
 sub omegaperispomeniypogegrammeni by omegaperispomeniypogegrammeni.sc;
 sub prosgegrammeni by prosgegrammeni.sc;
+sub Alphaprosgegrammeni.ss05 by Alphaprosgegrammeni.sc.ss05;
+sub Alphapsiliprosgegrammeni.ss05 by Alphapsiliprosgegrammeni.sc.ss05;
+sub Alphadasiaprosgegrammeni.ss05 by Alphadasiaprosgegrammeni.sc.ss05;
+sub Alphapsilivariaprosgegrammeni.ss05 by Alphapsilivariaprosgegrammeni.sc.ss05;
+sub Alphadasiavariaprosgegrammeni.ss05 by Alphadasiavariaprosgegrammeni.sc.ss05;
+sub Alphapsilioxiaprosgegrammeni.ss05 by Alphapsilioxiaprosgegrammeni.sc.ss05;
+sub Alphadasiaoxiaprosgegrammeni.ss05 by Alphadasiaoxiaprosgegrammeni.sc.ss05;
+sub Alphapsiliperispomeniprosgegrammeni.ss05 by Alphapsiliperispomeniprosgegrammeni.sc.ss05;
+sub Alphadasiaperispomeniprosgegrammeni.ss05 by Alphadasiaperispomeniprosgegrammeni.sc.ss05;
+sub Etaprosgegrammeni.ss05 by Etaprosgegrammeni.sc.ss05;
+sub Etapsiliprosgegrammeni.ss05 by Etapsiliprosgegrammeni.sc.ss05;
+sub Etadasiaprosgegrammeni.ss05 by Etadasiaprosgegrammeni.sc.ss05;
+sub Etapsilivariaprosgegrammeni.ss05 by Etapsilivariaprosgegrammeni.sc.ss05;
+sub Etadasiavariaprosgegrammeni.ss05 by Etadasiavariaprosgegrammeni.sc.ss05;
+sub Etapsilioxiaprosgegrammeni.ss05 by Etapsilioxiaprosgegrammeni.sc.ss05;
+sub Etadasiaoxiaprosgegrammeni.ss05 by Etadasiaoxiaprosgegrammeni.sc.ss05;
+sub Etapsiliperispomeniprosgegrammeni.ss05 by Etapsiliperispomeniprosgegrammeni.sc.ss05;
+sub Etadasiaperispomeniprosgegrammeni.ss05 by Etadasiaperispomeniprosgegrammeni.sc.ss05;
+sub Omegaprosgegrammeni.ss05 by Omegaprosgegrammeni.sc.ss05;
+sub Omegapsiliprosgegrammeni.ss05 by Omegapsiliprosgegrammeni.sc.ss05;
+sub Omegadasiaprosgegrammeni.ss05 by Omegadasiaprosgegrammeni.sc.ss05;
+sub Omegapsilivariaprosgegrammeni.ss05 by Omegapsilivariaprosgegrammeni.sc.ss05;
+sub Omegadasiavariaprosgegrammeni.ss05 by Omegadasiavariaprosgegrammeni.sc.ss05;
+sub Omegapsilioxiaprosgegrammeni.ss05 by Omegapsilioxiaprosgegrammeni.sc.ss05;
+sub Omegadasiaoxiaprosgegrammeni.ss05 by Omegadasiaoxiaprosgegrammeni.sc.ss05;
+sub Omegapsiliperispomeniprosgegrammeni.ss05 by Omegapsiliperispomeniprosgegrammeni.sc.ss05;
+sub Omegadasiaperispomeniprosgegrammeni.ss05 by Omegadasiaperispomeniprosgegrammeni.sc.ss05;
 sub exclam by exclam.sc;
 sub exclamdown by exclamdown.sc;
 sub question by question.sc;
@@ -1371,7 +1397,6 @@ sub X by X.ss01;
 name = ss01;
 },
 {
-automatic = 1;
 code = "sub Alphaprosgegrammeni by Alphaprosgegrammeni.ss05;
 sub Alphapsiliprosgegrammeni by Alphapsiliprosgegrammeni.ss05;
 sub Alphadasiaprosgegrammeni by Alphadasiaprosgegrammeni.ss05;
