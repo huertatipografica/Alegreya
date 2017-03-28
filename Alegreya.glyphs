@@ -1,5 +1,8 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+"/pedescender-cy.sc/hadescender-cy.sc/chedescender-cy.sc/gedescender-cy.sc"
+);
 classes = (
 {
 automatic = 1;
@@ -24979,9 +24982,8 @@ rightKerningGroup = n;
 unicode = 1E25;
 },
 {
-color = 9;
 glyphname = i;
-lastChange = "2016-11-17 20:44:16 +0000";
+lastChange = "2017-03-28 20:52:53 +0000";
 layers = (
 {
 anchors = (
@@ -26869,9 +26871,8 @@ rightKerningGroup = x;
 unicode = 0138;
 },
 {
-color = 9;
 glyphname = l;
-lastChange = "2017-01-18 18:21:10 +0000";
+lastChange = "2017-03-28 20:52:53 +0000";
 layers = (
 {
 anchors = (
@@ -27679,9 +27680,8 @@ rightKerningGroup = n;
 unicode = 1E43;
 },
 {
-color = 9;
 glyphname = n;
-lastChange = "2017-01-31 20:37:51 +0000";
+lastChange = "2017-03-28 20:52:53 +0000";
 layers = (
 {
 anchors = (
@@ -28341,9 +28341,8 @@ rightKerningGroup = n;
 unicode = 00F1;
 },
 {
-color = 9;
 glyphname = o;
-lastChange = "2017-03-27 21:02:03 +0000";
+lastChange = "2017-03-28 20:52:53 +0000";
 layers = (
 {
 anchors = (
@@ -34855,9 +34854,8 @@ rightKerningGroup = u;
 unicode = 1E79;
 },
 {
-color = 9;
 glyphname = v;
-lastChange = "2017-01-31 21:10:30 +0000";
+lastChange = "2017-03-28 20:52:53 +0000";
 layers = (
 {
 anchors = (
@@ -118197,8 +118195,9 @@ source = "Gheupturn-cy";
 };
 },
 {
+color = 9;
 glyphname = "de-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-28 20:53:26 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -120192,8 +120191,9 @@ source = "Che-cy";
 };
 },
 {
+color = 9;
 glyphname = "tse-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-28 20:53:02 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -120617,8 +120617,9 @@ source = "Sha-cy";
 };
 },
 {
+color = 9;
 glyphname = "shcha-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-28 20:53:02 +0000";
 layers = (
 {
 anchors = (
@@ -120898,8 +120899,9 @@ source = "Shcha-cy";
 };
 },
 {
+color = 9;
 glyphname = "dzhe-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-28 20:53:32 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -124181,8 +124183,9 @@ source = "Ghemiddlehook-cy";
 };
 },
 {
+color = 9;
 glyphname = "zhedescender-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-28 20:53:02 +0000";
 layers = (
 {
 anchors = (
@@ -124502,8 +124505,9 @@ width = 491;
 );
 },
 {
+color = 9;
 glyphname = "kadescender-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-28 20:53:02 +0000";
 layers = (
 {
 anchors = (
@@ -125169,8 +125173,9 @@ source = "Kabashkir-cy";
 };
 },
 {
+color = 9;
 glyphname = "endescender-cy.sc";
-lastChange = "2017-03-28 20:31:24 +0000";
+lastChange = "2017-03-28 20:53:46 +0000";
 layers = (
 {
 components = (
@@ -125224,8 +125229,9 @@ source = "Endescender-cy";
 };
 },
 {
+color = 9;
 glyphname = "pedescender-cy.sc";
-lastChange = "2017-03-28 20:35:48 +0000";
+lastChange = "2017-03-28 21:25:54 +0000";
 layers = (
 {
 components = (
@@ -125256,8 +125262,9 @@ width = 628;
 );
 },
 {
+color = 9;
 glyphname = "esdescender-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-28 20:53:02 +0000";
 layers = (
 {
 anchors = (
@@ -125557,8 +125564,9 @@ source = "Ustraitstroke-cy";
 };
 },
 {
+color = 9;
 glyphname = "hadescender-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-28 21:25:54 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -125775,8 +125783,9 @@ source = "Hadescender-cy";
 };
 },
 {
+color = 9;
 glyphname = "chedescender-cy.sc";
-lastChange = "2017-03-28 20:40:19 +0000";
+lastChange = "2017-03-28 21:25:54 +0000";
 layers = (
 {
 components = (
@@ -126120,8 +126129,9 @@ width = 877;
 );
 },
 {
+color = 9;
 glyphname = "chekhakassian-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-28 20:53:02 +0000";
 layers = (
 {
 anchors = (
@@ -126835,8 +126845,9 @@ width = 589;
 );
 },
 {
+color = 9;
 glyphname = "gedescender-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-28 21:25:54 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -126984,8 +126995,9 @@ source = "Gedescender-cy";
 };
 },
 {
+color = 9;
 glyphname = "yerudieresis-cy.sc";
-lastChange = "2017-03-28 20:40:19 +0000";
+lastChange = "2017-03-28 20:53:46 +0000";
 layers = (
 {
 components = (
