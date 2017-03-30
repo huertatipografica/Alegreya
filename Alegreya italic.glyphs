@@ -245817,34 +245817,6 @@ layerId = UUID1;
 width = 192;
 }
 );
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = UUID0;
-width = 169;
-},
-{
-layerId = UUID1;
-width = 127;
-}
-);
-unicode = 000D;
-},
-{
-glyphname = NULL;
-layers = (
-{
-layerId = UUID0;
-width = 0;
-},
-{
-layerId = UUID1;
-width = 0;
-}
-);
-unicode = 0000;
 }
 );
 instances = (

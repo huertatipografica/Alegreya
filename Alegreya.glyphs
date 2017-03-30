@@ -203683,34 +203683,6 @@ nodes = (
 width = 175;
 }
 );
-},
-{
-glyphname = CR;
-layers = (
-{
-layerId = UUID0;
-width = 198;
-},
-{
-layerId = UUID1;
-width = 144;
-}
-);
-unicode = 000D;
-},
-{
-glyphname = NULL;
-layers = (
-{
-layerId = UUID0;
-width = 0;
-},
-{
-layerId = UUID1;
-width = 0;
-}
-);
-unicode = 0000;
 }
 );
 instances = (
