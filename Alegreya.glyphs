@@ -1585,22 +1585,6 @@ name = smallCapHeight;
 value = 497;
 },
 {
-name = typoAscender;
-value = 800;
-},
-{
-name = typoDescender;
-value = -200;
-},
-{
-name = winAscent;
-value = 900;
-},
-{
-name = winDescent;
-value = -300;
-},
-{
 name = underlineThickness;
 value = 55;
 },
@@ -1619,6 +1603,38 @@ value = "28";
 {
 name = paramOver;
 value = "7";
+},
+{
+name = typoAscender;
+value = 937;
+},
+{
+name = typoDescender;
+value = -312;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1108;
+},
+{
+name = winDescent;
+value = 345;
+},
+{
+name = hheaAscender;
+value = 937;
+},
+{
+name = hheaDescender;
+value = -312;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -230;
@@ -1662,22 +1678,6 @@ name = smallCapHeight;
 value = 503;
 },
 {
-name = typoAscender;
-value = 800;
-},
-{
-name = typoDescender;
-value = -200;
-},
-{
-name = winAscent;
-value = 900;
-},
-{
-name = winDescent;
-value = -300;
-},
-{
 name = underlineThickness;
 value = 100;
 },
@@ -1696,6 +1696,38 @@ value = "18";
 {
 name = paramOver;
 value = "11";
+},
+{
+name = typoAscender;
+value = 937;
+},
+{
+name = typoDescender;
+value = -312;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1108;
+},
+{
+name = winDescent;
+value = 345;
+},
+{
+name = hheaAscender;
+value = 937;
+},
+{
+name = hheaDescender;
+value = -312;
+},
+{
+name = hheaLineGap;
+value = 0;
 }
 );
 descender = -230;
@@ -125707,7 +125739,7 @@ name = "pe-cy.sc";
 },
 {
 name = "descender-cy";
-transform = "{1, 0, 0, 1, 423, 11}";
+transform = "{1, 0, 0, 1, 422, 11}";
 }
 );
 layerId = UUID1;
