@@ -245864,6 +245864,7 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 isItalic = 1;
+linkStyle = Regular;
 name = Italic;
 },
 {
@@ -245897,6 +245898,7 @@ UUID1 = 0.45;
 };
 isBold = 1;
 isItalic = 1;
+linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },

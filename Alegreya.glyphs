@@ -1577,8 +1577,8 @@ alignmentZones = (
 "{-105, 12}",
 "{-242, 12}"
 );
-ascender = 730;
-capHeight = 637;
+ascender = 742;
+capHeight = 658;
 customParameters = (
 {
 name = smallCapHeight;
@@ -1605,39 +1605,39 @@ name = paramOver;
 value = "7";
 },
 {
-name = typoAscender;
-value = 937;
-},
-{
-name = typoDescender;
-value = -312;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = winAscent;
-value = 1108;
+value = 900;
 },
 {
 name = winDescent;
-value = 345;
+value = 300;
+},
+{
+name = typoAscender;
+value = 800;
 },
 {
 name = hheaAscender;
-value = 937;
+value = 800;
+},
+{
+name = typoDescender;
+value = -200;
 },
 {
 name = hheaDescender;
-value = -312;
+value = -200;
 },
 {
 name = hheaLineGap;
-value = 0;
+value = 240;
+},
+{
+name = typoLineGap;
+value = 240;
 }
 );
-descender = -230;
+descender = -237;
 horizontalStems = (
 50
 );
@@ -1657,7 +1657,7 @@ verticalStems = (
 78
 );
 weightValue = 73;
-xHeight = 452;
+xHeight = 462;
 },
 {
 alignmentZones = (
@@ -1670,8 +1670,8 @@ alignmentZones = (
 "{-95, 12}",
 "{-242, 12}"
 );
-ascender = 730;
-capHeight = 647;
+ascender = 742;
+capHeight = 657;
 customParameters = (
 {
 name = smallCapHeight;
@@ -1698,39 +1698,39 @@ name = paramOver;
 value = "11";
 },
 {
-name = typoAscender;
-value = 937;
-},
-{
-name = typoDescender;
-value = -312;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = winAscent;
-value = 1108;
+value = 900;
 },
 {
 name = winDescent;
-value = 345;
+value = 300;
+},
+{
+name = typoAscender;
+value = 800;
 },
 {
 name = hheaAscender;
-value = 937;
+value = 800;
+},
+{
+name = typoDescender;
+value = -200;
 },
 {
 name = hheaDescender;
-value = -312;
+value = -200;
 },
 {
 name = hheaLineGap;
-value = 0;
+value = 240;
+},
+{
+name = typoLineGap;
+value = 240;
 }
 );
-descender = -230;
+descender = -235;
 horizontalStems = (
 133
 );
@@ -1750,7 +1750,7 @@ verticalStems = (
 );
 weight = Bold;
 weightValue = 175;
-xHeight = 472;
+xHeight = 482;
 }
 );
 glyphs = (
@@ -24511,7 +24511,7 @@ layers = (
 components = (
 {
 name = e;
-transform = "{-1, 0, 0, -1, 448, 452}";
+transform = "{-1, 0, 0, -1, 448, 462}";
 }
 );
 layerId = UUID0;
@@ -24521,7 +24521,7 @@ width = 448;
 components = (
 {
 name = e;
-transform = "{-1, 0, 0, -1, 479, 472}";
+transform = "{-1, 0, 0, -1, 479, 482}";
 }
 );
 layerId = UUID1;
@@ -203727,6 +203727,10 @@ value = "AddExtremes;";
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=30 --default-script=latn --increase-x-height=20 --ignore-restrictions";
 }
 );
 interpolationWeight = 73;
