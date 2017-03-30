@@ -38754,7 +38754,7 @@ rightMetricsKey = t;
 {
 color = 1;
 glyphname = a.sc;
-lastChange = "2016-09-27 13:21:01 +0000";
+lastChange = "2017-03-30 20:14:40 +0000";
 layers = (
 {
 anchors = (
@@ -38792,7 +38792,7 @@ nodes = (
 "302 506 CURVE",
 "295 507 LINE",
 "224 494 LINE",
-"67 97 LINE",
+"67 97 LINE SMOOTH",
 "50 56 OFFCURVE",
 "35 43 OFFCURVE",
 "6 39 CURVE",
@@ -38805,13 +38805,13 @@ nodes = (
 "207 -5 CURVE",
 "213 33 LINE",
 "210 37 LINE",
-"167 37 LINE",
+"167 37 LINE SMOOTH",
 "134 37 OFFCURVE",
 "120 45 OFFCURVE",
 "120 67 CURVE SMOOTH",
 "120 73 OFFCURVE",
 "123 82 OFFCURVE",
-"127 95 CURVE SMOOTH",
+"127 95 CURVE",
 "155 169 LINE",
 "174 171 OFFCURVE",
 "211 175 OFFCURVE",
@@ -40918,7 +40918,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = eth.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -41061,8 +41061,8 @@ nodes = (
 width = 598;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = o.sc;
+leftKerningGroup = H;
+rightKerningGroup = O;
 },
 {
 color = 10;
@@ -41106,7 +41106,7 @@ rightKerningGroup = O;
 {
 color = 1;
 glyphname = dcroat.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -41249,7 +41249,7 @@ nodes = (
 width = 598;
 }
 );
-leftKerningGroup = d.sc;
+leftKerningGroup = D;
 rightKerningGroup = O;
 },
 {
@@ -44041,7 +44041,7 @@ rightKerningGroup = H;
 {
 color = 1;
 glyphname = idotless.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:17:23 +0000";
 layers = (
 {
 anchors = (
@@ -44174,8 +44174,8 @@ nodes = (
 width = 322;
 }
 );
-leftKerningGroup = idotless.sc;
-rightKerningGroup = idotless.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 color = 10;
@@ -44956,7 +44956,7 @@ rightKerningGroup = J;
 {
 color = 1;
 glyphname = jdotless.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:17:19 +0000";
 layers = (
 {
 anchors = (
@@ -45057,8 +45057,8 @@ nodes = (
 width = 297;
 }
 );
-leftKerningGroup = jdotless.sc;
-rightKerningGroup = jdotless.sc;
+leftKerningGroup = J;
+rightKerningGroup = J;
 },
 {
 color = 10;
@@ -45348,7 +45348,7 @@ rightKerningGroup = X;
 {
 color = 1;
 glyphname = kgreenlandic.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:17:09 +0000";
 layers = (
 {
 anchors = (
@@ -45549,8 +45549,8 @@ nodes = (
 width = 596;
 }
 );
-leftKerningGroup = kgreenlandic.sc;
-rightKerningGroup = kgreenlandic.sc;
+leftKerningGroup = H;
+rightKerningGroup = K;
 },
 {
 color = 1;
@@ -48463,7 +48463,7 @@ rightKerningGroup = O;
 {
 color = 10;
 glyphname = oogonek.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -48496,7 +48496,7 @@ layerId = UUID1;
 width = 554;
 }
 );
-leftKerningGroup = ogonekcomb;
+leftKerningGroup = O;
 rightKerningGroup = O;
 },
 {
@@ -53518,7 +53518,7 @@ rightKerningGroup = V;
 {
 color = 1;
 glyphname = x.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -53911,7 +53911,7 @@ nodes = (
 width = 610;
 }
 );
-leftKerningGroup = x.sc;
+leftKerningGroup = X;
 rightKerningGroup = X;
 },
 {
@@ -117742,7 +117742,7 @@ rightKerningGroup = B;
 },
 {
 glyphname = "ge-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -117791,8 +117791,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = gamma.sc;
+leftKerningGroup = H;
+rightKerningGroup = Gamma;
 userData = {
 RMXScaler = {
 source = "Ge-cy";
@@ -117801,7 +117801,7 @@ source = "Ge-cy";
 },
 {
 glyphname = "gje-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -117830,12 +117830,12 @@ layerId = UUID1;
 width = 482;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = gamma.sc;
+leftKerningGroup = H;
+rightKerningGroup = Gamma;
 },
 {
 glyphname = "gheupturn-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -117968,9 +117968,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=ge-cy.sc";
-rightKerningGroup = "ge-cy.sc";
+rightKerningGroup = "Ge-cy";
 userData = {
 RMXScaler = {
 source = "Gheupturn-cy";
@@ -117980,7 +117980,7 @@ source = "Gheupturn-cy";
 {
 color = 9;
 glyphname = "de-cy.sc";
-lastChange = "2017-03-28 20:53:26 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -118141,8 +118141,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "el-cy.sc";
-rightKerningGroup = "de-cy.sc";
+leftKerningGroup = "El-cy";
+rightKerningGroup = "De-cy";
 rightMetricsKey = "=tse-cy.sc";
 userData = {
 RMXScaler = {
@@ -118246,7 +118246,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = "zhe-cy.sc";
-lastChange = "2017-03-28 20:40:17 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -118521,9 +118521,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = x.sc;
+leftKerningGroup = X;
 leftMetricsKey = "=|ka-cy.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=ka-cy.sc";
 userData = {
 RMXScaler = {
@@ -118533,7 +118533,7 @@ source = "Zhe-cy";
 },
 {
 glyphname = "ze-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -118696,8 +118696,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "ereversed-cy.sc";
-rightKerningGroup = b.sc;
+leftKerningGroup = "Ereversed-cy";
+rightKerningGroup = B;
 rightMetricsKey = "=b.sc";
 userData = {
 RMXScaler = {
@@ -118707,7 +118707,7 @@ source = "Ze-cy";
 },
 {
 glyphname = "ii-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -118964,9 +118964,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=h.sc";
-rightKerningGroup = h.sc;
+rightKerningGroup = H;
 rightMetricsKey = "=h.sc";
 userData = {
 RMXScaler = {
@@ -118976,7 +118976,7 @@ source = "Ii-cy";
 },
 {
 glyphname = "iishort-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -119005,12 +119005,12 @@ layerId = UUID1;
 width = 632;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 glyphname = "iigrave-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -119039,12 +119039,12 @@ layerId = UUID1;
 width = 632;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 glyphname = "ka-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -119257,9 +119257,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=k.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=k.sc";
 userData = {
 RMXScaler = {
@@ -119269,7 +119269,7 @@ source = "Ka-cy";
 },
 {
 glyphname = "kje-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -119298,12 +119298,12 @@ layerId = UUID1;
 width = 600;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = x.sc;
+leftKerningGroup = H;
+rightKerningGroup = X;
 },
 {
 glyphname = "el-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -119444,8 +119444,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "el-cy.sc";
-rightKerningGroup = h.sc;
+leftKerningGroup = "El-cy";
+rightKerningGroup = H;
 rightMetricsKey = "=pe-cy.sc";
 userData = {
 RMXScaler = {
@@ -119533,7 +119533,7 @@ rightKerningGroup = O;
 },
 {
 glyphname = "pe-cy.sc";
-lastChange = "2017-03-29 18:43:29 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -119570,8 +119570,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 userData = {
 RMXScaler = {
 source = "Pe-cy";
@@ -119718,7 +119718,7 @@ rightKerningGroup = Y;
 },
 {
 glyphname = "ef-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -119755,8 +119755,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = phi.sc;
-rightKerningGroup = phi.sc;
+leftKerningGroup = Phi;
+rightKerningGroup = Phi;
 userData = {
 RMXScaler = {
 source = "Ef-cy";
@@ -119765,7 +119765,7 @@ source = "Ef-cy";
 },
 {
 glyphname = "ha-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -119786,12 +119786,12 @@ layerId = UUID1;
 width = 610;
 }
 );
-leftKerningGroup = x.sc;
+leftKerningGroup = X;
 rightKerningGroup = X;
 },
 {
 glyphname = "che-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -119994,8 +119994,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "che-cy.sc";
-rightKerningGroup = h.sc;
+leftKerningGroup = "Che-cy";
+rightKerningGroup = H;
 rightMetricsKey = "=i.sc";
 userData = {
 RMXScaler = {
@@ -120006,7 +120006,7 @@ source = "Che-cy";
 {
 color = 9;
 glyphname = "tse-cy.sc";
-lastChange = "2017-03-28 20:53:02 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -120183,9 +120183,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=sha-cy.sc";
-rightKerningGroup = "de-cy.sc";
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Tse-cy";
@@ -120194,7 +120194,7 @@ source = "Tse-cy";
 },
 {
 glyphname = "sha-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -120421,8 +120421,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 userData = {
 RMXScaler = {
 source = "Sha-cy";
@@ -120432,7 +120432,7 @@ source = "Sha-cy";
 {
 color = 9;
 glyphname = "shcha-cy.sc";
-lastChange = "2017-03-28 20:53:02 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -120701,9 +120701,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=sha-cy.sc";
-rightKerningGroup = "de-cy.sc";
+rightKerningGroup = "De-cy";
 rightMetricsKey = "=tse-cy.sc";
 userData = {
 RMXScaler = {
@@ -120714,7 +120714,7 @@ source = "Shcha-cy";
 {
 color = 9;
 glyphname = "dzhe-cy.sc";
-lastChange = "2017-03-28 20:53:32 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -120907,9 +120907,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=sha-cy.sc";
-rightKerningGroup = h.sc;
+rightKerningGroup = H;
 rightMetricsKey = "=sha-cy.sc";
 userData = {
 RMXScaler = {
@@ -120919,7 +120919,7 @@ source = "Dzhe-cy";
 },
 {
 glyphname = "softsign-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -121060,9 +121060,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=i.sc";
-rightKerningGroup = "softsign-cy.sc";
+rightKerningGroup = "Softsign-cy";
 userData = {
 RMXScaler = {
 source = "Softsign-cy";
@@ -121071,7 +121071,7 @@ source = "Softsign-cy";
 },
 {
 glyphname = "hardsign-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -121218,9 +121218,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = t.sc;
+leftKerningGroup = T;
 leftMetricsKey = "=t.sc";
-rightKerningGroup = "softsign-cy.sc";
+rightKerningGroup = "Softsign-cy";
 rightMetricsKey = "=softsign-cy.sc";
 userData = {
 RMXScaler = {
@@ -121230,7 +121230,7 @@ source = "Hardsign-cy";
 },
 {
 glyphname = "yeru-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -121271,12 +121271,12 @@ layerId = UUID1;
 width = 876;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = idotless.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 glyphname = "lje-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -121447,9 +121447,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "el-cy.sc";
+leftKerningGroup = "El-cy";
 leftMetricsKey = "=el-cy.sc";
-rightKerningGroup = "softsign-cy.sc";
+rightKerningGroup = "Softsign-cy";
 rightMetricsKey = "=softsign-cy.sc";
 userData = {
 RMXScaler = {
@@ -121459,7 +121459,7 @@ source = "Lje-cy";
 },
 {
 glyphname = "nje-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -121710,9 +121710,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=h.sc";
-rightKerningGroup = "softsign-cy.sc";
+rightKerningGroup = "Softsign-cy";
 rightMetricsKey = "=softsign-cy.sc";
 userData = {
 RMXScaler = {
@@ -121748,7 +121748,7 @@ rightKerningGroup = S;
 },
 {
 glyphname = "e-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -121875,9 +121875,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = o.sc;
+leftKerningGroup = O;
 leftMetricsKey = "=c.sc";
-rightKerningGroup = c.sc;
+rightKerningGroup = C;
 userData = {
 RMXScaler = {
 source = "E-cy";
@@ -121886,7 +121886,7 @@ source = "E-cy";
 },
 {
 glyphname = "ereversed-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -122033,9 +122033,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "ereversed-cy.sc";
+leftKerningGroup = "Ereversed-cy";
 leftMetricsKey = "=|e-cy.sc";
-rightKerningGroup = o.sc;
+rightKerningGroup = O;
 rightMetricsKey = "=|c.sc";
 userData = {
 RMXScaler = {
@@ -122131,7 +122131,7 @@ rightKerningGroup = J;
 },
 {
 glyphname = "tshe-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -122304,9 +122304,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = t.sc;
+leftKerningGroup = T;
 leftMetricsKey = "=t.sc";
-rightKerningGroup = "tshe-cy.sc";
+rightKerningGroup = "Tshe-cy";
 userData = {
 RMXScaler = {
 source = "Tshe-cy";
@@ -122315,7 +122315,7 @@ source = "Tshe-cy";
 },
 {
 glyphname = "iu-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -122510,9 +122510,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=h.sc";
-rightKerningGroup = o.sc;
+rightKerningGroup = O;
 rightMetricsKey = "=o.sc";
 userData = {
 RMXScaler = {
@@ -122522,7 +122522,7 @@ source = "Iu-cy";
 },
 {
 glyphname = "ia-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -122705,9 +122705,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "ia-cy.sc";
+leftKerningGroup = "Ia-cy";
 leftMetricsKey = "=|r.sc";
-rightKerningGroup = h.sc;
+rightKerningGroup = H;
 rightMetricsKey = "=i.sc";
 userData = {
 RMXScaler = {
@@ -122717,7 +122717,7 @@ source = "Ia-cy";
 },
 {
 glyphname = "dje-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -122882,9 +122882,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = t.sc;
+leftKerningGroup = T;
 leftMetricsKey = "=t.sc";
-rightKerningGroup = "dje-cy.sc";
+rightKerningGroup = "Dje-cy";
 userData = {
 RMXScaler = {
 source = "Dje-cy";
@@ -122893,7 +122893,7 @@ source = "Dje-cy";
 },
 {
 glyphname = "yat-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -123102,8 +123102,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = t.sc;
-rightKerningGroup = "yat-cy.sc";
+leftKerningGroup = T;
+rightKerningGroup = "Yat-cy";
 userData = {
 RMXScaler = {
 source = "Yat-cy";
@@ -123112,7 +123112,7 @@ source = "Yat-cy";
 },
 {
 glyphname = "yusbig-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -123355,9 +123355,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = x.sc;
+leftKerningGroup = X;
 leftMetricsKey = "=|ka-cy.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=ka-cy.sc";
 userData = {
 RMXScaler = {
@@ -123367,7 +123367,7 @@ source = "Yusbig-cy";
 },
 {
 glyphname = "fita-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -123490,9 +123490,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = o.sc;
+leftKerningGroup = O;
 leftMetricsKey = "=o.sc";
-rightKerningGroup = o.sc;
+rightKerningGroup = O;
 rightMetricsKey = "=o.sc";
 userData = {
 RMXScaler = {
@@ -123502,7 +123502,7 @@ source = "Fita-cy";
 },
 {
 glyphname = "izhitsa-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -123615,9 +123615,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = v.sc;
+leftKerningGroup = V;
 leftMetricsKey = "=v.sc";
-rightKerningGroup = v.sc;
+rightKerningGroup = V;
 userData = {
 RMXScaler = {
 source = "Izhitsa-cy";
@@ -123626,7 +123626,7 @@ source = "Izhitsa-cy";
 },
 {
 glyphname = "ghestroke-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -123813,8 +123813,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "ghestroke-cy.sc";
-rightKerningGroup = gamma.sc;
+leftKerningGroup = "Ghestroke-cy";
+rightKerningGroup = Gamma;
 userData = {
 RMXScaler = {
 source = "Ghestroke-cy";
@@ -123823,7 +123823,7 @@ source = "Ghestroke-cy";
 },
 {
 glyphname = "ghemiddlehook-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -123996,9 +123996,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=gamma.sc";
-rightKerningGroup = "ghemiddlehook-cy.sc";
+rightKerningGroup = "Ghemiddlehook-cy";
 userData = {
 RMXScaler = {
 source = "Ghemiddlehook-cy";
@@ -124008,7 +124008,7 @@ source = "Ghemiddlehook-cy";
 {
 color = 9;
 glyphname = "zhedescender-cy.sc";
-lastChange = "2017-03-28 20:53:02 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -124285,9 +124285,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = x.sc;
+leftKerningGroup = X;
 leftMetricsKey = "=|ka-cy.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=ka-cy.sc";
 userData = {
 RMXScaler = {
@@ -124297,7 +124297,7 @@ source = "Zhedescender-cy";
 },
 {
 glyphname = "zedescender-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -124326,13 +124326,13 @@ layerId = UUID1;
 width = 491;
 }
 );
-leftKerningGroup = "ereversed-cy.sc";
-rightKerningGroup = b.sc;
+leftKerningGroup = "Zedescender-cy";
+rightKerningGroup = B;
 },
 {
 color = 9;
 glyphname = "kadescender-cy.sc";
-lastChange = "2017-03-28 20:53:02 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -124539,9 +124539,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=k.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=ka-cy.sc";
 userData = {
 RMXScaler = {
@@ -124551,7 +124551,7 @@ source = "Kadescender-cy";
 },
 {
 glyphname = "kaverticalstroke-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -124782,9 +124782,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=k.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=ka-cy.sc";
 userData = {
 RMXScaler = {
@@ -124794,7 +124794,7 @@ source = "Kaverticalstroke-cy";
 },
 {
 glyphname = "kabashkir-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -124987,9 +124987,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = t.sc;
+leftKerningGroup = T;
 leftMetricsKey = "=hardsign-cy.sc";
-rightKerningGroup = x.sc;
+rightKerningGroup = X;
 rightMetricsKey = "=ka-cy.sc";
 userData = {
 RMXScaler = {
@@ -125000,7 +125000,7 @@ source = "Kabashkir-cy";
 {
 color = 9;
 glyphname = "endescender-cy.sc";
-lastChange = "2017-03-28 20:53:46 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -125045,8 +125045,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = "de-cy.sc";
+leftKerningGroup = H;
+rightKerningGroup = "De-cy";
 userData = {
 RMXScaler = {
 source = "Endescender-cy";
@@ -125055,7 +125055,7 @@ source = "Endescender-cy";
 },
 {
 glyphname = "enghe-cy.sc";
-lastChange = "2017-03-29 19:09:49 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -125302,9 +125302,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=h.sc";
-rightKerningGroup = gamma.sc;
+rightKerningGroup = Gamma;
 rightMetricsKey = "=gamma.sc";
 userData = {
 RMXScaler = {
@@ -125315,7 +125315,7 @@ source = "Enghe-cy";
 {
 color = 9;
 glyphname = "pedescender-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -125344,13 +125344,13 @@ layerId = UUID1;
 width = 628;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 color = 9;
 glyphname = "esdescender-cy.sc";
-lastChange = "2017-03-28 20:53:02 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -125515,9 +125515,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = c.sc;
+leftKerningGroup = C;
 leftMetricsKey = "=c.sc";
-rightKerningGroup = c.sc;
+rightKerningGroup = C;
 rightMetricsKey = "=c.sc";
 userData = {
 RMXScaler = {
@@ -125527,7 +125527,7 @@ source = "Esdescender-cy";
 },
 {
 glyphname = "ustrait-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -125564,8 +125564,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = y.sc;
-rightKerningGroup = y.sc;
+leftKerningGroup = Y;
+rightKerningGroup = Y;
 userData = {
 RMXScaler = {
 source = "Ustrait-cy";
@@ -125574,7 +125574,7 @@ source = "Ustrait-cy";
 },
 {
 glyphname = "ustraitstroke-cy.sc";
-lastChange = "2017-03-28 20:43:46 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 background = {
@@ -125641,8 +125641,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = y.sc;
-rightKerningGroup = y.sc;
+leftKerningGroup = Y;
+rightKerningGroup = Y;
 userData = {
 RMXScaler = {
 source = "Ustraitstroke-cy";
@@ -125652,7 +125652,7 @@ source = "Ustraitstroke-cy";
 {
 color = 9;
 glyphname = "hadescender-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -125861,8 +125861,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "hadescender-cy.sc";
-rightKerningGroup = "hadescender-cy.sc";
+leftKerningGroup = "Hadescender-cy";
+rightKerningGroup = "Hadescender-cy";
 rightMetricsKey = "=x.sc";
 userData = {
 RMXScaler = {
@@ -125873,7 +125873,7 @@ source = "Hadescender-cy";
 {
 color = 9;
 glyphname = "chedescender-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -125902,12 +125902,12 @@ layerId = UUID1;
 width = 589;
 }
 );
-leftKerningGroup = "che-cy.sc";
-rightKerningGroup = h.sc;
+leftKerningGroup = "Che-cy";
+rightKerningGroup = "De-cy";
 },
 {
 glyphname = "cheverticalstroke-cy.sc";
-lastChange = "2017-03-28 20:40:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -126128,9 +126128,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "che-cy.sc";
+leftKerningGroup = "Che-cy";
 leftMetricsKey = "=che-cy.sc";
-rightKerningGroup = h.sc;
+rightKerningGroup = H;
 rightMetricsKey = "=che-cy.sc";
 userData = {
 RMXScaler = {
@@ -126192,7 +126192,7 @@ rightKerningGroup = H;
 },
 {
 glyphname = "zhebreve-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126221,13 +126221,13 @@ layerId = UUID1;
 width = 877;
 }
 );
-leftKerningGroup = x.sc;
-rightKerningGroup = x.sc;
+leftKerningGroup = X;
+rightKerningGroup = X;
 },
 {
 color = 9;
 glyphname = "chekhakassian-cy.sc";
-lastChange = "2017-03-28 20:53:02 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -126452,9 +126452,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = "che-cy.sc";
+leftKerningGroup = "Che-cy";
 leftMetricsKey = "=che-cy.sc";
-rightKerningGroup = h.sc;
+rightKerningGroup = H;
 rightMetricsKey = "=che-cy.sc";
 userData = {
 RMXScaler = {
@@ -126592,7 +126592,7 @@ rightKerningGroup = E;
 },
 {
 glyphname = "schwa-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126629,8 +126629,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = o.sc;
-rightKerningGroup = o.sc;
+leftKerningGroup = O;
+rightKerningGroup = O;
 userData = {
 RMXScaler = {
 source = "Schwa-cy";
@@ -126639,7 +126639,7 @@ source = "Schwa-cy";
 },
 {
 glyphname = "zhedieresis-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126668,12 +126668,12 @@ layerId = UUID1;
 width = 877;
 }
 );
-leftKerningGroup = x.sc;
-rightKerningGroup = x.sc;
+leftKerningGroup = X;
+rightKerningGroup = X;
 },
 {
 glyphname = "zedieresis-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126702,12 +126702,12 @@ layerId = UUID1;
 width = 491;
 }
 );
-leftKerningGroup = "ereversed-cy.sc";
-rightKerningGroup = b.sc;
+leftKerningGroup = "Ereversed-cy";
+rightKerningGroup = B;
 },
 {
 glyphname = "imacron-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126736,12 +126736,12 @@ layerId = UUID1;
 width = 632;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 glyphname = "idieresis-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126770,8 +126770,8 @@ layerId = UUID1;
 width = 632;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = h.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 glyphname = "odieresis-cy.sc";
@@ -126809,7 +126809,7 @@ rightKerningGroup = O;
 },
 {
 glyphname = "obarred-cy.sc";
-lastChange = "2017-03-28 20:40:19 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126846,8 +126846,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = o.sc;
-rightKerningGroup = o.sc;
+leftKerningGroup = O;
+rightKerningGroup = O;
 userData = {
 RMXScaler = {
 source = "Obarred-cy";
@@ -126958,7 +126958,7 @@ rightKerningGroup = Y;
 },
 {
 glyphname = "chedieresis-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -126987,13 +126987,13 @@ layerId = UUID1;
 width = 589;
 }
 );
-leftKerningGroup = "che-cy.sc";
-rightKerningGroup = h.sc;
+leftKerningGroup = "Che-cy";
+rightKerningGroup = H;
 },
 {
 color = 9;
 glyphname = "gedescender-cy.sc";
-lastChange = "2017-03-28 21:25:54 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -127130,9 +127130,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=f.sc";
-rightKerningGroup = gamma.sc;
+rightKerningGroup = Gamma;
 rightMetricsKey = "=gamma.sc";
 userData = {
 RMXScaler = {
@@ -127143,7 +127143,7 @@ source = "Gedescender-cy";
 {
 color = 9;
 glyphname = "yerudieresis-cy.sc";
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -127172,12 +127172,12 @@ layerId = UUID1;
 width = 876;
 }
 );
-leftKerningGroup = h.sc;
-rightKerningGroup = idotless.sc;
+leftKerningGroup = H;
+rightKerningGroup = H;
 },
 {
 glyphname = "qa-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -127214,8 +127214,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = o.sc;
-rightKerningGroup = o.sc;
+leftKerningGroup = O;
+rightKerningGroup = O;
 userData = {
 RMXScaler = {
 source = "Qa-cy";
@@ -127224,7 +127224,7 @@ source = "Qa-cy";
 },
 {
 glyphname = "we-cy.sc";
-lastChange = "2017-03-28 20:27:15 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 components = (
@@ -127261,8 +127261,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = v.sc;
-rightKerningGroup = v.sc;
+leftKerningGroup = V;
+rightKerningGroup = V;
 userData = {
 RMXScaler = {
 source = "We-cy";
@@ -151008,7 +151008,7 @@ source = O;
 {
 color = 1;
 glyphname = pi.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -151353,9 +151353,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = h.sc;
+leftKerningGroup = H;
 leftMetricsKey = "=i.sc";
-rightKerningGroup = h.sc;
+rightKerningGroup = H;
 rightMetricsKey = "=i.sc";
 userData = {
 RMXScaler = {
@@ -152027,7 +152027,7 @@ source = Upsilon;
 {
 color = 1;
 glyphname = phi.sc;
-lastChange = "2017-02-18 20:11:42 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 background = {
@@ -152430,8 +152430,8 @@ width = 83;
 };
 }
 );
-leftKerningGroup = phi.sc;
-rightKerningGroup = phi.sc;
+leftKerningGroup = Phi;
+rightKerningGroup = Phi;
 userData = {
 RMXScaler = {
 source = Phi;
@@ -153801,7 +153801,7 @@ rightMetricsKey = "=iota.sc";
 },
 {
 glyphname = kaiSymbol.sc;
-lastChange = "2017-03-30 19:13:50 +0000";
+lastChange = "2017-03-30 20:14:14 +0000";
 layers = (
 {
 anchors = (
@@ -154153,9 +154153,9 @@ width = 83;
 };
 }
 );
-leftKerningGroup = kaiSymbol.sc;
+leftKerningGroup = KaiSymbol;
 leftMetricsKey = "=k.sc";
-rightKerningGroup = kaiSymbol.sc;
+rightKerningGroup = KaiSymbol;
 userData = {
 RMXScaler = {
 source = KaiSymbol;
