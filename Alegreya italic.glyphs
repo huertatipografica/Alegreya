@@ -1689,31 +1689,31 @@ value = "7";
 },
 {
 name = typoAscender;
-value = 937;
-},
-{
-name = typoDescender;
-value = -312;
-},
-{
-name = typoLineGap;
-value = 0;
+value = 1016;
 },
 {
 name = winAscent;
-value = 1123;
+value = 1016;
+},
+{
+name = hheaAscender;
+value = 1016;
+},
+{
+name = typoDescender;
+value = -345;
 },
 {
 name = winDescent;
 value = 345;
 },
 {
-name = hheaAscender;
-value = 937;
+name = hheaDescender;
+value = -345;
 },
 {
-name = hheaDescender;
-value = -312;
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaLineGap;
@@ -1779,31 +1779,31 @@ value = "11";
 },
 {
 name = typoAscender;
-value = 937;
-},
-{
-name = typoDescender;
-value = -312;
-},
-{
-name = typoLineGap;
-value = 0;
+value = 1016;
 },
 {
 name = winAscent;
-value = 1123;
+value = 1016;
+},
+{
+name = hheaAscender;
+value = 1016;
+},
+{
+name = typoDescender;
+value = -345;
 },
 {
 name = winDescent;
 value = 345;
 },
 {
-name = hheaAscender;
-value = 937;
+name = hheaDescender;
+value = -345;
 },
 {
-name = hheaDescender;
-value = -312;
+name = typoLineGap;
+value = 0;
 },
 {
 name = hheaLineGap;
@@ -245857,6 +245857,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=30 --hinting-limit=32 --increase-x-height=18 --fallback-stem-width=60 --ignore-restrictions";
 }
 );
 interpolationWeight = 60;
@@ -245872,6 +245876,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=30 --hinting-limit=32 --increase-x-height=18 --fallback-stem-width=80 --ignore-restrictions";
 }
 );
 interpolationWeight = 80;
@@ -245889,6 +245897,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=30 --hinting-limit=32 --increase-x-height=18 --fallback-stem-width=105 --ignore-restrictions";
 }
 );
 interpolationWeight = 105;
@@ -245907,6 +245919,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=30 --hinting-limit=32 --increase-x-height=18 --fallback-stem-width=130 --ignore-restrictions";
 }
 );
 interpolationWeight = 130;
@@ -245924,6 +245940,10 @@ customParameters = (
 {
 name = "Update Features";
 value = 1;
+},
+{
+name = "TTFAutohint options";
+value = "--hinting-range-min=7 --hinting-range-max=30 --hinting-limit=32 --increase-x-height=18 --fallback-stem-width=160 --ignore-restrictions";
 }
 );
 interpolationWeight = 160;
