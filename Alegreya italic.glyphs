@@ -1,8 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-"/gje-cy.sc/a.sc"
-);
 classes = (
 {
 automatic = 1;
@@ -17,13 +14,16 @@ name = description;
 value = "Alegreya is a typeface originally intended for literature. Among its crowning characteristics, it conveys a dynamic and varied rhythm which facilitates the reading of long texts. Also, it provides freshness to the page while referring to the calligraphic letter, not as a literal interpretation, but rather in a contemporary typographic language.";
 },
 {
+name = vendorID;
+value = HT;
+},
+{
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
-name = openTypeOS2Type;
-value = (
-);
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
 },
 {
 name = fsType;
@@ -31,23 +31,15 @@ value = (
 );
 },
 {
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
-name = vendorID;
-value = HT;
-},
-{
-name = "Use Typo Metrics";
-value = 1;
-},
-{
 name = "Disable Last Change";
 value = 1;
 },
 {
 name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Use Typo Metrics";
 value = 1;
 }
 );
@@ -96,8 +88,8 @@ feature case;
 feature salt;
 feature ss01;
 feature ss05;
-feature smcp;
 feature c2sc;
+feature smcp;
 ";
 name = aalt;
 },
@@ -187859,11 +187851,11 @@ name = alpha.sc;
 },
 {
 name = prosgegrammeni.sc;
-transform = "{1, 0, 0, 1, 554, 0}";
+transform = "{1, 0, 0, 1, 574, 0}";
 }
 );
 layerId = UUID1;
-width = 863;
+width = 883;
 }
 );
 leftKerningGroup = A;
@@ -245825,6 +245817,34 @@ layerId = UUID1;
 width = 192;
 }
 );
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = UUID0;
+width = 169;
+},
+{
+layerId = UUID1;
+width = 127;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = UUID0;
+width = 0;
+},
+{
+layerId = UUID1;
+width = 0;
+}
+);
+unicode = 0000;
 }
 );
 instances = (
@@ -245840,7 +245860,6 @@ instanceInterpolations = {
 UUID0 = 1;
 };
 isItalic = 1;
-linkStyle = Regular;
 name = Italic;
 },
 {
@@ -245874,7 +245893,6 @@ UUID1 = 0.45;
 };
 isBold = 1;
 isItalic = 1;
-linkStyle = Regular;
 name = "Bold Italic";
 weightClass = Bold;
 },
