@@ -1,8 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-/aacute.sc/adieresis.sc/agrave.sc/amacron.sc/aring.sc/aringacute.sc/atilde.sc/dcaron.sc/edotaccent.sc/gbreve.sc/gdotaccent.sc/icaron.sc/icircumflex.sc/idieresis.sc/idieresisacute.sc/idotaccent.sc/igrave.sc/imacron.sc/lacute.sc/nacute.sc/ncaron.sc/ndotaccent.sc/ntilde.sc/oslashacute.sc/otilde.sc/sacute.sc/sacutedotaccent.sc/scaron.sc/scarondotaccent.sc/sdotaccent.sc/sdotbelowdotaccent.sc/tcaron.sc/uacute.sc/ucaron.sc/ucircumflex.sc/udieresis.sc/ugrave.sc/umacron.sc/umacrondieresis.sc/uring.sc/gdieresis.sc/gtilde.sc
-);
 classes = (
 {
 automatic = 1;
@@ -40106,13 +40103,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 58, -140}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 27, 45}";
 }
 );
 layerId = UUID0;
@@ -40121,13 +40117,12 @@ width = 510;
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 105, -144}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 56, 31}";
 }
 );
 layerId = UUID1;
@@ -40649,13 +40644,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 60, -140}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 56, 45}";
 }
 );
 layerId = UUID0;
@@ -40664,13 +40658,12 @@ width = 510;
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 97, -144}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 94, 31}";
 }
 );
 layerId = UUID1;
@@ -40725,13 +40718,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = gravecomb.case;
-transform = "{1, 0, 0, 1, 67, -140}";
+alignment = 1;
+name = gravecomb;
+transform = "{1, 0, 0, 1, 57, 45}";
 }
 );
 layerId = UUID0;
@@ -40740,13 +40732,12 @@ width = 510;
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = gravecomb.case;
-transform = "{1, 0, 0, 1, 102, -144}";
+alignment = 1;
+name = gravecomb;
+transform = "{1, 0, 0, 1, 91, 31}";
 }
 );
 layerId = UUID1;
@@ -40878,13 +40869,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = macroncomb.case;
-transform = "{1, 0, 0, 1, 59, -140}";
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 55, 45}";
 }
 );
 layerId = UUID0;
@@ -40893,13 +40883,12 @@ width = 510;
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = macroncomb.case;
-transform = "{1, 0, 0, 1, 95, -144}";
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 89, 31}";
 }
 );
 layerId = UUID1;
@@ -40954,13 +40943,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = ringcomb.case;
-transform = "{1, 0, 0, 1, 60, -140}";
+alignment = 1;
+name = ringcomb;
+transform = "{1, 0, 0, 1, 62, 25}";
 }
 );
 layerId = UUID0;
@@ -40969,13 +40957,12 @@ width = 510;
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = ringcomb.case;
-transform = "{1, 0, 0, 1, 97, -144}";
+alignment = 1;
+name = ringcomb;
+transform = "{1, 0, 0, 1, 100, 31}";
 }
 );
 layerId = UUID1;
@@ -40998,7 +40985,7 @@ name = a.sc;
 {
 alignment = -1;
 name = ringcomb.case;
-transform = "{0.901, 0, 0, 0.902, 88, -79}";
+transform = "{0.901, 0, 0, 0.902, 66, -79}";
 },
 {
 alignment = -1;
@@ -41040,13 +41027,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 61, -140}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 55, 45}";
 }
 );
 layerId = UUID0;
@@ -41055,13 +41041,12 @@ width = 510;
 {
 components = (
 {
-alignment = -1;
 name = a.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 95, -144}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 94, 31}";
 }
 );
 layerId = UUID1;
@@ -42194,13 +42179,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = d.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 85, -140}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 99, 45}";
 }
 );
 layerId = UUID0;
@@ -42209,13 +42193,12 @@ width = 596;
 {
 components = (
 {
-alignment = -1;
 name = d.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 97, -144}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 91, 31}";
 }
 );
 layerId = UUID1;
@@ -43121,13 +43104,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = e.sc;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 68, -140}";
+transform = "{1, 0, 0, 1, 57, -140}";
 }
 );
 layerId = UUID0;
@@ -43136,13 +43118,12 @@ width = 508;
 {
 components = (
 {
-alignment = -1;
 name = e.sc;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 68, -140}";
+transform = "{1, 0, 0, 1, 69, -144}";
 }
 );
 layerId = UUID1;
@@ -44013,13 +43994,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
-name = brevecomb.case;
-transform = "{1, 0, 0, 1, 109, -140}";
+alignment = 1;
+name = brevecomb;
+transform = "{1, 0, 0, 1, 104, 45}";
 }
 );
 layerId = UUID0;
@@ -44028,13 +44008,12 @@ width = 566;
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
-name = brevecomb.case;
-transform = "{1, 0, 0, 1, 89, -124}";
+alignment = 1;
+name = brevecomb;
+transform = "{1, 0, 0, 1, 102, 31}";
 }
 );
 layerId = UUID1;
@@ -44163,13 +44142,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 110, -140}";
+transform = "{1, 0, 0, 1, 104, -140}";
 }
 );
 layerId = UUID0;
@@ -44178,13 +44156,12 @@ width = 566;
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 92, -144}";
+transform = "{1, 0, 0, 1, 102, -144}";
 }
 );
 layerId = UUID1;
@@ -45389,13 +45366,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, -37, -140}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, -37, 45}";
 }
 );
 layerId = UUID0;
@@ -45404,13 +45380,12 @@ width = 319;
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, -35, -144}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, -34, 31}";
 }
 );
 layerId = UUID1;
@@ -45427,13 +45402,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = circumflexcomb.case;
-transform = "{1, 0, 0, 1, -37, -140}";
+alignment = 1;
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -31, 24}";
 }
 );
 layerId = UUID0;
@@ -45442,13 +45416,12 @@ width = 319;
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = circumflexcomb.case;
-transform = "{1, 0, 0, 1, -35, -144}";
+alignment = 1;
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, -29, 30}";
 }
 );
 layerId = UUID1;
@@ -45501,13 +45474,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, -37, -140}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, -37, 45}";
 }
 );
 layerId = UUID0;
@@ -45516,13 +45488,12 @@ width = 319;
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, -36, -144}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, -35, 31}";
 }
 );
 layerId = UUID1;
@@ -45575,11 +45546,10 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
 transform = "{1, 0, 0, 1, -37, -140}";
 }
@@ -45590,13 +45560,12 @@ width = 319;
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
+alignment = 1;
 name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, -34, -144}";
+transform = "{1, 0, 0, 1, -35, -144}";
 }
 );
 layerId = UUID1;
@@ -45651,13 +45620,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = gravecomb.case;
-transform = "{1, 0, 0, 1, -30, -140}";
+alignment = 1;
+name = gravecomb;
+transform = "{1, 0, 0, 1, -36, 45}";
 }
 );
 layerId = UUID0;
@@ -45666,13 +45634,12 @@ width = 319;
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = gravecomb.case;
-transform = "{1, 0, 0, 1, -40, -144}";
+alignment = 1;
+name = gravecomb;
+transform = "{1, 0, 0, 1, -38, 31}";
 }
 );
 layerId = UUID1;
@@ -45801,13 +45768,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = macroncomb.case;
-transform = "{1, 0, 0, 1, -38, -140}";
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, -38, 45}";
 }
 );
 layerId = UUID0;
@@ -45816,13 +45782,12 @@ width = 319;
 {
 components = (
 {
-alignment = -1;
 name = i.sc;
 },
 {
-alignment = -1;
-name = macroncomb.case;
-transform = "{1, 0, 0, 1, -38, -144}";
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, -40, 31}";
 }
 );
 layerId = UUID1;
@@ -46769,13 +46734,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = l.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, -34, -140}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, -7, 45}";
 }
 );
 layerId = UUID0;
@@ -46784,13 +46748,12 @@ width = 442;
 {
 components = (
 {
-alignment = -1;
 name = l.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, -25, -144}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 4, 31}";
 }
 );
 layerId = UUID1;
@@ -47683,13 +47646,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = n.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 116, -140}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 79, 45}";
 }
 );
 layerId = UUID0;
@@ -47698,13 +47660,12 @@ width = 614;
 {
 components = (
 {
-alignment = -1;
 name = n.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 137, -144}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 78, 31}";
 }
 );
 layerId = UUID1;
@@ -47721,13 +47682,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = n.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 117, -140}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 108, 45}";
 }
 );
 layerId = UUID0;
@@ -47736,13 +47696,12 @@ width = 614;
 {
 components = (
 {
-alignment = -1;
 name = n.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 128, -144}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 117, 31}";
 }
 );
 layerId = UUID1;
@@ -48256,13 +48215,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = n.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 118, -140}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 107, 45}";
 }
 );
 layerId = UUID0;
@@ -48271,13 +48229,12 @@ width = 614;
 {
 components = (
 {
-alignment = -1;
 name = n.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 128, -144}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 116, 31}";
 }
 );
 layerId = UUID1;
@@ -49510,12 +49467,6 @@ color = 11;
 glyphname = oslash.sc;
 layers = (
 {
-anchors = (
-{
-name = top;
-position = "{328, 647}";
-}
-);
 components = (
 {
 name = o.sc;
@@ -49556,12 +49507,6 @@ nodes = (
 width = 585;
 },
 {
-anchors = (
-{
-name = top;
-position = "{328, 647}";
-}
-);
 components = (
 {
 name = o.sc;
@@ -49732,13 +49677,12 @@ nodes = (
 };
 components = (
 {
-alignment = -1;
 name = oslash.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 70, -137}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 65, 45}";
 }
 );
 layerId = UUID0;
@@ -49789,13 +49733,12 @@ nodes = (
 };
 components = (
 {
-alignment = -1;
 name = oslash.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 70, -119}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 40, 31}";
 }
 );
 layerId = UUID1;
@@ -49812,13 +49755,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = o.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 101, -140}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 93, 45}";
 }
 );
 layerId = UUID0;
@@ -49827,13 +49769,12 @@ width = 585;
 {
 components = (
 {
-alignment = -1;
 name = o.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 74, -144}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 78, 31}";
 }
 );
 layerId = UUID1;
@@ -51220,13 +51161,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = s.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 27, -140}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 2, 45}";
 }
 );
 layerId = UUID0;
@@ -51235,17 +51175,16 @@ width = 459;
 {
 components = (
 {
-alignment = -1;
 name = s.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 58, -144}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 0, 31}";
 }
 );
 layerId = UUID1;
-width = 474;
+width = 473;
 }
 );
 leftKerningGroup = S;
@@ -51304,13 +51243,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = s.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 29, -140}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 31, 45}";
 }
 );
 layerId = UUID0;
@@ -51319,17 +51257,16 @@ width = 459;
 {
 components = (
 {
-alignment = -1;
 name = s.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 49, -144}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 39, 31}";
 }
 );
 layerId = UUID1;
-width = 474;
+width = 473;
 }
 );
 leftKerningGroup = S;
@@ -52100,13 +52037,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = t.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 40, -140}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 38, 45}";
 }
 );
 layerId = UUID0;
@@ -52115,13 +52051,12 @@ width = 474;
 {
 components = (
 {
-alignment = -1;
 name = t.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 59, -144}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 58, 31}";
 }
 );
 layerId = UUID1;
@@ -52496,13 +52431,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 83, -140}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 60, 45}";
 }
 );
 layerId = UUID0;
@@ -52511,13 +52445,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = acutecomb.case;
-transform = "{1, 0, 0, 1, 91, -144}";
+alignment = 1;
+name = acutecomb;
+transform = "{1, 0, 0, 1, 27, 31}";
 }
 );
 layerId = UUID1;
@@ -52572,13 +52505,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 95, -140}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 89, 45}";
 }
 );
 layerId = UUID0;
@@ -52587,13 +52519,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = caroncomb.case;
-transform = "{1, 0, 0, 1, 83, -144}";
+alignment = 1;
+name = caroncomb;
+transform = "{1, 0, 0, 1, 66, 31}";
 }
 );
 layerId = UUID1;
@@ -52610,13 +52541,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = circumflexcomb.case;
-transform = "{1, 0, 0, 1, 95, -140}";
+alignment = 1;
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, 95, 24}";
 }
 );
 layerId = UUID0;
@@ -52625,13 +52555,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = circumflexcomb.case;
-transform = "{1, 0, 0, 1, 83, -144}";
+alignment = 1;
+name = circumflexcomb;
+transform = "{1, 0, 0, 1, 71, 30}";
 }
 );
 layerId = UUID1;
@@ -52684,13 +52613,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 95, -140}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 89, 45}";
 }
 );
 layerId = UUID0;
@@ -52699,13 +52627,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 83, -144}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 65, 31}";
 }
 );
 layerId = UUID1;
@@ -52912,13 +52839,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = gravecomb.case;
-transform = "{1, 0, 0, 1, 102, -140}";
+alignment = 1;
+name = gravecomb;
+transform = "{1, 0, 0, 1, 90, 45}";
 }
 );
 layerId = UUID0;
@@ -52927,13 +52853,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = gravecomb.case;
-transform = "{1, 0, 0, 1, 78, -144}";
+alignment = 1;
+name = gravecomb;
+transform = "{1, 0, 0, 1, 62, 31}";
 }
 );
 layerId = UUID1;
@@ -53434,13 +53359,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = macroncomb.case;
-transform = "{1, 0, 0, 1, 94, -140}";
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 88, 45}";
 }
 );
 layerId = UUID0;
@@ -53449,13 +53373,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = macroncomb.case;
-transform = "{1, 0, 0, 1, 81, -144}";
+alignment = 1;
+name = macroncomb;
+transform = "{1, 0, 0, 1, 60, 31}";
 }
 );
 layerId = UUID1;
@@ -53864,13 +53787,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = ringcomb.case;
-transform = "{1, 0, 0, 1, 95, -140}";
+alignment = 1;
+name = ringcomb;
+transform = "{1, 0, 0, 1, 95, 25}";
 }
 );
 layerId = UUID0;
@@ -53879,13 +53801,12 @@ width = 575;
 {
 components = (
 {
-alignment = -1;
 name = u.sc;
 },
 {
-alignment = -1;
-name = ringcomb.case;
-transform = "{1, 0, 0, 1, 83, -144}";
+alignment = 1;
+name = ringcomb;
+transform = "{1, 0, 0, 1, 71, 31}";
 }
 );
 layerId = UUID1;
@@ -202528,13 +202449,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 110, -140}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 104, 45}";
 }
 );
 layerId = UUID0;
@@ -202543,13 +202463,12 @@ width = 566;
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
-name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 92, -144}";
+alignment = 1;
+name = dieresiscomb;
+transform = "{1, 0, 0, 1, 102, 31}";
 }
 );
 layerId = UUID1;
@@ -202565,13 +202484,12 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 110, -140}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 103, 45}";
 }
 );
 layerId = UUID0;
@@ -202580,13 +202498,12 @@ width = 566;
 {
 components = (
 {
-alignment = -1;
 name = g.sc;
 },
 {
-alignment = -1;
-name = tildecomb.case;
-transform = "{1, 0, 0, 1, 92, -144}";
+alignment = 1;
+name = tildecomb;
+transform = "{1, 0, 0, 1, 102, 31}";
 }
 );
 layerId = UUID1;
