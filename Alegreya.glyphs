@@ -43107,9 +43107,8 @@ components = (
 name = e.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 57, -140}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 57, 45}";
 }
 );
 layerId = UUID0;
@@ -43121,9 +43120,8 @@ components = (
 name = e.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 69, -144}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 69, 31}";
 }
 );
 layerId = UUID1;
@@ -44145,9 +44143,8 @@ components = (
 name = g.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 104, -140}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 104, 45}";
 }
 );
 layerId = UUID0;
@@ -44159,9 +44156,8 @@ components = (
 name = g.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 102, -144}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 102, 31}";
 }
 );
 layerId = UUID1;
@@ -45549,9 +45545,8 @@ components = (
 name = i.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, -37, -140}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -37, 45}";
 }
 );
 layerId = UUID0;
@@ -45563,9 +45558,8 @@ components = (
 name = i.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, -35, -144}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -35, 31}";
 }
 );
 layerId = UUID1;
@@ -46737,7 +46731,6 @@ components = (
 name = l.sc;
 },
 {
-alignment = 1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, -7, 45}";
 }
@@ -46751,7 +46744,6 @@ components = (
 name = l.sc;
 },
 {
-alignment = 1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 4, 31}";
 }
@@ -47759,9 +47751,8 @@ components = (
 name = n.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 108, -140}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 108, 45}";
 }
 );
 layerId = UUID0;
@@ -47773,9 +47764,8 @@ components = (
 name = n.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 116, -144}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 116, 31}";
 }
 );
 layerId = UUID1;
@@ -49549,8 +49539,12 @@ width = 554;
 {
 anchors = (
 {
+name = bottom;
+position = "{293, 0}";
+},
+{
 name = top;
-position = "{328, 647}";
+position = "{293, 497}";
 }
 );
 associatedMasterId = UUID0;
@@ -49588,8 +49582,12 @@ width = 585;
 {
 anchors = (
 {
+name = bottom;
+position = "{277, 0}";
+},
+{
 name = top;
-position = "{328, 647}";
+position = "{277, 503}";
 }
 );
 associatedMasterId = UUID1;
@@ -49680,7 +49678,6 @@ components = (
 name = oslash.sc;
 },
 {
-alignment = 1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 65, 45}";
 }
@@ -49736,7 +49733,6 @@ components = (
 name = oslash.sc;
 },
 {
-alignment = 1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 40, 31}";
 }
@@ -51164,7 +51160,6 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 2, 45}";
 }
@@ -51178,7 +51173,6 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
 name = acutecomb;
 transform = "{1, 0, 0, 1, 0, 31}";
 }
@@ -51246,7 +51240,6 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
 name = caroncomb;
 transform = "{1, 0, 0, 1, 31, 45}";
 }
@@ -51260,7 +51253,6 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
 name = caroncomb;
 transform = "{1, 0, 0, 1, 39, 31}";
 }
@@ -51442,9 +51434,8 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 31, -140}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 31, 45}";
 }
 );
 layerId = UUID0;
@@ -51456,9 +51447,8 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 38, -144}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 38, 31}";
 }
 );
 layerId = UUID1;
@@ -51514,14 +51504,12 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
 name = dotbelowcomb;
 transform = "{1, 0, 0, 1, 28, 0}";
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 31, -140}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 31, 45}";
 }
 );
 layerId = UUID0;
@@ -51533,14 +51521,12 @@ components = (
 name = s.sc;
 },
 {
-alignment = 1;
 name = dotbelowcomb;
 transform = "{1, 0, 0, 1, 114, 0}";
 },
 {
-alignment = 1;
-name = dotaccentcomb.case;
-transform = "{1, 0, 0, 1, 38, -144}";
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, 38, 31}";
 }
 );
 layerId = UUID1;
@@ -52040,7 +52026,6 @@ components = (
 name = t.sc;
 },
 {
-alignment = 1;
 name = caroncomb;
 transform = "{1, 0, 0, 1, 38, 45}";
 }
@@ -52054,7 +52039,6 @@ components = (
 name = t.sc;
 },
 {
-alignment = 1;
 name = caroncomb;
 transform = "{1, 0, 0, 1, 58, 31}";
 }
@@ -52842,7 +52826,6 @@ components = (
 name = u.sc;
 },
 {
-alignment = 1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 90, 45}";
 }
@@ -52856,7 +52839,6 @@ components = (
 name = u.sc;
 },
 {
-alignment = 1;
 name = gravecomb;
 transform = "{1, 0, 0, 1, 62, 31}";
 }
@@ -53362,7 +53344,6 @@ components = (
 name = u.sc;
 },
 {
-alignment = 1;
 name = macroncomb;
 transform = "{1, 0, 0, 1, 88, 45}";
 }
@@ -53376,7 +53357,6 @@ components = (
 name = u.sc;
 },
 {
-alignment = 1;
 name = macroncomb;
 transform = "{1, 0, 0, 1, 60, 31}";
 }
@@ -53790,7 +53770,6 @@ components = (
 name = u.sc;
 },
 {
-alignment = 1;
 name = ringcomb;
 transform = "{1, 0, 0, 1, 95, 25}";
 }
@@ -53804,7 +53783,6 @@ components = (
 name = u.sc;
 },
 {
-alignment = 1;
 name = ringcomb;
 transform = "{1, 0, 0, 1, 71, 31}";
 }
@@ -203427,7 +203405,6 @@ width = 175;
 );
 instances = (
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -203449,7 +203426,6 @@ UUID0 = 1;
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -203473,7 +203449,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -203499,7 +203474,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -203523,7 +203497,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -203583,7 +203556,7 @@ value = 1;
 },
 {
 name = "Replace Class";
-value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek space";
+value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace ";
 },
 {
 name = "Replace Class";
@@ -205222,7 +205195,6 @@ UUID0 = 1;
 name = Regular;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -205241,6 +205213,579 @@ name = familyName;
 value = "Alegreya SC";
 },
 {
+name = "Remove Classes";
+value = (
+f.l,
+f.t
+);
+},
+{
+name = "Remove Features";
+value = (
+smcp,
+c2sc
+);
+},
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Replace Class";
+value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace ";
+},
+{
+name = "Replace Class";
+value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
+},
+{
+name = "Replace Feature";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+},
+{
+name = "Replace Feature";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+},
+{
+name = "Decompose Glyphs";
+value = (
+a.sc,
+aacute.sc,
+abreve.sc,
+abreveacute.sc,
+abrevedotbelow.sc,
+abrevegrave.sc,
+abrevehookabove.sc,
+abrevetilde.sc,
+acaron.sc,
+acircumflex.sc,
+acircumflexacute.sc,
+acircumflexdotbelow.sc,
+acircumflexgrave.sc,
+acircumflexhookabove.sc,
+acircumflextilde.sc,
+adblgrave.sc,
+adieresis.sc,
+adotbelow.sc,
+agrave.sc,
+ahookabove.sc,
+ainvertedbreve.sc,
+amacron.sc,
+aogonek.sc,
+aring.sc,
+aringacute.sc,
+atilde.sc,
+ae.sc,
+aeacute.sc,
+b.sc,
+c.sc,
+cacute.sc,
+ccaron.sc,
+ccedilla.sc,
+ccedillaacute.sc,
+ccircumflex.sc,
+cdotaccent.sc,
+d.sc,
+eth.sc,
+dcaron.sc,
+dcroat.sc,
+ddotbelow.sc,
+dlinebelow.sc,
+dzcaron.sc,
+e.sc,
+eacute.sc,
+ebreve.sc,
+ecaron.sc,
+ecedillabreve.sc,
+ecircumflex.sc,
+ecircumflexacute.sc,
+ecircumflexdotbelow.sc,
+ecircumflexgrave.sc,
+ecircumflexhookabove.sc,
+ecircumflextilde.sc,
+edblgrave.sc,
+edieresis.sc,
+edotaccent.sc,
+edotbelow.sc,
+egrave.sc,
+ehookabove.sc,
+einvertedbreve.sc,
+emacron.sc,
+emacronacute.sc,
+emacrongrave.sc,
+eogonek.sc,
+etilde.sc,
+schwa.sc,
+f.sc,
+g.sc,
+gbreve.sc,
+gcaron.sc,
+gcircumflex.sc,
+gcommaaccent.sc,
+gdotaccent.sc,
+gmacron.sc,
+h.sc,
+hbar.sc,
+hbrevebelow.sc,
+hcircumflex.sc,
+hdotbelow.sc,
+i.sc,
+idotless.sc,
+iacute.sc,
+iacute_j.loclNLD.sc,
+ibreve.sc,
+icaron.sc,
+icircumflex.sc,
+idblgrave.sc,
+idieresis.sc,
+idieresisacute.sc,
+idotaccent.sc,
+idotbelow.sc,
+igrave.sc,
+ihookabove.sc,
+iinvertedbreve.sc,
+ij.sc,
+imacron.sc,
+iogonek.sc,
+itilde.sc,
+j.sc,
+jdotless.sc,
+jcircumflex.sc,
+k.sc,
+kcommaaccent.sc,
+kgreenlandic.sc,
+l.sc,
+lacute.sc,
+lcaron.sc,
+lcommaaccent.sc,
+ldot.sc,
+ldotbelow.sc,
+lj.sc,
+llinebelow.sc,
+lslash.sc,
+m.sc,
+mdotbelow.sc,
+n.sc,
+nacute.sc,
+ncaron.sc,
+ncommaaccent.sc,
+ndotaccent.sc,
+ndotbelow.sc,
+eng.sc,
+nj.sc,
+nlinebelow.sc,
+ntilde.sc,
+o.sc,
+oacute.sc,
+obreve.sc,
+ocaron.sc,
+ocircumflex.sc,
+ocircumflexacute.sc,
+ocircumflexdotbelow.sc,
+ocircumflexgrave.sc,
+ocircumflexhookabove.sc,
+ocircumflextilde.sc,
+odblgrave.sc,
+odieresis.sc,
+odieresismacron.sc,
+odotaccentmacron.sc,
+odotbelow.sc,
+ograve.sc,
+ohookabove.sc,
+ohorn.sc,
+ohornacute.sc,
+ohorndotbelow.sc,
+ohorngrave.sc,
+ohornhookabove.sc,
+ohorntilde.sc,
+ohungarumlaut.sc,
+oinvertedbreve.sc,
+omacron.sc,
+omacronacute.sc,
+omacrongrave.sc,
+oogonek.sc,
+oslash.sc,
+oslashacute.sc,
+otilde.sc,
+otildeacute.sc,
+otildedieresis.sc,
+otildemacron.sc,
+oe.sc,
+p.sc,
+thorn.sc,
+q.sc,
+r.sc,
+racute.sc,
+rcaron.sc,
+rcommaaccent.sc,
+rdblgrave.sc,
+rdotbelow.sc,
+rinvertedbreve.sc,
+rlinebelow.sc,
+s.sc,
+sacute.sc,
+sacutedotaccent.sc,
+scaron.sc,
+scarondotaccent.sc,
+scedilla.sc,
+scircumflex.sc,
+scommaaccent.sc,
+sdotaccent.sc,
+sdotbelow.sc,
+sdotbelowdotaccent.sc,
+germandbls.sc,
+t.sc,
+tbar.sc,
+tcaron.sc,
+tcedilla.sc,
+tcommaaccent.sc,
+tdieresis.sc,
+tdotbelow.sc,
+tlinebelow.sc,
+u.sc,
+uacute.sc,
+ubreve.sc,
+ucaron.sc,
+ucircumflex.sc,
+udblgrave.sc,
+udieresis.sc,
+udieresisacute.sc,
+udieresiscaron.sc,
+udieresisgrave.sc,
+udieresismacron.sc,
+udotbelow.sc,
+ugrave.sc,
+uhookabove.sc,
+uhorn.sc,
+uhornacute.sc,
+uhorndotbelow.sc,
+uhorngrave.sc,
+uhornhookabove.sc,
+uhorntilde.sc,
+uhungarumlaut.sc,
+uinvertedbreve.sc,
+umacron.sc,
+umacrondieresis.sc,
+uogonek.sc,
+uring.sc,
+utilde.sc,
+utildeacute.sc,
+v.sc,
+w.sc,
+wacute.sc,
+wcircumflex.sc,
+wdieresis.sc,
+wgrave.sc,
+x.sc,
+y.sc,
+yacute.sc,
+ycircumflex.sc,
+ydieresis.sc,
+ydotaccent.sc,
+ydotbelow.sc,
+ygrave.sc,
+yhookabove.sc,
+ymacron.sc,
+ytilde.sc,
+z.sc,
+zacute.sc,
+zcaron.sc,
+zdotaccent.sc,
+zdotbelow.sc,
+"a-cy.sc",
+"be-cy.sc",
+"ve-cy.sc",
+"ge-cy.sc",
+"gje-cy.sc",
+"gheupturn-cy.sc",
+"de-cy.sc",
+"ie-cy.sc",
+"iegrave-cy.sc",
+"io-cy.sc",
+"zhe-cy.sc",
+"ze-cy.sc",
+"ii-cy.sc",
+"iishort-cy.sc",
+"iigrave-cy.sc",
+"ka-cy.sc",
+"kje-cy.sc",
+"el-cy.sc",
+"em-cy.sc",
+"en-cy.sc",
+"o-cy.sc",
+"pe-cy.sc",
+"er-cy.sc",
+"es-cy.sc",
+"te-cy.sc",
+"u-cy.sc",
+"ushort-cy.sc",
+"ef-cy.sc",
+"ha-cy.sc",
+"che-cy.sc",
+"tse-cy.sc",
+"sha-cy.sc",
+"shcha-cy.sc",
+"dzhe-cy.sc",
+"softsign-cy.sc",
+"hardsign-cy.sc",
+"yeru-cy.sc",
+"lje-cy.sc",
+"nje-cy.sc",
+"dze-cy.sc",
+"e-cy.sc",
+"ereversed-cy.sc",
+"i-cy.sc",
+"yi-cy.sc",
+"je-cy.sc",
+"tshe-cy.sc",
+"iu-cy.sc",
+"ia-cy.sc",
+"dje-cy.sc",
+"yat-cy.sc",
+"yusbig-cy.sc",
+"fita-cy.sc",
+"izhitsa-cy.sc",
+"ghestroke-cy.sc",
+"ghemiddlehook-cy.sc",
+"zhedescender-cy.sc",
+"zedescender-cy.sc",
+"kadescender-cy.sc",
+"kaverticalstroke-cy.sc",
+"kabashkir-cy.sc",
+"endescender-cy.sc",
+"enghe-cy.sc",
+"pedescender-cy.sc",
+"esdescender-cy.sc",
+"ustrait-cy.sc",
+"ustraitstroke-cy.sc",
+"hadescender-cy.sc",
+"chedescender-cy.sc",
+"cheverticalstroke-cy.sc",
+"shha-cy.sc",
+"palochka-cy.sc",
+"zhebreve-cy.sc",
+"chekhakassian-cy.sc",
+"abreve-cy.sc",
+"adieresis-cy.sc",
+"aie-cy.sc",
+"iebreve-cy.sc",
+"schwa-cy.sc",
+"zhedieresis-cy.sc",
+"zedieresis-cy.sc",
+"imacron-cy.sc",
+"idieresis-cy.sc",
+"odieresis-cy.sc",
+"obarred-cy.sc",
+"umacron-cy.sc",
+"udieresis-cy.sc",
+"uhungarumlaut-cy.sc",
+"chedieresis-cy.sc",
+"gedescender-cy.sc",
+"yerudieresis-cy.sc",
+"qa-cy.sc",
+"we-cy.sc",
+alpha.sc,
+beta.sc,
+gamma.sc,
+delta.sc,
+epsilon.sc,
+zeta.sc,
+eta.sc,
+theta.sc,
+iota.sc,
+kappa.sc,
+lambda.sc,
+mu.sc,
+nu.sc,
+xi.sc,
+omicron.sc,
+pi.sc,
+rho.sc,
+sigmafinal.sc,
+sigma.sc,
+tau.sc,
+upsilon.sc,
+phi.sc,
+chi.sc,
+psi.sc,
+omega.sc,
+iotatonos.sc,
+iotadieresis.sc,
+iotadieresistonos.sc,
+upsilontonos.sc,
+upsilondieresis.sc,
+upsilondieresistonos.sc,
+omicrontonos.sc,
+omegatonos.sc,
+alphatonos.sc,
+epsilontonos.sc,
+etatonos.sc,
+prosgegrammeni.sc,
+kaiSymbol.sc,
+alphapsili.sc,
+alphadasia.sc,
+alphapsilivaria.sc,
+alphadasiavaria.sc,
+alphapsilioxia.sc,
+alphadasiaoxia.sc,
+alphapsiliperispomeni.sc,
+alphadasiaperispomeni.sc,
+alphavaria.sc,
+alphaoxia.sc,
+alphaperispomeni.sc,
+alphavrachy.sc,
+alphamacron.sc,
+alphaypogegrammeni.sc,
+alphavariaypogegrammeni.sc,
+alphaoxiaypogegrammeni.sc,
+alphapsiliypogegrammeni.sc,
+alphadasiaypogegrammeni.sc,
+alphapsilivariaypogegrammeni.sc,
+alphadasiavariaypogegrammeni.sc,
+alphapsilioxiaypogegrammeni.sc,
+alphadasiaoxiaypogegrammeni.sc,
+alphapsiliperispomeniypogegrammeni.sc,
+alphadasiaperispomeniypogegrammeni.sc,
+alphaperispomeniypogegrammeni.sc,
+epsilonpsili.sc,
+epsilondasia.sc,
+epsilonpsilivaria.sc,
+epsilondasiavaria.sc,
+epsilonpsilioxia.sc,
+epsilondasiaoxia.sc,
+epsilonvaria.sc,
+epsilonoxia.sc,
+etapsili.sc,
+etadasia.sc,
+etapsilivaria.sc,
+etadasiavaria.sc,
+etapsilioxia.sc,
+etadasiaoxia.sc,
+etapsiliperispomeni.sc,
+etadasiaperispomeni.sc,
+etavaria.sc,
+etaoxia.sc,
+etaperispomeni.sc,
+etaypogegrammeni.sc,
+etavariaypogegrammeni.sc,
+etaoxiaypogegrammeni.sc,
+etapsiliypogegrammeni.sc,
+etadasiaypogegrammeni.sc,
+etapsilivariaypogegrammeni.sc,
+etadasiavariaypogegrammeni.sc,
+etapsilioxiaypogegrammeni.sc,
+etadasiaoxiaypogegrammeni.sc,
+etapsiliperispomeniypogegrammeni.sc,
+etadasiaperispomeniypogegrammeni.sc,
+etaperispomeniypogegrammeni.sc,
+iotapsili.sc,
+iotadasia.sc,
+iotapsilivaria.sc,
+iotadasiavaria.sc,
+iotapsilioxia.sc,
+iotadasiaoxia.sc,
+iotapsiliperispomeni.sc,
+iotadasiaperispomeni.sc,
+iotavaria.sc,
+iotaoxia.sc,
+iotaperispomeni.sc,
+iotavrachy.sc,
+iotamacron.sc,
+iotadialytikavaria.sc,
+iotadialytikaoxia.sc,
+iotadialytikaperispomeni.sc,
+omicronpsili.sc,
+omicrondasia.sc,
+omicronpsilivaria.sc,
+omicrondasiavaria.sc,
+omicronpsilioxia.sc,
+omicrondasiaoxia.sc,
+omicronvaria.sc,
+omicronoxia.sc,
+rhopsili.sc,
+rhodasia.sc,
+upsilonpsili.sc,
+upsilondasia.sc,
+upsilonpsilivaria.sc,
+upsilondasiavaria.sc,
+upsilonpsilioxia.sc,
+upsilondasiaoxia.sc,
+upsilonpsiliperispomeni.sc,
+upsilondasiaperispomeni.sc,
+upsilonvaria.sc,
+upsilonoxia.sc,
+upsilonperispomeni.sc,
+upsilonvrachy.sc,
+upsilonmacron.sc,
+upsilondialytikavaria.sc,
+upsilondialytikaoxia.sc,
+upsilondialytikaperispomeni.sc,
+omegapsili.sc,
+omegadasia.sc,
+omegapsilivaria.sc,
+omegadasiavaria.sc,
+omegapsilioxia.sc,
+omegadasiaoxia.sc,
+omegapsiliperispomeni.sc,
+omegadasiaperispomeni.sc,
+omegavaria.sc,
+omegaoxia.sc,
+omegaperispomeni.sc,
+omegaypogegrammeni.sc,
+omegavariaypogegrammeni.sc,
+omegaoxiaypogegrammeni.sc,
+omegapsiliypogegrammeni.sc,
+omegadasiaypogegrammeni.sc,
+omegapsilivariaypogegrammeni.sc,
+omegadasiavariaypogegrammeni.sc,
+omegapsilioxiaypogegrammeni.sc,
+omegadasiaoxiaypogegrammeni.sc,
+omegapsiliperispomeniypogegrammeni.sc,
+omegadasiaperispomeniypogegrammeni.sc,
+omegaperispomeniypogegrammeni.sc,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+exclam.sc,
+exclamdown.sc,
+question.sc,
+questiondown.sc,
+quotedbl.sc,
+quotedblleft.sc,
+quotedblright.sc,
+quoteleft.sc,
+quoteright.sc,
+quotesingle.sc,
+ampersand.sc,
+gdieresis.sc,
+gtilde.sc
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "a.sc=a",
@@ -206317,40 +206862,6 @@ ampersand.sc,
 gdieresis.sc,
 gtilde.sc
 );
-},
-{
-name = "Remove Classes";
-value = (
-f.l,
-f.t
-);
-},
-{
-name = "Remove Features";
-value = (
-smcp,
-c2sc
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Replace Class";
-value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek space";
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
-},
-{
-name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
-},
-{
-name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 }
 );
 interpolationWeight = 94;
@@ -206362,7 +206873,6 @@ name = Medium;
 weightClass = Medium;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -206381,6 +206891,579 @@ name = familyName;
 value = "Alegreya SC";
 },
 {
+name = "Remove Classes";
+value = (
+f.l,
+f.t
+);
+},
+{
+name = "Remove Features";
+value = (
+smcp,
+c2sc
+);
+},
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Replace Class";
+value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace ";
+},
+{
+name = "Replace Class";
+value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
+},
+{
+name = "Replace Feature";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+},
+{
+name = "Replace Feature";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+},
+{
+name = "Decompose Glyphs";
+value = (
+a.sc,
+aacute.sc,
+abreve.sc,
+abreveacute.sc,
+abrevedotbelow.sc,
+abrevegrave.sc,
+abrevehookabove.sc,
+abrevetilde.sc,
+acaron.sc,
+acircumflex.sc,
+acircumflexacute.sc,
+acircumflexdotbelow.sc,
+acircumflexgrave.sc,
+acircumflexhookabove.sc,
+acircumflextilde.sc,
+adblgrave.sc,
+adieresis.sc,
+adotbelow.sc,
+agrave.sc,
+ahookabove.sc,
+ainvertedbreve.sc,
+amacron.sc,
+aogonek.sc,
+aring.sc,
+aringacute.sc,
+atilde.sc,
+ae.sc,
+aeacute.sc,
+b.sc,
+c.sc,
+cacute.sc,
+ccaron.sc,
+ccedilla.sc,
+ccedillaacute.sc,
+ccircumflex.sc,
+cdotaccent.sc,
+d.sc,
+eth.sc,
+dcaron.sc,
+dcroat.sc,
+ddotbelow.sc,
+dlinebelow.sc,
+dzcaron.sc,
+e.sc,
+eacute.sc,
+ebreve.sc,
+ecaron.sc,
+ecedillabreve.sc,
+ecircumflex.sc,
+ecircumflexacute.sc,
+ecircumflexdotbelow.sc,
+ecircumflexgrave.sc,
+ecircumflexhookabove.sc,
+ecircumflextilde.sc,
+edblgrave.sc,
+edieresis.sc,
+edotaccent.sc,
+edotbelow.sc,
+egrave.sc,
+ehookabove.sc,
+einvertedbreve.sc,
+emacron.sc,
+emacronacute.sc,
+emacrongrave.sc,
+eogonek.sc,
+etilde.sc,
+schwa.sc,
+f.sc,
+g.sc,
+gbreve.sc,
+gcaron.sc,
+gcircumflex.sc,
+gcommaaccent.sc,
+gdotaccent.sc,
+gmacron.sc,
+h.sc,
+hbar.sc,
+hbrevebelow.sc,
+hcircumflex.sc,
+hdotbelow.sc,
+i.sc,
+idotless.sc,
+iacute.sc,
+iacute_j.loclNLD.sc,
+ibreve.sc,
+icaron.sc,
+icircumflex.sc,
+idblgrave.sc,
+idieresis.sc,
+idieresisacute.sc,
+idotaccent.sc,
+idotbelow.sc,
+igrave.sc,
+ihookabove.sc,
+iinvertedbreve.sc,
+ij.sc,
+imacron.sc,
+iogonek.sc,
+itilde.sc,
+j.sc,
+jdotless.sc,
+jcircumflex.sc,
+k.sc,
+kcommaaccent.sc,
+kgreenlandic.sc,
+l.sc,
+lacute.sc,
+lcaron.sc,
+lcommaaccent.sc,
+ldot.sc,
+ldotbelow.sc,
+lj.sc,
+llinebelow.sc,
+lslash.sc,
+m.sc,
+mdotbelow.sc,
+n.sc,
+nacute.sc,
+ncaron.sc,
+ncommaaccent.sc,
+ndotaccent.sc,
+ndotbelow.sc,
+eng.sc,
+nj.sc,
+nlinebelow.sc,
+ntilde.sc,
+o.sc,
+oacute.sc,
+obreve.sc,
+ocaron.sc,
+ocircumflex.sc,
+ocircumflexacute.sc,
+ocircumflexdotbelow.sc,
+ocircumflexgrave.sc,
+ocircumflexhookabove.sc,
+ocircumflextilde.sc,
+odblgrave.sc,
+odieresis.sc,
+odieresismacron.sc,
+odotaccentmacron.sc,
+odotbelow.sc,
+ograve.sc,
+ohookabove.sc,
+ohorn.sc,
+ohornacute.sc,
+ohorndotbelow.sc,
+ohorngrave.sc,
+ohornhookabove.sc,
+ohorntilde.sc,
+ohungarumlaut.sc,
+oinvertedbreve.sc,
+omacron.sc,
+omacronacute.sc,
+omacrongrave.sc,
+oogonek.sc,
+oslash.sc,
+oslashacute.sc,
+otilde.sc,
+otildeacute.sc,
+otildedieresis.sc,
+otildemacron.sc,
+oe.sc,
+p.sc,
+thorn.sc,
+q.sc,
+r.sc,
+racute.sc,
+rcaron.sc,
+rcommaaccent.sc,
+rdblgrave.sc,
+rdotbelow.sc,
+rinvertedbreve.sc,
+rlinebelow.sc,
+s.sc,
+sacute.sc,
+sacutedotaccent.sc,
+scaron.sc,
+scarondotaccent.sc,
+scedilla.sc,
+scircumflex.sc,
+scommaaccent.sc,
+sdotaccent.sc,
+sdotbelow.sc,
+sdotbelowdotaccent.sc,
+germandbls.sc,
+t.sc,
+tbar.sc,
+tcaron.sc,
+tcedilla.sc,
+tcommaaccent.sc,
+tdieresis.sc,
+tdotbelow.sc,
+tlinebelow.sc,
+u.sc,
+uacute.sc,
+ubreve.sc,
+ucaron.sc,
+ucircumflex.sc,
+udblgrave.sc,
+udieresis.sc,
+udieresisacute.sc,
+udieresiscaron.sc,
+udieresisgrave.sc,
+udieresismacron.sc,
+udotbelow.sc,
+ugrave.sc,
+uhookabove.sc,
+uhorn.sc,
+uhornacute.sc,
+uhorndotbelow.sc,
+uhorngrave.sc,
+uhornhookabove.sc,
+uhorntilde.sc,
+uhungarumlaut.sc,
+uinvertedbreve.sc,
+umacron.sc,
+umacrondieresis.sc,
+uogonek.sc,
+uring.sc,
+utilde.sc,
+utildeacute.sc,
+v.sc,
+w.sc,
+wacute.sc,
+wcircumflex.sc,
+wdieresis.sc,
+wgrave.sc,
+x.sc,
+y.sc,
+yacute.sc,
+ycircumflex.sc,
+ydieresis.sc,
+ydotaccent.sc,
+ydotbelow.sc,
+ygrave.sc,
+yhookabove.sc,
+ymacron.sc,
+ytilde.sc,
+z.sc,
+zacute.sc,
+zcaron.sc,
+zdotaccent.sc,
+zdotbelow.sc,
+"a-cy.sc",
+"be-cy.sc",
+"ve-cy.sc",
+"ge-cy.sc",
+"gje-cy.sc",
+"gheupturn-cy.sc",
+"de-cy.sc",
+"ie-cy.sc",
+"iegrave-cy.sc",
+"io-cy.sc",
+"zhe-cy.sc",
+"ze-cy.sc",
+"ii-cy.sc",
+"iishort-cy.sc",
+"iigrave-cy.sc",
+"ka-cy.sc",
+"kje-cy.sc",
+"el-cy.sc",
+"em-cy.sc",
+"en-cy.sc",
+"o-cy.sc",
+"pe-cy.sc",
+"er-cy.sc",
+"es-cy.sc",
+"te-cy.sc",
+"u-cy.sc",
+"ushort-cy.sc",
+"ef-cy.sc",
+"ha-cy.sc",
+"che-cy.sc",
+"tse-cy.sc",
+"sha-cy.sc",
+"shcha-cy.sc",
+"dzhe-cy.sc",
+"softsign-cy.sc",
+"hardsign-cy.sc",
+"yeru-cy.sc",
+"lje-cy.sc",
+"nje-cy.sc",
+"dze-cy.sc",
+"e-cy.sc",
+"ereversed-cy.sc",
+"i-cy.sc",
+"yi-cy.sc",
+"je-cy.sc",
+"tshe-cy.sc",
+"iu-cy.sc",
+"ia-cy.sc",
+"dje-cy.sc",
+"yat-cy.sc",
+"yusbig-cy.sc",
+"fita-cy.sc",
+"izhitsa-cy.sc",
+"ghestroke-cy.sc",
+"ghemiddlehook-cy.sc",
+"zhedescender-cy.sc",
+"zedescender-cy.sc",
+"kadescender-cy.sc",
+"kaverticalstroke-cy.sc",
+"kabashkir-cy.sc",
+"endescender-cy.sc",
+"enghe-cy.sc",
+"pedescender-cy.sc",
+"esdescender-cy.sc",
+"ustrait-cy.sc",
+"ustraitstroke-cy.sc",
+"hadescender-cy.sc",
+"chedescender-cy.sc",
+"cheverticalstroke-cy.sc",
+"shha-cy.sc",
+"palochka-cy.sc",
+"zhebreve-cy.sc",
+"chekhakassian-cy.sc",
+"abreve-cy.sc",
+"adieresis-cy.sc",
+"aie-cy.sc",
+"iebreve-cy.sc",
+"schwa-cy.sc",
+"zhedieresis-cy.sc",
+"zedieresis-cy.sc",
+"imacron-cy.sc",
+"idieresis-cy.sc",
+"odieresis-cy.sc",
+"obarred-cy.sc",
+"umacron-cy.sc",
+"udieresis-cy.sc",
+"uhungarumlaut-cy.sc",
+"chedieresis-cy.sc",
+"gedescender-cy.sc",
+"yerudieresis-cy.sc",
+"qa-cy.sc",
+"we-cy.sc",
+alpha.sc,
+beta.sc,
+gamma.sc,
+delta.sc,
+epsilon.sc,
+zeta.sc,
+eta.sc,
+theta.sc,
+iota.sc,
+kappa.sc,
+lambda.sc,
+mu.sc,
+nu.sc,
+xi.sc,
+omicron.sc,
+pi.sc,
+rho.sc,
+sigmafinal.sc,
+sigma.sc,
+tau.sc,
+upsilon.sc,
+phi.sc,
+chi.sc,
+psi.sc,
+omega.sc,
+iotatonos.sc,
+iotadieresis.sc,
+iotadieresistonos.sc,
+upsilontonos.sc,
+upsilondieresis.sc,
+upsilondieresistonos.sc,
+omicrontonos.sc,
+omegatonos.sc,
+alphatonos.sc,
+epsilontonos.sc,
+etatonos.sc,
+prosgegrammeni.sc,
+kaiSymbol.sc,
+alphapsili.sc,
+alphadasia.sc,
+alphapsilivaria.sc,
+alphadasiavaria.sc,
+alphapsilioxia.sc,
+alphadasiaoxia.sc,
+alphapsiliperispomeni.sc,
+alphadasiaperispomeni.sc,
+alphavaria.sc,
+alphaoxia.sc,
+alphaperispomeni.sc,
+alphavrachy.sc,
+alphamacron.sc,
+alphaypogegrammeni.sc,
+alphavariaypogegrammeni.sc,
+alphaoxiaypogegrammeni.sc,
+alphapsiliypogegrammeni.sc,
+alphadasiaypogegrammeni.sc,
+alphapsilivariaypogegrammeni.sc,
+alphadasiavariaypogegrammeni.sc,
+alphapsilioxiaypogegrammeni.sc,
+alphadasiaoxiaypogegrammeni.sc,
+alphapsiliperispomeniypogegrammeni.sc,
+alphadasiaperispomeniypogegrammeni.sc,
+alphaperispomeniypogegrammeni.sc,
+epsilonpsili.sc,
+epsilondasia.sc,
+epsilonpsilivaria.sc,
+epsilondasiavaria.sc,
+epsilonpsilioxia.sc,
+epsilondasiaoxia.sc,
+epsilonvaria.sc,
+epsilonoxia.sc,
+etapsili.sc,
+etadasia.sc,
+etapsilivaria.sc,
+etadasiavaria.sc,
+etapsilioxia.sc,
+etadasiaoxia.sc,
+etapsiliperispomeni.sc,
+etadasiaperispomeni.sc,
+etavaria.sc,
+etaoxia.sc,
+etaperispomeni.sc,
+etaypogegrammeni.sc,
+etavariaypogegrammeni.sc,
+etaoxiaypogegrammeni.sc,
+etapsiliypogegrammeni.sc,
+etadasiaypogegrammeni.sc,
+etapsilivariaypogegrammeni.sc,
+etadasiavariaypogegrammeni.sc,
+etapsilioxiaypogegrammeni.sc,
+etadasiaoxiaypogegrammeni.sc,
+etapsiliperispomeniypogegrammeni.sc,
+etadasiaperispomeniypogegrammeni.sc,
+etaperispomeniypogegrammeni.sc,
+iotapsili.sc,
+iotadasia.sc,
+iotapsilivaria.sc,
+iotadasiavaria.sc,
+iotapsilioxia.sc,
+iotadasiaoxia.sc,
+iotapsiliperispomeni.sc,
+iotadasiaperispomeni.sc,
+iotavaria.sc,
+iotaoxia.sc,
+iotaperispomeni.sc,
+iotavrachy.sc,
+iotamacron.sc,
+iotadialytikavaria.sc,
+iotadialytikaoxia.sc,
+iotadialytikaperispomeni.sc,
+omicronpsili.sc,
+omicrondasia.sc,
+omicronpsilivaria.sc,
+omicrondasiavaria.sc,
+omicronpsilioxia.sc,
+omicrondasiaoxia.sc,
+omicronvaria.sc,
+omicronoxia.sc,
+rhopsili.sc,
+rhodasia.sc,
+upsilonpsili.sc,
+upsilondasia.sc,
+upsilonpsilivaria.sc,
+upsilondasiavaria.sc,
+upsilonpsilioxia.sc,
+upsilondasiaoxia.sc,
+upsilonpsiliperispomeni.sc,
+upsilondasiaperispomeni.sc,
+upsilonvaria.sc,
+upsilonoxia.sc,
+upsilonperispomeni.sc,
+upsilonvrachy.sc,
+upsilonmacron.sc,
+upsilondialytikavaria.sc,
+upsilondialytikaoxia.sc,
+upsilondialytikaperispomeni.sc,
+omegapsili.sc,
+omegadasia.sc,
+omegapsilivaria.sc,
+omegadasiavaria.sc,
+omegapsilioxia.sc,
+omegadasiaoxia.sc,
+omegapsiliperispomeni.sc,
+omegadasiaperispomeni.sc,
+omegavaria.sc,
+omegaoxia.sc,
+omegaperispomeni.sc,
+omegaypogegrammeni.sc,
+omegavariaypogegrammeni.sc,
+omegaoxiaypogegrammeni.sc,
+omegapsiliypogegrammeni.sc,
+omegadasiaypogegrammeni.sc,
+omegapsilivariaypogegrammeni.sc,
+omegadasiavariaypogegrammeni.sc,
+omegapsilioxiaypogegrammeni.sc,
+omegadasiaoxiaypogegrammeni.sc,
+omegapsiliperispomeniypogegrammeni.sc,
+omegadasiaperispomeniypogegrammeni.sc,
+omegaperispomeniypogegrammeni.sc,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+exclam.sc,
+exclamdown.sc,
+question.sc,
+questiondown.sc,
+quotedbl.sc,
+quotedblleft.sc,
+quotedblright.sc,
+quoteleft.sc,
+quoteright.sc,
+quotesingle.sc,
+ampersand.sc,
+gdieresis.sc,
+gtilde.sc
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "a.sc=a",
@@ -207457,40 +208540,6 @@ ampersand.sc,
 gdieresis.sc,
 gtilde.sc
 );
-},
-{
-name = "Remove Classes";
-value = (
-f.l,
-f.t
-);
-},
-{
-name = "Remove Features";
-value = (
-smcp,
-c2sc
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Replace Class";
-value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek space";
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
-},
-{
-name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
-},
-{
-name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 }
 );
 interpolationWeight = 119;
@@ -207504,7 +208553,6 @@ name = Bold;
 weightClass = Bold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -207523,6 +208571,579 @@ name = familyName;
 value = "Alegreya SC";
 },
 {
+name = "Remove Classes";
+value = (
+f.l,
+f.t
+);
+},
+{
+name = "Remove Features";
+value = (
+smcp,
+c2sc
+);
+},
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Replace Class";
+value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace ";
+},
+{
+name = "Replace Class";
+value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
+},
+{
+name = "Replace Feature";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+},
+{
+name = "Replace Feature";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+},
+{
+name = "Decompose Glyphs";
+value = (
+a.sc,
+aacute.sc,
+abreve.sc,
+abreveacute.sc,
+abrevedotbelow.sc,
+abrevegrave.sc,
+abrevehookabove.sc,
+abrevetilde.sc,
+acaron.sc,
+acircumflex.sc,
+acircumflexacute.sc,
+acircumflexdotbelow.sc,
+acircumflexgrave.sc,
+acircumflexhookabove.sc,
+acircumflextilde.sc,
+adblgrave.sc,
+adieresis.sc,
+adotbelow.sc,
+agrave.sc,
+ahookabove.sc,
+ainvertedbreve.sc,
+amacron.sc,
+aogonek.sc,
+aring.sc,
+aringacute.sc,
+atilde.sc,
+ae.sc,
+aeacute.sc,
+b.sc,
+c.sc,
+cacute.sc,
+ccaron.sc,
+ccedilla.sc,
+ccedillaacute.sc,
+ccircumflex.sc,
+cdotaccent.sc,
+d.sc,
+eth.sc,
+dcaron.sc,
+dcroat.sc,
+ddotbelow.sc,
+dlinebelow.sc,
+dzcaron.sc,
+e.sc,
+eacute.sc,
+ebreve.sc,
+ecaron.sc,
+ecedillabreve.sc,
+ecircumflex.sc,
+ecircumflexacute.sc,
+ecircumflexdotbelow.sc,
+ecircumflexgrave.sc,
+ecircumflexhookabove.sc,
+ecircumflextilde.sc,
+edblgrave.sc,
+edieresis.sc,
+edotaccent.sc,
+edotbelow.sc,
+egrave.sc,
+ehookabove.sc,
+einvertedbreve.sc,
+emacron.sc,
+emacronacute.sc,
+emacrongrave.sc,
+eogonek.sc,
+etilde.sc,
+schwa.sc,
+f.sc,
+g.sc,
+gbreve.sc,
+gcaron.sc,
+gcircumflex.sc,
+gcommaaccent.sc,
+gdotaccent.sc,
+gmacron.sc,
+h.sc,
+hbar.sc,
+hbrevebelow.sc,
+hcircumflex.sc,
+hdotbelow.sc,
+i.sc,
+idotless.sc,
+iacute.sc,
+iacute_j.loclNLD.sc,
+ibreve.sc,
+icaron.sc,
+icircumflex.sc,
+idblgrave.sc,
+idieresis.sc,
+idieresisacute.sc,
+idotaccent.sc,
+idotbelow.sc,
+igrave.sc,
+ihookabove.sc,
+iinvertedbreve.sc,
+ij.sc,
+imacron.sc,
+iogonek.sc,
+itilde.sc,
+j.sc,
+jdotless.sc,
+jcircumflex.sc,
+k.sc,
+kcommaaccent.sc,
+kgreenlandic.sc,
+l.sc,
+lacute.sc,
+lcaron.sc,
+lcommaaccent.sc,
+ldot.sc,
+ldotbelow.sc,
+lj.sc,
+llinebelow.sc,
+lslash.sc,
+m.sc,
+mdotbelow.sc,
+n.sc,
+nacute.sc,
+ncaron.sc,
+ncommaaccent.sc,
+ndotaccent.sc,
+ndotbelow.sc,
+eng.sc,
+nj.sc,
+nlinebelow.sc,
+ntilde.sc,
+o.sc,
+oacute.sc,
+obreve.sc,
+ocaron.sc,
+ocircumflex.sc,
+ocircumflexacute.sc,
+ocircumflexdotbelow.sc,
+ocircumflexgrave.sc,
+ocircumflexhookabove.sc,
+ocircumflextilde.sc,
+odblgrave.sc,
+odieresis.sc,
+odieresismacron.sc,
+odotaccentmacron.sc,
+odotbelow.sc,
+ograve.sc,
+ohookabove.sc,
+ohorn.sc,
+ohornacute.sc,
+ohorndotbelow.sc,
+ohorngrave.sc,
+ohornhookabove.sc,
+ohorntilde.sc,
+ohungarumlaut.sc,
+oinvertedbreve.sc,
+omacron.sc,
+omacronacute.sc,
+omacrongrave.sc,
+oogonek.sc,
+oslash.sc,
+oslashacute.sc,
+otilde.sc,
+otildeacute.sc,
+otildedieresis.sc,
+otildemacron.sc,
+oe.sc,
+p.sc,
+thorn.sc,
+q.sc,
+r.sc,
+racute.sc,
+rcaron.sc,
+rcommaaccent.sc,
+rdblgrave.sc,
+rdotbelow.sc,
+rinvertedbreve.sc,
+rlinebelow.sc,
+s.sc,
+sacute.sc,
+sacutedotaccent.sc,
+scaron.sc,
+scarondotaccent.sc,
+scedilla.sc,
+scircumflex.sc,
+scommaaccent.sc,
+sdotaccent.sc,
+sdotbelow.sc,
+sdotbelowdotaccent.sc,
+germandbls.sc,
+t.sc,
+tbar.sc,
+tcaron.sc,
+tcedilla.sc,
+tcommaaccent.sc,
+tdieresis.sc,
+tdotbelow.sc,
+tlinebelow.sc,
+u.sc,
+uacute.sc,
+ubreve.sc,
+ucaron.sc,
+ucircumflex.sc,
+udblgrave.sc,
+udieresis.sc,
+udieresisacute.sc,
+udieresiscaron.sc,
+udieresisgrave.sc,
+udieresismacron.sc,
+udotbelow.sc,
+ugrave.sc,
+uhookabove.sc,
+uhorn.sc,
+uhornacute.sc,
+uhorndotbelow.sc,
+uhorngrave.sc,
+uhornhookabove.sc,
+uhorntilde.sc,
+uhungarumlaut.sc,
+uinvertedbreve.sc,
+umacron.sc,
+umacrondieresis.sc,
+uogonek.sc,
+uring.sc,
+utilde.sc,
+utildeacute.sc,
+v.sc,
+w.sc,
+wacute.sc,
+wcircumflex.sc,
+wdieresis.sc,
+wgrave.sc,
+x.sc,
+y.sc,
+yacute.sc,
+ycircumflex.sc,
+ydieresis.sc,
+ydotaccent.sc,
+ydotbelow.sc,
+ygrave.sc,
+yhookabove.sc,
+ymacron.sc,
+ytilde.sc,
+z.sc,
+zacute.sc,
+zcaron.sc,
+zdotaccent.sc,
+zdotbelow.sc,
+"a-cy.sc",
+"be-cy.sc",
+"ve-cy.sc",
+"ge-cy.sc",
+"gje-cy.sc",
+"gheupturn-cy.sc",
+"de-cy.sc",
+"ie-cy.sc",
+"iegrave-cy.sc",
+"io-cy.sc",
+"zhe-cy.sc",
+"ze-cy.sc",
+"ii-cy.sc",
+"iishort-cy.sc",
+"iigrave-cy.sc",
+"ka-cy.sc",
+"kje-cy.sc",
+"el-cy.sc",
+"em-cy.sc",
+"en-cy.sc",
+"o-cy.sc",
+"pe-cy.sc",
+"er-cy.sc",
+"es-cy.sc",
+"te-cy.sc",
+"u-cy.sc",
+"ushort-cy.sc",
+"ef-cy.sc",
+"ha-cy.sc",
+"che-cy.sc",
+"tse-cy.sc",
+"sha-cy.sc",
+"shcha-cy.sc",
+"dzhe-cy.sc",
+"softsign-cy.sc",
+"hardsign-cy.sc",
+"yeru-cy.sc",
+"lje-cy.sc",
+"nje-cy.sc",
+"dze-cy.sc",
+"e-cy.sc",
+"ereversed-cy.sc",
+"i-cy.sc",
+"yi-cy.sc",
+"je-cy.sc",
+"tshe-cy.sc",
+"iu-cy.sc",
+"ia-cy.sc",
+"dje-cy.sc",
+"yat-cy.sc",
+"yusbig-cy.sc",
+"fita-cy.sc",
+"izhitsa-cy.sc",
+"ghestroke-cy.sc",
+"ghemiddlehook-cy.sc",
+"zhedescender-cy.sc",
+"zedescender-cy.sc",
+"kadescender-cy.sc",
+"kaverticalstroke-cy.sc",
+"kabashkir-cy.sc",
+"endescender-cy.sc",
+"enghe-cy.sc",
+"pedescender-cy.sc",
+"esdescender-cy.sc",
+"ustrait-cy.sc",
+"ustraitstroke-cy.sc",
+"hadescender-cy.sc",
+"chedescender-cy.sc",
+"cheverticalstroke-cy.sc",
+"shha-cy.sc",
+"palochka-cy.sc",
+"zhebreve-cy.sc",
+"chekhakassian-cy.sc",
+"abreve-cy.sc",
+"adieresis-cy.sc",
+"aie-cy.sc",
+"iebreve-cy.sc",
+"schwa-cy.sc",
+"zhedieresis-cy.sc",
+"zedieresis-cy.sc",
+"imacron-cy.sc",
+"idieresis-cy.sc",
+"odieresis-cy.sc",
+"obarred-cy.sc",
+"umacron-cy.sc",
+"udieresis-cy.sc",
+"uhungarumlaut-cy.sc",
+"chedieresis-cy.sc",
+"gedescender-cy.sc",
+"yerudieresis-cy.sc",
+"qa-cy.sc",
+"we-cy.sc",
+alpha.sc,
+beta.sc,
+gamma.sc,
+delta.sc,
+epsilon.sc,
+zeta.sc,
+eta.sc,
+theta.sc,
+iota.sc,
+kappa.sc,
+lambda.sc,
+mu.sc,
+nu.sc,
+xi.sc,
+omicron.sc,
+pi.sc,
+rho.sc,
+sigmafinal.sc,
+sigma.sc,
+tau.sc,
+upsilon.sc,
+phi.sc,
+chi.sc,
+psi.sc,
+omega.sc,
+iotatonos.sc,
+iotadieresis.sc,
+iotadieresistonos.sc,
+upsilontonos.sc,
+upsilondieresis.sc,
+upsilondieresistonos.sc,
+omicrontonos.sc,
+omegatonos.sc,
+alphatonos.sc,
+epsilontonos.sc,
+etatonos.sc,
+prosgegrammeni.sc,
+kaiSymbol.sc,
+alphapsili.sc,
+alphadasia.sc,
+alphapsilivaria.sc,
+alphadasiavaria.sc,
+alphapsilioxia.sc,
+alphadasiaoxia.sc,
+alphapsiliperispomeni.sc,
+alphadasiaperispomeni.sc,
+alphavaria.sc,
+alphaoxia.sc,
+alphaperispomeni.sc,
+alphavrachy.sc,
+alphamacron.sc,
+alphaypogegrammeni.sc,
+alphavariaypogegrammeni.sc,
+alphaoxiaypogegrammeni.sc,
+alphapsiliypogegrammeni.sc,
+alphadasiaypogegrammeni.sc,
+alphapsilivariaypogegrammeni.sc,
+alphadasiavariaypogegrammeni.sc,
+alphapsilioxiaypogegrammeni.sc,
+alphadasiaoxiaypogegrammeni.sc,
+alphapsiliperispomeniypogegrammeni.sc,
+alphadasiaperispomeniypogegrammeni.sc,
+alphaperispomeniypogegrammeni.sc,
+epsilonpsili.sc,
+epsilondasia.sc,
+epsilonpsilivaria.sc,
+epsilondasiavaria.sc,
+epsilonpsilioxia.sc,
+epsilondasiaoxia.sc,
+epsilonvaria.sc,
+epsilonoxia.sc,
+etapsili.sc,
+etadasia.sc,
+etapsilivaria.sc,
+etadasiavaria.sc,
+etapsilioxia.sc,
+etadasiaoxia.sc,
+etapsiliperispomeni.sc,
+etadasiaperispomeni.sc,
+etavaria.sc,
+etaoxia.sc,
+etaperispomeni.sc,
+etaypogegrammeni.sc,
+etavariaypogegrammeni.sc,
+etaoxiaypogegrammeni.sc,
+etapsiliypogegrammeni.sc,
+etadasiaypogegrammeni.sc,
+etapsilivariaypogegrammeni.sc,
+etadasiavariaypogegrammeni.sc,
+etapsilioxiaypogegrammeni.sc,
+etadasiaoxiaypogegrammeni.sc,
+etapsiliperispomeniypogegrammeni.sc,
+etadasiaperispomeniypogegrammeni.sc,
+etaperispomeniypogegrammeni.sc,
+iotapsili.sc,
+iotadasia.sc,
+iotapsilivaria.sc,
+iotadasiavaria.sc,
+iotapsilioxia.sc,
+iotadasiaoxia.sc,
+iotapsiliperispomeni.sc,
+iotadasiaperispomeni.sc,
+iotavaria.sc,
+iotaoxia.sc,
+iotaperispomeni.sc,
+iotavrachy.sc,
+iotamacron.sc,
+iotadialytikavaria.sc,
+iotadialytikaoxia.sc,
+iotadialytikaperispomeni.sc,
+omicronpsili.sc,
+omicrondasia.sc,
+omicronpsilivaria.sc,
+omicrondasiavaria.sc,
+omicronpsilioxia.sc,
+omicrondasiaoxia.sc,
+omicronvaria.sc,
+omicronoxia.sc,
+rhopsili.sc,
+rhodasia.sc,
+upsilonpsili.sc,
+upsilondasia.sc,
+upsilonpsilivaria.sc,
+upsilondasiavaria.sc,
+upsilonpsilioxia.sc,
+upsilondasiaoxia.sc,
+upsilonpsiliperispomeni.sc,
+upsilondasiaperispomeni.sc,
+upsilonvaria.sc,
+upsilonoxia.sc,
+upsilonperispomeni.sc,
+upsilonvrachy.sc,
+upsilonmacron.sc,
+upsilondialytikavaria.sc,
+upsilondialytikaoxia.sc,
+upsilondialytikaperispomeni.sc,
+omegapsili.sc,
+omegadasia.sc,
+omegapsilivaria.sc,
+omegadasiavaria.sc,
+omegapsilioxia.sc,
+omegadasiaoxia.sc,
+omegapsiliperispomeni.sc,
+omegadasiaperispomeni.sc,
+omegavaria.sc,
+omegaoxia.sc,
+omegaperispomeni.sc,
+omegaypogegrammeni.sc,
+omegavariaypogegrammeni.sc,
+omegaoxiaypogegrammeni.sc,
+omegapsiliypogegrammeni.sc,
+omegadasiaypogegrammeni.sc,
+omegapsilivariaypogegrammeni.sc,
+omegadasiavariaypogegrammeni.sc,
+omegapsilioxiaypogegrammeni.sc,
+omegadasiaoxiaypogegrammeni.sc,
+omegapsiliperispomeniypogegrammeni.sc,
+omegadasiaperispomeniypogegrammeni.sc,
+omegaperispomeniypogegrammeni.sc,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+exclam.sc,
+exclamdown.sc,
+question.sc,
+questiondown.sc,
+quotedbl.sc,
+quotedblleft.sc,
+quotedblright.sc,
+quoteleft.sc,
+quoteright.sc,
+quotesingle.sc,
+ampersand.sc,
+gdieresis.sc,
+gtilde.sc
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "a.sc=a",
@@ -208599,40 +210220,6 @@ ampersand.sc,
 gdieresis.sc,
 gtilde.sc
 );
-},
-{
-name = "Remove Classes";
-value = (
-f.l,
-f.t
-);
-},
-{
-name = "Remove Features";
-value = (
-smcp,
-c2sc
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Replace Class";
-value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek space";
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
-},
-{
-name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
-},
-{
-name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 }
 );
 interpolationWeight = 144;
@@ -208644,7 +210231,6 @@ name = ExtraBold;
 weightClass = ExtraBold;
 },
 {
-exports = 0;
 customParameters = (
 {
 name = Filter;
@@ -208663,6 +210249,579 @@ name = familyName;
 value = "Alegreya SC";
 },
 {
+name = "Remove Classes";
+value = (
+f.l,
+f.t
+);
+},
+{
+name = "Remove Features";
+value = (
+smcp,
+c2sc
+);
+},
+{
+name = "Update Features";
+value = 1;
+},
+{
+name = "Replace Class";
+value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek figurespace hairspace punctuationspace space nbspace thinspace zerowidthspace ";
+},
+{
+name = "Replace Class";
+value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
+},
+{
+name = "Replace Feature";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+},
+{
+name = "Replace Feature";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+},
+{
+name = "Decompose Glyphs";
+value = (
+a.sc,
+aacute.sc,
+abreve.sc,
+abreveacute.sc,
+abrevedotbelow.sc,
+abrevegrave.sc,
+abrevehookabove.sc,
+abrevetilde.sc,
+acaron.sc,
+acircumflex.sc,
+acircumflexacute.sc,
+acircumflexdotbelow.sc,
+acircumflexgrave.sc,
+acircumflexhookabove.sc,
+acircumflextilde.sc,
+adblgrave.sc,
+adieresis.sc,
+adotbelow.sc,
+agrave.sc,
+ahookabove.sc,
+ainvertedbreve.sc,
+amacron.sc,
+aogonek.sc,
+aring.sc,
+aringacute.sc,
+atilde.sc,
+ae.sc,
+aeacute.sc,
+b.sc,
+c.sc,
+cacute.sc,
+ccaron.sc,
+ccedilla.sc,
+ccedillaacute.sc,
+ccircumflex.sc,
+cdotaccent.sc,
+d.sc,
+eth.sc,
+dcaron.sc,
+dcroat.sc,
+ddotbelow.sc,
+dlinebelow.sc,
+dzcaron.sc,
+e.sc,
+eacute.sc,
+ebreve.sc,
+ecaron.sc,
+ecedillabreve.sc,
+ecircumflex.sc,
+ecircumflexacute.sc,
+ecircumflexdotbelow.sc,
+ecircumflexgrave.sc,
+ecircumflexhookabove.sc,
+ecircumflextilde.sc,
+edblgrave.sc,
+edieresis.sc,
+edotaccent.sc,
+edotbelow.sc,
+egrave.sc,
+ehookabove.sc,
+einvertedbreve.sc,
+emacron.sc,
+emacronacute.sc,
+emacrongrave.sc,
+eogonek.sc,
+etilde.sc,
+schwa.sc,
+f.sc,
+g.sc,
+gbreve.sc,
+gcaron.sc,
+gcircumflex.sc,
+gcommaaccent.sc,
+gdotaccent.sc,
+gmacron.sc,
+h.sc,
+hbar.sc,
+hbrevebelow.sc,
+hcircumflex.sc,
+hdotbelow.sc,
+i.sc,
+idotless.sc,
+iacute.sc,
+iacute_j.loclNLD.sc,
+ibreve.sc,
+icaron.sc,
+icircumflex.sc,
+idblgrave.sc,
+idieresis.sc,
+idieresisacute.sc,
+idotaccent.sc,
+idotbelow.sc,
+igrave.sc,
+ihookabove.sc,
+iinvertedbreve.sc,
+ij.sc,
+imacron.sc,
+iogonek.sc,
+itilde.sc,
+j.sc,
+jdotless.sc,
+jcircumflex.sc,
+k.sc,
+kcommaaccent.sc,
+kgreenlandic.sc,
+l.sc,
+lacute.sc,
+lcaron.sc,
+lcommaaccent.sc,
+ldot.sc,
+ldotbelow.sc,
+lj.sc,
+llinebelow.sc,
+lslash.sc,
+m.sc,
+mdotbelow.sc,
+n.sc,
+nacute.sc,
+ncaron.sc,
+ncommaaccent.sc,
+ndotaccent.sc,
+ndotbelow.sc,
+eng.sc,
+nj.sc,
+nlinebelow.sc,
+ntilde.sc,
+o.sc,
+oacute.sc,
+obreve.sc,
+ocaron.sc,
+ocircumflex.sc,
+ocircumflexacute.sc,
+ocircumflexdotbelow.sc,
+ocircumflexgrave.sc,
+ocircumflexhookabove.sc,
+ocircumflextilde.sc,
+odblgrave.sc,
+odieresis.sc,
+odieresismacron.sc,
+odotaccentmacron.sc,
+odotbelow.sc,
+ograve.sc,
+ohookabove.sc,
+ohorn.sc,
+ohornacute.sc,
+ohorndotbelow.sc,
+ohorngrave.sc,
+ohornhookabove.sc,
+ohorntilde.sc,
+ohungarumlaut.sc,
+oinvertedbreve.sc,
+omacron.sc,
+omacronacute.sc,
+omacrongrave.sc,
+oogonek.sc,
+oslash.sc,
+oslashacute.sc,
+otilde.sc,
+otildeacute.sc,
+otildedieresis.sc,
+otildemacron.sc,
+oe.sc,
+p.sc,
+thorn.sc,
+q.sc,
+r.sc,
+racute.sc,
+rcaron.sc,
+rcommaaccent.sc,
+rdblgrave.sc,
+rdotbelow.sc,
+rinvertedbreve.sc,
+rlinebelow.sc,
+s.sc,
+sacute.sc,
+sacutedotaccent.sc,
+scaron.sc,
+scarondotaccent.sc,
+scedilla.sc,
+scircumflex.sc,
+scommaaccent.sc,
+sdotaccent.sc,
+sdotbelow.sc,
+sdotbelowdotaccent.sc,
+germandbls.sc,
+t.sc,
+tbar.sc,
+tcaron.sc,
+tcedilla.sc,
+tcommaaccent.sc,
+tdieresis.sc,
+tdotbelow.sc,
+tlinebelow.sc,
+u.sc,
+uacute.sc,
+ubreve.sc,
+ucaron.sc,
+ucircumflex.sc,
+udblgrave.sc,
+udieresis.sc,
+udieresisacute.sc,
+udieresiscaron.sc,
+udieresisgrave.sc,
+udieresismacron.sc,
+udotbelow.sc,
+ugrave.sc,
+uhookabove.sc,
+uhorn.sc,
+uhornacute.sc,
+uhorndotbelow.sc,
+uhorngrave.sc,
+uhornhookabove.sc,
+uhorntilde.sc,
+uhungarumlaut.sc,
+uinvertedbreve.sc,
+umacron.sc,
+umacrondieresis.sc,
+uogonek.sc,
+uring.sc,
+utilde.sc,
+utildeacute.sc,
+v.sc,
+w.sc,
+wacute.sc,
+wcircumflex.sc,
+wdieresis.sc,
+wgrave.sc,
+x.sc,
+y.sc,
+yacute.sc,
+ycircumflex.sc,
+ydieresis.sc,
+ydotaccent.sc,
+ydotbelow.sc,
+ygrave.sc,
+yhookabove.sc,
+ymacron.sc,
+ytilde.sc,
+z.sc,
+zacute.sc,
+zcaron.sc,
+zdotaccent.sc,
+zdotbelow.sc,
+"a-cy.sc",
+"be-cy.sc",
+"ve-cy.sc",
+"ge-cy.sc",
+"gje-cy.sc",
+"gheupturn-cy.sc",
+"de-cy.sc",
+"ie-cy.sc",
+"iegrave-cy.sc",
+"io-cy.sc",
+"zhe-cy.sc",
+"ze-cy.sc",
+"ii-cy.sc",
+"iishort-cy.sc",
+"iigrave-cy.sc",
+"ka-cy.sc",
+"kje-cy.sc",
+"el-cy.sc",
+"em-cy.sc",
+"en-cy.sc",
+"o-cy.sc",
+"pe-cy.sc",
+"er-cy.sc",
+"es-cy.sc",
+"te-cy.sc",
+"u-cy.sc",
+"ushort-cy.sc",
+"ef-cy.sc",
+"ha-cy.sc",
+"che-cy.sc",
+"tse-cy.sc",
+"sha-cy.sc",
+"shcha-cy.sc",
+"dzhe-cy.sc",
+"softsign-cy.sc",
+"hardsign-cy.sc",
+"yeru-cy.sc",
+"lje-cy.sc",
+"nje-cy.sc",
+"dze-cy.sc",
+"e-cy.sc",
+"ereversed-cy.sc",
+"i-cy.sc",
+"yi-cy.sc",
+"je-cy.sc",
+"tshe-cy.sc",
+"iu-cy.sc",
+"ia-cy.sc",
+"dje-cy.sc",
+"yat-cy.sc",
+"yusbig-cy.sc",
+"fita-cy.sc",
+"izhitsa-cy.sc",
+"ghestroke-cy.sc",
+"ghemiddlehook-cy.sc",
+"zhedescender-cy.sc",
+"zedescender-cy.sc",
+"kadescender-cy.sc",
+"kaverticalstroke-cy.sc",
+"kabashkir-cy.sc",
+"endescender-cy.sc",
+"enghe-cy.sc",
+"pedescender-cy.sc",
+"esdescender-cy.sc",
+"ustrait-cy.sc",
+"ustraitstroke-cy.sc",
+"hadescender-cy.sc",
+"chedescender-cy.sc",
+"cheverticalstroke-cy.sc",
+"shha-cy.sc",
+"palochka-cy.sc",
+"zhebreve-cy.sc",
+"chekhakassian-cy.sc",
+"abreve-cy.sc",
+"adieresis-cy.sc",
+"aie-cy.sc",
+"iebreve-cy.sc",
+"schwa-cy.sc",
+"zhedieresis-cy.sc",
+"zedieresis-cy.sc",
+"imacron-cy.sc",
+"idieresis-cy.sc",
+"odieresis-cy.sc",
+"obarred-cy.sc",
+"umacron-cy.sc",
+"udieresis-cy.sc",
+"uhungarumlaut-cy.sc",
+"chedieresis-cy.sc",
+"gedescender-cy.sc",
+"yerudieresis-cy.sc",
+"qa-cy.sc",
+"we-cy.sc",
+alpha.sc,
+beta.sc,
+gamma.sc,
+delta.sc,
+epsilon.sc,
+zeta.sc,
+eta.sc,
+theta.sc,
+iota.sc,
+kappa.sc,
+lambda.sc,
+mu.sc,
+nu.sc,
+xi.sc,
+omicron.sc,
+pi.sc,
+rho.sc,
+sigmafinal.sc,
+sigma.sc,
+tau.sc,
+upsilon.sc,
+phi.sc,
+chi.sc,
+psi.sc,
+omega.sc,
+iotatonos.sc,
+iotadieresis.sc,
+iotadieresistonos.sc,
+upsilontonos.sc,
+upsilondieresis.sc,
+upsilondieresistonos.sc,
+omicrontonos.sc,
+omegatonos.sc,
+alphatonos.sc,
+epsilontonos.sc,
+etatonos.sc,
+prosgegrammeni.sc,
+kaiSymbol.sc,
+alphapsili.sc,
+alphadasia.sc,
+alphapsilivaria.sc,
+alphadasiavaria.sc,
+alphapsilioxia.sc,
+alphadasiaoxia.sc,
+alphapsiliperispomeni.sc,
+alphadasiaperispomeni.sc,
+alphavaria.sc,
+alphaoxia.sc,
+alphaperispomeni.sc,
+alphavrachy.sc,
+alphamacron.sc,
+alphaypogegrammeni.sc,
+alphavariaypogegrammeni.sc,
+alphaoxiaypogegrammeni.sc,
+alphapsiliypogegrammeni.sc,
+alphadasiaypogegrammeni.sc,
+alphapsilivariaypogegrammeni.sc,
+alphadasiavariaypogegrammeni.sc,
+alphapsilioxiaypogegrammeni.sc,
+alphadasiaoxiaypogegrammeni.sc,
+alphapsiliperispomeniypogegrammeni.sc,
+alphadasiaperispomeniypogegrammeni.sc,
+alphaperispomeniypogegrammeni.sc,
+epsilonpsili.sc,
+epsilondasia.sc,
+epsilonpsilivaria.sc,
+epsilondasiavaria.sc,
+epsilonpsilioxia.sc,
+epsilondasiaoxia.sc,
+epsilonvaria.sc,
+epsilonoxia.sc,
+etapsili.sc,
+etadasia.sc,
+etapsilivaria.sc,
+etadasiavaria.sc,
+etapsilioxia.sc,
+etadasiaoxia.sc,
+etapsiliperispomeni.sc,
+etadasiaperispomeni.sc,
+etavaria.sc,
+etaoxia.sc,
+etaperispomeni.sc,
+etaypogegrammeni.sc,
+etavariaypogegrammeni.sc,
+etaoxiaypogegrammeni.sc,
+etapsiliypogegrammeni.sc,
+etadasiaypogegrammeni.sc,
+etapsilivariaypogegrammeni.sc,
+etadasiavariaypogegrammeni.sc,
+etapsilioxiaypogegrammeni.sc,
+etadasiaoxiaypogegrammeni.sc,
+etapsiliperispomeniypogegrammeni.sc,
+etadasiaperispomeniypogegrammeni.sc,
+etaperispomeniypogegrammeni.sc,
+iotapsili.sc,
+iotadasia.sc,
+iotapsilivaria.sc,
+iotadasiavaria.sc,
+iotapsilioxia.sc,
+iotadasiaoxia.sc,
+iotapsiliperispomeni.sc,
+iotadasiaperispomeni.sc,
+iotavaria.sc,
+iotaoxia.sc,
+iotaperispomeni.sc,
+iotavrachy.sc,
+iotamacron.sc,
+iotadialytikavaria.sc,
+iotadialytikaoxia.sc,
+iotadialytikaperispomeni.sc,
+omicronpsili.sc,
+omicrondasia.sc,
+omicronpsilivaria.sc,
+omicrondasiavaria.sc,
+omicronpsilioxia.sc,
+omicrondasiaoxia.sc,
+omicronvaria.sc,
+omicronoxia.sc,
+rhopsili.sc,
+rhodasia.sc,
+upsilonpsili.sc,
+upsilondasia.sc,
+upsilonpsilivaria.sc,
+upsilondasiavaria.sc,
+upsilonpsilioxia.sc,
+upsilondasiaoxia.sc,
+upsilonpsiliperispomeni.sc,
+upsilondasiaperispomeni.sc,
+upsilonvaria.sc,
+upsilonoxia.sc,
+upsilonperispomeni.sc,
+upsilonvrachy.sc,
+upsilonmacron.sc,
+upsilondialytikavaria.sc,
+upsilondialytikaoxia.sc,
+upsilondialytikaperispomeni.sc,
+omegapsili.sc,
+omegadasia.sc,
+omegapsilivaria.sc,
+omegadasiavaria.sc,
+omegapsilioxia.sc,
+omegadasiaoxia.sc,
+omegapsiliperispomeni.sc,
+omegadasiaperispomeni.sc,
+omegavaria.sc,
+omegaoxia.sc,
+omegaperispomeni.sc,
+omegaypogegrammeni.sc,
+omegavariaypogegrammeni.sc,
+omegaoxiaypogegrammeni.sc,
+omegapsiliypogegrammeni.sc,
+omegadasiaypogegrammeni.sc,
+omegapsilivariaypogegrammeni.sc,
+omegadasiavariaypogegrammeni.sc,
+omegapsilioxiaypogegrammeni.sc,
+omegadasiaoxiaypogegrammeni.sc,
+omegapsiliperispomeniypogegrammeni.sc,
+omegadasiaperispomeniypogegrammeni.sc,
+omegaperispomeniypogegrammeni.sc,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+exclam.sc,
+exclamdown.sc,
+question.sc,
+questiondown.sc,
+quotedbl.sc,
+quotedblleft.sc,
+quotedblright.sc,
+quoteleft.sc,
+quoteright.sc,
+quotesingle.sc,
+ampersand.sc,
+gdieresis.sc,
+gtilde.sc
+);
+},
+{
 name = "Rename Glyphs";
 value = (
 "a.sc=a",
@@ -209739,40 +211898,6 @@ ampersand.sc,
 gdieresis.sc,
 gtilde.sc
 );
-},
-{
-name = "Remove Classes";
-value = (
-f.l,
-f.t
-);
-},
-{
-name = "Remove Features";
-value = (
-smcp,
-c2sc
-);
-},
-{
-name = "Update Features";
-value = 1;
-},
-{
-name = "Replace Class";
-value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsis exclam exclamdown numbersign onedotenleader period question questiondown quotedbl quotesingle semicolon slash twodotenleader underscore backslash.case periodcentered.case bullet.case slash.case braceleft braceright bracketleft bracketright parenleft parenright braceleft.case braceright.case bracketleft.case bracketright.case parenright.case emdash endash figuredash horizontalbar hyphen hyphentwo softhyphen emdash.case endash.case hyphen.case guillemetleft guillemetright guilsinglleft guilsinglright quotedblbase quotedblleft quotedblright quoteleft quoteright quotesinglbase guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case anoteleia questiongreek space";
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
-},
-{
-name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
-},
-{
-name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 }
 );
 interpolationWeight = 175;
