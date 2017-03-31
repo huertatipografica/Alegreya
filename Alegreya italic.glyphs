@@ -1661,26 +1661,31 @@ notes = "Name: Roman numerals";
 },
 {
 code = "# Arrows
-sub one by leftArrow;
-sub two by upArrow;
+sub one by upArrow;
+sub two by northEastArrow;
 sub three by rightArrow;
-sub four by downArrow;
-sub five by northWestArrow;
-sub six by northEastArrow;
-sub seven by southEastArrow;
-sub eight by southWestArrow;
+sub four by southEastArrow;
+sub five by downArrow;
+sub six by southWestArrow;
+sub seven by leftArrow;
+sub eight by northWestArrow;
+sub nine by leftRightArrow;
 
 # Geometric shapes
-sub a by leftBlackTriangle;
-sub b by upBlackTriangle;
-sub c by rightBlackTriangle;
-sub d by downBlackTriangle;
-sub e by blackSquare;
-sub f by whiteSquare;
-sub g by mediumBlackSquare;
-sub h by blackLargeSquare;
-sub i by mediumBlackCircle;
-sub j by blackLargeCircle;";
+sub a by upDownArrow;
+sub b by blackDiamond;
+sub c by whiteDiamond;
+sub d by blackSquare;
+sub e by whiteSquare;
+sub f by mediumBlackSquare;
+sub g by upBlackTriangle;
+sub h by rightBlackTriangle;
+sub i by downBlackTriangle;
+sub j by leftBlackTriangle;
+sub k by upWhiteTriangle;
+sub l by rightWhiteTriangle;
+sub m by downWhiteTriangle;
+sub n by leftWhiteTriangle;";
 name = ss02;
 notes = "Name: Arrows, triangles and circles";
 },
