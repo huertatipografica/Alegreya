@@ -118260,10 +118260,77 @@ layers = (
 components = (
 {
 name = w.sc;
+transform = "{1, 0, 0, 1, 49, 0}";
 }
 );
 layerId = UUID0;
-width = 793;
+paths = (
+{
+closed = 1;
+nodes = (
+"428 -8 OFFCURVE",
+"511 57 OFFCURVE",
+"511 144 CURVE SMOOTH",
+"511 228 OFFCURVE",
+"441 280 OFFCURVE",
+"329 280 CURVE SMOOTH",
+"248 280 LINE",
+"253 421 LINE",
+"253 448 OFFCURVE",
+"257 450 OFFCURVE",
+"319 450 CURVE SMOOTH",
+"417 450 OFFCURVE",
+"429 445 OFFCURVE",
+"427 397 CURVE SMOOTH",
+"425 348 LINE",
+"474 351 LINE",
+"476 400 OFFCURVE",
+"483 460 OFFCURVE",
+"492 502 CURVE",
+"488 508 LINE",
+"441 501 OFFCURVE",
+"378 498 OFFCURVE",
+"242 498 CURVE SMOOTH",
+"202 498 OFFCURVE",
+"151 500 OFFCURVE",
+"120 500 CURVE",
+"114 462 LINE",
+"117 457 LINE",
+"144 459 LINE",
+"167 459 OFFCURVE",
+"173 450 OFFCURVE",
+"173 418 CURVE",
+"172 98 LINE",
+"172 57 OFFCURVE",
+"158 42 OFFCURVE",
+"108 33 CURVE",
+"103 -9 LINE",
+"157 -2 OFFCURVE",
+"188 0 OFFCURVE",
+"202 0 CURVE SMOOTH",
+"244 0 OFFCURVE",
+"280 -8 OFFCURVE",
+"318 -8 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"266 41 OFFCURVE",
+"241 56 OFFCURVE",
+"242 93 CURVE SMOOTH",
+"246 228 LINE",
+"327 233 LINE",
+"393 223 OFFCURVE",
+"427 193 OFFCURVE",
+"427 132 CURVE SMOOTH",
+"427 75 OFFCURVE",
+"390 41 OFFCURVE",
+"328 41 CURVE SMOOTH"
+);
+}
+);
+width = 887;
 userData = {
 RMXScaler = {
 adjustSpace = 11;
@@ -118291,11 +118358,12 @@ width = 83;
 };
 }
 );
-leftKerningGroup = V;
-rightKerningGroup = V;
+leftKerningGroup = h.sc;
+leftMetricsKey = "=b.sc";
+rightKerningGroup = "be-cy.sc";
 userData = {
 RMXScaler = {
-source = "We-cy";
+source = "Be-cy";
 };
 };
 },
