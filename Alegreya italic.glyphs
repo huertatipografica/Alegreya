@@ -246276,8 +246276,8 @@ f.t
 {
 name = "Remove Features";
 value = (
-smcp,
-c2sc
+c2sc,
+smcp
 );
 },
 {
@@ -246294,11 +246294,11 @@ value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
 },
 {
 name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
 name = "Decompose Glyphs";
@@ -246638,6 +246638,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -247177,6 +247180,9 @@ value = (
 "yerudieresis-cy.sc=yerudieresis-cy",
 "qa-cy.sc=qa-cy",
 "we-cy.sc=we-cy",
+"ghestroke-cy.loclBSH.sc=ghestroke-cy.loclBSH",
+"zedescender-cy.loclBSH.sc=zedescender-cy.loclBSH",
+"esdescender-cy.loclCHU.sc=esdescender-cy.loclCHU",
 "alpha.sc=alpha",
 "beta.sc=beta",
 "gamma.sc=gamma",
@@ -247716,6 +247722,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -247954,8 +247963,8 @@ f.t
 {
 name = "Remove Features";
 value = (
-smcp,
-c2sc
+c2sc,
+smcp
 );
 },
 {
@@ -247972,11 +247981,11 @@ value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
 },
 {
 name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
 name = "Decompose Glyphs";
@@ -248316,6 +248325,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -248855,6 +248867,9 @@ value = (
 "yerudieresis-cy.sc=yerudieresis-cy",
 "qa-cy.sc=qa-cy",
 "we-cy.sc=we-cy",
+"ghestroke-cy.loclBSH.sc=ghestroke-cy.loclBSH",
+"zedescender-cy.loclBSH.sc=zedescender-cy.loclBSH",
+"esdescender-cy.loclCHU.sc=esdescender-cy.loclCHU",
 "alpha.sc=alpha",
 "beta.sc=beta",
 "gamma.sc=gamma",
@@ -249394,6 +249409,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -249634,8 +249652,8 @@ f.t
 {
 name = "Remove Features";
 value = (
-smcp,
-c2sc
+c2sc,
+smcp
 );
 },
 {
@@ -249652,11 +249670,11 @@ value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
 },
 {
 name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
 name = "Decompose Glyphs";
@@ -249996,6 +250014,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -250535,6 +250556,9 @@ value = (
 "yerudieresis-cy.sc=yerudieresis-cy",
 "qa-cy.sc=qa-cy",
 "we-cy.sc=we-cy",
+"ghestroke-cy.loclBSH.sc=ghestroke-cy.loclBSH",
+"zedescender-cy.loclBSH.sc=zedescender-cy.loclBSH",
+"esdescender-cy.loclCHU.sc=esdescender-cy.loclCHU",
 "alpha.sc=alpha",
 "beta.sc=beta",
 "gamma.sc=gamma",
@@ -251074,6 +251098,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -251315,8 +251342,8 @@ f.t
 {
 name = "Remove Features";
 value = (
-smcp,
-c2sc
+c2sc,
+smcp
 );
 },
 {
@@ -251333,11 +251360,11 @@ value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
 },
 {
 name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
 name = "Decompose Glyphs";
@@ -251677,6 +251704,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -252216,6 +252246,9 @@ value = (
 "yerudieresis-cy.sc=yerudieresis-cy",
 "qa-cy.sc=qa-cy",
 "we-cy.sc=we-cy",
+"ghestroke-cy.loclBSH.sc=ghestroke-cy.loclBSH",
+"zedescender-cy.loclBSH.sc=zedescender-cy.loclBSH",
+"esdescender-cy.loclCHU.sc=esdescender-cy.loclCHU",
 "alpha.sc=alpha",
 "beta.sc=beta",
 "gamma.sc=gamma",
@@ -252755,6 +252788,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -252995,8 +253031,8 @@ f.t
 {
 name = "Remove Features";
 value = (
-smcp,
-c2sc
+c2sc,
+smcp
 );
 },
 {
@@ -253013,11 +253049,11 @@ value = "siglo1;c d i l m v x C D I L M V X c d i l m v x";
 },
 {
 name = "Replace Feature";
-value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub Esdescender-cy by Esdescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012sub esdescender-cy by esdescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
 name = "Decompose Glyphs";
@@ -253357,6 +253393,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
@@ -253896,6 +253935,9 @@ value = (
 "yerudieresis-cy.sc=yerudieresis-cy",
 "qa-cy.sc=qa-cy",
 "we-cy.sc=we-cy",
+"ghestroke-cy.loclBSH.sc=ghestroke-cy.loclBSH",
+"zedescender-cy.loclBSH.sc=zedescender-cy.loclBSH",
+"esdescender-cy.loclCHU.sc=esdescender-cy.loclCHU",
 "alpha.sc=alpha",
 "beta.sc=beta",
 "gamma.sc=gamma",
@@ -254435,6 +254477,9 @@ zdotbelow.sc,
 "yerudieresis-cy.sc",
 "qa-cy.sc",
 "we-cy.sc",
+"ghestroke-cy.loclBSH.sc",
+"zedescender-cy.loclBSH.sc",
+"esdescender-cy.loclCHU.sc",
 alpha.sc,
 beta.sc,
 gamma.sc,
