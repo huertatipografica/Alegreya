@@ -155915,6 +155915,7 @@ layerId = UUID0;
 width = 429;
 },
 {
+associatedMasterId = UUID0;
 components = (
 {
 name = f.sc;
@@ -155922,15 +155923,6 @@ name = f.sc;
 );
 layerId = "6DC2006A-28B6-4A13-A5DF-3641E0854074";
 width = 426;
-},
-{
-components = (
-{
-name = f.sc;
-}
-);
-layerId = UUID1;
-width = 467;
 }
 );
 userData = {
@@ -156117,6 +156109,7 @@ nodes = (
 width = 473;
 },
 {
+associatedMasterId = UUID0;
 components = (
 {
 name = "ze-cy.sc";
@@ -156128,93 +156121,6 @@ transform = "{1, 0, 0, 1, 110, 0}";
 );
 layerId = "6DC2006A-28B6-4A13-A5DF-3641E0854074";
 width = 480;
-},
-{
-anchors = (
-{
-name = bottom;
-position = "{201, 0}";
-},
-{
-name = top;
-position = "{278, 503}";
-}
-);
-layerId = UUID1;
-paths = (
-{
-closed = 1;
-nodes = (
-"241 -141 LINE",
-"259 -60 LINE SMOOTH",
-"268 -18 OFFCURVE",
-"288 7 OFFCURVE",
-"327 28 CURVE",
-"102 31 LINE",
-"138 9 OFFCURVE",
-"149 -10 OFFCURVE",
-"147 -50 CURVE SMOOTH",
-"143 -150 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
-"346 -9 OFFCURVE",
-"439 40 OFFCURVE",
-"452 149 CURVE SMOOTH",
-"459 209 OFFCURVE",
-"430 250 OFFCURVE",
-"370 273 CURVE",
-"429 308 OFFCURVE",
-"454 339 OFFCURVE",
-"459 377 CURVE SMOOTH",
-"470 462 OFFCURVE",
-"397 510 OFFCURVE",
-"256 510 CURVE SMOOTH",
-"215 510 OFFCURVE",
-"167 505 OFFCURVE",
-"90 490 CURVE",
-"77 479 LINE",
-"72 420 OFFCURVE",
-"62 365 OFFCURVE",
-"54 339 CURVE",
-"174 338 LINE",
-"184 383 OFFCURVE",
-"197 395 OFFCURVE",
-"238 395 CURVE SMOOTH",
-"279 395 OFFCURVE",
-"289 390 OFFCURVE",
-"285 361 CURVE SMOOTH",
-"282 343 OFFCURVE",
-"267 322 OFFCURVE",
-"249 311 CURVE",
-"148 308 LINE",
-"129 214 LINE",
-"138 202 LINE",
-"239 204 LINE",
-"265 193 OFFCURVE",
-"276 176 OFFCURVE",
-"273 155 CURVE SMOOTH",
-"267 118 OFFCURVE",
-"242 97 OFFCURVE",
-"199 97 CURVE SMOOTH",
-"154 97 OFFCURVE",
-"147 108 OFFCURVE",
-"155 172 CURVE",
-"41 168 LINE",
-"31 159 LINE",
-"29 122 OFFCURVE",
-"21 69 OFFCURVE",
-"11 21 CURVE",
-"23 5 LINE",
-"63 -4 OFFCURVE",
-"117 -9 OFFCURVE",
-"166 -9 CURVE SMOOTH"
-);
-}
-);
-width = 473;
 }
 );
 },
@@ -156248,6 +156154,7 @@ layerId = UUID1;
 width = 497;
 },
 {
+associatedMasterId = UUID0;
 components = (
 {
 name = "es-cy.sc";
@@ -156259,19 +156166,6 @@ transform = "{1, 0, 0, 1, 143, 1}";
 );
 layerId = "6DC2006A-28B6-4A13-A5DF-3641E0854074";
 width = 448;
-},
-{
-components = (
-{
-name = "es-cy.sc";
-},
-{
-name = cedillacomb;
-transform = "{1, 0, 0, 1, 67, 0}";
-}
-);
-layerId = UUID1;
-width = 497;
 }
 );
 userData = {
