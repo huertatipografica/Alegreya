@@ -1,8 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-"l/idieresis.sc l\U00EFl\U00EFl\U00ED/rcaron/ecaron/rcaron \U00EDk"
-);
 classes = (
 {
 automatic = 1;
@@ -25933,7 +25930,7 @@ name = e;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 42, -20}";
+transform = "{1, 0, 0, 1, 10, 0}";
 }
 );
 layerId = UUID0;
@@ -28636,27 +28633,24 @@ layers = (
 {
 components = (
 {
-alignment = -1;
-name = acutecomb;
-transform = "{1, 0, 0, 1, -4, 0}";
+name = idotless;
 },
 {
-name = idotless;
-transform = "{1, 0, 0, 1, 55, 0}";
+name = acutecomb;
+transform = "{1, 0, 0, 1, -93, 0}";
 }
 );
 layerId = UUID0;
-width = 319;
+width = 264;
 },
 {
 components = (
 {
-alignment = -1;
-name = acutecomb;
-transform = "{1, 0, 0, 1, -37, 0}";
+name = idotless;
 },
 {
-name = idotless;
+name = acutecomb;
+transform = "{1, 0, 0, 1, -29, -6}";
 }
 );
 layerId = UUID1;
@@ -35907,7 +35901,7 @@ name = r;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 25, -20}";
+transform = "{1, 0, 0, 1, -7, 0}";
 }
 );
 layerId = UUID0;
@@ -231996,7 +231990,7 @@ layers = (
 anchors = (
 {
 name = _top;
-position = "{196, 472}";
+position = "{228, 452}";
 },
 {
 name = top;
@@ -232064,7 +232058,7 @@ position = "{226, 472}";
 },
 {
 name = top;
-position = "{222, 686}";
+position = "{259, 740}";
 }
 );
 background = {

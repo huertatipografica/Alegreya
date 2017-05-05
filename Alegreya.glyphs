@@ -1,5 +1,8 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+"l\U00EFl\U00ED/rcaron/ecaron/rcaron \U00EDl"
+);
 classes = (
 {
 automatic = 1;
@@ -26171,13 +26174,11 @@ layers = (
 {
 components = (
 {
-alignment = -1;
 name = idotless;
 },
 {
-alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, -59, 0}";
+transform = "{1, 0, 0, 1, -91, 0}";
 }
 );
 layerId = UUID0;
@@ -26186,13 +26187,11 @@ width = 282;
 {
 components = (
 {
-alignment = -1;
 name = idotless;
 },
 {
-alignment = -1;
 name = acutecomb;
-transform = "{1, 0, 0, 1, -37, 0}";
+transform = "{1, 0, 0, 1, -82, 0}";
 }
 );
 layerId = UUID1;
