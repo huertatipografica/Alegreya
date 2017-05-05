@@ -1,5 +1,8 @@
 {
 .appVersion = "983";
+DisplayStrings = (
+"l/idieresis.sc l\U00EFl\U00EFl\U00ED/rcaron/ecaron/rcaron \U00EDk"
+);
 classes = (
 {
 automatic = 1;
@@ -116,13 +119,13 @@ feature pnum;
 feature tnum;
 feature onum;
 feature c2sc;
-feature smcp;
 feature case;
 feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
 feature ss05;
+feature smcp;
 ";
 name = aalt;
 },
@@ -967,6 +970,309 @@ name = c2sc;
 },
 {
 automatic = 1;
+code = "sub backslash by backslash.case;
+sub periodcentered by periodcentered.case;
+sub bullet by bullet.case;
+sub slash by slash.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub parenright by parenright.case;
+sub emdash by emdash.case;
+sub endash by endash.case;
+sub hyphen by hyphen.case;
+sub guillemetleft by guillemetleft.case;
+sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
+sub at by at.case;
+sub dieresiscomb by dieresiscomb.case;
+sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;
+sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;
+sub dotaccentcomb by dotaccentcomb.case;
+sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;
+sub gravecomb by gravecomb.case;
+sub acutecomb by acutecomb.case;
+sub hungarumlautcomb by hungarumlautcomb.case;
+sub circumflexcomb by circumflexcomb.case;
+sub caroncomb by caroncomb.case;
+sub brevecomb by brevecomb.case;
+sub ringcomb by ringcomb.case;
+sub tildecomb by tildecomb.case;
+sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.case;
+sub tildecomb_acutecomb by tildecomb_acutecomb.case;
+sub tildecomb_macroncomb by tildecomb_macroncomb.case;
+sub macroncomb by macroncomb.case;
+sub macroncomb_gravecomb by macroncomb_gravecomb.case;
+sub macroncomb_acutecomb by macroncomb_acutecomb.case;
+sub dblgravecomb by dblgravecomb.case;
+sub strokeshortcomb by strokeshortcomb.case;
+sub psili by psili.case;
+sub dasia by dasia.case;
+sub dasiavaria by dasiavaria.case;
+sub psilioxia by psilioxia.case;
+sub dasiaoxia by dasiaoxia.case;
+sub psiliperispomeni by psiliperispomeni.case;
+sub dasiaperispomeni by dasiaperispomeni.case;
+sub perispomeni by perispomeni.case;
+sub psilivaria by psilivaria.case;
+sub brevecomb-cy by brevecomb-cy.case;
+sub zero by zero.lf;
+sub one by one.lf;
+sub two by two.lf;
+sub three by three.lf;
+sub four by four.lf;
+sub five by five.lf;
+sub six by six.lf;
+sub seven by seven.lf;
+sub eight by eight.lf;
+sub nine by nine.lf;
+sub zero.tf by zero.lf;
+sub one.tf by one.lf;
+sub two.tf by two.lf;
+sub three.tf by three.lf;
+sub four.tf by four.lf;
+sub five.tf by five.lf;
+sub six.tf by six.lf;
+sub seven.tf by seven.lf;
+sub eight.tf by eight.lf;
+sub nine.tf by nine.lf;
+sub zero.tosf by zero.lf;
+sub one.tosf by one.lf;
+sub two.tosf by two.lf;
+sub three.tosf by three.lf;
+sub four.tosf by four.lf;
+sub five.tosf by five.lf;
+sub six.tosf by six.lf;
+sub seven.tosf by seven.lf;
+sub eight.tosf by eight.lf;
+sub nine.tosf by nine.lf;
+";
+name = case;
+},
+{
+automatic = 1;
+code = "sub c h by c_h;
+sub c t by c_t;
+sub f j by f_j;
+sub s t by s_t;
+sub gamma gamma by gamma_gamma;
+sub lambda lambda by lambda_lambda;
+";
+name = dlig;
+},
+{
+code = "sub T h by T_h.liga;
+sub gamma gamma by gamma_gamma;
+sub lambda lambda by lambda_lambda;
+
+sub [tilde tildecomb asciitilde] e by etilde;
+sub [tilde tildecomb asciitilde] g by gtilde;
+sub dieresis i by idieresis;
+sub [tilde tildecomb asciitilde] i by itilde;
+sub dieresis o by odieresis;
+sub [tilde tildecomb asciitilde] u by utilde;
+sub [tilde tildecomb asciitilde] y by ytilde;
+sub acute y by yacute;
+
+sub [tilde tildecomb asciitilde] E by Etilde;
+sub [tilde tildecomb asciitilde] G by Gtilde;
+sub dieresis I by Idieresis;
+sub [tilde tildecomb asciitilde] I by Itilde;
+sub dieresis O by Odieresis;
+sub [tilde tildecomb asciitilde] U by Utilde;
+sub [tilde tildecomb asciitilde] Y by Ytilde;
+sub acute Y by Yacute;
+
+sub [tilde tildecomb asciitilde] e.sc by etilde.sc;
+sub [tilde tildecomb asciitilde] g.sc by gtilde.sc;
+sub dieresis i.sc by idieresis.sc;
+sub [tilde tildecomb asciitilde] i.sc by itilde.sc;
+sub dieresis o.sc by odieresis.sc;
+sub [tilde tildecomb asciitilde] u.sc by utilde.sc;
+sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;
+sub acute y.sc by yacute.sc;
+
+sub f' f by f.f;
+sub f' @f.l by f.l;
+sub f' @f.t by f.t;
+sub f [i] by fi;
+sub f l by fl;
+sub f j by f_j;
+
+script latn;
+language ESP;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub @siglo2 @siglo1' by @siglo2;
+
+";
+name = liga;
+},
+{
+automatic = 1;
+code = "sub C by C.ss01;
+sub D by D.ss01;
+sub I by I.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub V by V.ss01;
+sub X by X.ss01;
+";
+disabled = 1;
+name = salt;
+},
+{
+code = "sub @siglo1 by @siglo2;
+";
+name = ss01;
+notes = "Name: Roman numerals";
+},
+{
+code = "# Arrows
+sub one by upArrow;
+sub two by northEastArrow;
+sub three by rightArrow;
+sub four by southEastArrow;
+sub five by downArrow;
+sub six by southWestArrow;
+sub seven by leftArrow;
+sub eight by northWestArrow;
+sub nine by leftRightArrow;
+
+# Geometric shapes
+sub a by upDownArrow;
+sub b by blackDiamond;
+sub c by whiteDiamond;
+sub d by blackSquare;
+sub e by whiteSquare;
+sub f by mediumBlackSquare;
+sub g by upBlackTriangle;
+sub h by rightBlackTriangle;
+sub i by downBlackTriangle;
+sub j by leftBlackTriangle;
+sub k by upWhiteTriangle;
+sub l by rightWhiteTriangle;
+sub m by downWhiteTriangle;
+sub n by leftWhiteTriangle;";
+name = ss02;
+notes = "Name: Arrows, triangles and circles";
+},
+{
+code = "sub h t by foundryicon;
+";
+name = ss03;
+notes = "Name: Foundry icon";
+},
+{
+code = "# Second approximation
+# Arrows 2
+sub less hyphen by leftArrow;
+sub hyphen asciicircum by upArrow;
+sub hyphen greater by rightArrow;
+sub asciicircum hyphen by downArrow;
+sub hyphen asciicircum less by northWestArrow;
+sub hyphen asciicircum greater by northEastArrow;
+sub greater asciicircum hyphen by southEastArrow;
+sub less asciicircum hyphen by southWestArrow;
+
+# Triangles
+sub less equal by leftBlackTriangle;
+sub equal asciicircum by upBlackTriangle;
+sub equal greater by rightBlackTriangle;
+sub asciicircum equal by downBlackTriangle;";
+name = ss04;
+notes = "Name: Dynamic arrows and triangles";
+},
+{
+automatic = 1;
+code = "sub Alphaprosgegrammeni by Alphaprosgegrammeni.ss05;
+sub Alphapsiliprosgegrammeni by Alphapsiliprosgegrammeni.ss05;
+sub Alphadasiaprosgegrammeni by Alphadasiaprosgegrammeni.ss05;
+sub Alphapsilivariaprosgegrammeni by Alphapsilivariaprosgegrammeni.ss05;
+sub Alphadasiavariaprosgegrammeni by Alphadasiavariaprosgegrammeni.ss05;
+sub Alphapsilioxiaprosgegrammeni by Alphapsilioxiaprosgegrammeni.ss05;
+sub Alphadasiaoxiaprosgegrammeni by Alphadasiaoxiaprosgegrammeni.ss05;
+sub Alphapsiliperispomeniprosgegrammeni by Alphapsiliperispomeniprosgegrammeni.ss05;
+sub Alphadasiaperispomeniprosgegrammeni by Alphadasiaperispomeniprosgegrammeni.ss05;
+sub Etaprosgegrammeni by Etaprosgegrammeni.ss05;
+sub Etapsiliprosgegrammeni by Etapsiliprosgegrammeni.ss05;
+sub Etadasiaprosgegrammeni by Etadasiaprosgegrammeni.ss05;
+sub Etapsilivariaprosgegrammeni by Etapsilivariaprosgegrammeni.ss05;
+sub Etadasiavariaprosgegrammeni by Etadasiavariaprosgegrammeni.ss05;
+sub Etapsilioxiaprosgegrammeni by Etapsilioxiaprosgegrammeni.ss05;
+sub Etadasiaoxiaprosgegrammeni by Etadasiaoxiaprosgegrammeni.ss05;
+sub Etapsiliperispomeniprosgegrammeni by Etapsiliperispomeniprosgegrammeni.ss05;
+sub Etadasiaperispomeniprosgegrammeni by Etadasiaperispomeniprosgegrammeni.ss05;
+sub Omegaprosgegrammeni by Omegaprosgegrammeni.ss05;
+sub Omegapsiliprosgegrammeni by Omegapsiliprosgegrammeni.ss05;
+sub Omegadasiaprosgegrammeni by Omegadasiaprosgegrammeni.ss05;
+sub Omegapsilivariaprosgegrammeni by Omegapsilivariaprosgegrammeni.ss05;
+sub Omegadasiavariaprosgegrammeni by Omegadasiavariaprosgegrammeni.ss05;
+sub Omegapsilioxiaprosgegrammeni by Omegapsilioxiaprosgegrammeni.ss05;
+sub Omegadasiaoxiaprosgegrammeni by Omegadasiaoxiaprosgegrammeni.ss05;
+sub Omegapsiliperispomeniprosgegrammeni by Omegapsiliperispomeniprosgegrammeni.ss05;
+sub Omegadasiaperispomeniprosgegrammeni by Omegadasiaperispomeniprosgegrammeni.ss05;
+sub alphaypogegrammeni.sc by alphaypogegrammeni.sc.ss05;
+sub alphavariaypogegrammeni.sc by alphavariaypogegrammeni.sc.ss05;
+sub alphaoxiaypogegrammeni.sc by alphaoxiaypogegrammeni.sc.ss05;
+sub alphapsiliypogegrammeni.sc by alphapsiliypogegrammeni.sc.ss05;
+sub alphadasiaypogegrammeni.sc by alphadasiaypogegrammeni.sc.ss05;
+sub alphapsilivariaypogegrammeni.sc by alphapsilivariaypogegrammeni.sc.ss05;
+sub alphadasiavariaypogegrammeni.sc by alphadasiavariaypogegrammeni.sc.ss05;
+sub alphapsilioxiaypogegrammeni.sc by alphapsilioxiaypogegrammeni.sc.ss05;
+sub alphadasiaoxiaypogegrammeni.sc by alphadasiaoxiaypogegrammeni.sc.ss05;
+sub alphapsiliperispomeniypogegrammeni.sc by alphapsiliperispomeniypogegrammeni.sc.ss05;
+sub alphadasiaperispomeniypogegrammeni.sc by alphadasiaperispomeniypogegrammeni.sc.ss05;
+sub alphaperispomeniypogegrammeni.sc by alphaperispomeniypogegrammeni.sc.ss05;
+sub etaypogegrammeni.sc by etaypogegrammeni.sc.ss05;
+sub etavariaypogegrammeni.sc by etavariaypogegrammeni.sc.ss05;
+sub etaoxiaypogegrammeni.sc by etaoxiaypogegrammeni.sc.ss05;
+sub etapsiliypogegrammeni.sc by etapsiliypogegrammeni.sc.ss05;
+sub etadasiaypogegrammeni.sc by etadasiaypogegrammeni.sc.ss05;
+sub etapsilivariaypogegrammeni.sc by etapsilivariaypogegrammeni.sc.ss05;
+sub etadasiavariaypogegrammeni.sc by etadasiavariaypogegrammeni.sc.ss05;
+sub etapsilioxiaypogegrammeni.sc by etapsilioxiaypogegrammeni.sc.ss05;
+sub etadasiaoxiaypogegrammeni.sc by etadasiaoxiaypogegrammeni.sc.ss05;
+sub etapsiliperispomeniypogegrammeni.sc by etapsiliperispomeniypogegrammeni.sc.ss05;
+sub etadasiaperispomeniypogegrammeni.sc by etadasiaperispomeniypogegrammeni.sc.ss05;
+sub etaperispomeniypogegrammeni.sc by etaperispomeniypogegrammeni.sc.ss05;
+sub omegaypogegrammeni.sc by omegaypogegrammeni.sc.ss05;
+sub omegavariaypogegrammeni.sc by omegavariaypogegrammeni.sc.ss05;
+sub omegaoxiaypogegrammeni.sc by omegaoxiaypogegrammeni.sc.ss05;
+sub omegapsiliypogegrammeni.sc by omegapsiliypogegrammeni.sc.ss05;
+sub omegadasiaypogegrammeni.sc by omegadasiaypogegrammeni.sc.ss05;
+sub omegapsilivariaypogegrammeni.sc by omegapsilivariaypogegrammeni.sc.ss05;
+sub omegadasiavariaypogegrammeni.sc by omegadasiavariaypogegrammeni.sc.ss05;
+sub omegapsilioxiaypogegrammeni.sc by omegapsilioxiaypogegrammeni.sc.ss05;
+sub omegadasiaoxiaypogegrammeni.sc by omegadasiaoxiaypogegrammeni.sc.ss05;
+sub omegapsiliperispomeniypogegrammeni.sc by omegapsiliperispomeniypogegrammeni.sc.ss05;
+sub omegadasiaperispomeniypogegrammeni.sc by omegadasiaperispomeniypogegrammeni.sc.ss05;
+sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss05;
+";
+name = ss05;
+notes = "Name: Adscript iota";
+},
+{
+code = "pos @Uppercase <10 0 20 0>;
+";
+name = cpsp;
+},
+{
+automatic = 1;
 code = "sub a by a.sc;
 sub aacute by aacute.sc;
 sub abreve by abreve.sc;
@@ -1485,309 +1791,6 @@ sub gdieresis by gdieresis.sc;
 sub gtilde by gtilde.sc;
 ";
 name = smcp;
-},
-{
-automatic = 1;
-code = "sub backslash by backslash.case;
-sub periodcentered by periodcentered.case;
-sub bullet by bullet.case;
-sub slash by slash.case;
-sub braceleft by braceleft.case;
-sub braceright by braceright.case;
-sub bracketleft by bracketleft.case;
-sub bracketright by bracketright.case;
-sub parenright by parenright.case;
-sub emdash by emdash.case;
-sub endash by endash.case;
-sub hyphen by hyphen.case;
-sub guillemetleft by guillemetleft.case;
-sub guillemetright by guillemetright.case;
-sub guilsinglleft by guilsinglleft.case;
-sub guilsinglright by guilsinglright.case;
-sub at by at.case;
-sub dieresiscomb by dieresiscomb.case;
-sub dieresiscomb_acutecomb by dieresiscomb_acutecomb.case;
-sub dieresiscomb_macroncomb by dieresiscomb_macroncomb.case;
-sub dotaccentcomb by dotaccentcomb.case;
-sub dotaccentcomb_macroncomb by dotaccentcomb_macroncomb.case;
-sub gravecomb by gravecomb.case;
-sub acutecomb by acutecomb.case;
-sub hungarumlautcomb by hungarumlautcomb.case;
-sub circumflexcomb by circumflexcomb.case;
-sub caroncomb by caroncomb.case;
-sub brevecomb by brevecomb.case;
-sub ringcomb by ringcomb.case;
-sub tildecomb by tildecomb.case;
-sub tildecomb_dieresiscomb by tildecomb_dieresiscomb.case;
-sub tildecomb_acutecomb by tildecomb_acutecomb.case;
-sub tildecomb_macroncomb by tildecomb_macroncomb.case;
-sub macroncomb by macroncomb.case;
-sub macroncomb_gravecomb by macroncomb_gravecomb.case;
-sub macroncomb_acutecomb by macroncomb_acutecomb.case;
-sub dblgravecomb by dblgravecomb.case;
-sub strokeshortcomb by strokeshortcomb.case;
-sub psili by psili.case;
-sub dasia by dasia.case;
-sub dasiavaria by dasiavaria.case;
-sub psilioxia by psilioxia.case;
-sub dasiaoxia by dasiaoxia.case;
-sub psiliperispomeni by psiliperispomeni.case;
-sub dasiaperispomeni by dasiaperispomeni.case;
-sub perispomeni by perispomeni.case;
-sub psilivaria by psilivaria.case;
-sub brevecomb-cy by brevecomb-cy.case;
-sub zero by zero.lf;
-sub one by one.lf;
-sub two by two.lf;
-sub three by three.lf;
-sub four by four.lf;
-sub five by five.lf;
-sub six by six.lf;
-sub seven by seven.lf;
-sub eight by eight.lf;
-sub nine by nine.lf;
-sub zero.tf by zero.lf;
-sub one.tf by one.lf;
-sub two.tf by two.lf;
-sub three.tf by three.lf;
-sub four.tf by four.lf;
-sub five.tf by five.lf;
-sub six.tf by six.lf;
-sub seven.tf by seven.lf;
-sub eight.tf by eight.lf;
-sub nine.tf by nine.lf;
-sub zero.tosf by zero.lf;
-sub one.tosf by one.lf;
-sub two.tosf by two.lf;
-sub three.tosf by three.lf;
-sub four.tosf by four.lf;
-sub five.tosf by five.lf;
-sub six.tosf by six.lf;
-sub seven.tosf by seven.lf;
-sub eight.tosf by eight.lf;
-sub nine.tosf by nine.lf;
-";
-name = case;
-},
-{
-automatic = 1;
-code = "sub c h by c_h;
-sub c t by c_t;
-sub f j by f_j;
-sub s t by s_t;
-sub gamma gamma by gamma_gamma;
-sub lambda lambda by lambda_lambda;
-";
-name = dlig;
-},
-{
-code = "sub T h by T_h.liga;
-sub gamma gamma by gamma_gamma;
-sub lambda lambda by lambda_lambda;
-
-sub [tilde tildecomb asciitilde] e by etilde;
-sub [tilde tildecomb asciitilde] g by gtilde;
-sub dieresis i by idieresis;
-sub [tilde tildecomb asciitilde] i by itilde;
-sub dieresis o by odieresis;
-sub [tilde tildecomb asciitilde] u by utilde;
-sub [tilde tildecomb asciitilde] y by ytilde;
-sub acute y by yacute;
-
-sub [tilde tildecomb asciitilde] E by Etilde;
-sub [tilde tildecomb asciitilde] G by Gtilde;
-sub dieresis I by Idieresis;
-sub [tilde tildecomb asciitilde] I by Itilde;
-sub dieresis O by Odieresis;
-sub [tilde tildecomb asciitilde] U by Utilde;
-sub [tilde tildecomb asciitilde] Y by Ytilde;
-sub acute Y by Yacute;
-
-sub [tilde tildecomb asciitilde] e.sc by etilde.sc;
-sub [tilde tildecomb asciitilde] g.sc by gtilde.sc;
-sub dieresis i.sc by idieresis.sc;
-sub [tilde tildecomb asciitilde] i.sc by itilde.sc;
-sub dieresis o.sc by odieresis.sc;
-sub [tilde tildecomb asciitilde] u.sc by utilde.sc;
-sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;
-sub acute y.sc by yacute.sc;
-
-sub f' f by f.f;
-sub f' @f.l by f.l;
-sub f' @f.t by f.t;
-sub f [i] by fi;
-sub f l by fl;
-sub f j by f_j;
-
-script latn;
-language ESP;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub @siglo2 @siglo1' by @siglo2;
-
-";
-name = liga;
-},
-{
-automatic = 1;
-code = "sub C by C.ss01;
-sub D by D.ss01;
-sub I by I.ss01;
-sub L by L.ss01;
-sub M by M.ss01;
-sub V by V.ss01;
-sub X by X.ss01;
-";
-disabled = 1;
-name = salt;
-},
-{
-code = "sub @siglo1 by @siglo2;
-";
-name = ss01;
-notes = "Name: Roman numerals";
-},
-{
-code = "# Arrows
-sub one by upArrow;
-sub two by northEastArrow;
-sub three by rightArrow;
-sub four by southEastArrow;
-sub five by downArrow;
-sub six by southWestArrow;
-sub seven by leftArrow;
-sub eight by northWestArrow;
-sub nine by leftRightArrow;
-
-# Geometric shapes
-sub a by upDownArrow;
-sub b by blackDiamond;
-sub c by whiteDiamond;
-sub d by blackSquare;
-sub e by whiteSquare;
-sub f by mediumBlackSquare;
-sub g by upBlackTriangle;
-sub h by rightBlackTriangle;
-sub i by downBlackTriangle;
-sub j by leftBlackTriangle;
-sub k by upWhiteTriangle;
-sub l by rightWhiteTriangle;
-sub m by downWhiteTriangle;
-sub n by leftWhiteTriangle;";
-name = ss02;
-notes = "Name: Arrows, triangles and circles";
-},
-{
-code = "sub h t by foundryicon;
-";
-name = ss03;
-notes = "Name: Foundry icon";
-},
-{
-code = "# Second approximation
-# Arrows 2
-sub less hyphen by leftArrow;
-sub hyphen asciicircum by upArrow;
-sub hyphen greater by rightArrow;
-sub asciicircum hyphen by downArrow;
-sub hyphen asciicircum less by northWestArrow;
-sub hyphen asciicircum greater by northEastArrow;
-sub greater asciicircum hyphen by southEastArrow;
-sub less asciicircum hyphen by southWestArrow;
-
-# Triangles
-sub less equal by leftBlackTriangle;
-sub equal asciicircum by upBlackTriangle;
-sub equal greater by rightBlackTriangle;
-sub asciicircum equal by downBlackTriangle;";
-name = ss04;
-notes = "Name: Dynamic arrows and triangles";
-},
-{
-automatic = 1;
-code = "sub Alphaprosgegrammeni by Alphaprosgegrammeni.ss05;
-sub Alphapsiliprosgegrammeni by Alphapsiliprosgegrammeni.ss05;
-sub Alphadasiaprosgegrammeni by Alphadasiaprosgegrammeni.ss05;
-sub Alphapsilivariaprosgegrammeni by Alphapsilivariaprosgegrammeni.ss05;
-sub Alphadasiavariaprosgegrammeni by Alphadasiavariaprosgegrammeni.ss05;
-sub Alphapsilioxiaprosgegrammeni by Alphapsilioxiaprosgegrammeni.ss05;
-sub Alphadasiaoxiaprosgegrammeni by Alphadasiaoxiaprosgegrammeni.ss05;
-sub Alphapsiliperispomeniprosgegrammeni by Alphapsiliperispomeniprosgegrammeni.ss05;
-sub Alphadasiaperispomeniprosgegrammeni by Alphadasiaperispomeniprosgegrammeni.ss05;
-sub Etaprosgegrammeni by Etaprosgegrammeni.ss05;
-sub Etapsiliprosgegrammeni by Etapsiliprosgegrammeni.ss05;
-sub Etadasiaprosgegrammeni by Etadasiaprosgegrammeni.ss05;
-sub Etapsilivariaprosgegrammeni by Etapsilivariaprosgegrammeni.ss05;
-sub Etadasiavariaprosgegrammeni by Etadasiavariaprosgegrammeni.ss05;
-sub Etapsilioxiaprosgegrammeni by Etapsilioxiaprosgegrammeni.ss05;
-sub Etadasiaoxiaprosgegrammeni by Etadasiaoxiaprosgegrammeni.ss05;
-sub Etapsiliperispomeniprosgegrammeni by Etapsiliperispomeniprosgegrammeni.ss05;
-sub Etadasiaperispomeniprosgegrammeni by Etadasiaperispomeniprosgegrammeni.ss05;
-sub Omegaprosgegrammeni by Omegaprosgegrammeni.ss05;
-sub Omegapsiliprosgegrammeni by Omegapsiliprosgegrammeni.ss05;
-sub Omegadasiaprosgegrammeni by Omegadasiaprosgegrammeni.ss05;
-sub Omegapsilivariaprosgegrammeni by Omegapsilivariaprosgegrammeni.ss05;
-sub Omegadasiavariaprosgegrammeni by Omegadasiavariaprosgegrammeni.ss05;
-sub Omegapsilioxiaprosgegrammeni by Omegapsilioxiaprosgegrammeni.ss05;
-sub Omegadasiaoxiaprosgegrammeni by Omegadasiaoxiaprosgegrammeni.ss05;
-sub Omegapsiliperispomeniprosgegrammeni by Omegapsiliperispomeniprosgegrammeni.ss05;
-sub Omegadasiaperispomeniprosgegrammeni by Omegadasiaperispomeniprosgegrammeni.ss05;
-sub alphaypogegrammeni.sc by alphaypogegrammeni.sc.ss05;
-sub alphavariaypogegrammeni.sc by alphavariaypogegrammeni.sc.ss05;
-sub alphaoxiaypogegrammeni.sc by alphaoxiaypogegrammeni.sc.ss05;
-sub alphapsiliypogegrammeni.sc by alphapsiliypogegrammeni.sc.ss05;
-sub alphadasiaypogegrammeni.sc by alphadasiaypogegrammeni.sc.ss05;
-sub alphapsilivariaypogegrammeni.sc by alphapsilivariaypogegrammeni.sc.ss05;
-sub alphadasiavariaypogegrammeni.sc by alphadasiavariaypogegrammeni.sc.ss05;
-sub alphapsilioxiaypogegrammeni.sc by alphapsilioxiaypogegrammeni.sc.ss05;
-sub alphadasiaoxiaypogegrammeni.sc by alphadasiaoxiaypogegrammeni.sc.ss05;
-sub alphapsiliperispomeniypogegrammeni.sc by alphapsiliperispomeniypogegrammeni.sc.ss05;
-sub alphadasiaperispomeniypogegrammeni.sc by alphadasiaperispomeniypogegrammeni.sc.ss05;
-sub alphaperispomeniypogegrammeni.sc by alphaperispomeniypogegrammeni.sc.ss05;
-sub etaypogegrammeni.sc by etaypogegrammeni.sc.ss05;
-sub etavariaypogegrammeni.sc by etavariaypogegrammeni.sc.ss05;
-sub etaoxiaypogegrammeni.sc by etaoxiaypogegrammeni.sc.ss05;
-sub etapsiliypogegrammeni.sc by etapsiliypogegrammeni.sc.ss05;
-sub etadasiaypogegrammeni.sc by etadasiaypogegrammeni.sc.ss05;
-sub etapsilivariaypogegrammeni.sc by etapsilivariaypogegrammeni.sc.ss05;
-sub etadasiavariaypogegrammeni.sc by etadasiavariaypogegrammeni.sc.ss05;
-sub etapsilioxiaypogegrammeni.sc by etapsilioxiaypogegrammeni.sc.ss05;
-sub etadasiaoxiaypogegrammeni.sc by etadasiaoxiaypogegrammeni.sc.ss05;
-sub etapsiliperispomeniypogegrammeni.sc by etapsiliperispomeniypogegrammeni.sc.ss05;
-sub etadasiaperispomeniypogegrammeni.sc by etadasiaperispomeniypogegrammeni.sc.ss05;
-sub etaperispomeniypogegrammeni.sc by etaperispomeniypogegrammeni.sc.ss05;
-sub omegaypogegrammeni.sc by omegaypogegrammeni.sc.ss05;
-sub omegavariaypogegrammeni.sc by omegavariaypogegrammeni.sc.ss05;
-sub omegaoxiaypogegrammeni.sc by omegaoxiaypogegrammeni.sc.ss05;
-sub omegapsiliypogegrammeni.sc by omegapsiliypogegrammeni.sc.ss05;
-sub omegadasiaypogegrammeni.sc by omegadasiaypogegrammeni.sc.ss05;
-sub omegapsilivariaypogegrammeni.sc by omegapsilivariaypogegrammeni.sc.ss05;
-sub omegadasiavariaypogegrammeni.sc by omegadasiavariaypogegrammeni.sc.ss05;
-sub omegapsilioxiaypogegrammeni.sc by omegapsilioxiaypogegrammeni.sc.ss05;
-sub omegadasiaoxiaypogegrammeni.sc by omegadasiaoxiaypogegrammeni.sc.ss05;
-sub omegapsiliperispomeniypogegrammeni.sc by omegapsiliperispomeniypogegrammeni.sc.ss05;
-sub omegadasiaperispomeniypogegrammeni.sc by omegadasiaperispomeniypogegrammeni.sc.ss05;
-sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss05;
-";
-name = ss05;
-notes = "Name: Adscript iota";
-},
-{
-code = "pos @Uppercase <10 0 20 0>;
-";
-name = cpsp;
 }
 );
 fontMaster = (
@@ -28312,58 +28315,16 @@ nodes = (
 }
 );
 };
-layerId = UUID0;
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"214 592 OFFCURVE",
-"241 623 OFFCURVE",
-"241 658 CURVE SMOOTH",
-"241 681 OFFCURVE",
-"227 702 OFFCURVE",
-"200 702 CURVE SMOOTH",
-"163 702 OFFCURVE",
-"136 670 OFFCURVE",
-"136 636 CURVE SMOOTH",
-"136 614 OFFCURVE",
-"150 592 OFFCURVE",
-"178 592 CURVE SMOOTH"
-);
+name = idotless;
 },
 {
-closed = 1;
-nodes = (
-"130 64 LINE",
-"145 175 OFFCURVE",
-"181 334 OFFCURVE",
-"213 440 CURVE",
-"204 452 LINE",
-"157 449 OFFCURVE",
-"84 446 OFFCURVE",
-"42 446 CURVE",
-"35 408 LINE",
-"76 408 LINE SMOOTH",
-"106 408 OFFCURVE",
-"118 396 OFFCURVE",
-"118 366 CURVE SMOOTH",
-"118 345 OFFCURVE",
-"96 197 OFFCURVE",
-"67 23 CURVE",
-"67 -1 OFFCURVE",
-"76 -12 OFFCURVE",
-"97 -12 CURVE SMOOTH",
-"120 -12 OFFCURVE",
-"166 23 OFFCURVE",
-"237 94 CURVE",
-"224 118 LINE",
-"212 119 LINE",
-"155 69 OFFCURVE",
-"143 60 OFFCURVE",
-"133 60 CURVE"
-);
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -63, 0}";
 }
 );
+layerId = UUID0;
 width = 264;
 },
 {
@@ -28382,59 +28343,6 @@ position = "{136, 484}";
 }
 );
 background = {
-paths = (
-{
-closed = 1;
-nodes = (
-"279 547 OFFCURVE",
-"325 593 OFFCURVE",
-"325 667 CURVE SMOOTH",
-"325 716 OFFCURVE",
-"298 742 OFFCURVE",
-"249 742 CURVE SMOOTH",
-"179 742 OFFCURVE",
-"133 698 OFFCURVE",
-"133 625 CURVE SMOOTH",
-"133 576 OFFCURVE",
-"160 547 OFFCURVE",
-"211 547 CURVE SMOOTH"
-);
-},
-{
-closed = 1;
-nodes = (
-"241 157 LINE",
-"262 308 OFFCURVE",
-"299 453 OFFCURVE",
-"299 453 CURVE",
-"283 473 LINE",
-"283 473 OFFCURVE",
-"149 461 OFFCURVE",
-"60 461 CURVE",
-"48 379 LINE",
-"76 379 LINE SMOOTH",
-"99 379 OFFCURVE",
-"109 369 OFFCURVE",
-"109 346 CURVE SMOOTH",
-"109 317 OFFCURVE",
-"64 55 OFFCURVE",
-"64 55 CURVE",
-"64 10 OFFCURVE",
-"86 -12 OFFCURVE",
-"130 -12 CURVE SMOOTH",
-"185 -12 OFFCURVE",
-"234 22 OFFCURVE",
-"340 143 CURVE",
-"320 191 LINE",
-"297 195 LINE",
-"254 157 OFFCURVE",
-"251 154 OFFCURVE",
-"245 154 CURVE"
-);
-}
-);
-};
-layerId = UUID1;
 paths = (
 {
 closed = 1;
@@ -28486,6 +28394,17 @@ nodes = (
 );
 }
 );
+};
+components = (
+{
+name = idotless;
+},
+{
+name = dotaccentcomb;
+transform = "{1, 0, 0, 1, -54, -6}";
+}
+);
+layerId = UUID1;
 width = 304;
 }
 );
@@ -28614,7 +28533,7 @@ position = "{245, 10}";
 },
 {
 name = top;
-position = "{181, 472}";
+position = "{167, 466}";
 }
 );
 background = {
@@ -28908,11 +28827,11 @@ width = 265;
 {
 components = (
 {
-name = dieresiscomb;
-transform = "{1, 0, 0, 1, -47, 0}";
+name = idotless;
 },
 {
-name = idotless;
+name = dieresiscomb.i;
+transform = "{1, 0, 0, 1, -60, -6}";
 }
 );
 layerId = UUID1;
@@ -236708,6 +236627,190 @@ layerId = UUID1;
 width = 511;
 }
 );
+},
+{
+color = 1;
+glyphname = dieresiscomb.i;
+layers = (
+{
+anchors = (
+{
+name = _top;
+position = "{221, 452}";
+},
+{
+name = top;
+position = "{244, 639}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"306 566 OFFCURVE",
+"327 589 OFFCURVE",
+"327 616 CURVE SMOOTH",
+"327 638 OFFCURVE",
+"313 659 OFFCURVE",
+"286 659 CURVE SMOOTH",
+"257 659 OFFCURVE",
+"236 636 OFFCURVE",
+"236 609 CURVE SMOOTH",
+"236 588 OFFCURVE",
+"250 566 OFFCURVE",
+"277 566 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"140 566 OFFCURVE",
+"161 589 OFFCURVE",
+"161 616 CURVE SMOOTH",
+"161 638 OFFCURVE",
+"147 659 OFFCURVE",
+"120 659 CURVE SMOOTH",
+"91 659 OFFCURVE",
+"70 636 OFFCURVE",
+"70 609 CURVE SMOOTH",
+"70 588 OFFCURVE",
+"84 566 OFFCURVE",
+"111 566 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"342 546 OFFCURVE",
+"363 567 OFFCURVE",
+"363 594 CURVE SMOOTH",
+"363 621 OFFCURVE",
+"347 639 OFFCURVE",
+"323 639 CURVE SMOOTH",
+"295 639 OFFCURVE",
+"274 618 OFFCURVE",
+"274 591 CURVE SMOOTH",
+"274 566 OFFCURVE",
+"292 546 OFFCURVE",
+"315 546 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"182 546 OFFCURVE",
+"203 567 OFFCURVE",
+"203 594 CURVE SMOOTH",
+"203 621 OFFCURVE",
+"187 639 OFFCURVE",
+"163 639 CURVE SMOOTH",
+"135 639 OFFCURVE",
+"114 618 OFFCURVE",
+"114 591 CURVE SMOOTH",
+"114 566 OFFCURVE",
+"132 546 OFFCURVE",
+"155 546 CURVE SMOOTH"
+);
+}
+);
+width = 382;
+},
+{
+anchors = (
+{
+name = _top;
+position = "{227, 472}";
+},
+{
+name = top;
+position = "{257, 716}";
+}
+);
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"350 559 OFFCURVE",
+"383 593 OFFCURVE",
+"383 646 CURVE SMOOTH",
+"383 697 OFFCURVE",
+"354 726 OFFCURVE",
+"304 726 CURVE SMOOTH",
+"251 726 OFFCURVE",
+"218 692 OFFCURVE",
+"218 639 CURVE SMOOTH",
+"218 587 OFFCURVE",
+"246 559 OFFCURVE",
+"298 559 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"158 559 OFFCURVE",
+"191 593 OFFCURVE",
+"191 646 CURVE SMOOTH",
+"191 697 OFFCURVE",
+"162 726 OFFCURVE",
+"112 726 CURVE SMOOTH",
+"59 726 OFFCURVE",
+"26 692 OFFCURVE",
+"26 639 CURVE SMOOTH",
+"26 587 OFFCURVE",
+"54 559 OFFCURVE",
+"105 559 CURVE SMOOTH"
+);
+}
+);
+};
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"374 551 OFFCURVE",
+"412 590 OFFCURVE",
+"412 648 CURVE SMOOTH",
+"412 689 OFFCURVE",
+"388 714 OFFCURVE",
+"344 714 CURVE SMOOTH",
+"288 714 OFFCURVE",
+"250 675 OFFCURVE",
+"250 616 CURVE SMOOTH",
+"250 575 OFFCURVE",
+"273 551 OFFCURVE",
+"319 551 CURVE SMOOTH"
+);
+},
+{
+closed = 1;
+nodes = (
+"205 551 OFFCURVE",
+"243 590 OFFCURVE",
+"243 648 CURVE SMOOTH",
+"243 689 OFFCURVE",
+"219 714 OFFCURVE",
+"175 714 CURVE SMOOTH",
+"119 714 OFFCURVE",
+"81 675 OFFCURVE",
+"81 616 CURVE SMOOTH",
+"81 575 OFFCURVE",
+"105 551 OFFCURVE",
+"149 551 CURVE SMOOTH"
+);
+}
+);
+width = 394;
+}
+);
+leftKerningGroup = asterisk;
+rightKerningGroup = asterisk;
 },
 {
 color = 4;
