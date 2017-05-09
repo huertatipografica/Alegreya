@@ -41447,7 +41447,7 @@ name = z;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 31, -20}";
+transform = "{1, 0, 0, 1, -1, 0}";
 }
 );
 layerId = UUID0;
@@ -62823,7 +62823,7 @@ name = z.sc;
 },
 {
 name = caroncomb;
-transform = "{1, 0, 0, 1, 71, 25}";
+transform = "{1, 0, 0, 1, 39, 45}";
 }
 );
 layerId = UUID0;
@@ -256292,6 +256292,6 @@ UUID1 = {
 };
 };
 };
-versionMajor = 3;
+versionMajor = 2;
 versionMinor = 0;
 }
