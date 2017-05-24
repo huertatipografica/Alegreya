@@ -1,7 +1,8 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"/Zedescender-cy/Esdescender-cy/Zedescender-cy.loclBSH/De-cy/Tse-cy/Shcha-cy/Dzhe-cy/Zhedescender-cy/Kadescender-cy/Endescender-cy/Pedescender-cy/Hadescender-cy/Chedescender-cy/Chekhakassian-cy/Gedescender-cy \012/zedescender-cy.sc/esdescender-cy.sc/zedescender-cy.loclBSH.sc/gedescender-cy.sc/de-cy.sc/tse-cy.sc/shcha-cy.sc/dzhe-cy.sc/zhedescender-cy.sc/kadescender-cy.sc/hadescender-cy.sc/chekhakassian-cy.sc/endescender-cy.sc/pedescender-cy.sc/chedescender-cy.sc \012/zedescender-cy/esdescender-cy/zedescender-cy.loclBSH/dzhe-cy/de-cy/tse-cy/shcha-cy/endescender-cy/pedescender-cy/hadescender-cy/chedescender-cy/chekhakassian-cy/gedescender-cy/zhedescender-cy/kadescender-cy"
+"H/Endescender-cy/Pedescender-cy/Chedescender-cy",
+"HHHHH/Endescender-cy/Endescender-cy/Endescender-cy/Endescender-cy/Endescender-cy/Pedescender-cy/Pedescender-cy/Pedescender-cy/Pedescender-cy/Pedescender-cy/Chedescender-cy/Chedescender-cy/Chedescender-cy/Chedescender-cy/Chedescender-cy \012H/Endescender-cy/Pedescender-cy/Chedescender-cy \012/spacingGlyph H/spacingGlyph/Endescender-cy/spacingGlyph/Pedescender-cy/spacingGlyph/Chedescender-cy/spacingGlyph"
 );
 classes = (
 {
@@ -85825,6 +85826,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "En-cy";
 },
 {
@@ -85833,11 +85835,12 @@ transform = "{1, 0, 0, 1, 522, 0}";
 }
 );
 layerId = UUID0;
-width = 754;
+width = 764;
 },
 {
 components = (
 {
+alignment = -1;
 name = "En-cy";
 },
 {
@@ -85846,7 +85849,7 @@ transform = "{1, 0, 0, 1, 490, 0}";
 }
 );
 layerId = UUID1;
-width = 739;
+width = 749;
 }
 );
 leftKerningGroup = H;
@@ -86287,6 +86290,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "Pe-cy";
 },
 {
@@ -86295,11 +86299,12 @@ transform = "{1, 0, 0, 1, 487, 0}";
 }
 );
 layerId = UUID0;
-width = 710;
+width = 720;
 },
 {
 components = (
 {
+alignment = -1;
 name = "Pe-cy";
 },
 {
@@ -86308,7 +86313,7 @@ transform = "{1, 0, 0, 1, 490, 0}";
 }
 );
 layerId = UUID1;
-width = 738;
+width = 748;
 }
 );
 leftKerningGroup = H;
@@ -87375,6 +87380,7 @@ layers = (
 {
 components = (
 {
+alignment = -1;
 name = "Che-cy";
 },
 {
@@ -87383,11 +87389,12 @@ transform = "{1, 0, 0, 1, 374, 0}";
 }
 );
 layerId = UUID0;
-width = 598;
+width = 608;
 },
 {
 components = (
 {
+alignment = -1;
 name = "Che-cy";
 },
 {
@@ -87396,7 +87403,7 @@ transform = "{1, 0, 0, 1, 434, 0}";
 }
 );
 layerId = UUID1;
-width = 686;
+width = 696;
 }
 );
 leftKerningGroup = "Che-cy";
