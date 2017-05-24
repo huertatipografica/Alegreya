@@ -1,9 +1,7 @@
 {
 .appVersion = "983";
 DisplayStrings = (
-"/Be-cy/Softsign-cy/Hardsign-cy/Yeru-cy",
-"/Be-cy/Softsign-cy/Hardsign-cy  /Yeru-cy \012/be-cy/softsign-cy/hardsign-cy/yeru-cy",
-"nnnnn/de-cy/de-cy/de-cy/de-cy/de-cy ooooo\012n/de-cy o\012/spacingGlyph n/spacingGlyph/de-cy/spacingGlyph o/spacingGlyph"
+"/Zedescender-cy/Esdescender-cy/Zedescender-cy.loclBSH/De-cy/Tse-cy/Shcha-cy/Dzhe-cy/Zhedescender-cy/Kadescender-cy/Endescender-cy/Pedescender-cy/Hadescender-cy/Chedescender-cy/Chekhakassian-cy/Gedescender-cy \012/zedescender-cy.sc/esdescender-cy.sc/zedescender-cy.loclBSH.sc/gedescender-cy.sc/de-cy.sc/tse-cy.sc/shcha-cy.sc/dzhe-cy.sc/zhedescender-cy.sc/kadescender-cy.sc/hadescender-cy.sc/chekhakassian-cy.sc/endescender-cy.sc/pedescender-cy.sc/chedescender-cy.sc \012/zedescender-cy/esdescender-cy/zedescender-cy.loclBSH/dzhe-cy/de-cy/tse-cy/shcha-cy/endescender-cy/pedescender-cy/hadescender-cy/chedescender-cy/chekhakassian-cy/gedescender-cy/zhedescender-cy/kadescender-cy"
 );
 classes = (
 {
@@ -122,8 +120,8 @@ feature ss02;
 feature ss03;
 feature ss04;
 feature c2sc;
-feature smcp;
 feature ss05;
+feature smcp;
 ";
 name = aalt;
 },
@@ -85126,7 +85124,7 @@ nodes = (
 );
 }
 );
-width = 857;
+width = 854;
 },
 {
 background = {
@@ -85597,7 +85595,7 @@ nodes = (
 );
 }
 );
-width = 930;
+width = 927;
 },
 {
 background = {
@@ -98050,11 +98048,11 @@ name = "Yeru-cy";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 229, 0}";
+transform = "{1, 0, 0, 1, 222, 0}";
 }
 );
 layerId = UUID0;
-width = 842;
+width = 827;
 },
 {
 components = (
@@ -98063,11 +98061,11 @@ name = "Yeru-cy";
 },
 {
 name = dieresiscomb.case;
-transform = "{1, 0, 0, 1, 302, 0}";
+transform = "{1, 0, 0, 1, 291, 0}";
 }
 );
 layerId = UUID1;
-width = 990;
+width = 967;
 }
 );
 leftKerningGroup = H;
@@ -129343,7 +129341,7 @@ name = idotless;
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, -42, 0}";
+transform = "{1, 0, 0, 1, -56, -6}";
 }
 );
 layerId = UUID1;
@@ -141816,11 +141814,11 @@ name = "yeru-cy";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 113, 0}";
+transform = "{1, 0, 0, 1, 110, 0}";
 }
 );
 layerId = UUID0;
-width = 611;
+width = 606;
 },
 {
 components = (
@@ -141829,11 +141827,11 @@ name = "yeru-cy";
 },
 {
 name = dieresiscomb;
-transform = "{1, 0, 0, 1, 178, 0}";
+transform = "{1, 0, 0, 1, 179, 0}";
 }
 );
 layerId = UUID1;
-width = 744;
+width = 746;
 }
 );
 leftKerningGroup = n;
@@ -144003,7 +144001,7 @@ name = idotless;
 },
 {
 name = tildecomb_acutecomb;
-transform = "{1, 0, 0, 1, -31, 0}";
+transform = "{1, 0, 0, 1, -45, -6}";
 }
 );
 layerId = UUID1;
@@ -149630,7 +149628,7 @@ nodes = (
 );
 }
 );
-width = 731;
+width = 678;
 userData = {
 RMXScaler = {
 adjustSpace = 11;
@@ -149714,7 +149712,7 @@ nodes = (
 );
 }
 );
-width = 802;
+width = 779;
 userData = {
 RMXScaler = {
 adjustSpace = 7;
@@ -149852,7 +149850,7 @@ nodes = (
 );
 }
 );
-width = 789;
+width = 736;
 userData = {
 RMXScaler = {
 adjustSpace = 11;
@@ -149976,7 +149974,7 @@ nodes = (
 );
 }
 );
-width = 823;
+width = 800;
 userData = {
 RMXScaler = {
 adjustSpace = 7;
@@ -156211,7 +156209,7 @@ transform = "{1, 0, 0, 1, 200, 45}";
 }
 );
 layerId = UUID0;
-width = 782;
+width = 738;
 },
 {
 components = (
@@ -156224,7 +156222,7 @@ transform = "{1, 0, 0, 1, 232, 31}";
 }
 );
 layerId = UUID1;
-width = 842;
+width = 839;
 }
 );
 leftKerningGroup = H;
