@@ -1,9 +1,5 @@
 {
 .appVersion = "983";
-DisplayStrings = (
-"H/Endescender-cy/Pedescender-cy/Chedescender-cy",
-"HHHHH/Endescender-cy/Endescender-cy/Endescender-cy/Endescender-cy/Endescender-cy/Pedescender-cy/Pedescender-cy/Pedescender-cy/Pedescender-cy/Pedescender-cy/Chedescender-cy/Chedescender-cy/Chedescender-cy/Chedescender-cy/Chedescender-cy \012H/Endescender-cy/Pedescender-cy/Chedescender-cy \012/spacingGlyph H/spacingGlyph/Endescender-cy/spacingGlyph/Pedescender-cy/spacingGlyph/Chedescender-cy/spacingGlyph"
-);
 classes = (
 {
 automatic = 1;
@@ -120,9 +116,9 @@ feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
-feature smcp;
-feature ss05;
 feature c2sc;
+feature ss05;
+feature smcp;
 ";
 name = aalt;
 },
@@ -31980,6 +31976,7 @@ width = 518;
 }
 );
 leftKerningGroup = o;
+rightKerningGroup = q;
 unicode = 0071;
 },
 {
@@ -85029,7 +85026,7 @@ nodes = (
 width = 575;
 }
 );
-leftKerningGroup = "Zedescender-cy";
+leftKerningGroup = "Ereversed-cy";
 rightKerningGroup = B;
 rightMetricsKey = "=B";
 unicode = 0498;
@@ -87369,8 +87366,8 @@ nodes = (
 width = 656;
 }
 );
-leftKerningGroup = "Hadescender-cy";
-rightKerningGroup = "Hadescender-cy";
+leftKerningGroup = X;
+rightKerningGroup = X;
 rightMetricsKey = "=X";
 unicode = 04B2;
 },
@@ -114189,8 +114186,8 @@ nodes = (
 width = 792;
 }
 );
-leftKerningGroup = "hadescender-cy";
-rightKerningGroup = "hadescender-cy";
+leftKerningGroup = x;
+rightKerningGroup = x;
 unicode = 04B3;
 },
 {
@@ -118620,8 +118617,8 @@ nodes = (
 width = 503;
 }
 );
-leftKerningGroup = "be-cy.loclSRB";
-rightKerningGroup = "be-cy.loclSRB";
+leftKerningGroup = o;
+rightKerningGroup = o;
 },
 {
 glyphname = "a-cy.sc";
@@ -225378,6 +225375,7 @@ UUID0 = {
 "@MMK_L_B" = {
 "@MMK_R_Che-cy" = -20;
 "@MMK_R_Ia-cy" = -20;
+"@MMK_R_T" = -20;
 "@MMK_R_asterisk" = -40;
 "@MMK_R_n" = -10;
 "@MMK_R_o" = -10;
@@ -225396,6 +225394,9 @@ UUID0 = {
 "@MMK_R_o" = -20;
 "@MMK_R_v" = -10;
 "@MMK_R_z" = -20;
+};
+"@MMK_L_De-cy" = {
+"@MMK_R_T" = -10;
 };
 "@MMK_L_Dje-cy" = {
 "@MMK_R_El-cy" = -10;
@@ -225456,6 +225457,7 @@ UUID0 = {
 "@MMK_R_O" = -30;
 "@MMK_R_Omega" = -50;
 "@MMK_R_Phi" = -60;
+"@MMK_R_T" = 10;
 "@MMK_R_V" = 10;
 "@MMK_R_Y" = 20;
 "@MMK_R_a" = -60;
@@ -225517,10 +225519,12 @@ UUID0 = {
 };
 "@MMK_L_Ghemiddlehook-cy" = {
 "@MMK_R_Che-cy" = -20;
+"@MMK_R_El-cy" = -20;
 "@MMK_R_Ia-cy" = -10;
 };
 "@MMK_L_H" = {
 "@MMK_R_A" = -10;
+"@MMK_R_T" = -20;
 "@MMK_R_a" = -20;
 "@MMK_R_g" = -20;
 "@MMK_R_hyphen" = -30;
@@ -225559,6 +225563,8 @@ UUID0 = {
 "@MMK_R_v" = -13;
 };
 "@MMK_L_M" = {
+"@MMK_R_O" = -10;
+"@MMK_R_T" = -10;
 "@MMK_R_V" = -10;
 "@MMK_R_Y" = -10;
 "@MMK_R_a" = -10;
@@ -225576,7 +225582,7 @@ UUID0 = {
 "@MMK_R_A" = -10;
 "@MMK_R_El-cy" = -30;
 "@MMK_R_Ereversed-cy" = -20;
-"@MMK_R_Ia-cy" = -10;
+"@MMK_R_Ia-cy" = -20;
 "@MMK_R_T" = -12;
 "@MMK_R_V" = -30;
 "@MMK_R_X" = -18;
@@ -225616,10 +225622,13 @@ UUID0 = {
 };
 "@MMK_L_Phi" = {
 "@MMK_R_A" = -40;
+"@MMK_R_El-cy" = -20;
+"@MMK_R_T" = -20;
 "@MMK_R_V" = -30;
 "@MMK_R_X" = -30;
 "@MMK_R_Xi" = -10;
 "@MMK_R_Y" = -20;
+"@MMK_R_period" = -40;
 };
 "@MMK_L_Phi.sups" = {
 "@MMK_R_A.sups" = -27;
@@ -225644,6 +225653,7 @@ UUID0 = {
 "@MMK_R_v" = -20;
 };
 "@MMK_L_S" = {
+"@MMK_R_El-cy" = -10;
 "@MMK_R_a" = -20;
 "@MMK_R_h" = -10;
 "@MMK_R_j" = -10;
@@ -225664,6 +225674,7 @@ UUID0 = {
 "@MMK_L_Softsign-cy" = {
 "@MMK_R_Che-cy" = -80;
 "@MMK_R_El-cy" = -20;
+"@MMK_R_Ia-cy" = -20;
 "@MMK_R_T" = -50;
 "@MMK_R_U-cy" = -30;
 "@MMK_R_V" = -50;
@@ -225675,6 +225686,7 @@ UUID0 = {
 "@MMK_R_El-cy" = -20;
 "@MMK_R_O" = -12;
 "@MMK_R_Omega" = -30;
+"@MMK_R_T" = 10;
 "@MMK_R_a" = -50;
 "@MMK_R_h" = -10;
 "@MMK_R_hyphen" = -70;
@@ -225744,6 +225756,7 @@ UUID0 = {
 "@MMK_L_X" = {
 "@MMK_R_A" = -16;
 "@MMK_R_Che-cy" = -10;
+"@MMK_R_El-cy" = 30;
 "@MMK_R_O" = -18;
 "@MMK_R_a" = -10;
 "@MMK_R_hyphen" = -60;
@@ -225808,6 +225821,7 @@ UUID0 = {
 };
 "@MMK_L_Yat-cy" = {
 "@MMK_R_Che-cy" = -20;
+"@MMK_R_period" = -20;
 };
 "@MMK_L_Z" = {
 "@MMK_R_o" = -20;
@@ -226075,6 +226089,8 @@ UUID0 = {
 "@MMK_R_space" = -20;
 "@MMK_R_u" = -40;
 "@MMK_R_v" = -70;
+"@MMK_R_T" = -80;
+"@MMK_R_Phi" = -40;
 };
 "@MMK_L_phi.sc" = {
 "@MMK_R_v.sc" = -25;
@@ -226227,6 +226243,12 @@ UUID0 = {
 "@MMK_R_phi.sc" = -25;
 "@MMK_R_y.sc" = 25;
 };
+"@MMK_L_Be-cy" = {
+"@MMK_R_period" = -20;
+};
+"@MMK_L_ge-cy" = {
+"@MMK_R_period" = -80;
+};
 };
 UUID1 = {
 "@MMK_L_A" = {
@@ -226277,6 +226299,7 @@ UUID1 = {
 "@MMK_R_xi.sups" = -7;
 };
 "@MMK_L_B" = {
+"@MMK_R_Che-cy" = -20;
 "@MMK_R_V" = -10;
 "@MMK_R_Y" = -20;
 "@MMK_R_asterisk" = -20;
@@ -226359,6 +226382,7 @@ UUID1 = {
 "@MMK_R_El-cy" = -30;
 "@MMK_R_O" = -10;
 "@MMK_R_Omega" = -40;
+"@MMK_R_T" = 10;
 "@MMK_R_Y" = 10;
 "@MMK_R_alpha" = -40;
 "@MMK_R_asterisk" = 20;
@@ -226399,9 +226423,11 @@ UUID1 = {
 };
 "@MMK_L_Ghemiddlehook-cy" = {
 "@MMK_R_Che-cy" = -10;
+"@MMK_R_U-cy" = -10;
 };
 "@MMK_L_H" = {
 "@MMK_R_A" = -20;
+"@MMK_R_El-cy" = -10;
 "@MMK_R_a" = -10;
 "@MMK_R_h" = 40;
 "@MMK_R_hyphen" = -30;
@@ -226506,6 +226532,7 @@ UUID1 = {
 "@MMK_R_Xi" = -20;
 "@MMK_R_Y" = -50;
 "@MMK_R_nu" = 10;
+"@MMK_R_period" = -40;
 };
 "@MMK_L_Phi.sups" = {
 "@MMK_R_A.sups" = -36;
@@ -226550,6 +226577,7 @@ UUID1 = {
 "@MMK_L_T" = {
 "@MMK_R_A" = -42;
 "@MMK_R_El-cy" = -20;
+"@MMK_R_T" = 30;
 "@MMK_R_a" = -20;
 "@MMK_R_h" = 20;
 "@MMK_R_hyphen" = -70;
@@ -226568,7 +226596,8 @@ UUID1 = {
 "@MMK_R_p.sups" = 14;
 };
 "@MMK_L_Tshe-cy" = {
-"@MMK_R_Che-cy" = -60;
+"@MMK_R_Che-cy" = -70;
+"@MMK_R_T" = -20;
 };
 "@MMK_L_U" = {
 "@MMK_R_A" = -30;
@@ -226581,6 +226610,7 @@ UUID1 = {
 };
 "@MMK_L_V" = {
 "@MMK_R_A" = -60;
+"@MMK_R_El-cy" = -50;
 "@MMK_R_M" = -10;
 "@MMK_R_O" = -30;
 "@MMK_R_Phi" = -20;
@@ -226663,6 +226693,7 @@ UUID1 = {
 };
 "@MMK_L_Yat-cy" = {
 "@MMK_R_Che-cy" = -50;
+"@MMK_R_U-cy" = -10;
 };
 "@MMK_L_Z" = {
 "@MMK_R_period" = 20;
@@ -226923,6 +226954,7 @@ UUID1 = {
 "@MMK_R_asterisk" = -60;
 "@MMK_R_space" = -20;
 "@MMK_R_v" = -60;
+"@MMK_R_Phi" = -40;
 };
 "@MMK_L_phi.sc" = {
 "@MMK_R_v.sc" = -17;
@@ -227062,6 +227094,9 @@ UUID1 = {
 "be-cy.sc" = {
 "@MMK_R_o.sc" = -25;
 "@MMK_R_phi.sc" = -17;
+};
+"@MMK_L_ge-cy" = {
+"@MMK_R_period" = -70;
 };
 };
 };
