@@ -132,14 +132,14 @@ feature lnum;
 feature pnum;
 feature tnum;
 feature onum;
-feature c2sc;
 feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
-feature ss05;
 feature smcp;
 feature case;
+feature ss05;
+feature c2sc;
 ";
 name = aalt;
 },
@@ -1032,164 +1032,6 @@ sub gtilde by gtilde.sc;
 name = c2sc;
 },
 {
-code = "pos @Uppercase <10 0 20 0>;
-";
-name = cpsp;
-},
-{
-automatic = 1;
-code = "sub c h by c_h;
-sub c t by c_t;
-sub f j by f_j;
-sub s t by s_t;
-sub gamma gamma by gamma_gamma;
-sub lambda lambda by lambda_lambda;
-";
-name = dlig;
-},
-{
-code = "sub T h by T_h.liga;
-sub gamma gamma by gamma_gamma;
-sub lambda lambda by lambda_lambda;
-
-sub [tilde tildecomb asciitilde] e by etilde;
-sub [tilde tildecomb asciitilde] g by gtilde;
-sub dieresis i by idieresis;
-sub [tilde tildecomb asciitilde] i by itilde;
-sub dieresis o by odieresis;
-sub [tilde tildecomb asciitilde] u by utilde;
-sub [tilde tildecomb asciitilde] y by ytilde;
-sub acute y by yacute;
-
-sub [tilde tildecomb asciitilde] E by Etilde;
-sub [tilde tildecomb asciitilde] G by Gtilde;
-sub dieresis I by Idieresis;
-sub [tilde tildecomb asciitilde] I by Itilde;
-sub dieresis O by Odieresis;
-sub [tilde tildecomb asciitilde] U by Utilde;
-sub [tilde tildecomb asciitilde] Y by Ytilde;
-sub acute Y by Yacute;
-
-sub [tilde tildecomb asciitilde] e.sc by etilde.sc;
-sub [tilde tildecomb asciitilde] g.sc by gtilde.sc;
-sub dieresis i.sc by idieresis.sc;
-sub [tilde tildecomb asciitilde] i.sc by itilde.sc;
-sub dieresis o.sc by odieresis.sc;
-sub [tilde tildecomb asciitilde] u.sc by utilde.sc;
-sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;
-sub acute y.sc by yacute.sc;
-
-sub f' f by f.f;
-sub f' @f.l by f.l;
-sub f' @f.t by f.t;
-sub f [i] by fi;
-sub f l by fl;
-sub f j by f_j;
-
-script latn;
-language ESP;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
-sub @siglo2 @siglo1' by @siglo2;
-
-";
-name = liga;
-},
-{
-automatic = 1;
-code = "sub C by C.ss01;
-sub D by D.ss01;
-sub I by I.ss01;
-sub L by L.ss01;
-sub M by M.ss01;
-sub V by V.ss01;
-sub X by X.ss01;
-sub c by c.ss01;
-sub d by d.ss01;
-sub i by i.ss01;
-sub l by l.ss01;
-sub m by m.ss01;
-sub v by v.ss01;
-sub x by x.ss01;
-";
-disabled = 1;
-name = salt;
-},
-{
-code = "sub @siglo1 by @siglo2;
-";
-name = ss01;
-notes = "Name: Roman numerals";
-},
-{
-code = "# Arrows
-sub one by upArrow;
-sub two by northEastArrow;
-sub three by rightArrow;
-sub four by southEastArrow;
-sub five by downArrow;
-sub six by southWestArrow;
-sub seven by leftArrow;
-sub eight by northWestArrow;
-sub nine by leftRightArrow;
-
-# Geometric shapes
-sub a by upDownArrow;
-sub b by blackDiamond;
-sub c by whiteDiamond;
-sub d by blackSquare;
-sub e by whiteSquare;
-sub f by mediumBlackSquare;
-sub g by upBlackTriangle;
-sub h by rightBlackTriangle;
-sub i by downBlackTriangle;
-sub j by leftBlackTriangle;
-sub k by upWhiteTriangle;
-sub l by rightWhiteTriangle;
-sub m by downWhiteTriangle;
-sub n by leftWhiteTriangle;";
-name = ss02;
-notes = "Name: Arrows, triangles and circles";
-},
-{
-code = "sub h t by foundryicon;
-";
-name = ss03;
-notes = "Name: Foundry icon";
-},
-{
-code = "# Second approximation
-# Arrows 2
-sub less hyphen by leftArrow;
-sub hyphen asciicircum by upArrow;
-sub hyphen greater by rightArrow;
-sub asciicircum hyphen by downArrow;
-sub hyphen asciicircum less by northWestArrow;
-sub hyphen asciicircum greater by northEastArrow;
-sub greater asciicircum hyphen by southEastArrow;
-sub less asciicircum hyphen by southWestArrow;
-
-# Triangles
-sub less equal by leftBlackTriangle;
-sub equal asciicircum by upBlackTriangle;
-sub equal greater by rightBlackTriangle;
-sub asciicircum equal by downBlackTriangle;";
-name = ss04;
-notes = "Name: Dynamic arrows and triangles";
-},
-{
 automatic = 1;
 code = "sub a by a.sc;
 sub aacute by aacute.sc;
@@ -1706,6 +1548,11 @@ sub gtilde by gtilde.sc;
 name = smcp;
 },
 {
+code = "pos @Uppercase <10 0 20 0>;
+";
+name = cpsp;
+},
+{
 automatic = 1;
 code = "sub backslash by backslash.case;
 sub periodcentered by periodcentered.case;
@@ -1787,6 +1634,159 @@ sub eight.tosf by eight.lf;
 sub nine.tosf by nine.lf;
 ";
 name = case;
+},
+{
+automatic = 1;
+code = "sub c h by c_h;
+sub c t by c_t;
+sub f j by f_j;
+sub s t by s_t;
+sub gamma gamma by gamma_gamma;
+sub lambda lambda by lambda_lambda;
+";
+name = dlig;
+},
+{
+code = "sub T h by T_h.liga;
+sub gamma gamma by gamma_gamma;
+sub lambda lambda by lambda_lambda;
+
+sub [tilde tildecomb asciitilde] e by etilde;
+sub [tilde tildecomb asciitilde] g by gtilde;
+sub dieresis i by idieresis;
+sub [tilde tildecomb asciitilde] i by itilde;
+sub dieresis o by odieresis;
+sub [tilde tildecomb asciitilde] u by utilde;
+sub [tilde tildecomb asciitilde] y by ytilde;
+sub acute y by yacute;
+
+sub [tilde tildecomb asciitilde] E by Etilde;
+sub [tilde tildecomb asciitilde] G by Gtilde;
+sub dieresis I by Idieresis;
+sub [tilde tildecomb asciitilde] I by Itilde;
+sub dieresis O by Odieresis;
+sub [tilde tildecomb asciitilde] U by Utilde;
+sub [tilde tildecomb asciitilde] Y by Ytilde;
+sub acute Y by Yacute;
+
+sub [tilde tildecomb asciitilde] e.sc by etilde.sc;
+sub [tilde tildecomb asciitilde] g.sc by gtilde.sc;
+sub dieresis i.sc by idieresis.sc;
+sub [tilde tildecomb asciitilde] i.sc by itilde.sc;
+sub dieresis o.sc by odieresis.sc;
+sub [tilde tildecomb asciitilde] u.sc by utilde.sc;
+sub [tilde tildecomb asciitilde] y.sc by ytilde.sc;
+sub acute y.sc by yacute.sc;
+
+sub f' f by f.f;
+sub f' @f.l by f.l;
+sub f' @f.t by f.t;
+sub f [i] by fi;
+sub f l by fl;
+sub f j by f_j;
+
+script latn;
+language ESP;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub [C c.sc c] [A a.sc a] [P p.sc p] [Iacute iacute.sc iacute] [T t.sc t] [U u.sc u] [L l.sc l] [O o.sc o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;
+sub @siglo2 @siglo1' by @siglo2;
+
+";
+name = liga;
+},
+{
+automatic = 1;
+code = "sub C by C.ss01;
+sub D by D.ss01;
+sub I by I.ss01;
+sub L by L.ss01;
+sub M by M.ss01;
+sub V by V.ss01;
+sub X by X.ss01;
+sub c by c.ss01;
+sub d by d.ss01;
+sub i by i.ss01;
+sub l by l.ss01;
+sub m by m.ss01;
+sub v by v.ss01;
+sub x by x.ss01;
+";
+disabled = 1;
+name = salt;
+},
+{
+code = "sub @siglo1 by @siglo2;
+";
+name = ss01;
+notes = "Name: Roman numerals";
+},
+{
+code = "# Arrows
+sub one by upArrow;
+sub two by northEastArrow;
+sub three by rightArrow;
+sub four by southEastArrow;
+sub five by downArrow;
+sub six by southWestArrow;
+sub seven by leftArrow;
+sub eight by northWestArrow;
+sub nine by leftRightArrow;
+
+# Geometric shapes
+sub a by upDownArrow;
+sub b by blackDiamond;
+sub c by whiteDiamond;
+sub d by blackSquare;
+sub e by whiteSquare;
+sub f by mediumBlackSquare;
+sub g by upBlackTriangle;
+sub h by rightBlackTriangle;
+sub i by downBlackTriangle;
+sub j by leftBlackTriangle;
+sub k by upWhiteTriangle;
+sub l by rightWhiteTriangle;
+sub m by downWhiteTriangle;
+sub n by leftWhiteTriangle;";
+name = ss02;
+notes = "Name: Arrows, triangles and circles";
+},
+{
+code = "sub h t by foundryicon;
+";
+name = ss03;
+notes = "Name: Foundry icon";
+},
+{
+code = "# Second approximation
+# Arrows 2
+sub less hyphen by leftArrow;
+sub hyphen asciicircum by upArrow;
+sub hyphen greater by rightArrow;
+sub asciicircum hyphen by downArrow;
+sub hyphen asciicircum less by northWestArrow;
+sub hyphen asciicircum greater by northEastArrow;
+sub greater asciicircum hyphen by southEastArrow;
+sub less asciicircum hyphen by southWestArrow;
+
+# Triangles
+sub less equal by leftBlackTriangle;
+sub equal asciicircum by upBlackTriangle;
+sub equal greater by rightBlackTriangle;
+sub asciicircum equal by downBlackTriangle;";
+name = ss04;
+notes = "Name: Dynamic arrows and triangles";
 },
 {
 automatic = 1;
