@@ -14,6 +14,9 @@ Not only does Alegreya provide great performance, but also achieves a strong and
 
 The Alegreya type system is a "super family", originally intended for literature, and includes serif and sans serif sister families.
 
-Alegreya was chosen as one of 53 "Fonts of the Decade" at the ATypI Letter2 competition in September 2011, and one of the top 14 text type systems. It was also selected in the 2nd Bienal Iberoamericana de Diseño, competition held in Madrid in 2010 and Tipos Latinos.
+It supports expert latin, greek and cyrillic character sets and provides advanced typography OpenType features such as small caps, dynamic ligatures and fractions, four set of figures, super and subscript characters, ordinals, localized accent forms for spanish, catalan, guaraní, dutch, turkish, romanian, serbian among others.
+
+
+Alegreya was chosen at the ATypI Letter2 competition in September 2011, and one of the top 14 text type systems. It was also selected in the 2nd Bienal Iberoamericana de Diseño, competition held in Madrid in 2010 and Tipos Latinos.
 
 Designed by Juan Pablo del Peral for [Huerta Tipográfica](http://www.huertatipografica.com/).
