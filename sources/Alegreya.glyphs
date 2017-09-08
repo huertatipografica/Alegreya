@@ -1,5 +1,5 @@
 {
-.appVersion = "1059";
+.appVersion = "1056";
 classes = (
 {
 automatic = 1;
@@ -219729,13 +219729,6 @@ f.t
 );
 },
 {
-name = "Remove Features";
-value = (
-c2sc,
-smcp
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -221383,6 +221376,15 @@ a.sc
 {
 name = "Replace Class";
 value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+liga,
+dlig
+);
 }
 );
 interpolationWeight = 73;
@@ -221417,13 +221419,6 @@ f.t
 );
 },
 {
-name = "Remove Features";
-value = (
-c2sc,
-smcp
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -223071,6 +223066,15 @@ a.sc
 {
 name = "Replace Class";
 value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+liga,
+dlig
+);
 }
 );
 interpolationWeight = 94;
@@ -223107,13 +223111,6 @@ f.t
 );
 },
 {
-name = "Remove Features";
-value = (
-c2sc,
-smcp
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -224761,6 +224758,15 @@ a.sc
 {
 name = "Replace Class";
 value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+liga,
+dlig
+);
 }
 );
 interpolationWeight = 119;
@@ -224799,13 +224805,6 @@ f.t
 );
 },
 {
-name = "Remove Features";
-value = (
-c2sc,
-smcp
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -226453,6 +226452,15 @@ a.sc
 {
 name = "Replace Class";
 value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+liga,
+dlig
+);
 }
 );
 interpolationWeight = 144;
@@ -226489,13 +226497,6 @@ f.t
 );
 },
 {
-name = "Remove Features";
-value = (
-c2sc,
-smcp
-);
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -228143,6 +228144,15 @@ a.sc
 {
 name = "Replace Class";
 value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+liga,
+dlig
+);
 }
 );
 interpolationWeight = 175;
@@ -229750,5 +229760,5 @@ HV = 20;
 };
 };
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
