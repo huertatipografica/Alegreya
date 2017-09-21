@@ -186176,7 +186176,7 @@ transform = "{1, 0, 0, 1, 374, 0}";
 }
 );
 layerId = UUID0;
-width = 656;
+width = 667;
 },
 {
 components = (
@@ -186193,7 +186193,7 @@ transform = "{1, 0, 0, 1, 470, 0}";
 }
 );
 layerId = UUID1;
-width = 792;
+width = 799;
 }
 );
 leftMetricsKey = one.numr;
@@ -186219,7 +186219,7 @@ transform = "{1, 0, 0, 1, 454, 0}";
 }
 );
 layerId = UUID0;
-width = 729;
+width = 747;
 },
 {
 components = (
@@ -186236,7 +186236,7 @@ transform = "{1, 0, 0, 1, 564, 0}";
 }
 );
 layerId = UUID1;
-width = 885;
+width = 893;
 }
 );
 leftMetricsKey = two.numr;
@@ -186356,7 +186356,7 @@ transform = "{1, 0, 0, 1, 374, 0}";
 }
 );
 layerId = UUID0;
-width = 690;
+width = 701;
 },
 {
 components = (
@@ -186373,7 +186373,7 @@ transform = "{1, 0, 0, 1, 470, 0}";
 }
 );
 layerId = UUID1;
-width = 806;
+width = 816;
 }
 );
 leftMetricsKey = one.numr;
@@ -186416,7 +186416,7 @@ transform = "{1, 0, 0, 1, 516, 0}";
 }
 );
 layerId = UUID1;
-width = 859;
+width = 862;
 }
 );
 leftMetricsKey = three.numr;
@@ -186442,7 +186442,7 @@ transform = "{1, 0, 0, 1, 415, 0}";
 }
 );
 layerId = UUID0;
-width = 736;
+width = 742;
 },
 {
 components = (
@@ -186459,7 +186459,7 @@ transform = "{1, 0, 0, 1, 509, 0}";
 }
 );
 layerId = UUID1;
-width = 848;
+width = 855;
 }
 );
 leftMetricsKey = five.numr;
@@ -186485,7 +186485,7 @@ transform = "{1, 0, 0, 1, 414, 0}";
 }
 );
 layerId = UUID0;
-width = 711;
+width = 741;
 },
 {
 components = (
@@ -186502,7 +186502,7 @@ transform = "{1, 0, 0, 1, 507, 0}";
 }
 );
 layerId = UUID1;
-width = 834;
+width = 853;
 }
 );
 leftMetricsKey = seven.numr;
@@ -219738,7 +219738,7 @@ value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsi
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
@@ -221370,7 +221370,81 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc
+a.sc,
+c_h,
+c_t,
+f_j,
+fi,
+fl,
+s_t,
+T_h.liga,
+gamma_gamma,
+lambda_lambda,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+alphaypogegrammeni.sc.ss05,
+alphavariaypogegrammeni.sc.ss05,
+alphaoxiaypogegrammeni.sc.ss05,
+alphapsiliypogegrammeni.sc.ss05,
+alphadasiaypogegrammeni.sc.ss05,
+alphapsilivariaypogegrammeni.sc.ss05,
+alphadasiavariaypogegrammeni.sc.ss05,
+alphapsilioxiaypogegrammeni.sc.ss05,
+alphadasiaoxiaypogegrammeni.sc.ss05,
+alphapsiliperispomeniypogegrammeni.sc.ss05,
+alphadasiaperispomeniypogegrammeni.sc.ss05,
+alphaperispomeniypogegrammeni.sc.ss05,
+etaypogegrammeni.sc.ss05,
+etavariaypogegrammeni.sc.ss05,
+etaoxiaypogegrammeni.sc.ss05,
+etapsiliypogegrammeni.sc.ss05,
+etadasiaypogegrammeni.sc.ss05,
+etapsilivariaypogegrammeni.sc.ss05,
+etadasiavariaypogegrammeni.sc.ss05,
+etapsilioxiaypogegrammeni.sc.ss05,
+etadasiaoxiaypogegrammeni.sc.ss05,
+etapsiliperispomeniypogegrammeni.sc.ss05,
+etadasiaperispomeniypogegrammeni.sc.ss05,
+etaperispomeniypogegrammeni.sc.ss05,
+omegaypogegrammeni.sc.ss05,
+omegavariaypogegrammeni.sc.ss05,
+omegaoxiaypogegrammeni.sc.ss05,
+omegapsiliypogegrammeni.sc.ss05,
+omegadasiaypogegrammeni.sc.ss05,
+omegapsilivariaypogegrammeni.sc.ss05,
+omegadasiavariaypogegrammeni.sc.ss05,
+omegapsilioxiaypogegrammeni.sc.ss05,
+omegadasiaoxiaypogegrammeni.sc.ss05,
+omegapsiliperispomeniypogegrammeni.sc.ss05,
+omegadasiaperispomeniypogegrammeni.sc.ss05,
+omegaperispomeniypogegrammeni.sc.ss05,
+germandbls.alt.sc,
+"be-cy.loclSRB"
 );
 },
 {
@@ -221382,7 +221456,6 @@ name = "Remove Features";
 value = (
 c2sc,
 smcp,
-liga,
 dlig
 );
 }
@@ -221428,7 +221501,7 @@ value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsi
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
@@ -223060,7 +223133,81 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc
+a.sc,
+c_h,
+c_t,
+f_j,
+fi,
+fl,
+s_t,
+T_h.liga,
+gamma_gamma,
+lambda_lambda,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+alphaypogegrammeni.sc.ss05,
+alphavariaypogegrammeni.sc.ss05,
+alphaoxiaypogegrammeni.sc.ss05,
+alphapsiliypogegrammeni.sc.ss05,
+alphadasiaypogegrammeni.sc.ss05,
+alphapsilivariaypogegrammeni.sc.ss05,
+alphadasiavariaypogegrammeni.sc.ss05,
+alphapsilioxiaypogegrammeni.sc.ss05,
+alphadasiaoxiaypogegrammeni.sc.ss05,
+alphapsiliperispomeniypogegrammeni.sc.ss05,
+alphadasiaperispomeniypogegrammeni.sc.ss05,
+alphaperispomeniypogegrammeni.sc.ss05,
+etaypogegrammeni.sc.ss05,
+etavariaypogegrammeni.sc.ss05,
+etaoxiaypogegrammeni.sc.ss05,
+etapsiliypogegrammeni.sc.ss05,
+etadasiaypogegrammeni.sc.ss05,
+etapsilivariaypogegrammeni.sc.ss05,
+etadasiavariaypogegrammeni.sc.ss05,
+etapsilioxiaypogegrammeni.sc.ss05,
+etadasiaoxiaypogegrammeni.sc.ss05,
+etapsiliperispomeniypogegrammeni.sc.ss05,
+etadasiaperispomeniypogegrammeni.sc.ss05,
+etaperispomeniypogegrammeni.sc.ss05,
+omegaypogegrammeni.sc.ss05,
+omegavariaypogegrammeni.sc.ss05,
+omegaoxiaypogegrammeni.sc.ss05,
+omegapsiliypogegrammeni.sc.ss05,
+omegadasiaypogegrammeni.sc.ss05,
+omegapsilivariaypogegrammeni.sc.ss05,
+omegadasiavariaypogegrammeni.sc.ss05,
+omegapsilioxiaypogegrammeni.sc.ss05,
+omegadasiaoxiaypogegrammeni.sc.ss05,
+omegapsiliperispomeniypogegrammeni.sc.ss05,
+omegadasiaperispomeniypogegrammeni.sc.ss05,
+omegaperispomeniypogegrammeni.sc.ss05,
+germandbls.alt.sc,
+"be-cy.loclSRB"
 );
 },
 {
@@ -223072,7 +223219,6 @@ name = "Remove Features";
 value = (
 c2sc,
 smcp,
-liga,
 dlig
 );
 }
@@ -223120,7 +223266,7 @@ value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsi
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
@@ -224752,7 +224898,81 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc
+a.sc,
+c_h,
+c_t,
+f_j,
+fi,
+fl,
+s_t,
+T_h.liga,
+gamma_gamma,
+lambda_lambda,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+alphaypogegrammeni.sc.ss05,
+alphavariaypogegrammeni.sc.ss05,
+alphaoxiaypogegrammeni.sc.ss05,
+alphapsiliypogegrammeni.sc.ss05,
+alphadasiaypogegrammeni.sc.ss05,
+alphapsilivariaypogegrammeni.sc.ss05,
+alphadasiavariaypogegrammeni.sc.ss05,
+alphapsilioxiaypogegrammeni.sc.ss05,
+alphadasiaoxiaypogegrammeni.sc.ss05,
+alphapsiliperispomeniypogegrammeni.sc.ss05,
+alphadasiaperispomeniypogegrammeni.sc.ss05,
+alphaperispomeniypogegrammeni.sc.ss05,
+etaypogegrammeni.sc.ss05,
+etavariaypogegrammeni.sc.ss05,
+etaoxiaypogegrammeni.sc.ss05,
+etapsiliypogegrammeni.sc.ss05,
+etadasiaypogegrammeni.sc.ss05,
+etapsilivariaypogegrammeni.sc.ss05,
+etadasiavariaypogegrammeni.sc.ss05,
+etapsilioxiaypogegrammeni.sc.ss05,
+etadasiaoxiaypogegrammeni.sc.ss05,
+etapsiliperispomeniypogegrammeni.sc.ss05,
+etadasiaperispomeniypogegrammeni.sc.ss05,
+etaperispomeniypogegrammeni.sc.ss05,
+omegaypogegrammeni.sc.ss05,
+omegavariaypogegrammeni.sc.ss05,
+omegaoxiaypogegrammeni.sc.ss05,
+omegapsiliypogegrammeni.sc.ss05,
+omegadasiaypogegrammeni.sc.ss05,
+omegapsilivariaypogegrammeni.sc.ss05,
+omegadasiavariaypogegrammeni.sc.ss05,
+omegapsilioxiaypogegrammeni.sc.ss05,
+omegadasiaoxiaypogegrammeni.sc.ss05,
+omegapsiliperispomeniypogegrammeni.sc.ss05,
+omegadasiaperispomeniypogegrammeni.sc.ss05,
+omegaperispomeniypogegrammeni.sc.ss05,
+germandbls.alt.sc,
+"be-cy.loclSRB"
 );
 },
 {
@@ -224764,7 +224984,6 @@ name = "Remove Features";
 value = (
 c2sc,
 smcp,
-liga,
 dlig
 );
 }
@@ -224814,7 +225033,7 @@ value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsi
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
@@ -226446,7 +226665,81 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc
+a.sc,
+c_h,
+c_t,
+f_j,
+fi,
+fl,
+s_t,
+T_h.liga,
+gamma_gamma,
+lambda_lambda,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+alphaypogegrammeni.sc.ss05,
+alphavariaypogegrammeni.sc.ss05,
+alphaoxiaypogegrammeni.sc.ss05,
+alphapsiliypogegrammeni.sc.ss05,
+alphadasiaypogegrammeni.sc.ss05,
+alphapsilivariaypogegrammeni.sc.ss05,
+alphadasiavariaypogegrammeni.sc.ss05,
+alphapsilioxiaypogegrammeni.sc.ss05,
+alphadasiaoxiaypogegrammeni.sc.ss05,
+alphapsiliperispomeniypogegrammeni.sc.ss05,
+alphadasiaperispomeniypogegrammeni.sc.ss05,
+alphaperispomeniypogegrammeni.sc.ss05,
+etaypogegrammeni.sc.ss05,
+etavariaypogegrammeni.sc.ss05,
+etaoxiaypogegrammeni.sc.ss05,
+etapsiliypogegrammeni.sc.ss05,
+etadasiaypogegrammeni.sc.ss05,
+etapsilivariaypogegrammeni.sc.ss05,
+etadasiavariaypogegrammeni.sc.ss05,
+etapsilioxiaypogegrammeni.sc.ss05,
+etadasiaoxiaypogegrammeni.sc.ss05,
+etapsiliperispomeniypogegrammeni.sc.ss05,
+etadasiaperispomeniypogegrammeni.sc.ss05,
+etaperispomeniypogegrammeni.sc.ss05,
+omegaypogegrammeni.sc.ss05,
+omegavariaypogegrammeni.sc.ss05,
+omegaoxiaypogegrammeni.sc.ss05,
+omegapsiliypogegrammeni.sc.ss05,
+omegadasiaypogegrammeni.sc.ss05,
+omegapsilivariaypogegrammeni.sc.ss05,
+omegadasiavariaypogegrammeni.sc.ss05,
+omegapsilioxiaypogegrammeni.sc.ss05,
+omegadasiaoxiaypogegrammeni.sc.ss05,
+omegapsiliperispomeniypogegrammeni.sc.ss05,
+omegadasiaperispomeniypogegrammeni.sc.ss05,
+omegaperispomeniypogegrammeni.sc.ss05,
+germandbls.alt.sc,
+"be-cy.loclSRB"
 );
 },
 {
@@ -226458,7 +226751,6 @@ name = "Remove Features";
 value = (
 c2sc,
 smcp,
-liga,
 dlig
 );
 }
@@ -226506,7 +226798,7 @@ value = "puntuacion;asterisk backslash periodcentered bullet colon comma ellipsi
 },
 {
 name = "Replace Feature";
-value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language SRB;\012sub be-cy by be-cy.loclSRB;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
+value = "locl;script latn;\012language NLD;\012sub iacute j by iacute_j.loclNLD;\012sub Iacute J by Iacute_J.loclNLD;\012language CAT;\012sub  l' periodcentered' l by ldot;\012sub  L' periodcentered' L by Ldot;\012language ROM;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language MOL;\012sub Scedilla by Scommaaccent;\012sub scedilla by scommaaccent;\012sub Tcedilla by Tcommaaccent;\012sub tcedilla by tcommaaccent;\012language KAZ;\012sub i by idotaccent;\012language TAT;\012sub i by idotaccent;\012language TRK;\012sub i by idotaccent;\012language CRT;\012sub i by idotaccent;\012language AZE;\012sub i by idotaccent;\012language GUA;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012language ESP;\012sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde] by saltillo;\012\012script cyrl;\012language BSH;\012sub Ghestroke-cy by Ghestroke-cy.loclBSH;\012sub Zedescender-cy by Zedescender-cy.loclBSH;\012sub ghestroke-cy by ghestroke-cy.loclBSH;\012sub zedescender-cy by zedescender-cy.loclBSH;\012language CHU;\012sub Esdescender-cy by Esdescender-cy.loclCHU;\012sub esdescender-cy by esdescender-cy.loclCHU;";
 },
 {
 name = "Replace Feature";
@@ -228138,7 +228430,81 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc
+a.sc,
+c_h,
+c_t,
+f_j,
+fi,
+fl,
+s_t,
+T_h.liga,
+gamma_gamma,
+lambda_lambda,
+Alphaprosgegrammeni.sc.ss05,
+Alphapsiliprosgegrammeni.sc.ss05,
+Alphadasiaprosgegrammeni.sc.ss05,
+Alphapsilivariaprosgegrammeni.sc.ss05,
+Alphadasiavariaprosgegrammeni.sc.ss05,
+Alphapsilioxiaprosgegrammeni.sc.ss05,
+Alphadasiaoxiaprosgegrammeni.sc.ss05,
+Alphapsiliperispomeniprosgegrammeni.sc.ss05,
+Alphadasiaperispomeniprosgegrammeni.sc.ss05,
+Etaprosgegrammeni.sc.ss05,
+Etapsiliprosgegrammeni.sc.ss05,
+Etadasiaprosgegrammeni.sc.ss05,
+Etapsilivariaprosgegrammeni.sc.ss05,
+Etadasiavariaprosgegrammeni.sc.ss05,
+Etapsilioxiaprosgegrammeni.sc.ss05,
+Etadasiaoxiaprosgegrammeni.sc.ss05,
+Etapsiliperispomeniprosgegrammeni.sc.ss05,
+Etadasiaperispomeniprosgegrammeni.sc.ss05,
+Omegaprosgegrammeni.sc.ss05,
+Omegapsiliprosgegrammeni.sc.ss05,
+Omegadasiaprosgegrammeni.sc.ss05,
+Omegapsilivariaprosgegrammeni.sc.ss05,
+Omegadasiavariaprosgegrammeni.sc.ss05,
+Omegapsilioxiaprosgegrammeni.sc.ss05,
+Omegadasiaoxiaprosgegrammeni.sc.ss05,
+Omegapsiliperispomeniprosgegrammeni.sc.ss05,
+Omegadasiaperispomeniprosgegrammeni.sc.ss05,
+alphaypogegrammeni.sc.ss05,
+alphavariaypogegrammeni.sc.ss05,
+alphaoxiaypogegrammeni.sc.ss05,
+alphapsiliypogegrammeni.sc.ss05,
+alphadasiaypogegrammeni.sc.ss05,
+alphapsilivariaypogegrammeni.sc.ss05,
+alphadasiavariaypogegrammeni.sc.ss05,
+alphapsilioxiaypogegrammeni.sc.ss05,
+alphadasiaoxiaypogegrammeni.sc.ss05,
+alphapsiliperispomeniypogegrammeni.sc.ss05,
+alphadasiaperispomeniypogegrammeni.sc.ss05,
+alphaperispomeniypogegrammeni.sc.ss05,
+etaypogegrammeni.sc.ss05,
+etavariaypogegrammeni.sc.ss05,
+etaoxiaypogegrammeni.sc.ss05,
+etapsiliypogegrammeni.sc.ss05,
+etadasiaypogegrammeni.sc.ss05,
+etapsilivariaypogegrammeni.sc.ss05,
+etadasiavariaypogegrammeni.sc.ss05,
+etapsilioxiaypogegrammeni.sc.ss05,
+etadasiaoxiaypogegrammeni.sc.ss05,
+etapsiliperispomeniypogegrammeni.sc.ss05,
+etadasiaperispomeniypogegrammeni.sc.ss05,
+etaperispomeniypogegrammeni.sc.ss05,
+omegaypogegrammeni.sc.ss05,
+omegavariaypogegrammeni.sc.ss05,
+omegaoxiaypogegrammeni.sc.ss05,
+omegapsiliypogegrammeni.sc.ss05,
+omegadasiaypogegrammeni.sc.ss05,
+omegapsilivariaypogegrammeni.sc.ss05,
+omegadasiavariaypogegrammeni.sc.ss05,
+omegapsilioxiaypogegrammeni.sc.ss05,
+omegadasiaoxiaypogegrammeni.sc.ss05,
+omegapsiliperispomeniypogegrammeni.sc.ss05,
+omegadasiaperispomeniypogegrammeni.sc.ss05,
+omegaperispomeniypogegrammeni.sc.ss05,
+germandbls.alt.sc,
+"be-cy.loclSRB"
 );
 },
 {
@@ -228150,7 +228516,6 @@ name = "Remove Features";
 value = (
 c2sc,
 smcp,
-liga,
 dlig
 );
 }
@@ -229760,5 +230125,5 @@ HV = 20;
 };
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
