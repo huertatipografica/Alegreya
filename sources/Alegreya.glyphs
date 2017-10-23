@@ -1,5 +1,5 @@
 {
-.appVersion = "1056";
+.appVersion = "1075";
 classes = (
 {
 automatic = 1;
@@ -82,7 +82,7 @@ name = "Use Typo Metrics";
 value = 1;
 }
 );
-date = "2016-09-14 14:36:30 +0000";
+date = "2017-10-23 12:47:55 +0000";
 designer = "Juan Pablo del Peral";
 designerURL = "http://www.huertatipografica.com";
 familyName = Alegreya;
@@ -45854,6 +45854,68 @@ width = 478;
 );
 leftKerningGroup = H;
 rightKerningGroup = F;
+},
+{
+glyphname = fi.sc;
+layers = (
+{
+components = (
+{
+name = f.sc;
+},
+{
+name = i.sc;
+transform = "{1, 0, 0, 1, 446, 0}";
+}
+);
+layerId = UUID0;
+width = 765;
+},
+{
+components = (
+{
+name = f.sc;
+},
+{
+name = i.sc;
+transform = "{1, 0, 0, 1, 478, 0}";
+}
+);
+layerId = UUID1;
+width = 800;
+}
+);
+},
+{
+glyphname = fl.sc;
+layers = (
+{
+components = (
+{
+name = f.sc;
+},
+{
+name = l.sc;
+transform = "{1, 0, 0, 1, 446, 0}";
+}
+);
+layerId = UUID0;
+width = 888;
+},
+{
+components = (
+{
+name = f.sc;
+},
+{
+name = l.sc;
+transform = "{1, 0, 0, 1, 478, 0}";
+}
+);
+layerId = UUID1;
+width = 960;
+}
+);
 },
 {
 color = 1;
@@ -219745,6 +219807,18 @@ name = "Replace Feature";
 value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
+name = "Replace Class";
+value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+dlig
+);
+},
+{
 name = "Decompose Glyphs";
 value = (
 gtilde.sc,
@@ -220217,6 +220291,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -220760,6 +220836,8 @@ value = (
 "gcaron.sc=gcaron",
 "gbreve.sc=gbreve",
 "g.sc=g",
+"fl.sc=fl",
+"fi.sc=fi",
 "f.sc=f",
 "schwa.sc=schwa",
 "etilde.sc=etilde",
@@ -221303,6 +221381,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -221370,93 +221450,7 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc,
-c_h,
-c_t,
-f_j,
-fi,
-fl,
-s_t,
-T_h.liga,
-gamma_gamma,
-lambda_lambda,
-Alphaprosgegrammeni.sc.ss05,
-Alphapsiliprosgegrammeni.sc.ss05,
-Alphadasiaprosgegrammeni.sc.ss05,
-Alphapsilivariaprosgegrammeni.sc.ss05,
-Alphadasiavariaprosgegrammeni.sc.ss05,
-Alphapsilioxiaprosgegrammeni.sc.ss05,
-Alphadasiaoxiaprosgegrammeni.sc.ss05,
-Alphapsiliperispomeniprosgegrammeni.sc.ss05,
-Alphadasiaperispomeniprosgegrammeni.sc.ss05,
-Etaprosgegrammeni.sc.ss05,
-Etapsiliprosgegrammeni.sc.ss05,
-Etadasiaprosgegrammeni.sc.ss05,
-Etapsilivariaprosgegrammeni.sc.ss05,
-Etadasiavariaprosgegrammeni.sc.ss05,
-Etapsilioxiaprosgegrammeni.sc.ss05,
-Etadasiaoxiaprosgegrammeni.sc.ss05,
-Etapsiliperispomeniprosgegrammeni.sc.ss05,
-Etadasiaperispomeniprosgegrammeni.sc.ss05,
-Omegaprosgegrammeni.sc.ss05,
-Omegapsiliprosgegrammeni.sc.ss05,
-Omegadasiaprosgegrammeni.sc.ss05,
-Omegapsilivariaprosgegrammeni.sc.ss05,
-Omegadasiavariaprosgegrammeni.sc.ss05,
-Omegapsilioxiaprosgegrammeni.sc.ss05,
-Omegadasiaoxiaprosgegrammeni.sc.ss05,
-Omegapsiliperispomeniprosgegrammeni.sc.ss05,
-Omegadasiaperispomeniprosgegrammeni.sc.ss05,
-alphaypogegrammeni.sc.ss05,
-alphavariaypogegrammeni.sc.ss05,
-alphaoxiaypogegrammeni.sc.ss05,
-alphapsiliypogegrammeni.sc.ss05,
-alphadasiaypogegrammeni.sc.ss05,
-alphapsilivariaypogegrammeni.sc.ss05,
-alphadasiavariaypogegrammeni.sc.ss05,
-alphapsilioxiaypogegrammeni.sc.ss05,
-alphadasiaoxiaypogegrammeni.sc.ss05,
-alphapsiliperispomeniypogegrammeni.sc.ss05,
-alphadasiaperispomeniypogegrammeni.sc.ss05,
-alphaperispomeniypogegrammeni.sc.ss05,
-etaypogegrammeni.sc.ss05,
-etavariaypogegrammeni.sc.ss05,
-etaoxiaypogegrammeni.sc.ss05,
-etapsiliypogegrammeni.sc.ss05,
-etadasiaypogegrammeni.sc.ss05,
-etapsilivariaypogegrammeni.sc.ss05,
-etadasiavariaypogegrammeni.sc.ss05,
-etapsilioxiaypogegrammeni.sc.ss05,
-etadasiaoxiaypogegrammeni.sc.ss05,
-etapsiliperispomeniypogegrammeni.sc.ss05,
-etadasiaperispomeniypogegrammeni.sc.ss05,
-etaperispomeniypogegrammeni.sc.ss05,
-omegaypogegrammeni.sc.ss05,
-omegavariaypogegrammeni.sc.ss05,
-omegaoxiaypogegrammeni.sc.ss05,
-omegapsiliypogegrammeni.sc.ss05,
-omegadasiaypogegrammeni.sc.ss05,
-omegapsilivariaypogegrammeni.sc.ss05,
-omegadasiavariaypogegrammeni.sc.ss05,
-omegapsilioxiaypogegrammeni.sc.ss05,
-omegadasiaoxiaypogegrammeni.sc.ss05,
-omegapsiliperispomeniypogegrammeni.sc.ss05,
-omegadasiaperispomeniypogegrammeni.sc.ss05,
-omegaperispomeniypogegrammeni.sc.ss05,
-germandbls.alt.sc,
-"be-cy.loclSRB"
-);
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
-},
-{
-name = "Remove Features";
-value = (
-c2sc,
-smcp,
-dlig
+a.sc
 );
 }
 );
@@ -221508,6 +221502,18 @@ name = "Replace Feature";
 value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
+name = "Replace Class";
+value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+dlig
+);
+},
+{
 name = "Decompose Glyphs";
 value = (
 gtilde.sc,
@@ -221980,6 +221986,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -222523,6 +222531,8 @@ value = (
 "gcaron.sc=gcaron",
 "gbreve.sc=gbreve",
 "g.sc=g",
+"fl.sc=fl",
+"fi.sc=fi",
 "f.sc=f",
 "schwa.sc=schwa",
 "etilde.sc=etilde",
@@ -223066,6 +223076,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -223133,93 +223145,7 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc,
-c_h,
-c_t,
-f_j,
-fi,
-fl,
-s_t,
-T_h.liga,
-gamma_gamma,
-lambda_lambda,
-Alphaprosgegrammeni.sc.ss05,
-Alphapsiliprosgegrammeni.sc.ss05,
-Alphadasiaprosgegrammeni.sc.ss05,
-Alphapsilivariaprosgegrammeni.sc.ss05,
-Alphadasiavariaprosgegrammeni.sc.ss05,
-Alphapsilioxiaprosgegrammeni.sc.ss05,
-Alphadasiaoxiaprosgegrammeni.sc.ss05,
-Alphapsiliperispomeniprosgegrammeni.sc.ss05,
-Alphadasiaperispomeniprosgegrammeni.sc.ss05,
-Etaprosgegrammeni.sc.ss05,
-Etapsiliprosgegrammeni.sc.ss05,
-Etadasiaprosgegrammeni.sc.ss05,
-Etapsilivariaprosgegrammeni.sc.ss05,
-Etadasiavariaprosgegrammeni.sc.ss05,
-Etapsilioxiaprosgegrammeni.sc.ss05,
-Etadasiaoxiaprosgegrammeni.sc.ss05,
-Etapsiliperispomeniprosgegrammeni.sc.ss05,
-Etadasiaperispomeniprosgegrammeni.sc.ss05,
-Omegaprosgegrammeni.sc.ss05,
-Omegapsiliprosgegrammeni.sc.ss05,
-Omegadasiaprosgegrammeni.sc.ss05,
-Omegapsilivariaprosgegrammeni.sc.ss05,
-Omegadasiavariaprosgegrammeni.sc.ss05,
-Omegapsilioxiaprosgegrammeni.sc.ss05,
-Omegadasiaoxiaprosgegrammeni.sc.ss05,
-Omegapsiliperispomeniprosgegrammeni.sc.ss05,
-Omegadasiaperispomeniprosgegrammeni.sc.ss05,
-alphaypogegrammeni.sc.ss05,
-alphavariaypogegrammeni.sc.ss05,
-alphaoxiaypogegrammeni.sc.ss05,
-alphapsiliypogegrammeni.sc.ss05,
-alphadasiaypogegrammeni.sc.ss05,
-alphapsilivariaypogegrammeni.sc.ss05,
-alphadasiavariaypogegrammeni.sc.ss05,
-alphapsilioxiaypogegrammeni.sc.ss05,
-alphadasiaoxiaypogegrammeni.sc.ss05,
-alphapsiliperispomeniypogegrammeni.sc.ss05,
-alphadasiaperispomeniypogegrammeni.sc.ss05,
-alphaperispomeniypogegrammeni.sc.ss05,
-etaypogegrammeni.sc.ss05,
-etavariaypogegrammeni.sc.ss05,
-etaoxiaypogegrammeni.sc.ss05,
-etapsiliypogegrammeni.sc.ss05,
-etadasiaypogegrammeni.sc.ss05,
-etapsilivariaypogegrammeni.sc.ss05,
-etadasiavariaypogegrammeni.sc.ss05,
-etapsilioxiaypogegrammeni.sc.ss05,
-etadasiaoxiaypogegrammeni.sc.ss05,
-etapsiliperispomeniypogegrammeni.sc.ss05,
-etadasiaperispomeniypogegrammeni.sc.ss05,
-etaperispomeniypogegrammeni.sc.ss05,
-omegaypogegrammeni.sc.ss05,
-omegavariaypogegrammeni.sc.ss05,
-omegaoxiaypogegrammeni.sc.ss05,
-omegapsiliypogegrammeni.sc.ss05,
-omegadasiaypogegrammeni.sc.ss05,
-omegapsilivariaypogegrammeni.sc.ss05,
-omegadasiavariaypogegrammeni.sc.ss05,
-omegapsilioxiaypogegrammeni.sc.ss05,
-omegadasiaoxiaypogegrammeni.sc.ss05,
-omegapsiliperispomeniypogegrammeni.sc.ss05,
-omegadasiaperispomeniypogegrammeni.sc.ss05,
-omegaperispomeniypogegrammeni.sc.ss05,
-germandbls.alt.sc,
-"be-cy.loclSRB"
-);
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
-},
-{
-name = "Remove Features";
-value = (
-c2sc,
-smcp,
-dlig
+a.sc
 );
 }
 );
@@ -223273,6 +223199,18 @@ name = "Replace Feature";
 value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
+name = "Replace Class";
+value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+dlig
+);
+},
+{
 name = "Decompose Glyphs";
 value = (
 gtilde.sc,
@@ -223745,6 +223683,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -224288,6 +224228,8 @@ value = (
 "gcaron.sc=gcaron",
 "gbreve.sc=gbreve",
 "g.sc=g",
+"fl.sc=fl",
+"fi.sc=fi",
 "f.sc=f",
 "schwa.sc=schwa",
 "etilde.sc=etilde",
@@ -224831,6 +224773,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -224898,93 +224842,7 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc,
-c_h,
-c_t,
-f_j,
-fi,
-fl,
-s_t,
-T_h.liga,
-gamma_gamma,
-lambda_lambda,
-Alphaprosgegrammeni.sc.ss05,
-Alphapsiliprosgegrammeni.sc.ss05,
-Alphadasiaprosgegrammeni.sc.ss05,
-Alphapsilivariaprosgegrammeni.sc.ss05,
-Alphadasiavariaprosgegrammeni.sc.ss05,
-Alphapsilioxiaprosgegrammeni.sc.ss05,
-Alphadasiaoxiaprosgegrammeni.sc.ss05,
-Alphapsiliperispomeniprosgegrammeni.sc.ss05,
-Alphadasiaperispomeniprosgegrammeni.sc.ss05,
-Etaprosgegrammeni.sc.ss05,
-Etapsiliprosgegrammeni.sc.ss05,
-Etadasiaprosgegrammeni.sc.ss05,
-Etapsilivariaprosgegrammeni.sc.ss05,
-Etadasiavariaprosgegrammeni.sc.ss05,
-Etapsilioxiaprosgegrammeni.sc.ss05,
-Etadasiaoxiaprosgegrammeni.sc.ss05,
-Etapsiliperispomeniprosgegrammeni.sc.ss05,
-Etadasiaperispomeniprosgegrammeni.sc.ss05,
-Omegaprosgegrammeni.sc.ss05,
-Omegapsiliprosgegrammeni.sc.ss05,
-Omegadasiaprosgegrammeni.sc.ss05,
-Omegapsilivariaprosgegrammeni.sc.ss05,
-Omegadasiavariaprosgegrammeni.sc.ss05,
-Omegapsilioxiaprosgegrammeni.sc.ss05,
-Omegadasiaoxiaprosgegrammeni.sc.ss05,
-Omegapsiliperispomeniprosgegrammeni.sc.ss05,
-Omegadasiaperispomeniprosgegrammeni.sc.ss05,
-alphaypogegrammeni.sc.ss05,
-alphavariaypogegrammeni.sc.ss05,
-alphaoxiaypogegrammeni.sc.ss05,
-alphapsiliypogegrammeni.sc.ss05,
-alphadasiaypogegrammeni.sc.ss05,
-alphapsilivariaypogegrammeni.sc.ss05,
-alphadasiavariaypogegrammeni.sc.ss05,
-alphapsilioxiaypogegrammeni.sc.ss05,
-alphadasiaoxiaypogegrammeni.sc.ss05,
-alphapsiliperispomeniypogegrammeni.sc.ss05,
-alphadasiaperispomeniypogegrammeni.sc.ss05,
-alphaperispomeniypogegrammeni.sc.ss05,
-etaypogegrammeni.sc.ss05,
-etavariaypogegrammeni.sc.ss05,
-etaoxiaypogegrammeni.sc.ss05,
-etapsiliypogegrammeni.sc.ss05,
-etadasiaypogegrammeni.sc.ss05,
-etapsilivariaypogegrammeni.sc.ss05,
-etadasiavariaypogegrammeni.sc.ss05,
-etapsilioxiaypogegrammeni.sc.ss05,
-etadasiaoxiaypogegrammeni.sc.ss05,
-etapsiliperispomeniypogegrammeni.sc.ss05,
-etadasiaperispomeniypogegrammeni.sc.ss05,
-etaperispomeniypogegrammeni.sc.ss05,
-omegaypogegrammeni.sc.ss05,
-omegavariaypogegrammeni.sc.ss05,
-omegaoxiaypogegrammeni.sc.ss05,
-omegapsiliypogegrammeni.sc.ss05,
-omegadasiaypogegrammeni.sc.ss05,
-omegapsilivariaypogegrammeni.sc.ss05,
-omegadasiavariaypogegrammeni.sc.ss05,
-omegapsilioxiaypogegrammeni.sc.ss05,
-omegadasiaoxiaypogegrammeni.sc.ss05,
-omegapsiliperispomeniypogegrammeni.sc.ss05,
-omegadasiaperispomeniypogegrammeni.sc.ss05,
-omegaperispomeniypogegrammeni.sc.ss05,
-germandbls.alt.sc,
-"be-cy.loclSRB"
-);
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
-},
-{
-name = "Remove Features";
-value = (
-c2sc,
-smcp,
-dlig
+a.sc
 );
 }
 );
@@ -225040,6 +224898,18 @@ name = "Replace Feature";
 value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
+name = "Replace Class";
+value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+dlig
+);
+},
+{
 name = "Decompose Glyphs";
 value = (
 gtilde.sc,
@@ -225512,6 +225382,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -226055,6 +225927,8 @@ value = (
 "gcaron.sc=gcaron",
 "gbreve.sc=gbreve",
 "g.sc=g",
+"fl.sc=fl",
+"fi.sc=fi",
 "f.sc=f",
 "schwa.sc=schwa",
 "etilde.sc=etilde",
@@ -226598,6 +226472,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -226665,93 +226541,7 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc,
-c_h,
-c_t,
-f_j,
-fi,
-fl,
-s_t,
-T_h.liga,
-gamma_gamma,
-lambda_lambda,
-Alphaprosgegrammeni.sc.ss05,
-Alphapsiliprosgegrammeni.sc.ss05,
-Alphadasiaprosgegrammeni.sc.ss05,
-Alphapsilivariaprosgegrammeni.sc.ss05,
-Alphadasiavariaprosgegrammeni.sc.ss05,
-Alphapsilioxiaprosgegrammeni.sc.ss05,
-Alphadasiaoxiaprosgegrammeni.sc.ss05,
-Alphapsiliperispomeniprosgegrammeni.sc.ss05,
-Alphadasiaperispomeniprosgegrammeni.sc.ss05,
-Etaprosgegrammeni.sc.ss05,
-Etapsiliprosgegrammeni.sc.ss05,
-Etadasiaprosgegrammeni.sc.ss05,
-Etapsilivariaprosgegrammeni.sc.ss05,
-Etadasiavariaprosgegrammeni.sc.ss05,
-Etapsilioxiaprosgegrammeni.sc.ss05,
-Etadasiaoxiaprosgegrammeni.sc.ss05,
-Etapsiliperispomeniprosgegrammeni.sc.ss05,
-Etadasiaperispomeniprosgegrammeni.sc.ss05,
-Omegaprosgegrammeni.sc.ss05,
-Omegapsiliprosgegrammeni.sc.ss05,
-Omegadasiaprosgegrammeni.sc.ss05,
-Omegapsilivariaprosgegrammeni.sc.ss05,
-Omegadasiavariaprosgegrammeni.sc.ss05,
-Omegapsilioxiaprosgegrammeni.sc.ss05,
-Omegadasiaoxiaprosgegrammeni.sc.ss05,
-Omegapsiliperispomeniprosgegrammeni.sc.ss05,
-Omegadasiaperispomeniprosgegrammeni.sc.ss05,
-alphaypogegrammeni.sc.ss05,
-alphavariaypogegrammeni.sc.ss05,
-alphaoxiaypogegrammeni.sc.ss05,
-alphapsiliypogegrammeni.sc.ss05,
-alphadasiaypogegrammeni.sc.ss05,
-alphapsilivariaypogegrammeni.sc.ss05,
-alphadasiavariaypogegrammeni.sc.ss05,
-alphapsilioxiaypogegrammeni.sc.ss05,
-alphadasiaoxiaypogegrammeni.sc.ss05,
-alphapsiliperispomeniypogegrammeni.sc.ss05,
-alphadasiaperispomeniypogegrammeni.sc.ss05,
-alphaperispomeniypogegrammeni.sc.ss05,
-etaypogegrammeni.sc.ss05,
-etavariaypogegrammeni.sc.ss05,
-etaoxiaypogegrammeni.sc.ss05,
-etapsiliypogegrammeni.sc.ss05,
-etadasiaypogegrammeni.sc.ss05,
-etapsilivariaypogegrammeni.sc.ss05,
-etadasiavariaypogegrammeni.sc.ss05,
-etapsilioxiaypogegrammeni.sc.ss05,
-etadasiaoxiaypogegrammeni.sc.ss05,
-etapsiliperispomeniypogegrammeni.sc.ss05,
-etadasiaperispomeniypogegrammeni.sc.ss05,
-etaperispomeniypogegrammeni.sc.ss05,
-omegaypogegrammeni.sc.ss05,
-omegavariaypogegrammeni.sc.ss05,
-omegaoxiaypogegrammeni.sc.ss05,
-omegapsiliypogegrammeni.sc.ss05,
-omegadasiaypogegrammeni.sc.ss05,
-omegapsilivariaypogegrammeni.sc.ss05,
-omegadasiavariaypogegrammeni.sc.ss05,
-omegapsilioxiaypogegrammeni.sc.ss05,
-omegadasiaoxiaypogegrammeni.sc.ss05,
-omegapsiliperispomeniypogegrammeni.sc.ss05,
-omegadasiaperispomeniypogegrammeni.sc.ss05,
-omegaperispomeniypogegrammeni.sc.ss05,
-germandbls.alt.sc,
-"be-cy.loclSRB"
-);
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
-},
-{
-name = "Remove Features";
-value = (
-c2sc,
-smcp,
-dlig
+a.sc
 );
 }
 );
@@ -226805,6 +226595,18 @@ name = "Replace Feature";
 value = "liga;sub [tilde tildecomb asciitilde] e by etilde;\012sub [tilde tildecomb asciitilde] g by gtilde;\012sub dieresis i by idieresis;\012sub [tilde tildecomb asciitilde] i by itilde;\012sub dieresis o by odieresis;\012sub [tilde tildecomb asciitilde] u by utilde;\012sub [tilde tildecomb asciitilde] y by ytilde;\012sub acute y by yacute;\012\012sub [tilde tildecomb asciitilde] E by Etilde;\012sub [tilde tildecomb asciitilde] G by Gtilde;\012sub dieresis I by Idieresis;\012sub [tilde tildecomb asciitilde] I by Itilde;\012sub dieresis O by Odieresis;\012sub [tilde tildecomb asciitilde] U by Utilde;\012sub [tilde tildecomb asciitilde] Y by Ytilde;\012sub acute Y by Yacute;\012\012script latn;\012language ESP;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [S s] [I i] [G g] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub [C c] [A a] [P p] [Iacute iacute] [T t] [U u] [L l] [O o] space @siglo1' @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @siglo1 @puntuacion by @siglo2;\012sub @siglo2 @siglo1' by @siglo2;";
 },
 {
+name = "Replace Class";
+value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
+},
+{
+name = "Remove Features";
+value = (
+c2sc,
+smcp,
+dlig
+);
+},
+{
 name = "Decompose Glyphs";
 value = (
 gtilde.sc,
@@ -227277,6 +227079,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -227820,6 +227624,8 @@ value = (
 "gcaron.sc=gcaron",
 "gbreve.sc=gbreve",
 "g.sc=g",
+"fl.sc=fl",
+"fi.sc=fi",
 "f.sc=f",
 "schwa.sc=schwa",
 "etilde.sc=etilde",
@@ -228363,6 +228169,8 @@ gcircumflex.sc,
 gcaron.sc,
 gbreve.sc,
 g.sc,
+fl.sc,
+fi.sc,
 f.sc,
 schwa.sc,
 etilde.sc,
@@ -228430,93 +228238,7 @@ abrevedotbelow.sc,
 abreveacute.sc,
 abreve.sc,
 aacute.sc,
-a.sc,
-c_h,
-c_t,
-f_j,
-fi,
-fl,
-s_t,
-T_h.liga,
-gamma_gamma,
-lambda_lambda,
-Alphaprosgegrammeni.sc.ss05,
-Alphapsiliprosgegrammeni.sc.ss05,
-Alphadasiaprosgegrammeni.sc.ss05,
-Alphapsilivariaprosgegrammeni.sc.ss05,
-Alphadasiavariaprosgegrammeni.sc.ss05,
-Alphapsilioxiaprosgegrammeni.sc.ss05,
-Alphadasiaoxiaprosgegrammeni.sc.ss05,
-Alphapsiliperispomeniprosgegrammeni.sc.ss05,
-Alphadasiaperispomeniprosgegrammeni.sc.ss05,
-Etaprosgegrammeni.sc.ss05,
-Etapsiliprosgegrammeni.sc.ss05,
-Etadasiaprosgegrammeni.sc.ss05,
-Etapsilivariaprosgegrammeni.sc.ss05,
-Etadasiavariaprosgegrammeni.sc.ss05,
-Etapsilioxiaprosgegrammeni.sc.ss05,
-Etadasiaoxiaprosgegrammeni.sc.ss05,
-Etapsiliperispomeniprosgegrammeni.sc.ss05,
-Etadasiaperispomeniprosgegrammeni.sc.ss05,
-Omegaprosgegrammeni.sc.ss05,
-Omegapsiliprosgegrammeni.sc.ss05,
-Omegadasiaprosgegrammeni.sc.ss05,
-Omegapsilivariaprosgegrammeni.sc.ss05,
-Omegadasiavariaprosgegrammeni.sc.ss05,
-Omegapsilioxiaprosgegrammeni.sc.ss05,
-Omegadasiaoxiaprosgegrammeni.sc.ss05,
-Omegapsiliperispomeniprosgegrammeni.sc.ss05,
-Omegadasiaperispomeniprosgegrammeni.sc.ss05,
-alphaypogegrammeni.sc.ss05,
-alphavariaypogegrammeni.sc.ss05,
-alphaoxiaypogegrammeni.sc.ss05,
-alphapsiliypogegrammeni.sc.ss05,
-alphadasiaypogegrammeni.sc.ss05,
-alphapsilivariaypogegrammeni.sc.ss05,
-alphadasiavariaypogegrammeni.sc.ss05,
-alphapsilioxiaypogegrammeni.sc.ss05,
-alphadasiaoxiaypogegrammeni.sc.ss05,
-alphapsiliperispomeniypogegrammeni.sc.ss05,
-alphadasiaperispomeniypogegrammeni.sc.ss05,
-alphaperispomeniypogegrammeni.sc.ss05,
-etaypogegrammeni.sc.ss05,
-etavariaypogegrammeni.sc.ss05,
-etaoxiaypogegrammeni.sc.ss05,
-etapsiliypogegrammeni.sc.ss05,
-etadasiaypogegrammeni.sc.ss05,
-etapsilivariaypogegrammeni.sc.ss05,
-etadasiavariaypogegrammeni.sc.ss05,
-etapsilioxiaypogegrammeni.sc.ss05,
-etadasiaoxiaypogegrammeni.sc.ss05,
-etapsiliperispomeniypogegrammeni.sc.ss05,
-etadasiaperispomeniypogegrammeni.sc.ss05,
-etaperispomeniypogegrammeni.sc.ss05,
-omegaypogegrammeni.sc.ss05,
-omegavariaypogegrammeni.sc.ss05,
-omegaoxiaypogegrammeni.sc.ss05,
-omegapsiliypogegrammeni.sc.ss05,
-omegadasiaypogegrammeni.sc.ss05,
-omegapsilivariaypogegrammeni.sc.ss05,
-omegadasiavariaypogegrammeni.sc.ss05,
-omegapsilioxiaypogegrammeni.sc.ss05,
-omegadasiaoxiaypogegrammeni.sc.ss05,
-omegapsiliperispomeniypogegrammeni.sc.ss05,
-omegadasiaperispomeniypogegrammeni.sc.ss05,
-omegaperispomeniypogegrammeni.sc.ss05,
-germandbls.alt.sc,
-"be-cy.loclSRB"
-);
-},
-{
-name = "Replace Class";
-value = "siglo1;c d i l m v x c d i l m v x C D I L M V X";
-},
-{
-name = "Remove Features";
-value = (
-c2sc,
-smcp,
-dlig
+a.sc
 );
 }
 );
@@ -230125,5 +229847,5 @@ HV = 20;
 };
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
