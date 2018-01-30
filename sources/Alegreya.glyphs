@@ -1,5 +1,8 @@
 {
 .appVersion = "1075";
+DisplayStrings = (
+"f fi fj fl fk ff ft\012/longs  /longs i /longs j /longs l /longs k /longs/longs  /longs t"
+);
 classes = (
 {
 automatic = 1;
@@ -101,9 +104,8 @@ languagesystem latn TAT;
 languagesystem latn TRK;
 languagesystem latn CRT;
 languagesystem latn AZE;
-languagesystem latn GUA;
-languagesystem latn ESP;
 languagesystem cyrl SRB;
+languagesystem latn ESP;
 ";
 name = Languagesystems;
 },
@@ -537,6 +539,498 @@ sub eight.tf by eight.tosf;
 sub nine.tf by nine.tosf;
 ";
 name = onum;
+},
+{
+automatic = 1;
+code = "sub A by a.sc;
+sub Aacute by aacute.sc;
+sub Abreve by abreve.sc;
+sub Abreveacute by abreveacute.sc;
+sub Abrevedotbelow by abrevedotbelow.sc;
+sub Abrevegrave by abrevegrave.sc;
+sub Abrevehookabove by abrevehookabove.sc;
+sub Abrevetilde by abrevetilde.sc;
+sub Acaron by acaron.sc;
+sub Acircumflex by acircumflex.sc;
+sub Acircumflexacute by acircumflexacute.sc;
+sub Acircumflexdotbelow by acircumflexdotbelow.sc;
+sub Acircumflexgrave by acircumflexgrave.sc;
+sub Acircumflexhookabove by acircumflexhookabove.sc;
+sub Acircumflextilde by acircumflextilde.sc;
+sub Adblgrave by adblgrave.sc;
+sub Adieresis by adieresis.sc;
+sub Adotbelow by adotbelow.sc;
+sub Agrave by agrave.sc;
+sub Ahookabove by ahookabove.sc;
+sub Ainvertedbreve by ainvertedbreve.sc;
+sub Amacron by amacron.sc;
+sub Aogonek by aogonek.sc;
+sub Aring by aring.sc;
+sub Aringacute by aringacute.sc;
+sub Atilde by atilde.sc;
+sub AE by ae.sc;
+sub AEacute by aeacute.sc;
+sub B by b.sc;
+sub C by c.sc;
+sub Cacute by cacute.sc;
+sub Ccaron by ccaron.sc;
+sub Ccedilla by ccedilla.sc;
+sub Ccedillaacute by ccedillaacute.sc;
+sub Ccircumflex by ccircumflex.sc;
+sub Cdotaccent by cdotaccent.sc;
+sub D by d.sc;
+sub DZcaron by dzcaron.sc;
+sub Eth by eth.sc;
+sub Dcaron by dcaron.sc;
+sub Dcroat by dcroat.sc;
+sub Ddotbelow by ddotbelow.sc;
+sub Dlinebelow by dlinebelow.sc;
+sub Dzcaron by dzcaron.sc;
+sub E by e.sc;
+sub Eacute by eacute.sc;
+sub Ebreve by ebreve.sc;
+sub Ecaron by ecaron.sc;
+sub Ecedillabreve by ecedillabreve.sc;
+sub Ecircumflex by ecircumflex.sc;
+sub Ecircumflexacute by ecircumflexacute.sc;
+sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;
+sub Ecircumflexgrave by ecircumflexgrave.sc;
+sub Ecircumflexhookabove by ecircumflexhookabove.sc;
+sub Ecircumflextilde by ecircumflextilde.sc;
+sub Edblgrave by edblgrave.sc;
+sub Edieresis by edieresis.sc;
+sub Edotaccent by edotaccent.sc;
+sub Edotbelow by edotbelow.sc;
+sub Egrave by egrave.sc;
+sub Ehookabove by ehookabove.sc;
+sub Einvertedbreve by einvertedbreve.sc;
+sub Emacron by emacron.sc;
+sub Emacronacute by emacronacute.sc;
+sub Emacrongrave by emacrongrave.sc;
+sub Eogonek by eogonek.sc;
+sub Etilde by etilde.sc;
+sub Ezh by ezh.sc;
+sub Ezhcaron by ezhcaron.sc;
+sub F by f.sc;
+sub G by g.sc;
+sub Gbreve by gbreve.sc;
+sub Gcaron by gcaron.sc;
+sub Gcircumflex by gcircumflex.sc;
+sub Gcommaaccent by gcommaaccent.sc;
+sub Gdotaccent by gdotaccent.sc;
+sub Gmacron by gmacron.sc;
+sub Gstroke by gstroke.sc;
+sub H by h.sc;
+sub Hbar by hbar.sc;
+sub Hbrevebelow by hbrevebelow.sc;
+sub Hcaron by hcaron.sc;
+sub Hcircumflex by hcircumflex.sc;
+sub Hdotbelow by hdotbelow.sc;
+sub I by i.sc;
+sub IJ by ij.sc;
+sub Iacute by iacute.sc;
+sub Ibreve by ibreve.sc;
+sub Icaron by icaron.sc;
+sub Icircumflex by icircumflex.sc;
+sub Idblgrave by idblgrave.sc;
+sub Idieresis by idieresis.sc;
+sub Idieresisacute by idieresisacute.sc;
+sub Idotaccent by idotaccent.sc;
+sub Idotbelow by idotbelow.sc;
+sub Igrave by igrave.sc;
+sub Ihookabove by ihookabove.sc;
+sub Iinvertedbreve by iinvertedbreve.sc;
+sub Imacron by imacron.sc;
+sub Iogonek by iogonek.sc;
+sub Itilde by itilde.sc;
+sub J by j.sc;
+sub Jcircumflex by jcircumflex.sc;
+sub K by k.sc;
+sub Kcaron by kcaron.sc;
+sub Kcommaaccent by kcommaaccent.sc;
+sub L by l.sc;
+sub LJ by lj.sc;
+sub Lacute by lacute.sc;
+sub Lcaron by lcaron.sc;
+sub Lcommaaccent by lcommaaccent.sc;
+sub Ldot by ldot.sc;
+sub Ldotbelow by ldotbelow.sc;
+sub Lj by lj.sc;
+sub Llinebelow by llinebelow.sc;
+sub Lslash by lslash.sc;
+sub M by m.sc;
+sub Mdotbelow by mdotbelow.sc;
+sub N by n.sc;
+sub NJ by nj.sc;
+sub Nacute by nacute.sc;
+sub Ncaron by ncaron.sc;
+sub Ncommaaccent by ncommaaccent.sc;
+sub Ndotaccent by ndotaccent.sc;
+sub Ndotbelow by ndotbelow.sc;
+sub Eng by eng.sc;
+sub Nj by nj.sc;
+sub Nlinebelow by nlinebelow.sc;
+sub Ntilde by ntilde.sc;
+sub O by o.sc;
+sub Oacute by oacute.sc;
+sub Obreve by obreve.sc;
+sub Ocaron by ocaron.sc;
+sub Ocircumflex by ocircumflex.sc;
+sub Ocircumflexacute by ocircumflexacute.sc;
+sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;
+sub Ocircumflexgrave by ocircumflexgrave.sc;
+sub Ocircumflexhookabove by ocircumflexhookabove.sc;
+sub Ocircumflextilde by ocircumflextilde.sc;
+sub Odblgrave by odblgrave.sc;
+sub Odieresis by odieresis.sc;
+sub Odieresismacron by odieresismacron.sc;
+sub Odotaccentmacron by odotaccentmacron.sc;
+sub Odotbelow by odotbelow.sc;
+sub Ograve by ograve.sc;
+sub Ohookabove by ohookabove.sc;
+sub Ohorn by ohorn.sc;
+sub Ohornacute by ohornacute.sc;
+sub Ohorndotbelow by ohorndotbelow.sc;
+sub Ohorngrave by ohorngrave.sc;
+sub Ohornhookabove by ohornhookabove.sc;
+sub Ohorntilde by ohorntilde.sc;
+sub Ohungarumlaut by ohungarumlaut.sc;
+sub Oinvertedbreve by oinvertedbreve.sc;
+sub Omacron by omacron.sc;
+sub Omacronacute by omacronacute.sc;
+sub Omacrongrave by omacrongrave.sc;
+sub Oogonek by oogonek.sc;
+sub Oslash by oslash.sc;
+sub Oslashacute by oslashacute.sc;
+sub Otilde by otilde.sc;
+sub Otildeacute by otildeacute.sc;
+sub Otildedieresis by otildedieresis.sc;
+sub Otildemacron by otildemacron.sc;
+sub OE by oe.sc;
+sub P by p.sc;
+sub Thorn by thorn.sc;
+sub Q by q.sc;
+sub R by r.sc;
+sub Racute by racute.sc;
+sub Rcaron by rcaron.sc;
+sub Rcommaaccent by rcommaaccent.sc;
+sub Rdblgrave by rdblgrave.sc;
+sub Rdotbelow by rdotbelow.sc;
+sub Rinvertedbreve by rinvertedbreve.sc;
+sub Rlinebelow by rlinebelow.sc;
+sub S by s.sc;
+sub Sacute by sacute.sc;
+sub Sacutedotaccent by sacutedotaccent.sc;
+sub Scaron by scaron.sc;
+sub Scarondotaccent by scarondotaccent.sc;
+sub Scedilla by scedilla.sc;
+sub Scircumflex by scircumflex.sc;
+sub Scommaaccent by scommaaccent.sc;
+sub Sdotaccent by sdotaccent.sc;
+sub Sdotbelow by sdotbelow.sc;
+sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;
+sub Germandbls by germandbls.sc;
+sub Schwa by schwa.sc;
+sub T by t.sc;
+sub Tbar by tbar.sc;
+sub Tcaron by tcaron.sc;
+sub Tcedilla by tcedilla.sc;
+sub Tcommaaccent by tcommaaccent.sc;
+sub Tdotbelow by tdotbelow.sc;
+sub Tlinebelow by tlinebelow.sc;
+sub U by u.sc;
+sub Uacute by uacute.sc;
+sub Ubreve by ubreve.sc;
+sub Ucaron by ucaron.sc;
+sub Ucircumflex by ucircumflex.sc;
+sub Udblgrave by udblgrave.sc;
+sub Udieresis by udieresis.sc;
+sub Udieresisacute by udieresisacute.sc;
+sub Udieresiscaron by udieresiscaron.sc;
+sub Udieresisgrave by udieresisgrave.sc;
+sub Udieresismacron by udieresismacron.sc;
+sub Udotbelow by udotbelow.sc;
+sub Ugrave by ugrave.sc;
+sub Uhookabove by uhookabove.sc;
+sub Uhorn by uhorn.sc;
+sub Uhornacute by uhornacute.sc;
+sub Uhorndotbelow by uhorndotbelow.sc;
+sub Uhorngrave by uhorngrave.sc;
+sub Uhornhookabove by uhornhookabove.sc;
+sub Uhorntilde by uhorntilde.sc;
+sub Uhungarumlaut by uhungarumlaut.sc;
+sub Uinvertedbreve by uinvertedbreve.sc;
+sub Umacron by umacron.sc;
+sub Umacrondieresis by umacrondieresis.sc;
+sub Uogonek by uogonek.sc;
+sub Uring by uring.sc;
+sub Utilde by utilde.sc;
+sub Utildeacute by utildeacute.sc;
+sub V by v.sc;
+sub W by w.sc;
+sub Wacute by wacute.sc;
+sub Wcircumflex by wcircumflex.sc;
+sub Wdieresis by wdieresis.sc;
+sub Wgrave by wgrave.sc;
+sub X by x.sc;
+sub Y by y.sc;
+sub Yacute by yacute.sc;
+sub Ycircumflex by ycircumflex.sc;
+sub Ydieresis by ydieresis.sc;
+sub Ydotaccent by ydotaccent.sc;
+sub Ydotbelow by ydotbelow.sc;
+sub Ygrave by ygrave.sc;
+sub Yhookabove by yhookabove.sc;
+sub Ymacron by ymacron.sc;
+sub Ytilde by ytilde.sc;
+sub Z by z.sc;
+sub Zacute by zacute.sc;
+sub Zcaron by zcaron.sc;
+sub Zdotaccent by zdotaccent.sc;
+sub Zdotbelow by zdotbelow.sc;
+sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;
+sub Germandbls.alt by germandbls.alt.sc;
+sub A-cy by a-cy.sc;
+sub Be-cy by be-cy.sc;
+sub Ve-cy by ve-cy.sc;
+sub Ge-cy by ge-cy.sc;
+sub Gje-cy by gje-cy.sc;
+sub Gheupturn-cy by gheupturn-cy.sc;
+sub De-cy by de-cy.sc;
+sub Ie-cy by ie-cy.sc;
+sub Iegrave-cy by iegrave-cy.sc;
+sub Io-cy by io-cy.sc;
+sub Zhe-cy by zhe-cy.sc;
+sub Ze-cy by ze-cy.sc;
+sub Ii-cy by ii-cy.sc;
+sub Iishort-cy by iishort-cy.sc;
+sub Iigrave-cy by iigrave-cy.sc;
+sub Ka-cy by ka-cy.sc;
+sub Kje-cy by kje-cy.sc;
+sub El-cy by el-cy.sc;
+sub Em-cy by em-cy.sc;
+sub En-cy by en-cy.sc;
+sub O-cy by o-cy.sc;
+sub Pe-cy by pe-cy.sc;
+sub Er-cy by er-cy.sc;
+sub Es-cy by es-cy.sc;
+sub Te-cy by te-cy.sc;
+sub U-cy by u-cy.sc;
+sub Ushort-cy by ushort-cy.sc;
+sub Ef-cy by ef-cy.sc;
+sub Ha-cy by ha-cy.sc;
+sub Che-cy by che-cy.sc;
+sub Tse-cy by tse-cy.sc;
+sub Sha-cy by sha-cy.sc;
+sub Shcha-cy by shcha-cy.sc;
+sub Dzhe-cy by dzhe-cy.sc;
+sub Softsign-cy by softsign-cy.sc;
+sub Hardsign-cy by hardsign-cy.sc;
+sub Yeru-cy by yeru-cy.sc;
+sub Lje-cy by lje-cy.sc;
+sub Nje-cy by nje-cy.sc;
+sub Dze-cy by dze-cy.sc;
+sub E-cy by e-cy.sc;
+sub Ereversed-cy by ereversed-cy.sc;
+sub I-cy by i-cy.sc;
+sub Yi-cy by yi-cy.sc;
+sub Je-cy by je-cy.sc;
+sub Tshe-cy by tshe-cy.sc;
+sub Iu-cy by iu-cy.sc;
+sub Ia-cy by ia-cy.sc;
+sub Dje-cy by dje-cy.sc;
+sub Yat-cy by yat-cy.sc;
+sub Yusbig-cy by yusbig-cy.sc;
+sub Fita-cy by fita-cy.sc;
+sub Izhitsa-cy by izhitsa-cy.sc;
+sub Ghestroke-cy by ghestroke-cy.sc;
+sub Ghemiddlehook-cy by ghemiddlehook-cy.sc;
+sub Zhedescender-cy by zhedescender-cy.sc;
+sub Zedescender-cy by zedescender-cy.sc;
+sub Kadescender-cy by kadescender-cy.sc;
+sub Kaverticalstroke-cy by kaverticalstroke-cy.sc;
+sub Kabashkir-cy by kabashkir-cy.sc;
+sub Endescender-cy by endescender-cy.sc;
+sub Enghe-cy by enghe-cy.sc;
+sub Pedescender-cy by pedescender-cy.sc;
+sub Esdescender-cy by esdescender-cy.sc;
+sub Ustrait-cy by ustrait-cy.sc;
+sub Ustraitstroke-cy by ustraitstroke-cy.sc;
+sub Hadescender-cy by hadescender-cy.sc;
+sub Chedescender-cy by chedescender-cy.sc;
+sub Cheverticalstroke-cy by cheverticalstroke-cy.sc;
+sub Shha-cy by shha-cy.sc;
+sub Palochka-cy by palochka-cy.sc;
+sub Zhebreve-cy by zhebreve-cy.sc;
+sub Entail-cy by entail-cy.sc;
+sub Chekhakassian-cy by chekhakassian-cy.sc;
+sub Abreve-cy by abreve-cy.sc;
+sub Adieresis-cy by adieresis-cy.sc;
+sub Aie-cy by aie-cy.sc;
+sub Iebreve-cy by iebreve-cy.sc;
+sub Schwa-cy by schwa-cy.sc;
+sub Zhedieresis-cy by zhedieresis-cy.sc;
+sub Zedieresis-cy by zedieresis-cy.sc;
+sub Imacron-cy by imacron-cy.sc;
+sub Idieresis-cy by idieresis-cy.sc;
+sub Odieresis-cy by odieresis-cy.sc;
+sub Obarred-cy by obarred-cy.sc;
+sub Umacron-cy by umacron-cy.sc;
+sub Udieresis-cy by udieresis-cy.sc;
+sub Uhungarumlaut-cy by uhungarumlaut-cy.sc;
+sub Chedieresis-cy by chedieresis-cy.sc;
+sub Gedescender-cy by gedescender-cy.sc;
+sub Yerudieresis-cy by yerudieresis-cy.sc;
+sub Qa-cy by qa-cy.sc;
+sub We-cy by we-cy.sc;
+sub Ghestroke-cy.loclBSH by ghestroke-cy.loclBSH.sc;
+sub Zedescender-cy.loclBSH by zedescender-cy.loclBSH.sc;
+sub Esdescender-cy.loclCHU by esdescender-cy.loclCHU.sc;
+sub Alpha by alpha.sc;
+sub Beta by beta.sc;
+sub Gamma by gamma.sc;
+sub Delta by delta.sc;
+sub Epsilon by epsilon.sc;
+sub Zeta by zeta.sc;
+sub Eta by eta.sc;
+sub Theta by theta.sc;
+sub Iota by iota.sc;
+sub Kappa by kappa.sc;
+sub Lambda by lambda.sc;
+sub Mu by mu.sc;
+sub Nu by nu.sc;
+sub Xi by xi.sc;
+sub Omicron by omicron.sc;
+sub Pi by pi.sc;
+sub Rho by rho.sc;
+sub Sigma by sigma.sc;
+sub Tau by tau.sc;
+sub Upsilon by upsilon.sc;
+sub Phi by phi.sc;
+sub Chi by chi.sc;
+sub Psi by psi.sc;
+sub Omega by omega.sc;
+sub Alphatonos by alphatonos.sc;
+sub Epsilontonos by epsilontonos.sc;
+sub Etatonos by etatonos.sc;
+sub Iotatonos by iotatonos.sc;
+sub Omicrontonos by omicrontonos.sc;
+sub Upsilontonos by upsilontonos.sc;
+sub Omegatonos by omegatonos.sc;
+sub Iotadieresis by iotadieresis.sc;
+sub Upsilondieresis by upsilondieresis.sc;
+sub KaiSymbol by kaiSymbol.sc;
+sub Alphapsili by alphapsili.sc;
+sub Alphadasia by alphadasia.sc;
+sub Alphapsilivaria by alphapsilivaria.sc;
+sub Alphadasiavaria by alphadasiavaria.sc;
+sub Alphapsilioxia by alphapsilioxia.sc;
+sub Alphadasiaoxia by alphadasiaoxia.sc;
+sub Alphapsiliperispomeni by alphapsiliperispomeni.sc;
+sub Alphadasiaperispomeni by alphadasiaperispomeni.sc;
+sub Alphavaria by alphavaria.sc;
+sub Alphaoxia by alphaoxia.sc;
+sub Alphavrachy by alphavrachy.sc;
+sub Alphamacron by alphamacron.sc;
+sub Alphaprosgegrammeni by alphaypogegrammeni.sc;
+sub Alphapsiliprosgegrammeni by alphapsiliypogegrammeni.sc;
+sub Alphadasiaprosgegrammeni by alphadasiaypogegrammeni.sc;
+sub Alphapsilivariaprosgegrammeni by alphapsilivariaypogegrammeni.sc;
+sub Alphadasiavariaprosgegrammeni by alphadasiavariaypogegrammeni.sc;
+sub Alphapsilioxiaprosgegrammeni by alphapsilioxiaypogegrammeni.sc;
+sub Alphadasiaoxiaprosgegrammeni by alphadasiaoxiaypogegrammeni.sc;
+sub Alphapsiliperispomeniprosgegrammeni by alphapsiliperispomeniypogegrammeni.sc;
+sub Alphadasiaperispomeniprosgegrammeni by alphadasiaperispomeniypogegrammeni.sc;
+sub Epsilonpsili by epsilonpsili.sc;
+sub Epsilondasia by epsilondasia.sc;
+sub Epsilonpsilivaria by epsilonpsilivaria.sc;
+sub Epsilondasiavaria by epsilondasiavaria.sc;
+sub Epsilonpsilioxia by epsilonpsilioxia.sc;
+sub Epsilondasiaoxia by epsilondasiaoxia.sc;
+sub Epsilonvaria by epsilonvaria.sc;
+sub Epsilonoxia by epsilonoxia.sc;
+sub Etapsili by etapsili.sc;
+sub Etadasia by etadasia.sc;
+sub Etapsilivaria by etapsilivaria.sc;
+sub Etadasiavaria by etadasiavaria.sc;
+sub Etapsilioxia by etapsilioxia.sc;
+sub Etadasiaoxia by etadasiaoxia.sc;
+sub Etapsiliperispomeni by etapsiliperispomeni.sc;
+sub Etadasiaperispomeni by etadasiaperispomeni.sc;
+sub Etavaria by etavaria.sc;
+sub Etaoxia by etaoxia.sc;
+sub Etaprosgegrammeni by etaypogegrammeni.sc;
+sub Etapsiliprosgegrammeni by etapsiliypogegrammeni.sc;
+sub Etadasiaprosgegrammeni by etadasiaypogegrammeni.sc;
+sub Etapsilivariaprosgegrammeni by etapsilivariaypogegrammeni.sc;
+sub Etadasiavariaprosgegrammeni by etadasiavariaypogegrammeni.sc;
+sub Etapsilioxiaprosgegrammeni by etapsilioxiaypogegrammeni.sc;
+sub Etadasiaoxiaprosgegrammeni by etadasiaoxiaypogegrammeni.sc;
+sub Etapsiliperispomeniprosgegrammeni by etapsiliperispomeniypogegrammeni.sc;
+sub Etadasiaperispomeniprosgegrammeni by etadasiaperispomeniypogegrammeni.sc;
+sub Iotapsili by iotapsili.sc;
+sub Iotadasia by iotadasia.sc;
+sub Iotapsilivaria by iotapsilivaria.sc;
+sub Iotadasiavaria by iotadasiavaria.sc;
+sub Iotapsilioxia by iotapsilioxia.sc;
+sub Iotadasiaoxia by iotadasiaoxia.sc;
+sub Iotapsiliperispomeni by iotapsiliperispomeni.sc;
+sub Iotadasiaperispomeni by iotadasiaperispomeni.sc;
+sub Iotavaria by iotavaria.sc;
+sub Iotaoxia by iotaoxia.sc;
+sub Iotavrachy by iotavrachy.sc;
+sub Iotamacron by iotamacron.sc;
+sub Omicronpsili by omicronpsili.sc;
+sub Omicrondasia by omicrondasia.sc;
+sub Omicronpsilivaria by omicronpsilivaria.sc;
+sub Omicrondasiavaria by omicrondasiavaria.sc;
+sub Omicronpsilioxia by omicronpsilioxia.sc;
+sub Omicrondasiaoxia by omicrondasiaoxia.sc;
+sub Omicronvaria by omicronvaria.sc;
+sub Omicronoxia by omicronoxia.sc;
+sub Rhodasia by rhodasia.sc;
+sub Upsilondasia by upsilondasia.sc;
+sub Upsilondasiavaria by upsilondasiavaria.sc;
+sub Upsilondasiaoxia by upsilondasiaoxia.sc;
+sub Upsilondasiaperispomeni by upsilondasiaperispomeni.sc;
+sub Upsilonvaria by upsilonvaria.sc;
+sub Upsilonoxia by upsilonoxia.sc;
+sub Upsilonvrachy by upsilonvrachy.sc;
+sub Upsilonmacron by upsilonmacron.sc;
+sub Omegapsili by omegapsili.sc;
+sub Omegadasia by omegadasia.sc;
+sub Omegapsilivaria by omegapsilivaria.sc;
+sub Omegadasiavaria by omegadasiavaria.sc;
+sub Omegapsilioxia by omegapsilioxia.sc;
+sub Omegadasiaoxia by omegadasiaoxia.sc;
+sub Omegapsiliperispomeni by omegapsiliperispomeni.sc;
+sub Omegadasiaperispomeni by omegadasiaperispomeni.sc;
+sub Omegavaria by omegavaria.sc;
+sub Omegaoxia by omegaoxia.sc;
+sub Omegaprosgegrammeni by omegaypogegrammeni.sc;
+sub Omegapsiliprosgegrammeni by omegapsiliypogegrammeni.sc;
+sub Omegadasiaprosgegrammeni by omegadasiaypogegrammeni.sc;
+sub Omegapsilivariaprosgegrammeni by omegapsilivariaypogegrammeni.sc;
+sub Omegadasiavariaprosgegrammeni by omegadasiavariaypogegrammeni.sc;
+sub Omegapsilioxiaprosgegrammeni by omegapsilioxiaypogegrammeni.sc;
+sub Omegadasiaoxiaprosgegrammeni by omegadasiaoxiaypogegrammeni.sc;
+sub Omegapsiliperispomeniprosgegrammeni by omegapsiliperispomeniypogegrammeni.sc;
+sub Omegadasiaperispomeniprosgegrammeni by omegadasiaperispomeniypogegrammeni.sc;
+sub exclam by exclam.sc;
+sub exclamdown by exclamdown.sc;
+sub question by question.sc;
+sub questiondown by questiondown.sc;
+sub quotedbl by quotedbl.sc;
+sub quotedblleft by quotedblleft.sc;
+sub quotedblright by quotedblright.sc;
+sub quoteleft by quoteleft.sc;
+sub quoteright by quoteright.sc;
+sub quotesingle by quotesingle.sc;
+sub ampersand by ampersand.sc;
+sub gdieresis by gdieresis.sc;
+sub gtilde by gtilde.sc;
+";
+name = c2sc;
 },
 {
 automatic = 1;
@@ -1200,6 +1694,9 @@ sub f [i] by fi;
 sub f l by fl;
 sub f j by f_j;
 
+sub longs i' by idotless;
+sub longs j' by jdotless;
+
 script latn;
 language ESP;
 sub [S s.sc s] [I i.sc i] [G g.sc g] [L l.sc l] [O o.sc o] space @siglo1' @puntuacion by @siglo2;
@@ -1302,498 +1799,6 @@ sub equal greater by rightBlackTriangle;
 sub asciicircum equal by downBlackTriangle;";
 name = ss04;
 notes = "Name: Dynamic arrows and triangles";
-},
-{
-automatic = 1;
-code = "sub A by a.sc;
-sub Aacute by aacute.sc;
-sub Abreve by abreve.sc;
-sub Abreveacute by abreveacute.sc;
-sub Abrevedotbelow by abrevedotbelow.sc;
-sub Abrevegrave by abrevegrave.sc;
-sub Abrevehookabove by abrevehookabove.sc;
-sub Abrevetilde by abrevetilde.sc;
-sub Acaron by acaron.sc;
-sub Acircumflex by acircumflex.sc;
-sub Acircumflexacute by acircumflexacute.sc;
-sub Acircumflexdotbelow by acircumflexdotbelow.sc;
-sub Acircumflexgrave by acircumflexgrave.sc;
-sub Acircumflexhookabove by acircumflexhookabove.sc;
-sub Acircumflextilde by acircumflextilde.sc;
-sub Adblgrave by adblgrave.sc;
-sub Adieresis by adieresis.sc;
-sub Adotbelow by adotbelow.sc;
-sub Agrave by agrave.sc;
-sub Ahookabove by ahookabove.sc;
-sub Ainvertedbreve by ainvertedbreve.sc;
-sub Amacron by amacron.sc;
-sub Aogonek by aogonek.sc;
-sub Aring by aring.sc;
-sub Aringacute by aringacute.sc;
-sub Atilde by atilde.sc;
-sub AE by ae.sc;
-sub AEacute by aeacute.sc;
-sub B by b.sc;
-sub C by c.sc;
-sub Cacute by cacute.sc;
-sub Ccaron by ccaron.sc;
-sub Ccedilla by ccedilla.sc;
-sub Ccedillaacute by ccedillaacute.sc;
-sub Ccircumflex by ccircumflex.sc;
-sub Cdotaccent by cdotaccent.sc;
-sub D by d.sc;
-sub DZcaron by dzcaron.sc;
-sub Eth by eth.sc;
-sub Dcaron by dcaron.sc;
-sub Dcroat by dcroat.sc;
-sub Ddotbelow by ddotbelow.sc;
-sub Dlinebelow by dlinebelow.sc;
-sub Dzcaron by dzcaron.sc;
-sub E by e.sc;
-sub Eacute by eacute.sc;
-sub Ebreve by ebreve.sc;
-sub Ecaron by ecaron.sc;
-sub Ecedillabreve by ecedillabreve.sc;
-sub Ecircumflex by ecircumflex.sc;
-sub Ecircumflexacute by ecircumflexacute.sc;
-sub Ecircumflexdotbelow by ecircumflexdotbelow.sc;
-sub Ecircumflexgrave by ecircumflexgrave.sc;
-sub Ecircumflexhookabove by ecircumflexhookabove.sc;
-sub Ecircumflextilde by ecircumflextilde.sc;
-sub Edblgrave by edblgrave.sc;
-sub Edieresis by edieresis.sc;
-sub Edotaccent by edotaccent.sc;
-sub Edotbelow by edotbelow.sc;
-sub Egrave by egrave.sc;
-sub Ehookabove by ehookabove.sc;
-sub Einvertedbreve by einvertedbreve.sc;
-sub Emacron by emacron.sc;
-sub Emacronacute by emacronacute.sc;
-sub Emacrongrave by emacrongrave.sc;
-sub Eogonek by eogonek.sc;
-sub Etilde by etilde.sc;
-sub Ezh by ezh.sc;
-sub Ezhcaron by ezhcaron.sc;
-sub F by f.sc;
-sub G by g.sc;
-sub Gbreve by gbreve.sc;
-sub Gcaron by gcaron.sc;
-sub Gcircumflex by gcircumflex.sc;
-sub Gcommaaccent by gcommaaccent.sc;
-sub Gdotaccent by gdotaccent.sc;
-sub Gmacron by gmacron.sc;
-sub Gstroke by gstroke.sc;
-sub H by h.sc;
-sub Hbar by hbar.sc;
-sub Hbrevebelow by hbrevebelow.sc;
-sub Hcaron by hcaron.sc;
-sub Hcircumflex by hcircumflex.sc;
-sub Hdotbelow by hdotbelow.sc;
-sub I by i.sc;
-sub IJ by ij.sc;
-sub Iacute by iacute.sc;
-sub Ibreve by ibreve.sc;
-sub Icaron by icaron.sc;
-sub Icircumflex by icircumflex.sc;
-sub Idblgrave by idblgrave.sc;
-sub Idieresis by idieresis.sc;
-sub Idieresisacute by idieresisacute.sc;
-sub Idotaccent by idotaccent.sc;
-sub Idotbelow by idotbelow.sc;
-sub Igrave by igrave.sc;
-sub Ihookabove by ihookabove.sc;
-sub Iinvertedbreve by iinvertedbreve.sc;
-sub Imacron by imacron.sc;
-sub Iogonek by iogonek.sc;
-sub Itilde by itilde.sc;
-sub J by j.sc;
-sub Jcircumflex by jcircumflex.sc;
-sub K by k.sc;
-sub Kcaron by kcaron.sc;
-sub Kcommaaccent by kcommaaccent.sc;
-sub L by l.sc;
-sub LJ by lj.sc;
-sub Lacute by lacute.sc;
-sub Lcaron by lcaron.sc;
-sub Lcommaaccent by lcommaaccent.sc;
-sub Ldot by ldot.sc;
-sub Ldotbelow by ldotbelow.sc;
-sub Lj by lj.sc;
-sub Llinebelow by llinebelow.sc;
-sub Lslash by lslash.sc;
-sub M by m.sc;
-sub Mdotbelow by mdotbelow.sc;
-sub N by n.sc;
-sub NJ by nj.sc;
-sub Nacute by nacute.sc;
-sub Ncaron by ncaron.sc;
-sub Ncommaaccent by ncommaaccent.sc;
-sub Ndotaccent by ndotaccent.sc;
-sub Ndotbelow by ndotbelow.sc;
-sub Eng by eng.sc;
-sub Nj by nj.sc;
-sub Nlinebelow by nlinebelow.sc;
-sub Ntilde by ntilde.sc;
-sub O by o.sc;
-sub Oacute by oacute.sc;
-sub Obreve by obreve.sc;
-sub Ocaron by ocaron.sc;
-sub Ocircumflex by ocircumflex.sc;
-sub Ocircumflexacute by ocircumflexacute.sc;
-sub Ocircumflexdotbelow by ocircumflexdotbelow.sc;
-sub Ocircumflexgrave by ocircumflexgrave.sc;
-sub Ocircumflexhookabove by ocircumflexhookabove.sc;
-sub Ocircumflextilde by ocircumflextilde.sc;
-sub Odblgrave by odblgrave.sc;
-sub Odieresis by odieresis.sc;
-sub Odieresismacron by odieresismacron.sc;
-sub Odotaccentmacron by odotaccentmacron.sc;
-sub Odotbelow by odotbelow.sc;
-sub Ograve by ograve.sc;
-sub Ohookabove by ohookabove.sc;
-sub Ohorn by ohorn.sc;
-sub Ohornacute by ohornacute.sc;
-sub Ohorndotbelow by ohorndotbelow.sc;
-sub Ohorngrave by ohorngrave.sc;
-sub Ohornhookabove by ohornhookabove.sc;
-sub Ohorntilde by ohorntilde.sc;
-sub Ohungarumlaut by ohungarumlaut.sc;
-sub Oinvertedbreve by oinvertedbreve.sc;
-sub Omacron by omacron.sc;
-sub Omacronacute by omacronacute.sc;
-sub Omacrongrave by omacrongrave.sc;
-sub Oogonek by oogonek.sc;
-sub Oslash by oslash.sc;
-sub Oslashacute by oslashacute.sc;
-sub Otilde by otilde.sc;
-sub Otildeacute by otildeacute.sc;
-sub Otildedieresis by otildedieresis.sc;
-sub Otildemacron by otildemacron.sc;
-sub OE by oe.sc;
-sub P by p.sc;
-sub Thorn by thorn.sc;
-sub Q by q.sc;
-sub R by r.sc;
-sub Racute by racute.sc;
-sub Rcaron by rcaron.sc;
-sub Rcommaaccent by rcommaaccent.sc;
-sub Rdblgrave by rdblgrave.sc;
-sub Rdotbelow by rdotbelow.sc;
-sub Rinvertedbreve by rinvertedbreve.sc;
-sub Rlinebelow by rlinebelow.sc;
-sub S by s.sc;
-sub Sacute by sacute.sc;
-sub Sacutedotaccent by sacutedotaccent.sc;
-sub Scaron by scaron.sc;
-sub Scarondotaccent by scarondotaccent.sc;
-sub Scedilla by scedilla.sc;
-sub Scircumflex by scircumflex.sc;
-sub Scommaaccent by scommaaccent.sc;
-sub Sdotaccent by sdotaccent.sc;
-sub Sdotbelow by sdotbelow.sc;
-sub Sdotbelowdotaccent by sdotbelowdotaccent.sc;
-sub Germandbls by germandbls.sc;
-sub Schwa by schwa.sc;
-sub T by t.sc;
-sub Tbar by tbar.sc;
-sub Tcaron by tcaron.sc;
-sub Tcedilla by tcedilla.sc;
-sub Tcommaaccent by tcommaaccent.sc;
-sub Tdotbelow by tdotbelow.sc;
-sub Tlinebelow by tlinebelow.sc;
-sub U by u.sc;
-sub Uacute by uacute.sc;
-sub Ubreve by ubreve.sc;
-sub Ucaron by ucaron.sc;
-sub Ucircumflex by ucircumflex.sc;
-sub Udblgrave by udblgrave.sc;
-sub Udieresis by udieresis.sc;
-sub Udieresisacute by udieresisacute.sc;
-sub Udieresiscaron by udieresiscaron.sc;
-sub Udieresisgrave by udieresisgrave.sc;
-sub Udieresismacron by udieresismacron.sc;
-sub Udotbelow by udotbelow.sc;
-sub Ugrave by ugrave.sc;
-sub Uhookabove by uhookabove.sc;
-sub Uhorn by uhorn.sc;
-sub Uhornacute by uhornacute.sc;
-sub Uhorndotbelow by uhorndotbelow.sc;
-sub Uhorngrave by uhorngrave.sc;
-sub Uhornhookabove by uhornhookabove.sc;
-sub Uhorntilde by uhorntilde.sc;
-sub Uhungarumlaut by uhungarumlaut.sc;
-sub Uinvertedbreve by uinvertedbreve.sc;
-sub Umacron by umacron.sc;
-sub Umacrondieresis by umacrondieresis.sc;
-sub Uogonek by uogonek.sc;
-sub Uring by uring.sc;
-sub Utilde by utilde.sc;
-sub Utildeacute by utildeacute.sc;
-sub V by v.sc;
-sub W by w.sc;
-sub Wacute by wacute.sc;
-sub Wcircumflex by wcircumflex.sc;
-sub Wdieresis by wdieresis.sc;
-sub Wgrave by wgrave.sc;
-sub X by x.sc;
-sub Y by y.sc;
-sub Yacute by yacute.sc;
-sub Ycircumflex by ycircumflex.sc;
-sub Ydieresis by ydieresis.sc;
-sub Ydotaccent by ydotaccent.sc;
-sub Ydotbelow by ydotbelow.sc;
-sub Ygrave by ygrave.sc;
-sub Yhookabove by yhookabove.sc;
-sub Ymacron by ymacron.sc;
-sub Ytilde by ytilde.sc;
-sub Z by z.sc;
-sub Zacute by zacute.sc;
-sub Zcaron by zcaron.sc;
-sub Zdotaccent by zdotaccent.sc;
-sub Zdotbelow by zdotbelow.sc;
-sub Iacute_J.loclNLD by iacute_j.loclNLD.sc;
-sub Germandbls.alt by germandbls.alt.sc;
-sub A-cy by a-cy.sc;
-sub Be-cy by be-cy.sc;
-sub Ve-cy by ve-cy.sc;
-sub Ge-cy by ge-cy.sc;
-sub Gje-cy by gje-cy.sc;
-sub Gheupturn-cy by gheupturn-cy.sc;
-sub De-cy by de-cy.sc;
-sub Ie-cy by ie-cy.sc;
-sub Iegrave-cy by iegrave-cy.sc;
-sub Io-cy by io-cy.sc;
-sub Zhe-cy by zhe-cy.sc;
-sub Ze-cy by ze-cy.sc;
-sub Ii-cy by ii-cy.sc;
-sub Iishort-cy by iishort-cy.sc;
-sub Iigrave-cy by iigrave-cy.sc;
-sub Ka-cy by ka-cy.sc;
-sub Kje-cy by kje-cy.sc;
-sub El-cy by el-cy.sc;
-sub Em-cy by em-cy.sc;
-sub En-cy by en-cy.sc;
-sub O-cy by o-cy.sc;
-sub Pe-cy by pe-cy.sc;
-sub Er-cy by er-cy.sc;
-sub Es-cy by es-cy.sc;
-sub Te-cy by te-cy.sc;
-sub U-cy by u-cy.sc;
-sub Ushort-cy by ushort-cy.sc;
-sub Ef-cy by ef-cy.sc;
-sub Ha-cy by ha-cy.sc;
-sub Che-cy by che-cy.sc;
-sub Tse-cy by tse-cy.sc;
-sub Sha-cy by sha-cy.sc;
-sub Shcha-cy by shcha-cy.sc;
-sub Dzhe-cy by dzhe-cy.sc;
-sub Softsign-cy by softsign-cy.sc;
-sub Hardsign-cy by hardsign-cy.sc;
-sub Yeru-cy by yeru-cy.sc;
-sub Lje-cy by lje-cy.sc;
-sub Nje-cy by nje-cy.sc;
-sub Dze-cy by dze-cy.sc;
-sub E-cy by e-cy.sc;
-sub Ereversed-cy by ereversed-cy.sc;
-sub I-cy by i-cy.sc;
-sub Yi-cy by yi-cy.sc;
-sub Je-cy by je-cy.sc;
-sub Tshe-cy by tshe-cy.sc;
-sub Iu-cy by iu-cy.sc;
-sub Ia-cy by ia-cy.sc;
-sub Dje-cy by dje-cy.sc;
-sub Yat-cy by yat-cy.sc;
-sub Yusbig-cy by yusbig-cy.sc;
-sub Fita-cy by fita-cy.sc;
-sub Izhitsa-cy by izhitsa-cy.sc;
-sub Ghestroke-cy by ghestroke-cy.sc;
-sub Ghemiddlehook-cy by ghemiddlehook-cy.sc;
-sub Zhedescender-cy by zhedescender-cy.sc;
-sub Zedescender-cy by zedescender-cy.sc;
-sub Kadescender-cy by kadescender-cy.sc;
-sub Kaverticalstroke-cy by kaverticalstroke-cy.sc;
-sub Kabashkir-cy by kabashkir-cy.sc;
-sub Endescender-cy by endescender-cy.sc;
-sub Enghe-cy by enghe-cy.sc;
-sub Pedescender-cy by pedescender-cy.sc;
-sub Esdescender-cy by esdescender-cy.sc;
-sub Ustrait-cy by ustrait-cy.sc;
-sub Ustraitstroke-cy by ustraitstroke-cy.sc;
-sub Hadescender-cy by hadescender-cy.sc;
-sub Chedescender-cy by chedescender-cy.sc;
-sub Cheverticalstroke-cy by cheverticalstroke-cy.sc;
-sub Shha-cy by shha-cy.sc;
-sub Palochka-cy by palochka-cy.sc;
-sub Zhebreve-cy by zhebreve-cy.sc;
-sub Entail-cy by entail-cy.sc;
-sub Chekhakassian-cy by chekhakassian-cy.sc;
-sub Abreve-cy by abreve-cy.sc;
-sub Adieresis-cy by adieresis-cy.sc;
-sub Aie-cy by aie-cy.sc;
-sub Iebreve-cy by iebreve-cy.sc;
-sub Schwa-cy by schwa-cy.sc;
-sub Zhedieresis-cy by zhedieresis-cy.sc;
-sub Zedieresis-cy by zedieresis-cy.sc;
-sub Imacron-cy by imacron-cy.sc;
-sub Idieresis-cy by idieresis-cy.sc;
-sub Odieresis-cy by odieresis-cy.sc;
-sub Obarred-cy by obarred-cy.sc;
-sub Umacron-cy by umacron-cy.sc;
-sub Udieresis-cy by udieresis-cy.sc;
-sub Uhungarumlaut-cy by uhungarumlaut-cy.sc;
-sub Chedieresis-cy by chedieresis-cy.sc;
-sub Gedescender-cy by gedescender-cy.sc;
-sub Yerudieresis-cy by yerudieresis-cy.sc;
-sub Qa-cy by qa-cy.sc;
-sub We-cy by we-cy.sc;
-sub Ghestroke-cy.loclBSH by ghestroke-cy.loclBSH.sc;
-sub Zedescender-cy.loclBSH by zedescender-cy.loclBSH.sc;
-sub Esdescender-cy.loclCHU by esdescender-cy.loclCHU.sc;
-sub Alpha by alpha.sc;
-sub Beta by beta.sc;
-sub Gamma by gamma.sc;
-sub Delta by delta.sc;
-sub Epsilon by epsilon.sc;
-sub Zeta by zeta.sc;
-sub Eta by eta.sc;
-sub Theta by theta.sc;
-sub Iota by iota.sc;
-sub Kappa by kappa.sc;
-sub Lambda by lambda.sc;
-sub Mu by mu.sc;
-sub Nu by nu.sc;
-sub Xi by xi.sc;
-sub Omicron by omicron.sc;
-sub Pi by pi.sc;
-sub Rho by rho.sc;
-sub Sigma by sigma.sc;
-sub Tau by tau.sc;
-sub Upsilon by upsilon.sc;
-sub Phi by phi.sc;
-sub Chi by chi.sc;
-sub Psi by psi.sc;
-sub Omega by omega.sc;
-sub Alphatonos by alphatonos.sc;
-sub Epsilontonos by epsilontonos.sc;
-sub Etatonos by etatonos.sc;
-sub Iotatonos by iotatonos.sc;
-sub Omicrontonos by omicrontonos.sc;
-sub Upsilontonos by upsilontonos.sc;
-sub Omegatonos by omegatonos.sc;
-sub Iotadieresis by iotadieresis.sc;
-sub Upsilondieresis by upsilondieresis.sc;
-sub KaiSymbol by kaiSymbol.sc;
-sub Alphapsili by alphapsili.sc;
-sub Alphadasia by alphadasia.sc;
-sub Alphapsilivaria by alphapsilivaria.sc;
-sub Alphadasiavaria by alphadasiavaria.sc;
-sub Alphapsilioxia by alphapsilioxia.sc;
-sub Alphadasiaoxia by alphadasiaoxia.sc;
-sub Alphapsiliperispomeni by alphapsiliperispomeni.sc;
-sub Alphadasiaperispomeni by alphadasiaperispomeni.sc;
-sub Alphavaria by alphavaria.sc;
-sub Alphaoxia by alphaoxia.sc;
-sub Alphavrachy by alphavrachy.sc;
-sub Alphamacron by alphamacron.sc;
-sub Alphaprosgegrammeni by alphaypogegrammeni.sc;
-sub Alphapsiliprosgegrammeni by alphapsiliypogegrammeni.sc;
-sub Alphadasiaprosgegrammeni by alphadasiaypogegrammeni.sc;
-sub Alphapsilivariaprosgegrammeni by alphapsilivariaypogegrammeni.sc;
-sub Alphadasiavariaprosgegrammeni by alphadasiavariaypogegrammeni.sc;
-sub Alphapsilioxiaprosgegrammeni by alphapsilioxiaypogegrammeni.sc;
-sub Alphadasiaoxiaprosgegrammeni by alphadasiaoxiaypogegrammeni.sc;
-sub Alphapsiliperispomeniprosgegrammeni by alphapsiliperispomeniypogegrammeni.sc;
-sub Alphadasiaperispomeniprosgegrammeni by alphadasiaperispomeniypogegrammeni.sc;
-sub Epsilonpsili by epsilonpsili.sc;
-sub Epsilondasia by epsilondasia.sc;
-sub Epsilonpsilivaria by epsilonpsilivaria.sc;
-sub Epsilondasiavaria by epsilondasiavaria.sc;
-sub Epsilonpsilioxia by epsilonpsilioxia.sc;
-sub Epsilondasiaoxia by epsilondasiaoxia.sc;
-sub Epsilonvaria by epsilonvaria.sc;
-sub Epsilonoxia by epsilonoxia.sc;
-sub Etapsili by etapsili.sc;
-sub Etadasia by etadasia.sc;
-sub Etapsilivaria by etapsilivaria.sc;
-sub Etadasiavaria by etadasiavaria.sc;
-sub Etapsilioxia by etapsilioxia.sc;
-sub Etadasiaoxia by etadasiaoxia.sc;
-sub Etapsiliperispomeni by etapsiliperispomeni.sc;
-sub Etadasiaperispomeni by etadasiaperispomeni.sc;
-sub Etavaria by etavaria.sc;
-sub Etaoxia by etaoxia.sc;
-sub Etaprosgegrammeni by etaypogegrammeni.sc;
-sub Etapsiliprosgegrammeni by etapsiliypogegrammeni.sc;
-sub Etadasiaprosgegrammeni by etadasiaypogegrammeni.sc;
-sub Etapsilivariaprosgegrammeni by etapsilivariaypogegrammeni.sc;
-sub Etadasiavariaprosgegrammeni by etadasiavariaypogegrammeni.sc;
-sub Etapsilioxiaprosgegrammeni by etapsilioxiaypogegrammeni.sc;
-sub Etadasiaoxiaprosgegrammeni by etadasiaoxiaypogegrammeni.sc;
-sub Etapsiliperispomeniprosgegrammeni by etapsiliperispomeniypogegrammeni.sc;
-sub Etadasiaperispomeniprosgegrammeni by etadasiaperispomeniypogegrammeni.sc;
-sub Iotapsili by iotapsili.sc;
-sub Iotadasia by iotadasia.sc;
-sub Iotapsilivaria by iotapsilivaria.sc;
-sub Iotadasiavaria by iotadasiavaria.sc;
-sub Iotapsilioxia by iotapsilioxia.sc;
-sub Iotadasiaoxia by iotadasiaoxia.sc;
-sub Iotapsiliperispomeni by iotapsiliperispomeni.sc;
-sub Iotadasiaperispomeni by iotadasiaperispomeni.sc;
-sub Iotavaria by iotavaria.sc;
-sub Iotaoxia by iotaoxia.sc;
-sub Iotavrachy by iotavrachy.sc;
-sub Iotamacron by iotamacron.sc;
-sub Omicronpsili by omicronpsili.sc;
-sub Omicrondasia by omicrondasia.sc;
-sub Omicronpsilivaria by omicronpsilivaria.sc;
-sub Omicrondasiavaria by omicrondasiavaria.sc;
-sub Omicronpsilioxia by omicronpsilioxia.sc;
-sub Omicrondasiaoxia by omicrondasiaoxia.sc;
-sub Omicronvaria by omicronvaria.sc;
-sub Omicronoxia by omicronoxia.sc;
-sub Rhodasia by rhodasia.sc;
-sub Upsilondasia by upsilondasia.sc;
-sub Upsilondasiavaria by upsilondasiavaria.sc;
-sub Upsilondasiaoxia by upsilondasiaoxia.sc;
-sub Upsilondasiaperispomeni by upsilondasiaperispomeni.sc;
-sub Upsilonvaria by upsilonvaria.sc;
-sub Upsilonoxia by upsilonoxia.sc;
-sub Upsilonvrachy by upsilonvrachy.sc;
-sub Upsilonmacron by upsilonmacron.sc;
-sub Omegapsili by omegapsili.sc;
-sub Omegadasia by omegadasia.sc;
-sub Omegapsilivaria by omegapsilivaria.sc;
-sub Omegadasiavaria by omegadasiavaria.sc;
-sub Omegapsilioxia by omegapsilioxia.sc;
-sub Omegadasiaoxia by omegadasiaoxia.sc;
-sub Omegapsiliperispomeni by omegapsiliperispomeni.sc;
-sub Omegadasiaperispomeni by omegadasiaperispomeni.sc;
-sub Omegavaria by omegavaria.sc;
-sub Omegaoxia by omegaoxia.sc;
-sub Omegaprosgegrammeni by omegaypogegrammeni.sc;
-sub Omegapsiliprosgegrammeni by omegapsiliypogegrammeni.sc;
-sub Omegadasiaprosgegrammeni by omegadasiaypogegrammeni.sc;
-sub Omegapsilivariaprosgegrammeni by omegapsilivariaypogegrammeni.sc;
-sub Omegadasiavariaprosgegrammeni by omegadasiavariaypogegrammeni.sc;
-sub Omegapsilioxiaprosgegrammeni by omegapsilioxiaypogegrammeni.sc;
-sub Omegadasiaoxiaprosgegrammeni by omegadasiaoxiaypogegrammeni.sc;
-sub Omegapsiliperispomeniprosgegrammeni by omegapsiliperispomeniypogegrammeni.sc;
-sub Omegadasiaperispomeniprosgegrammeni by omegadasiaperispomeniypogegrammeni.sc;
-sub exclam by exclam.sc;
-sub exclamdown by exclamdown.sc;
-sub question by question.sc;
-sub questiondown by questiondown.sc;
-sub quotedbl by quotedbl.sc;
-sub quotedblleft by quotedblleft.sc;
-sub quotedblright by quotedblright.sc;
-sub quoteleft by quoteleft.sc;
-sub quoteright by quoteright.sc;
-sub quotesingle by quotesingle.sc;
-sub ampersand by ampersand.sc;
-sub gdieresis by gdieresis.sc;
-sub gtilde by gtilde.sc;
-";
-name = c2sc;
 },
 {
 automatic = 1;
@@ -35721,6 +35726,123 @@ width = 692;
 );
 leftKerningGroup = f;
 unicode = 00DF;
+},
+{
+glyphname = longs;
+layers = (
+{
+layerId = UUID0;
+paths = (
+{
+closed = 1;
+nodes = (
+"73 -2 OFFCURVE",
+"122 0 OFFCURVE",
+"158 0 CURVE SMOOTH",
+"184 0 OFFCURVE",
+"231 -1 OFFCURVE",
+"259 -2 CURVE",
+"265 41 LINE",
+"263 45 LINE",
+"254 44 OFFCURVE",
+"236 43 OFFCURVE",
+"219 43 CURVE SMOOTH",
+"187 43 OFFCURVE",
+"176 60 OFFCURVE",
+"176 98 CURVE",
+"182 498 LINE",
+"184 623 OFFCURVE",
+"221 683 OFFCURVE",
+"297 683 CURVE SMOOTH",
+"335 683 OFFCURVE",
+"384 667 OFFCURVE",
+"412 646 CURVE",
+"423 649 LINE",
+"432 672 OFFCURVE",
+"445 699 OFFCURVE",
+"454 714 CURVE",
+"452 723 LINE",
+"424 734 OFFCURVE",
+"377 742 OFFCURVE",
+"338 742 CURVE SMOOTH",
+"198 742 OFFCURVE",
+"109 633 OFFCURVE",
+"108 460 CURVE SMOOTH",
+"108 456 LINE",
+"48 445 LINE",
+"41 411 LINE",
+"45 405 LINE",
+"95 403 OFFCURVE",
+"106 396 OFFCURVE",
+"108 364 CURVE",
+"108 94 LINE SMOOTH",
+"108 60 OFFCURVE",
+"89 40 OFFCURVE",
+"51 35 CURVE",
+"46 -4 LINE"
+);
+}
+);
+width = 287;
+},
+{
+layerId = UUID1;
+paths = (
+{
+closed = 1;
+nodes = (
+"90 -3 OFFCURVE",
+"140 0 OFFCURVE",
+"169 0 CURVE SMOOTH",
+"194 0 OFFCURVE",
+"246 -2 OFFCURVE",
+"308 -5 CURVE",
+"316 89 LINE",
+"314 94 LINE",
+"301 93 OFFCURVE",
+"290 92 OFFCURVE",
+"278 92 CURVE SMOOTH",
+"259 92 OFFCURVE",
+"250 104 OFFCURVE",
+"250 129 CURVE",
+"252 493 LINE",
+"252 592 OFFCURVE",
+"267 616 OFFCURVE",
+"329 616 CURVE SMOOTH",
+"361 616 OFFCURVE",
+"400 600 OFFCURVE",
+"423 577 CURVE",
+"437 581 LINE",
+"450 621 OFFCURVE",
+"467 670 OFFCURVE",
+"476 696 CURVE",
+"469 719 LINE",
+"442 732 OFFCURVE",
+"393 742 OFFCURVE",
+"352 742 CURVE SMOOTH",
+"185 742 OFFCURVE",
+"77 634 OFFCURVE",
+"77 465 CURVE SMOOTH",
+"77 451 LINE",
+"14 442 LINE",
+"6 372 LINE",
+"10 366 LINE",
+"64 363 OFFCURVE",
+"75 356 OFFCURVE",
+"77 326 CURVE",
+"77 134 LINE SMOOTH",
+"77 97 OFFCURVE",
+"63 83 OFFCURVE",
+"23 79 CURVE",
+"14 -8 LINE"
+);
+}
+);
+width = 324;
+}
+);
+leftMetricsKey = "=f";
+unicode = 017F;
 },
 {
 color = 1;
@@ -191980,7 +192102,6 @@ nodes = (
 "232 253 LINE",
 "180 253 LINE",
 "196 323 LINE",
-"196 323 LINE",
 "206 363 LINE",
 "244 364 LINE",
 "312 363 LINE",
@@ -192042,15 +192163,14 @@ nodes = (
 {
 closed = 1;
 nodes = (
-"238 324 LINE",
+"264 261 LINE",
+"228 261 LINE",
 "238 324 LINE",
 "240 340 LINE",
 "276 340 LINE",
 "323 340 LINE",
 "318 306 LINE",
-"311 261 LINE",
-"264 261 LINE",
-"228 261 LINE"
+"311 261 LINE"
 );
 }
 );
@@ -226743,231 +226863,231 @@ paths = (
 {
 closed = 1;
 nodes = (
-"39.026 -37.64 LINE",
-"39.026 -37.64 LINE",
-"165.586 -37 LINE",
-"165.586 -32 LINE",
-"165.586 -27 LINE",
-"165.586 -22 LINE",
-"159.539 -17 LINE",
-"154.539 -12 LINE",
-"149.539 -7 LINE",
-"144.539 -2 LINE",
-"139.539 3 LINE",
-"134.539 8 LINE",
-"129.539 13 LINE",
-"124.539 18 LINE",
-"117.244 23 LINE",
-"110.678 28 LINE",
-"104.715 33 LINE",
-"99.262 38 LINE",
-"94.251 43 LINE",
-"89.627 48 LINE",
-"85.347 53 LINE",
-"81.376 58 LINE",
-"77.685 63 LINE",
-"74.25 68 LINE",
-"71.05 73 LINE",
-"68.068 78 LINE",
-"65.289 83 LINE",
-"62.699 88 LINE",
-"60.286 93 LINE",
-"58.041 98 LINE",
-"55.955 103 LINE",
-"54.019 108 LINE",
-"52.225 113 LINE",
-"50.569 118 LINE",
-"49.042 123 LINE",
-"47.641 128 LINE",
-"46.359 133 LINE",
-"45.194 138 LINE",
-"44.14 143 LINE",
-"43.194 148 LINE",
-"42.351 153 LINE",
-"41.61 158 LINE",
-"40.967 163 LINE",
-"40.42 168 LINE",
-"39.965 173 LINE",
-"39.6 178 LINE",
-"39.323 183 LINE",
-"39.133 188 LINE",
-"39.026 193 LINE",
-"44.026 198 LINE",
-"39.06 203 LINE",
-"39.203 208 LINE",
-"39.432 213 LINE",
-"39.747 218 LINE",
-"40.149 223 LINE",
-"40.64 228 LINE",
-"41.221 233 LINE",
-"41.893 238 LINE",
-"42.657 243 LINE",
-"43.516 248 LINE",
-"44.47 253 LINE",
-"45.522 258 LINE",
-"46.672 263 LINE",
-"47.924 268 LINE",
-"49.279 273 LINE",
-"50.739 278 LINE",
-"52.307 283 LINE",
-"53.986 288 LINE",
-"55.778 293 LINE",
-"57.686 298 LINE",
-"59.713 303 LINE",
-"61.863 308 LINE",
-"64.14 313 LINE",
-"66.547 318 LINE",
-"69.09 323 LINE",
-"71.773 328 LINE",
-"74.6 333 LINE",
-"77.579 338 LINE",
-"80.715 343 LINE",
-"84.016 348 LINE",
-"87.488 353 LINE",
-"91.141 358 LINE",
-"94.983 363 LINE",
-"99.026 368 LINE",
-"103.282 373 LINE",
-"107.763 378 LINE",
-"112.485 383 LINE",
-"117.466 388 LINE",
-"122.466 393 LINE",
-"127.466 398 LINE",
-"132.466 403 LINE",
-"137.466 408 LINE",
-"142.466 413 LINE",
-"147.466 418 LINE",
-"152.466 423 LINE",
-"157.466 428 LINE",
-"162.466 433 LINE",
-"165.586 438 LINE",
-"165.586 443 LINE",
-"165.586 448 LINE",
-"165.586 453 LINE",
-"161.579 458 LINE",
-"154.934 463 LINE",
-"148.784 468 LINE",
-"143.134 473 LINE",
-"137.978 478 LINE",
-"133.305 483 LINE",
-"39.026 487.64 LINE"
+"41 -37.64 LINE",
+"41 -37.64 LINE",
+"76 -34 LINE",
+"71 -29 LINE",
+"66 -24 LINE",
+"61 -19 LINE",
+"56 -14 LINE",
+"51 -9 LINE",
+"46 -4 LINE",
+"46.641 1 LINE",
+"47.282 6 LINE",
+"47.923 11 LINE",
+"48.564 16 LINE",
+"49.205 21 LINE",
+"49.846 26 LINE",
+"50.487 31 LINE",
+"55.487 36 LINE",
+"60.487 41 LINE",
+"65.487 46 LINE",
+"70.487 51 LINE",
+"75.487 56 LINE",
+"80.487 61 LINE",
+"85.487 66 LINE",
+"90.487 71 LINE",
+"95.487 76 LINE",
+"100.487 81 LINE",
+"105.487 86 LINE",
+"107.949 91 LINE",
+"108 96 LINE",
+"108 101 LINE",
+"108 106 LINE",
+"108 111 LINE",
+"108 116 LINE",
+"108 121 LINE",
+"108 126 LINE",
+"108 131 LINE",
+"108 136 LINE",
+"108 141 LINE",
+"108 146 LINE",
+"108 151 LINE",
+"108 156 LINE",
+"108 161 LINE",
+"108 166 LINE",
+"108 171 LINE",
+"108 176 LINE",
+"108 181 LINE",
+"108 186 LINE",
+"108 191 LINE",
+"108 196 LINE",
+"108 201 LINE",
+"108 206 LINE",
+"108 211 LINE",
+"108 216 LINE",
+"108 221 LINE",
+"108 226 LINE",
+"108 231 LINE",
+"108 236 LINE",
+"108 241 LINE",
+"108 246 LINE",
+"108 251 LINE",
+"108 256 LINE",
+"108 261 LINE",
+"108 266 LINE",
+"108 271 LINE",
+"108 276 LINE",
+"108 281 LINE",
+"108 286 LINE",
+"108 291 LINE",
+"108 296 LINE",
+"108 301 LINE",
+"108 306 LINE",
+"108 311 LINE",
+"108 316 LINE",
+"108 321 LINE",
+"108 326 LINE",
+"108 331 LINE",
+"108 336 LINE",
+"108 341 LINE",
+"104.333 346 LINE",
+"99.333 351 LINE",
+"94.333 356 LINE",
+"89.333 361 LINE",
+"84.333 366 LINE",
+"79.333 371 LINE",
+"74.333 376 LINE",
+"69.333 381 LINE",
+"64.333 386 LINE",
+"59.333 391 LINE",
+"54.333 396 LINE",
+"49.333 401 LINE",
+"44.333 406 LINE",
+"41 411 LINE",
+"42.029 416 LINE",
+"43.059 421 LINE",
+"44.088 426 LINE",
+"45.118 431 LINE",
+"46.147 436 LINE",
+"47.176 441 LINE",
+"52.176 446 LINE",
+"57.176 451 LINE",
+"62.176 456 LINE",
+"67.176 461 LINE",
+"72.176 466 LINE",
+"77.176 471 LINE",
+"82.176 476 LINE",
+"87.176 481 LINE",
+"92.176 486 LINE",
+"41 487.64 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"461.914 -37.64 LINE",
-"461.914 -37.64 LINE",
-"335.354 -37 LINE",
-"335.354 -32 LINE",
-"335.354 -27 LINE",
-"335.354 -22 LINE",
-"335.354 -17 LINE",
-"335.354 -12 LINE",
-"335.354 -7 LINE",
-"335.89 -2 LINE",
-"340.89 3 LINE",
-"345.89 8 LINE",
-"350.89 13 LINE",
-"355.89 18 LINE",
-"360.89 23 LINE",
-"365.89 28 LINE",
-"370.89 33 LINE",
-"375.89 38 LINE",
-"380.89 43 LINE",
-"385.89 48 LINE",
-"390.89 53 LINE",
-"395.757 58 LINE",
-"400.34 63 LINE",
-"404.663 68 LINE",
-"408.746 73 LINE",
-"412.605 78 LINE",
-"416.256 83 LINE",
-"419.711 88 LINE",
-"422.982 93 LINE",
-"426.077 98 LINE",
-"429.007 103 LINE",
-"431.778 108 LINE",
-"434.397 113 LINE",
-"436.871 118 LINE",
-"439.206 123 LINE",
-"441.406 128 LINE",
-"443.475 133 LINE",
-"445.419 138 LINE",
-"447.241 143 LINE",
-"448.944 148 LINE",
-"450.531 153 LINE",
-"452.006 158 LINE",
-"453.371 163 LINE",
-"454.628 168 LINE",
-"455.78 173 LINE",
-"456.829 178 LINE",
-"457.776 183 LINE",
-"458.624 188 LINE",
-"459.373 193 LINE",
-"460.026 198 LINE",
-"460.584 203 LINE",
-"461.048 208 LINE",
-"461.419 213 LINE",
-"461.698 218 LINE",
-"461.886 223 LINE",
-"456.886 228 LINE",
-"456.914 233 LINE",
-"461.914 238 LINE",
-"461.744 243 LINE",
-"461.482 248 LINE",
-"461.124 253 LINE",
-"460.667 258 LINE",
-"460.11 263 LINE",
-"459.447 268 LINE",
-"458.677 273 LINE",
-"457.796 278 LINE",
-"456.8 283 LINE",
-"455.686 288 LINE",
-"454.45 293 LINE",
-"453.087 298 LINE",
-"451.593 303 LINE",
-"449.965 308 LINE",
-"448.196 313 LINE",
-"446.283 318 LINE",
-"444.219 323 LINE",
-"442 328 LINE",
-"439.62 333 LINE",
-"437.072 338 LINE",
-"434.351 343 LINE",
-"431.45 348 LINE",
-"428.362 353 LINE",
-"425.079 358 LINE",
-"421.595 363 LINE",
-"417.901 368 LINE",
-"413.989 373 LINE",
-"409.851 378 LINE",
-"405.479 383 LINE",
-"400.863 388 LINE",
-"395.995 393 LINE",
-"390.995 398 LINE",
-"385.995 403 LINE",
-"380.995 408 LINE",
-"375.995 413 LINE",
-"370.995 418 LINE",
-"365.995 423 LINE",
-"360.995 428 LINE",
-"355.995 433 LINE",
-"350.995 438 LINE",
-"345.995 443 LINE",
-"340.995 448 LINE",
-"335.995 453 LINE",
-"335.354 458 LINE",
-"335.354 463 LINE",
-"335.354 468 LINE",
-"335.354 473 LINE",
-"335.354 478 LINE",
-"335.354 483 LINE",
-"461.914 487.64 LINE"
+"260 -37.64 LINE",
+"260 -37.64 LINE",
+"220.349 -34 LINE",
+"225.349 -29 LINE",
+"230.349 -24 LINE",
+"235.349 -19 LINE",
+"240.349 -14 LINE",
+"245.349 -9 LINE",
+"250.349 -4 LINE",
+"255.349 1 LINE",
+"255.93 6 LINE",
+"256.512 11 LINE",
+"257.093 16 LINE",
+"257.674 21 LINE",
+"258.256 26 LINE",
+"258.837 31 LINE",
+"259.419 36 LINE",
+"260 41 LINE",
+"255 46 LINE",
+"250 51 LINE",
+"245 56 LINE",
+"240 61 LINE",
+"235 66 LINE",
+"230 71 LINE",
+"225 76 LINE",
+"220 81 LINE",
+"215 86 LINE",
+"210 91 LINE",
+"205 96 LINE",
+"200 101 LINE",
+"195 106 LINE",
+"190 111 LINE",
+"185 116 LINE",
+"180 121 LINE",
+"176.42 126 LINE",
+"176.495 131 LINE",
+"176.57 136 LINE",
+"176.645 141 LINE",
+"176.72 146 LINE",
+"176.795 151 LINE",
+"176.87 156 LINE",
+"176.945 161 LINE",
+"177.02 166 LINE",
+"177.095 171 LINE",
+"177.17 176 LINE",
+"177.245 181 LINE",
+"177.32 186 LINE",
+"177.395 191 LINE",
+"177.47 196 LINE",
+"177.545 201 LINE",
+"177.62 206 LINE",
+"177.695 211 LINE",
+"177.77 216 LINE",
+"177.845 221 LINE",
+"177.92 226 LINE",
+"177.995 231 LINE",
+"178.07 236 LINE",
+"178.145 241 LINE",
+"178.22 246 LINE",
+"178.295 251 LINE",
+"178.37 256 LINE",
+"178.445 261 LINE",
+"178.52 266 LINE",
+"178.595 271 LINE",
+"178.67 276 LINE",
+"178.745 281 LINE",
+"178.82 286 LINE",
+"178.895 291 LINE",
+"178.97 296 LINE",
+"179.045 301 LINE",
+"179.12 306 LINE",
+"179.195 311 LINE",
+"179.27 316 LINE",
+"179.345 321 LINE",
+"179.42 326 LINE",
+"179.495 331 LINE",
+"179.57 336 LINE",
+"179.645 341 LINE",
+"179.72 346 LINE",
+"179.795 351 LINE",
+"179.87 356 LINE",
+"179.945 361 LINE",
+"180.02 366 LINE",
+"180.095 371 LINE",
+"180.17 376 LINE",
+"180.245 381 LINE",
+"180.32 386 LINE",
+"180.395 391 LINE",
+"180.47 396 LINE",
+"180.545 401 LINE",
+"180.62 406 LINE",
+"180.695 411 LINE",
+"180.77 416 LINE",
+"180.845 421 LINE",
+"180.92 426 LINE",
+"180.995 431 LINE",
+"181.07 436 LINE",
+"181.145 441 LINE",
+"181.22 446 LINE",
+"181.295 451 LINE",
+"181.37 456 LINE",
+"181.445 461 LINE",
+"181.52 466 LINE",
+"181.595 471 LINE",
+"181.67 476 LINE",
+"181.745 481 LINE",
+"181.82 486 LINE",
+"260 487.64 LINE"
 );
 }
 );
-width = 498;
+width = 283;
 },
 {
 layerId = UUID1;
@@ -226975,255 +227095,255 @@ paths = (
 {
 closed = 1;
 nodes = (
-"9.006 -56.92 LINE",
-"9.006 -56.92 LINE",
-"93.966 -52 LINE",
-"93.966 -47 LINE",
-"93.966 -42 LINE",
-"93.966 -37 LINE",
-"93.966 -32 LINE",
-"93.966 -27 LINE",
-"93.966 -22 LINE",
-"93.966 -17 LINE",
-"93.966 -12 LINE",
-"93.966 -7 LINE",
-"93.966 -2 LINE",
-"93.966 3 LINE",
-"93.966 8 LINE",
-"93.966 13 LINE",
-"93.966 18 LINE",
-"93.966 23 LINE",
-"88.647 28 LINE",
-"81.729 33 LINE",
-"75.447 38 LINE",
-"69.712 43 LINE",
-"64.453 48 LINE",
-"59.614 53 LINE",
-"55.15 58 LINE",
-"51.024 63 LINE",
-"47.204 68 LINE",
-"43.664 73 LINE",
-"40.381 78 LINE",
-"37.334 83 LINE",
-"34.509 88 LINE",
-"31.888 93 LINE",
-"29.459 98 LINE",
-"27.21 103 LINE",
-"25.13 108 LINE",
-"23.211 113 LINE",
-"21.443 118 LINE",
-"19.818 123 LINE",
-"18.33 128 LINE",
-"16.973 133 LINE",
-"15.739 138 LINE",
-"14.624 143 LINE",
-"13.624 148 LINE",
-"12.732 153 LINE",
-"11.945 158 LINE",
-"11.26 163 LINE",
-"10.671 168 LINE",
-"10.177 173 LINE",
-"9.773 178 LINE",
-"9.457 183 LINE",
-"9.225 188 LINE",
-"9.076 193 LINE",
-"9.006 198 LINE",
-"9.017 203 LINE",
-"9.122 208 LINE",
-"9.326 213 LINE",
-"9.631 218 LINE",
-"10.042 223 LINE",
-"10.56 228 LINE",
-"11.19 233 LINE",
-"11.936 238 LINE",
-"12.801 243 LINE",
-"13.791 248 LINE",
-"14.909 253 LINE",
-"16.16 258 LINE",
-"17.55 263 LINE",
-"19.083 268 LINE",
-"20.767 273 LINE",
-"22.607 278 LINE",
-"24.61 283 LINE",
-"26.784 288 LINE",
-"29.136 293 LINE",
-"31.675 298 LINE",
-"34.411 303 LINE",
-"37.353 308 LINE",
-"40.513 313 LINE",
-"43.902 318 LINE",
-"47.535 323 LINE",
-"51.425 328 LINE",
-"55.59 333 LINE",
-"60.047 338 LINE",
-"64.817 343 LINE",
-"69.817 348 LINE",
-"74.817 353 LINE",
-"79.817 358 LINE",
-"84.817 363 LINE",
-"89.817 368 LINE",
-"93.966 373 LINE",
-"93.966 378 LINE",
-"93.966 383 LINE",
-"93.966 388 LINE",
-"93.966 393 LINE",
-"93.966 398 LINE",
-"93.966 403 LINE",
-"93.966 408 LINE",
-"93.966 413 LINE",
-"93.966 418 LINE",
-"93.966 423 LINE",
-"93.966 428 LINE",
-"93.966 433 LINE",
-"93.548 438 LINE",
-"88.836 443 LINE",
-"84.591 448 LINE",
-"80.787 453 LINE",
-"77.399 458 LINE",
-"74.401 463 LINE",
-"71.768 468 LINE",
-"69.477 473 LINE",
-"67.505 478 LINE",
-"65.831 483 LINE",
-"64.436 488 LINE",
-"63.302 493 LINE",
-"62.412 498 LINE",
-"61.75 503 LINE",
-"61.304 508 LINE",
-"61.059 513 LINE",
-"61.004 518 LINE",
-"61.132 523 LINE",
-"61.453 528 LINE",
-"9.006 528.92 LINE"
+"6 -56.92 LINE",
+"6 -56.92 LINE",
+"59 -53 LINE",
+"54 -48 LINE",
+"49 -43 LINE",
+"44 -38 LINE",
+"39 -33 LINE",
+"34 -28 LINE",
+"29 -23 LINE",
+"24 -18 LINE",
+"19 -13 LINE",
+"14 -8 LINE",
+"14.517 -3 LINE",
+"15.034 2 LINE",
+"15.552 7 LINE",
+"16.069 12 LINE",
+"16.586 17 LINE",
+"17.103 22 LINE",
+"17.621 27 LINE",
+"18.138 32 LINE",
+"18.655 37 LINE",
+"19.172 42 LINE",
+"19.69 47 LINE",
+"20.207 52 LINE",
+"20.724 57 LINE",
+"21.241 62 LINE",
+"21.759 67 LINE",
+"22.276 72 LINE",
+"22.793 77 LINE",
+"27.793 82 LINE",
+"32.793 87 LINE",
+"37.793 92 LINE",
+"42.793 97 LINE",
+"47.793 102 LINE",
+"52.793 107 LINE",
+"57.793 112 LINE",
+"62.793 117 LINE",
+"67.793 122 LINE",
+"72.793 127 LINE",
+"76.986 132 LINE",
+"77 137 LINE",
+"77 142 LINE",
+"77 147 LINE",
+"77 152 LINE",
+"77 157 LINE",
+"77 162 LINE",
+"77 167 LINE",
+"77 172 LINE",
+"77 177 LINE",
+"77 182 LINE",
+"77 187 LINE",
+"77 192 LINE",
+"77 197 LINE",
+"77 202 LINE",
+"77 207 LINE",
+"77 212 LINE",
+"77 217 LINE",
+"77 222 LINE",
+"77 227 LINE",
+"77 232 LINE",
+"77 237 LINE",
+"77 242 LINE",
+"77 247 LINE",
+"77 252 LINE",
+"77 257 LINE",
+"77 262 LINE",
+"77 267 LINE",
+"77 272 LINE",
+"77 277 LINE",
+"77 282 LINE",
+"77 287 LINE",
+"77 292 LINE",
+"77 297 LINE",
+"74.333 302 LINE",
+"69.333 307 LINE",
+"64.333 312 LINE",
+"59.333 317 LINE",
+"54.333 322 LINE",
+"49.333 327 LINE",
+"44.333 332 LINE",
+"39.333 337 LINE",
+"34.333 342 LINE",
+"29.333 347 LINE",
+"24.333 352 LINE",
+"19.333 357 LINE",
+"14.333 362 LINE",
+"9.333 367 LINE",
+"6 372 LINE",
+"6.571 377 LINE",
+"7.143 382 LINE",
+"7.714 387 LINE",
+"8.286 392 LINE",
+"8.857 397 LINE",
+"9.429 402 LINE",
+"10 407 LINE",
+"10.571 412 LINE",
+"11.143 417 LINE",
+"11.714 422 LINE",
+"12.286 427 LINE",
+"12.857 432 LINE",
+"13.429 437 LINE",
+"14 442 LINE",
+"19 447 LINE",
+"24 452 LINE",
+"29 457 LINE",
+"34 462 LINE",
+"39 467 LINE",
+"44 472 LINE",
+"49 477 LINE",
+"54 482 LINE",
+"59 487 LINE",
+"64 492 LINE",
+"69 497 LINE",
+"74 502 LINE",
+"79 507 LINE",
+"79.95 512 LINE",
+"80.635 517 LINE",
+"81.399 522 LINE",
+"82.241 527 LINE",
+"6 528.92 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"483.946 -56.92 LINE",
-"483.946 -56.92 LINE",
-"398.986 -52 LINE",
-"398.986 -47 LINE",
-"398.986 -42 LINE",
-"398.986 -37 LINE",
-"398.986 -32 LINE",
-"398.986 -27 LINE",
-"398.986 -22 LINE",
-"398.986 -17 LINE",
-"398.986 -12 LINE",
-"398.986 -7 LINE",
-"398.986 -2 LINE",
-"398.986 3 LINE",
-"398.986 8 LINE",
-"398.986 13 LINE",
-"398.986 18 LINE",
-"398.986 23 LINE",
-"398.986 28 LINE",
-"398.986 33 LINE",
-"399.223 38 LINE",
-"404.223 43 LINE",
-"409.223 48 LINE",
-"414.223 53 LINE",
-"419.195 58 LINE",
-"423.852 63 LINE",
-"428.222 68 LINE",
-"432.329 73 LINE",
-"436.191 78 LINE",
-"439.828 83 LINE",
-"443.253 88 LINE",
-"446.481 93 LINE",
-"449.523 98 LINE",
-"452.389 103 LINE",
-"455.088 108 LINE",
-"457.63 113 LINE",
-"460.021 118 LINE",
-"462.269 123 LINE",
-"464.38 128 LINE",
-"466.358 133 LINE",
-"468.211 138 LINE",
-"469.941 143 LINE",
-"471.554 148 LINE",
-"473.053 153 LINE",
-"474.443 158 LINE",
-"475.727 163 LINE",
-"476.907 168 LINE",
-"477.988 173 LINE",
-"478.971 178 LINE",
-"479.859 183 LINE",
-"480.655 188 LINE",
-"481.361 193 LINE",
-"481.979 198 LINE",
-"482.512 203 LINE",
-"482.96 208 LINE",
-"483.326 213 LINE",
-"483.611 218 LINE",
-"483.817 223 LINE",
-"483.946 228 LINE",
-"478.946 233 LINE",
-"478.855 238 LINE",
-"483.855 243 LINE",
-"483.647 248 LINE",
-"483.344 253 LINE",
-"482.944 258 LINE",
-"482.444 263 LINE",
-"481.841 268 LINE",
-"481.133 273 LINE",
-"480.315 278 LINE",
-"479.385 283 LINE",
-"478.34 288 LINE",
-"477.175 293 LINE",
-"475.888 298 LINE",
-"474.474 303 LINE",
-"472.928 308 LINE",
-"471.247 313 LINE",
-"469.426 318 LINE",
-"467.461 323 LINE",
-"465.345 328 LINE",
-"463.075 333 LINE",
-"460.644 338 LINE",
-"458.046 343 LINE",
-"455.276 348 LINE",
-"452.326 353 LINE",
-"449.191 358 LINE",
-"445.862 363 LINE",
-"442.333 368 LINE",
-"438.595 373 LINE",
-"434.641 378 LINE",
-"430.461 383 LINE",
-"426.048 388 LINE",
-"421.391 393 LINE",
-"416.481 398 LINE",
-"411.481 403 LINE",
-"406.481 408 LINE",
-"401.481 413 LINE",
-"398.986 418 LINE",
-"398.986 423 LINE",
-"398.986 428 LINE",
-"398.986 433 LINE",
-"398.986 438 LINE",
-"398.986 443 LINE",
-"398.986 448 LINE",
-"398.986 453 LINE",
-"398.986 458 LINE",
-"398.986 463 LINE",
-"398.986 468 LINE",
-"398.986 473 LINE",
-"398.986 478 LINE",
-"398.986 483 LINE",
-"398.986 488 LINE",
-"398.986 493 LINE",
-"398.986 498 LINE",
-"398.986 503 LINE",
-"398.986 508 LINE",
-"398.986 513 LINE",
-"398.986 518 LINE",
-"398.986 523 LINE",
-"398.986 528 LINE",
-"483.946 528.92 LINE"
+"323.83 -56.92 LINE",
+"323.83 -56.92 LINE",
+"266.17 -53 LINE",
+"271.17 -48 LINE",
+"276.17 -43 LINE",
+"281.17 -38 LINE",
+"286.17 -33 LINE",
+"291.17 -28 LINE",
+"296.17 -23 LINE",
+"301.17 -18 LINE",
+"306.17 -13 LINE",
+"311.17 -8 LINE",
+"316.17 -3 LINE",
+"316.596 2 LINE",
+"317.021 7 LINE",
+"317.447 12 LINE",
+"317.872 17 LINE",
+"318.298 22 LINE",
+"318.723 27 LINE",
+"319.149 32 LINE",
+"319.574 37 LINE",
+"320 42 LINE",
+"320.426 47 LINE",
+"320.851 52 LINE",
+"321.277 57 LINE",
+"321.702 62 LINE",
+"322.128 67 LINE",
+"322.553 72 LINE",
+"322.979 77 LINE",
+"323.404 82 LINE",
+"323.83 87 LINE",
+"322.8 92 LINE",
+"317.8 97 LINE",
+"312.8 102 LINE",
+"307.8 107 LINE",
+"302.8 112 LINE",
+"297.8 117 LINE",
+"292.8 122 LINE",
+"287.8 127 LINE",
+"282.8 132 LINE",
+"277.8 137 LINE",
+"272.8 142 LINE",
+"267.8 147 LINE",
+"262.8 152 LINE",
+"257.8 157 LINE",
+"252.8 162 LINE",
+"250.209 167 LINE",
+"250.236 172 LINE",
+"250.264 177 LINE",
+"250.291 182 LINE",
+"250.319 187 LINE",
+"250.346 192 LINE",
+"250.374 197 LINE",
+"250.401 202 LINE",
+"250.429 207 LINE",
+"250.456 212 LINE",
+"250.484 217 LINE",
+"250.511 222 LINE",
+"250.538 227 LINE",
+"250.566 232 LINE",
+"250.593 237 LINE",
+"250.621 242 LINE",
+"250.648 247 LINE",
+"250.676 252 LINE",
+"250.703 257 LINE",
+"250.731 262 LINE",
+"250.758 267 LINE",
+"250.786 272 LINE",
+"250.813 277 LINE",
+"250.841 282 LINE",
+"250.868 287 LINE",
+"250.896 292 LINE",
+"250.923 297 LINE",
+"250.951 302 LINE",
+"250.978 307 LINE",
+"251.005 312 LINE",
+"251.033 317 LINE",
+"251.06 322 LINE",
+"251.088 327 LINE",
+"251.115 332 LINE",
+"251.143 337 LINE",
+"251.17 342 LINE",
+"251.198 347 LINE",
+"251.225 352 LINE",
+"251.253 357 LINE",
+"251.28 362 LINE",
+"251.308 367 LINE",
+"251.335 372 LINE",
+"251.363 377 LINE",
+"251.39 382 LINE",
+"251.418 387 LINE",
+"251.445 392 LINE",
+"251.473 397 LINE",
+"251.5 402 LINE",
+"251.527 407 LINE",
+"251.555 412 LINE",
+"251.582 417 LINE",
+"251.61 422 LINE",
+"251.637 427 LINE",
+"251.665 432 LINE",
+"251.692 437 LINE",
+"251.72 442 LINE",
+"251.747 447 LINE",
+"251.775 452 LINE",
+"251.802 457 LINE",
+"251.83 462 LINE",
+"251.857 467 LINE",
+"251.885 472 LINE",
+"251.912 477 LINE",
+"251.94 482 LINE",
+"251.967 487 LINE",
+"251.995 492 LINE",
+"252.008 497 LINE",
+"252.044 502 LINE",
+"252.111 507 LINE",
+"252.214 512 LINE",
+"252.356 517 LINE",
+"252.543 522 LINE",
+"252.781 527 LINE",
+"323.83 528.92 LINE"
 );
 }
 );
-width = 491;
+width = 324;
 }
 );
 },
@@ -234889,5 +235009,5 @@ HV = 20;
 };
 };
 versionMajor = 2;
-versionMinor = 5;
+versionMinor = 6;
 }
