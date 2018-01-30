@@ -1,9 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-"/Ereversed-cy/Ezh/ezh.sc/ezh/Ezhcaron/ezhcaron.sc/ezhcaron G/Gstroke/gstroke.sc/gstroke/Hcaron/hcaron.sc/hcaron/Kcaron/kcaron.sc/kcaron/Endescender-cy/endescender-cy.sc/endescender-cy/Entail-cy/entail-cy.sc/entail-cy/leftanglebracket-math/rightanglebracket-math/commercialMinusSign",
-"/A-cy/a-cy.sc \012/Be-cy/be-cy.sc \012/Ve-cy/ve-cy.sc \012/Ge-cy/ge-cy.sc \012/Gje-cy/gje-cy.sc \012/Gheupturn-cy/gheupturn-cy.sc \012/De-cy/de-cy.sc \012/Ie-cy/ie-cy.sc \012/Iegrave-cy/iegrave-cy.sc \012/Io-cy/io-cy.sc \012/Zhe-cy/zhe-cy.sc \012/Ze-cy/ze-cy.sc \012/Ii-cy/ii-cy.sc \012/Iishort-cy/iishort-cy.sc \012/Iigrave-cy/iigrave-cy.sc \012/Ka-cy/ka-cy.sc \012/Kje-cy/kje-cy.sc \012/El-cy/el-cy.sc \012/Em-cy/em-cy.sc \012/En-cy/en-cy.sc \012/O-cy/o-cy.sc \012/Pe-cy/pe-cy.sc \012/Er-cy/er-cy.sc \012/Es-cy/es-cy.sc \012/Te-cy/te-cy.sc \012/U-cy/u-cy.sc \012/Ushort-cy/ushort-cy.sc \012/Ef-cy/ef-cy.sc \012/Ha-cy/ha-cy.sc \012/Che-cy/che-cy.sc \012/Tse-cy/tse-cy.sc \012/Sha-cy/sha-cy.sc \012/Shcha-cy/shcha-cy.sc \012/Dzhe-cy/dzhe-cy.sc \012/Softsign-cy/softsign-cy.sc \012/Hardsign-cy/hardsign-cy.sc \012/Yeru-cy/yeru-cy.sc \012/Lje-cy/lje-cy.sc \012/Nje-cy/nje-cy.sc \012/Dze-cy/dze-cy.sc \012/E-cy/e-cy.sc \012/Ereversed-cy/ereversed-cy.sc \012/I-cy/i-cy.sc \012/Yi-cy/yi-cy.sc \012/Je-cy/je-cy.sc \012/Tshe-cy/tshe-cy.sc \012/Iu-cy/iu-cy.sc \012/Ia-cy/ia-cy.sc \012/Dje-cy/dje-cy.sc \012/Yat-cy/yat-cy.sc \012/Yusbig-cy/yusbig-cy.sc \012/Fita-cy/fita-cy.sc \012/Izhitsa-cy/izhitsa-cy.sc \012/Ghestroke-cy/ghestroke-cy.sc \012/Ghemiddlehook-cy/ghemiddlehook-cy.sc \012/Zhedescender-cy/zhedescender-cy.sc \012/Zedescender-cy/zedescender-cy.sc \012/Kadescender-cy/kadescender-cy.sc \012/Kaverticalstroke-cy/kaverticalstroke-cy.sc \012/Kabashkir-cy/kabashkir-cy.sc \012/Endescender-cy/endescender-cy.sc \012/Enghe-cy/enghe-cy.sc \012/Pedescender-cy/pedescender-cy.sc \012/Esdescender-cy/esdescender-cy.sc \012/Ustrait-cy/ustrait-cy.sc \012/Ustraitstroke-cy/ustraitstroke-cy.sc \012/Hadescender-cy/hadescender-cy.sc \012/Chedescender-cy/chedescender-cy.sc \012/Cheverticalstroke-cy/cheverticalstroke-cy.sc \012/u-cy.sc \012/Shha-cy/shha-cy.sc \012/Palochka-cy/palochka-cy.sc \012/Zhebreve-cy/zhebreve-cy.sc \012/Entail-cy/entail-cy.sc \012/Chekhakassian-cy/chekhakassian-cy.sc \012/Abreve-cy/abreve-cy.sc \012/Adieresis-cy/adieresis-cy.sc \012/Aie-cy/aie-cy.sc \012/Iebreve-cy/iebreve-cy.sc \012/Schwa-cy/schwa-cy.sc \012/Zhedieresis-cy/zhedieresis-cy.sc \012/Zedieresis-cy/zedieresis-cy.sc \012/Imacron-cy/imacron-cy.sc \012/Idieresis-cy/idieresis-cy.sc \012/Odieresis-cy/odieresis-cy.sc \012/Obarred-cy/obarred-cy.sc \012/Umacron-cy/umacron-cy.sc \012/Udieresis-cy/udieresis-cy.sc \012/Uhungarumlaut-cy/uhungarumlaut-cy.sc \012/Chedieresis-cy/chedieresis-cy.sc \012/Gedescender-cy/gedescender-cy.sc \012/Yerudieresis-cy/yerudieresis-cy.sc \012/Qa-cy/qa-cy.sc \012/We-cy/we-cy.sc \012/Softsign-cy.cond/softsign-cy.cond.sc \012/Ghestroke-cy.loclBSH \012/Zedescender-cy.loclBSH \012/Esdescender-cy.loclCHU \012\012"
-);
 classes = (
 {
 automatic = 1;
@@ -235,6 +231,7 @@ lookup ccmp_latn_2 {
 name = ccmp;
 },
 {
+automatic = 1;
 code = "script latn;
 language NLD;
 sub iacute j by iacute_j.loclNLD;
@@ -262,12 +259,6 @@ language CRT;
 sub i by idotaccent;
 language AZE;
 sub i by idotaccent;
-language GUA;
-sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;
-sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde a.sc e.sc i.sc o.sc u.sc atilde.sc etilde.sc itilde.sc otilde.sc utilde.sc y.sc ytilde.sc] by saltillo;
-language ESP;
-sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;
-sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde a.sc e.sc i.sc o.sc u.sc atilde.sc etilde.sc itilde.sc otilde.sc utilde.sc y.sc ytilde.sc] by saltillo;
 
 script cyrl;
 language SRB;
@@ -282,6 +273,7 @@ sub Esdescender-cy by Esdescender-cy.loclCHU;
 sub esdescender-cy by esdescender-cy.loclCHU;
 ";
 name = locl;
+notes = "-language GUA;\012-sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012-sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde a.sc e.sc i.sc o.sc u.sc atilde.sc etilde.sc itilde.sc otilde.sc utilde.sc y.sc ytilde.sc] by saltillo;\012-language ESP;\012-sub [quotesingle quoteright]' [A E I O U Atilde Etilde Itilde Otilde Utilde Y Ytilde] by Saltillo;\012-sub [quotesingle quoteright]' [a e i o u atilde etilde itilde otilde utilde y ytilde a.sc e.sc i.sc o.sc u.sc atilde.sc etilde.sc itilde.sc otilde.sc utilde.sc y.sc ytilde.sc] by saltillo;";
 },
 {
 automatic = 1;
