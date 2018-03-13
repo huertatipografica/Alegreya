@@ -1,8 +1,5 @@
 {
 .appVersion = "1075";
-DisplayStrings = (
-"f fi fj fl fk ff ft\012/longs  /longs i /longs j /longs l /longs k /longs/longs  /longs t"
-);
 classes = (
 {
 automatic = 1;
@@ -131,13 +128,13 @@ feature lnum;
 feature pnum;
 feature tnum;
 feature onum;
+feature c2sc;
 feature smcp;
 feature case;
 feature ss01;
 feature ss02;
 feature ss03;
 feature ss04;
-feature c2sc;
 feature ss05;
 ";
 name = aalt;
@@ -443,10 +440,86 @@ lookup DOWN {
 name = frac;
 },
 {
-automatic = 1;
 code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
 sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
 sub N o period by numero;
+
+# Sups
+sub a by a.sups;
+sub b by b.sups;
+sub c by c.sups;
+sub d by d.sups;
+sub e by e.sups;
+sub f by f.sups;
+sub g by g.sups;
+sub h by h.sups;
+sub i by i.sups;
+sub j by j.sups;
+sub k by k.sups;
+sub l by l.sups;
+sub m by m.sups;
+sub n by n.sups;
+sub o by o.sups;
+sub p by p.sups;
+sub q by q.sups;
+sub r by r.sups;
+sub s by s.sups;
+sub t by t.sups;
+sub u by u.sups;
+sub v by v.sups;
+sub w by w.sups;
+sub x by x.sups;
+sub y by y.sups;
+sub z by z.sups;
+sub Alpha by Alpha.sups;
+sub Beta by Beta.sups;
+sub Gamma by Gamma.sups;
+sub Delta by Delta.sups;
+sub Epsilon by Epsilon.sups;
+sub Zeta by Zeta.sups;
+sub Eta by Eta.sups;
+sub Theta by Theta.sups;
+sub Iota by Iota.sups;
+sub Kappa by Kappa.sups;
+sub Lambda by Lambda.sups;
+sub Mu by Mu.sups;
+sub Nu by Nu.sups;
+sub Xi by Xi.sups;
+sub Omicron by Omicron.sups;
+sub Pi by Pi.sups;
+sub Rho by Rho.sups;
+sub Sigma by Sigma.sups;
+sub Tau by Tau.sups;
+sub Upsilon by Upsilon.sups;
+sub Phi by Phi.sups;
+sub Chi by Chi.sups;
+sub Psi by Psi.sups;
+sub Omega by Omega.sups;
+sub alpha by alpha.sups;
+sub beta by beta.sups;
+sub gamma by gamma.sups;
+sub delta by delta.sups;
+sub epsilon by epsilon.sups;
+sub zeta by zeta.sups;
+sub eta by eta.sups;
+sub theta by theta.sups;
+sub iota by iota.sups;
+sub kappa by kappa.sups;
+sub lambda by lambda.sups;
+sub mu by mu.sups;
+sub nu by nu.sups;
+sub xi by xi.sups;
+sub omicron by omicron.sups;
+sub pi by pi.sups;
+sub rho by rho.sups;
+sub sigmafinal by sigmafinal.sups;
+sub sigma by sigma.sups;
+sub tau by tau.sups;
+sub upsilon by upsilon.sups;
+sub phi by phi.sups;
+sub chi by chi.sups;
+sub psi by psi.sups;
+sub omega by omega.sups;
 ";
 name = ordn;
 },
@@ -1571,6 +1644,7 @@ sub braceleft by braceleft.case;
 sub braceright by braceright.case;
 sub bracketleft by bracketleft.case;
 sub bracketright by bracketright.case;
+sub parenleft by parenleft.case;
 sub parenright by parenright.case;
 sub emdash by emdash.case;
 sub endash by endash.case;
@@ -193818,6 +193892,31 @@ width = 326;
 );
 },
 {
+glyphname = parenleft.case;
+layers = (
+{
+components = (
+{
+name = parenleft;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID0;
+width = 275;
+},
+{
+components = (
+{
+name = parenleft;
+transform = "{1, 0, 0, 1, 0, 60}";
+}
+);
+layerId = UUID1;
+width = 309;
+}
+);
+},
+{
 color = 5;
 glyphname = parenright.case;
 layers = (
@@ -235009,5 +235108,5 @@ HV = 20;
 };
 };
 versionMajor = 2;
-versionMinor = 6;
+versionMinor = 7;
 }
