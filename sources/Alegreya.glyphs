@@ -1,5 +1,5 @@
 {
-.appVersion = "1075";
+.appVersion = "1141";
 classes = (
 {
 automatic = 1;
@@ -28911,7 +28911,7 @@ name = idotless;
 {
 alignment = 1;
 name = dblgravecomb;
-transform = "{1, 0, 0, 1, -51, 0}";
+transform = "{1, 0, 0, 1, -55, 0}";
 }
 );
 layerId = UUID1;
@@ -29295,7 +29295,7 @@ name = idotless;
 {
 alignment = 1;
 name = breveinvertedcomb;
-transform = "{1, 0, 0, 1, -52, 0}";
+transform = "{1, 0, 0, 1, -56, 0}";
 }
 );
 layerId = UUID1;
@@ -83783,6 +83783,12 @@ color = 1;
 glyphname = "Iu-cy";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{500, 637}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -83871,6 +83877,12 @@ nodes = (
 width = 1000;
 },
 {
+anchors = (
+{
+name = top;
+position = "{507, 647}";
+}
+);
 background = {
 paths = (
 {
@@ -98758,7 +98770,7 @@ nodes = (
 userData = {
 RMXScaler = {
 adjustSpace = 8;
-height = 70.66000;
+height = 70.66;
 weight = -7;
 width = 78;
 };
@@ -99012,7 +99024,7 @@ nodes = (
 userData = {
 RMXScaler = {
 adjustSpace = 9;
-height = 72.80000;
+height = 72.8;
 weight = -34;
 width = 75;
 };
@@ -120763,7 +120775,7 @@ nodes = (
 userData = {
 RMXScaler = {
 adjustSpace = 8;
-height = 70.66000;
+height = 70.66;
 weight = -7;
 width = 78;
 };
@@ -120959,7 +120971,7 @@ nodes = (
 userData = {
 RMXScaler = {
 adjustSpace = 9;
-height = 72.80000;
+height = 72.8;
 weight = -34;
 width = 75;
 };
@@ -129627,6 +129639,12 @@ source = "Tshe-cy";
 glyphname = "iu-cy.sc";
 layers = (
 {
+anchors = (
+{
+name = top;
+position = "{422, 497}";
+}
+);
 layerId = UUID0;
 paths = (
 {
@@ -129723,6 +129741,12 @@ width = 82;
 width = 843;
 },
 {
+anchors = (
+{
+name = top;
+position = "{428, 503}";
+}
+);
 layerId = UUID1;
 paths = (
 {
@@ -135853,7 +135877,7 @@ name = f.sc;
 }
 );
 layerId = "6DC2006A-28B6-4A13-A5DF-3641E0854074";
-width = 426;
+width = 446;
 }
 );
 userData = {
@@ -135929,11 +135953,11 @@ name = "es-cy.sc";
 },
 {
 name = cedillacomb;
-transform = "{1, 0, 0, 1, 143, 1}";
+transform = "{1, 0, 0, 1, 87, 0}";
 }
 );
 layerId = "6DC2006A-28B6-4A13-A5DF-3641E0854074";
-width = 448;
+width = 533;
 }
 );
 userData = {
@@ -153695,7 +153719,7 @@ transform = "{1, 0, 0, 1, 138, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153730,7 +153754,7 @@ transform = "{1, 0, 0, 1, 85, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153765,7 +153789,7 @@ transform = "{1, 0, 0, 1, 89, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153800,7 +153824,7 @@ transform = "{1, 0, 0, 1, 89, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153835,7 +153859,7 @@ transform = "{1, 0, 0, 1, 88, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153870,7 +153894,7 @@ transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153905,7 +153929,7 @@ transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153940,7 +153964,7 @@ transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -153975,7 +153999,7 @@ transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -154010,7 +154034,7 @@ transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -154045,7 +154069,7 @@ transform = "{1, 0, 0, 1, 61, 0}";
 }
 );
 layerId = UUID0;
-width = 539;
+width = 540;
 },
 {
 components = (
@@ -154783,7 +154807,7 @@ transform = "{1, 0, 0, 1, -21, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -154797,7 +154821,7 @@ transform = "{1, 0, 0, 1, -42, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -154819,7 +154843,7 @@ transform = "{1, 0, 0, 1, 89, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -154832,7 +154856,7 @@ transform = "{1, 0, 0, 1, 76, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -154854,7 +154878,7 @@ transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -154867,7 +154891,7 @@ transform = "{1, 0, 0, 1, 85, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -154889,7 +154913,7 @@ transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -154902,7 +154926,7 @@ transform = "{1, 0, 0, 1, 103, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -154924,7 +154948,7 @@ transform = "{1, 0, 0, 1, 92, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -154937,7 +154961,7 @@ transform = "{1, 0, 0, 1, 93, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -154959,7 +154983,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -154972,7 +154996,7 @@ transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -154994,7 +155018,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -155007,7 +155031,7 @@ transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -155029,7 +155053,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -155042,7 +155066,7 @@ transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -155064,7 +155088,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -155077,7 +155101,7 @@ transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -155099,7 +155123,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -155112,7 +155136,7 @@ transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -155134,7 +155158,7 @@ transform = "{1, 0, 0, 1, 65, 0}";
 }
 );
 layerId = UUID0;
-width = 516;
+width = 515;
 },
 {
 components = (
@@ -155147,7 +155171,7 @@ transform = "{1, 0, 0, 1, 47, 0}";
 }
 );
 layerId = UUID1;
-width = 509;
+width = 508;
 }
 );
 leftKerningGroup = n;
@@ -157089,7 +157113,7 @@ transform = "{1, 0, 0, 1, 163, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157124,7 +157148,7 @@ transform = "{1, 0, 0, 1, 99, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157159,7 +157183,7 @@ transform = "{1, 0, 0, 1, 108, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157194,7 +157218,7 @@ transform = "{1, 0, 0, 1, 126, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157229,7 +157253,7 @@ transform = "{1, 0, 0, 1, 116, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157264,7 +157288,7 @@ transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157299,7 +157323,7 @@ transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157334,7 +157358,7 @@ transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157369,7 +157393,7 @@ transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157404,7 +157428,7 @@ transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -157439,7 +157463,7 @@ transform = "{1, 0, 0, 1, 70, 0}";
 }
 );
 layerId = UUID1;
-width = 629;
+width = 630;
 }
 );
 leftKerningGroup = omega;
@@ -195584,7 +195608,7 @@ components = (
 {
 alignment = 1;
 name = exclam.sc;
-transform = "{-1, 0, 0, -1, 247, 506}";
+transform = "{-1, 0, 0, -1, 247, 497}";
 }
 );
 layerId = UUID0;
@@ -195595,7 +195619,7 @@ components = (
 {
 alignment = 1;
 name = exclam.sc;
-transform = "{-1, 0, 0, -1, 285, 506}";
+transform = "{-1, 0, 0, -1, 285, 503}";
 }
 );
 layerId = UUID1;
@@ -195818,7 +195842,7 @@ components = (
 {
 alignment = 1;
 name = question.sc;
-transform = "{-1, 0, 0, -1, 291, 494}";
+transform = "{-1, 0, 0, -1, 291, 497}";
 }
 );
 layerId = UUID0;
@@ -195829,7 +195853,7 @@ components = (
 {
 alignment = 1;
 name = question.sc;
-transform = "{-1, 0, 0, -1, 332, 504}";
+transform = "{-1, 0, 0, -1, 332, 503}";
 }
 );
 layerId = UUID1;
@@ -235108,5 +235132,5 @@ HV = 20;
 };
 };
 versionMajor = 2;
-versionMinor = 7;
+versionMinor = 8;
 }
