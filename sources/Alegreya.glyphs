@@ -159,50 +159,49 @@ lookup ccmp_Other_2 {
 
 lookup ccmp_Other_3 {
 	lookupflag 0;
-	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
 	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
-	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
-	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
-	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
-	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
-	sub tildecomb acutecomb by tildecomb_acutecomb;
-	sub tildecomb macroncomb by tildecomb_macroncomb;
-	sub macroncomb gravecomb by macroncomb_gravecomb;
-	sub macroncomb acutecomb by macroncomb_acutecomb;
 	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;
+	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
+	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
+	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
 	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;
+	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
 	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;
-	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;
-	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;
-	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
-	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
+	sub macroncomb acutecomb by macroncomb_acutecomb;
 	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;
+	sub macroncomb gravecomb by macroncomb_gravecomb;
+	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
+	sub tildecomb acutecomb by tildecomb_acutecomb;
+	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;
+	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
+	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;
+	sub tildecomb macroncomb by tildecomb_macroncomb;
+	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
 } ccmp_Other_3;
 
 lookup ccmp_Other_4 {
 	lookupflag 0;
-	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
 	sub dieresiscomb acutecomb by dieresiscomb_acutecomb;
-	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
-	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
-	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
-	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
-	sub tildecomb acutecomb by tildecomb_acutecomb;
-	sub tildecomb macroncomb by tildecomb_macroncomb;
-	sub macroncomb gravecomb by macroncomb_gravecomb;
-	sub macroncomb acutecomb by macroncomb_acutecomb;
 	sub dieresiscomb.case acutecomb.case by dieresiscomb_acutecomb.case;
+	sub dieresiscomb caroncomb by dieresiscomb_caroncomb;
+	sub dieresiscomb gravecomb by dieresiscomb_gravecomb;
+	sub dieresiscomb macroncomb by dieresiscomb_macroncomb;
 	sub dieresiscomb.case macroncomb.case by dieresiscomb_macroncomb.case;
+	sub dotaccentcomb macroncomb by dotaccentcomb_macroncomb;
 	sub dotaccentcomb.case macroncomb.case by dotaccentcomb_macroncomb.case;
-	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;
-	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;
-	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
-	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
+	sub macroncomb acutecomb by macroncomb_acutecomb;
 	sub macroncomb.case acutecomb.case by macroncomb_acutecomb.case;
+	sub macroncomb gravecomb by macroncomb_gravecomb;
+	sub macroncomb.case gravecomb.case by macroncomb_gravecomb.case;
+	sub tildecomb acutecomb by tildecomb_acutecomb;
+	sub tildecomb.case acutecomb.case by tildecomb_acutecomb.case;
+	sub tildecomb dieresiscomb by tildecomb_dieresiscomb;
+	sub tildecomb.case dieresiscomb.case by tildecomb_dieresiscomb.case;
+	sub tildecomb macroncomb by tildecomb_macroncomb;
+	sub tildecomb.case macroncomb.case by tildecomb_macroncomb.case;
 } ccmp_Other_4;
 
 lookup ccmp_latn_1 {
-	script latn;
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
@@ -215,7 +214,6 @@ lookup ccmp_latn_1 {
 } ccmp_latn_1;
 
 lookup ccmp_latn_2 {
-	script latn;
 	lookupflag 0;
 	sub brevecomb acutecomb by brevecomb_acutecomb;
 	sub brevecomb gravecomb by brevecomb_gravecomb;
@@ -226,6 +224,8 @@ lookup ccmp_latn_2 {
 	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;
 	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;
 } ccmp_latn_2;
+
+script latn;
 ";
 name = ccmp;
 },
@@ -927,8 +927,6 @@ sub Endescender-cy by endescender-cy.sc;
 sub Enghe-cy by enghe-cy.sc;
 sub Pedescender-cy by pedescender-cy.sc;
 sub Esdescender-cy by esdescender-cy.sc;
-sub Ustrait-cy by ustrait-cy.sc;
-sub Ustraitstroke-cy by ustraitstroke-cy.sc;
 sub Hadescender-cy by hadescender-cy.sc;
 sub Chedescender-cy by chedescender-cy.sc;
 sub Cheverticalstroke-cy by cheverticalstroke-cy.sc;
@@ -1723,9 +1721,9 @@ automatic = 1;
 code = "sub c h by c_h;
 sub c t by c_t;
 sub f j by f_j;
-sub s t by s_t;
 sub gamma gamma by gamma_gamma;
 sub lambda lambda by lambda_lambda;
+sub s t by s_t;
 ";
 name = dlig;
 },
@@ -1941,6 +1939,7 @@ sub omegadasiaperispomeniypogegrammeni.sc by omegadasiaperispomeniypogegrammeni.
 sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss05;
 ";
 name = ss05;
+notes = "Name: Greek adscript iota\"";
 }
 );
 fontMaster = (
