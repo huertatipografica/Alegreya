@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="phiSymbol" format="2">
+  <advance width="590"/>
+  <unicode hex="03D5"/>
+  <outline>
+    <contour>
+      <point x="292" y="-12" type="curve" smooth="yes"/>
+      <point x="443" y="-12"/>
+      <point x="555" y="86"/>
+      <point x="555" y="226" type="curve" smooth="yes"/>
+      <point x="555" y="365"/>
+      <point x="446" y="464"/>
+      <point x="297" y="464" type="curve" smooth="yes"/>
+      <point x="147" y="464"/>
+      <point x="35" y="366"/>
+      <point x="35" y="225" type="curve" smooth="yes"/>
+      <point x="35" y="87"/>
+      <point x="143" y="-12"/>
+    </contour>
+    <contour>
+      <point x="315" y="-241" type="curve"/>
+      <point x="323" y="-230" type="line"/>
+      <point x="314" y="17"/>
+      <point x="321" y="404"/>
+      <point x="340" y="634" type="curve"/>
+      <point x="321" y="644"/>
+      <point x="303" y="649"/>
+      <point x="281" y="652" type="curve"/>
+      <point x="274" y="641" type="line"/>
+      <point x="257" y="-223" type="line"/>
+      <point x="273" y="-231"/>
+      <point x="289" y="-236"/>
+    </contour>
+    <contour>
+      <point x="261" y="51" type="curve" smooth="yes"/>
+      <point x="159" y="51"/>
+      <point x="96" y="101"/>
+      <point x="96" y="184" type="curve" smooth="yes"/>
+      <point x="96" y="305"/>
+      <point x="205" y="403"/>
+      <point x="329" y="403" type="curve" smooth="yes"/>
+      <point x="430" y="403"/>
+      <point x="494" y="350"/>
+      <point x="494" y="264" type="curve" smooth="yes"/>
+      <point x="494" y="143"/>
+      <point x="390" y="51"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

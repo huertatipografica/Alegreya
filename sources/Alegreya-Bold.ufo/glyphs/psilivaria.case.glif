@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psilivaria.case" format="2">
+  <advance width="458"/>
+  <guideline x="272" y="771" angle="0"/>
+  <guideline x="269" y="508" angle="0"/>
+  <anchor x="226" y="472" name="_top"/>
+  <anchor x="314" y="723" name="_topleft"/>
+  <anchor x="222" y="764" name="top"/>
+  <outline>
+    <contour>
+      <point x="330" y="509" type="line"/>
+      <point x="394" y="529" type="line"/>
+      <point x="386" y="600"/>
+      <point x="384" y="679"/>
+      <point x="378" y="754" type="curve"/>
+      <point x="366" y="764" type="line"/>
+      <point x="249" y="735" type="line"/>
+      <point x="241" y="721" type="line"/>
+      <point x="309" y="518" type="line"/>
+    </contour>
+    <component base="psili" xScale="0.948" xyScale="0.083" yxScale="-0.083" yScale="0.948" xOffset="-3" yOffset="10"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

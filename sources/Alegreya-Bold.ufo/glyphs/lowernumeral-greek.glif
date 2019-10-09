@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lowernumeral-greek" format="2">
+  <advance width="176"/>
+  <unicode hex="0375"/>
+  <outline>
+    <contour>
+      <point x="19" y="-132" type="line"/>
+      <point x="153" y="-118" type="line"/>
+      <point x="153" y="-118"/>
+      <point x="142" y="0"/>
+      <point x="144" y="120" type="curve"/>
+      <point x="125" y="126" type="line"/>
+      <point x="52" y="101" type="line"/>
+      <point x="26" y="-11"/>
+      <point x="10" y="-120"/>
+      <point x="10" y="-120" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|quotesingle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|quotesingle</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

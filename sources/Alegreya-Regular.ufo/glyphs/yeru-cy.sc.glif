@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yeru-cy.sc" format="2">
+  <advance width="739"/>
+  <anchor x="371" y="497" name="top"/>
+  <outline>
+    <component base="softsign-cy.cond.sc"/>
+    <component base="i.sc" xOffset="420"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=i.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=i.sc</string>
+    </dict>
+  </lib>
+</glyph>

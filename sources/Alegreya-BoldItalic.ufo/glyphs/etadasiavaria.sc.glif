@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasiavaria.sc" format="2">
+  <advance width="608"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="dasiavaria" xOffset="110" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="zeta" format="2">
+  <outline>
+    <contour>
+      <point x="143" y="-179" type="line"/>
+      <point x="246" y="-142"/>
+      <point x="295" y="-91"/>
+      <point x="295" y="-9" type="curve" smooth="yes"/>
+      <point x="295" y="55"/>
+      <point x="269" y="94"/>
+      <point x="207" y="109" type="curve" smooth="yes"/>
+      <point x="114" y="132"/>
+      <point x="84" y="141"/>
+      <point x="84" y="190" type="curve" smooth="yes"/>
+      <point x="84" y="260"/>
+      <point x="154" y="377"/>
+      <point x="354" y="653" type="curve"/>
+      <point x="351" y="664" type="line"/>
+      <point x="295" y="706" type="line"/>
+      <point x="284" y="707" type="line"/>
+      <point x="116" y="461"/>
+      <point x="45" y="320"/>
+      <point x="45" y="199" type="curve" smooth="yes"/>
+      <point x="45" y="92"/>
+      <point x="95" y="47"/>
+      <point x="186" y="25" type="curve" smooth="yes"/>
+      <point x="238" y="12"/>
+      <point x="252" y="9"/>
+      <point x="252" y="-11" type="curve" smooth="yes"/>
+      <point x="252" y="-41"/>
+      <point x="218" y="-60"/>
+      <point x="108" y="-90" type="curve"/>
+      <point x="103" y="-103" type="line"/>
+    </contour>
+    <contour>
+      <point x="143" y="590" type="curve"/>
+      <point x="181" y="595"/>
+      <point x="217" y="604"/>
+      <point x="256" y="617" type="curve"/>
+      <point x="254" y="637" type="line"/>
+      <point x="144" y="614"/>
+      <point x="93" y="647"/>
+      <point x="136" y="731" type="curve"/>
+      <point x="122" y="738" type="line"/>
+      <point x="78" y="719"/>
+      <point x="53" y="688"/>
+      <point x="53" y="657" type="curve" smooth="yes"/>
+      <point x="53" y="617"/>
+      <point x="93" y="590"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="theta.sups" format="2">
+  <advance width="332"/>
+  <outline>
+    <contour>
+      <point x="126" y="332" type="curve" smooth="yes"/>
+      <point x="214" y="332"/>
+      <point x="282" y="466"/>
+      <point x="282" y="635" type="curve" smooth="yes"/>
+      <point x="282" y="756"/>
+      <point x="249" y="823"/>
+      <point x="191" y="823" type="curve" smooth="yes"/>
+      <point x="131" y="823"/>
+      <point x="76" y="744"/>
+      <point x="76" y="660" type="curve" smooth="yes"/>
+      <point x="76" y="575"/>
+      <point x="132" y="544"/>
+      <point x="314" y="513" type="curve"/>
+      <point x="339" y="564" type="line"/>
+      <point x="336" y="572" type="line"/>
+      <point x="157" y="596"/>
+      <point x="109" y="616"/>
+      <point x="109" y="658" type="curve" smooth="yes"/>
+      <point x="109" y="703"/>
+      <point x="161" y="757"/>
+      <point x="202" y="757" type="curve" smooth="yes"/>
+      <point x="229" y="757"/>
+      <point x="241" y="734"/>
+      <point x="241" y="679" type="curve" smooth="yes"/>
+      <point x="241" y="551"/>
+      <point x="174" y="392"/>
+      <point x="120" y="392" type="curve" smooth="yes"/>
+      <point x="105" y="392"/>
+      <point x="98" y="400"/>
+      <point x="100" y="414" type="curve" smooth="yes"/>
+      <point x="110" y="469" type="line" smooth="yes"/>
+      <point x="117" y="508"/>
+      <point x="94" y="535"/>
+      <point x="55" y="535" type="curve"/>
+      <point x="30" y="516"/>
+      <point x="13" y="491"/>
+      <point x="4" y="460" type="curve"/>
+      <point x="9" y="452" type="line"/>
+      <point x="49" y="469"/>
+      <point x="77" y="460"/>
+      <point x="73" y="430" type="curve" smooth="yes"/>
+      <point x="67" y="383" type="line" smooth="yes"/>
+      <point x="64" y="354"/>
+      <point x="88" y="332"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>66</integer>
+        <key>verticalShift</key>
+        <integer>338</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

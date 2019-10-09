@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb_dieresiscomb.case" format="2">
+  <anchor x="200" y="637" name="_top"/>
+  <anchor x="200" y="935" name="top"/>
+  <outline>
+    <component base="tildecomb" yOffset="140"/>
+    <component base="dieresiscomb" xOffset="1" yOffset="296"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>398</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

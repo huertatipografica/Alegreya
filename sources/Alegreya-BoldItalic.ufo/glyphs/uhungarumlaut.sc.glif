@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhungarumlaut.sc" format="2">
+  <advance width="511"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="hungarumlautcomb" xOffset="93" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

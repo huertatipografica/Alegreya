@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="fita-cy.sc" format="2">
+  <advance width="550"/>
+  <outline>
+    <contour>
+      <point x="260" y="-9" type="curve" smooth="yes"/>
+      <point x="430" y="-9"/>
+      <point x="533" y="92"/>
+      <point x="533" y="263" type="curve" smooth="yes"/>
+      <point x="533" y="424"/>
+      <point x="447" y="510"/>
+      <point x="289" y="510" type="curve" smooth="yes"/>
+      <point x="118" y="510"/>
+      <point x="17" y="411"/>
+      <point x="17" y="241" type="curve" smooth="yes"/>
+      <point x="17" y="81"/>
+      <point x="105" y="-9"/>
+    </contour>
+    <contour>
+      <point x="279" y="90" type="curve" smooth="yes"/>
+      <point x="207" y="90"/>
+      <point x="173" y="143"/>
+      <point x="173" y="277" type="curve" smooth="yes"/>
+      <point x="173" y="365"/>
+      <point x="205" y="403"/>
+      <point x="268" y="403" type="curve" smooth="yes"/>
+      <point x="342" y="403"/>
+      <point x="377" y="350"/>
+      <point x="377" y="217" type="curve" smooth="yes"/>
+      <point x="377" y="128"/>
+      <point x="344" y="90"/>
+    </contour>
+    <contour>
+      <point x="96" y="193" type="line"/>
+      <point x="219" y="193"/>
+      <point x="327" y="193"/>
+      <point x="442" y="193" type="curve"/>
+      <point x="444" y="301" type="line"/>
+      <point x="284" y="299" type="line"/>
+      <point x="96" y="300" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>7</integer>
+        <key>height</key>
+        <real>77.5</real>
+        <key>weight</key>
+        <integer>-22</integer>
+        <key>width</key>
+        <integer>83</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=o.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=o.sc</string>
+    </dict>
+  </lib>
+</glyph>

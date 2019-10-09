@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lslash" format="2">
+  <advance width="346"/>
+  <unicode hex="0142"/>
+  <outline>
+    <contour>
+      <point x="35" y="242" type="line"/>
+      <point x="196" y="322" type="line"/>
+      <point x="196" y="300" type="line"/>
+      <point x="353" y="379" type="line"/>
+      <point x="322" y="472" type="line"/>
+      <point x="313" y="476" type="line"/>
+      <point x="196" y="417" type="line"/>
+      <point x="196" y="439" type="line"/>
+      <point x="-6" y="338" type="line"/>
+      <point x="25" y="244" type="line"/>
+    </contour>
+    <component base="l" xOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

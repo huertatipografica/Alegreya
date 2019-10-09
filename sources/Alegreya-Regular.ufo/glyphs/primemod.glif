@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="primemod" format="2">
+  <advance width="176"/>
+  <unicode hex="02B9"/>
+  <outline>
+    <contour>
+      <point x="71" y="415" type="line"/>
+      <point x="96" y="429" type="line"/>
+      <point x="117" y="531"/>
+      <point x="131" y="641"/>
+      <point x="131" y="641" type="curve"/>
+      <point x="124" y="649" type="line"/>
+      <point x="54" y="635" type="line"/>
+      <point x="54" y="635"/>
+      <point x="64" y="527"/>
+      <point x="60" y="417" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=quotesingle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=quotesingle</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

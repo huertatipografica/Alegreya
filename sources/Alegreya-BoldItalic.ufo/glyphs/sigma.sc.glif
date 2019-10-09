@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sigma.sc" format="2">
+  <advance width="575"/>
+  <outline>
+    <contour>
+      <point x="525" y="198" type="curve"/>
+      <point x="520" y="204" type="line"/>
+      <point x="416" y="196" type="line"/>
+      <point x="404" y="153"/>
+      <point x="382" y="135"/>
+      <point x="336" y="135" type="curve" smooth="yes"/>
+      <point x="234" y="135" type="line"/>
+      <point x="369" y="250" type="line"/>
+      <point x="372" y="273" type="line"/>
+      <point x="291" y="410" type="line"/>
+      <point x="368" y="410" type="line" smooth="yes"/>
+      <point x="416" y="410"/>
+      <point x="434" y="386"/>
+      <point x="429" y="327" type="curve"/>
+      <point x="535" y="341" type="line"/>
+      <point x="542" y="428"/>
+      <point x="545" y="477"/>
+      <point x="548" y="504" type="curve"/>
+      <point x="540" y="512" type="line"/>
+      <point x="484" y="507"/>
+      <point x="436" y="504"/>
+      <point x="390" y="504" type="curve" smooth="yes"/>
+      <point x="107" y="504" type="line"/>
+      <point x="87" y="456" type="line"/>
+      <point x="212" y="234" type="line"/>
+      <point x="24" y="69" type="line"/>
+      <point x="46" y="-6" type="line"/>
+      <point x="123" y="2" type="line"/>
+      <point x="469" y="-2" type="line"/>
+      <point x="489" y="16" type="line"/>
+      <point x="494" y="52"/>
+      <point x="509" y="126"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>7</integer>
+        <key>height</key>
+        <real>77.5</real>
+        <key>weight</key>
+        <integer>-22</integer>
+        <key>width</key>
+        <integer>83</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

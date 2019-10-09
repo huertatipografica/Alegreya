@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ddotbelow.sc" format="2">
+  <advance width="560"/>
+  <outline>
+    <component base="d.sc"/>
+    <component base="dotbelowcomb" xOffset="167"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>
