@@ -10,8 +10,9 @@ fontmake -m Alegreya.designspace -i -o otf --output-dir ../fonts/otf/
 fontmake -m Alegreya_Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
-fontmake -m Alegreya.designspace -o variable --output-path ../fonts/ttf/Alegreya[wght].ttf
-fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/ttf/Alegreya-Italic[wght].ttf
+mkdir -p ../fonts/vf
+fontmake -m Alegreya.designspace -o variable --output-path ../fonts/vf/Alegreya[wght].ttf
+fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/vf/Alegreya-Italic[wght].ttf
 
 rm -rf master_ufo/ instance_ufo/ instance_ufos/*
 
@@ -32,7 +33,7 @@ do
 done
 
 
-vfs=$(ls ../fonts/ttf/*\[wght\].ttf)
+vfs=$(ls ../fonts/vf/*\[wght\].ttf)
 
 echo "Post processing VFs"
 for vf in $vfs
@@ -53,7 +54,7 @@ do
 	mv "$vf.fix" $vf;
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/ttf/$rtrip.ttx;
+	new_file=../fonts/vf/$rtrip.ttx;
 	rm $vf;
 	ttx $new_file
 	rm $new_file
