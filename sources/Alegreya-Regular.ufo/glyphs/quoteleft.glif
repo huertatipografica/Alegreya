@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="quoteleft" format="2">
+  <advance width="176"/>
+  <unicode hex="2018"/>
+  <outline>
+    <contour>
+      <point x="92" y="414" type="curve" smooth="yes"/>
+      <point x="113" y="414"/>
+      <point x="134" y="427"/>
+      <point x="155" y="452" type="curve"/>
+      <point x="154" y="466" type="line"/>
+      <point x="122" y="476"/>
+      <point x="101" y="502"/>
+      <point x="101" y="532" type="curve" smooth="yes"/>
+      <point x="101" y="562"/>
+      <point x="121" y="601"/>
+      <point x="152" y="630" type="curve"/>
+      <point x="150" y="640" type="line"/>
+      <point x="129" y="651" type="line"/>
+      <point x="69" y="600"/>
+      <point x="34" y="543"/>
+      <point x="34" y="497" type="curve" smooth="yes"/>
+      <point x="34" y="451"/>
+      <point x="60" y="414"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|quoteright</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|quoteright</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

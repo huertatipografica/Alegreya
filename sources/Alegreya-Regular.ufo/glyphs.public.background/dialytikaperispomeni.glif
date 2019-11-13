@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dialytikaperispomeni" format="2">
+  <anchor x="226" y="452" name="_top"/>
+  <outline>
+    <contour>
+      <point x="193" y="499" type="line"/>
+      <point x="246" y="526"/>
+      <point x="286" y="559"/>
+      <point x="286" y="595" type="curve" smooth="yes"/>
+      <point x="286" y="628"/>
+      <point x="253" y="660"/>
+      <point x="233" y="660" type="curve" smooth="yes"/>
+      <point x="213" y="660"/>
+      <point x="181" y="648"/>
+      <point x="165" y="632" type="curve"/>
+      <point x="166" y="620" type="line"/>
+      <point x="195" y="613"/>
+      <point x="209" y="596"/>
+      <point x="209" y="577" type="curve" smooth="yes"/>
+      <point x="209" y="558"/>
+      <point x="195" y="536"/>
+      <point x="167" y="518" type="curve"/>
+      <point x="168" y="509" type="line"/>
+    </contour>
+    <component base="perispomeni" xScale="0.909" xyScale="0.032" yxScale="-0.032" yScale="0.909" xOffset="56" yOffset="148"/>
+  </outline>
+</glyph>

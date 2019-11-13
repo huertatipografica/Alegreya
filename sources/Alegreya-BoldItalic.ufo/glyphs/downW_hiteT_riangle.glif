@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="downWhiteTriangle" format="2">
+  <advance width="529"/>
+  <unicode hex="25BD"/>
+  <outline>
+    <contour>
+      <point x="268" y="3" type="line"/>
+      <point x="471" y="411" type="line"/>
+      <point x="63" y="411" type="line"/>
+    </contour>
+    <contour>
+      <point x="268" y="137" type="line"/>
+      <point x="161" y="351" type="line"/>
+      <point x="375" y="351" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=downBlackTriangle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=downBlackTriangle</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

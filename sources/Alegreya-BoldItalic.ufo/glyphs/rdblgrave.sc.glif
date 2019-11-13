@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rdblgrave.sc" format="2">
+  <advance width="571"/>
+  <outline>
+    <component base="r.sc"/>
+    <component base="dblgravecomb" xOffset="107" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

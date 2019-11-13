@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiavariaprosgegrammeni" format="2">
+  <advance width="789"/>
+  <unicode hex="1F8B"/>
+  <outline>
+    <component base="Alphaprosgegrammeni" xOffset="201"/>
+    <component base="dasiavaria.case" xOffset="-5" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Alphatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Alphaprosgegrammeni.ss05</string>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>0</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dcaron" format="2">
+  <advance width="663"/>
+  <unicode hex="010F"/>
+  <outline>
+    <contour>
+      <point x="558" y="435" type="line"/>
+      <point x="631" y="460" type="line"/>
+      <point x="657" y="572"/>
+      <point x="673" y="681"/>
+      <point x="673" y="681" type="curve"/>
+      <point x="664" y="693" type="line"/>
+      <point x="530" y="679" type="line"/>
+      <point x="530" y="679"/>
+      <point x="541" y="561"/>
+      <point x="539" y="441" type="curve"/>
+    </contour>
+    <component base="d"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless.serifless2" format="2">
+  <advance width="289"/>
+  <anchor x="109" y="0" name="bottom"/>
+  <anchor x="231" y="10" name="ogonek"/>
+  <anchor x="167" y="472" name="top"/>
+  <outline>
+    <contour>
+      <point x="204" y="104" type="line"/>
+      <point x="237" y="302" type="line"/>
+      <point x="248" y="375"/>
+      <point x="270" y="452"/>
+      <point x="270" y="452" type="curve"/>
+      <point x="256" y="473" type="line"/>
+      <point x="256" y="473"/>
+      <point x="122" y="461"/>
+      <point x="33" y="461" type="curve"/>
+      <point x="21" y="379" type="line"/>
+      <point x="49" y="379" type="line" smooth="yes"/>
+      <point x="76" y="379"/>
+      <point x="85" y="368"/>
+      <point x="81" y="336" type="curve"/>
+      <point x="72" y="278"/>
+      <point x="29" y="16"/>
+      <point x="29" y="16" type="curve"/>
+      <point x="49" y="-7" type="line"/>
+      <point x="125" y="-7"/>
+      <point x="194" y="17"/>
+      <point x="197" y="45" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=m</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

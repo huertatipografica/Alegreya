@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsilivaria" format="2">
+  <advance width="540"/>
+  <unicode hex="1F02"/>
+  <outline>
+    <component base="alpha"/>
+    <component base="psilivaria" xOffset="61"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

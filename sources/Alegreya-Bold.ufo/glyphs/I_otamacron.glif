@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotamacron" format="2">
+  <advance width="370"/>
+  <unicode hex="1FD9"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="macroncomb.case" xOffset="-19"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

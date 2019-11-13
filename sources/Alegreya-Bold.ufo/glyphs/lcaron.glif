@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron" format="2">
+  <advance width="418"/>
+  <unicode hex="013E"/>
+  <outline>
+    <contour>
+      <point x="313" y="427" type="line"/>
+      <point x="386" y="452" type="line"/>
+      <point x="412" y="564"/>
+      <point x="428" y="673"/>
+      <point x="428" y="673" type="curve"/>
+      <point x="419" y="685" type="line"/>
+      <point x="285" y="671" type="line"/>
+      <point x="285" y="671"/>
+      <point x="296" y="553"/>
+      <point x="294" y="433" type="curve"/>
+    </contour>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

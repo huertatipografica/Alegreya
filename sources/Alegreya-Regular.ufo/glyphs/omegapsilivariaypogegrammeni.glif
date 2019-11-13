@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegapsilivariaypogegrammeni" format="2">
+  <advance width="657"/>
+  <unicode hex="1FA2"/>
+  <outline>
+    <component base="omegaypogegrammeni"/>
+    <component base="psilivaria" xOffset="104"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

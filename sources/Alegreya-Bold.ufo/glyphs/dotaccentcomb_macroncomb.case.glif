@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb_macroncomb.case" format="2">
+  <anchor x="199" y="647" name="_top"/>
+  <anchor x="199" y="1012" name="top"/>
+  <outline>
+    <component base="dotaccentcomb" xScale="0.89" yScale="0.89" xOffset="22" yOffset="204"/>
+    <component base="macroncomb" xOffset="-5" yOffset="319"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>398</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

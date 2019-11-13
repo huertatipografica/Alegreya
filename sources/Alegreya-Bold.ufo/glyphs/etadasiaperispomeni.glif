@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasiaperispomeni" format="2">
+  <advance width="508"/>
+  <unicode hex="1F27"/>
+  <outline>
+    <component base="eta"/>
+    <component base="dasiaperispomeni" xOffset="47"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

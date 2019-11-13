@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="minute" format="2">
+  <advance width="176"/>
+  <unicode hex="2032"/>
+  <outline>
+    <contour>
+      <point x="51" y="401" type="line"/>
+      <point x="124" y="426" type="line"/>
+      <point x="150" y="538"/>
+      <point x="166" y="647"/>
+      <point x="166" y="647" type="curve"/>
+      <point x="157" y="659" type="line"/>
+      <point x="23" y="645" type="line"/>
+      <point x="23" y="645"/>
+      <point x="34" y="527"/>
+      <point x="32" y="407" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=quotesingle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=quotesingle</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

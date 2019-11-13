@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upsilondasiaoxia.sc" format="2">
+  <advance width="544"/>
+  <outline>
+    <component base="upsilon.sc"/>
+    <component base="dasiaoxia" xOffset="60" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>
