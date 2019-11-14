@@ -54,7 +54,7 @@
         <dimension name="Weight" xvalue="73"/>
       </location>
     </source>
-    <source filename="Alegreya-Bold.ufo" name="Alegreya Bold" familyname="Alegreya" stylename="Bold">
+    <source filename="Alegreya-Black.ufo" name="Alegreya Black" familyname="Alegreya" stylename="Black">
       <location>
         <dimension name="Weight" xvalue="175"/>
       </location>
@@ -141,7 +141,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Alegreya Bold" familyname="Alegreya" stylename="Bold" filename="instance_ufos/Alegreya-Bold.ufo" stylemapfamilyname="Alegreya" stylemapstylename="bold">
+    <instance name="Alegreya Bold" familyname="Alegreya" stylename="Bold" filename="instance_ufos/Alegreya-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="119"/>
       </location>
@@ -2768,7 +2768,7 @@ sub @siglo2 @siglo1' by @siglo2;</string>
         </dict>
       </lib>
     </instance>
-    <instance name="Alegreya SC Bold" familyname="Alegreya SC" stylename="Bold" filename="instance_ufos/AlegreyaSC-Bold.ufo" stylemapfamilyname="Alegreya SC" stylemapstylename="bold">
+    <instance name="Alegreya SC Bold" familyname="Alegreya SC" stylename="Bold" filename="instance_ufos/AlegreyaSC-Bold.ufo">
       <location>
         <dimension name="Weight" xvalue="119"/>
       </location>

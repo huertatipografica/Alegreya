@@ -49,14 +49,14 @@
         <dimension name="Weight" xvalue="60"/>
       </location>
     </source>
-    <source filename="Alegreya-BoldItalic.ufo" name="Alegreya Bold Italic" familyname="Alegreya" stylename="Bold Italic">
+    <source filename="Alegreya-BlackItalic.ufo" name="Alegreya Black Italic" familyname="Alegreya" stylename="Black Italic">
       <location>
         <dimension name="Weight" xvalue="160"/>
       </location>
     </source>
   </sources>
   <instances>
-    <instance name="Alegreya Italic" familyname="Alegreya" stylename="Italic" filename="instance_ufos/Alegreya-Italic.ufo" stylemapfamilyname="Alegreya" stylemapstylename="italic">
+    <instance name="Alegreya Italic" familyname="Alegreya" stylename="Italic" filename="instance_ufos/Alegreya-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="60"/>
       </location>
@@ -136,7 +136,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Alegreya Bold Italic" familyname="Alegreya" stylename="Bold Italic" filename="instance_ufos/Alegreya-BoldItalic.ufo" stylemapfamilyname="Alegreya" stylemapstylename="bold italic">
+    <instance name="Alegreya Bold Italic" familyname="Alegreya" stylename="Bold Italic" filename="instance_ufos/Alegreya-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="105"/>
       </location>
@@ -257,7 +257,7 @@
         </dict>
       </lib>
     </instance>
-    <instance name="Alegreya SC Italic" familyname="Alegreya SC" stylename="Italic" filename="instance_ufos/AlegreyaSC-Italic.ufo" stylemapfamilyname="Alegreya SC" stylemapstylename="italic">
+    <instance name="Alegreya SC Italic" familyname="Alegreya SC" stylename="Italic" filename="instance_ufos/AlegreyaSC-Italic.ufo">
       <location>
         <dimension name="Weight" xvalue="60"/>
       </location>
@@ -2755,7 +2755,7 @@ sub @siglo2 @siglo1' by @siglo2;</string>
         </dict>
       </lib>
     </instance>
-    <instance name="Alegreya SC Bold Italic" familyname="Alegreya SC" stylename="Bold Italic" filename="instance_ufos/AlegreyaSC-BoldItalic.ufo" stylemapfamilyname="Alegreya SC" stylemapstylename="bold italic">
+    <instance name="Alegreya SC Bold Italic" familyname="Alegreya SC" stylename="Bold Italic" filename="instance_ufos/AlegreyaSC-BoldItalic.ufo">
       <location>
         <dimension name="Weight" xvalue="105"/>
       </location>
