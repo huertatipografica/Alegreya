@@ -3,8 +3,43 @@
   <anchor x="212" y="472" name="_top"/>
   <anchor x="262" y="880" name="top"/>
   <outline>
-    <component base="tildecomb" xScale="0.9259" yScale="0.9259" xOffset="15" yOffset="18"/>
-    <component base="acutecomb.case" xOffset="9" yOffset="9"/>
+    <contour>
+      <point x="102.9605" y="504.09749999999997" type="line"/>
+      <point x="117.77489999999999" y="504.09749999999997" type="line"/>
+      <point x="117.77489999999999" y="504.09749999999997"/>
+      <point x="162.2181" y="557.7996999999999"/>
+      <point x="184.4397" y="557.7996999999999" type="curve" smooth="yes"/>
+      <point x="211.2908" y="557.7996999999999"/>
+      <point x="288.1405" y="526.3190999999999"/>
+      <point x="319.62109999999996" y="526.3190999999999" type="curve"/>
+      <point x="335.3614" y="530.0227" type="line"/>
+      <point x="421.4701" y="636.5011999999999" type="line"/>
+      <point x="423.32189999999997" y="651.3156" type="line"/>
+      <point x="374.2492" y="701.3141999999999" type="line"/>
+      <point x="359.4348" y="701.3141999999999" type="line"/>
+      <point x="359.4348" y="701.3141999999999"/>
+      <point x="314.0657" y="647.612"/>
+      <point x="292.77" y="647.612" type="curve" smooth="yes"/>
+      <point x="265.9189" y="647.612"/>
+      <point x="189.0692" y="679.0926"/>
+      <point x="157.58859999999999" y="679.0926" type="curve"/>
+      <point x="141.8483" y="675.389" type="line"/>
+      <point x="55.739599999999996" y="568.9105" type="line"/>
+      <point x="53.8878" y="554.0961" type="line"/>
+    </contour>
+    <contour>
+      <point x="396" y="752" type="curve"/>
+      <point x="403" y="768" type="line"/>
+      <point x="367" y="876" type="line"/>
+      <point x="351" y="881" type="line"/>
+      <point x="351" y="881"/>
+      <point x="225" y="827"/>
+      <point x="102" y="781" type="curve"/>
+      <point x="123" y="710" type="line"/>
+      <point x="142" y="697" type="line"/>
+      <point x="266" y="728"/>
+      <point x="396" y="752"/>
+    </contour>
   </outline>
   <lib>
     <dict>

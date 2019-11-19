@@ -3,8 +3,58 @@
   <anchor x="184" y="472" name="_top"/>
   <anchor x="184" y="849" name="top"/>
   <outline>
-    <component base="tildecomb" xScale="0.9259" yScale="0.9259"/>
-    <component base="dieresiscomb" xScale="0.9246" yScale="0.9246" xOffset="14" yOffset="177"/>
+    <contour>
+      <point x="87.9605" y="486.09749999999997" type="line"/>
+      <point x="102.77489999999999" y="486.09749999999997" type="line"/>
+      <point x="102.77489999999999" y="486.09749999999997"/>
+      <point x="147.2181" y="539.7996999999999"/>
+      <point x="169.4397" y="539.7996999999999" type="curve" smooth="yes"/>
+      <point x="196.2908" y="539.7996999999999"/>
+      <point x="273.1405" y="508.3191"/>
+      <point x="304.62109999999996" y="508.3191" type="curve"/>
+      <point x="320.3614" y="512.0227" type="line"/>
+      <point x="406.4701" y="618.5011999999999" type="line"/>
+      <point x="408.32189999999997" y="633.3156" type="line"/>
+      <point x="359.2492" y="683.3141999999999" type="line"/>
+      <point x="344.4348" y="683.3141999999999" type="line"/>
+      <point x="344.4348" y="683.3141999999999"/>
+      <point x="299.0657" y="629.612"/>
+      <point x="277.77" y="629.612" type="curve" smooth="yes"/>
+      <point x="250.91889999999998" y="629.612"/>
+      <point x="174.0692" y="661.0926"/>
+      <point x="142.58859999999999" y="661.0926" type="curve"/>
+      <point x="126.8483" y="657.389" type="line"/>
+      <point x="40.739599999999996" y="550.9105" type="line"/>
+      <point x="38.8878" y="536.0961" type="line"/>
+    </contour>
+    <contour>
+      <point x="313.5704" y="684.6053999999999" type="curve" smooth="yes"/>
+      <point x="366.2726" y="684.6053999999999"/>
+      <point x="402.332" y="721.5894"/>
+      <point x="402.332" y="776.1408" type="curve" smooth="yes"/>
+      <point x="402.332" y="815.8986"/>
+      <point x="379.217" y="839.0136"/>
+      <point x="337.61" y="839.0136" type="curve" smooth="yes"/>
+      <point x="283.9832" y="839.0136"/>
+      <point x="247.9238" y="802.0296"/>
+      <point x="247.9238" y="746.5536" type="curve" smooth="yes"/>
+      <point x="247.9238" y="706.7958"/>
+      <point x="270.1142" y="684.6053999999999"/>
+    </contour>
+    <contour>
+      <point x="138.821" y="684.6053999999999" type="curve" smooth="yes"/>
+      <point x="192.4478" y="684.6053999999999"/>
+      <point x="228.50719999999998" y="721.5894"/>
+      <point x="228.50719999999998" y="776.1408" type="curve" smooth="yes"/>
+      <point x="228.50719999999998" y="815.8986"/>
+      <point x="205.3922" y="839.0136"/>
+      <point x="163.7852" y="839.0136" type="curve" smooth="yes"/>
+      <point x="110.1584" y="839.0136"/>
+      <point x="74.09899999999999" y="802.0296"/>
+      <point x="74.09899999999999" y="746.5536" type="curve" smooth="yes"/>
+      <point x="74.09899999999999" y="706.7958"/>
+      <point x="97.214" y="684.6053999999999"/>
+    </contour>
   </outline>
   <lib>
     <dict>
