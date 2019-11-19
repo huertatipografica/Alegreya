@@ -14,7 +14,7 @@ mkdir -p ../fonts/vf
 fontmake -m Alegreya.designspace -o variable --output-path ../fonts/vf/Alegreya[wght].ttf
 fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/vf/Alegreya-Italic[wght].ttf
 
-rm -rf master_ufo/ instance_ufo/ instance_ufos/*
+rm -rf instance_ufos/*
 
 
 echo "Post processing"
