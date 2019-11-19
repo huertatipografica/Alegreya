@@ -9,10 +9,10 @@ fontmake -m Alegreya_Italic.designspace -i -o ttf --output-dir ../fonts/ttf/
 fontmake -m Alegreya.designspace -i -o otf --output-dir ../fonts/otf/
 fontmake -m Alegreya_Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
-# echo "Generating VFs"
-# mkdir -p ../fonts/vf
-# fontmake -m Alegreya.designspace -o variable --output-path ../fonts/vf/Alegreya[wght].ttf
-# fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/vf/Alegreya-Italic[wght].ttf
+echo "Generating VFs"
+mkdir -p ../fonts/vf
+fontmake -m Alegreya.designspace -o variable --output-path ../fonts/vf/Alegreya[wght].ttf
+fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/vf/Alegreya-Italic[wght].ttf
 
 rm -rf instance_ufos/*
 
