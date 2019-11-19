@@ -3,8 +3,43 @@
   <anchor x="200" y="637" name="_top"/>
   <anchor x="200" y="962" name="top"/>
   <outline>
-    <component base="tildecomb" yOffset="140"/>
-    <component base="acutecomb.case" xScale="0.9986" xyScale="-0.0523" yxScale="0.0523" yScale="0.9986" xOffset="-75" yOffset="139"/>
+    <contour>
+      <point x="57" y="687" type="line"/>
+      <point x="63" y="687" type="line"/>
+      <point x="63" y="687"/>
+      <point x="102" y="742"/>
+      <point x="126" y="742" type="curve" smooth="yes"/>
+      <point x="154" y="742"/>
+      <point x="239" y="709"/>
+      <point x="272" y="709" type="curve"/>
+      <point x="288" y="713" type="line"/>
+      <point x="364" y="802" type="line"/>
+      <point x="364" y="807" type="line"/>
+      <point x="342" y="828" type="line"/>
+      <point x="336" y="828" type="line"/>
+      <point x="336" y="828"/>
+      <point x="296" y="773"/>
+      <point x="273" y="773" type="curve" smooth="yes"/>
+      <point x="245" y="773"/>
+      <point x="160" y="806"/>
+      <point x="127" y="806" type="curve"/>
+      <point x="111" y="802" type="line"/>
+      <point x="35" y="713" type="line"/>
+      <point x="35" y="708" type="line"/>
+    </contour>
+    <contour>
+      <point x="100.57230000000001" y="833.7461000000001" type="line"/>
+      <point x="207.51729999999998" y="868.1986"/>
+      <point x="310.15409999999997" y="896.8687"/>
+      <point x="310.15409999999997" y="896.8687" type="curve"/>
+      <point x="314.67150000000004" y="906.6455000000001" type="line"/>
+      <point x="301.20430000000005" y="955.4151" type="line"/>
+      <point x="292.5307" y="961.8774000000001" type="line"/>
+      <point x="292.5307" y="961.8774000000001"/>
+      <point x="184.53969999999998" y="907.4529"/>
+      <point x="88.1086" y="863.4377000000001" type="curve"/>
+      <point x="92.845" y="839.1575" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

@@ -3,8 +3,46 @@
   <anchor x="200" y="452" name="_top"/>
   <anchor x="200" y="753" name="top"/>
   <outline>
-    <component base="tildecomb" xScale="0.9615" yScale="0.9615" xOffset="8" yOffset="-26"/>
-    <component base="macroncomb" yOffset="107"/>
+    <contour>
+      <point x="62.8055" y="499.94050000000004" type="line"/>
+      <point x="68.5745" y="499.94050000000004" type="line"/>
+      <point x="68.5745" y="499.94050000000004"/>
+      <point x="106.07300000000001" y="552.823"/>
+      <point x="129.149" y="552.823" type="curve" smooth="yes"/>
+      <point x="156.071" y="552.823"/>
+      <point x="237.79850000000002" y="521.0935000000001"/>
+      <point x="269.528" y="521.0935000000001" type="curve"/>
+      <point x="284.91200000000003" y="524.9395000000001" type="line"/>
+      <point x="357.986" y="610.513" type="line"/>
+      <point x="357.986" y="615.3205" type="line"/>
+      <point x="336.833" y="635.5120000000001" type="line"/>
+      <point x="331.064" y="635.5120000000001" type="line"/>
+      <point x="331.064" y="635.5120000000001"/>
+      <point x="292.604" y="582.6295"/>
+      <point x="270.4895" y="582.6295" type="curve" smooth="yes"/>
+      <point x="243.5675" y="582.6295"/>
+      <point x="161.84" y="614.359"/>
+      <point x="130.1105" y="614.359" type="curve"/>
+      <point x="114.7265" y="610.513" type="line"/>
+      <point x="41.6525" y="524.9395000000001" type="line"/>
+      <point x="41.6525" y="520.1320000000001" type="line"/>
+    </contour>
+    <contour>
+      <point x="56" y="681" type="line"/>
+      <point x="56" y="681"/>
+      <point x="141" y="682"/>
+      <point x="200" y="682" type="curve" smooth="yes"/>
+      <point x="342" y="683" type="line"/>
+      <point x="349" y="730" type="line"/>
+      <point x="343" y="740" type="line"/>
+      <point x="343" y="740"/>
+      <point x="264" y="734"/>
+      <point x="214" y="734" type="curve" smooth="yes"/>
+      <point x="155" y="734"/>
+      <point x="60" y="735"/>
+      <point x="60" y="735" type="curve"/>
+      <point x="50" y="690" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
