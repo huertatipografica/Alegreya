@@ -1728,6 +1728,13 @@ sub s t by s_t;
 name = dlig;
 },
 {
+sub ij acutecomb by iacute_j.loclNLD;
+sub IJ acutecomb by Iacute_J.loclNLD;
+sub ij.sc acutecomb by iacute_j.loclNLD.sc;
+";
+name = rlig;
+},
+{
 code = "sub T h by T_h.liga;
 sub gamma gamma by gamma_gamma;
 sub lambda lambda by lambda_lambda;
