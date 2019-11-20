@@ -1,0 +1,336 @@
+**Diffenator**
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+****names new: 2****
+
+id                  string              
+(267, 3, 1, 1033... Roman               
+(268, 3, 1, 1033... Italic              
+
+****names missing: 6****
+
+id                  string              
+(16, 3, 1, 1033)... Alegreya            
+(17, 3, 1, 1033)... Medium              
+(256, 3, 1, 1033... Roman numerals      
+(257, 3, 1, 1033... Arrows, triangle... 
+(258, 3, 1, 1033... Foundry icon        
+(259, 3, 1, 1033... Dynamic arrows a... 
+
+****names modified: 5****
+
+id                  string_a            string_b            
+(1, 3, 1, 1033)     Alegreya Medium     Alegreya            
+(3, 3, 1, 1033)     2.003;HT  ;Alegr... 2.008;HT;Alegrey... 
+(4, 3, 1, 1033)     Alegreya Medium     Alegreya Regular... 
+(5, 3, 1, 1033)     Version 2.003; t... Version 2.008; t... 
+(6, 3, 1, 1033)     Alegreya-Medium     Alegreya-Regular... 
+
+****attribs modified: 15****
+
+table               attrib              value_a             value_b             
+OS/2                panose              0-0-6-0-0-0-0-0-... 0-0-0-0-0-0-0-0-... 
+OS/2                sCapHeight          638                 637                 
+OS/2                sxHeight            456                 452                 
+OS/2                ulUnicodeRange1     1610613391          3758097151          
+OS/2                yStrikeoutSize      64                  55                  
+OS/2                yStrikeoutPositi... 273                 271                 
+OS/2                ulUnicodeRange2     3                   1073766523          
+head                yMin                -304                -293                
+head                xMax                1292                1259                
+head                xMin                -409                -211                
+head                modified            2017/10/23 08:55... 2019/11/20 08:15... 
+head                yMax                982                 962                 
+head                fontRevision        2.00299             2.008               
+post                underlineThickne... 64                  55                  
+post                underlinePositio... -177                -214                
+
+****glyphs new: 107****
+
+glyph               area                string              
+Alpha.sups          -91301              Α                   
+Beta.sups           -105013             Β                   
+Chi.sups            -102236             Χ                   
+Epsilon.sups        -89391              Ε                   
+Eta.sups            -112358             Η                   
+Gamma.sups          -69060              Γ                   
+Iota.sups           -51552              Ι                   
+Kappa.sups          -101181             Κ                   
+Lambda.sups         -85115              Λ                   
+Mu.sups             -131267             Μ                   
+Nu.sups             -114637             Ν                   
+Omicron.sups        -100561             Ο                   
+Phi.sups            -125220             Φ                   
+Pi.sups             -107855             Π                   
+Psi.sups            -98855              Ψ                   
+Rho.sups            -84679              Ρ                   
+Sigma.sups          -82319              Σ                   
+Tau.sups            -76397              Τ                   
+Theta.sups          -101482             Θ                   
+Upsilon.sups        -79220              Υ                   
+
+****glyphs missing: 79****
+
+glyph               area                string              
+Alpha.sups          -91517              Α                   
+Beta.sups           -104902             Β                   
+Chi.sups            -101967             Χ                   
+Epsilon.sups        -89278              Ε                   
+Eta.sups            -112423             Η                   
+Gamma.sups          -69363              Γ                   
+Iota.sups           -51527              Ι                   
+Kappa.sups          -101539             Κ                   
+Lambda.sups         -85355              Λ                   
+Mu.sups             -131752             Μ                   
+Nu.sups             -115515             Ν                   
+Omicron.sups        -99736              Ο                   
+Phi.sups            -118693             Φ                   
+Pi.sups             -107892             Π                   
+Psi.sups            -95446              Ψ                   
+Rho.sups            -84487              Ρ                   
+Sigma.sups          -83135              Σ                   
+Tau.sups            -76330              Τ                   
+Theta.sups          -100654             Θ                   
+Upsilon.sups        -70534              Υ                   
+
+****glyphs modified: 1955****
+
+glyph               diff                string              
+uni0429             0.8504              Щ                   
+uni0449.sc          0.8222              Щ                   
+uni0449             0.8086              щ                   
+uni049C             0.7933              Ҝ                   
+uni04B8             0.7674              Ҹ                   
+uni049D.sc          0.7668              Ҝ                   
+uni0492.loclBSH     0.7565              Ғ                   
+uni0493.loclBSH.... 0.7565              Ғ                   
+uni0492             0.7565              Ғ                   
+uni04B9.sc          0.7352              Ҹ                   
+uni0493.sc          0.724               Ғ                   
+uni1FC1             0.6845              ῁                   
+uni1FDF.case        0.6815              ῟                   
+uni1FCF.case        0.6814              ῏                   
+uni1FDD             0.6802              ῝                   
+uni1FDF             0.6797              ῟                   
+uni1FCF             0.6796              ῏                   
+uni1FCD             0.6786              ῍                   
+uni1FCD.case        0.6779              ῍                   
+uni1FDD.case        0.6777              ῝                   
+
+****kerns new: 1643****
+
+left                right               value               string              
+uni04BB.sc          uni1F2F             -116                ҺἯ                  
+uni04BA             uni0308.i           -116                Һ                   
+uni04BB.sc          uni030A             -116                Һ̊                  
+uni04BB.sc          asterisk            -116                Һ*                  
+uni04BB.sc          uni1F9F.ss05        -116                Һᾟ                  
+uni04BB.sc          uni1FDA             -116                ҺῚ                  
+uni04BB.sc          uni1F2E             -116                ҺἮ                  
+uni04BB.sc          gravecomb           -116                Һ̀                  
+uni04BB.sc          uni1F1D             -116                ҺἝ                  
+uni04BB.sc          acutecomb           -116                Һ́                  
+uni04BB.sc          uni1FC8             -116                ҺῈ                  
+uni04BB.sc          uni1F3F             -116                ҺἿ                  
+uni04BB.sc          uni1F98.ss05        -116                Һᾘ                  
+uni04BB.sc          uni1FDB             -116                ҺΊ                  
+uni04BB.sc          uni1F2C             -116                ҺἬ                  
+uni04BB.sc          uni1F9C.ss05        -116                Һᾜ                  
+uni04BB.sc          uni1F3D             -116                ҺἽ                  
+uni04BB.sc          quoteright          -116                Һ’                  
+uni04BB.sc          quotesingle         -116                Һ'                  
+uni04BB.sc          uni1F28             -116                ҺἨ                  
+
+****kerns missing: 1838****
+
+left                right               value               string              
+f                   uni0443.sc          104                 fУ                  
+onedotenleader      uni0443.sc          -76                 ․У                  
+period              uni0443.sc          -76                 .У                  
+uni0328             uni0443.sc          -76                 ̨У                  
+uni0326             uni0443.sc          -76                 ̦У                  
+underscore          uni0443.sc          -76                 _У                  
+ellipsis            uni0443.sc          -76                 …У                  
+uni0327             uni0443.sc          -76                 ̧У                  
+twodotenleader      uni0443.sc          -76                 ‥У                  
+quotedblbase        uni0443.sc          -76                 „У                  
+quotesinglbase      uni0443.sc          -76                 ‚У                  
+comma               uni0443.sc          -76                 ,У                  
+dotbelowcomb        uni0443.sc          -76                 ̣У                  
+bullet              uni0443.sc          -68                 •У                  
+endash              uni0443.sc          -68                 –У                  
+periodcentered      uni0443.sc          -68                 ·У                  
+hyphen              uni0443.sc          -68                 -У                  
+anoteleia           uni0443.sc          -68                 ·У                  
+emdash              uni0443.sc          -68                 —У                  
+f                   uni04BB.sc          56                  fҺ                  
+
+****kerns modified: 6939****
+
+left                right               diff                string              
+uni04BB.sc          T_h.liga            -50.0               ҺTh                 
+uni04BB.sc          uni042A             -50.0               ҺЪ                  
+uni04BB.sc          tbar.sc             -50.0               ҺŦ                  
+uni04BB.sc          uni0452.sc          -50.0               ҺЂ                  
+uni04BB.sc          uni021A             -50.0               ҺȚ                  
+uni04BB.sc          uni0462             -50.0               ҺѢ                  
+uni04BB.sc          tcaron.sc           -50.0               ҺŤ                  
+uni04BB.sc          uni0442.sc          -50.0               ҺТ                  
+uni04BB.sc          uni0422             -50.0               ҺТ                  
+uni04BB.sc          tau.sc              -50.0               ҺΤ                  
+uni04BB.sc          Tau                 -50.0               ҺΤ                  
+uni04BB.sc          uni1E6C             -50.0               ҺṬ                  
+uni04BB.sc          t.sc                -50.0               ҺT                  
+uni04BB.sc          uni1E6F.sc          -50.0               ҺṮ                  
+uni04BB.sc          uni021B.sc          -50.0               ҺȚ                  
+uni04BB.sc          uni1E97.sc          -50.0               Һẗ                  
+uni04BB.sc          uni0463.sc          -50.0               ҺѢ                  
+uni04BB.sc          uni0162             -50.0               ҺŢ                  
+uni04BB.sc          Tcaron              -50.0               ҺŤ                  
+uni04BB.sc          T                   -50.0               ҺT                  
+
+****metrics modified: 64****
+
+glyph               diff_adv            
+uni0000             579.0               
+uni04BB.sc          106.0               
+uni04EF.sc          15.0                
+uni04F1.sc          15.0                
+uni04F3.sc          15.0                
+uni045E.sc          15.0                
+uni0443.sc          15.0                
+uni1F9D             1.00000000000011... 
+uni1F2D             1.00000000000011... 
+bracketright.cas... 1.0                 
+uni1F87             1.0                 
+uni1F93             1.0                 
+uni1F91             1.0                 
+Eng                 1.0                 
+uni1F81             1.0                 
+uni1F80             1.0                 
+uni1F83             1.0                 
+uni1F97             1.0                 
+uni01CA             1.0                 
+uni1F92             1.0                 
+
+****marks_new: 167****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+uni044E.sc          423                 498                 uni030F.case        277                 647                 
+uni20A9.1           432                 498                 uni030F.case        277                 647                 
+dotlessi.cy         238                 49                  uni0328             233                 40                  
+uni044E.sc          423                 498                 gravecomb.case      211                 647                 
+uni044E.sc          423                 498                 acutecomb.case      217                 639                 
+uni044E.sc          423                 498                 uni03080304.case... 200                 652                 
+uni20A9.1           432                 498                 gravecomb.case      211                 647                 
+uni044E.sc          423                 498                 uni030B.case        200                 647                 
+uni20A9.1           432                 498                 acutecomb.case      217                 639                 
+uni044E.sc          423                 498                 uni0306.case        199                 647                 
+uni044E.sc          423                 498                 uni030A.case        198                 647                 
+uni044E.sc          423                 498                 uni03030304.case... 200                 644                 
+uni20A9.1           432                 498                 uni03080304.case... 200                 652                 
+uni044E.sc          423                 498                 uni03040301.case... 201                 639                 
+uni044E.sc          423                 498                 uni03040300.case... 201                 639                 
+uni044E.sc          423                 498                 uni0304.case        201                 639                 
+uni044E.sc          423                 498                 tildecomb_acutec... 200                 639                 
+uni044E.sc          423                 498                 tildecomb.case      200                 639                 
+uni044E.sc          423                 498                 uni0307.case        199                 639                 
+uni044E.sc          423                 498                 uni03080301.case... 199                 639                 
+
+****marks_missing: 81654****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+uni04B1             0                   0                   uni03080304.case... -198                652                 
+Gamma               0                   0                   uni03080304.case... -198                652                 
+uni04AF             0                   0                   uni03080304.case... -198                652                 
+uni1EE3             0                   0                   uni03080304.case... -198                652                 
+uni1EE3             0                   0                   uni030A.case        -200                647                 
+uni04AF             0                   0                   uni030A.case        -200                647                 
+Gamma               0                   0                   uni030A.case        -200                647                 
+uni04B1             0                   0                   uni030A.case        -200                647                 
+uni04AF             0                   0                   uni0306.case        -199                647                 
+uni1EE3             0                   0                   uni0306.case        -199                647                 
+Gamma               0                   0                   uni0306.case        -199                647                 
+uni04B1             0                   0                   uni0306.case        -199                647                 
+Gamma               0                   0                   uni030B.case        -198                647                 
+uni1EE3             0                   0                   uni030B.case        -198                647                 
+uni04AF             0                   0                   uni030B.case        -198                647                 
+uni04B1             0                   0                   uni030B.case        -198                647                 
+uni1EE3             0                   0                   uni03030304.case... -198                644                 
+uni04B1             0                   0                   uni03030304.case... -198                644                 
+Gamma               0                   0                   uni03030304.case... -198                644                 
+uni04AF             0                   0                   uni03030304.case... -198                644                 
+
+****marks_modified: 12784****
+
+base_glyph          mark_glyph          diff_x              diff_y              
+k.sc                uni03040300.case... -476.0              -148.0              
+k.sc                uni03040300         -476.0              -148.0              
+uni20AD             uni03040300.case... -476.0              -148.0              
+uni20AD             uni03040300         -476.0              -148.0              
+uni20AD             tildecomb_acutec... -475.0              -148.0              
+k.sc                uni0307.case        -475.0              -148.0              
+uni20AD             uni03030304         -475.0              -148.0              
+uni20AD             uni0304             -475.0              -148.0              
+k.sc                uni03040301         -475.0              -148.0              
+uni20AD             uni03080301.case... -475.0              -148.0              
+uni20AD             uni0306             -475.0              -148.0              
+k.sc                uni030A.case        -475.0              -148.0              
+k.sc                uni03080301         -475.0              -148.0              
+k.sc                uni0308             -475.0              -148.0              
+uni20AD             uni03040301.case... -475.0              -148.0              
+k.sc                uni03030304.case... -475.0              -148.0              
+uni20AD             uni03020301         -475.0              -148.0              
+k.sc                acutecomb.case      -475.0              -148.0              
+uni20AD             hookabovecomb       -475.0              -148.0              
+uni20AD             tildecomb_acutec... -475.0              -148.0              
+
+****mkmks_missing: 215****
+
+base_glyph          base_x              base_y              mark_glyph          mark_x              mark_y              
+uni0343             -99                 456                 tildecomb_acutec... -198                981                 
+uni0343             -99                 456                 uni03080304.case... -198                969                 
+uni0343             -99                 456                 uni03080301.case... -199                963                 
+uni0343             -99                 456                 uni03030304.case... -198                963                 
+uni0343             -99                 456                 uni03040300.case... -198                956                 
+uni0343             -99                 456                 uni03040301.case... -197                956                 
+uni0343             -99                 456                 uni03030308.case... -195                956                 
+uni0343             -99                 456                 uni03070304.case... -198                911                 
+uni0343             -99                 456                 gravecomb.case      -233                848                 
+uni0342             -193                472                 tildecomb_acutec... -198                981                 
+uni0344             -215                456                 tildecomb_acutec... -198                981                 
+uni0343             -99                 456                 uni0302.case        -199                859                 
+uni0342             -193                472                 uni03080304.case... -198                969                 
+uni0342             -193                472                 uni03080301.case... -199                963                 
+uni0344             -215                456                 uni03080304.case... -198                969                 
+uni0342             -193                472                 uni03030304.case... -198                963                 
+uni0343             -99                 456                 uni03060309         -199                850                 
+uni0343             -99                 456                 uni030A.case        -199                849                 
+uni0344             -215                456                 uni03080301.case... -199                963                 
+uni0344             -215                456                 uni03030304.case... -198                963                 
+
+****mkmks_modified: 917****
+
+base_glyph          mark_glyph          diff_x              diff_y              
+uni0312             uni03040300         -205.0              0.0                 
+uni0312             uni03020303         -204.0              1.0                 
+uni03040300         uni0312             205.0               0.0                 
+uni03040300.case... uni0312             205.0               0.0                 
+uni0312             uni03040300.case... -205.0              0.0                 
+uni0312             gravecomb.case      -204.0              0.0                 
+uni0312             acutecomb           -204.0              0.0                 
+uni03080301.case... uni0312             204.0               0.0                 
+uni0312             acutecomb.case      -204.0              0.0                 
+uni03020301         uni0312             204.0               0.0                 
+uni0312             uni03080301.case... -204.0              0.0                 
+uni0308.case        uni0312             204.0               0.0                 
+uni0302.case        uni0312             204.0               0.0                 
+uni0312             uni0304             -204.0              0.0                 
+uni03030304.case... uni0312             204.0               0.0                 
+uni030C             uni0312             204.0               0.0                 
+uni03040301.case... uni0312             204.0               0.0                 
+gravecomb           uni0312             204.0               0.0                 
+uni0312             uni0302             -204.0              0.0                 
+uni03020309         uni0312             204.0               0.0                 

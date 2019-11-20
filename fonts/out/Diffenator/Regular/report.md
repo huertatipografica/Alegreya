@@ -1,0 +1,340 @@
+# Diffenator
+
+Displaying the 20 most significant items in each table. To increase use the '-ol' flag
+
+
+### names new: 2
+
+id | string
+--- | --- | 
+(267, 3, 1, 1033) | Roman
+(268, 3, 1, 1033) | Italic
+
+### names missing: 4
+
+id | string
+--- | --- | 
+(256, 3, 1, 1033) | Roman numerals
+(257, 3, 1, 1033) | Arrows, triangles and circles
+(258, 3, 1, 1033) | Foundry icon
+(259, 3, 1, 1033) | Dynamic arrows and triangles
+
+### names modified: 2
+
+id | string_a | string_b
+--- | --- | --- | 
+(3, 3, 1, 1033) | 2.003;HT  ;Alegreya-Regular | 2.008;HT;Alegreya-Regular
+(5, 3, 1, 1033) | Version 2.003; ttfautohint (v1.6) | Version 2.008; ttfautohint (v1.8.1.43-b0c9)
+
+### attribs modified: 8
+
+table | attrib | value_a | value_b
+--- | --- | --- | --- | 
+OS/2 | panose | 0-0-5-0-0-0-0-0-0-0 | 0-0-0-0-0-0-0-0-0-0
+OS/2 | sCapHeight | 636 | 637
+OS/2 | ulUnicodeRange1 | 1610613391 | 3758097151
+OS/2 | ulUnicodeRange2 | 3 | 1073766523
+head | xMin | -395 | -211
+head | modified | 2017/10/23 08:55:56 | 2019/11/20 08:18:52
+head | fontRevision | 2.00299 | 2.008
+post | underlinePosition | -187 | -214
+
+### glyphs new: 102
+
+glyph | area | string
+--- | --- | --- | 
+Alpha.sups | -76442 | Α
+Beta.sups | -88464 | Β
+Chi.sups | -86889 | Χ
+Epsilon.sups | -75418 | Ε
+Eta.sups | -95345 | Η
+Gamma.sups | -57663 | Γ
+Iota.sups | -43536 | Ι
+Kappa.sups | -85355 | Κ
+Lambda.sups | -70954 | Λ
+Mu.sups | -112751 | Μ
+Nu.sups | -96341 | Ν
+Omicron.sups | -85677 | Ο
+Phi.sups | -106717 | Φ
+Pi.sups | -91385 | Π
+Psi.sups | -83240 | Ψ
+Rho.sups | -71281 | Ρ
+Sigma.sups | -70108 | Σ
+Tau.sups | -63670 | Τ
+Theta.sups | -89552 | Θ
+Upsilon.sups | -65309 | Υ
+
+### glyphs missing: 79
+
+glyph | area | string
+--- | --- | --- | 
+Alpha.sups | -76524 | Α
+Beta.sups | -88420 | Β
+Chi.sups | -86867 | Χ
+Epsilon.sups | -75087 | Ε
+Eta.sups | -95305 | Η
+Gamma.sups | -57803 | Γ
+Iota.sups | -43547 | Ι
+Kappa.sups | -85507 | Κ
+Lambda.sups | -71043 | Λ
+Mu.sups | -112776 | Μ
+Nu.sups | -96715 | Ν
+Omicron.sups | -85170 | Ο
+Phi.sups | -101507 | Φ
+Pi.sups | -91412 | Π
+Psi.sups | -81123 | Ψ
+Rho.sups | -71290 | Ρ
+Sigma.sups | -70416 | Σ
+Tau.sups | -63793 | Τ
+Theta.sups | -88939 | Θ
+Upsilon.sups | -58948 | Υ
+
+### glyphs modified: 1934
+
+glyph | diff | string
+--- | --- | --- | 
+uni0429 | 0.839 | Щ
+uni0449.sc | 0.8125 | Щ
+uni0449 | 0.8017 | щ
+uni049C | 0.7789 | Ҝ
+uni049D.sc | 0.7565 | Ҝ
+uni04B8 | 0.756 | Ҹ
+uni0492.loclBSH | 0.7442 | Ғ
+uni0493.loclBSH.sc | 0.7442 | Ғ
+uni0492 | 0.7442 | Ғ
+uni04B9.sc | 0.7251 | Ҹ
+uni0493.sc | 0.7069 | Ғ
+uni1FC1 | 0.6799 | ῁
+uni1FDD | 0.6764 | ῝
+uni1FDF.case | 0.6762 | ῟
+uni1FCF.case | 0.6757 | ῏
+uni1FDD.case | 0.6751 | ῝
+uni1FDF | 0.6743 | ῟
+uni1FDE | 0.6742 | ῞
+uni1FCF | 0.6742 | ῏
+uni1FDE.case | 0.6738 | ῞
+
+### kerns new: 1581
+
+left | right | value | string
+--- | --- | --- | --- | 
+uni04BB.sc | uni1F2F | -120 | ҺἯ
+uni04BA | uni0308.i | -120 | Һ
+uni04BB.sc | uni030A | -120 | Һ̊
+uni04BB.sc | asterisk | -120 | Һ*
+uni04BB.sc | uni1F9F.ss05 | -120 | Һᾟ
+uni04BB.sc | uni1FDA | -120 | ҺῚ
+uni04BB.sc | uni1F2E | -120 | ҺἮ
+uni04BB.sc | gravecomb | -120 | Һ̀
+uni04BB.sc | uni1F1D | -120 | ҺἝ
+uni04BB.sc | acutecomb | -120 | Һ́
+uni04BB.sc | uni1FC8 | -120 | ҺῈ
+uni04BB.sc | uni1F3F | -120 | ҺἿ
+uni04BB.sc | uni1F98.ss05 | -120 | Һᾘ
+uni04BB.sc | uni1FDB | -120 | ҺΊ
+uni04BB.sc | uni1F2C | -120 | ҺἬ
+uni04BB.sc | uni1F9C.ss05 | -120 | Һᾜ
+uni04BB.sc | uni1F3D | -120 | ҺἽ
+uni04BB.sc | quoteright | -120 | Һ’
+uni04BB.sc | quotesingle | -120 | Һ'
+uni04BB.sc | uni1F28 | -120 | ҺἨ
+
+### kerns missing: 1801
+
+left | right | value | string
+--- | --- | --- | --- | 
+f | uni0443.sc | 100 | fУ
+onedotenleader | uni0443.sc | -80 | ․У
+period | uni0443.sc | -80 | .У
+uni0328 | uni0443.sc | -80 | ̨У
+uni0326 | uni0443.sc | -80 | ̦У
+underscore | uni0443.sc | -80 | _У
+ellipsis | uni0443.sc | -80 | …У
+uni0327 | uni0443.sc | -80 | ̧У
+twodotenleader | uni0443.sc | -80 | ‥У
+quotedblbase | uni0443.sc | -80 | „У
+quotesinglbase | uni0443.sc | -80 | ‚У
+comma | uni0443.sc | -80 | ,У
+dotbelowcomb | uni0443.sc | -80 | ̣У
+uni0443.sc | uni1FAA.ss05 | 60 | Уᾪ
+uni0443.sc | uni1FA9.ss05 | 60 | Уᾩ
+uni0443.sc | uni1FAB | 60 | Уᾫ
+uni0443.sc | uni1F6C | 60 | УὬ
+uni0443.sc | uni1FAA | 60 | Уᾪ
+bullet | uni0443.sc | -60 | •У
+uni0443.sc | uni1FAE.ss05 | 60 | Уᾮ
+
+### kerns modified: 704
+
+left | right | diff | string
+--- | --- | --- | --- | 
+uni04BB.sc | T_h.liga | -50.0 | ҺTh
+uni04BB.sc | uni042A | -50.0 | ҺЪ
+uni04BB.sc | tbar.sc | -50.0 | ҺŦ
+uni04BB.sc | uni0452.sc | -50.0 | ҺЂ
+uni04BB.sc | uni021A | -50.0 | ҺȚ
+uni04BB.sc | uni0462 | -50.0 | ҺѢ
+uni04BB.sc | tcaron.sc | -50.0 | ҺŤ
+uni04BB.sc | uni0442.sc | -50.0 | ҺТ
+uni04BB.sc | uni0422 | -50.0 | ҺТ
+uni04BB.sc | tau.sc | -50.0 | ҺΤ
+uni04BB.sc | Tau | -50.0 | ҺΤ
+uni04BB.sc | uni1E6C | -50.0 | ҺṬ
+uni04BB.sc | t.sc | -50.0 | ҺT
+uni04BB.sc | uni1E6F.sc | -50.0 | ҺṮ
+uni04BB.sc | uni021B.sc | -50.0 | ҺȚ
+uni04BB.sc | uni1E97.sc | -50.0 | Һẗ
+uni04BB.sc | uni0463.sc | -50.0 | ҺѢ
+uni04BB.sc | uni0162 | -50.0 | ҺŢ
+uni04BB.sc | Tcaron | -50.0 | ҺŤ
+uni04BB.sc | T | -50.0 | ҺT
+
+### metrics modified: 29
+
+glyph | diff_adv
+--- | --- | 
+uni0000 | 585.0
+uni04BB.sc | 121.0
+uni1F87 | 1.0
+uni1F93 | 1.0
+uni1F91 | 1.0
+uni1F81 | 1.0
+uni04EF.sc | 1.0
+uni1F80 | 1.0
+uni1F83 | 1.0
+uni1F97 | 1.0
+uni1F92 | 1.0
+uni1FC2 | 1.0
+uni1F95 | 1.0
+uni04F1.sc | 1.0
+uni1FB3 | 1.0
+uni04F3.sc | 1.0
+uni045E.sc | 1.0
+uni1F94 | 1.0
+uni1FB4 | 1.0
+uni1F82 | 1.0
+
+### marks_new: 167
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+uni20A9.1 | 421 | 497 | uni030F.case | 282 | 647
+uni044E.sc | 422 | 497 | uni030F.case | 282 | 647
+dotlessi.cy | 238 | 49 | uni0328 | 233 | 40
+uni20A9.1 | 421 | 497 | gravecomb.case | 211 | 647
+uni044E.sc | 422 | 497 | gravecomb.case | 211 | 647
+uni20A9.1 | 421 | 497 | acutecomb.case | 217 | 637
+uni044E.sc | 422 | 497 | acutecomb.case | 217 | 637
+uni20A9.1 | 421 | 497 | uni03080304.case | 200 | 652
+uni044E.sc | 422 | 497 | uni03080304.case | 200 | 652
+uni20A9.1 | 421 | 497 | uni030B.case | 200 | 647
+uni20A9.1 | 421 | 497 | uni0306.case | 199 | 647
+uni044E.sc | 422 | 497 | uni030B.case | 200 | 647
+uni20A9.1 | 421 | 497 | uni030A.case | 198 | 647
+uni044E.sc | 422 | 497 | uni0306.case | 199 | 647
+uni044E.sc | 422 | 497 | uni030A.case | 198 | 647
+uni20A9.1 | 421 | 497 | uni03030304.case | 200 | 642
+uni044E.sc | 422 | 497 | uni03030304.case | 200 | 642
+uni20A9.1 | 421 | 497 | tildecomb_acutecomb.case | 200 | 637
+uni20A9.1 | 421 | 497 | uni03030308.case | 200 | 637
+uni20A9.1 | 421 | 497 | uni03040300.case | 200 | 637
+
+### marks_missing: 81654
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+uni04B1 | 0 | 0 | uni03080304.case | -198 | 652
+Gamma | 0 | 0 | uni03080304.case | -198 | 652
+uni04AF | 0 | 0 | uni03080304.case | -198 | 652
+uni1EE3 | 0 | 0 | uni03080304.case | -198 | 652
+uni1EE3 | 0 | 0 | uni030A.case | -200 | 647
+uni04AF | 0 | 0 | uni030A.case | -200 | 647
+Gamma | 0 | 0 | uni030A.case | -200 | 647
+uni04B1 | 0 | 0 | uni030A.case | -200 | 647
+uni04AF | 0 | 0 | uni0306.case | -199 | 647
+uni1EE3 | 0 | 0 | uni0306.case | -199 | 647
+Gamma | 0 | 0 | uni0306.case | -199 | 647
+uni04B1 | 0 | 0 | uni0306.case | -199 | 647
+Gamma | 0 | 0 | uni030B.case | -198 | 647
+uni1EE3 | 0 | 0 | uni030B.case | -198 | 647
+uni04AF | 0 | 0 | uni030B.case | -198 | 647
+uni04B1 | 0 | 0 | uni030B.case | -198 | 647
+uni1EE3 | 0 | 0 | uni03030304.case | -198 | 642
+uni04B1 | 0 | 0 | uni03030304.case | -198 | 642
+Gamma | 0 | 0 | uni03030304.case | -198 | 642
+uni04AF | 0 | 0 | uni03030304.case | -198 | 642
+
+### marks_modified: 12784
+
+base_glyph | mark_glyph | diff_x | diff_y
+--- | --- | --- | --- | 
+k.sc | uni03040300.case | -482.0 | -150.0
+uni20AD | tildecomb_acutecomb.case | -482.0 | -150.0
+k.sc | uni0307.case | -482.0 | -150.0
+uni20AD | uni03030304 | -482.0 | -150.0
+uni20AD | uni0304 | -482.0 | -150.0
+k.sc | uni03040301 | -482.0 | -150.0
+uni20AD | uni03080301.case | -482.0 | -150.0
+uni20AD | uni0306 | -482.0 | -150.0
+k.sc | uni030A.case | -482.0 | -150.0
+k.sc | uni03080301 | -482.0 | -150.0
+k.sc | uni0308 | -482.0 | -150.0
+uni20AD | uni03040301.case | -482.0 | -150.0
+k.sc | uni03030304.case | -482.0 | -150.0
+uni20AD | uni03020301 | -482.0 | -150.0
+k.sc | acutecomb.case | -482.0 | -150.0
+uni20AD | hookabovecomb | -482.0 | -150.0
+uni20AD | tildecomb_acutecomb | -482.0 | -150.0
+uni20AD | uni0306.case | -482.0 | -150.0
+uni20AD | uni0308 | -482.0 | -150.0
+k.sc | uni0302 | -482.0 | -150.0
+
+### mkmks_missing: 215
+
+base_glyph | base_x | base_y | mark_glyph | mark_x | mark_y
+--- | --- | --- | --- | --- | --- | 
+uni0343 | -92 | 452 | tildecomb_acutecomb.case | -198 | 962
+uni0343 | -92 | 452 | uni03080304.case | -198 | 953
+uni0343 | -92 | 452 | uni03030304.case | -198 | 943
+uni0343 | -92 | 452 | uni03080301.case | -199 | 938
+uni0343 | -92 | 452 | uni03040301.case | -198 | 937
+uni0343 | -92 | 452 | uni03040300.case | -198 | 937
+uni0343 | -92 | 452 | uni03030308.case | -198 | 935
+uni0343 | -92 | 452 | uni03070304.case | -198 | 885
+uni0343 | -92 | 452 | gravecomb.case | -237 | 841
+uni0344 | -199 | 452 | tildecomb_acutecomb.case | -198 | 962
+uni0343 | -92 | 452 | uni0302.case | -199 | 846
+uni0344 | -199 | 452 | uni03080304.case | -198 | 953
+uni0342 | -193 | 472 | tildecomb_acutecomb.case | -198 | 962
+uni0343 | -92 | 452 | uni030A.case | -199 | 838
+uni0344 | -199 | 452 | uni03030304.case | -198 | 943
+uni0344 | -199 | 452 | uni03080301.case | -199 | 938
+uni0342 | -193 | 472 | uni03080304.case | -198 | 953
+uni0344 | -199 | 452 | uni03040300.case | -198 | 937
+uni0344 | -199 | 452 | uni03040301.case | -198 | 937
+uni0344 | -199 | 452 | uni03030308.case | -198 | 935
+
+### mkmks_modified: 504
+
+base_glyph | mark_glyph | diff_x | diff_y
+--- | --- | --- | --- | 
+uni0312 | gravecomb.case | -222.0 | 0.0
+uni0312 | acutecomb | -222.0 | 0.0
+uni03080301.case | uni0312 | 222.0 | 0.0
+uni0312 | acutecomb.case | -222.0 | 0.0
+uni03020301 | uni0312 | 222.0 | 0.0
+uni0312 | uni03080301.case | -222.0 | 0.0
+uni0308.case | uni0312 | 222.0 | 0.0
+uni0302.case | uni0312 | 222.0 | 0.0
+uni0312 | uni03030308 | -222.0 | 0.0
+uni0312 | uni0304 | -222.0 | 0.0
+uni03030304.case | uni0312 | 222.0 | 0.0
+uni030C | uni0312 | 222.0 | 0.0
+uni03040301.case | uni0312 | 222.0 | 0.0
+gravecomb | uni0312 | 222.0 | 0.0
+uni0312 | uni0302 | -222.0 | 0.0
+uni03020309 | uni0312 | 222.0 | 0.0
+uni0312 | tildecomb_acutecomb | -222.0 | 0.0
+uni0312 | uni03060309 | -222.0 | 0.0
+uni0312 | uni030A.case | -222.0 | 0.0
+uni03060300 | uni0312 | 222.0 | 0.0
