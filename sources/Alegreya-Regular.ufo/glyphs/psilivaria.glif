@@ -18,7 +18,26 @@
       <point x="236" y="686" type="line"/>
       <point x="299" y="505" type="line"/>
     </contour>
-    <component base="psili" xScale="0.951" xyScale="0.05" yxScale="-0.05" yScale="0.951" xOffset="-1" yOffset="10"/>
+    <contour>
+      <point x="135.36999999999998" y="499.70599999999996" type="line"/>
+      <point x="191.231" y="543.6489999999999"/>
+      <point x="221.11499999999998" y="591.948"/>
+      <point x="218.96499999999997" y="632.841" type="curve" smooth="yes"/>
+      <point x="217.165" y="667.077"/>
+      <point x="192.791" y="695.358"/>
+      <point x="165.212" y="693.908" type="curve" smooth="yes"/>
+      <point x="151.898" y="693.208"/>
+      <point x="123.16699999999997" y="677.393"/>
+      <point x="108.701" y="662.328" type="curve"/>
+      <point x="110.30199999999999" y="650.015" type="line"/>
+      <point x="141.284" y="641.154"/>
+      <point x="157.45" y="623.885"/>
+      <point x="158.75" y="599.159" type="curve" smooth="yes"/>
+      <point x="160.04999999999998" y="574.433"/>
+      <point x="144.382" y="545.954"/>
+      <point x="114.34899999999999" y="518.627" type="curve"/>
+      <point x="116.751" y="509.217" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

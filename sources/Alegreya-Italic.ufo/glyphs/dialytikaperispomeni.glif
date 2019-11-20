@@ -32,7 +32,30 @@
       <point x="154" y="547"/>
       <point x="167" y="527"/>
     </contour>
-    <component base="perispomeni" xyScale="0.032" yxScale="-0.032" xOffset="78" yOffset="66"/>
+    <contour>
+      <point x="159.368" y="620.168" type="line"/>
+      <point x="165.368" y="620.36" type="line"/>
+      <point x="165.368" y="620.36"/>
+      <point x="201.608" y="676.576"/>
+      <point x="224.608" y="677.312" type="curve" smooth="yes"/>
+      <point x="248.608" y="678.08"/>
+      <point x="317.664" y="647.256"/>
+      <point x="346.664" y="648.184" type="curve"/>
+      <point x="362.536" y="652.696" type="line"/>
+      <point x="432.688" y="744.032" type="line"/>
+      <point x="432.528" y="749.032" type="line"/>
+      <point x="409.856" y="769.328" type="line"/>
+      <point x="403.856" y="769.136" type="line"/>
+      <point x="403.856" y="769.136"/>
+      <point x="366.616" y="712.888"/>
+      <point x="344.616" y="712.184" type="curve" smooth="yes"/>
+      <point x="320.616" y="711.416"/>
+      <point x="250.56" y="742.208"/>
+      <point x="222.56" y="741.312" type="curve"/>
+      <point x="206.688" y="736.8" type="line"/>
+      <point x="136.536" y="645.464" type="line"/>
+      <point x="136.696" y="640.464" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>

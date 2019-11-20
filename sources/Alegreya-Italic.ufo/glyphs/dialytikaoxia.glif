@@ -32,7 +32,17 @@
       <point x="112" y="584"/>
       <point x="125" y="564"/>
     </contour>
-    <component base="tonos" xScale="0.928" xyScale="-0.114" yxScale="0.114" yScale="0.928" xOffset="-68" yOffset="63"/>
+    <contour>
+      <point x="323.3140000000001" y="648.898" type="line"/>
+      <point x="323.52600000000007" y="658.292" type="line"/>
+      <point x="280.204" y="689.048" type="line"/>
+      <point x="270.81000000000006" y="689.26" type="line"/>
+      <point x="242.17000000000002" y="632.49"/>
+      <point x="212.716" y="576.7620000000001"/>
+      <point x="179.436" y="520.562" type="curve"/>
+      <point x="205.79400000000004" y="505.07800000000003" type="line"/>
+      <point x="214.26000000000005" y="504.98" type="line"/>
+    </contour>
   </outline>
   <lib>
     <dict>
