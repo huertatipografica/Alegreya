@@ -1,6 +1,13 @@
 #!/bin/sh
 set -e
 
+# Go the sources directory to run commands
+SOURCE="${BASH_SOURCE[0]}"
+DIR=$( cd -P "$( dirname "$SOURCE" )" >/dev/null 2>&1 && pwd )
+cd $DIR
+echo $(pwd)
+
+rm -rf ../fonts
 
 echo "Generating Static fonts"
 mkdir -p ../fonts
@@ -10,22 +17,44 @@ fontmake -m Alegreya.designspace -i -o otf --output-dir ../fonts/otf/
 fontmake -m Alegreya_Italic.designspace -i -o otf --output-dir ../fonts/otf/
 
 echo "Generating VFs"
-mkdir -p ../fonts/vf
-fontmake -m Alegreya.designspace -o variable --output-path ../fonts/vf/Alegreya[wght].ttf
-fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/vf/Alegreya-Italic[wght].ttf
+mkdir -p ../fonts/variable
+fontmake -m Alegreya.designspace -o variable --output-path ../fonts/variable/Alegreya[wght].ttf
+fontmake -m Alegreya_Italic.designspace -o variable --output-path ../fonts/variable/Alegreya-Italic[wght].ttf
 
-rm -rf instance_ufos/*
+rm -rf master_ufo/
+rm -rf instance_ufo/
+rm -rf instance_ufos/
 
+echo "Generate SC VFs"
+vfs=$(ls ../fonts/variable/*.ttf)
+for vf in $vfs
+do
+	scvf=$(echo $vf | sed 's/Alegreya/AlegreyaSC/');
+	python3 -m opentype_feature_freezer.cli -S -U SC -f smcp $vf $scvf
+	pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$scvf.temp $scvf
+	mv $scvf.temp $scvf
+done
+
+echo "Generate SC static fonts"
+ttfs=$(ls ../fonts/ttf/*.ttf)
+for ttf in $ttfs
+do
+	scttf=$(echo $ttf | sed 's/Alegreya/AlegreyaSC/');
+	python3 -m opentype_feature_freezer.cli -S -U SC -f smcp $ttf $scttf;
+	pyftsubset --recalc-bounds --recalc-average-width --glyph-names --layout-features="*" --name-IDs="*" --unicodes="*" --output-file=$scttf.temp $scttf;
+	mv $scttf.temp $scttf
+done
 
 echo "Post processing"
 ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	ttfautohint $ttf "$ttf.fix";
+	python -m ttfautohint $ttf "$ttf.fix";
 	mv "$ttf.fix" $ttf;
 done
 
+echo "Fix Hinting"
 for ttf in $ttfs
 do
 	gftools fix-hinting $ttf;
@@ -33,20 +62,21 @@ do
 done
 
 
-vfs=$(ls ../fonts/vf/*\[wght\].ttf)
+vfs=$(ls ../fonts/variable/*\[wght\].ttf)
 
 echo "Post processing VFs"
 for vf in $vfs
 do
 	gftools fix-dsig -f $vf;
-	ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
-	mv "$vf.fix" $vf;
+	# ttfautohint-vf --stem-width-mode nnn $vf "$vf.fix";
+	# mv "$vf.fix" $vf;
 done
 
 
 
 echo "Fixing VF Meta"
-gftools fix-vf-meta $vfs;
+gftools fix-vf-meta ../fonts/variable/Alegreya{,-Italic}\[wght\].ttf;
+gftools fix-vf-meta ../fonts/variable/AlegreyaSC{,-Italic}\[wght\].ttf;
 
 echo "Dropping MVAR"
 for vf in $vfs
@@ -54,17 +84,15 @@ do
 	mv "$vf.fix" $vf;
 	ttx -f -x "MVAR" $vf; # Drop MVAR. Table has issue in DW
 	rtrip=$(basename -s .ttf $vf)
-	new_file=../fonts/vf/$rtrip.ttx;
+	new_file=../fonts/variable/$rtrip.ttx;
 	rm $vf;
 	ttx $new_file
 	rm $new_file
 done
 
-echo "Fixing Hinting"
+echo "Fixing Non Hinting"
 for vf in $vfs
 do
-	gftools fix-hinting $vf;
-	mv "$vf.fix" $vf;
+	gftools fix-nonhinting $vf $vf;
 done
-
-
+rm ../fonts/variable/*prep-gasp.ttf
