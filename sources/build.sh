@@ -36,7 +36,7 @@ do
 done
 
 echo "Generate SC static fonts"
-ttfs=$(ls ../fonts/ttf/*.ttf)
+ttfs=$(ls ../fonts/*tf/*.*tf)
 for ttf in $ttfs
 do
 	scttf=$(echo $ttf | sed 's/Alegreya/AlegreyaSC/');
@@ -46,17 +46,18 @@ do
 done
 
 echo "Post processing"
-ttfs=$(ls ../fonts/ttf/*.ttf)
+ttfs=$(ls ../fonts/*tf/*.*tf)
 for ttf in $ttfs
 do
 	gftools fix-dsig -f $ttf;
-	python -m ttfautohint $ttf "$ttf.fix";
-	mv "$ttf.fix" $ttf;
 done
 
 echo "Fix Hinting"
+ttfs=$(ls ../fonts/ttf/*.ttf)
 for ttf in $ttfs
 do
+	python -m ttfautohint $ttf "$ttf.fix";
+	mv "$ttf.fix" $ttf;
 	gftools fix-hinting $ttf;
 	mv "$ttf.fix" $ttf;
 done
