@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslash.BRACKET.120" format="2">
+  <advance width="486"/>
+  <anchor x="255" y="472" name="top"/>
+  <outline>
+    <contour>
+      <point x="395" y="343" type="line"/>
+      <point x="524" y="540" type="line"/>
+      <point x="522" y="553" type="line"/>
+      <point x="425" y="607" type="line"/>
+      <point x="300" y="414" type="line"/>
+    </contour>
+    <contour>
+      <point x="117" y="139" type="line"/>
+      <point x="-29" y="-73" type="line"/>
+      <point x="-25" y="-83" type="line"/>
+      <point x="70" y="-138" type="line"/>
+      <point x="210" y="69" type="line"/>
+    </contour>
+    <component base="o"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>Bold Italic [120]</string>
+      <key>public.markColor</key>
+      <string>0.25,0.25,0.25,1</string>
+    </dict>
+  </lib>
+</glyph>

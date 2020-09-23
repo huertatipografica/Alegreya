@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphavariaypogegrammeni.sc" format="2">
+  <advance width="485"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="varia" xOffset="33" yOffset="45"/>
+    <component base="ypogegrammenicomb" xOffset="80"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

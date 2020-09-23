@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dasiavaria" format="2">
+  <advance width="458"/>
+  <unicode hex="1FDD"/>
+  <anchor x="226" y="452" name="_top"/>
+  <anchor x="202" y="714" name="top"/>
+  <outline>
+    <contour>
+      <point x="292" y="502" type="line"/>
+      <point x="319" y="509" type="line"/>
+      <point x="306" y="577"/>
+      <point x="300" y="642"/>
+      <point x="292" y="711" type="curve"/>
+      <point x="283" y="714" type="line"/>
+      <point x="224" y="696" type="line"/>
+      <point x="220" y="686" type="line"/>
+      <point x="283" y="505" type="line"/>
+    </contour>
+    <component base="dasia" xOffset="-52" yOffset="-8"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

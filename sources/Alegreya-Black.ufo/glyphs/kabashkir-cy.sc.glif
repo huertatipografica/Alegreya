@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="kabashkir-cy.sc" format="2">
+  <advance width="697"/>
+  <outline>
+    <contour>
+      <point x="111" y="-5" type="line"/>
+      <point x="181" y="-2"/>
+      <point x="229" y="0"/>
+      <point x="252" y="0" type="curve" smooth="yes"/>
+      <point x="271" y="0"/>
+      <point x="333" y="-1"/>
+      <point x="393" y="-3" type="curve"/>
+      <point x="400" y="67" type="line"/>
+      <point x="392" y="76" type="line"/>
+      <point x="388" y="74"/>
+      <point x="379" y="74"/>
+      <point x="368" y="74" type="curve" smooth="yes"/>
+      <point x="347" y="74"/>
+      <point x="341" y="86"/>
+      <point x="342" y="127" type="curve"/>
+      <point x="350" y="378" type="line" smooth="yes"/>
+      <point x="350" y="416"/>
+      <point x="360" y="423"/>
+      <point x="411" y="429" type="curve"/>
+      <point x="418" y="507" type="line"/>
+      <point x="249" y="503" type="line"/>
+      <point x="125" y="503" type="line"/>
+      <point x="23" y="511" type="line"/>
+      <point x="12" y="500" type="line"/>
+      <point x="11" y="441"/>
+      <point x="9" y="346"/>
+      <point x="6" y="281" type="curve"/>
+      <point x="115" y="288" type="line"/>
+      <point x="122" y="371"/>
+      <point x="132" y="397"/>
+      <point x="161" y="396" type="curve" smooth="yes"/>
+      <point x="168" y="396"/>
+      <point x="170" y="395"/>
+      <point x="170" y="390" type="curve"/>
+      <point x="171" y="133" type="line"/>
+      <point x="171" y="89"/>
+      <point x="161" y="77"/>
+      <point x="118" y="67" type="curve"/>
+    </contour>
+    <contour>
+      <point x="545" y="-13" type="curve"/>
+      <point x="678" y="-4" type="line"/>
+      <point x="686" y="58" type="line"/>
+      <point x="676" y="72" type="line"/>
+      <point x="650" y="72"/>
+      <point x="619" y="96"/>
+      <point x="598" y="140" type="curve" smooth="yes"/>
+      <point x="499" y="339" type="line"/>
+      <point x="483" y="308" type="line"/>
+      <point x="267" y="318" type="line"/>
+      <point x="267" y="203" type="line"/>
+      <point x="383" y="203" type="line"/>
+      <point x="451" y="57" type="line" smooth="yes"/>
+      <point x="476" y="2"/>
+      <point x="500" y="-13"/>
+    </contour>
+    <contour>
+      <point x="472" y="177" type="line"/>
+      <point x="551" y="301" type="line" smooth="yes"/>
+      <point x="585" y="355"/>
+      <point x="602" y="358"/>
+      <point x="675" y="358" type="curve"/>
+      <point x="692" y="376" type="line"/>
+      <point x="686" y="427"/>
+      <point x="671" y="465"/>
+      <point x="644" y="512" type="curve"/>
+      <point x="548" y="508"/>
+      <point x="512" y="491"/>
+      <point x="465" y="409" type="curve" smooth="yes"/>
+      <point x="371" y="245" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>7</integer>
+        <key>height</key>
+        <real>77.5</real>
+        <key>weight</key>
+        <integer>-22</integer>
+        <key>width</key>
+        <integer>83</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=hardsign-cy.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=ka-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

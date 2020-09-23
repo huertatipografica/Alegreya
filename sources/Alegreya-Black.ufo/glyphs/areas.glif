@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="areas" format="2">
+  <advance width="324"/>
+  <outline>
+    <contour>
+      <point x="7" y="530" type="line"/>
+      <point x="7" y="-56" type="line"/>
+      <point x="59" y="-53" type="line"/>
+      <point x="14" y="-8" type="line"/>
+      <point x="23" y="77" type="line"/>
+      <point x="75" y="127" type="line"/>
+      <point x="77" y="132" type="line"/>
+      <point x="77" y="298" type="line"/>
+      <point x="72" y="306" type="line"/>
+      <point x="8" y="370" type="line"/>
+      <point x="14" y="444" type="line"/>
+      <point x="80" y="507" type="line"/>
+      <point x="82" y="528" type="line"/>
+    </contour>
+    <contour>
+      <point x="324" y="529" type="line"/>
+      <point x="324" y="-56" type="line"/>
+      <point x="267" y="-53" type="line"/>
+      <point x="317" y="-1" type="line"/>
+      <point x="323" y="91" type="line"/>
+      <point x="254" y="160" type="line"/>
+      <point x="250" y="165" type="line"/>
+      <point x="253" y="527" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.Export</key>
+      <false/>
+    </dict>
+  </lib>
+</glyph>

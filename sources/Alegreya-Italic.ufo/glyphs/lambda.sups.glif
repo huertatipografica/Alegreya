@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lambda.sups" format="2">
+  <advance width="298"/>
+  <outline>
+    <contour>
+      <point x="237" y="333" type="curve"/>
+      <point x="264" y="352"/>
+      <point x="283" y="381"/>
+      <point x="293" y="415" type="curve"/>
+      <point x="288" y="424" type="line"/>
+      <point x="238" y="399"/>
+      <point x="221" y="406"/>
+      <point x="216" y="451" type="curve" smooth="yes"/>
+      <point x="185" y="709" type="line" smooth="yes"/>
+      <point x="176" y="785"/>
+      <point x="146" y="825"/>
+      <point x="97" y="825" type="curve"/>
+      <point x="68" y="803"/>
+      <point x="49" y="772"/>
+      <point x="41" y="732" type="curve"/>
+      <point x="47" y="724" type="line"/>
+      <point x="111" y="760"/>
+      <point x="134" y="754"/>
+      <point x="142" y="693" type="curve" smooth="yes"/>
+      <point x="180" y="402" type="line" smooth="yes"/>
+      <point x="186" y="349"/>
+      <point x="199" y="333"/>
+    </contour>
+    <contour>
+      <point x="39" y="331" type="line"/>
+      <point x="47" y="333" type="line"/>
+      <point x="77" y="391"/>
+      <point x="112" y="458"/>
+      <point x="155" y="547" type="curve"/>
+      <point x="181" y="547" type="line"/>
+      <point x="155" y="647" type="line"/>
+      <point x="107" y="562"/>
+      <point x="53" y="471"/>
+      <point x="-13" y="360" type="curve"/>
+      <point x="-11" y="353" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>66</integer>
+        <key>verticalShift</key>
+        <integer>338</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psilioxia.case" format="2">
+  <advance width="458"/>
+  <guideline x="269" y="508" angle="0"/>
+  <anchor x="226" y="472" name="_top"/>
+  <anchor x="336" y="723" name="_topleft"/>
+  <anchor x="241" y="765" name="top"/>
+  <outline>
+    <contour>
+      <point x="318" y="508" type="line"/>
+      <point x="340" y="515" type="line"/>
+      <point x="430" y="710" type="line"/>
+      <point x="422" y="724" type="line"/>
+      <point x="310" y="765" type="line"/>
+      <point x="296" y="757" type="line"/>
+      <point x="285" y="683"/>
+      <point x="272" y="605"/>
+      <point x="257" y="535" type="curve"/>
+    </contour>
+    <contour>
+      <point x="114.36999999999999" y="505.466" type="line"/>
+      <point x="185.112" y="559.423"/>
+      <point x="224.18999999999997" y="625.8919999999999"/>
+      <point x="219.12699999999998" y="683.7199999999999" type="curve" smooth="yes"/>
+      <point x="215.05999999999997" y="730.1719999999999"/>
+      <point x="184.04699999999997" y="757.0699999999999"/>
+      <point x="140.439" y="753.252" type="curve" smooth="yes"/>
+      <point x="114.84299999999999" y="751.011"/>
+      <point x="72.11299999999999" y="726.2539999999999"/>
+      <point x="51.35299999999999" y="701.51" type="curve"/>
+      <point x="51.31799999999999" y="690.999" type="line"/>
+      <point x="78.491" y="675.228"/>
+      <point x="92.55799999999998" y="656.3989999999999"/>
+      <point x="94.54999999999998" y="633.6469999999999" type="curve" smooth="yes"/>
+      <point x="96.79099999999998" y="608.0509999999999"/>
+      <point x="84.03" y="579.231"/>
+      <point x="57.913999999999994" y="550.1969999999999" type="curve"/>
+      <point x="61.55299999999999" y="530.4549999999999" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

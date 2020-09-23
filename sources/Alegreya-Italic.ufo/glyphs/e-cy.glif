@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e-cy" format="2">
+  <advance width="358"/>
+  <unicode hex="0454"/>
+  <outline>
+    <contour>
+      <point x="255" y="247" type="line"/>
+      <point x="249" y="258" type="line"/>
+      <point x="141" y="256" type="line"/>
+      <point x="80" y="256" type="line"/>
+      <point x="80" y="215" type="line"/>
+      <point x="248" y="216" type="line"/>
+    </contour>
+    <component base="c" xOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

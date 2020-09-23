@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute" format="2">
+  <outline>
+    <contour>
+      <point x="357" y="403" type="line"/>
+      <point x="420" y="520" type="line"/>
+      <point x="417" y="532" type="line"/>
+      <point x="388" y="539" type="line"/>
+      <point x="324" y="417" type="line"/>
+    </contour>
+    <contour>
+      <point x="176" y="56" type="line"/>
+      <point x="357" y="403" type="line"/>
+      <point x="324" y="417" type="line"/>
+      <point x="144" y="70" type="line"/>
+    </contour>
+    <contour>
+      <point x="144" y="70" type="line"/>
+      <point x="65" y="-82" type="line"/>
+      <point x="67" y="-92" type="line"/>
+      <point x="94" y="-98" type="line"/>
+      <point x="176" y="56" type="line"/>
+    </contour>
+    <component base="o"/>
+    <component base="acutecomb" xOffset="53"/>
+  </outline>
+</glyph>

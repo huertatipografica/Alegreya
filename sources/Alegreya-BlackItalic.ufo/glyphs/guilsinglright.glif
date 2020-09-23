@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="guilsinglright" format="2">
+  <advance width="262"/>
+  <unicode hex="203A"/>
+  <outline>
+    <contour>
+      <point x="21" y="77" type="line"/>
+      <point x="79" y="42" type="line"/>
+      <point x="156" y="125"/>
+      <point x="251" y="218"/>
+      <point x="251" y="218" type="curve"/>
+      <point x="254" y="245" type="line"/>
+      <point x="254" y="245"/>
+      <point x="182" y="338"/>
+      <point x="125" y="422" type="curve"/>
+      <point x="59" y="386" type="line"/>
+      <point x="49" y="363" type="line"/>
+      <point x="69" y="316"/>
+      <point x="88" y="262"/>
+      <point x="98" y="232" type="curve"/>
+      <point x="81" y="202"/>
+      <point x="48" y="145"/>
+      <point x="17" y="100" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=|guilsinglleft</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=|guilsinglleft</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="blackLargeSquare" format="2">
+  <advance width="647"/>
+  <unicode hex="2B1B"/>
+  <outline>
+    <contour>
+      <point x="0" y="0" type="line"/>
+      <point x="647" y="0" type="line"/>
+      <point x="647" y="647" type="line"/>
+      <point x="0" y="647" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.numr" format="2">
+  <advance width="301"/>
+  <outline>
+    <contour>
+      <point x="16" y="408" type="line"/>
+      <point x="10" y="374" type="line"/>
+      <point x="158" y="371" type="line"/>
+      <point x="152" y="324"/>
+      <point x="141" y="266"/>
+      <point x="141" y="266" type="curve"/>
+      <point x="145" y="260" type="line"/>
+      <point x="207" y="267" type="line"/>
+      <point x="212" y="273" type="line"/>
+      <point x="212" y="273"/>
+      <point x="214" y="322"/>
+      <point x="220" y="370" type="curve"/>
+      <point x="271" y="368" type="line"/>
+      <point x="282" y="412" type="line"/>
+      <point x="278" y="419" type="line"/>
+      <point x="226" y="419" type="line"/>
+      <point x="251" y="638" type="line"/>
+      <point x="212" y="644" type="line"/>
+      <point x="208" y="643" type="line"/>
+    </contour>
+    <contour>
+      <point x="73" y="419" type="line"/>
+      <point x="173" y="544" type="line"/>
+      <point x="179" y="544" type="line"/>
+      <point x="164" y="419" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

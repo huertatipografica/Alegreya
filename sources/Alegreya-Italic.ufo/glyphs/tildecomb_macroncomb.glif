@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tildecomb_macroncomb" format="2">
+  <anchor x="200" y="452" name="_top"/>
+  <anchor x="200" y="753" name="top"/>
+  <outline>
+    <contour>
+      <point x="99.3425" y="493.78650000000005" type="line"/>
+      <point x="106.07300000000001" y="493.78650000000005" type="line"/>
+      <point x="106.07300000000001" y="493.78650000000005"/>
+      <point x="148.379" y="546.669"/>
+      <point x="170.4935" y="546.669" type="curve" smooth="yes"/>
+      <point x="196.454" y="546.669"/>
+      <point x="270.4895" y="514.9395000000001"/>
+      <point x="301.2575" y="514.9395000000001" type="curve"/>
+      <point x="316.6415" y="518.7855" type="line"/>
+      <point x="397.4075" y="604.359" type="line"/>
+      <point x="398.369" y="609.1665" type="line"/>
+      <point x="379.139" y="629.3580000000001" type="line"/>
+      <point x="373.37" y="629.3580000000001" type="line"/>
+      <point x="373.37" y="629.3580000000001"/>
+      <point x="330.1025" y="576.4755"/>
+      <point x="308.9495" y="576.4755" type="curve" smooth="yes"/>
+      <point x="282.98900000000003" y="576.4755"/>
+      <point x="207.99200000000002" y="608.205"/>
+      <point x="177.224" y="608.205" type="curve"/>
+      <point x="162.8015" y="604.359" type="line"/>
+      <point x="82.0355" y="518.7855" type="line"/>
+      <point x="81.074" y="513.9780000000001" type="line"/>
+    </contour>
+    <contour>
+      <point x="399" y="731" type="line"/>
+      <point x="395" y="741" type="line"/>
+      <point x="395" y="741"/>
+      <point x="318" y="735"/>
+      <point x="270" y="735" type="curve" smooth="yes"/>
+      <point x="213" y="735"/>
+      <point x="122" y="736"/>
+      <point x="122" y="736" type="curve"/>
+      <point x="107" y="691" type="line"/>
+      <point x="112" y="682" type="line"/>
+      <point x="112" y="682"/>
+      <point x="193" y="683"/>
+      <point x="250" y="683" type="curve" smooth="yes"/>
+      <point x="386" y="684" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>398</integer>
+      <key>com.schriftgestaltung.componentsAlignment</key>
+      <array>
+        <integer>-1</integer>
+        <integer>1</integer>
+      </array>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="brevecomb_hookabovecomb" format="2">
+  <anchor x="198" y="472" name="_top"/>
+  <anchor x="199" y="820" name="top"/>
+  <outline>
+    <contour>
+      <point x="199" y="558" type="curve" smooth="yes"/>
+      <point x="256" y="558"/>
+      <point x="301" y="601"/>
+      <point x="319" y="672" type="curve"/>
+      <point x="303" y="682" type="line"/>
+      <point x="295" y="682" type="line"/>
+      <point x="279" y="640"/>
+      <point x="243" y="616"/>
+      <point x="199" y="616" type="curve" smooth="yes"/>
+      <point x="154" y="616"/>
+      <point x="119" y="640"/>
+      <point x="103" y="682" type="curve"/>
+      <point x="95" y="682" type="line"/>
+      <point x="79" y="672" type="line"/>
+      <point x="96" y="601"/>
+      <point x="141" y="558"/>
+    </contour>
+    <contour>
+      <point x="192" y="646" type="line"/>
+      <point x="225" y="661" type="line"/>
+      <point x="206" y="693" type="line"/>
+      <point x="240" y="718"/>
+      <point x="260" y="747"/>
+      <point x="260" y="767" type="curve" smooth="yes"/>
+      <point x="260" y="800"/>
+      <point x="231" y="820"/>
+      <point x="185" y="820" type="curve"/>
+      <point x="150" y="808"/>
+      <point x="116" y="773"/>
+      <point x="116" y="773" type="curve"/>
+      <point x="126" y="758" type="line"/>
+      <point x="126" y="758"/>
+      <point x="151" y="775"/>
+      <point x="178" y="775" type="curve" smooth="yes"/>
+      <point x="197" y="775"/>
+      <point x="210" y="767"/>
+      <point x="210" y="753" type="curve" smooth="yes"/>
+      <point x="210" y="736"/>
+      <point x="198" y="721"/>
+      <point x="163" y="696" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>398</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>
