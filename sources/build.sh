@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 # Go the sources directory to run commands
@@ -9,8 +9,10 @@ echo $(pwd)
 
 rm -rf ../fonts
 
-echo "Set venv"
-. ../venv/bin/activate
+# Activate environment
+if [ -d "../venv" ]; then
+    . ../venv/bin/activate
+fi
 
 echo "Converting to designspace"
 mkdir -p ../temp
