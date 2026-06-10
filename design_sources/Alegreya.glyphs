@@ -1,10 +1,5 @@
 {
-.appVersion = "1346";
-DisplayStrings = (
-"ø",
-"/s_t",
-"/Oslashacute Ø"
-);
+.appVersion = "3436";
 classes = (
 {
 automatic = 1;
@@ -65,14 +60,6 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = license;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = licenseURL;
-value = "http://scripts.sil.org/OFL";
-},
-{
 name = fsType;
 value = (
 );
@@ -88,10 +75,6 @@ value = -345;
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = vendorID;
-value = HT;
 },
 {
 name = underlinePosition;
@@ -2284,6 +2267,27 @@ wght = {
 900 = 175;
 };
 };
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = vendorID;
+value = HT;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
 }
 );
 date = "2017-10-23 12:47:55 +0000";
@@ -4018,7 +4022,7 @@ name = salt;
 code = "sub @siglo1 by @siglo2;
 ";
 name = ss01;
-notes = "Name: Roman numerals\012";
+notes = "Name: Roman numerals";
 },
 {
 code = "sub one by upArrow;
@@ -4047,13 +4051,13 @@ sub l by rightWhiteTriangle;
 sub m by downWhiteTriangle;
 sub n by leftWhiteTriangle;";
 name = ss02;
-notes = "Name: Arrows, triangles and circles\012Arrows\012";
+notes = "Name: Arrows, triangles and circles";
 },
 {
 code = "sub h t by foundryicon;
 ";
 name = ss03;
-notes = "Name: Foundry icon\012";
+notes = "Name: Foundry icon";
 },
 {
 code = "sub less hyphen by leftArrow;
@@ -4071,7 +4075,7 @@ sub equal asciicircum by upBlackTriangle;
 sub equal greater by rightBlackTriangle;
 sub asciicircum equal by downBlackTriangle;";
 name = ss04;
-notes = "Name: Dynamic arrows and triangles\012Second approximation\012Arrows 2\012";
+notes = "Name: Dynamic arrows and triangles";
 },
 {
 automatic = 1;
@@ -4140,7 +4144,7 @@ sub omegadasiaperispomeniypogegrammeni.sc by omegadasiaperispomeniypogegrammeni.
 sub omegaperispomeniypogegrammeni.sc by omegaperispomeniypogegrammeni.sc.ss05;
 ";
 name = ss05;
-notes = "Name: Greek adscript iota\"\012";
+notes = "Name: Greek adscript iota";
 }
 );
 fontMaster = (
@@ -16101,7 +16105,7 @@ name = O;
 }
 );
 layerId = "EC48C398-FE0C-4460-AC01-7438F4D2495E";
-name = "Regular [130]";
+name = "[130]";
 paths = (
 {
 closed = 1;
@@ -16140,7 +16144,7 @@ name = O;
 }
 );
 layerId = "328D1E5D-1393-4339-A2BB-7A44A0BA4D5B";
-name = "Bold [130]";
+name = "[130]";
 paths = (
 {
 closed = 1;
@@ -36390,7 +36394,7 @@ transform = "{1, 0, 0, 1, 9, 0}";
 }
 );
 layerId = "A93D94A9-A77A-4D8E-9468-06260F7827DD";
-name = "Regular [130]";
+name = "[130]";
 paths = (
 {
 closed = 1;
@@ -36430,7 +36434,7 @@ transform = "{1, 0, 0, 1, 5, 0}";
 }
 );
 layerId = "F62A2287-BCD6-4C5A-AA83-0D391CD44499";
-name = "Bold [130]";
+name = "[130]";
 paths = (
 {
 closed = 1;
@@ -59096,7 +59100,7 @@ name = o.sc;
 }
 );
 layerId = "A502E7F9-5B1C-4FB5-ACD0-CB0F5E07B131";
-name = "Regular [130]";
+name = "[130]";
 paths = (
 {
 closed = 1;
@@ -59139,7 +59143,7 @@ name = o.sc;
 }
 );
 layerId = "BBEA0EDC-835E-40BC-ACEE-23B5167F1877";
-name = "Bold [130]";
+name = "[130]";
 paths = (
 {
 closed = 1;
@@ -201299,7 +201303,7 @@ position = "{297, 497}";
 );
 associatedMasterId = UUID0;
 layerId = "93283435-E397-4B62-BD38-1ECBC0D81A81";
-name = "Regular [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -201379,7 +201383,7 @@ position = "{276, 503}";
 );
 associatedMasterId = UUID1;
 layerId = "68864A91-CA5D-4028-A621-F0AC52610347";
-name = "Bold [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -201636,7 +201640,7 @@ position = "{260, 472}";
 );
 associatedMasterId = UUID0;
 layerId = "667EC441-7D10-4895-85D8-181E8F0857F7";
-name = "Regular [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -201715,7 +201719,7 @@ position = "{260, 472}";
 );
 associatedMasterId = UUID1;
 layerId = "24692214-80F7-4ABE-9BB9-B8E6D24F1EF1";
-name = "Bold [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -202030,7 +202034,7 @@ position = "{297, 497}";
 );
 associatedMasterId = UUID0;
 layerId = "B6D0DC97-E2CB-41D2-8152-A5360B77A6B0";
-name = "Regular [75]";
+name = "[75]";
 paths = (
 {
 closed = 1;
@@ -202130,7 +202134,7 @@ position = "{276, 503}";
 );
 associatedMasterId = UUID1;
 layerId = "6456F3FD-A124-4977-BC08-BA8AD3D960D5";
-name = "Bold [75]";
+name = "[75]";
 paths = (
 {
 closed = 1;
@@ -202634,7 +202638,7 @@ position = "{258, 637}";
 );
 associatedMasterId = UUID0;
 layerId = "5E176FF1-62FA-4027-AF6D-A1363C687AF9";
-name = "Regular [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -202727,7 +202731,7 @@ position = "{260, 637}";
 );
 associatedMasterId = UUID1;
 layerId = "BB2A392F-410B-4381-8A0F-35B77C8D0B72";
-name = "Bold [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -203819,7 +203823,7 @@ position = "{303, 497}";
 );
 associatedMasterId = UUID0;
 layerId = "762953E5-F6AB-4B92-A609-D073C35E7A33";
-name = "Regular [75]";
+name = "[75]";
 paths = (
 {
 closed = 1;
@@ -203917,7 +203921,7 @@ position = "{301, 503}";
 );
 associatedMasterId = UUID1;
 layerId = "1A2B3A28-DD79-49E9-A217-8D5071E9C45D";
-name = "Bold [75]";
+name = "[75]";
 paths = (
 {
 closed = 1;
@@ -206085,7 +206089,7 @@ position = "{323, 497}";
 );
 associatedMasterId = UUID0;
 layerId = "0620EEFE-B9E1-4DE7-B576-3F4728FD7AFF";
-name = "Regular [75]";
+name = "[75]";
 paths = (
 {
 closed = 1;
@@ -206208,7 +206212,7 @@ position = "{372, 503}";
 );
 associatedMasterId = UUID1;
 layerId = "D6AE64CF-4573-4ECF-A413-CA04DAA2ADB7";
-name = "Bold [75]";
+name = "[75]";
 paths = (
 {
 closed = 1;
@@ -206998,7 +207002,7 @@ position = "{237, 497}";
 );
 associatedMasterId = UUID0;
 layerId = "B561E181-8A69-4DB0-84B6-54A33D36BD65";
-name = "Regular [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -207120,7 +207124,7 @@ position = "{308, 503}";
 );
 associatedMasterId = UUID1;
 layerId = "FF8597E3-D545-4558-98B3-F56C64227EDD";
-name = "Bold [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -208726,7 +208730,7 @@ position = "{421, 497}";
 );
 associatedMasterId = UUID0;
 layerId = "906563A4-470B-4485-875B-E857DE4B6665";
-name = "Regular [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -208858,7 +208862,7 @@ position = "{474, 503}";
 );
 associatedMasterId = UUID1;
 layerId = "0D87FE9C-57BD-49CD-9A3F-2341D9DCA0EB";
-name = "Bold [100]";
+name = "[100]";
 paths = (
 {
 closed = 1;
@@ -216318,7 +216322,7 @@ width = 535;
 {
 associatedMasterId = UUID0;
 layerId = "4FEC94C6-03F5-4214-96D9-B265E24862E5";
-name = "Regular [80]";
+name = "[80]";
 paths = (
 {
 closed = 1;
@@ -216347,7 +216351,7 @@ width = 491;
 {
 associatedMasterId = UUID1;
 layerId = "4AC127A1-E90E-4D57-847E-56FB5132AE8B";
-name = "Bold [80]";
+name = "[80]";
 paths = (
 {
 closed = 1;
@@ -216812,7 +216816,7 @@ width = 535;
 {
 associatedMasterId = UUID0;
 layerId = "55CB5800-90D7-4E22-8978-F0C7751B42DA";
-name = "Regular [80]";
+name = "[80]";
 paths = (
 {
 closed = 1;
@@ -216851,7 +216855,7 @@ width = 491;
 {
 associatedMasterId = UUID1;
 layerId = "36A48032-31E6-4E8F-A0A3-8C2C8CC43ED4";
-name = "Bold [80]";
+name = "[80]";
 paths = (
 {
 closed = 1;
@@ -232608,10 +232612,6 @@ instances = (
 {
 customParameters = (
 {
-name = Filter;
-value = "AddExtremes;";
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -232632,10 +232632,6 @@ name = Regular;
 },
 {
 customParameters = (
-{
-name = Filter;
-value = "AddExtremes;";
-},
 {
 name = "Update Features";
 value = 1;
@@ -232660,10 +232656,6 @@ weightClass = Medium;
 {
 customParameters = (
 {
-name = Filter;
-value = "AddExtremes;";
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -232687,10 +232679,6 @@ weightClass = Bold;
 {
 customParameters = (
 {
-name = Filter;
-value = "AddExtremes;";
-},
-{
 name = "Update Features";
 value = 1;
 },
@@ -232713,10 +232701,6 @@ weightClass = ExtraBold;
 },
 {
 customParameters = (
-{
-name = Filter;
-value = "AddExtremes;";
-},
 {
 name = "Update Features";
 value = 1;
