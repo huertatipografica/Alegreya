@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ecedillabreve" format="2">
+  <advance width="586"/>
+  <unicode hex="1E1C"/>
+  <anchor x="240" y="-243" name="bottom"/>
+  <anchor x="488" y="40" name="ogonek"/>
+  <anchor x="383" y="890" name="top"/>
+  <anchor x="70" y="647" name="topleft"/>
+  <outline>
+    <component base="E"/>
+    <component base="cedillacomb" xOffset="113"/>
+    <component base="brevecomb.case" xOffset="107"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

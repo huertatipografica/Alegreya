@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oslashacute.BRACKET.varAlt01" format="2">
+  <advance width="406"/>
+  <anchor x="175" y="0" name="bottom"/>
+  <anchor x="203" y="226" name="center"/>
+  <anchor x="247" y="40" name="ogonek"/>
+  <anchor x="281" y="735" name="top"/>
+  <anchor x="414" y="452" name="topright"/>
+  <outline>
+    <component base="oslash.BRACKET.varAlt01"/>
+    <component base="acutecomb" xOffset="2" yOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs._originalLayerName</key>
+      <string>[120]</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegadasiaperispomeniprosgegrammeni.ss05" format="2">
+  <advance width="1219"/>
+  <anchor x="551" y="0" name="bottom"/>
+  <anchor x="176" y="751" name="top"/>
+  <anchor x="205" y="637" name="topleft"/>
+  <outline>
+    <component base="Omegaprosgegrammeni.ss05" xOffset="150"/>
+    <component base="dasiaperispomeni.case" xOffset="-41" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omegaprosgegrammeni.ss05</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Omegatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=iota</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

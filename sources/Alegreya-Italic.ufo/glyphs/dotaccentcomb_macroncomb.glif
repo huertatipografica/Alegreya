@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dotaccentcomb_macroncomb" format="2">
+  <anchor x="275" y="452" name="_top"/>
+  <anchor x="275" y="756" name="top"/>
+  <outline>
+    <contour>
+      <point x="306.812" y="505.285" type="curve" smooth="yes"/>
+      <point x="340.775" y="505.285"/>
+      <point x="369.077" y="533.587"/>
+      <point x="369.077" y="566.606" type="curve" smooth="yes"/>
+      <point x="369.077" y="588.304"/>
+      <point x="355.869" y="609.059"/>
+      <point x="328.51" y="609.059" type="curve" smooth="yes"/>
+      <point x="294.548" y="609.059"/>
+      <point x="267.189" y="580.757"/>
+      <point x="267.189" y="547.738" type="curve" smooth="yes"/>
+      <point x="267.189" y="526.04"/>
+      <point x="279.454" y="505.285"/>
+    </contour>
+    <contour>
+      <point x="478" y="690" type="line"/>
+      <point x="474" y="700" type="line"/>
+      <point x="474" y="700"/>
+      <point x="397" y="694"/>
+      <point x="349" y="694" type="curve" smooth="yes"/>
+      <point x="292" y="694"/>
+      <point x="201" y="695"/>
+      <point x="201" y="695" type="curve"/>
+      <point x="186" y="650" type="line"/>
+      <point x="191" y="641" type="line"/>
+      <point x="191" y="641"/>
+      <point x="272" y="642"/>
+      <point x="329" y="642" type="curve" smooth="yes"/>
+      <point x="465" y="643" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>398</integer>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="utildeacute.sc" format="2">
+  <advance width="528"/>
+  <anchor x="264" y="0" name="bottom"/>
+  <anchor x="475" y="10" name="ogonek"/>
+  <anchor x="264" y="914" name="top"/>
+  <anchor x="508" y="503" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="tildecomb_acutecomb" xOffset="65" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tildecomb_acutecomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

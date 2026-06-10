@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etadasiaperispomeniprosgegrammeni" format="2">
+  <advance width="977"/>
+  <unicode hex="1F9F"/>
+  <anchor x="573" y="-232" name="bottom"/>
+  <anchor x="854" y="106" name="bottomright"/>
+  <anchor x="661" y="318" name="center"/>
+  <anchor x="321" y="752" name="top"/>
+  <anchor x="293" y="637" name="topleft"/>
+  <outline>
+    <component base="Etaprosgegrammeni" xOffset="288"/>
+    <component base="dasiaperispomeni.case" xOffset="51" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Etaprosgegrammeni</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Etatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Etaprosgegrammeni.ss05</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

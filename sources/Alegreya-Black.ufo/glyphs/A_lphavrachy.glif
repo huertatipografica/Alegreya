@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphavrachy" format="2">
+  <advance width="676"/>
+  <unicode hex="1FB8"/>
+  <anchor x="316" y="0" name="bottom"/>
+  <anchor x="608" y="10" name="ogonek"/>
+  <anchor x="341" y="880" name="top"/>
+  <anchor x="36" y="647" name="topleft"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="brevecomb.case" xOffset="142"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

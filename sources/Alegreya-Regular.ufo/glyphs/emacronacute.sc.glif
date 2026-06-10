@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emacronacute.sc" format="2">
+  <advance width="508"/>
+  <anchor x="254" y="0" name="bottom"/>
+  <anchor x="390" y="32" name="ogonek"/>
+  <anchor x="256" y="862" name="top"/>
+  <anchor x="20" y="497" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="macroncomb_acutecomb" xOffset="56" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macroncomb_acutecomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

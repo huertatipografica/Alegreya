@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upWhiteTriangle" format="2">
+  <advance width="476"/>
+  <unicode hex="25B3"/>
+  <outline>
+    <contour>
+      <point x="64" y="84" type="line"/>
+      <point x="412" y="84" type="line"/>
+      <point x="238" y="433" type="line"/>
+    </contour>
+    <contour>
+      <point x="128" y="124" type="line"/>
+      <point x="238" y="343" type="line"/>
+      <point x="348" y="124" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=upBlackTriangle</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=upBlackTriangle</string>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

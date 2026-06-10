@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idieresisacute" format="2">
+  <advance width="304"/>
+  <unicode hex="1E2F"/>
+  <anchor x="123" y="0" name="bottom"/>
+  <anchor x="245" y="10" name="ogonek"/>
+  <anchor x="218" y="879" name="top"/>
+  <outline>
+    <component base="idotless"/>
+    <component base="dieresiscomb_acutecomb" xOffset="-42" yOffset="-6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

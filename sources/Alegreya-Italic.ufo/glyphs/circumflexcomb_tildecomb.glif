@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexcomb_tildecomb" format="2">
+  <anchor x="217" y="452" name="_top"/>
+  <anchor x="257" y="779" name="top"/>
+  <outline>
+    <contour>
+      <point x="126" y="676" type="line"/>
+      <point x="132" y="676" type="line"/>
+      <point x="132" y="676"/>
+      <point x="168" y="715"/>
+      <point x="189" y="715" type="curve" smooth="yes"/>
+      <point x="213" y="715"/>
+      <point x="280" y="686"/>
+      <point x="306" y="686" type="curve"/>
+      <point x="320" y="689" type="line"/>
+      <point x="392" y="757" type="line"/>
+      <point x="393" y="761" type="line"/>
+      <point x="376" y="779" type="line"/>
+      <point x="370" y="779" type="line"/>
+      <point x="370" y="779"/>
+      <point x="332" y="740"/>
+      <point x="313" y="740" type="curve" smooth="yes"/>
+      <point x="289" y="740"/>
+      <point x="222" y="769"/>
+      <point x="195" y="769" type="curve"/>
+      <point x="181" y="766" type="line"/>
+      <point x="110" y="698" type="line"/>
+      <point x="109" y="694" type="line"/>
+    </contour>
+    <contour>
+      <point x="90" y="551" type="curve"/>
+      <point x="101" y="529" type="line"/>
+      <point x="110" y="528" type="line"/>
+      <point x="159" y="556"/>
+      <point x="206" y="580"/>
+      <point x="235" y="593" type="curve"/>
+      <point x="259" y="580"/>
+      <point x="302" y="555"/>
+      <point x="344" y="528" type="curve"/>
+      <point x="353" y="529" type="line"/>
+      <point x="370" y="551" type="line"/>
+      <point x="313" y="600"/>
+      <point x="250" y="662"/>
+      <point x="250" y="662" type="curve"/>
+      <point x="236" y="662" type="line"/>
+      <point x="236" y="662"/>
+      <point x="158" y="600"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>382</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

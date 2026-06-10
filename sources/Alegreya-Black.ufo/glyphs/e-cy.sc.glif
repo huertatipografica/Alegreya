@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="e-cy.sc" format="2">
+  <advance width="527"/>
+  <outline>
+    <contour>
+      <point x="480" y="500" type="line"/>
+      <point x="159" y="544"/>
+      <point x="17" y="466"/>
+      <point x="17" y="242" type="curve" smooth="yes"/>
+      <point x="17" y="21"/>
+      <point x="161" y="-51"/>
+      <point x="467" y="11" type="curve"/>
+      <point x="481" y="25" type="line"/>
+      <point x="481" y="79"/>
+      <point x="484" y="150"/>
+      <point x="488" y="185" type="curve"/>
+      <point x="370" y="178" type="line"/>
+      <point x="365" y="128"/>
+      <point x="361" y="116"/>
+      <point x="293" y="116" type="curve" smooth="yes"/>
+      <point x="231" y="116"/>
+      <point x="215" y="151"/>
+      <point x="215" y="274" type="curve" smooth="yes"/>
+      <point x="215" y="380"/>
+      <point x="226" y="396"/>
+      <point x="291" y="396" type="curve" smooth="yes"/>
+      <point x="347" y="396"/>
+      <point x="360" y="396"/>
+      <point x="364" y="348" type="curve"/>
+      <point x="375" y="340" type="line"/>
+      <point x="487" y="346" type="line"/>
+      <point x="486" y="401"/>
+      <point x="487" y="433"/>
+      <point x="491" y="486" type="curve"/>
+    </contour>
+    <contour>
+      <point x="386" y="314" type="line"/>
+      <point x="316" y="311"/>
+      <point x="283" y="311"/>
+      <point x="188" y="311" type="curve"/>
+      <point x="183" y="202" type="line"/>
+      <point x="267" y="207"/>
+      <point x="321" y="207"/>
+      <point x="385" y="205" type="curve"/>
+      <point x="397" y="302" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>7</integer>
+        <key>height</key>
+        <real>77.5</real>
+        <key>weight</key>
+        <integer>-22</integer>
+        <key>width</key>
+        <integer>83</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=c.sc</string>
+    </dict>
+  </lib>
+</glyph>

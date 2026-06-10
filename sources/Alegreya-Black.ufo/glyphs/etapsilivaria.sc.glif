@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etapsilivaria.sc" format="2">
+  <advance width="625"/>
+  <anchor x="313" y="0" name="bottom"/>
+  <anchor x="555" y="134" name="bottomright"/>
+  <anchor x="313" y="252" name="center"/>
+  <anchor x="310" y="795" name="top"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="psilivaria" xOffset="87" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

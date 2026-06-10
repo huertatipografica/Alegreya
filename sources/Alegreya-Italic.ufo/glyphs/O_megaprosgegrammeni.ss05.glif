@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegaprosgegrammeni.ss05" format="2">
+  <advance width="1037"/>
+  <anchor x="363" y="0" name="bottom"/>
+  <anchor x="927" y="452" name="top"/>
+  <anchor x="60" y="636" name="topleft"/>
+  <outline>
+    <component base="Omega"/>
+    <component base="iota" xOffset="782"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=iota</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

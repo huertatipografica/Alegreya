@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nu.sups" format="2">
+  <advance width="277"/>
+  <outline>
+    <contour>
+      <point x="108" y="332" type="curve"/>
+      <point x="119" y="334" type="line"/>
+      <point x="200" y="409"/>
+      <point x="250" y="496"/>
+      <point x="270" y="594" type="curve"/>
+      <point x="260" y="616"/>
+      <point x="246" y="631"/>
+      <point x="219" y="648" type="curve"/>
+      <point x="204" y="644" type="line"/>
+      <point x="211" y="614"/>
+      <point x="213" y="585"/>
+      <point x="211" y="561" type="curve"/>
+      <point x="178" y="484"/>
+      <point x="128" y="422"/>
+      <point x="60" y="374" type="curve"/>
+      <point x="60" y="363" type="line"/>
+      <point x="76" y="349"/>
+      <point x="90" y="340"/>
+    </contour>
+    <contour>
+      <point x="60" y="374" type="curve"/>
+      <point x="139" y="420" type="line"/>
+      <point x="114" y="429" type="line"/>
+      <point x="148" y="560"/>
+      <point x="130" y="645"/>
+      <point x="67" y="645" type="curve"/>
+      <point x="42" y="624"/>
+      <point x="24" y="596"/>
+      <point x="13" y="562" type="curve"/>
+      <point x="20" y="553" type="line"/>
+      <point x="67" y="575"/>
+      <point x="92" y="558"/>
+      <point x="92" y="506" type="curve" smooth="yes"/>
+      <point x="92" y="466"/>
+      <point x="81" y="422"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>66</integer>
+        <key>verticalShift</key>
+        <integer>338</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

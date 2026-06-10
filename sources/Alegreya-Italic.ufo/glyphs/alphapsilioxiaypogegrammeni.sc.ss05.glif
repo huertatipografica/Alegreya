@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphapsilioxiaypogegrammeni.sc.ss05" format="2">
+  <advance width="792"/>
+  <anchor x="212" y="0" name="bottom"/>
+  <anchor x="435" y="39" name="ogonek"/>
+  <anchor x="314" y="758" name="top"/>
+  <outline>
+    <component base="alphaypogegrammeni.sc.ss05"/>
+    <component base="psilioxia" xOffset="25" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

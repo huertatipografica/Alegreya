@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omegapsiliprosgegrammeni" format="2">
+  <advance width="846"/>
+  <unicode hex="1FA8"/>
+  <anchor x="151" y="571" name="_top"/>
+  <anchor x="544" y="647" name="top"/>
+  <anchor x="412" y="-240" name="bottom"/>
+  <anchor x="124" y="647" name="topleft"/>
+  <outline>
+    <component base="psili.case" xOffset="-92" yOffset="-76"/>
+    <component base="Omegaprosgegrammeni" xOffset="130"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>psili.case</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Omegatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Omegaprosgegrammeni.ss05</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

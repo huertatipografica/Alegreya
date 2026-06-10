@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="idotless.cy" format="2">
+  <advance width="305"/>
+  <anchor x="159" y="0" name="bottom"/>
+  <anchor x="238" y="49" name="ogonek"/>
+  <anchor x="159" y="472" name="top"/>
+  <outline>
+    <contour>
+      <point x="19" y="-3" type="line"/>
+      <point x="116" y="1"/>
+      <point x="174" y="0"/>
+      <point x="274" y="-3" type="curve"/>
+      <point x="280" y="80" type="line"/>
+      <point x="274" y="88" type="line"/>
+      <point x="272" y="88"/>
+      <point x="265" y="86"/>
+      <point x="255" y="86" type="curve" smooth="yes"/>
+      <point x="237" y="86"/>
+      <point x="233" y="95"/>
+      <point x="233" y="136" type="curve"/>
+      <point x="239" y="355" type="line"/>
+      <point x="240" y="376"/>
+      <point x="246" y="382"/>
+      <point x="277" y="388" type="curve"/>
+      <point x="283" y="475" type="line"/>
+      <point x="236" y="474"/>
+      <point x="159" y="472"/>
+      <point x="125" y="472" type="curve" smooth="yes"/>
+      <point x="101" y="472"/>
+      <point x="55" y="472"/>
+      <point x="26" y="472" type="curve"/>
+      <point x="20" y="394" type="line"/>
+      <point x="28" y="383" type="line"/>
+      <point x="32" y="383"/>
+      <point x="41" y="383"/>
+      <point x="47" y="383" type="curve" smooth="yes"/>
+      <point x="67" y="383"/>
+      <point x="73" y="377"/>
+      <point x="73" y="347" type="curve" smooth="yes"/>
+      <point x="73" y="141" type="line" smooth="yes"/>
+      <point x="73" y="100"/>
+      <point x="64" y="89"/>
+      <point x="25" y="81" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

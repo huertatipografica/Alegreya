@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Eta.sups" format="2">
+  <advance width="510"/>
+  <anchor x="258" y="338" name="bottom"/>
+  <anchor x="423" y="424" name="bottomright"/>
+  <anchor x="255" y="550" name="center"/>
+  <anchor x="255" y="761" name="top"/>
+  <anchor x="-27" y="761" name="topleft"/>
+  <outline>
+    <contour>
+      <point x="30" y="332" type="line"/>
+      <point x="47" y="335"/>
+      <point x="101" y="338"/>
+      <point x="137" y="338" type="curve" smooth="yes"/>
+      <point x="157" y="338"/>
+      <point x="200" y="337"/>
+      <point x="212" y="336" type="curve"/>
+      <point x="218" y="375" type="line"/>
+      <point x="215" y="379" type="line"/>
+      <point x="209" y="379"/>
+      <point x="198" y="378"/>
+      <point x="189" y="378" type="curve" smooth="yes"/>
+      <point x="167" y="378"/>
+      <point x="162" y="387"/>
+      <point x="162" y="423" type="curve" smooth="yes"/>
+      <point x="163" y="522" type="line"/>
+      <point x="205" y="525"/>
+      <point x="252" y="528"/>
+      <point x="264" y="528" type="curve" smooth="yes"/>
+      <point x="284" y="528"/>
+      <point x="322" y="528"/>
+      <point x="346" y="528" type="curve"/>
+      <point x="346" y="440" type="line" smooth="yes"/>
+      <point x="346" y="390"/>
+      <point x="336" y="378"/>
+      <point x="297" y="377" type="curve"/>
+      <point x="291" y="337" type="line"/>
+      <point x="319" y="337"/>
+      <point x="362" y="338"/>
+      <point x="381" y="338" type="curve" smooth="yes"/>
+      <point x="408" y="338"/>
+      <point x="450" y="337"/>
+      <point x="476" y="336" type="curve"/>
+      <point x="482" y="376" type="line"/>
+      <point x="479" y="380" type="line"/>
+      <point x="473" y="379"/>
+      <point x="462" y="378"/>
+      <point x="452" y="378" type="curve" smooth="yes"/>
+      <point x="430" y="378"/>
+      <point x="423" y="388"/>
+      <point x="423" y="424" type="curve" smooth="yes"/>
+      <point x="423" y="489"/>
+      <point x="427" y="605"/>
+      <point x="432" y="689" type="curve" smooth="yes"/>
+      <point x="434" y="714"/>
+      <point x="442" y="721"/>
+      <point x="475" y="726" type="curve"/>
+      <point x="478" y="766" type="line"/>
+      <point x="439" y="763"/>
+      <point x="402" y="761"/>
+      <point x="384" y="761" type="curve" smooth="yes"/>
+      <point x="360" y="761"/>
+      <point x="313" y="762"/>
+      <point x="303" y="762" type="curve"/>
+      <point x="298" y="726" type="line"/>
+      <point x="301" y="720" type="line"/>
+      <point x="307" y="721"/>
+      <point x="316" y="722"/>
+      <point x="322" y="722" type="curve" smooth="yes"/>
+      <point x="342" y="722"/>
+      <point x="347" y="715"/>
+      <point x="346" y="687" type="curve" smooth="yes"/>
+      <point x="346" y="582" type="line"/>
+      <point x="310" y="578"/>
+      <point x="289" y="577"/>
+      <point x="260" y="577" type="curve"/>
+      <point x="165" y="578" type="line"/>
+      <point x="169" y="675" type="line" smooth="yes"/>
+      <point x="171" y="714"/>
+      <point x="176" y="719"/>
+      <point x="211" y="725" type="curve"/>
+      <point x="215" y="766" type="line"/>
+      <point x="176" y="763"/>
+      <point x="139" y="761"/>
+      <point x="121" y="761" type="curve" smooth="yes"/>
+      <point x="101" y="761"/>
+      <point x="64" y="762"/>
+      <point x="41" y="762" type="curve"/>
+      <point x="36" y="726" type="line"/>
+      <point x="39" y="720" type="line"/>
+      <point x="45" y="721"/>
+      <point x="55" y="722"/>
+      <point x="60" y="722" type="curve" smooth="yes"/>
+      <point x="80" y="722"/>
+      <point x="85" y="715"/>
+      <point x="85" y="687" type="curve" smooth="yes"/>
+      <point x="84" y="427" type="line" smooth="yes"/>
+      <point x="84" y="390"/>
+      <point x="75" y="379"/>
+      <point x="35" y="372" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>66</integer>
+        <key>verticalShift</key>
+        <integer>338</integer>
+        <key>width</key>
+        <integer>68</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

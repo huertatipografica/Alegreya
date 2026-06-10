@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsiliprosgegrammeni.ss05" format="2">
+  <advance width="1212"/>
+  <anchor x="164" y="571" name="_top"/>
+  <anchor x="1086" y="472" name="top"/>
+  <anchor x="545" y="0" name="bottom"/>
+  <anchor x="844" y="172" name="bottomright"/>
+  <anchor x="585" y="324" name="center"/>
+  <anchor x="146" y="647" name="topleft"/>
+  <outline>
+    <component base="psili.case" xOffset="-79" yOffset="-76"/>
+    <component base="Etaprosgegrammeni.ss05" xOffset="216"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Etatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Etaprosgegrammeni</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

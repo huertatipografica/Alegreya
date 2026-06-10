@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghestroke-cy.sc" format="2">
+  <advance width="460"/>
+  <anchor x="196" y="243" name="_center"/>
+  <outline>
+    <contour>
+      <point x="58" y="-9" type="line"/>
+      <point x="98" y="-4"/>
+      <point x="141" y="0"/>
+      <point x="169" y="0" type="curve" smooth="yes"/>
+      <point x="190" y="0"/>
+      <point x="232" y="-2"/>
+      <point x="285" y="-3" type="curve"/>
+      <point x="293" y="41" type="line"/>
+      <point x="290" y="46" type="line"/>
+      <point x="272" y="45"/>
+      <point x="245" y="43"/>
+      <point x="233" y="43" type="curve" smooth="yes"/>
+      <point x="204" y="43"/>
+      <point x="197" y="54"/>
+      <point x="197" y="95" type="curve"/>
+      <point x="208" y="421" type="line"/>
+      <point x="209" y="448"/>
+      <point x="212" y="450"/>
+      <point x="268" y="450" type="curve" smooth="yes"/>
+      <point x="354" y="450"/>
+      <point x="363" y="445"/>
+      <point x="363" y="392" type="curve" smooth="yes"/>
+      <point x="363" y="370"/>
+      <point x="362" y="364"/>
+      <point x="361" y="342" type="curve"/>
+      <point x="409" y="346" type="line"/>
+      <point x="412" y="398"/>
+      <point x="418" y="451"/>
+      <point x="428" y="502" type="curve"/>
+      <point x="424" y="508" type="line"/>
+      <point x="379" y="501"/>
+      <point x="317" y="498"/>
+      <point x="197" y="498" type="curve" smooth="yes"/>
+      <point x="159" y="498"/>
+      <point x="105" y="500"/>
+      <point x="74" y="500" type="curve"/>
+      <point x="68" y="462" type="line"/>
+      <point x="71" y="457" type="line"/>
+      <point x="84" y="458"/>
+      <point x="92" y="459"/>
+      <point x="98" y="459" type="curve" smooth="yes"/>
+      <point x="122" y="459"/>
+      <point x="127" y="451"/>
+      <point x="127" y="417" type="curve" smooth="yes"/>
+      <point x="126" y="100" type="line" smooth="yes"/>
+      <point x="126" y="56"/>
+      <point x="113" y="42"/>
+      <point x="64" y="33" type="curve"/>
+    </contour>
+    <contour>
+      <point x="66" y="218" type="line"/>
+      <point x="66" y="218"/>
+      <point x="140" y="219"/>
+      <point x="188" y="219" type="curve" smooth="yes"/>
+      <point x="329" y="219" type="line"/>
+      <point x="334" y="255" type="line"/>
+      <point x="323" y="266" type="line"/>
+      <point x="323" y="266"/>
+      <point x="256" y="262"/>
+      <point x="208" y="262" type="curve" smooth="yes"/>
+      <point x="155" y="262"/>
+      <point x="64" y="263"/>
+      <point x="64" y="263" type="curve"/>
+      <point x="58" y="226" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>11</integer>
+        <key>height</key>
+        <integer>78</integer>
+        <key>weight</key>
+        <integer>-3</integer>
+        <key>width</key>
+        <integer>82</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

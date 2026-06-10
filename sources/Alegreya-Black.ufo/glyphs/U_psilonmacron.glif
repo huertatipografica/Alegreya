@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonmacron" format="2">
+  <advance width="638"/>
+  <unicode hex="1FE9"/>
+  <anchor x="319" y="822" name="top"/>
+  <anchor x="-94" y="647" name="topleft"/>
+  <outline>
+    <component base="Upsilon"/>
+    <component base="macroncomb.case" xOffset="115"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

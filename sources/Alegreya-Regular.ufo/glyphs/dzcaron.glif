@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dzcaron" format="2">
+  <advance width="997"/>
+  <unicode hex="01C6"/>
+  <anchor x="747" y="0" name="bottom"/>
+  <anchor x="376" y="236" name="center"/>
+  <anchor x="773" y="710" name="top"/>
+  <outline>
+    <component base="d"/>
+    <component base="zcaron" xOffset="537"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

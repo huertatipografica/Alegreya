@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Yeru-cy" format="2">
+  <advance width="843"/>
+  <unicode hex="042B"/>
+  <anchor x="663" y="0" name="bottom"/>
+  <anchor x="726" y="40" name="ogonek"/>
+  <anchor x="422" y="636" name="top"/>
+  <anchor x="502" y="637" name="topleft"/>
+  <outline>
+    <component base="Softsign-cy.cond"/>
+    <component base="I" xOffset="482"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=I</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=I</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

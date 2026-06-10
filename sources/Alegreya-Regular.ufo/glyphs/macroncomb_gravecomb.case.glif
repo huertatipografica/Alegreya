@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="macroncomb_gravecomb.case" format="2">
+  <anchor x="200" y="637" name="_top"/>
+  <anchor x="200" y="937" name="top"/>
+  <outline>
+    <component base="macroncomb_gravecomb" yOffset="200"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=macroncomb</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=macroncomb</string>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>398</integer>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

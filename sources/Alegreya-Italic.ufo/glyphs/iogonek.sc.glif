@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iogonek.sc" format="2">
+  <advance width="307"/>
+  <anchor x="123" y="0" name="bottom"/>
+  <anchor x="235" y="35" name="ogonek"/>
+  <anchor x="185" y="497" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="ogonekcomb" xScale="0.965" yScale="0.968" xOffset="10" yOffset="-4"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>ogonekcomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

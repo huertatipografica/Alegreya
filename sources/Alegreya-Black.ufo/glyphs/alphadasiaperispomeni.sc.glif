@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphadasiaperispomeni.sc" format="2">
+  <advance width="586"/>
+  <anchor x="293" y="0" name="bottom"/>
+  <anchor x="527" y="10" name="ogonek"/>
+  <anchor x="297" y="914" name="top"/>
+  <outline>
+    <component base="alpha.sc"/>
+    <component base="dasiaperispomeni" xOffset="67" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

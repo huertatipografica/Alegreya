@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ustraitstroke-cy.sc" format="2">
+  <advance width="475"/>
+  <anchor x="238" y="0" name="bottom"/>
+  <anchor x="231" y="181" name="center"/>
+  <anchor x="238" y="497" name="top"/>
+  <anchor x="20" y="497" name="topleft"/>
+  <outline>
+    <component base="y.sc"/>
+    <component base="strokeshortcomb" xOffset="-3" yOffset="-62"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>11</integer>
+        <key>height</key>
+        <integer>78</integer>
+        <key>weight</key>
+        <integer>-3</integer>
+        <key>width</key>
+        <integer>82</integer>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

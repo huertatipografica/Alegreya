@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphapsiliprosgegrammeni.ss05" format="2">
+  <advance width="1006"/>
+  <anchor x="163" y="571" name="_top"/>
+  <anchor x="890" y="472" name="top"/>
+  <anchor x="397" y="0" name="bottom"/>
+  <anchor x="691" y="40" name="ogonek"/>
+  <anchor x="151" y="647" name="topleft"/>
+  <outline>
+    <component base="psili.case" xOffset="-80" yOffset="-76"/>
+    <component base="Alphaprosgegrammeni.ss05" xOffset="95"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>psili.case</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Alphatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Alphaprosgegrammeni</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="endescender-cy" format="2">
+  <advance width="563"/>
+  <unicode hex="04A3"/>
+  <anchor x="245" y="0" name="bottom"/>
+  <anchor x="506" y="10" name="ogonek"/>
+  <anchor x="569" y="143" name="serif"/>
+  <anchor x="303" y="472" name="top"/>
+  <outline>
+    <component base="en-cy"/>
+    <component base="descender-cy" xOffset="359" yOffset="14"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

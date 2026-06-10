@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udblgrave" format="2">
+  <advance width="531"/>
+  <unicode hex="0215"/>
+  <anchor x="237" y="0" name="bottom"/>
+  <anchor x="449" y="10" name="ogonek"/>
+  <anchor x="535" y="143" name="serif"/>
+  <anchor x="285" y="754" name="top"/>
+  <anchor x="540" y="472" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="dblgravecomb" xOffset="85"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

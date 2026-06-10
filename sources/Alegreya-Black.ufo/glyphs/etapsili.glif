@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etapsili" format="2">
+  <advance width="508"/>
+  <unicode hex="1F20"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <anchor x="305" y="763" name="top"/>
+  <outline>
+    <component base="eta"/>
+    <component base="psili" xOffset="103"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

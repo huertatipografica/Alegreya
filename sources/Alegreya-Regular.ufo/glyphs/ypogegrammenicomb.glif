@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ypogegrammenicomb" format="2">
+  <unicode hex="0345"/>
+  <anchor x="159" y="0" name="_bottom"/>
+  <outline>
+    <contour>
+      <point x="177" y="-232" type="curve"/>
+      <point x="184" y="-221" type="line"/>
+      <point x="170" y="-32" type="line"/>
+      <point x="133" y="-33" type="line"/>
+      <point x="125" y="-37" type="line"/>
+      <point x="105" y="-216" type="line"/>
+      <point x="127" y="-223"/>
+      <point x="153" y="-231"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>318</integer>
+      <key>public.markColor</key>
+      <string>0.99,0.62,0.11,1</string>
+    </dict>
+  </lib>
+</glyph>

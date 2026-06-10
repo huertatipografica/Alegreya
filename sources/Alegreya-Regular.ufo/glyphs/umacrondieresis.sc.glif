@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="umacrondieresis.sc" format="2">
+  <advance width="575"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="517" y="10" name="ogonek"/>
+  <anchor x="288" y="776" name="top"/>
+  <anchor x="555" y="497" name="topright"/>
+  <outline>
+    <component base="u.sc"/>
+    <component base="macroncomb.case" xOffset="88" yOffset="-140"/>
+    <component base="dieresiscomb.case" xOffset="89" yOffset="-32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macroncomb.case</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>dieresiscomb.case</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

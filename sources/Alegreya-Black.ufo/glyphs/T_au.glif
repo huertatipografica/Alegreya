@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Tau" format="2">
+  <advance width="593"/>
+  <unicode hex="03A4"/>
+  <anchor x="297" y="0" name="bottom"/>
+  <anchor x="297" y="274" name="center"/>
+  <anchor x="297" y="647" name="top"/>
+  <outline>
+    <component base="T"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

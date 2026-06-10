@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="emacrongrave.sc" format="2">
+  <advance width="488"/>
+  <anchor x="223" y="0" name="bottom"/>
+  <anchor x="378" y="40" name="ogonek"/>
+  <anchor x="321" y="796" name="top"/>
+  <anchor x="51" y="497" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="macroncomb_gravecomb" xOffset="75" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

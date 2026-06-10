@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lcaron.sc" format="2">
+  <advance width="441"/>
+  <anchor x="222" y="0" name="bottom"/>
+  <anchor x="213" y="249" name="center"/>
+  <anchor x="194" y="497" name="top"/>
+  <anchor x="437" y="497" name="topright"/>
+  <outline>
+    <contour>
+      <point x="444" y="489" type="curve"/>
+      <point x="439" y="496" type="line"/>
+      <point x="374" y="485" type="line"/>
+      <point x="374" y="485"/>
+      <point x="373" y="400"/>
+      <point x="360" y="313" type="curve"/>
+      <point x="369" y="311" type="line"/>
+      <point x="396" y="323" type="line"/>
+      <point x="423" y="404"/>
+      <point x="444" y="489"/>
+    </contour>
+    <component base="l.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

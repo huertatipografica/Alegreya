@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresiscaron" format="2">
+  <advance width="605"/>
+  <unicode hex="01D9"/>
+  <anchor x="274" y="0" name="bottom"/>
+  <anchor x="461" y="40" name="ogonek"/>
+  <anchor x="415" y="1070" name="top"/>
+  <anchor x="635" y="647" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="dieresiscomb_caroncomb" xOffset="136" yOffset="175"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

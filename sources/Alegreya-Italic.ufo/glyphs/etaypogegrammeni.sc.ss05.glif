@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etaypogegrammeni.sc.ss05" format="2">
+  <advance width="921"/>
+  <anchor x="276" y="0" name="bottom"/>
+  <anchor x="486" y="106" name="bottomright"/>
+  <anchor x="307" y="249" name="center"/>
+  <anchor x="338" y="497" name="top"/>
+  <anchor x="51" y="497" name="topleft"/>
+  <outline>
+    <component base="eta.sc"/>
+    <component base="prosgegrammeni.sc" xOffset="614"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

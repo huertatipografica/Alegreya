@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilonpsili" format="2">
+  <advance width="434"/>
+  <unicode hex="1F10"/>
+  <anchor x="246" y="763" name="top"/>
+  <outline>
+    <component base="epsilon"/>
+    <component base="psili" xOffset="44"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

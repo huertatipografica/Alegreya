@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omicrondasia" format="2">
+  <advance width="848"/>
+  <unicode hex="1F49"/>
+  <anchor x="503" y="0" name="bottom"/>
+  <anchor x="543" y="324" name="center"/>
+  <anchor x="656" y="40" name="ogonek"/>
+  <anchor x="167" y="685" name="top"/>
+  <anchor x="179" y="647" name="topleft"/>
+  <anchor x="878" y="647" name="topright"/>
+  <outline>
+    <component base="Omicron" xOffset="215"/>
+    <component base="dasia.case" xOffset="-57" yOffset="-76"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Omicron</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Omicrontonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>O</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

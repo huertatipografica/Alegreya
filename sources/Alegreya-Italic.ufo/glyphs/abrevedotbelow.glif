@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abrevedotbelow" format="2">
+  <advance width="461"/>
+  <unicode hex="1EB7"/>
+  <anchor x="230" y="-192" name="bottom"/>
+  <anchor x="410" y="41" name="ogonek"/>
+  <anchor x="294" y="676" name="top"/>
+  <outline>
+    <component base="a"/>
+    <component base="brevecomb" xOffset="30" yOffset="22"/>
+    <component base="dotbelowcomb" xOffset="91"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>a</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

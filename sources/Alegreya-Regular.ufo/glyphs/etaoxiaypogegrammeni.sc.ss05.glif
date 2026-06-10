@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etaoxiaypogegrammeni.sc.ss05" format="2">
+  <advance width="958"/>
+  <anchor x="320" y="0" name="bottom"/>
+  <anchor x="513" y="87" name="bottomright"/>
+  <anchor x="320" y="249" name="center"/>
+  <anchor x="320" y="497" name="top"/>
+  <outline>
+    <component base="etaypogegrammeni.sc.ss05"/>
+    <component base="tonos" xOffset="122" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

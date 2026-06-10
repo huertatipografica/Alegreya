@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iacute_j.loclNLD.sc" format="2">
+  <advance width="587"/>
+  <anchor x="416" y="0" name="bottom"/>
+  <anchor x="235" y="35" name="ogonek"/>
+  <anchor x="504" y="760" name="top"/>
+  <outline>
+    <component base="i.sc"/>
+    <component base="acutecomb" xOffset="-68" yOffset="45"/>
+    <component base="j.sc" xOffset="307"/>
+    <component base="acutecomb" xOffset="225" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>3</integer>
+          <key>name</key>
+          <string>acutecomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

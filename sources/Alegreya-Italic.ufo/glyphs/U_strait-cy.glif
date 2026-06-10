@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ustrait-cy" format="2">
+  <advance width="512"/>
+  <unicode hex="04AE"/>
+  <anchor x="228" y="0" name="bottom"/>
+  <anchor x="246" y="178" name="center"/>
+  <anchor x="326" y="636" name="top"/>
+  <anchor x="70" y="636" name="topleft"/>
+  <outline>
+    <component base="Y"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

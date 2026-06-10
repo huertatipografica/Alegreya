@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphaprosgegrammeni.ss05" format="2">
+  <advance width="932"/>
+  <anchor x="302" y="0" name="bottom"/>
+  <anchor x="596" y="40" name="ogonek"/>
+  <anchor x="795" y="472" name="top"/>
+  <anchor x="56" y="647" name="topleft"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="iota" xOffset="641"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Alphatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=iota</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

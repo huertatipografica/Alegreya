@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="palochka-cy" format="2">
+  <advance width="291"/>
+  <unicode hex="04CF"/>
+  <anchor x="117" y="0" name="bottom"/>
+  <anchor x="146" y="236" name="center"/>
+  <anchor x="181" y="730" name="top"/>
+  <anchor x="300" y="472" name="topright"/>
+  <outline>
+    <component base="l"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

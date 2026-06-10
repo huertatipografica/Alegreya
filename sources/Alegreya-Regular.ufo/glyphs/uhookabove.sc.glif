@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhookabove.sc" format="2">
+  <advance width="575"/>
+  <anchor x="299" y="457" name="_top"/>
+  <anchor x="348" y="637" name="top"/>
+  <anchor x="288" y="0" name="bottom"/>
+  <anchor x="517" y="10" name="ogonek"/>
+  <anchor x="555" y="497" name="topright"/>
+  <outline>
+    <component base="hookabovecomb" xOffset="101" yOffset="-15"/>
+    <component base="u.sc"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>hookabovecomb</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>u.sc</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

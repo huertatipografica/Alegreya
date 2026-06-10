@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="nje-cy.sc" format="2">
+  <advance width="812"/>
+  <outline>
+    <contour>
+      <point x="587" y="-8" type="curve"/>
+      <point x="697" y="-8"/>
+      <point x="780" y="57"/>
+      <point x="780" y="144" type="curve" smooth="yes"/>
+      <point x="780" y="229"/>
+      <point x="710" y="281"/>
+      <point x="599" y="281" type="curve" smooth="yes"/>
+      <point x="517" y="281" type="line"/>
+      <point x="522" y="421" type="line" smooth="yes"/>
+      <point x="523" y="449"/>
+      <point x="537" y="458"/>
+      <point x="584" y="464" type="curve"/>
+      <point x="588" y="505" type="line"/>
+      <point x="518" y="498"/>
+      <point x="449" y="496"/>
+      <point x="383" y="500" type="curve"/>
+      <point x="377" y="462" type="line"/>
+      <point x="379" y="457" type="line"/>
+      <point x="394" y="458"/>
+      <point x="406" y="459"/>
+      <point x="412" y="459" type="curve" smooth="yes"/>
+      <point x="436" y="459"/>
+      <point x="443" y="450"/>
+      <point x="443" y="417" type="curve" smooth="yes"/>
+      <point x="442" y="98" type="line" smooth="yes"/>
+      <point x="442" y="57"/>
+      <point x="427" y="42"/>
+      <point x="377" y="33" type="curve"/>
+      <point x="372" y="-9" type="line"/>
+      <point x="419" y="-3"/>
+      <point x="456" y="0"/>
+      <point x="471" y="0" type="curve" smooth="yes"/>
+      <point x="514" y="0"/>
+      <point x="549" y="-8"/>
+    </contour>
+    <contour>
+      <point x="597" y="41" type="curve" smooth="yes"/>
+      <point x="535" y="41"/>
+      <point x="511" y="56"/>
+      <point x="512" y="93" type="curve" smooth="yes"/>
+      <point x="515" y="229" type="line"/>
+      <point x="596" y="234" type="line"/>
+      <point x="665" y="224"/>
+      <point x="697" y="192"/>
+      <point x="697" y="132" type="curve" smooth="yes"/>
+      <point x="697" y="75"/>
+      <point x="659" y="41"/>
+    </contour>
+    <contour>
+      <point x="54" y="-8" type="line"/>
+      <point x="64" y="-5"/>
+      <point x="133" y="0"/>
+      <point x="180" y="0" type="curve" smooth="yes"/>
+      <point x="204" y="0"/>
+      <point x="252" y="-2"/>
+      <point x="257" y="-2" type="curve"/>
+      <point x="265" y="38" type="line"/>
+      <point x="263" y="42" type="line"/>
+      <point x="254" y="41"/>
+      <point x="239" y="40"/>
+      <point x="227" y="40" type="curve" smooth="yes"/>
+      <point x="200" y="40"/>
+      <point x="192" y="51"/>
+      <point x="193" y="93" type="curve" smooth="yes"/>
+      <point x="196" y="223" type="line"/>
+      <point x="250" y="227"/>
+      <point x="310" y="231"/>
+      <point x="326" y="231" type="curve" smooth="yes"/>
+      <point x="354" y="231"/>
+      <point x="430" y="230"/>
+      <point x="478" y="229" type="curve"/>
+      <point x="478" y="281" type="line"/>
+      <point x="411" y="278"/>
+      <point x="363" y="276"/>
+      <point x="327" y="276" type="curve"/>
+      <point x="197" y="277" type="line"/>
+      <point x="202" y="398" type="line" smooth="yes"/>
+      <point x="204" y="450"/>
+      <point x="210" y="457"/>
+      <point x="255" y="464" type="curve"/>
+      <point x="258" y="505" type="line"/>
+      <point x="221" y="501"/>
+      <point x="182" y="498"/>
+      <point x="162" y="498" type="curve" smooth="yes"/>
+      <point x="138" y="498"/>
+      <point x="95" y="499"/>
+      <point x="69" y="500" type="curve"/>
+      <point x="63" y="462" type="line"/>
+      <point x="65" y="457" type="line"/>
+      <point x="73" y="458"/>
+      <point x="86" y="459"/>
+      <point x="92" y="459" type="curve" smooth="yes"/>
+      <point x="117" y="459"/>
+      <point x="123" y="450"/>
+      <point x="123" y="417" type="curve" smooth="yes"/>
+      <point x="122" y="98" type="line" smooth="yes"/>
+      <point x="122" y="55"/>
+      <point x="109" y="42"/>
+      <point x="59" y="32" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>adjustSpace</key>
+        <integer>11</integer>
+        <key>height</key>
+        <integer>78</integer>
+        <key>weight</key>
+        <integer>-3</integer>
+        <key>width</key>
+        <integer>82</integer>
+      </dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=h.sc</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=softsign-cy.sc</string>
+    </dict>
+  </lib>
+</glyph>

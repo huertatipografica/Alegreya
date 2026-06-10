@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lacute.sc" format="2">
+  <advance width="442"/>
+  <anchor x="240" y="0" name="bottom"/>
+  <anchor x="221" y="249" name="center"/>
+  <anchor x="221" y="760" name="top"/>
+  <anchor x="422" y="497" name="topright"/>
+  <outline>
+    <component base="l.sc"/>
+    <component base="acutecomb" xOffset="-7" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

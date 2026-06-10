@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsiliprosgegrammeni.sc.ss05" format="2">
+  <advance width="1315"/>
+  <anchor x="1115" y="0" name="bottom"/>
+  <anchor x="835" y="106" name="bottomright"/>
+  <anchor x="642" y="318" name="center"/>
+  <anchor x="1177" y="497" name="top"/>
+  <anchor x="274" y="637" name="topleft"/>
+  <anchor x="1227" y="35" name="ogonek"/>
+  <outline>
+    <component base="Eta" xOffset="269"/>
+    <component base="psili.case" xOffset="-30" yOffset="-26"/>
+    <component base="iota.sc" xOffset="992"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Eta</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Etatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=Etaprosgegrammeni</string>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Lcaron" format="2">
+  <advance width="507"/>
+  <unicode hex="013D"/>
+  <anchor x="287" y="0" name="bottom"/>
+  <anchor x="190" y="647" name="top"/>
+  <outline>
+    <contour>
+      <point x="427" y="399" type="line"/>
+      <point x="452" y="413" type="line"/>
+      <point x="473" y="515"/>
+      <point x="487" y="625"/>
+      <point x="487" y="625" type="curve"/>
+      <point x="480" y="633" type="line"/>
+      <point x="410" y="619" type="line"/>
+      <point x="410" y="619"/>
+      <point x="420" y="511"/>
+      <point x="416" y="401" type="curve"/>
+    </contour>
+    <component base="L"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>L</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

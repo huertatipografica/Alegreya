@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilondasia.sc" format="2">
+  <advance width="508"/>
+  <anchor x="254" y="0" name="bottom"/>
+  <anchor x="390" y="32" name="ogonek"/>
+  <anchor x="250" y="753" name="top"/>
+  <anchor x="20" y="497" name="topleft"/>
+  <outline>
+    <component base="epsilon.sc"/>
+    <component base="dasia" xOffset="55" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

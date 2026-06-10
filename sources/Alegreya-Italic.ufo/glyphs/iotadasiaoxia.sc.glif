@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotadasiaoxia.sc" format="2">
+  <advance width="307"/>
+  <anchor x="123" y="0" name="bottom"/>
+  <anchor x="235" y="35" name="ogonek"/>
+  <anchor x="236" y="752" name="top"/>
+  <outline>
+    <component base="iota.sc"/>
+    <component base="dasiaoxia" xOffset="-40" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

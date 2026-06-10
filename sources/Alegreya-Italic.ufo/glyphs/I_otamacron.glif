@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Iotamacron" format="2">
+  <advance width="346"/>
+  <unicode hex="1FD9"/>
+  <anchor x="145" y="0" name="bottom"/>
+  <anchor x="242" y="33" name="ogonek"/>
+  <anchor x="238" y="732" name="top"/>
+  <anchor x="5" y="637" name="topleft"/>
+  <outline>
+    <component base="Iota"/>
+    <component base="macroncomb.case" xOffset="-18"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

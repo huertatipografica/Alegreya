@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etaprosgegrammeni.ss05" format="2">
+  <advance width="1007"/>
+  <anchor x="329" y="0" name="bottom"/>
+  <anchor x="628" y="172" name="bottomright"/>
+  <anchor x="369" y="324" name="center"/>
+  <anchor x="870" y="472" name="top"/>
+  <anchor x="-70" y="647" name="topleft"/>
+  <outline>
+    <component base="Eta"/>
+    <component base="iota" xOffset="716"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=H</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=iota</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

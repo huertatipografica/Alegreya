@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Io-cy" format="2">
+  <advance width="567"/>
+  <unicode hex="0401"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="434" y="38" name="ogonek"/>
+  <anchor x="366" y="818" name="top"/>
+  <anchor x="70" y="636" name="topleft"/>
+  <outline>
+    <component base="Ie-cy"/>
+    <component base="dieresiscomb.case" xOffset="102"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.67,0.95,0.38,1</string>
+    </dict>
+  </lib>
+</glyph>

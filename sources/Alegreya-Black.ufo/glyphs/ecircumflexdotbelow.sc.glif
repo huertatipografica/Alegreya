@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ecircumflexdotbelow.sc" format="2">
+  <advance width="516"/>
+  <anchor x="254" y="-232" name="bottom"/>
+  <anchor x="404" y="30" name="ogonek"/>
+  <anchor x="273" y="790" name="top"/>
+  <anchor x="20" y="503" name="topleft"/>
+  <outline>
+    <component base="e.sc"/>
+    <component base="dotbelowcomb" xOffset="135"/>
+    <component base="circumflexcomb" xOffset="75" yOffset="30"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

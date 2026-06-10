@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gje-cy" format="2">
+  <advance width="339"/>
+  <unicode hex="0453"/>
+  <anchor x="265" y="0" name="bottomright"/>
+  <anchor x="177" y="232" name="center"/>
+  <anchor x="282" y="94" name="serif"/>
+  <anchor x="263" y="715" name="top"/>
+  <outline>
+    <component base="ge-cy"/>
+    <component base="acutecomb" xOffset="-16"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

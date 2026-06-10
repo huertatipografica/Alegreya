@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="alphadasiaypogegrammeni.sc.ss05" format="2">
+  <advance width="829"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <anchor x="459" y="10" name="ogonek"/>
+  <anchor x="251" y="753" name="top"/>
+  <outline>
+    <component base="alphaypogegrammeni.sc.ss05"/>
+    <component base="dasia" xOffset="56" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

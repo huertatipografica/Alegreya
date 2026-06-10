@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Ddotbelow" format="2">
+  <advance width="682"/>
+  <unicode hex="1E0C"/>
+  <anchor x="314" y="-232" name="bottom"/>
+  <anchor x="341" y="324" name="center"/>
+  <anchor x="347" y="647" name="top"/>
+  <outline>
+    <component base="D"/>
+    <component base="dotbelowcomb" xOffset="195"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dotbelowcomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

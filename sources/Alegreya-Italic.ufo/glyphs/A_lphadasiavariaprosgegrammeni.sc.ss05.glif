@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphadasiavariaprosgegrammeni.sc.ss05" format="2">
+  <advance width="1064"/>
+  <anchor x="880" y="0" name="bottom"/>
+  <anchor x="992" y="35" name="ogonek"/>
+  <anchor x="268" y="676" name="top"/>
+  <anchor x="290" y="637" name="topleft"/>
+  <outline>
+    <component base="Alphaprosgegrammeni.sc.ss05" xOffset="201"/>
+    <component base="dasiavaria.case" xOffset="-5" yOffset="-36"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Alphaprosgegrammeni.sc.ss05</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Alphatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>=i.sc</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

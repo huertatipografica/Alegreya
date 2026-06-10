@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="etadasiaypogegrammeni.sc" format="2">
+  <advance width="608"/>
+  <anchor x="220" y="-240" name="bottom"/>
+  <anchor x="536" y="172" name="bottomright"/>
+  <anchor x="304" y="252" name="center"/>
+  <anchor x="354" y="797" name="top"/>
+  <anchor x="51" y="503" name="topleft"/>
+  <outline>
+    <component base="etaypogegrammeni.sc"/>
+    <component base="dasia" xOffset="104" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

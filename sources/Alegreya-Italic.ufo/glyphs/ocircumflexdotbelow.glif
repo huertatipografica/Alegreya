@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ocircumflexdotbelow" format="2">
+  <advance width="410"/>
+  <unicode hex="1ED9"/>
+  <anchor x="162" y="0" name="_bottom"/>
+  <anchor x="179" y="0" name="bottom"/>
+  <anchor x="207" y="226" name="center"/>
+  <anchor x="251" y="40" name="ogonek"/>
+  <anchor x="263" y="683" name="top"/>
+  <anchor x="418" y="452" name="topright"/>
+  <outline>
+    <component base="dotbelowcomb"/>
+    <component base="ocircumflex"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>dotbelowcomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

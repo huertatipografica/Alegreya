@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="psilioxia" format="2">
+  <advance width="458"/>
+  <unicode hex="1FCE"/>
+  <guideline x="269" y="508" angle="0"/>
+  <anchor x="226" y="472" name="_top"/>
+  <anchor x="271" y="765" name="top"/>
+  <outline>
+    <contour>
+      <point x="337" y="508" type="line"/>
+      <point x="359" y="515" type="line"/>
+      <point x="449" y="710" type="line"/>
+      <point x="441" y="724" type="line"/>
+      <point x="329" y="765" type="line"/>
+      <point x="315" y="757" type="line"/>
+      <point x="304" y="683"/>
+      <point x="291" y="605"/>
+      <point x="276" y="535" type="curve"/>
+    </contour>
+    <contour>
+      <point x="156.37" y="505.466" type="line"/>
+      <point x="227.112" y="559.423"/>
+      <point x="266.19" y="625.892"/>
+      <point x="261.127" y="683.72" type="curve" smooth="yes"/>
+      <point x="257.06" y="730.172"/>
+      <point x="226.047" y="757.07"/>
+      <point x="182.439" y="753.252" type="curve" smooth="yes"/>
+      <point x="156.843" y="751.011"/>
+      <point x="114.113" y="726.254"/>
+      <point x="93.353" y="701.51" type="curve"/>
+      <point x="93.318" y="690.999" type="line"/>
+      <point x="120.491" y="675.228"/>
+      <point x="134.558" y="656.399"/>
+      <point x="136.55" y="633.647" type="curve" smooth="yes"/>
+      <point x="138.791" y="608.051"/>
+      <point x="126.03" y="579.231"/>
+      <point x="99.914" y="550.197" type="curve"/>
+      <point x="103.553" y="530.455" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="chedescender-cy" format="2">
+  <advance width="461"/>
+  <unicode hex="04B7"/>
+  <anchor x="206" y="19" name="bottom"/>
+  <anchor x="410" y="0" name="bottomright"/>
+  <anchor x="432" y="94" name="serif"/>
+  <anchor x="260" y="452" name="top"/>
+  <outline>
+    <component base="che-cy"/>
+    <component base="descender-cy" xOffset="275" yOffset="-32"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

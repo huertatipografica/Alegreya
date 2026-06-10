@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Omacrongrave" format="2">
+  <advance width="692"/>
+  <unicode hex="1E50"/>
+  <anchor x="346" y="0" name="bottom"/>
+  <anchor x="346" y="319" name="center"/>
+  <anchor x="623" y="10" name="ogonek"/>
+  <anchor x="346" y="937" name="top"/>
+  <anchor x="20" y="637" name="topleft"/>
+  <anchor x="672" y="637" name="topright"/>
+  <outline>
+    <component base="O"/>
+    <component base="macroncomb_gravecomb.case" xOffset="146"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>macroncomb_gravecomb.case</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

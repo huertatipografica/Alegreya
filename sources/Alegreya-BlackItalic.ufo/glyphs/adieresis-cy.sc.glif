@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="adieresis-cy.sc" format="2">
+  <advance width="574"/>
+  <anchor x="256" y="0" name="bottom"/>
+  <anchor x="500" y="40" name="ogonek"/>
+  <anchor x="348" y="747" name="top"/>
+  <outline>
+    <component base="a-cy.sc"/>
+    <component base="dieresiscomb" xOffset="95" yOffset="31"/>
+  </outline>
+</glyph>

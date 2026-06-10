@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="atilde.sc" format="2">
+  <advance width="510"/>
+  <anchor x="255" y="0" name="bottom"/>
+  <anchor x="459" y="10" name="ogonek"/>
+  <anchor x="255" y="653" name="top"/>
+  <outline>
+    <component base="a.sc"/>
+    <component base="tildecomb" xOffset="55" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>tildecomb</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

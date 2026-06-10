@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hcircumflex" format="2">
+  <advance width="490"/>
+  <unicode hex="0125"/>
+  <anchor x="217" y="0" name="bottom"/>
+  <anchor x="245" y="226" name="center"/>
+  <anchor x="193" y="907" name="top"/>
+  <outline>
+    <component base="h"/>
+    <component base="circumflexcomb.case" xOffset="-70" yOffset="61"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

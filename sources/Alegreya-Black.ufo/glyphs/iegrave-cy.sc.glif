@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iegrave-cy.sc" format="2">
+  <advance width="516"/>
+  <anchor x="258" y="0" name="bottom"/>
+  <anchor x="404" y="30" name="ogonek"/>
+  <anchor x="262" y="791" name="top"/>
+  <anchor x="20" y="503" name="topleft"/>
+  <outline>
+    <component base="ie-cy.sc"/>
+    <component base="gravecomb" xOffset="66" yOffset="31"/>
+  </outline>
+</glyph>

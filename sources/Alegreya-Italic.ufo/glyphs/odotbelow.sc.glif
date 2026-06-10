@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotbelow.sc" format="2">
+  <advance width="564"/>
+  <anchor x="238" y="-192" name="bottom"/>
+  <anchor x="282" y="249" name="center"/>
+  <anchor x="477" y="10" name="ogonek"/>
+  <anchor x="313" y="497" name="top"/>
+  <anchor x="51" y="497" name="topleft"/>
+  <anchor x="575" y="497" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="dotbelowcomb" xOffset="99"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

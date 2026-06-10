@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Alphaprosgegrammeni" format="2">
+  <advance width="661"/>
+  <unicode hex="1FBC"/>
+  <anchor x="249" y="-240" name="bottom"/>
+  <anchor x="596" y="40" name="ogonek"/>
+  <anchor x="381" y="647" name="top"/>
+  <anchor x="56" y="647" name="topleft"/>
+  <outline>
+    <component base="Alpha"/>
+    <component base="ypogegrammenicomb" xOffset="160"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

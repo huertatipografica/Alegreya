@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omicrondasiaoxia.sc" format="2">
+  <advance width="536"/>
+  <anchor x="257" y="0" name="bottom"/>
+  <anchor x="268" y="252" name="center"/>
+  <anchor x="370" y="39" name="ogonek"/>
+  <anchor x="381" y="798" name="top"/>
+  <anchor x="51" y="503" name="topleft"/>
+  <anchor x="547" y="503" name="topright"/>
+  <outline>
+    <component base="omicron.sc"/>
+    <component base="dasiaoxia" xOffset="73" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

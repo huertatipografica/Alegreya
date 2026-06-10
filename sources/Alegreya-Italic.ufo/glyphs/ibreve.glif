@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ibreve" format="2">
+  <advance width="282"/>
+  <unicode hex="012D"/>
+  <anchor x="204" y="452" name="_top"/>
+  <anchor x="186" y="452" name="top"/>
+  <anchor x="130" y="0" name="bottom"/>
+  <anchor x="236" y="10" name="ogonek"/>
+  <outline>
+    <component base="brevecomb" xOffset="-35"/>
+    <component base="idotless" xOffset="26"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

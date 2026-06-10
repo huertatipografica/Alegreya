@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="epsilonpsilivaria.sc" format="2">
+  <advance width="516"/>
+  <anchor x="258" y="0" name="bottom"/>
+  <anchor x="404" y="30" name="ogonek"/>
+  <anchor x="255" y="795" name="top"/>
+  <anchor x="20" y="503" name="topleft"/>
+  <outline>
+    <component base="epsilon.sc"/>
+    <component base="psilivaria" xOffset="32" yOffset="31"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

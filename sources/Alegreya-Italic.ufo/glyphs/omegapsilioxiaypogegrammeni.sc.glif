@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="omegapsilioxiaypogegrammeni.sc" format="2">
+  <advance width="671"/>
+  <anchor x="271" y="-232" name="bottom"/>
+  <anchor x="440" y="758" name="top"/>
+  <outline>
+    <component base="omegaypogegrammeni.sc"/>
+    <component base="psilioxia" xOffset="151" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>psilioxia</string>
+        </dict>
+      </array>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

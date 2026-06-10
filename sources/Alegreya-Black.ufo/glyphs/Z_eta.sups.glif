@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Zeta.sups" format="2">
+  <advance width="430"/>
+  <anchor x="225" y="320" name="bottom"/>
+  <anchor x="238" y="773" name="top"/>
+  <outline>
+    <contour>
+      <point x="27" y="315" type="line"/>
+      <point x="87" y="322" type="line"/>
+      <point x="402" y="318" type="line"/>
+      <point x="417" y="334" type="line"/>
+      <point x="419" y="405"/>
+      <point x="434" y="519"/>
+      <point x="434" y="519" type="curve"/>
+      <point x="336" y="513" type="line"/>
+      <point x="331" y="450"/>
+      <point x="313" y="426"/>
+      <point x="268" y="416" type="curve"/>
+      <point x="201" y="405" type="line"/>
+      <point x="241" y="466"/>
+      <point x="332" y="603"/>
+      <point x="436" y="736" type="curve"/>
+      <point x="417" y="777" type="line"/>
+      <point x="172" y="776" type="line"/>
+      <point x="41" y="783" type="line"/>
+      <point x="33" y="775" type="line"/>
+      <point x="31" y="710"/>
+      <point x="22" y="602"/>
+      <point x="22" y="602" type="curve"/>
+      <point x="120" y="609" type="line"/>
+      <point x="122" y="666"/>
+      <point x="128" y="674"/>
+      <point x="183" y="686" type="curve"/>
+      <point x="230" y="693" type="line"/>
+      <point x="-1" y="358" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>RMXScaler</key>
+      <dict>
+        <key>height</key>
+        <integer>70</integer>
+        <key>verticalShift</key>
+        <integer>320</integer>
+        <key>weight</key>
+        <integer>-40</integer>
+        <key>width</key>
+        <integer>72</integer>
+      </dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

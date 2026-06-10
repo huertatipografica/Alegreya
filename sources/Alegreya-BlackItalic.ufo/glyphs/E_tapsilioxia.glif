@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etapsilioxia" format="2">
+  <advance width="1110"/>
+  <unicode hex="1F2C"/>
+  <anchor x="723" y="0" name="bottom"/>
+  <anchor x="1022" y="172" name="bottomright"/>
+  <anchor x="763" y="324" name="center"/>
+  <anchor x="258" y="689" name="top"/>
+  <anchor x="324" y="647" name="topleft"/>
+  <outline>
+    <component base="Eta" xOffset="394"/>
+    <component base="psilioxia.case" xOffset="-30" yOffset="-76"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Eta</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>=Etatonos</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>H</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

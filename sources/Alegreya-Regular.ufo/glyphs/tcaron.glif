@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tcaron" format="2">
+  <advance width="340"/>
+  <unicode hex="0165"/>
+  <anchor x="195" y="0" name="bottom"/>
+  <anchor x="167" y="236" name="center"/>
+  <anchor x="164" y="471" name="top"/>
+  <outline>
+    <contour>
+      <point x="244" y="499" type="line"/>
+      <point x="269" y="513" type="line"/>
+      <point x="290" y="615"/>
+      <point x="304" y="725"/>
+      <point x="304" y="725" type="curve"/>
+      <point x="297" y="733" type="line"/>
+      <point x="227" y="719" type="line"/>
+      <point x="227" y="719"/>
+      <point x="237" y="611"/>
+      <point x="233" y="501" type="curve"/>
+    </contour>
+    <component base="t"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+      </array>
+      <key>com.schriftgestaltung.Glyphs.shapeOrder</key>
+      <string>CP</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

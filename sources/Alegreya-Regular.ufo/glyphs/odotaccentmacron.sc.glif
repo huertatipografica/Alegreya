@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="odotaccentmacron.sc" format="2">
+  <advance width="585"/>
+  <anchor x="293" y="0" name="bottom"/>
+  <anchor x="293" y="249" name="center"/>
+  <anchor x="526" y="10" name="ogonek"/>
+  <anchor x="293" y="801" name="top"/>
+  <anchor x="20" y="497" name="topleft"/>
+  <anchor x="565" y="497" name="topright"/>
+  <outline>
+    <component base="o.sc"/>
+    <component base="dotaccentcomb_macroncomb" xOffset="94" yOffset="45"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.04,0.57,0.04,1</string>
+    </dict>
+  </lib>
+</glyph>

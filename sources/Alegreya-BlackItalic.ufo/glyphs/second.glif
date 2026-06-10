@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="second" format="2">
+  <advance width="362"/>
+  <unicode hex="2033"/>
+  <outline>
+    <contour>
+      <point x="256" y="630" type="curve"/>
+      <point x="252" y="643" type="line"/>
+      <point x="136" y="679" type="line"/>
+      <point x="116" y="622"/>
+      <point x="71" y="512"/>
+      <point x="25" y="416" type="curve"/>
+      <point x="41" y="406" type="line"/>
+      <point x="119" y="406" type="line"/>
+      <point x="173" y="488"/>
+      <point x="229" y="582"/>
+    </contour>
+    <contour>
+      <point x="256" y="630" type="curve"/>
+      <point x="252" y="643" type="line"/>
+      <point x="136" y="679" type="line"/>
+      <point x="116" y="622"/>
+      <point x="71" y="512"/>
+      <point x="25" y="416" type="curve"/>
+      <point x="41" y="406" type="line"/>
+      <point x="119" y="406" type="line"/>
+      <point x="173" y="488"/>
+      <point x="229" y="582"/>
+    </contour>
+    <contour>
+      <point x="427" y="630" type="curve"/>
+      <point x="423" y="643" type="line"/>
+      <point x="307" y="679" type="line"/>
+      <point x="287" y="622"/>
+      <point x="242" y="512"/>
+      <point x="196" y="416" type="curve"/>
+      <point x="212" y="406" type="line"/>
+      <point x="290" y="406" type="line"/>
+      <point x="344" y="488"/>
+      <point x="400" y="582"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.glyph.leftMetricsKey</key>
+      <string>minute</string>
+      <key>com.schriftgestaltung.Glyphs.glyph.rightMetricsKey</key>
+      <string>minute</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Etaprosgegrammeni" format="2">
+  <advance width="723"/>
+  <unicode hex="1FCC"/>
+  <anchor x="285" y="-232" name="bottom"/>
+  <anchor x="566" y="106" name="bottomright"/>
+  <anchor x="373" y="318" name="center"/>
+  <anchor x="412" y="636" name="top"/>
+  <anchor x="5" y="637" name="topleft"/>
+  <outline>
+    <component base="Eta"/>
+    <component base="ypogegrammenicomb" xOffset="202"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

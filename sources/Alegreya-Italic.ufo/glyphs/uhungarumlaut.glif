@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uhungarumlaut" format="2">
+  <advance width="488"/>
+  <unicode hex="0171"/>
+  <anchor x="215" y="0" name="bottom"/>
+  <anchor x="409" y="10" name="ogonek"/>
+  <anchor x="462" y="94" name="serif"/>
+  <anchor x="302" y="705" name="top"/>
+  <anchor x="494" y="452" name="topright"/>
+  <outline>
+    <component base="u"/>
+    <component base="hungarumlautcomb" xOffset="97"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
+</glyph>

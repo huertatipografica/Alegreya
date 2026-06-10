@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Pedescender-cy" format="2">
+  <advance width="776"/>
+  <unicode hex="0524"/>
+  <anchor x="653" y="172" name="bottomright"/>
+  <outline>
+    <component base="Pe-cy" xOffset="19"/>
+    <component base="descender-cy.case" xOffset="511"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>Pe-cy</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
