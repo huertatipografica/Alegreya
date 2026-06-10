@@ -24,23 +24,28 @@ Designed by Juan Pablo del Peral for [Huerta Tipográfica](http://www.huertatipo
 
 #### Requirements
 
-- Glyphs (for editing sources)
-- Python 3 (for building fonts)
+- Glyphs 3 (for editing sources)
+- Python 3.11 (for building fonts)
 
 
-#### Setup
+#### Build
 
-To run any of the commands, you need to generate the virtual environment (venv) and install dependencies. It will generate a `venv` folder
+The build script (`build.sh`) handles environment setup automatically — it creates a virtual environment and installs dependencies on first run.
+
+**Full build from Glyphs sources**
+
+Converts `.glyphs` files to UFOs (saved in `sources/`) then builds all fonts into `fonts/`:
 
 ```bash
-python3 -m venv venv
-. venv/bin/activate
-pip install -r requirements.txt
+bash build.sh
 ```
 
+**Build from existing UFOs (recommended for iterating)**
 
-#### Build ufos and generate fonts
+Skips the Glyphs conversion and builds directly from the UFOs already in `sources/`. Use this when you have not changed the source `.glyphs` files and want a faster build:
 
-To build the fonts open `sources/build.sh` or run
+```bash
+bash build.sh --from-ufo
+```
 
-    sh sources/build.sh
+Both commands produce the same output in `fonts/`: static TTF, OTF, and variable fonts, including Small Caps variants.
